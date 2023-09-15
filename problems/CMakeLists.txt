@@ -1,1 +1,5 @@
-add_subdirectory(2235-add-two-integers)
+set(PROBLEMS 2235-add-two-integers)
+
+foreach(PROBLEM ${PROBLEMS})
+  add_executable(${PROBLEM} ${PROBLEM}/main.cpp)
+endforeach()
