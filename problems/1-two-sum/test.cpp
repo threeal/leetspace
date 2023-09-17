@@ -24,7 +24,6 @@ TEST_CASE("2235. Add Two Integers") {
       Catch::Matchers::Equals<int>({1, 2}));
   }
 
-
   SECTION("Testcase 3") {
     vector<int> vec = {3,3};
     CHECK_THAT(
