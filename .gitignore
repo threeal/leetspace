@@ -1,4 +1,5 @@
 .*
+!.cmake*
 !.git*
 
 build/
