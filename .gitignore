@@ -1,4 +1,5 @@
 .*
+!.clang*
 !.cmake*
 !.git*
 
