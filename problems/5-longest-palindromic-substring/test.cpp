@@ -9,7 +9,13 @@ using namespace std;
 TEST_CASE("5. Longest Palindromic Substring") {
   Solution solution;
 
-  SECTION("Testcase 1") { CHECK(solution.longestPalindrome("babad") == "bab"); }
+  SECTION("Testcase 1") {
+    INFO("babad");
+    CHECK(solution.longestPalindrome("babad") == "bab");
+  }
 
-  SECTION("Testcase 2") { CHECK(solution.longestPalindrome("cbbd") == "bb"); }
+  SECTION("Testcase 2") {
+    INFO("cbbd");
+    CHECK(solution.longestPalindrome("cbbd") == "bb");
+  }
 }
