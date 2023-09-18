@@ -1,4 +1,4 @@
-set(PROBLEMS 1-two-sum 1337-the-k-weakest-rows-in-a-matrix 2235-add-two-integers)
+set(PROBLEMS 1-two-sum 5-longest-palindromic-substring 1337-the-k-weakest-rows-in-a-matrix 2235-add-two-integers)
 
 foreach(PROBLEM ${PROBLEMS})
   add_executable(${PROBLEM} ${PROBLEM}/test.cpp)
