@@ -12,10 +12,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.0.0
 
+      - name: Install cmake-format
+        run: pipx install cmake-format --include-deps
+
       - name: Configure and build
         uses: threeal/cmake-action@v1.3.0
         with:
           run-build: true
 
-      - name: Test
+      - name: Check format
+        run: |
+          cmake --build build --target fix-format
+          git diff --exit-code HEAD
+
+      - name: Run tests
         uses: threeal/ctest-action@main
