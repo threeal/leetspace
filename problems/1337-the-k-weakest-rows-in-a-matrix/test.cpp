@@ -1,3 +1,5 @@
+#include <map>
+#include <set>
 #include <vector>
 
 using namespace std;
@@ -27,5 +29,13 @@ TEST_CASE("1337. The K Weakest Rows in a Matrix") {
         {1, 0, 0, 0},
         {1, 0, 0, 0}};
     CHECK_THAT(solution.kWeakestRows(mat, 2), Catch::Matchers::Equals<int>({0, 2}));
+  }
+
+  SECTION("Testcase 3") {
+    vector<vector<int>> mat = {
+        {1, 1, 1, 1, 1, 1},
+        {1, 1, 1, 1, 1, 1},
+        {1, 1, 1, 1, 1, 1}};
+    CHECK_THAT(solution.kWeakestRows(mat, 1), Catch::Matchers::Equals<int>({0}));
   }
 }
