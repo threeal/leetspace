@@ -5,6 +5,16 @@
 
 LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://leetcode.com) submissions.
 
+## Problems
+
+| Problem | Difficulty | Solution |
+|---|---|---|
+| [1. Two Sum](https://leetcode.com/problems/two-sum) | Easy | [C++](./problems/problem-1/solution.cpp) |
+| [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | Medium | [C++](./problems/problem-5/solution.cpp) |
+| [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | Easy | [C++](./problems/problem-28/solution.cpp) |
+| [1337. The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix) | Easy | [C++](./problems/problem-1337/solution.cpp) |
+| [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers) | Easy | [C++](./problems/problem-2235/solution.cpp) |
+
 ## License
 
 This project is licensed under the terms of the [MIT License](./LICENSE).
