@@ -4,11 +4,11 @@ project(leetspace)
 
 include(cmake/CPM.cmake)
 
-cpmaddpackage("gh:TheLartians/Format.cmake@1.7.3")
+cpmgetpackage(Format.cmake)
 
 enable_testing()
 
-cpmaddpackage("gh:catchorg/Catch2@3.4.0")
+cpmgetpackage(Catch2)
 include("${Catch2_SOURCE_DIR}/extras/Catch.cmake")
 
 add_subdirectory(problems)
