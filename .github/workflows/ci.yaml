@@ -15,6 +15,12 @@ jobs:
       - name: Install cmake-format
         run: pipx install cmake-format --include-deps
 
+      - name: Cache deps build
+        uses: actions/cache@v3.3.2
+        with:
+          path: build/_deps
+          key: CPM-${{ runner.os }}-${{ hashFiles('package-lock.cmake') }}
+
       - name: Configure and build
         uses: threeal/cmake-action@v1.3.0
         with:
