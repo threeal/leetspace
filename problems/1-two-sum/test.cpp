@@ -7,7 +7,7 @@ using namespace std;
 
 #include "solution.cpp"
 
-TEST_CASE("2235. Add Two Integers") {
+TEST_CASE("1. Two Sum") {
   Solution solution;
 
   SECTION("Testcase 1") {
