@@ -8,17 +8,45 @@ using namespace std;
 #include "solution.cpp"
 
 TEST_CASE("4. Median of Two Sorted Arrays") {
-  SECTION("Testcase 1") {
+  SECTION("Odd total size") {
     Solution solution;
     vector<int> nums1 = {1, 3};
     vector<int> nums2 = {2};
     CHECK(solution.findMedianSortedArrays(nums1, nums2) == 2.0);
   }
 
-  SECTION("Testcase 2") {
+  SECTION("Even total size") {
     Solution solution;
     vector<int> nums1 = {1, 2};
     vector<int> nums2 = {3, 4};
     CHECK(solution.findMedianSortedArrays(nums1, nums2) == 2.5);
+  }
+
+  SECTION("Empty first array odd total size") {
+    Solution solution;
+    vector<int> nums1 = {};
+    vector<int> nums2 = {2, 3, 6};
+    CHECK(solution.findMedianSortedArrays(nums1, nums2) == 3.0);
+  }
+
+  SECTION("Empty first array even total size") {
+    Solution solution;
+    vector<int> nums1 = {};
+    vector<int> nums2 = {2, 3, 6, 7};
+    CHECK(solution.findMedianSortedArrays(nums1, nums2) == 4.5);
+  }
+
+  SECTION("Empty second array odd total size") {
+    Solution solution;
+    vector<int> nums1 = {2, 3, 6};
+    vector<int> nums2 = {};
+    CHECK(solution.findMedianSortedArrays(nums1, nums2) == 3.0);
+  }
+
+  SECTION("Empty second array even total size") {
+    Solution solution;
+    vector<int> nums1 = {2, 3, 6, 7};
+    vector<int> nums2 = {};
+    CHECK(solution.findMedianSortedArrays(nums1, nums2) == 4.5);
   }
 }
