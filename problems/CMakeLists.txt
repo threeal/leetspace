@@ -1,4 +1,4 @@
-set(PROBLEMS problem-1 problem-5 problem-28 problem-1337 problem-2235)
+set(PROBLEMS problem-1 problem-4 problem-5 problem-28 problem-1337 problem-2235)
 
 foreach(PROBLEM ${PROBLEMS})
   add_executable(${PROBLEM} ${PROBLEM}/test.cpp)
