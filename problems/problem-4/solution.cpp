@@ -22,10 +22,20 @@ class Solution {
     while (n >= 0) {
       if (*ai < *bi) {
         s.push(*ai);
-        ++ai;
+        if (++ai == ae) {
+          while (--n >= 0) {
+            s.push(*bi);
+            ++bi;
+          }
+        }
       } else {
         s.push(*bi);
-        ++bi;
+        if (++bi == be) {
+          while (--n >= 0) {
+            s.push(*ai);
+            ++ai;
+          }
+        }
       }
       --n;
     }
