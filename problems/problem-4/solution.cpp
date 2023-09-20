@@ -7,15 +7,35 @@ class Solution {
     auto ai = a.begin();
     auto bi = b.begin();
 
-    const auto n = a.size() + b.size();
-    const auto n2 = n / 2;
+    int n = a.size() + b.size();
+
+    const bool is_even = n % 2 == 0;
+    n /= 2;
 
     if (ai == ae) {
-      return n % 2 == 0 ? (b[n2] + b[n2 - 1]) / 2.0 : b[n2];
+      return is_even ? (b[n] + b[n - 1]) / 2.0 : b[n];
     } else if (bi == be) {
-      return n % 2 == 0 ? (a[n2] + a[n2 - 1]) / 2.0 : a[n2];
+      return is_even ? (a[n] + a[n - 1]) / 2.0 : a[n];
     }
 
-    return 0;
+    stack<int> s;
+    while (n >= 0) {
+      if (*ai < *bi) {
+        s.push(*ai);
+        ++ai;
+      } else {
+        s.push(*bi);
+        ++bi;
+      }
+      --n;
+    }
+
+    double res = s.top();
+    if (is_even) {
+      s.pop();
+      res = (res + s.top()) / 2.0;
+    }
+
+    return res;
   }
 };

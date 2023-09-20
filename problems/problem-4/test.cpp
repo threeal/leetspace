@@ -1,3 +1,4 @@
+#include <stack>
 #include <vector>
 
 using namespace std;
@@ -17,8 +18,8 @@ TEST_CASE("4. Median of Two Sorted Arrays") {
 
   SECTION("Even total size") {
     Solution solution;
-    vector<int> nums1 = {1, 2};
-    vector<int> nums2 = {3, 4};
+    vector<int> nums1 = {1, 3};
+    vector<int> nums2 = {2, 4};
     CHECK(solution.findMedianSortedArrays(nums1, nums2) == 2.5);
   }
 
