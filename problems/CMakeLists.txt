@@ -1,7 +1,18 @@
 function(add_problem id)
+  foreach(lang ${ARGN})
+    if(${lang} STREQUAL cpp)
+      add_library(solution-${id}-cpp problem-${id}/cpp/interface.cpp)
+      set_property(TARGET solution-${id}-cpp PROPERTY CXX_STANDARD 20)
+      list(APPEND solutions solution-${id}-cpp)
+    else()
+      message(FATAL_ERROR "Unknown language: ${lang}")
+    endif()
+  endforeach()
+
   add_executable(problem-${id} problem-${id}/test.cpp)
   set_property(TARGET problem-${id} PROPERTY CXX_STANDARD 20)
-  target_link_libraries(problem-${id} PRIVATE Catch2::Catch2WithMain)
+  target_link_libraries(problem-${id} PRIVATE Catch2::Catch2WithMain ${solutions})
+
   catch_discover_tests(problem-${id})
 endfunction()
 
