@@ -1,27 +1,29 @@
+#include <string>
 #include <vector>
 
 using namespace std;
 
 #include <catch2/catch_test_macros.hpp>
+#include <catch2/generators/catch_generators.hpp>
 #include <catch2/matchers/catch_matchers_vector.hpp>
 
 #include "solution.cpp"
 
+struct TestCase {
+  string title;
+  vector<int> nums;
+  int target;
+  vector<int> expected;
+};
+
 TEST_CASE("1. Two Sum") {
   Solution solution;
 
-  SECTION("Testcase 1") {
-    vector<int> vec = {2, 7, 11, 15};
-    CHECK_THAT(solution.twoSum(vec, 9), Catch::Matchers::Equals<int>({0, 1}));
-  }
+  auto [title, nums, target, expected] = GENERATE(
+      TestCase{.title = "Example 1", .nums = {2, 7, 11, 15}, .target = 9, .expected = {0, 1}},
+      TestCase{.title = "Example 2", .nums = {3, 2, 4}, .target = 6, .expected = {1, 2}},
+      TestCase{.title = "Example 3", .nums = {3, 3}, .target = 6, .expected = {0, 1}});
 
-  SECTION("Testcase 2") {
-    vector<int> vec = {3, 2, 4};
-    CHECK_THAT(solution.twoSum(vec, 6), Catch::Matchers::Equals<int>({1, 2}));
-  }
-
-  SECTION("Testcase 3") {
-    vector<int> vec = {3, 3};
-    CHECK_THAT(solution.twoSum(vec, 6), Catch::Matchers::Equals<int>({0, 1}));
-  }
+  INFO(title);
+  CHECK_THAT(solution.twoSum(nums, target), Catch::Matchers::Equals<int>(expected));
 }
