@@ -18,7 +18,7 @@ endfunction()
 
 add_problem(1 cpp)
 add_problem(4 cpp)
-add_problem(5)
+add_problem(5 cpp)
 add_problem(28)
 add_problem(1337)
 add_problem(2235)
