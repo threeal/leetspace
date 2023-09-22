@@ -16,7 +16,7 @@ function(add_problem id)
   catch_discover_tests(problem-${id})
 endfunction()
 
-add_problem(1)
+add_problem(1 cpp)
 add_problem(4)
 add_problem(5)
 add_problem(28)
