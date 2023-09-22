@@ -1,26 +1,19 @@
-#include <map>
-#include <set>
-#include <string>
-#include <vector>
-
-using namespace std;
-
 #include <catch2/catch_test_macros.hpp>
 #include <catch2/generators/catch_generators.hpp>
 #include <catch2/matchers/catch_matchers_vector.hpp>
+#include <string>
+#include <vector>
 
-#include "solution.cpp"
+std::vector<int> solution_cpp(std::vector<std::vector<int>>&, int);
 
 struct TestCase {
-  string title;
-  vector<vector<int>> mat;
+  std::string title;
+  std::vector<std::vector<int>> mat;
   int k;
-  vector<int> expected;
+  std::vector<int> expected;
 };
 
 TEST_CASE("1337. The K Weakest Rows in a Matrix") {
-  Solution solution;
-
   auto [title, mat, k, expected] = GENERATE(
       TestCase{
           .title = "Example 1",
@@ -39,5 +32,5 @@ TEST_CASE("1337. The K Weakest Rows in a Matrix") {
           .expected = {0}});
 
   INFO(title);
-  CHECK_THAT(solution.kWeakestRows(mat, k), Catch::Matchers::Equals<int>(expected));
+  CHECK_THAT(solution_cpp(mat, k), Catch::Matchers::Equals<int>(expected));
 }
