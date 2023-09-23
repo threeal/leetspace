@@ -1,6 +1,7 @@
 class Solution {
  private:
   unordered_map<int, vector<string>> m;
+  unordered_map<string, int> findMaxCache;
 
  public:
   int longestStrChain(vector<string>& words) {
@@ -20,14 +21,21 @@ class Solution {
   }
 
   int findMax(const std::string str) {
+    const auto cacheIt = findMaxCache.find(str);
+    if (cacheIt != findMaxCache.end())
+      return cacheIt->second;
     const auto it = m.find(str.size() + 1);
-    if (it == m.end()) return 0;
+    if (it == m.end()) {
+      findMaxCache.emplace(str, 0);
+      return 0;
+    }
     int max = 0;
     for (const auto& mstr : it->second) {
       if (!compare(mstr, str)) continue;
       const int newMax = 1 + findMax(mstr);
       if (newMax > max) max = newMax;
     }
+    findMaxCache.emplace(str, max);
     return max;
   }
 
