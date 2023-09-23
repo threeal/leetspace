@@ -1,41 +1,43 @@
 class Solution {
  public:
   int minOperations(vector<int>& nums, int x) {
-    auto left = nums.begin();
-    auto right = nums.end();
-    --right;
-    return shiftLeftRight(left, right, x, 1);
-  }
+    int res = -1;
+    const int n = nums.size();
 
-  int shiftLeftRight(vector<int>::const_iterator left, vector<int>::const_iterator right, int x, int count) {
-    const int left_res = shiftLeft(left, right, x, count);
-    const int right_res = shiftRight(left, right, x, count);
-    if (left_res > 0) {
-      if (right_res > 0) {
-        return min(left_res, right_res);
+    int xx = x;
+
+    int ll = 0;
+    int rr = n - 1;
+
+    while (ll < n) {
+      xx -= nums[ll];
+      if (xx <= 0) break;
+      ++ll;
+    }
+
+    if (xx == 0) {
+      int new_res = ll + 1;
+      res = res > 0 ? min(res, new_res) : new_res;
+    }
+
+    while (ll >= 0) {
+      xx += nums[ll];
+      --ll;
+      while (xx < 0 && rr < n - 1) {
+        xx += nums[rr];
+        ++rr;
       }
-      return left_res;
-    }
-    return right_res;
-  }
 
-  int shiftLeft(vector<int>::const_iterator left, vector<int>::const_iterator right, int x, int count) {
-    x -= *left;
-    if (x > 0) {
-      if (left == right) return -1;
-      ++left;
-      return shiftLeftRight(left, right, x, ++count);
+      while (rr > ll && xx >= nums[rr]) {
+        xx -= nums[rr];
+        if (xx == 0) {
+          int new_res = ll + 1 + n - rr;
+          res = res > 0 ? min(res, new_res) : new_res;
+        }
+        --rr;
+      }
     }
-    return x == 0 ? count : -1;
-  }
 
-  int shiftRight(vector<int>::const_iterator left, vector<int>::const_iterator right, int x, int count) {
-    x -= *right;
-    if (x > 0) {
-      if (left == right) return -1;
-      --right;
-      return shiftLeftRight(left, right, x, ++count);
-    }
-    return x == 0 ? count : -1;
+    return res;
   }
 };
