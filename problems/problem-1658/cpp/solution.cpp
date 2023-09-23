@@ -11,14 +11,17 @@ class Solution {
 
     while (ll < n) {
       xx -= nums[ll];
-      if (xx <= 0) break;
+      if (xx <= 0) {
+        if (xx == 0) {
+          int new_res = ll + 1;
+          res = res > 0 ? min(res, new_res) : new_res;
+        }
+        break;
+      }
       ++ll;
     }
 
-    if (xx == 0) {
-      int new_res = ll + 1;
-      res = res > 0 ? min(res, new_res) : new_res;
-    }
+    if (ll == n) --ll;
 
     while (ll >= 0) {
       xx += nums[ll];
