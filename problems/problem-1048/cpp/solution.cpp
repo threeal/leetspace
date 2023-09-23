@@ -11,7 +11,7 @@ class Solution {
     int max = 0;
     for (const auto& [n, strs] : m) {
       for (const auto& str : strs) {
-        const int newMax = 1 + findMax(str, n + 1);
+        const int newMax = 1 + findMax(str);
         if (newMax > max) max = newMax;
       }
     }
@@ -19,13 +19,13 @@ class Solution {
     return max;
   }
 
-  int findMax(const std::string str, int index) {
-    const auto it = m.find(index);
+  int findMax(const std::string str) {
+    const auto it = m.find(str.size() + 1);
     if (it == m.end()) return 0;
     int max = 0;
     for (const auto& mstr : it->second) {
       if (!compare(mstr, str)) continue;
-      const int newMax = 1 + findMax(mstr, index + 1);
+      const int newMax = 1 + findMax(mstr);
       if (newMax > max) max = newMax;
     }
     return max;
