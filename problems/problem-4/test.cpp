@@ -1,25 +1,19 @@
-#include <stack>
-#include <string>
-#include <vector>
-
-using namespace std;
-
 #include <catch2/catch_test_macros.hpp>
 #include <catch2/generators/catch_generators.hpp>
 #include <catch2/matchers/catch_matchers_vector.hpp>
+#include <string>
+#include <vector>
 
-#include "solution.cpp"
+double solution_cpp(std::vector<int>&, std::vector<int>&);
 
 struct TestCase {
-  string title;
-  vector<int> nums1;
-  vector<int> nums2;
+  std::string title;
+  std::vector<int> nums1;
+  std::vector<int> nums2;
   double expected;
 };
 
 TEST_CASE("4. Median of Two Sorted Arrays") {
-  Solution solution;
-
   auto [title, nums1, nums2, expected] = GENERATE(
       TestCase{
           .title = "Odd total size",
@@ -73,5 +67,5 @@ TEST_CASE("4. Median of Two Sorted Arrays") {
           .expected = 4.5});
 
   INFO(title);
-  CHECK(solution.findMedianSortedArrays(nums1, nums2) == expected);
+  CHECK(solution_cpp(nums1, nums2) == expected);
 }
