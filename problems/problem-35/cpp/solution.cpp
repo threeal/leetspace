@@ -17,6 +17,7 @@ class Solution {
       }
     }
 
+    if (nums[left] == target) return left;
     return right;
   }
 };
