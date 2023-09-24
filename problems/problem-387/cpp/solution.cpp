@@ -2,7 +2,7 @@ class Solution {
  public:
   int firstUniqChar(string s) {
     unordered_set<char> duplicates;
-    map<char, int> uniques;
+    unordered_map<char, int> uniques;
 
     const int n = s.size();
     for (int i = 0; i < n; ++i) {
