@@ -17,7 +17,8 @@ TEST_CASE("8. String to Integer (atoi)") {
       TestCase{.title = "Example 3", .s = "4193 with words", .expected = 4193},
       TestCase{.title = "Starts with word", .s = "words and 987", .expected = 0},
       TestCase{.title = "Positive overflow", .s = "+91283472332", .expected = 2147483647},
-      TestCase{.title = "Negative overflow", .s = "-91283472332", .expected = -2147483648});
+      TestCase{.title = "Negative overflow", .s = "-91283472332", .expected = -2147483648},
+      TestCase{.title = "Invalid sign", .s = "+-12", .expected = 0});
 
   INFO(title);
   CHECK(solution_cpp(s) == expected);

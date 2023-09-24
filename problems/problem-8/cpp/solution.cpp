@@ -8,9 +8,13 @@ class Solution {
       if (s[i] >= '0' && s[i] <= '9') break;
       switch (s[i]) {
         case ' ':
+          break;
+
         case '+':
         case '-':
-          continue;
+          if (i + 1 >= n) return 0;
+          if (s[i + 1] < '0' || s[i + 1] > '9') return 0;
+          break;
 
         default:
           return 0;
