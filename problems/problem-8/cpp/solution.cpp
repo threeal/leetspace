@@ -20,12 +20,23 @@ class Solution {
     const bool neg = i > 0 && s[i - 1] == '-';
 
     int total = 0;
-    int mul = 1;
     for (; i < n; ++i) {
       if (s[i] < '0' || s[i] > '9') break;
-      total = total * 10 + s[i] - '0';
+      if (neg) {
+        if (total <= -214748364) {
+          if (total < -214748364 || s[i] - '0' >= 8)
+            return -2147483648;
+        }
+        total = total * 10 - (s[i] - '0');
+      } else {
+        if (total >= 214748364) {
+          if (total > 214748364 || s[i] - '0' >= 7)
+            return 2147483647;
+        }
+        total = total * 10 + (s[i] - '0');
+      }
     }
 
-    return neg ? -total : total;
+    return total;
   }
 };
