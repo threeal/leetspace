@@ -1,2 +1,3 @@
+AlignOperands: DontAlign
 BasedOnStyle: Google
 ColumnLimit: 0
