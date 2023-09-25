@@ -19,6 +19,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | Easy | [C++](./problems/problem-28/cpp/solution.cpp) |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | [C++](./problems/problem-35/cpp/solution.cpp) |
 | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | Easy | [C++](./problems/problem-387/cpp/solution.cpp) |
+| [389. Find the Difference](https://leetcode.com/problems/find-the-difference) | Easy | [C++](./problems/problem-389/cpp/solution.cpp) |
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | [C++](./problems/problem-392/cpp/solution.cpp) |
 | [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain) | Medium | [C++](./problems/problem-1048/cpp/solution.cpp) |
 | [1337. The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix) | Easy | [C++](./problems/problem-1337/cpp/solution.cpp) |
