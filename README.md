@@ -24,6 +24,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [389. Find the Difference](https://leetcode.com/problems/find-the-difference) | Easy | [C++](./problems/problem-389/cpp/solution.cpp) |
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | [C++](./problems/problem-392/cpp/solution.cpp) |
 | [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain) | Medium | [C++](./problems/problem-1048/cpp/solution.cpp) |
+| [1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line) | Easy | [C++](./problems/problem-1232/cpp/solution.cpp) |
 | [1337. The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix) | Easy | [C++](./problems/problem-1337/cpp/solution.cpp) |
 | [1658. Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) | Medium | [C++](./problems/problem-1658/cpp/solution.cpp) |
 | [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers) | Easy | [C++](./problems/problem-2235/cpp/solution.cpp) |
