@@ -7,6 +7,8 @@
                 "SYSTEM": 1,
                 "EXCLUDE_FROM_ALL": 1
             }
+        },
+        "file": {
         }
     },
     "enable_markup": false,
