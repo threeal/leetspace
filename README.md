@@ -9,27 +9,27 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 
 | Problem | Difficulty | Solution |
 |---|---|---|
-| [1. Two Sum](https://leetcode.com/problems/two-sum) | Easy | [C++](./problems/problem-1/cpp/solution.cpp) |
-| [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | Hard | [C++](./problems/problem-4/cpp/solution.cpp) |
-| [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | Medium | [C++](./problems/problem-5/cpp/solution.cpp) |
-| [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | Medium | [C++](./problems/problem-8/cpp/solution.cpp) |
-| [9. Palindrome Number](https://leetcode.com/problems/palindrome-number) | Easy | [C++](./problems/problem-9/cpp/solution.cpp) |
-| [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water) | Medium | [C++](./problems/problem-11/cpp/solution.cpp) |
-| [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Easy | [C++](./problems/problem-26/cpp/solution.cpp) |
-| [27. Remove Element](https://leetcode.com/problems/remove-element) | Easy | [C++](./problems/problem-27/cpp/solution.cpp) |
-| [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | Easy | [C++](./problems/problem-28/cpp/solution.cpp) |
-| [35. Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | [C++](./problems/problem-35/cpp/solution.cpp) |
-| [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [C++](./problems/problem-58/cpp/solution.cpp) |
-| [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) | Medium | [C++](./problems/problem-316/cpp/solution.cpp) |
-| [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | Easy | [C++](./problems/problem-387/cpp/solution.cpp) |
-| [389. Find the Difference](https://leetcode.com/problems/find-the-difference) | Easy | [C++](./problems/problem-389/cpp/solution.cpp) |
-| [392. Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | [C++](./problems/problem-392/cpp/solution.cpp) |
-| [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain) | Medium | [C++](./problems/problem-1048/cpp/solution.cpp) |
-| [1081. Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters) | Medium | [C++](./problems/problem-1081/cpp/solution.cpp) |
-| [1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line) | Easy | [C++](./problems/problem-1232/cpp/solution.cpp) |
-| [1337. The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix) | Easy | [C++](./problems/problem-1337/cpp/solution.cpp) |
-| [1658. Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) | Medium | [C++](./problems/problem-1658/cpp/solution.cpp) |
-| [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers) | Easy | [C++](./problems/problem-2235/cpp/solution.cpp) |
+| [1. Two Sum](https://leetcode.com/problems/two-sum) | Easy | [C++](./problems/0001/cpp/solution.cpp) |
+| [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | Hard | [C++](./problems/0004/cpp/solution.cpp) |
+| [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | Medium | [C++](./problems/0005/cpp/solution.cpp) |
+| [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | Medium | [C++](./problems/0008/cpp/solution.cpp) |
+| [9. Palindrome Number](https://leetcode.com/problems/palindrome-number) | Easy | [C++](./problems/0009/cpp/solution.cpp) |
+| [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water) | Medium | [C++](./problems/0011/cpp/solution.cpp) |
+| [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Easy | [C++](./problems/0026/cpp/solution.cpp) |
+| [27. Remove Element](https://leetcode.com/problems/remove-element) | Easy | [C++](./problems/0027/cpp/solution.cpp) |
+| [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | Easy | [C++](./problems/0028/cpp/solution.cpp) |
+| [35. Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | [C++](./problems/0035/cpp/solution.cpp) |
+| [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [C++](./problems/0058/cpp/solution.cpp) |
+| [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) | Medium | [C++](./problems/0316/cpp/solution.cpp) |
+| [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | Easy | [C++](./problems/0387/cpp/solution.cpp) |
+| [389. Find the Difference](https://leetcode.com/problems/find-the-difference) | Easy | [C++](./problems/0389/cpp/solution.cpp) |
+| [392. Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | [C++](./problems/0392/cpp/solution.cpp) |
+| [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain) | Medium | [C++](./problems/1048/cpp/solution.cpp) |
+| [1081. Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters) | Medium | [C++](./problems/1081/cpp/solution.cpp) |
+| [1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line) | Easy | [C++](./problems/1232/cpp/solution.cpp) |
+| [1337. The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix) | Easy | [C++](./problems/1337/cpp/solution.cpp) |
+| [1658. Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) | Medium | [C++](./problems/1658/cpp/solution.cpp) |
+| [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers) | Easy | [C++](./problems/2235/cpp/solution.cpp) |
 
 ## License
 
