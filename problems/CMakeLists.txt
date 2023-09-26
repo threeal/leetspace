@@ -17,12 +17,13 @@ function(add_problem id)
       message(FATAL_ERROR "Unknown language: ${lang}")
     endif()
   endforeach()
+endfunction()
 
-  add_executable(test-${id} test.cpp)
-  set_property(TARGET test-${id} PROPERTY CXX_STANDARD 20)
-  target_link_libraries(test-${id} PRIVATE Catch2::Catch2WithMain ${solutions})
-
-  catch_discover_tests(test-${id})
+function(add_problem_test target)
+  add_executable(${target} ${ARGN})
+  set_property(TARGET ${target} PROPERTY CXX_STANDARD 20)
+  target_link_libraries(${target} PRIVATE Catch2::Catch2WithMain ${solutions})
+  catch_discover_tests(${target})
 endfunction()
 
 file(GLOB problems LIST_DIRECTORIES true "*")
