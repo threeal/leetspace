@@ -1,3 +1,7 @@
+macro(get_dir_name var)
+  get_filename_component(${var} ${CMAKE_CURRENT_SOURCE_DIR} NAME)
+endmacro()
+
 function(add_problem id)
   foreach(lang ${ARGN})
     if(${lang} STREQUAL c)

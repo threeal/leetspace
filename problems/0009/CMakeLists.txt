@@ -1,1 +1,2 @@
-add_problem(0009 cpp)
+get_dir_name(id)
+add_problem(${id} cpp)

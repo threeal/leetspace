@@ -1,1 +1,2 @@
-add_problem(2235 c cpp)
+get_dir_name(id)
+add_problem(${id} c cpp)
