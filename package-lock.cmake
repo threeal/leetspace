@@ -8,6 +8,13 @@ cpmdeclarepackage(
   GITHUB_REPOSITORY TheLartians/Format.cmake
   SYSTEM YES
   EXCLUDE_FROM_ALL YES)
+# yaml-cpp
+cpmdeclarepackage(
+  yaml-cpp GIT_TAG 0.8.0
+  GITHUB_REPOSITORY jbeder/yaml-cpp
+  SYSTEM YES
+  EXCLUDE_FROM_ALL YES
+  OPTIONS "YAML_CPP_FORMAT_SOURCE OFF")
 # Catch2
 cpmdeclarepackage(
   Catch2

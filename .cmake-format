@@ -5,7 +5,8 @@
                 "VERSION": 1,
                 "GITHUB_REPOSITORY": 1,
                 "SYSTEM": 1,
-                "EXCLUDE_FROM_ALL": 1
+                "EXCLUDE_FROM_ALL": 1,
+                "OPTIONS": "*"
             }
         }
     },

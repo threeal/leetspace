@@ -9,6 +9,15 @@ function(add_problem id)
       add_library(solution-${id}-cpp ${id}/cpp/interface.cpp)
       set_property(TARGET solution-${id}-cpp PROPERTY CXX_STANDARD 20)
       list(APPEND solutions solution-${id}-cpp)
+    elseif(${lang} STREQUAL yaml)
+      add_custom_command(
+        OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/test_cases_${id}.yaml
+        COMMAND ${CMAKE_COMMAND} -E copy ${CMAKE_CURRENT_SOURCE_DIR}/${id}/test_cases.yaml
+                ${CMAKE_CURRENT_BINARY_DIR}/test_cases_${id}.yaml
+        DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/${id}/test_cases.yaml
+        VERBATIM)
+      add_custom_target(test-cases-${id} DEPENDS ${CMAKE_CURRENT_BINARY_DIR}/test_cases_${id}.yaml)
+      list(APPEND dependencies test-cases-${id})
     else()
       message(FATAL_ERROR "Unknown language: ${lang}")
     endif()
@@ -16,12 +25,15 @@ function(add_problem id)
 
   add_executable(test-${id} ${id}/test.cpp)
   set_property(TARGET test-${id} PROPERTY CXX_STANDARD 20)
-  target_link_libraries(test-${id} PRIVATE Catch2::Catch2WithMain ${solutions})
+  target_link_libraries(test-${id} PRIVATE Catch2::Catch2WithMain yaml-cpp ${solutions})
+  if(dependencies)
+    add_dependencies(test-${id} ${dependencies})
+  endif()
 
   catch_discover_tests(test-${id})
 endfunction()
 
-add_problem(0001 cpp)
+add_problem(0001 cpp yaml)
 add_problem(0004 cpp)
 add_problem(0005 cpp)
 add_problem(0008 cpp)
