@@ -19,6 +19,11 @@ function(add_problem id)
   endforeach()
 endfunction()
 
+function(add_cpp_solution target)
+  add_library(${target} ${ARGN})
+  set_property(TARGET ${target} PROPERTY CXX_STANDARD 20)
+endfunction()
+
 function(add_problem_test target)
   add_executable(${target} ${ARGN})
   set_property(TARGET ${target} PROPERTY CXX_STANDARD 20)
