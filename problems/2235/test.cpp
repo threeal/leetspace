@@ -2,10 +2,7 @@
 #include <catch2/generators/catch_generators.hpp>
 #include <string>
 
-extern "C" {
 int solution_c(int num1, int num2);
-}
-
 int solution_cpp(int num1, int num2);
 
 struct TestCase {
