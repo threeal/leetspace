@@ -16,7 +16,8 @@ TEST_CASE("880. Decoded String at Index") {
   const auto [name, s, k, expected] = GENERATE(
       TestCase{.name = "Example 1", .s = "leet2code3", .k = 10, .expected = "o"},
       TestCase{.name = "Example 2", .s = "ha22", .k = 5, .expected = "h"},
-      TestCase{.name = "Example 3", .s = "a2345678999999999999999", .k = 1, .expected = "a"});
+      TestCase{.name = "Example 3", .s = "a2345678999999999999999", .k = 1, .expected = "a"},
+      TestCase{.name = "Index at the end", .s = "a23", .k = 6, .expected = "a"});
 
   INFO("name: " << name);
   INFO("s: " << s);
