@@ -2,13 +2,11 @@ macro(get_dir_name var)
   get_filename_component(${var} ${CMAKE_CURRENT_SOURCE_DIR} NAME)
 endmacro()
 
-macro(add_c_solution target interface)
+macro(add_c_solution target)
   get_dir_name(id)
-  set(${target} c-solution-${id}-interface)
+  set(${target} c-solution-${id})
 
   add_library(c-solution-${id} ${ARGN})
-  add_library(c-solution-${id}-interface ${interface})
-  target_link_libraries(c-solution-${id}-interface PRIVATE c-solution-${id})
 endmacro()
 
 macro(add_cpp_solution target)
