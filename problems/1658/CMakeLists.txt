@@ -1,6 +1,4 @@
-get_dir_name(id)
+add_cpp_solution(cpp_solution cpp/interface.cpp)
 
-add_cpp_solution(cpp-solution-${id} cpp/interface.cpp)
-
-add_problem_test(test-${id} test.cpp)
-target_link_libraries(test-${id} PRIVATE cpp-solution-${id})
+add_problem_test(test test.cpp)
+target_link_libraries(${test} PRIVATE ${cpp_solution})
