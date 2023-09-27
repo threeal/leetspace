@@ -8,15 +8,15 @@ class Solution {
     return string() + decode(k - 1);
   }
 
-  char decode(int k) {
-    int i = 0;
+  char decode(uint64_t k) {
+    uint64_t i = 0;
     for (const auto c : str) {
       if (c > '9') {
         if (i++ == k) {
           return c;
         }
       } else {
-        const int repeat = c - '0';
+        const uint64_t repeat = c - '0';
         if (k < i * repeat) {
           return decode(k % i);
         } else {
