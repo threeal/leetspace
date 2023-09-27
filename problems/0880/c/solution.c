@@ -1,4 +1,4 @@
-char decode(char* s, unsigned int k);
+char decode(char* s, unsigned long k);
 
 char* decodeAtIndex(char* s, int k) {
   s[0] = decode(s, k - 1);
@@ -6,8 +6,8 @@ char* decodeAtIndex(char* s, int k) {
   return s;
 }
 
-char decode(char* s, unsigned int k) {
-  unsigned int i = 0;
+char decode(char* s, unsigned long k) {
+  unsigned long i = 0;
   char* c = s;
   while (*c != 0) {
     if (*c > '9') {
@@ -15,7 +15,7 @@ char decode(char* s, unsigned int k) {
         return *c;
       }
     } else {
-      const unsigned int repeat = *c - '0';
+      const unsigned long repeat = *c - '0';
       if (k < i * repeat) {
         return decode(s, k % i);
       } else {
