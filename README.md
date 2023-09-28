@@ -12,6 +12,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1. Two Sum](https://leetcode.com/problems/two-sum) | Easy | [C++](./problems/0001/cpp/solution.cpp) |
 | [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | Hard | [C++](./problems/0004/cpp/solution.cpp) |
 | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | Medium | [C++](./problems/0005/cpp/solution.cpp) |
+| [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion) | Medium | [C++](./problems/0006/cpp/solution.cpp) |
 | [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | Medium | [C++](./problems/0008/cpp/solution.cpp) |
 | [9. Palindrome Number](https://leetcode.com/problems/palindrome-number) | Easy | [C++](./problems/0009/cpp/solution.cpp) |
 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water) | Medium | [C++](./problems/0011/cpp/solution.cpp) |
