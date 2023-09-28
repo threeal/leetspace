@@ -25,6 +25,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [389. Find the Difference](https://leetcode.com/problems/find-the-difference) | Easy | [C++](./problems/0389/cpp/solution.cpp) |
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | [C++](./problems/0392/cpp/solution.cpp) |
 | [880. Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index) | Medium | [C++](./problems/0880/cpp/solution.cpp) |
+| [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | Easy | [C++](./problems/0905/cpp/solution.cpp) |
 | [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain) | Medium | [C++](./problems/1048/cpp/solution.cpp) |
 | [1081. Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters) | Medium | [C++](./problems/1081/cpp/solution.cpp) |
 | [1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line) | Easy | [C++](./problems/1232/cpp/solution.cpp) |
