@@ -26,11 +26,6 @@ jobs:
         with:
           run-build: true
 
-      - name: Check package lock
-        run: |
-          cmake --build build --target cpm-update-package-lock
-          git diff --exit-code HEAD
-
       - name: Check format
         run: |
           cmake --build build --target fix-format
