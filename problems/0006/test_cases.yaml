@@ -1,0 +1,14 @@
+- name: Example 1
+  s: PAYPALISHIRING
+  numRows: 3
+  expected: PAHNAPLSIIGYIR
+
+- name: Example 2
+  s: PAYPALISHIRING
+  numRows: 4
+  expected: PINALSIGYAHRPI
+
+- name: Example 3
+  s: A
+  numRows: 1
+  expected: A
