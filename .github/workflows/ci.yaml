@@ -19,12 +19,17 @@ jobs:
         uses: actions/cache@v3.3.2
         with:
           path: build/_deps
-          key: CPM-${{ runner.os }}-${{ hashFiles('package-lock.cmake') }}
+          key: CPM-${{ runner.os }}-${{ hashFiles('package-lock') }}
 
       - name: Configure and build
         uses: threeal/cmake-action@v1.3.0
         with:
           run-build: true
+
+      - name: Check package lock
+        run: |
+          cmake --build build --target cpm-update-package-lock
+          git diff --exit-code HEAD
 
       - name: Check format
         run: |
