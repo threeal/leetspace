@@ -1,24 +1,23 @@
+#include <yaml-cpp/yaml.h>
+
 #include <catch2/catch_test_macros.hpp>
 #include <catch2/generators/catch_generators.hpp>
 #include <string>
 
 int solution_cpp(const std::string& s);
 
-struct TestCase {
-  std::string name;
-  std::string s;
-  int expected;
-};
-
 TEST_CASE("3. Longest Substring Without Repeating Characters") {
   const auto solution = GENERATE(solution_cpp);
-  const auto [name, s, expected] = GENERATE(
-      TestCase{.name = "Example 1", .s = "abcabcbbabcabcbb", .expected = 3},
-      TestCase{.name = "Example 2", .s = "bbbbb", .expected = 1},
-      TestCase{.name = "Example 3", .s = "pwwkew", .expected = 3});
 
-  CAPTURE(name);
-  CAPTURE(s);
+  const auto test_cases = YAML::LoadFile("test_cases.yaml");
+  for (const auto& test_case : test_cases) {
+    const auto name = test_case["name"].as<std::string>();
+    const auto s = test_case["s"].as<std::string>();
+    const auto expected = test_case["expected"].as<int>();
 
-  CHECK(solution(s) == expected);
+    CAPTURE(name);
+    CAPTURE(s);
+
+    CHECK(solution(s) == expected);
+  }
 }
