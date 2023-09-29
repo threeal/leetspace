@@ -20,4 +20,4 @@ file(DOWNLOAD https://github.com/cpm-cmake/CPM.cmake/releases/download/v${CPM_DO
      ${CPM_DOWNLOAD_LOCATION} EXPECTED_HASH SHA256=${CPM_HASH_SUM})
 
 include(${CPM_DOWNLOAD_LOCATION})
-cpmusepackagelock(package-lock.cmake)
+cpmusepackagelock(package-lock)
