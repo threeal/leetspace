@@ -3,9 +3,7 @@
 #include <string>
 #include <vector>
 
-bool solution(const std::vector<int>& nums) {
-  return false;
-}
+bool solution_cpp(const std::vector<int>& nums);
 
 struct TestCase {
   std::string name;
@@ -14,7 +12,8 @@ struct TestCase {
 };
 
 TEST_CASE("456. 132 Pattern") {
-  auto [name, nums, expected] = GENERATE(
+  const auto solution = GENERATE(solution_cpp);
+  const auto [name, nums, expected] = GENERATE(
       TestCase{.name = "Example 1", .nums = {1, 2, 3, 4}, .expected = false},
       TestCase{.name = "Example 2", .nums = {3, 1, 4, 2}, .expected = true},
       TestCase{.name = "Example 3", .nums = {-1, 3, 2, 0}, .expected = true});
