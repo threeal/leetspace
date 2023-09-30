@@ -1,20 +1,19 @@
+#include <yaml-cpp/yaml.h>
+
 #include <catch2/catch_test_macros.hpp>
 #include <catch2/generators/catch_generators.hpp>
 #include <string>
 
 std::string solution_cpp(std::string s);
 
-struct TestCase {
-  std::string title;
-  std::string s;
-  std::string expected;
-};
-
 TEST_CASE("1081. Smallest Subsequence of Distinct Characters") {
-  auto [title, s, expected] = GENERATE(
-      TestCase{.title = "Example 1", .s = "bcabc", .expected = "abc"},
-      TestCase{.title = "Example 2", .s = "cbacdcbc", .expected = "acdb"});
+  const auto test_cases = YAML::LoadFile("test_cases.yaml");
+  for (const auto& test_case : test_cases) {
+    const auto name = test_case["name"].as<std::string>();
+    const auto s = test_case["s"].as<std::string>();
+    const auto expected = test_case["expected"].as<std::string>();
 
-  INFO(title);
-  CHECK(solution_cpp(s) == expected);
+    CAPTURE(name);
+    CHECK(solution_cpp(s) == expected);
+  }
 }
