@@ -2,6 +2,7 @@
 #include <catch2/generators/catch_generators.hpp>
 #include <string>
 
+std::string solution_c(std::string);
 std::string solution_cpp(std::string);
 
 struct TestCase {
@@ -11,10 +12,11 @@ struct TestCase {
 };
 
 TEST_CASE("5. Longest Palindromic Substring") {
+  const auto solution = GENERATE(solution_c, solution_cpp);
   auto [title, input, expected] = GENERATE(
       TestCase{.title = "Example 1", .input = "babad", .expected = "bab"},
       TestCase{.title = "Example 2", .input = "cbbd", .expected = "bb"});
 
   INFO(title);
-  CHECK(solution_cpp(input) == expected);
+  CHECK(solution(input) == expected);
 }
