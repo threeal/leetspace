@@ -9,10 +9,10 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 
 | Problem | Difficulty | Solution |
 |---|---|---|
-| [1. Two Sum](https://leetcode.com/problems/two-sum) | Easy | [C++](./problems/0001/cpp/solution.cpp) |
+| [1. Two Sum](https://leetcode.com/problems/two-sum) | Easy | [C](./problems/0001/c/solution.c) [C++](./problems/0001/cpp/solution.cpp) |
 | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | Medium | [C++](./problems/0003/cpp/solution.cpp) |
 | [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | Hard | [C++](./problems/0004/cpp/solution.cpp) |
-| [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | Medium | [C++](./problems/0005/cpp/solution.cpp) |
+| [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | Medium | [C](./problems/0005/c/solution.c) [C++](./problems/0005/cpp/solution.cpp) |
 | [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion) | Medium | [C](./problems/0006/c/solution.c) [C++](./problems/0006/cpp/solution.cpp) |
 | [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | Medium | [C++](./problems/0008/cpp/solution.cpp) |
 | [9. Palindrome Number](https://leetcode.com/problems/palindrome-number) | Easy | [C++](./problems/0009/cpp/solution.cpp) |
@@ -26,6 +26,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | Easy | [C++](./problems/0387/cpp/solution.cpp) |
 | [389. Find the Difference](https://leetcode.com/problems/find-the-difference) | Easy | [C++](./problems/0389/cpp/solution.cpp) |
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | [C++](./problems/0392/cpp/solution.cpp) |
+| [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | Easy | [C](./problems/0557/c/solution.c) [C++](./problems/0557/cpp/solution.cpp) |
 | [880. Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index) | Medium | [C++](./problems/0880/cpp/solution.cpp) |
 | [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | Easy | [C++](./problems/0905/cpp/solution.cpp) |
 | [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain) | Medium | [C++](./problems/1048/cpp/solution.cpp) |
