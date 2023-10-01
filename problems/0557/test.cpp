@@ -2,9 +2,7 @@
 #include <catch2/generators/catch_generators.hpp>
 #include <string>
 
-std::string solution(const std::string& s) {
-  return s;
-}
+std::string solution_cpp(const std::string& s);
 
 struct TestCase {
   std::string name;
@@ -13,6 +11,7 @@ struct TestCase {
 };
 
 TEST_CASE("557. Reverse Words in a String III") {
+  const auto solution = GENERATE(solution_cpp);
   const auto [name, s, expected] = GENERATE(
       TestCase{.name = "Example 1", .s = "Let's take LeetCode contest", .expected = "s'teL ekat edoCteeL tsetnoc"},
       TestCase{.name = "Example 2", .s = "God Ding", .expected = "doG gniD"});
