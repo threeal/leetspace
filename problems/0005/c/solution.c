@@ -9,7 +9,7 @@ struct Result palindromeOdd(char* s, int n, int i);
 char* longestPalindrome(char* s) {
   struct Result res;
   res.a = 0;
-  res.b = 0;
+  res.b = 1;
 
   int n = 0;
   while (s[n] != 0) {
