@@ -7,7 +7,7 @@ class Solution {
     const auto h = coordinates[1][1] - y0;
 
     if (w == 0) {
-      for (const auto coord : coordinates) {
+      for (const auto& coord : coordinates) {
         if (coord[0] != x0) return false;
       }
       return true;
