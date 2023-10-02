@@ -8,6 +8,7 @@ macro(add_c_solution target)
 
   add_library(c-solution-${id} ${ARGN})
   set_property(TARGET c-solution-${id} PROPERTY CXX_STANDARD 20)
+  target_compile_options(c-solution-${id} PRIVATE -Werror -Wall -Wextra -Wpedantic)
 endmacro()
 
 macro(add_cpp_solution target)
@@ -16,6 +17,7 @@ macro(add_cpp_solution target)
 
   add_library(cpp-solution-${id} ${ARGN})
   set_property(TARGET cpp-solution-${id} PROPERTY CXX_STANDARD 20)
+  target_compile_options(cpp-solution-${id} PRIVATE -Werror -Wall -Wextra -Wpedantic)
 endmacro()
 
 macro(add_problem_test target)
@@ -24,6 +26,7 @@ macro(add_problem_test target)
 
   add_executable(test-${id} ${ARGN})
   set_property(TARGET test-${id} PROPERTY CXX_STANDARD 20)
+  target_compile_options(test-${id} PRIVATE -Werror -Wall -Wextra -Wpedantic)
   target_link_libraries(test-${id} PRIVATE Catch2::Catch2WithMain)
   catch_discover_tests(test-${id})
 endmacro()
