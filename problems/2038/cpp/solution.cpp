@@ -19,6 +19,14 @@ class Solution {
       }
     }
 
+    if (n - start > 2) {
+      if (colors[start] == 'A') {
+        a += n - start - 2;
+      } else {
+        b += n - start - 2;
+      }
+    }
+
     return a > b;
   }
 };
