@@ -7,6 +7,7 @@ macro(add_c_solution target)
   set(${target} c-solution-${id})
 
   add_library(c-solution-${id} ${ARGN})
+  set_property(TARGET c-solution-${id} PROPERTY CXX_STANDARD 20)
 endmacro()
 
 macro(add_cpp_solution target)
