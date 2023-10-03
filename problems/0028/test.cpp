@@ -1,21 +1,19 @@
+#include <yaml-cpp/yaml.h>
+
 #include <catch2/catch_test_macros.hpp>
-#include <catch2/generators/catch_generators.hpp>
 #include <string>
 
 int solution_cpp(std::string, std::string);
 
-struct TestCase {
-  std::string title;
-  std::string haystack;
-  std::string needle;
-  int expected;
-};
-
 TEST_CASE("28. Find the Index of the First Occurrence in a String") {
-  auto [title, haystack, needle, expected] = GENERATE(
-      TestCase{.title = "Example 1", .haystack = "sadbutsad", .needle = "sad", .expected = 0},
-      TestCase{.title = "Example 2", .haystack = "leetcode", .needle = "leeto", .expected = -1});
+  const auto test_cases = YAML::LoadFile("test_cases.yaml");
+  for (const auto& test_case : test_cases) {
+    const auto name = test_case["name"].as<std::string>();
+    const auto haystack = test_case["haystack"].as<std::string>();
+    const auto needle = test_case["needle"].as<std::string>();
+    const auto expected = test_case["expected"].as<int>();
 
-  INFO(title);
-  CHECK(solution_cpp(haystack, needle) == expected);
+    CAPTURE(name);
+    CHECK(solution_cpp(haystack, needle) == expected);
+  }
 }

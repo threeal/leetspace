@@ -1,23 +1,19 @@
+#include <yaml-cpp/yaml.h>
+
 #include <catch2/catch_test_macros.hpp>
-#include <catch2/generators/catch_generators.hpp>
 #include <vector>
 
 int solution_cpp(std::vector<int>& nums, int target);
 
-struct TestCase {
-  std::string title;
-  std::vector<int> nums;
-  int target;
-  int expected;
-};
-
 TEST_CASE("35. Search Insert Position") {
-  auto [title, nums, target, expected] = GENERATE(
-      TestCase{.title = "Example 1", .nums = {1, 3, 5, 6}, .target = 5, .expected = 2},
-      TestCase{.title = "Example 2", .nums = {1, 3, 5, 6}, .target = 2, .expected = 1},
-      TestCase{.title = "Example 3", .nums = {1, 3, 5, 6}, .target = 7, .expected = 4},
-      TestCase{.title = "Size of 2", .nums = {1, 3}, .target = 1, .expected = 0});
+  const auto test_cases = YAML::LoadFile("test_cases.yaml");
+  for (const auto& test_case : test_cases) {
+    auto name = test_case["name"].as<std::string>();
+    auto nums = test_case["nums"].as<std::vector<int>>();
+    auto target = test_case["target"].as<int>();
+    auto expected = test_case["expected"].as<int>();
 
-  INFO(title);
-  CHECK(solution_cpp(nums, target) == expected);
+    CAPTURE(name);
+    CHECK(solution_cpp(nums, target) == expected);
+  }
 }

@@ -1,3 +1,5 @@
+#include <yaml-cpp/yaml.h>
+
 #include <catch2/catch_test_macros.hpp>
 #include <catch2/generators/catch_generators.hpp>
 #include <catch2/matchers/catch_matchers_vector.hpp>
@@ -7,20 +9,17 @@
 std::vector<int> solution_c(std::vector<int>&, int);
 std::vector<int> solution_cpp(std::vector<int>&, int);
 
-struct TestCase {
-  std::string title;
-  std::vector<int> nums;
-  int target;
-  std::vector<int> expected;
-};
-
 TEST_CASE("1. Two Sum") {
   const auto solution = GENERATE(solution_c, solution_cpp);
-  auto [title, nums, target, expected] = GENERATE(
-      TestCase{.title = "Example 1", .nums = {2, 7, 11, 15}, .target = 9, .expected = {0, 1}},
-      TestCase{.title = "Example 2", .nums = {3, 2, 4}, .target = 6, .expected = {1, 2}},
-      TestCase{.title = "Example 3", .nums = {3, 3}, .target = 6, .expected = {0, 1}});
 
-  INFO(title);
-  CHECK_THAT(solution(nums, target), Catch::Matchers::Equals<int>(expected));
+  const auto test_cases = YAML::LoadFile("test_cases.yaml");
+  for (const auto& test_case : test_cases) {
+    auto name = test_case["name"].as<std::string>();
+    auto nums = test_case["nums"].as<std::vector<int>>();
+    auto target = test_case["target"].as<int>();
+    auto expected = test_case["expected"].as<std::vector<int>>();
+
+    CAPTURE(name);
+    CHECK_THAT(solution(nums, target), Catch::Matchers::Equals<int>(expected));
+  }
 }

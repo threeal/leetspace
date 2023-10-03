@@ -1,30 +1,20 @@
+#include <yaml-cpp/yaml.h>
+
 #include <catch2/catch_test_macros.hpp>
-#include <catch2/generators/catch_generators.hpp>
 #include <catch2/matchers/catch_matchers_vector.hpp>
 #include <vector>
 
 std::vector<int> solution_cpp(std::vector<int> nums, int val);
 
-struct TestCase {
-  std::string title;
-  std::vector<int> nums;
-  int val;
-  std::vector<int> expected;
-};
-
 TEST_CASE("27. Remove Element") {
-  auto [title, nums, val, expected] = GENERATE(
-      TestCase{
-          .title = "Example 1",
-          .nums = {3, 2, 2, 3},
-          .val = 3,
-          .expected = {2, 2}},
-      TestCase{
-          .title = "Example 2",
-          .nums = {0, 1, 2, 2, 3, 0, 4, 2},
-          .val = 2,
-          .expected = {0, 1, 3, 0, 4}});
+  const auto test_cases = YAML::LoadFile("test_cases.yaml");
+  for (const auto& test_case : test_cases) {
+    const auto name = test_case["name"].as<std::string>();
+    const auto nums = test_case["nums"].as<std::vector<int>>();
+    const auto val = test_case["val"].as<int>();
+    const auto expected = test_case["expected"].as<std::vector<int>>();
 
-  INFO(title);
-  CHECK_THAT(solution_cpp(nums, val), Catch::Matchers::Equals<int>(expected));
+    CAPTURE(name);
+    CHECK_THAT(solution_cpp(nums, val), Catch::Matchers::Equals<int>(expected));
+  }
 }

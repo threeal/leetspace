@@ -1,3 +1,5 @@
+#include <yaml-cpp/yaml.h>
+
 #include <catch2/catch_test_macros.hpp>
 #include <catch2/generators/catch_generators.hpp>
 #include <string>
@@ -5,17 +7,14 @@
 
 int solution_cpp(std::vector<int>& height);
 
-struct TestCase {
-  std::string title;
-  std::vector<int> height;
-  int expected;
-};
-
 TEST_CASE("11. Container With Most Water") {
-  auto [title, height, expected] = GENERATE(
-      TestCase{.title = "Example 1", .height = {1, 8, 6, 2, 5, 4, 8, 3, 7}, .expected = 49},
-      TestCase{.title = "Example 2", .height = {1, 1}, .expected = 1});
+  const auto test_cases = YAML::LoadFile("test_cases.yaml");
+  for (const auto& test_case : test_cases) {
+    auto name = test_case["name"].as<std::string>();
+    auto height = test_case["height"].as<std::vector<int>>();
+    auto expected = test_case["expected"].as<int>();
 
-  INFO(title);
-  CHECK(solution_cpp(height) == expected);
+    CAPTURE(name);
+    CHECK(solution_cpp(height) == expected);
+  }
 }

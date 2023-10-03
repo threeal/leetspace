@@ -1,21 +1,18 @@
+#include <yaml-cpp/yaml.h>
+
 #include <catch2/catch_test_macros.hpp>
-#include <catch2/generators/catch_generators.hpp>
 #include <string>
 
 bool solution_cpp(int x);
 
-struct TestCase {
-  std::string title;
-  int x;
-  bool expected;
-};
-
 TEST_CASE("9. Palindrome Number") {
-  auto [title, x, expected] = GENERATE(
-      TestCase{.title = "Example 1", .x = 121, .expected = true},
-      TestCase{.title = "Example 2", .x = -121, .expected = false},
-      TestCase{.title = "Example 3", .x = 10, .expected = false});
+  const auto test_cases = YAML::LoadFile("test_cases.yaml");
+  for (const auto& test_case : test_cases) {
+    const auto name = test_case["name"].as<std::string>();
+    const auto x = test_case["x"].as<int>();
+    const auto expected = test_case["expected"].as<bool>();
 
-  INFO(title);
-  CHECK(solution_cpp(x) == expected);
+    CAPTURE(name);
+    CHECK(solution_cpp(x) == expected);
+  }
 }
