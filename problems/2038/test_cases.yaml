@@ -1,0 +1,15 @@
+- name: Example 1
+  colors: AAABABB
+  expected: true
+
+- name: Example 2
+  colors: AA
+  expected: false
+
+- name: Example 3
+  colors: ABBBBBBBAAA
+  expected: false
+
+- name: Duplicates at the end
+  colors: AAAABBBB
+  expected: false
