@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 
+int solution_c(const std::vector<int>& nums);
 int solution_cpp(const std::vector<int>& nums);
 
 struct TestCase {
@@ -12,7 +13,7 @@ struct TestCase {
 };
 
 TEST_CASE("1512. Number of Good Pairs") {
-  const auto solution = GENERATE(solution_cpp);
+  const auto solution = GENERATE(solution_c, solution_cpp);
   const auto [name, nums, expected] = GENERATE(
       TestCase{.name = "Example 1", .nums = {1, 2, 3, 1, 1, 3}, .expected = 4},
       TestCase{.name = "Example 2", .nums = {1, 1, 1, 1}, .expected = 6},
