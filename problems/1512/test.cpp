@@ -3,9 +3,7 @@
 #include <string>
 #include <vector>
 
-int solution_cpp(const std::vector<int>& nums) {
-  return nums.size();
-}
+int solution_cpp(const std::vector<int>& nums);
 
 struct TestCase {
   std::string name;
