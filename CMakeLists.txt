@@ -12,4 +12,5 @@ enable_testing()
 cpmgetpackage(Catch2)
 include("${Catch2_SOURCE_DIR}/extras/Catch.cmake")
 
+add_subdirectory(internal)
 add_subdirectory(problems)
