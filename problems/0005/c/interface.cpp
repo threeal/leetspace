@@ -1,9 +1,12 @@
+#include <internal.hpp>
 #include <string>
 
 extern "C" {
 char* longestPalindrome(char* s);
 }
 
-std::string solution_c(std::string s) {
-  return longestPalindrome(const_cast<char*>(s.c_str()));
+template <>
+std::string solution_c(const std::string& s) {
+  auto s_copy = s;
+  return longestPalindrome(s_copy.data());
 }
