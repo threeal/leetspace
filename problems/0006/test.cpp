@@ -1,15 +1,10 @@
 #include <yaml-cpp/yaml.h>
 
 #include <catch2/catch_test_macros.hpp>
-#include <catch2/generators/catch_generators.hpp>
+#include <internal.hpp>
 #include <string>
 
-std::string solution_c(const std::string& s, int numRows);
-std::string solution_cpp(const std::string& s, int numRows);
-
 TEST_CASE("6. Zigzag Conversion") {
-  const auto solution = GENERATE(solution_c, solution_cpp);
-
   const auto test_cases = YAML::LoadFile("test_cases.yaml");
   for (const auto& test_case : test_cases) {
     const auto name = test_case["name"].as<std::string>();
@@ -21,6 +16,7 @@ TEST_CASE("6. Zigzag Conversion") {
     INFO("s: " << s);
     INFO("numRows: " << numRows);
 
-    CHECK(solution(s, numRows) == expected);
+    CHECK(solution_c<std::string>(s, numRows) == expected);
+    CHECK(solution_cpp<std::string>(s, numRows) == expected);
   }
 }
