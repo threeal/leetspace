@@ -1,9 +1,8 @@
 #include <yaml-cpp/yaml.h>
 
 #include <catch2/catch_test_macros.hpp>
+#include <interface.hpp>
 #include <string>
-
-int solution_cpp(std::string s);
 
 TEST_CASE("387. First Unique Character in a String") {
   const auto test_cases = YAML::LoadFile("test_cases.yaml");
@@ -13,6 +12,6 @@ TEST_CASE("387. First Unique Character in a String") {
     const auto expected = test_case["expected"].as<int>();
 
     CAPTURE(name);
-    CHECK(solution_cpp(s) == expected);
+    CHECK(solution_cpp<int>(s) == expected);
   }
 }
