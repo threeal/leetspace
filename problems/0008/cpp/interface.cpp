@@ -1,9 +1,11 @@
+#include <internal.hpp>
 #include <string>
 
 using namespace std;
 
 #include "solution.cpp"
 
-int solution_cpp(string s) {
+template <>
+int solution_cpp(const string& s) {
   return Solution().myAtoi(s);
 }

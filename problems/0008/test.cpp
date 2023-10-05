@@ -1,9 +1,8 @@
 #include <yaml-cpp/yaml.h>
 
 #include <catch2/catch_test_macros.hpp>
+#include <internal.hpp>
 #include <string>
-
-int solution_cpp(std::string s);
 
 TEST_CASE("8. String to Integer (atoi)") {
   const auto test_cases = YAML::LoadFile("test_cases.yaml");
@@ -13,6 +12,6 @@ TEST_CASE("8. String to Integer (atoi)") {
     const auto expected = test_case["expected"].as<int>();
 
     CAPTURE(name);
-    CHECK(solution_cpp(s) == expected);
+    CHECK(solution_cpp<int>(s) == expected);
   }
 }
