@@ -1,9 +1,8 @@
 #include <yaml-cpp/yaml.h>
 
 #include <catch2/catch_test_macros.hpp>
+#include <interface.hpp>
 #include <string>
-
-char solution_cpp(std::string s, std::string t);
 
 TEST_CASE("389. Find the Difference") {
   const auto test_cases = YAML::LoadFile("test_cases.yaml");
@@ -14,6 +13,6 @@ TEST_CASE("389. Find the Difference") {
     const auto expected = test_case["expected"].as<char>();
 
     CAPTURE(name);
-    CHECK(solution_cpp(s, t) == expected);
+    CHECK(solution_cpp<char>(s, t) == expected);
   }
 }
