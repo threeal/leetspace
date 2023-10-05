@@ -1,11 +1,9 @@
 #include <yaml-cpp/yaml.h>
 
 #include <catch2/catch_test_macros.hpp>
-#include <catch2/generators/catch_generators.hpp>
+#include <internal.hpp>
 #include <string>
 #include <vector>
-
-int solution_cpp(std::vector<int>& height);
 
 TEST_CASE("11. Container With Most Water") {
   const auto test_cases = YAML::LoadFile("test_cases.yaml");
@@ -15,6 +13,6 @@ TEST_CASE("11. Container With Most Water") {
     auto expected = test_case["expected"].as<int>();
 
     CAPTURE(name);
-    CHECK(solution_cpp(height) == expected);
+    CHECK(solution_cpp<int>(height) == expected);
   }
 }
