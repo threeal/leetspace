@@ -1,4 +1,4 @@
-#include <internal.hpp>
+#include <interface.hpp>
 #include <string>
 
 using namespace std;

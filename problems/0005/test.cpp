@@ -1,7 +1,7 @@
 #include <yaml-cpp/yaml.h>
 
 #include <catch2/catch_test_macros.hpp>
-#include <internal.hpp>
+#include <interface.hpp>
 #include <string>
 
 TEST_CASE("5. Longest Palindromic Substring") {
