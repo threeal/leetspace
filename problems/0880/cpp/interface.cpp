@@ -1,10 +1,12 @@
+#include <interface.hpp>
 #include <string>
 
 using namespace std;
 
 #include "solution.cpp"
 
-string solution_cpp(const string& s, int k) {
+template <>
+string solution_cpp(const string& s, const int& k) {
   Solution solution;
   return solution.decodeAtIndex(s, k);
 }
