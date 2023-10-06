@@ -1,10 +1,11 @@
+#include <interface.hpp>
 #include <string>
 
 using namespace std;
 
 #include "solution.cpp"
 
+template <>
 bool solution_cpp(const string& colors) {
-  Solution solution;
-  return solution.winnerOfGame(colors);
+  return Solution().winnerOfGame(colors);
 }
