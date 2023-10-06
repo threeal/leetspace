@@ -1,3 +1,4 @@
+#include <interface.hpp>
 #include <stack>
 #include <string>
 #include <unordered_map>
@@ -7,6 +8,7 @@ using namespace std;
 
 #include "solution.cpp"
 
-string solution_cpp(string s) {
+template <>
+string solution_cpp(const string& s) {
   return Solution().smallestSubsequence(s);
 }
