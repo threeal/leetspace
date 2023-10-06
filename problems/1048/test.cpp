@@ -1,10 +1,9 @@
 #include <yaml-cpp/yaml.h>
 
 #include <catch2/catch_test_macros.hpp>
+#include <interface.hpp>
 #include <string>
 #include <vector>
-
-int solution_cpp(std::vector<std::string>& words);
 
 TEST_CASE("1048. Longest String Chain") {
   const auto test_cases = YAML::LoadFile("test_cases.yaml");
@@ -14,6 +13,6 @@ TEST_CASE("1048. Longest String Chain") {
     auto expected = test_case["expected"].as<int>();
 
     CAPTURE(name);
-    CHECK(solution_cpp(words) == expected);
+    CHECK(solution_cpp<int>(words) == expected);
   }
 }
