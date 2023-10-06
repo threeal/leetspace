@@ -1,10 +1,9 @@
 #include <yaml-cpp/yaml.h>
 
 #include <catch2/catch_test_macros.hpp>
+#include <interface.hpp>
 #include <string>
 #include <vector>
-
-bool solution_cpp(std::vector<std::vector<int>>& coordinates);
 
 TEST_CASE("1232. Check If It Is a Straight Line") {
   const auto test_cases = YAML::LoadFile("test_cases.yaml");
@@ -14,6 +13,6 @@ TEST_CASE("1232. Check If It Is a Straight Line") {
     auto expected = test_case["expected"].as<bool>();
 
     CAPTURE(name);
-    CHECK(solution_cpp(coordinates) == expected);
+    CHECK(solution_cpp<bool>(coordinates) == expected);
   }
 }
