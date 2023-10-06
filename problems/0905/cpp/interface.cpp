@@ -1,3 +1,4 @@
+#include <interface.hpp>
 #include <list>
 #include <vector>
 
@@ -5,8 +6,8 @@ using namespace std;
 
 #include "solution.cpp"
 
+template <>
 vector<int> solution_cpp(const vector<int>& nums) {
-  Solution solution;
   auto nums_copy = nums;
-  return solution.sortArrayByParity(nums_copy);
+  return Solution().sortArrayByParity(nums_copy);
 }
