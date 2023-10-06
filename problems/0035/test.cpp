@@ -1,9 +1,8 @@
 #include <yaml-cpp/yaml.h>
 
 #include <catch2/catch_test_macros.hpp>
+#include <interface.hpp>
 #include <vector>
-
-int solution_cpp(std::vector<int>& nums, int target);
 
 TEST_CASE("35. Search Insert Position") {
   const auto test_cases = YAML::LoadFile("test_cases.yaml");
@@ -14,6 +13,6 @@ TEST_CASE("35. Search Insert Position") {
     auto expected = test_case["expected"].as<int>();
 
     CAPTURE(name);
-    CHECK(solution_cpp(nums, target) == expected);
+    CHECK(solution_cpp<int>(nums, target) == expected);
   }
 }

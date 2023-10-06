@@ -29,6 +29,7 @@ macro(add_c_solution target)
 
   add_library(c-solution-${id} ${ARGN})
   target_set_cpp_standard(c-solution-${id})
+  target_link_libraries(c-solution-${id} PRIVATE internal)
 endmacro()
 
 macro(add_cpp_solution target)
@@ -37,6 +38,7 @@ macro(add_cpp_solution target)
 
   add_library(cpp-solution-${id} ${ARGN})
   target_set_cpp_standard(cpp-solution-${id})
+  target_link_libraries(cpp-solution-${id} PRIVATE internal)
 endmacro()
 
 macro(add_problem_test target)
@@ -45,7 +47,7 @@ macro(add_problem_test target)
 
   add_executable(test-${id} ${ARGN})
   target_set_cpp_standard(test-${id})
-  target_link_libraries(test-${id} PRIVATE Catch2::Catch2WithMain)
+  target_link_libraries(test-${id} PRIVATE Catch2::Catch2WithMain internal)
   catch_discover_tests(test-${id})
 endmacro()
 

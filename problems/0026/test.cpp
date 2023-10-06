@@ -1,10 +1,8 @@
 #include <yaml-cpp/yaml.h>
 
 #include <catch2/catch_test_macros.hpp>
-#include <catch2/matchers/catch_matchers_vector.hpp>
+#include <interface.hpp>
 #include <vector>
-
-std::vector<int> solution_cpp(std::vector<int> nums);
 
 TEST_CASE("26. Remove Duplicates from Sorted Array") {
   const auto test_cases = YAML::LoadFile("test_cases.yaml");
@@ -14,6 +12,6 @@ TEST_CASE("26. Remove Duplicates from Sorted Array") {
     const auto expected = test_case["expected"].as<std::vector<int>>();
 
     CAPTURE(name);
-    CHECK_THAT(solution_cpp(nums), Catch::Matchers::Equals<int>(expected));
+    CHECK(solution_cpp<std::vector<int>>(nums) == expected);
   }
 }

@@ -1,9 +1,11 @@
+#include <interface.hpp>
 #include <string>
 
 using namespace std;
 
 #include "solution.cpp"
 
-string solution_cpp(string s) {
+template <>
+string solution_cpp(const string& s) {
   return Solution().longestPalindrome(s);
 }

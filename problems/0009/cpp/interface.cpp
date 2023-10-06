@@ -1,9 +1,11 @@
+#include <interface.hpp>
 #include <list>
 
 using namespace std;
 
 #include "solution.cpp"
 
-bool solution_cpp(int x) {
+template <>
+bool solution_cpp(const int& x) {
   return Solution().isPalindrome(x);
 }

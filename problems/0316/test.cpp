@@ -1,9 +1,8 @@
 #include <yaml-cpp/yaml.h>
 
 #include <catch2/catch_test_macros.hpp>
+#include <interface.hpp>
 #include <string>
-
-std::string solution_cpp(std::string s);
 
 TEST_CASE("316. Remove Duplicate Letters") {
   const auto test_cases = YAML::LoadFile("test_cases.yaml");
@@ -13,6 +12,6 @@ TEST_CASE("316. Remove Duplicate Letters") {
     const auto expected = test_case["expected"].as<std::string>();
 
     CAPTURE(name);
-    CHECK(solution_cpp(s) == expected);
+    CHECK(solution_cpp<std::string>(s) == expected);
   }
 }

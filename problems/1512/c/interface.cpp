@@ -1,9 +1,12 @@
+#include <interface.hpp>
 #include <vector>
 
 extern "C" {
 int numIdenticalPairs(int* nums, int numsSize);
 }
 
+template <>
 int solution_c(const std::vector<int>& nums) {
-  return numIdenticalPairs(const_cast<int*>(nums.data()), nums.size());
+  auto nums_copy = nums;
+  return numIdenticalPairs(nums_copy.data(), nums_copy.size());
 }

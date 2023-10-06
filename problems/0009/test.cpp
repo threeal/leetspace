@@ -1,9 +1,8 @@
 #include <yaml-cpp/yaml.h>
 
 #include <catch2/catch_test_macros.hpp>
+#include <interface.hpp>
 #include <string>
-
-bool solution_cpp(int x);
 
 TEST_CASE("9. Palindrome Number") {
   const auto test_cases = YAML::LoadFile("test_cases.yaml");
@@ -13,6 +12,6 @@ TEST_CASE("9. Palindrome Number") {
     const auto expected = test_case["expected"].as<bool>();
 
     CAPTURE(name);
-    CHECK(solution_cpp(x) == expected);
+    CHECK(solution_cpp<bool>(x) == expected);
   }
 }

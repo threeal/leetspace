@@ -1,9 +1,8 @@
 #include <yaml-cpp/yaml.h>
 
 #include <catch2/catch_test_macros.hpp>
+#include <interface.hpp>
 #include <string>
-
-int solution_cpp(std::string, std::string);
 
 TEST_CASE("28. Find the Index of the First Occurrence in a String") {
   const auto test_cases = YAML::LoadFile("test_cases.yaml");
@@ -14,6 +13,6 @@ TEST_CASE("28. Find the Index of the First Occurrence in a String") {
     const auto expected = test_case["expected"].as<int>();
 
     CAPTURE(name);
-    CHECK(solution_cpp(haystack, needle) == expected);
+    CHECK(solution_cpp<int>(haystack, needle) == expected);
   }
 }
