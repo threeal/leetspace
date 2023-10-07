@@ -5,3 +5,7 @@
 - name: Example 2
   n: 10
   expected: 36
+
+- name: Wrong case
+  n: 3
+  expected: 2

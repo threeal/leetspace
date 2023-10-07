@@ -11,7 +11,7 @@ class Solution {
         new_res *= div;
       }
 
-      if (res > 0) {
+      if (mod > 0) {
         new_res /= div;
         new_res *= max(div + mod, div * mod);
       }
