@@ -1,11 +1,8 @@
 #include <yaml-cpp/yaml.h>
 
 #include <catch2/catch_test_macros.hpp>
+#include <interface.hpp>
 #include <string>
-
-int solution(int n) {
-  return n;
-}
 
 TEST_CASE("343. Integer Break") {
   const auto test_cases = YAML::LoadFile("test_cases.yaml");
@@ -15,6 +12,6 @@ TEST_CASE("343. Integer Break") {
     const auto expected = test_case["expected"].as<int>();
 
     CAPTURE(name, n);
-    CHECK(solution(n) == expected);
+    CHECK(solution_cpp<int>(n) == expected);
   }
 }

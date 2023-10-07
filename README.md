@@ -24,7 +24,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | [C++](./problems/0035/cpp/solution.cpp) |
 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [C++](./problems/0058/cpp/solution.cpp) |
 | [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) | Medium | [C++](./problems/0316/cpp/solution.cpp) |
-| [343. Integer Break](https://leetcode.com/problems/integer-break) | Medium | |
+| [343. Integer Break](https://leetcode.com/problems/integer-break) | Medium | [C++](./problems/0343/cpp/solution.cpp) |
 | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | Easy | [C++](./problems/0387/cpp/solution.cpp) |
 | [389. Find the Difference](https://leetcode.com/problems/find-the-difference) | Easy | [C++](./problems/0389/cpp/solution.cpp) |
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | [C++](./problems/0392/cpp/solution.cpp) |
