@@ -1,0 +1,7 @@
+- name: Example 1
+  n: 2
+  expected: 1
+
+- name: Example 2
+  n: 10
+  expected: 36
