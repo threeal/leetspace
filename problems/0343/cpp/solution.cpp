@@ -6,15 +6,14 @@ class Solution {
       const int div = n / i;
       const int mod = n % i;
 
-      int new_res = div;
-      for (int j = 0; j < i - 1; ++j) {
-        new_res *= div;
+      vector<int> nums(i, div);
+      if (mod > 0) {
+        for (int j = 0; j < mod; ++j) {
+          ++nums[j];
+        }
       }
 
-      if (mod > 0) {
-        new_res /= div;
-        new_res *= max(div + mod, div * mod);
-      }
+      const int new_res = multiplies(nums);
 
       if (new_res > res) {
         res = new_res;
@@ -22,5 +21,13 @@ class Solution {
     }
 
     return res;
+  }
+
+  int multiplies(const vector<int>& nums) {
+    int total = 1;
+    for (int num : nums) {
+      total *= num;
+    }
+    return total;
   }
 };
