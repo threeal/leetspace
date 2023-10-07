@@ -13,7 +13,8 @@ class Solution {
       if (a <= 0) break;
 
       auto bi = ai;
-      for (++bi; bi != counts_end; ++bi) {
+      if (bi->second <= 1) ++bi;
+      for (; bi != counts_end; ++bi) {
         const auto b = bi->first;
         if (-b - a > b) break;
         const auto ci = counts.find(-b - a);

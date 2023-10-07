@@ -12,3 +12,8 @@
   nums: [0, 0, 0]
   expected:
     - [0, 0, 0]
+
+- name: Wrong case
+  nums: [1, 1, -2]
+  expected:
+    - [-2, 1, 1]
