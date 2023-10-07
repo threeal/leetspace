@@ -2,12 +2,9 @@
 
 #include <catch2/catch_test_macros.hpp>
 #include <catch2/matchers/catch_matchers_vector.hpp>
+#include <interface.hpp>
 #include <string>
 #include <vector>
-
-std::vector<std::vector<int>> solution(const std::vector<int>& nums) {
-  return {nums};
-}
 
 TEST_CASE("15. 3Sum") {
   const auto test_cases = YAML::LoadFile("test_cases.yaml");
@@ -17,6 +14,6 @@ TEST_CASE("15. 3Sum") {
     auto expected = test_case["expected"].as<std::vector<std::vector<int>>>();
 
     CAPTURE(name, nums);
-    CHECK_THAT(solution(nums), Catch::Matchers::UnorderedEquals(expected));
+    CHECK_THAT(solution_cpp<std::vector<std::vector<int>>>(nums), Catch::Matchers::UnorderedEquals(expected));
   }
 }
