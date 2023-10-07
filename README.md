@@ -17,6 +17,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | Medium | [C++](./problems/0008/cpp/solution.cpp) |
 | [9. Palindrome Number](https://leetcode.com/problems/palindrome-number) | Easy | [C++](./problems/0009/cpp/solution.cpp) |
 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water) | Medium | [C++](./problems/0011/cpp/solution.cpp) |
+| [15. 3Sum](https://leetcode.com/problems/3sum) | Medium | [C++](./problems/0015/cpp/solution.cpp) |
 | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | Medium | [C++](./problems/0017/cpp/solution.cpp) |
 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Easy | [C++](./problems/0026/cpp/solution.cpp) |
 | [27. Remove Element](https://leetcode.com/problems/remove-element) | Easy | [C++](./problems/0027/cpp/solution.cpp) |
