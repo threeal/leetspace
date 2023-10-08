@@ -1,12 +1,10 @@
-#include <yaml-cpp/yaml.h>
-
 #include <catch2/catch_test_macros.hpp>
 #include <interface.hpp>
 #include <string>
+#include <test_cases.hpp>
 #include <vector>
 
 TEST_CASE("905. Sort Array By Parity") {
-  const auto test_cases = YAML::LoadFile("test_cases.yaml");
   for (const auto& test_case : test_cases) {
     const auto name = test_case["name"].as<std::string>();
     const auto nums = test_case["nums"].as<std::vector<int>>();
