@@ -1,4 +1,7 @@
+#include <algorithm>
+#include <functional>
 #include <interface.hpp>
+#include <limits>
 #include <vector>
 
 using namespace std;
