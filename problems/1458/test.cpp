@@ -1,11 +1,8 @@
 #include <catch2/catch_test_macros.hpp>
+#include <interface.hpp>
 #include <string>
 #include <test_cases.hpp>
 #include <vector>
-
-int solution(const std::vector<int>& nums1, const std::vector<int>& nums2) {
-  return nums1.size() + nums2.size();
-}
 
 TEST_CASE("1458. Max Dot Product of Two Subsequences") {
   for (const auto& test_case : test_cases) {
@@ -15,6 +12,6 @@ TEST_CASE("1458. Max Dot Product of Two Subsequences") {
     auto expected = test_case["expected"].as<int>();
 
     CAPTURE(name);
-    CHECK(solution(nums1, nums2) == expected);
+    CHECK(solution_cpp<int>(nums1, nums2) == expected);
   }
 }
