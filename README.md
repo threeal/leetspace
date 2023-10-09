@@ -22,6 +22,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Easy | [C++](./problems/0026/cpp/solution.cpp) |
 | [27. Remove Element](https://leetcode.com/problems/remove-element) | Easy | [C++](./problems/0027/cpp/solution.cpp) |
 | [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | Easy | [C++](./problems/0028/cpp/solution.cpp) |
+| [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | Medium | |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | [C++](./problems/0035/cpp/solution.cpp) |
 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [C++](./problems/0058/cpp/solution.cpp) |
 | [229. Majority Element II](https://leetcode.com/problems/majority-element-ii) | Medium | [C++](./problems/0229/cpp/solution.cpp) |
