@@ -14,7 +14,24 @@ class Solution {
       }
     }
 
-    while (a + 1 < b) {
+    while (a <= b) {
+      if (a + 1 >= b) {
+        if (a == b) {
+          if (nums[a] == target) {
+            return {a, a};
+          }
+        } else if (nums[a] == target) {
+          if (nums[b] == target) {
+            return {a, b};
+          } else {
+            return {a, a};
+          }
+        } else if (nums[b] == target) {
+          return {b, b};
+        }
+        return {-1, -1};
+      }
+
       const int c = a + (b - a) / 2;
       if (nums[c] == target) {
         int c1 = c;
