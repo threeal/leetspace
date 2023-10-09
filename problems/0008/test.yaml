@@ -1,0 +1,6 @@
+name: 8. String to Integer (atoi)
+solutions: [cpp]
+types:
+  inputs:
+    s: std::string
+  output: int

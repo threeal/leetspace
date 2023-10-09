@@ -1,0 +1,6 @@
+name: 1512. Number of Good Pairs
+solutions: [c, cpp]
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int

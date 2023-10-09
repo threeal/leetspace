@@ -1,0 +1,6 @@
+name: 5. Longest Palindromic Substring
+solutions: [c, cpp]
+types:
+  inputs:
+    input: std::string
+  output: std::string

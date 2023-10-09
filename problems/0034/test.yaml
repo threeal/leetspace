@@ -1,0 +1,7 @@
+name: 34. Find First and Last Position of Element in Sorted Array
+solutions: [cpp]
+types:
+  inputs:
+    nums: std::vector<int>
+    target: int
+  output: std::vector<int>

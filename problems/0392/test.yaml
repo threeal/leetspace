@@ -1,0 +1,7 @@
+name: 392. Is Subsequence
+solutions: [cpp]
+types:
+  inputs:
+    s: std::string
+    t: std::string
+  output: bool

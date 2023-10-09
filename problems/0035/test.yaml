@@ -1,0 +1,7 @@
+name: 35. Search Insert Position
+solutions: [cpp]
+types:
+  inputs:
+    nums: std::vector<int>
+    target: int
+  output: int

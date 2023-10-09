@@ -1,0 +1,7 @@
+name: 2235. Add Two Integers
+solutions: [c, cpp]
+types:
+  inputs:
+    num1: int
+    num2: int
+  output: int

@@ -1,0 +1,6 @@
+name: 387. First Unique Character in a String
+solutions: [cpp]
+types:
+  inputs:
+    s: std::string
+  output: int

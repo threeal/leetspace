@@ -1,0 +1,7 @@
+name: 27. Remove Element
+solutions: [cpp]
+types:
+  inputs:
+    nums: std::vector<int>
+    val: int
+  output: std::vector<int>

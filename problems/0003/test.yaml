@@ -1,0 +1,6 @@
+name: 3. Longest Substring Without Repeating Characters
+solutions: [cpp]
+types:
+  inputs:
+    s: std::string
+  output: int

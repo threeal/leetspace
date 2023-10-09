@@ -1,0 +1,6 @@
+name: 9. Palindrome Number
+solutions: [cpp]
+types:
+  inputs:
+    x: int
+  output: bool

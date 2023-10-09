@@ -1,0 +1,7 @@
+name: 880. Decoded String at Index
+solutions: [c, cpp]
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: std::string

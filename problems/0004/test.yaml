@@ -1,0 +1,7 @@
+name: 4. Median of Two Sorted Arrays
+solutions: [cpp]
+types:
+  inputs:
+    nums1: std::vector<int>
+    nums2: std::vector<int>
+  output: double
