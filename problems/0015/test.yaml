@@ -1,0 +1,6 @@
+name: 15. 3Sum
+solutions: [cpp]
+types:
+  inputs:
+    nums: std::vector<int>
+  output: std::vector<std::vector<int>>
