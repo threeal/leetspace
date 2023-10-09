@@ -1,10 +1,7 @@
 #include <catch2/catch_test_macros.hpp>
+#include <interface.hpp>
 #include <test_cases.hpp>
 #include <vector>
-
-std::vector<int> solution(const std::vector<int>&, int) {
-  return {};
-}
 
 TEST_CASE("34. Find First and Last Position of Element in Sorted Array") {
   for (const auto& test_case : test_cases) {
@@ -14,6 +11,6 @@ TEST_CASE("34. Find First and Last Position of Element in Sorted Array") {
     auto expected = test_case["expected"].as<std::vector<int>>();
 
     CAPTURE(name, nums, target);
-    CHECK(solution(nums, target) == expected);
+    CHECK(solution_cpp<std::vector<int>>(nums, target) == expected);
   }
 }
