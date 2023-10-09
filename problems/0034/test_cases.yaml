@@ -12,3 +12,8 @@
   nums: []
   target: 0
   expected: [-1, -1]
+
+- name: One Length
+  nums: [1]
+  target: 1
+  expected: [0, 0]

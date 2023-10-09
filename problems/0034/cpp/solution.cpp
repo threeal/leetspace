@@ -6,6 +6,14 @@ class Solution {
     int a = 0;
     int b = n - 1;
 
+    if (a == b) {
+      if (nums[a] == target) {
+        return {a, a};
+      } else {
+        return {-1, -1};
+      }
+    }
+
     while (a + 1 < b) {
       const int c = a + (b - a) / 2;
       if (nums[c] == target) {
