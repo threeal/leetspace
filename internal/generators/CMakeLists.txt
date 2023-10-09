@@ -31,7 +31,7 @@ macro(add_test_cases target)
   add_dependencies(test-cases-${id} test-cases-${id}-hpp)
 endmacro()
 
-function(generate_problem_test TARGET CONFIG)
+function(add_problem_test TARGET CONFIG)
   find_package(Python)
   if(NOT Python_FOUND)
     message(FATAL_ERROR "Could not find Python")
