@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <interface.hpp>
 #include <unordered_map>
 #include <vector>
@@ -9,5 +10,7 @@ using namespace std;
 template <>
 vector<int> solution_cpp(const std::vector<int>& nums) {
   auto nums_copy = nums;
-  return Solution().majorityElement(nums_copy);
+  auto res = Solution().majorityElement(nums_copy);
+  sort(res.begin(), res.end());
+  return res;
 }
