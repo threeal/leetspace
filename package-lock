@@ -13,9 +13,9 @@ CPMDeclarePackage(yaml-cpp
   GIT_TAG 0.8.0
   GITHUB_REPOSITORY jbeder/yaml-cpp
   SYSTEM YES
+  EXCLUDE_FROM_ALL YES
   OPTIONS
     "YAML_CPP_FORMAT_SOURCE OFF"
-  EXCLUDE_FROM_ALL YES
 )
 # Catch2
 CPMDeclarePackage(Catch2
