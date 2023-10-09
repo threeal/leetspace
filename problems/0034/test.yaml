@@ -5,3 +5,29 @@ types:
     nums: std::vector<int>
     target: int
   output: std::vector<int>
+
+test_cases:
+  - name: Example 1
+    nums: [5, 7, 7, 8, 8, 10]
+    target: 8
+    expected: [3, 4]
+
+  - name: Example 2
+    nums: [5, 7, 7, 8, 8, 10]
+    target: 6
+    expected: [-1, -1]
+
+  - name: Example 3
+    nums: []
+    target: 0
+    expected: [-1, -1]
+
+  - name: One Length
+    nums: [1]
+    target: 1
+    expected: [0, 0]
+
+  - name: Two Length
+    nums: [2, 2]
+    target: 2
+    expected: [0, 1]

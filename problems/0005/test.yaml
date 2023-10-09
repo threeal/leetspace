@@ -4,3 +4,12 @@ types:
   inputs:
     input: std::string
   output: std::string
+
+test_cases:
+  - name: Example 1
+    input: babad
+    expected: bab
+
+  - name: Example 2
+    input: cbbd
+    expected: bb

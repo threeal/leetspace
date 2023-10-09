@@ -4,3 +4,16 @@ types:
   inputs:
     s: std::string
   output: int
+
+test_cases:
+  - name: Example 1
+    s: leetcode
+    expected: 0
+
+  - name: Example 2
+    s: loveleetcode
+    expected: 2
+
+  - name: Example 3
+    s: aabb
+    expected: -1

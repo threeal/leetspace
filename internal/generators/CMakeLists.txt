@@ -49,7 +49,7 @@ function(add_problem_test TARGET CONFIG)
 
   # Add a test target that includes the generated C++ source file.
   add_executable(${TARGET} ${CMAKE_CURRENT_BINARY_DIR}/src/test.cpp)
-  target_link_libraries(${TARGET} PRIVATE Catch2::Catch2WithMain utils)
+  target_link_libraries(${TARGET} PRIVATE Catch2::Catch2WithMain utils yaml-cpp)
 
   add_dependencies(${TARGET} ${TARGET}-src)
   catch_discover_tests(${TARGET})

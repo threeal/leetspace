@@ -5,3 +5,34 @@ types:
     s: std::string
     k: int
   output: std::string
+
+test_cases:
+  - name: Example 1
+    s: leet2code3
+    k: 10
+    expected: o
+
+  - name: Example 2
+    s: ha22
+    k: 5
+    expected: h
+
+  - name: Example 3
+    s: a2345678999999999999999
+    k: 1
+    expected: a
+
+  - name: Index at the end
+    s: a23
+    k: 6
+    expected: a
+
+  - name: Large string 1
+    s: czjkk9elaqwiz7s6kgvl4gjixan3ky7jfdg3kyop3husw3fm289thisef8blt7a7zr5v5lhxqpntenvxnmlq7l34ay3jaayikjps
+    k: 768077956
+    expected: c
+
+  - name: Large string 2
+    s: ajx37nyx97niysdrzice4petvcvmcgqn282zicpbx6okybw93vhk782unctdbgmcjmbqn25rorktmu5ig2qn2y4xagtru2nehmsp
+    k: 976159153
+    expected: a

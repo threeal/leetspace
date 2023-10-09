@@ -5,3 +5,14 @@ types:
     s: std::string
     t: std::string
   output: bool
+
+test_cases:
+  - name: Example 1
+    s: abc
+    t: ahbgdc
+    expected: true
+
+  - name: Example 2
+    s: axc
+    t: ahbgdc
+    expected: false

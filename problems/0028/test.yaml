@@ -5,3 +5,14 @@ types:
     haystack: std::string
     needle: std::string
   output: int
+
+test_cases:
+  - name: Example 1
+    haystack: sadbutsad
+    needle: sad
+    expected: 0
+
+  - name: Example 2
+    haystack: leetcode
+    needle: leeto
+    expected: -1

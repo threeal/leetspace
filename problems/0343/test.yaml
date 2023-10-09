@@ -4,3 +4,20 @@ types:
   inputs:
     n: int
   output: int
+
+test_cases:
+  - name: Example 1
+    n: 2
+    expected: 1
+
+  - name: Example 2
+    n: 10
+    expected: 36
+
+  - name: Wrong case 1
+    n: 3
+    expected: 2
+
+  - name: Wrong case 2
+    n: 8
+    expected: 18
