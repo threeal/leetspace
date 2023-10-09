@@ -21,6 +21,9 @@ function(add_problem_test TARGET CONFIG)
   add_executable(${TARGET} ${OUTPUT})
   target_link_libraries(${TARGET} PRIVATE Catch2::Catch2WithMain utils yaml-cpp)
 
+  set_property(TARGET ${TARGET} PROPERTY CXX_STANDARD 20)
+  target_compile_options(${TARGET} PRIVATE -Werror -Wall -Wextra -Wpedantic)
+
   add_dependencies(${TARGET} ${TARGET}-src)
   catch_discover_tests(${TARGET})
 endfunction()
