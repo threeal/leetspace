@@ -6,18 +6,18 @@ types:
   output: bool
 
 test_cases:
-  - name: Example 1
+  example_1:
     colors: AAABABB
     expected: true
 
-  - name: Example 2
+  example_2:
     colors: AA
     expected: false
 
-  - name: Example 3
+  example_3:
     colors: ABBBBBBBAAA
     expected: false
 
-  - name: Duplicates at the end
+  duplicates_at_the_end:
     colors: AAAABBBB
     expected: false

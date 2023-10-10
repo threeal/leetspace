@@ -7,17 +7,17 @@ types:
   output: std::vector<int>
 
 test_cases:
-  - name: Example 1
+  example_1:
     nums: [2, 7, 11, 15]
     target: 9
     expected: [0, 1]
 
-  - name: Example 2
+  example_2:
     nums: [3, 2, 4]
     target: 6
     expected: [1, 2]
 
-  - name: Example 3
+  example_3:
     nums: [3, 3]
     target: 6
     expected: [0, 1]

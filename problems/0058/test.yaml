@@ -6,14 +6,14 @@ types:
   output: int
 
 test_cases:
-  - name: Example 1
+  example_1:
     s: Hello World
     expected: 5
 
-  - name: Example 2
+  example_2:
     s: "   fly me   to   the moon  "
     expected: 4
 
-  - name: Example 3
+  example_3:
     s: luffy is still joyboy
     expected: 6

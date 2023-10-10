@@ -6,30 +6,30 @@ types:
   output: int
 
 test_cases:
-  - name: Example 1
+  example_1:
     s: 42
     expected: 42
 
-  - name: Example 2
+  example_2:
     s: "   -42"
     expected: -42
 
-  - name: Example 3
+  example_3:
     s: 4193 with words
     expected: 4193
 
-  - name: Starts with word
+  starts_with_word:
     s: words and 987
     expected: 0
 
-  - name: Positive overflow
+  positive_overflow:
     s: +91283472332
     expected: 2147483647
 
-  - name: Negative overflow
+  negative_overflow:
     s: -91283472332
     expected: -2147483648
 
-  - name: Invalid sign
+  invalid_sign:
     s: +-12
     expected: -0

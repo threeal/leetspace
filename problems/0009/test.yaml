@@ -6,14 +6,14 @@ types:
   output: bool
 
 test_cases:
-  - name: Example 1
+  example_1:
     x: 121
     expected: true
 
-  - name: Example 2
+  example_2:
     x: -121
     expected: false
 
-  - name: Example 3
+  example_3:
     x: 10
     expected: false

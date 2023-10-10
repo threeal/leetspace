@@ -6,14 +6,14 @@ types:
   output: std::vector<int>
 
 test_cases:
-  - name: Example 1
+  example_1:
     nums: [3, 2, 3]
     expected: [3]
 
-  - name: Example 2
+  example_2:
     nums: [1]
     expected: [1]
 
-  - name: Example 3
+  example_3:
     nums: [1, 2]
     expected: [1, 2]

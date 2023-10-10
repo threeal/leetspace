@@ -6,14 +6,14 @@ types:
   output: int
 
 test_cases:
-  - name: Example 1
+  example_1:
     nums: [1, 2, 3, 1, 1, 3]
     expected: 4
 
-  - name: Example 2
+  example_2:
     nums: [1, 1, 1, 1]
     expected: 6
 
-  - name: Mat same values
+  example_3:
     nums: [1, 2, 3]
     expected: 0

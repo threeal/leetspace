@@ -6,10 +6,10 @@ types:
   output: std::string
 
 test_cases:
-  - name: Example 1
+  example_1:
     s: Let's take LeetCode contest
     expected: s'teL ekat edoCteeL tsetnoc
 
-  - name: Example 2
+  example_2:
     s: God Ding
     expected: doG gniD

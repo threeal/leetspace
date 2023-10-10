@@ -6,14 +6,14 @@ types:
   output: int
 
 test_cases:
-  - name: Example 1
+  example_1:
     s: abcabcbbabcabcbb
     expected: 3
 
-  - name: Example 2
+  example_2:
     s: bbbbb
     expected: 1
 
-  - name: Example 3
+  example_3:
     s: pwwkew
     expected: 3
