@@ -41,7 +41,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1458. Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences) | Hard | [C++](./problems/1458/cpp/solution.cpp) |
 | [1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | Easy | [C](./problems/1512/c/solution.c) [C++](./problems/1512/cpp/solution.cpp) |
 | [1658. Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) | Medium | [C++](./problems/1658/cpp/solution.cpp) |
-| [2009. Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous) | Hard | |
+| [2009. Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous) | Hard | [C++](./problems/2009/cpp/solution.cpp) |
 | [2038. Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color) | Medium | [C](./problems/2038/c/solution.c) [C++](./problems/2038/cpp/solution.cpp) |
 | [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers) | Easy | [C](./problems/2235/c/solution.c) [C++](./problems/2235/cpp/solution.cpp) |
 
