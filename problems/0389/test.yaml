@@ -4,14 +4,14 @@ types:
   inputs:
     s: std::string
     t: std::string
-  output: char
+  output: std::string
 
 test_cases:
   example_1:
     inputs:
       s: abcd
       t: abcde
-    output: 'e'
+    output: e
 
   example_2:
     inputs:
