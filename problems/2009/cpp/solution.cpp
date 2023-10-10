@@ -3,27 +3,32 @@ class Solution {
   int minOperations(vector<int>& nums) {
     sort(nums.begin(), nums.end());
 
-    int res = 0;
-
     const int n = nums.size();
-    for (int i = 0; i < n; ++i) {
-      int unchanged = 1;
-      int need_changed = n - 1;
 
-      int j = i + 1;
-      while (j < n && need_changed > 0) {
-        if (nums[j] != nums[j - 1]) {
-          need_changed -= nums[j] - nums[j - 1];
-          if (need_changed >= 0) {
-            ++unchanged;
-          }
-        }
-        ++j;
+    int a = 0;
+    int b = n - 1;
+
+    while (a < b) {
+      if (nums[b] - nums[a] < n) {
+        break;
       }
 
-      res = max(res, unchanged);
+      const int aa = nums[a + 1] - nums[a];
+      const int bb = nums[b] - nums[b - 1];
+      if (aa > bb) {
+        ++a;
+      } else {
+        --b;
+      }
     }
 
-    return n - res;
+    int duplicates = 0;
+    for (int i = a + 1; i <= b; ++i) {
+      if (nums[i] == nums[i - 1]) {
+        ++duplicates;
+      }
+    }
+
+    return n - (b - a + 1) + duplicates;
   }
 };
