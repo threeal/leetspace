@@ -8,16 +8,19 @@ types:
 
 test_cases:
   example_1:
-    s: PAYPALISHIRING
-    numRows: 3
-    expected: PAHNAPLSIIGYIR
+    inputs:
+      s: PAYPALISHIRING
+      numRows: 3
+    output: PAHNAPLSIIGYIR
 
   example_2:
-    s: PAYPALISHIRING
-    numRows: 4
-    expected: PINALSIGYAHRPI
+    inputs:
+      s: PAYPALISHIRING
+      numRows: 4
+    output: PINALSIGYAHRPI
 
   example_3:
-    s: A
-    numRows: 1
-    expected: A
+    inputs:
+      s: A
+      numRows: 1
+    output: A

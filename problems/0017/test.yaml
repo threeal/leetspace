@@ -7,13 +7,16 @@ types:
 
 test_cases:
   example_1:
-    digits: 23
-    expected: [ad, ae, af, bd, be, bf, cd, ce, cf]
+    inputs:
+      digits: 23
+    output: [ad, ae, af, bd, be, bf, cd, ce, cf]
 
   example_2:
-    digits: ""
-    expected: []
+    inputs:
+      digits: ""
+    output: []
 
   example_3:
-    digits: "2"
-    expected: [a, b, c]
+    inputs:
+      digits: "2"
+    output: [a, b, c]

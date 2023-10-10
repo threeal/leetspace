@@ -7,13 +7,16 @@ types:
 
 test_cases:
   example_1:
-    s: leetcode
-    expected: 0
+    inputs:
+      s: leetcode
+    output: 0
 
   example_2:
-    s: loveleetcode
-    expected: 2
+    inputs:
+      s: loveleetcode
+    output: 2
 
   example_3:
-    s: aabb
-    expected: -1
+    inputs:
+      s: aabb
+    output: -1

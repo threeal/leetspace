@@ -7,9 +7,11 @@ types:
 
 test_cases:
   example_1:
-    input: babad
-    expected: bab
+    inputs:
+      input: babad
+    output: bab
 
   example_2:
-    input: cbbd
-    expected: bb
+    inputs:
+      input: cbbd
+    output: bb

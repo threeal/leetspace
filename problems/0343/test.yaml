@@ -7,17 +7,21 @@ types:
 
 test_cases:
   example_1:
-    n: 2
-    expected: 1
+    inputs:
+      n: 2
+    output: 1
 
   example_2:
-    n: 10
-    expected: 36
+    inputs:
+      n: 10
+    output: 36
 
   wrong_case_1:
-    n: 3
-    expected: 2
+    inputs:
+      n: 3
+    output: 2
 
   wrong_case_2:
-    n: 8
-    expected: 18
+    inputs:
+      n: 8
+    output: 18

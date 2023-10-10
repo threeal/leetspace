@@ -7,13 +7,16 @@ types:
 
 test_cases:
   example_1:
-    nums: [3, 2, 3]
-    expected: [3]
+    inputs:
+      nums: [3, 2, 3]
+    output: [3]
 
   example_2:
-    nums: [1]
-    expected: [1]
+    inputs:
+      nums: [1]
+    output: [1]
 
   example_3:
-    nums: [1, 2]
-    expected: [1, 2]
+    inputs:
+      nums: [1, 2]
+    output: [1, 2]

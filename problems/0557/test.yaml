@@ -7,9 +7,11 @@ types:
 
 test_cases:
   example_1:
-    s: Let's take LeetCode contest
-    expected: s'teL ekat edoCteeL tsetnoc
+    inputs:
+      s: Let's take LeetCode contest
+    output: s'teL ekat edoCteeL tsetnoc
 
   example_2:
-    s: God Ding
-    expected: doG gniD
+    inputs:
+      s: God Ding
+    output: doG gniD

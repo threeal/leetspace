@@ -7,13 +7,16 @@ types:
 
 test_cases:
   example_1:
-    s: Hello World
-    expected: 5
+    inputs:
+      s: Hello World
+    output: 5
 
   example_2:
-    s: "   fly me   to   the moon  "
-    expected: 4
+    inputs:
+      s: "   fly me   to   the moon  "
+    output: 4
 
   example_3:
-    s: luffy is still joyboy
-    expected: 6
+    inputs:
+      s: luffy is still joyboy
+    output: 6

@@ -7,9 +7,11 @@ types:
 
 test_cases:
   example_1:
-    height: [1, 8, 6, 2, 5, 4, 8, 3, 7]
-    expected: 49
+    inputs:
+      height: [1, 8, 6, 2, 5, 4, 8, 3, 7]
+    output: 49
 
   example_2:
-    height: [1, 1]
-    expected: 1
+    inputs:
+      height: [1, 1]
+    output: 1

@@ -8,31 +8,37 @@ types:
 
 test_cases:
   example_1:
-    s: leet2code3
-    k: 10
-    expected: o
+    inputs:
+      s: leet2code3
+      k: 10
+    output: o
 
   example_2:
-    s: ha22
-    k: 5
-    expected: h
+    inputs:
+      s: ha22
+      k: 5
+    output: h
 
   example_3:
-    s: a2345678999999999999999
-    k: 1
-    expected: a
+    inputs:
+      s: a2345678999999999999999
+      k: 1
+    output: a
 
   index_at_the_end:
-    s: a23
-    k: 6
-    expected: a
+    inputs:
+      s: a23
+      k: 6
+    output: a
 
   large_string_1:
-    s: czjkk9elaqwiz7s6kgvl4gjixan3ky7jfdg3kyop3husw3fm289thisef8blt7a7zr5v5lhxqpntenvxnmlq7l34ay3jaayikjps
-    k: 768077956
-    expected: c
+    inputs:
+      s: czjkk9elaqwiz7s6kgvl4gjixan3ky7jfdg3kyop3husw3fm289thisef8blt7a7zr5v5lhxqpntenvxnmlq7l34ay3jaayikjps
+      k: 768077956
+    output: c
 
   large_string_2:
-    s: ajx37nyx97niysdrzice4petvcvmcgqn282zicpbx6okybw93vhk782unctdbgmcjmbqn25rorktmu5ig2qn2y4xagtru2nehmsp
-    k: 976159153
-    expected: a
+    inputs:
+      s: ajx37nyx97niysdrzice4petvcvmcgqn282zicpbx6okybw93vhk782unctdbgmcjmbqn25rorktmu5ig2qn2y4xagtru2nehmsp
+      k: 976159153
+    output: a

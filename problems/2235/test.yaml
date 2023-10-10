@@ -8,11 +8,13 @@ types:
 
 test_cases:
   example_1:
-    num1: 12
-    num2: 5
-    expected: 17
+    inputs:
+      num1: 12
+      num2: 5
+    output: 17
 
   example_2:
-    num1: -10
-    num2: 4
-    expected: -6
+    inputs:
+      num1: -10
+      num2: 4
+    output: -6

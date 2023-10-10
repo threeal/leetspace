@@ -7,13 +7,16 @@ types:
 
 test_cases:
   example_1:
-    x: 121
-    expected: true
+    inputs:
+      x: 121
+    output: true
 
   example_2:
-    x: -121
-    expected: false
+    inputs:
+      x: -121
+    output: false
 
   example_3:
-    x: 10
-    expected: false
+    inputs:
+      x: 10
+    output: false

@@ -8,16 +8,19 @@ types:
 
 test_cases:
   example_1:
-    nums1: [2, 1, -2, 5]
-    nums2: [3, 0, -6]
-    expected: 18
+    inputs:
+      nums1: [2, 1, -2, 5]
+      nums2: [3, 0, -6]
+    output: 18
 
   example_2:
-    nums1: [3, -2]
-    nums2: [2, -6, 7]
-    expected: 21
+    inputs:
+      nums1: [3, -2]
+      nums2: [2, -6, 7]
+    output: 21
 
   example_3:
-    nums1: [-1, -1]
-    nums2: [1, 1]
-    expected: -1
+    inputs:
+      nums1: [-1, -1]
+      nums2: [1, 1]
+    output: -1

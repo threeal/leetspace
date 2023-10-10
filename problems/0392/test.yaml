@@ -8,11 +8,13 @@ types:
 
 test_cases:
   example_1:
-    s: abc
-    t: ahbgdc
-    expected: true
+    inputs:
+      s: abc
+      t: ahbgdc
+    output: true
 
   example_2:
-    s: axc
-    t: ahbgdc
-    expected: false
+    inputs:
+      s: axc
+      t: ahbgdc
+    output: false

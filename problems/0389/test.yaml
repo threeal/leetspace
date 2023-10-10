@@ -8,11 +8,13 @@ types:
 
 test_cases:
   example_1:
-    s: abcd
-    t: abcde
-    expected: 'e'
+    inputs:
+      s: abcd
+      t: abcde
+    output: 'e'
 
   example_2:
-    s: ""
-    t: y
-    expected: y
+    inputs:
+      s: ""
+      t: y
+    output: y

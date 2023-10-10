@@ -7,29 +7,36 @@ types:
 
 test_cases:
   example_1:
-    s: 42
-    expected: 42
+    inputs:
+      s: 42
+    output: 42
 
   example_2:
-    s: "   -42"
-    expected: -42
+    inputs:
+      s: "   -42"
+    output: -42
 
   example_3:
-    s: 4193 with words
-    expected: 4193
+    inputs:
+      s: 4193 with words
+    output: 4193
 
   starts_with_word:
-    s: words and 987
-    expected: 0
+    inputs:
+      s: words and 987
+    output: 0
 
   positive_overflow:
-    s: +91283472332
-    expected: 2147483647
+    inputs:
+      s: +91283472332
+    output: 2147483647
 
   negative_overflow:
-    s: -91283472332
-    expected: -2147483648
+    inputs:
+      s: -91283472332
+    output: -2147483648
 
   invalid_sign:
-    s: +-12
-    expected: -0
+    inputs:
+      s: +-12
+    output: -0

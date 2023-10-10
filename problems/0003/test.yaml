@@ -7,13 +7,16 @@ types:
 
 test_cases:
   example_1:
-    s: abcabcbbabcabcbb
-    expected: 3
+    inputs:
+      s: abcabcbbabcabcbb
+    output: 3
 
   example_2:
-    s: bbbbb
-    expected: 1
+    inputs:
+      s: bbbbb
+    output: 1
 
   example_3:
-    s: pwwkew
-    expected: 3
+    inputs:
+      s: pwwkew
+    output: 3

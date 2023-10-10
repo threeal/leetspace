@@ -8,11 +8,13 @@ types:
 
 test_cases:
   example_1:
-    haystack: sadbutsad
-    needle: sad
-    expected: 0
+    inputs:
+      haystack: sadbutsad
+      needle: sad
+    output: 0
 
   example_2:
-    haystack: leetcode
-    needle: leeto
-    expected: -1
+    inputs:
+      haystack: leetcode
+      needle: leeto
+    output: -1

@@ -7,17 +7,21 @@ types:
 
 test_cases:
   example_1:
-    colors: AAABABB
-    expected: true
+    inputs:
+      colors: AAABABB
+    output: true
 
   example_2:
-    colors: AA
-    expected: false
+    inputs:
+      colors: AA
+    output: false
 
   example_3:
-    colors: ABBBBBBBAAA
-    expected: false
+    inputs:
+      colors: ABBBBBBBAAA
+    output: false
 
   duplicates_at_the_end:
-    colors: AAAABBBB
-    expected: false
+    inputs:
+      colors: AAAABBBB
+    output: false
