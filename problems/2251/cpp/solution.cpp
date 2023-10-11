@@ -2,8 +2,8 @@ class Solution {
  public:
   vector<int> fullBloomFlowers(vector<vector<int>>& flowers, vector<int>& people) {
     auto positions = people;
-    positions.erase(unique(positions.begin(), positions.end()), positions.end());
     sort(positions.begin(), positions.end());
+    positions.erase(unique(positions.begin(), positions.end()), positions.end());
 
     unordered_map<int, int> position_flowers;
 
