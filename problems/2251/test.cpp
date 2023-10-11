@@ -4,10 +4,6 @@
 #include <test_cases.hpp>
 #include <vector>
 
-std::vector<int> solution(const std::vector<std::vector<int>>&, const std::vector<int>&) {
-  return {};
-}
-
 TEST_CASE("2251. Number of Flowers in Full Bloom") {
   for (const auto& test_case : test_cases) {
     const auto name = test_case["name"].as<std::string>();
@@ -16,6 +12,6 @@ TEST_CASE("2251. Number of Flowers in Full Bloom") {
     const auto expected = test_case["expected"].as<std::vector<int>>();
 
     CAPTURE(name, flowers, people);
-    CHECK(solution(flowers, people) == expected);
+    CHECK(solution_cpp<std::vector<int>>(flowers, people) == expected);
   }
 }
