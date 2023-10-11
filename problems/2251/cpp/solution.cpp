@@ -9,20 +9,19 @@ class Solution {
     sort(flowers.begin(), flowers.end(), [](const auto& a, const auto& b) { return a[0] < b[0]; });
     auto flower = flowers.begin();
 
-    list<int> ends;
-    for (auto& [position, count] : positions) {
-      while (!ends.empty() && ends.front() < position) {
-        ends.pop_front();
-      }
+    vector<int> ends;
+    for (auto& position : positions) {
+      ends.erase(
+          remove_if(ends.begin(), ends.end(), [=](auto end) { return end < position.first; }), ends.end());
 
-      while (flower != flowers.end() && (*flower)[0] <= position) {
-        if ((*flower)[1] >= position) {
-          ends.insert(lower_bound(ends.begin(), ends.end(), (*flower)[1]), (*flower)[1]);
+      while (flower != flowers.end() && (*flower)[0] <= position.first) {
+        if ((*flower)[1] >= position.first) {
+          ends.push_back((*flower)[1]);
         }
         ++flower;
       }
 
-      count += ends.size();
+      position.second += ends.size();
     }
 
     for (auto& person : people) {
