@@ -3,7 +3,6 @@ import yaml
 
 with open(sys.argv[1], 'r') as config_file:
     config = yaml.safe_load(config_file)
-    name = config["name"]
 
     headers = {
         "<catch2/catch_test_macros.hpp>",
@@ -45,7 +44,7 @@ with open(sys.argv[1], 'r') as config_file:
             output.write("  },\n")
         output.write("};\n")
 
-        output.write("\nTEST_CASE(\"%s\") {\n" % name)
+        output.write("\nTEST_CASE(\"%s\") {\n" % config["name"])
         output.write("  for (const auto& [name, inputs, output] : test_cases) {\n")
 
         inputs = ", ".join(config["types"]["inputs"])
