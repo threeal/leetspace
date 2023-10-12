@@ -8,7 +8,7 @@ types:
 test_cases:
   example_1:
     inputs:
-      s: 42
+      s: "42"
     output: 42
 
   example_2:
@@ -18,25 +18,25 @@ test_cases:
 
   example_3:
     inputs:
-      s: 4193 with words
+      s: "4193 with words"
     output: 4193
 
   starts_with_word:
     inputs:
-      s: words and 987
+      s: "words and 987"
     output: 0
 
   positive_overflow:
     inputs:
-      s: +91283472332
+      s: "+91283472332"
     output: 2147483647
 
   negative_overflow:
     inputs:
-      s: -91283472332
+      s: "-91283472332"
     output: -2147483648
 
   invalid_sign:
     inputs:
-      s: +-12
+      s: "+-12"
     output: -0

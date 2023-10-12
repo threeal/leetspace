@@ -18,8 +18,12 @@ with open(sys.argv[1], 'r') as config_file:
             output.write("#include %s\n" % header)
 
         output.write("\nstruct TestCase {\n")
+        output.write("  struct Inputs {\n")
+        for v, t in config["types"]["inputs"].items():
+            output.write("    %s %s;\n" % (t, v))
+        output.write("  };\n\n")
         output.write("  std::string name;\n")
-        output.write("  YAML::Node inputs;\n")
+        output.write("  Inputs inputs;\n")
         output.write("  %s output;\n" % config["types"]["output"])
         output.write("};\n")
 
@@ -33,21 +37,21 @@ with open(sys.argv[1], 'r') as config_file:
             cfg = config["test_cases"][name]
             output.write("  {\n")
             output.write("    .name = \"%s\",\n" % name)
-            output.write("    .inputs = YAML::Load(R\"(\n")
-            output.write(yaml.dump(cfg["inputs"]))
-            output.write("    )\"),\n")
+            output.write("    .inputs = {\n")
+            for var, val in cfg["inputs"].items():
+                output.write("      .%s = %s,\n" % (var, dump(val)))
+            output.write("    },\n")
             output.write("    .output = %s\n" % dump(cfg["output"]))
             output.write("  },\n")
         output.write("};\n")
 
         output.write("\nTEST_CASE(\"%s\") {\n" % name)
-        output.write("  for (const auto& [name, data, output] : test_cases) {\n")
-
-        for v, t in config["types"]["inputs"].items():
-            output.write("    const auto %s = data[\"%s\"].as<%s>();\n" % (v, v, t))
+        output.write("  for (const auto& [name, inputs, output] : test_cases) {\n")
 
         inputs = ", ".join(config["types"]["inputs"])
-        output.write("\n    CAPTURE(name, %s);\n" % inputs)
+        output.write("    const auto [%s] = inputs;\n" % inputs)
+        output.write("    CAPTURE(name, %s);\n\n" % inputs)
+
         for lang in config["solutions"]:
             output.write("    CHECK(solution_%s<%s>(%s) == output);\n" % (lang, config["types"]["output"], inputs))
 
