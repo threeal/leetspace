@@ -19,7 +19,7 @@ with open(sys.argv[1], 'r') as config_file:
 
         output.write("\nstruct TestCase {\n")
         output.write("  std::string name;\n")
-        output.write("  YAML::Node data;\n")
+        output.write("  YAML::Node inputs;\n")
         output.write("  %s output;\n" % config["types"]["output"])
         output.write("};\n")
 
@@ -33,8 +33,8 @@ with open(sys.argv[1], 'r') as config_file:
             cfg = config["test_cases"][name]
             output.write("  {\n")
             output.write("    .name = \"%s\",\n" % name)
-            output.write("    .data = YAML::Load(R\"(\n")
-            output.write(yaml.dump(cfg))
+            output.write("    .inputs = YAML::Load(R\"(\n")
+            output.write(yaml.dump(cfg["inputs"]))
             output.write("    )\"),\n")
             output.write("    .output = %s\n" % dump(cfg["output"]))
             output.write("  },\n")
@@ -44,7 +44,7 @@ with open(sys.argv[1], 'r') as config_file:
         output.write("  for (const auto& [name, data, output] : test_cases) {\n")
 
         for v, t in config["types"]["inputs"].items():
-            output.write("    const auto %s = data[\"inputs\"][\"%s\"].as<%s>();\n" % (v, v, t))
+            output.write("    const auto %s = data[\"%s\"].as<%s>();\n" % (v, v, t))
 
         inputs = ", ".join(config["types"]["inputs"])
         output.write("\n    CAPTURE(name, %s);\n" % inputs)
