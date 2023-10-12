@@ -6,7 +6,6 @@ with open(sys.argv[1], 'r') as config_file:
 
     headers = {
         "<catch2/catch_test_macros.hpp>",
-        "<yaml-cpp/yaml.h>",
         "<interface.hpp>",
         "<string>",
         "<vector>"

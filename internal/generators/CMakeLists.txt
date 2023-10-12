@@ -19,7 +19,7 @@ function(add_problem_test TARGET CONFIG)
 
   # Add a test target that includes the generated C++ source file.
   add_executable(${TARGET} ${OUTPUT})
-  target_link_libraries(${TARGET} PRIVATE Catch2::Catch2WithMain utils yaml-cpp)
+  target_link_libraries(${TARGET} PRIVATE Catch2::Catch2WithMain utils)
 
   set_property(TARGET ${TARGET} PROPERTY CXX_STANDARD 20)
   target_compile_options(${TARGET} PRIVATE -Werror -Wall -Wextra -Wpedantic)
