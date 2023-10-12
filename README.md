@@ -44,6 +44,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2009. Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous) | Hard | [C++](./problems/2009/cpp/solution.cpp) |
 | [2038. Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color) | Medium | [C](./problems/2038/c/solution.c) [C++](./problems/2038/cpp/solution.cpp) |
 | [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers) | Easy | [C](./problems/2235/c/solution.c) [C++](./problems/2235/cpp/solution.cpp) |
+| [2251. Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom) | Hard | [C++](./problems/2251/cpp/solution.cpp) |
 
 ## License
 
