@@ -1,0 +1,22 @@
+name: 58. Length of Last Word
+solutions: [cpp]
+types:
+  inputs:
+    s: std::string
+  output: int
+
+test_cases:
+  example_1:
+    inputs:
+      s: Hello World
+    output: 5
+
+  example_2:
+    inputs:
+      s: "   fly me   to   the moon  "
+    output: 4
+
+  example_3:
+    inputs:
+      s: luffy is still joyboy
+    output: 6

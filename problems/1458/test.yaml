@@ -1,0 +1,26 @@
+name: 1458. Max Dot Product of Two Subsequences
+solutions: [cpp]
+types:
+  inputs:
+    nums1: std::vector<int>
+    nums2: std::vector<int>
+  output: int
+
+test_cases:
+  example_1:
+    inputs:
+      nums1: [2, 1, -2, 5]
+      nums2: [3, 0, -6]
+    output: 18
+
+  example_2:
+    inputs:
+      nums1: [3, -2]
+      nums2: [2, -6, 7]
+    output: 21
+
+  example_3:
+    inputs:
+      nums1: [-1, -1]
+      nums2: [1, 1]
+    output: -1

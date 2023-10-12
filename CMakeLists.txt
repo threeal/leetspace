@@ -5,7 +5,6 @@ project(leetspace)
 include(cmake/CPM.cmake)
 
 cpmgetpackage(Format.cmake)
-cpmgetpackage(yaml-cpp)
 
 enable_testing()
 

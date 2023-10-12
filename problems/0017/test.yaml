@@ -1,0 +1,22 @@
+name: 17. Letter Combinations of a Phone Number
+solutions: [cpp]
+types:
+  inputs:
+    digits: std::string
+  output: std::vector<std::string>
+
+test_cases:
+  example_1:
+    inputs:
+      digits: "23"
+    output: [ad, ae, af, bd, be, bf, cd, ce, cf]
+
+  example_2:
+    inputs:
+      digits: ""
+    output: []
+
+  example_3:
+    inputs:
+      digits: "2"
+    output: [a, b, c]

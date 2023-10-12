@@ -1,0 +1,17 @@
+name: 11. Container With Most Water
+solutions: [cpp]
+types:
+  inputs:
+    height: std::vector<int>
+  output: int
+
+test_cases:
+  example_1:
+    inputs:
+      height: [1, 8, 6, 2, 5, 4, 8, 3, 7]
+    output: 49
+
+  example_2:
+    inputs:
+      height: [1, 1]
+    output: 1

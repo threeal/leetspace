@@ -1,9 +1,0 @@
-- name: Example 1
-  s: abcd
-  t: abcde
-  expected: 'e'
-
-- name: Example 2
-  s: ""
-  t: y
-  expected: y

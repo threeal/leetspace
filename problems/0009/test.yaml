@@ -1,0 +1,22 @@
+name: 9. Palindrome Number
+solutions: [cpp]
+types:
+  inputs:
+    x: int
+  output: bool
+
+test_cases:
+  example_1:
+    inputs:
+      x: 121
+    output: true
+
+  example_2:
+    inputs:
+      x: -121
+    output: false
+
+  example_3:
+    inputs:
+      x: 10
+    output: false

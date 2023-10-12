@@ -1,0 +1,17 @@
+name: 557. Reverse Words in a String III
+solutions: [c, cpp]
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+test_cases:
+  example_1:
+    inputs:
+      s: Let's take LeetCode contest
+    output: s'teL ekat edoCteeL tsetnoc
+
+  example_2:
+    inputs:
+      s: God Ding
+    output: doG gniD

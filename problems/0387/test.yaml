@@ -1,0 +1,22 @@
+name: 387. First Unique Character in a String
+solutions: [cpp]
+types:
+  inputs:
+    s: std::string
+  output: int
+
+test_cases:
+  example_1:
+    inputs:
+      s: leetcode
+    output: 0
+
+  example_2:
+    inputs:
+      s: loveleetcode
+    output: 2
+
+  example_3:
+    inputs:
+      s: aabb
+    output: -1

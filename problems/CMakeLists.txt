@@ -25,16 +25,6 @@ macro(add_cpp_solution target)
   target_link_libraries(cpp-solution-${id} PRIVATE utils)
 endmacro()
 
-macro(add_problem_test target)
-  get_dir_name(id)
-  set(${target} test-${id})
-
-  add_executable(test-${id} ${ARGN})
-  target_set_cpp_standard(test-${id})
-  target_link_libraries(test-${id} PRIVATE Catch2::Catch2WithMain utils)
-  catch_discover_tests(test-${id})
-endmacro()
-
 file(GLOB problems LIST_DIRECTORIES true "*")
 foreach(problem ${problems})
   if(IS_DIRECTORY ${problem})

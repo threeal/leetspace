@@ -1,0 +1,26 @@
+name: 6. Zigzag Conversion
+solutions: [c, cpp]
+types:
+  inputs:
+    s: std::string
+    numRows: int
+  output: std::string
+
+test_cases:
+  example_1:
+    inputs:
+      s: PAYPALISHIRING
+      numRows: 3
+    output: PAHNAPLSIIGYIR
+
+  example_2:
+    inputs:
+      s: PAYPALISHIRING
+      numRows: 4
+    output: PINALSIGYAHRPI
+
+  example_3:
+    inputs:
+      s: A
+      numRows: 1
+    output: A

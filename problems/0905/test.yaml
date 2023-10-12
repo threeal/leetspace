@@ -1,0 +1,17 @@
+name: 905. Sort Array By Parity
+solutions: [cpp]
+types:
+  inputs:
+    nums: std::vector<int>
+  output: std::vector<int>
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [3, 1, 2, 4]
+    output: [2, 4, 3, 1]
+
+  example_2:
+    inputs:
+      nums: [0]
+    output: [0]

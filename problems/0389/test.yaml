@@ -1,0 +1,20 @@
+name: 389. Find the Difference
+solutions: [cpp]
+types:
+  inputs:
+    s: std::string
+    t: std::string
+  output: std::string
+
+test_cases:
+  example_1:
+    inputs:
+      s: abcd
+      t: abcde
+    output: e
+
+  example_2:
+    inputs:
+      s: ""
+      t: y
+    output: y

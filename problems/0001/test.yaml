@@ -1,0 +1,26 @@
+name: 1. Two Sum
+solutions: [c, cpp]
+types:
+  inputs:
+    nums: std::vector<int>
+    target: int
+  output: std::vector<int>
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 7, 11, 15]
+      target: 9
+    output: [0, 1]
+
+  example_2:
+    inputs:
+      nums: [3, 2, 4]
+      target: 6
+    output: [1, 2]
+
+  example_3:
+    inputs:
+      nums: [3, 3]
+      target: 6
+    output: [0, 1]

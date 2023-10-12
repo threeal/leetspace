@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <interface.hpp>
 #include <map>
 #include <vector>
@@ -9,5 +10,7 @@ using namespace std;
 template <>
 vector<vector<int>> solution_cpp(const vector<int>& nums) {
   auto nums_copy = nums;
-  return Solution().threeSum(nums_copy);
+  auto res = Solution().threeSum(nums_copy);
+  sort(res.begin(), res.end());
+  return res;
 }

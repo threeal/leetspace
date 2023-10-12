@@ -1,0 +1,17 @@
+name: 316. Remove Duplicate Letters
+solutions: [cpp]
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+test_cases:
+  example_1:
+    inputs:
+      s: bcabc
+    output: abc
+
+  example_2:
+    inputs:
+      s: cbacdcbc
+    output: acdb

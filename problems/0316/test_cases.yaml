@@ -1,7 +1,0 @@
-- name: Example 1
-  s: bcabc
-  expected: abc
-
-- name: Example 2
-  s: cbacdcbc
-  expected: acdb

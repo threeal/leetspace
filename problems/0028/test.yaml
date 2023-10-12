@@ -1,0 +1,20 @@
+name: 28. Find the Index of the First Occurrence in a String
+solutions: [cpp]
+types:
+  inputs:
+    haystack: std::string
+    needle: std::string
+  output: int
+
+test_cases:
+  example_1:
+    inputs:
+      haystack: sadbutsad
+      needle: sad
+    output: 0
+
+  example_2:
+    inputs:
+      haystack: leetcode
+      needle: leeto
+    output: -1

@@ -1,0 +1,44 @@
+name: 880. Decoded String at Index
+solutions: [c, cpp]
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: std::string
+
+test_cases:
+  example_1:
+    inputs:
+      s: leet2code3
+      k: 10
+    output: o
+
+  example_2:
+    inputs:
+      s: ha22
+      k: 5
+    output: h
+
+  example_3:
+    inputs:
+      s: a2345678999999999999999
+      k: 1
+    output: a
+
+  index_at_the_end:
+    inputs:
+      s: a23
+      k: 6
+    output: a
+
+  large_string_1:
+    inputs:
+      s: czjkk9elaqwiz7s6kgvl4gjixan3ky7jfdg3kyop3husw3fm289thisef8blt7a7zr5v5lhxqpntenvxnmlq7l34ay3jaayikjps
+      k: 768077956
+    output: c
+
+  large_string_2:
+    inputs:
+      s: ajx37nyx97niysdrzice4petvcvmcgqn282zicpbx6okybw93vhk782unctdbgmcjmbqn25rorktmu5ig2qn2y4xagtru2nehmsp
+      k: 976159153
+    output: a

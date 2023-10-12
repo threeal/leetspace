@@ -1,0 +1,27 @@
+name: 343. Integer Break
+solutions: [cpp]
+types:
+  inputs:
+    n: int
+  output: int
+
+test_cases:
+  example_1:
+    inputs:
+      n: 2
+    output: 1
+
+  example_2:
+    inputs:
+      n: 10
+    output: 36
+
+  wrong_case_1:
+    inputs:
+      n: 3
+    output: 2
+
+  wrong_case_2:
+    inputs:
+      n: 8
+    output: 18
