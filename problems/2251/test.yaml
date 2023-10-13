@@ -1,10 +1,13 @@
 name: 2251. Number of Flowers in Full Bloom
-solutions: [cpp]
+
 types:
   inputs:
     flowers: std::vector<std::vector<int>>
     people: std::vector<int>
   output: std::vector<int>
+
+solutions:
+  cpp:
 
 test_cases:
   example_1:

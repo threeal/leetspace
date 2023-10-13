@@ -1,10 +1,13 @@
 name: 1658. Minimum Operations to Reduce X to Zero
-solutions: [cpp]
+
 types:
   inputs:
     nums: std::vector<int>
     x: int
   output: int
+
+solutions:
+  cpp:
 
 test_cases:
   example_1:

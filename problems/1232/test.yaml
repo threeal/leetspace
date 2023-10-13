@@ -1,9 +1,12 @@
 name: 1232. Check If It Is a Straight Line
-solutions: [cpp]
+
 types:
   inputs:
     coordinates: std::vector<std::vector<int>>
   output: bool
+
+solutions:
+  cpp:
 
 test_cases:
   example_1:

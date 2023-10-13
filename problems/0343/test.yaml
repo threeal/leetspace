@@ -1,9 +1,12 @@
 name: 343. Integer Break
-solutions: [cpp]
+
 types:
   inputs:
     n: int
   output: int
+
+solutions:
+  cpp:
 
 test_cases:
   example_1:

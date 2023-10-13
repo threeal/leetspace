@@ -1,9 +1,12 @@
 name: 1048. Longest String Chain
-solutions: [cpp]
+
 types:
   inputs:
     words: std::vector<std::string>
   output: int
+
+solutions:
+  cpp:
 
 test_cases:
   example_1:

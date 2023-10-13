@@ -1,9 +1,13 @@
 name: 557. Reverse Words in a String III
-solutions: [c, cpp]
+
 types:
   inputs:
     s: std::string
   output: std::string
+
+solutions:
+  c:
+  cpp:
 
 test_cases:
   example_1:

@@ -1,9 +1,12 @@
 name: 17. Letter Combinations of a Phone Number
-solutions: [cpp]
+
 types:
   inputs:
     digits: std::string
   output: std::vector<std::string>
+
+solutions:
+  cpp:
 
 test_cases:
   example_1:

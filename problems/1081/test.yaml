@@ -1,9 +1,12 @@
 name: 1081. Smallest Subsequence of Distinct Characters
-solutions: [cpp]
+
 types:
   inputs:
     s: std::string
   output: std::string
+
+solutions:
+  cpp:
 
 test_cases:
   example_1:

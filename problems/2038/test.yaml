@@ -1,9 +1,13 @@
 name: 2038. Remove Colored Pieces if Both Neighbors are the Same Color
-solutions: [c, cpp]
+
 types:
   inputs:
     colors: std::string
   output: bool
+
+solutions:
+  c:
+  cpp:
 
 test_cases:
   example_1:

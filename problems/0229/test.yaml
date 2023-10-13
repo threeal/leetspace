@@ -1,9 +1,12 @@
 name: 229. Majority Element II
-solutions: [cpp]
+
 types:
   inputs:
     nums: std::vector<int>
   output: std::vector<int>
+
+solutions:
+  cpp:
 
 test_cases:
   example_1:
