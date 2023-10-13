@@ -43,15 +43,14 @@ with open(sys.argv[1], 'r') as config_file:
             output.write("  },\n")
         output.write("};\n")
 
-        output.write("\nTEST_CASE(\"%s\") {\n" % config["name"])
-        output.write("  for (const auto& [name, inputs, output] : test_cases) {\n")
-
-        inputs = ", ".join(config["types"]["inputs"])
-        output.write("    const auto [%s] = inputs;\n" % inputs)
-        output.write("    CAPTURE(name, %s);\n\n" % inputs)
-
         for lang in config["solutions"]:
+            output.write("\nTEST_CASE(\"%s (%s)\") {\n" % (config["name"], lang))
+            output.write("  for (const auto& [name, inputs, output] : test_cases) {\n")
+
+            inputs = ", ".join(config["types"]["inputs"])
+            output.write("    const auto [%s] = inputs;\n" % inputs)
+            output.write("    CAPTURE(name, %s);\n" % inputs)
             output.write("    CHECK(solution_%s<%s>(%s) == output);\n" % (lang, config["types"]["output"], inputs))
 
-        output.write("  }\n")
-        output.write("}\n")
+            output.write("  }\n")
+            output.write("}\n")
