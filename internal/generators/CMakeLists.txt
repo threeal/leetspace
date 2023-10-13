@@ -1,22 +1,29 @@
-function(add_problem_test TARGET CONFIG)
+function(add_python_generator TARGET)
+  cmake_parse_arguments(ARG "" "SCRIPT;INPUT;OUTPUT" "" ${ARGN})
+
   find_package(Python)
   if(NOT Python_FOUND)
     message(FATAL_ERROR "Could not find Python")
   endif()
 
-  # Generate a C++ source file from a YAML config files.
-  set(SCRIPT ${CMAKE_SOURCE_DIR}/internal/generators/generate_test.py)
-  set(INPUT ${CMAKE_CURRENT_SOURCE_DIR}/${CONFIG})
-  set(OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/src/test.cpp)
   add_custom_command(
-    OUTPUT ${OUTPUT}
-    COMMAND ${Python_EXECUTABLE} ${SCRIPT} ${INPUT} ${OUTPUT}
-    DEPENDS ${SCRIPT} ${INPUT}
+    OUTPUT ${ARG_OUTPUT}
+    COMMAND ${Python_EXECUTABLE} ${ARG_SCRIPT} ${ARG_INPUT} ${ARG_OUTPUT}
+    DEPENDS ${ARG_SCRIPT} ${ARG_INPUT}
     VERBATIM)
-  add_custom_target(${TARGET}-src DEPENDS ${OUTPUT})
+  add_custom_target(${TARGET} DEPENDS ${ARG_OUTPUT})
+endfunction()
+
+function(add_problem_test TARGET CONFIG)
+  # Generate a C++ source file from a YAML config files.
+  add_python_generator(
+    ${TARGET}-src
+    SCRIPT ${CMAKE_SOURCE_DIR}/internal/generators/generate_test.py
+    INPUT ${CMAKE_CURRENT_SOURCE_DIR}/${CONFIG}
+    OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/src/test.cpp)
 
   # Add a test target that includes the generated C++ source file.
-  add_executable(${TARGET} ${OUTPUT})
+  add_executable(${TARGET} ${CMAKE_CURRENT_BINARY_DIR}/src/test.cpp)
   target_link_libraries(${TARGET} PRIVATE Catch2::Catch2WithMain utils)
 
   set_property(TARGET ${TARGET} PROPERTY CXX_STANDARD 20)

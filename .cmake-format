@@ -1,5 +1,12 @@
 {
     "additional_commands": {
+        "add_python_generator": {
+            "kwargs": {
+                "SCRIPT": 1,
+                "INPUT": 1,
+                "OUTPUT": 1
+            }
+        },
         "file": {
         }
     },
