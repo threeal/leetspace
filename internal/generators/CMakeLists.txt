@@ -8,10 +8,8 @@ function(add_problem_test TARGET CONFIG)
   set(SCRIPT ${CMAKE_SOURCE_DIR}/internal/generators/generate_test.py)
   set(INPUT ${CMAKE_CURRENT_SOURCE_DIR}/${CONFIG})
   set(OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/src/test.cpp)
-  get_filename_component(OUTPUT_DIR ${OUTPUT} DIRECTORY)
   add_custom_command(
     OUTPUT ${OUTPUT}
-    COMMAND mkdir -p ${OUTPUT_DIR}
     COMMAND ${Python_EXECUTABLE} ${SCRIPT} ${INPUT} ${OUTPUT}
     DEPENDS ${SCRIPT} ${INPUT}
     VERBATIM)

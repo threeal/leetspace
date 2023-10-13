@@ -1,3 +1,4 @@
+import os
 import sys
 import yaml
 
@@ -10,6 +11,10 @@ with open(sys.argv[1], 'r') as config_file:
         "<string>",
         "<vector>"
     }
+
+    output_dir = os.path.dirname(sys.argv[2])
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
 
     with open(sys.argv[2], "w") as output:
         for header in headers:
