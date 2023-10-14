@@ -1,3 +1,5 @@
+#include <algorithm>
+#include <functional>
 #include <interface.hpp>
 #include <vector>
 
