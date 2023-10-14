@@ -7,7 +7,6 @@ with open(sys.argv[1], 'r') as config_file:
 
     headers = {
         "<catch2/catch_test_macros.hpp>",
-        "<interface.hpp>",
         "<string>",
         "<vector>"
     }
@@ -19,6 +18,12 @@ with open(sys.argv[1], 'r') as config_file:
     with open(sys.argv[2], "w") as output:
         for header in headers:
             output.write("#include %s\n" % header)
+
+        output.write("\n")
+        for lang in config["solutions"]:
+            output.write("%s solution_%s(" % (config["types"]["output"], lang))
+            output.write(", ".join([("const %s& %s" % (t, v)) for v, t in config["types"]["inputs"].items()]))
+            output.write(");\n")
 
         output.write("\nstruct TestCase {\n")
         output.write("  struct Inputs {\n")
@@ -55,7 +60,7 @@ with open(sys.argv[1], 'r') as config_file:
             inputs = ", ".join(config["types"]["inputs"])
             output.write("    const auto [%s] = inputs;\n" % inputs)
             output.write("    CAPTURE(name, %s);\n" % inputs)
-            output.write("    CHECK(solution_%s<%s>(%s) == output);\n" % (lang, config["types"]["output"], inputs))
+            output.write("    CHECK(solution_%s(%s) == output);\n" % (lang, inputs))
 
             output.write("  }\n")
             output.write("}\n")

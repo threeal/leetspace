@@ -1,4 +1,3 @@
-#include <interface.hpp>
 #include <stack>
 #include <string>
 #include <unordered_map>
@@ -8,7 +7,6 @@ using namespace std;
 
 #include "solution.cpp"
 
-template <>
 string solution_cpp(const string& s) {
   return Solution().removeDuplicateLetters(s);
 }

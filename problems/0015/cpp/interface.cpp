@@ -1,5 +1,4 @@
 #include <algorithm>
-#include <interface.hpp>
 #include <map>
 #include <vector>
 
@@ -7,7 +6,6 @@ using namespace std;
 
 #include "solution.cpp"
 
-template <>
 vector<vector<int>> solution_cpp(const vector<int>& nums) {
   auto nums_copy = nums;
   auto res = Solution().threeSum(nums_copy);
