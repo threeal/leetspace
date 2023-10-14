@@ -24,7 +24,7 @@ function(add_problem_test TARGET CONFIG)
 
   # Add a test target that includes the generated C++ source file.
   add_executable(${TARGET} ${CMAKE_CURRENT_BINARY_DIR}/src/test.cpp)
-  target_link_libraries(${TARGET} PRIVATE Catch2::Catch2WithMain utils)
+  target_link_libraries(${TARGET} PRIVATE Catch2::Catch2WithMain)
 
   set_property(TARGET ${TARGET} PROPERTY CXX_STANDARD 20)
   target_compile_options(${TARGET} PRIVATE -Werror -Wall -Wextra -Wpedantic)

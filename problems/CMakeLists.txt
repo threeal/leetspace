@@ -13,7 +13,6 @@ macro(add_c_solution target)
 
   add_library(c-solution-${id} ${ARGN})
   target_set_cpp_standard(c-solution-${id})
-  target_link_libraries(c-solution-${id} PRIVATE utils)
 endmacro()
 
 macro(add_cpp_solution target)
@@ -22,7 +21,6 @@ macro(add_cpp_solution target)
 
   add_library(cpp-solution-${id} ${ARGN})
   target_set_cpp_standard(cpp-solution-${id})
-  target_link_libraries(cpp-solution-${id} PRIVATE utils)
 endmacro()
 
 file(GLOB problems LIST_DIRECTORIES true "*")
