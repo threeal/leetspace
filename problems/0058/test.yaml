@@ -1,5 +1,5 @@
 name: 58. Length of Last Word
-solutions: [cpp]
+solutions: [c, cpp]
 types:
   inputs:
     s: std::string
@@ -20,3 +20,13 @@ test_cases:
     inputs:
       s: luffy is still joyboy
     output: 6
+
+  case_1:
+    inputs:
+      s: Today is a nice day
+    output: 3
+
+  case_2:
+    inputs:
+      s: a
+    output: 1
