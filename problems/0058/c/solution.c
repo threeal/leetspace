@@ -1,17 +1,17 @@
 int lengthOfLastWord(char* s) {
-  int b = 0;
-  int i = 0;
+  char* b = s;
+  char* i = s;
 
-  while (s[i] != 0) {
-    if (s[i] != ' ') {
+  while (*i != 0) {
+    if (*i != ' ') {
       b = i;
     }
     ++i;
   }
 
-  int a = b;
-  while (a >= 0) {
-    if (s[a] == ' ') {
+  char* a = b;
+  while (a >= s) {
+    if (*a == ' ') {
       break;
     }
     --a;
