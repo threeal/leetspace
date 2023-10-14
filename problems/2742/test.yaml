@@ -1,0 +1,20 @@
+name: 2742. Painting the Walls
+solutions: [cpp]
+types:
+  inputs:
+    cost: std::vector<int>
+    time: std::vector<int>
+  output: int
+
+test_cases:
+  example_1:
+    inputs:
+      cost: [1, 2, 3, 2]
+      time: [1, 2, 3, 2]
+    output: 3
+
+  example_2:
+    inputs:
+      cost: [2, 3, 4, 2]
+      time: [1, 1, 1, 1]
+    output: 4
