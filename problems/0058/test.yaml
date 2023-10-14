@@ -1,5 +1,5 @@
 name: 58. Length of Last Word
-solutions: [cpp]
+solutions: [c, cpp]
 types:
   inputs:
     s: std::string
