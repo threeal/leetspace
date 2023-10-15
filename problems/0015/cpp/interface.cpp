@@ -6,9 +6,8 @@ using namespace std;
 
 #include "solution.cpp"
 
-vector<vector<int>> solution_cpp(const vector<int>& nums) {
-  auto nums_copy = nums;
-  auto res = Solution().threeSum(nums_copy);
+vector<vector<int>> solution_cpp(vector<int> nums) {
+  auto res = Solution().threeSum(nums);
   sort(res.begin(), res.end());
   return res;
 }

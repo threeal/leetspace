@@ -4,6 +4,6 @@ using namespace std;
 
 #include "solution.cpp"
 
-int solution_cpp(const string& haystack, const string& needle) {
+int solution_cpp(string haystack, string needle) {
   return Solution().strStr(haystack, needle);
 }

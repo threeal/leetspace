@@ -4,7 +4,6 @@ using namespace std;
 
 #include "solution.cpp"
 
-string solution_cpp(const string& s, const int& k) {
-  Solution solution;
-  return solution.decodeAtIndex(s, k);
+string solution_cpp(string s, int k) {
+  return Solution().decodeAtIndex(s, k);
 }

@@ -22,7 +22,7 @@ with open(sys.argv[1], 'r') as config_file:
         output.write("\n")
         for lang in config["solutions"]:
             output.write("%s solution_%s(" % (config["types"]["output"], lang))
-            output.write(", ".join([("const %s& %s" % (t, v)) for v, t in config["types"]["inputs"].items()]))
+            output.write(", ".join([("%s %s" % (t, v)) for v, t in config["types"]["inputs"].items()]))
             output.write(");\n")
 
         output.write("\nstruct TestCase {\n")

@@ -5,7 +5,6 @@ using namespace std;
 
 #include "solution.cpp"
 
-vector<string> solution_cpp(const string& digits) {
-  Solution solution;
-  return solution.letterCombinations(digits);
+vector<string> solution_cpp(string digits) {
+  return Solution().letterCombinations(digits);
 }

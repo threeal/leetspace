@@ -4,6 +4,6 @@ using namespace std;
 
 #include "solution.cpp"
 
-int solution_cpp(const std::string& s) {
+int solution_cpp(string s) {
   return Solution().lengthOfLastWord(s);
 }

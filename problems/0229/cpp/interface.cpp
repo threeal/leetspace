@@ -6,9 +6,8 @@ using namespace std;
 
 #include "solution.cpp"
 
-vector<int> solution_cpp(const std::vector<int>& nums) {
-  auto nums_copy = nums;
-  auto res = Solution().majorityElement(nums_copy);
+vector<int> solution_cpp(vector<int> nums) {
+  auto res = Solution().majorityElement(nums);
   sort(res.begin(), res.end());
   return res;
 }
