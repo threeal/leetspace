@@ -1,0 +1,26 @@
+name: 1269. Number of Ways to Stay in the Same Place After Some Steps
+solutions: [cpp]
+types:
+  inputs:
+    steps: int
+    arrLen: int
+  output: int
+
+test_cases:
+  example_1:
+    inputs:
+      steps: 3
+      arrLen: 2
+    output: 4
+
+  example_2:
+    inputs:
+      steps: 2
+      arrLen: 4
+    output: 2
+
+  example_3:
+    inputs:
+      steps: 4
+      arrLen: 2
+    output: 8
