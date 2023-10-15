@@ -1,4 +1,7 @@
+#include <functional>
 #include <interface.hpp>
+
+using namespace std;
 
 #include "solution.cpp"
 
