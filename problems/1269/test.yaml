@@ -24,3 +24,9 @@ test_cases:
       steps: 4
       arrLen: 2
     output: 8
+
+  large_output:
+    inputs:
+      steps: 27
+      arrLen: 7
+    output: 127784505
