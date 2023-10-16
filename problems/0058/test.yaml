@@ -6,6 +6,7 @@ types:
   output: int
 
 solutions:
+  c:
   cpp:
     function: lengthOfLastWord
     includes: [string]
@@ -25,3 +26,13 @@ test_cases:
     inputs:
       s: luffy is still joyboy
     output: 6
+
+  case_1:
+    inputs:
+      s: Today is a nice day
+    output: 3
+
+  case_2:
+    inputs:
+      s: a
+    output: 1

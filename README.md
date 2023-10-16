@@ -24,7 +24,8 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | Easy | [C++](./problems/0028/cpp/solution.cpp) |
 | [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | Medium | [C++](./problems/0034/cpp/solution.cpp) |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | [C++](./problems/0035/cpp/solution.cpp) |
-| [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [C++](./problems/0058/cpp/solution.cpp) |
+| [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [C](./problems/0058/c/solution.c) [C++](./problems/0058/cpp/solution.cpp) |
+| [119. Pascal's Triangle II](pascals-triangle-ii) | Easy | [C++](./problems/0119/cpp/solution.cpp) |
 | [229. Majority Element II](https://leetcode.com/problems/majority-element-ii) | Medium | [C++](./problems/0229/cpp/solution.cpp) |
 | [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) | Medium | [C++](./problems/0316/cpp/solution.cpp) |
 | [343. Integer Break](https://leetcode.com/problems/integer-break) | Medium | [C++](./problems/0343/cpp/solution.cpp) |
@@ -38,6 +39,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain) | Medium | [C++](./problems/1048/cpp/solution.cpp) |
 | [1081. Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters) | Medium | [C++](./problems/1081/cpp/solution.cpp) |
 | [1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line) | Easy | [C++](./problems/1232/cpp/solution.cpp) |
+| [1269. Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps) | Hard | [C++](./problems/1269/cpp/solution.cpp) |
 | [1337. The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix) | Easy | [C++](./problems/1337/cpp/solution.cpp) |
 | [1458. Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences) | Hard | [C++](./problems/1458/cpp/solution.cpp) |
 | [1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | Easy | [C](./problems/1512/c/solution.c) [C++](./problems/1512/cpp/solution.cpp) |
@@ -46,6 +48,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2038. Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color) | Medium | [C](./problems/2038/c/solution.c) [C++](./problems/2038/cpp/solution.cpp) |
 | [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers) | Easy | [C](./problems/2235/c/solution.c) [C++](./problems/2235/cpp/solution.cpp) |
 | [2251. Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom) | Hard | [C++](./problems/2251/cpp/solution.cpp) |
+| [2742. Painting the Walls](https://leetcode.com/problems/painting-the-walls) | Hard | [C++](./problems/2742/cpp/solution.cpp) |
 
 ## License
 
