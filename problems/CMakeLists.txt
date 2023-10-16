@@ -15,14 +15,6 @@ macro(add_c_solution target)
   target_set_cpp_standard(c-solution-${id})
 endmacro()
 
-macro(add_cpp_solution target)
-  get_dir_name(id)
-  set(${target} cpp-solution-${id})
-
-  add_library(cpp-solution-${id} ${ARGN})
-  target_set_cpp_standard(cpp-solution-${id})
-endmacro()
-
 file(GLOB problems LIST_DIRECTORIES true "*")
 foreach(problem ${problems})
   if(IS_DIRECTORY ${problem})
