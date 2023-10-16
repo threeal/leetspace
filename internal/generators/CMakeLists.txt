@@ -1,15 +1,3 @@
-function(add_python_generator)
-  cmake_parse_arguments(ARG "" "SCRIPT;INPUT;OUTPUT" "" ${ARGN})
-
-  find_package(Python REQUIRED)
-
-  add_custom_command(
-    OUTPUT ${ARG_OUTPUT}
-    COMMAND ${Python_EXECUTABLE} ${ARG_SCRIPT} ${ARG_INPUT} ${ARG_OUTPUT}
-    DEPENDS ${ARG_SCRIPT} ${ARG_INPUT}
-    VERBATIM)
-endfunction()
-
 function(generate_test_src)
   cmake_parse_arguments(ARG "" "CONFIG;OUTDIR" "" ${ARGN})
 
@@ -17,7 +5,7 @@ function(generate_test_src)
   set(SCRIPT ${CMAKE_SOURCE_DIR}/internal/generators/generate_test.py)
 
   add_custom_command(
-    OUTPUT ${ARG_OUTDIR}/test.cpp
+    OUTPUT ${ARG_OUTDIR}/solution_cpp.cpp ${ARG_OUTDIR}/test.cpp
     COMMAND ${Python_EXECUTABLE} ${SCRIPT} ${ARG_CONFIG} ${ARG_OUTDIR}
     DEPENDS ${SCRIPT} ${ARG_CONFIG}
     VERBATIM)
@@ -26,10 +14,6 @@ endfunction()
 function(add_problem_test TARGET CONFIG)
   # Generate a C++ test source file from a YAML config files.
   generate_test_src(CONFIG ${CMAKE_CURRENT_SOURCE_DIR}/${CONFIG} OUTDIR ${CMAKE_CURRENT_BINARY_DIR}/src)
-  add_python_generator(
-    SCRIPT ${CMAKE_SOURCE_DIR}/internal/generators/generate_solution_cpp.py
-    INPUT ${CMAKE_CURRENT_SOURCE_DIR}/${CONFIG}
-    OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/src/solution_cpp.cpp)
 
   # Add a test target that includes the generated C++ source file.
   add_executable(${TARGET} ${CMAKE_CURRENT_BINARY_DIR}/src/test.cpp ${CMAKE_CURRENT_BINARY_DIR}/src/solution_cpp.cpp)
