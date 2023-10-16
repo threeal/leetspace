@@ -11,11 +11,10 @@ with open(sys.argv[1], 'r') as config_file:
         "<vector>"
     }
 
-    output_dir = os.path.dirname(sys.argv[2])
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
+    if not os.path.exists(sys.argv[2]):
+        os.makedirs(sys.argv[2])
 
-    with open(sys.argv[2], "w") as output:
+    with open(os.path.join(sys.argv[2], "test.cpp"), "w") as output:
         for header in headers:
             output.write("#include %s\n" % header)
 
