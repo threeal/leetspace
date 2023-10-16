@@ -1,10 +1,7 @@
 function(add_python_generator)
   cmake_parse_arguments(ARG "" "SCRIPT;INPUT;OUTPUT" "" ${ARGN})
 
-  find_package(Python)
-  if(NOT Python_FOUND)
-    message(FATAL_ERROR "Could not find Python")
-  endif()
+  find_package(Python REQUIRED)
 
   add_custom_command(
     OUTPUT ${ARG_OUTPUT}
@@ -16,12 +13,9 @@ endfunction()
 function(generate_test_src)
   cmake_parse_arguments(ARG "" "CONFIG;OUTPUT" "" ${ARGN})
 
-  find_package(Python)
-  if(NOT Python_FOUND)
-    message(FATAL_ERROR "Could not find Python")
-  endif()
-
+  find_package(Python REQUIRED)
   set(SCRIPT ${CMAKE_SOURCE_DIR}/internal/generators/generate_test.py)
+
   add_custom_command(
     OUTPUT ${ARG_OUTPUT}
     COMMAND ${Python_EXECUTABLE} ${SCRIPT} ${ARG_CONFIG} ${ARG_OUTPUT}
