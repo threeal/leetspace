@@ -1,4 +1,4 @@
-function(add_python_generator TARGET)
+function(add_python_generator)
   cmake_parse_arguments(ARG "" "SCRIPT;INPUT;OUTPUT" "" ${ARGN})
 
   find_package(Python)
@@ -11,18 +11,15 @@ function(add_python_generator TARGET)
     COMMAND ${Python_EXECUTABLE} ${ARG_SCRIPT} ${ARG_INPUT} ${ARG_OUTPUT}
     DEPENDS ${ARG_SCRIPT} ${ARG_INPUT}
     VERBATIM)
-  add_custom_target(${TARGET} DEPENDS ${ARG_OUTPUT})
 endfunction()
 
 function(add_problem_test TARGET CONFIG)
   # Generate a C++ test source file from a YAML config files.
   add_python_generator(
-    ${TARGET}-test-src
     SCRIPT ${CMAKE_SOURCE_DIR}/internal/generators/generate_test.py
     INPUT ${CMAKE_CURRENT_SOURCE_DIR}/${CONFIG}
     OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/src/test.cpp)
   add_python_generator(
-    ${TARGET}-solution-cpp-src
     SCRIPT ${CMAKE_SOURCE_DIR}/internal/generators/generate_solution_cpp.py
     INPUT ${CMAKE_CURRENT_SOURCE_DIR}/${CONFIG}
     OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/src/solution_cpp.cpp)
@@ -34,6 +31,5 @@ function(add_problem_test TARGET CONFIG)
   set_property(TARGET ${TARGET} PROPERTY CXX_STANDARD 20)
   target_compile_options(${TARGET} PRIVATE -Werror -Wall -Wextra -Wpedantic)
 
-  add_dependencies(${TARGET} ${TARGET}-test-src ${TARGET}-solution-cpp-src)
   catch_discover_tests(${TARGET})
 endfunction()
