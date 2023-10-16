@@ -13,12 +13,25 @@ function(add_python_generator)
     VERBATIM)
 endfunction()
 
+function(generate_test_src)
+  cmake_parse_arguments(ARG "" "CONFIG;OUTPUT" "" ${ARGN})
+
+  find_package(Python)
+  if(NOT Python_FOUND)
+    message(FATAL_ERROR "Could not find Python")
+  endif()
+
+  set(SCRIPT ${CMAKE_SOURCE_DIR}/internal/generators/generate_test.py)
+  add_custom_command(
+    OUTPUT ${ARG_OUTPUT}
+    COMMAND ${Python_EXECUTABLE} ${SCRIPT} ${ARG_CONFIG} ${ARG_OUTPUT}
+    DEPENDS ${SCRIPT} ${ARG_CONFIG}
+    VERBATIM)
+endfunction()
+
 function(add_problem_test TARGET CONFIG)
   # Generate a C++ test source file from a YAML config files.
-  add_python_generator(
-    SCRIPT ${CMAKE_SOURCE_DIR}/internal/generators/generate_test.py
-    INPUT ${CMAKE_CURRENT_SOURCE_DIR}/${CONFIG}
-    OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/src/test.cpp)
+  generate_test_src(CONFIG ${CMAKE_CURRENT_SOURCE_DIR}/${CONFIG} OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/src/test.cpp)
   add_python_generator(
     SCRIPT ${CMAKE_SOURCE_DIR}/internal/generators/generate_solution_cpp.py
     INPUT ${CMAKE_CURRENT_SOURCE_DIR}/${CONFIG}
