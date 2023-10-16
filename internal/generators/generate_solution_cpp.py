@@ -18,7 +18,7 @@ with open(sys.argv[1], 'r') as config_file:
                     output.write("#include <%s>\n" % include)
                 output.write("\nusing namespace std;\n\n")
 
-            with open(os.path.join(os.path.dirname(sys.argv[1]), "cpp/solution.cpp"), "r") as source:
+            with open(os.path.join(os.path.dirname(sys.argv[1]), "solution.cpp"), "r") as source:
                 for line in source.readlines():
                     output.write(line)
 
