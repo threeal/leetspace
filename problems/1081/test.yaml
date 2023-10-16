@@ -1,9 +1,18 @@
 name: 1081. Smallest Subsequence of Distinct Characters
-solutions: [cpp]
+
 types:
   inputs:
     s: std::string
   output: std::string
+
+solutions:
+  cpp:
+    function: smallestSubsequence
+    includes:
+      - stack
+      - string
+      - unordered_map
+      - unordered_set
 
 test_cases:
   example_1:

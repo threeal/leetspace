@@ -1,9 +1,14 @@
 name: 8. String to Integer (atoi)
-solutions: [cpp]
+
 types:
   inputs:
     s: std::string
   output: int
+
+solutions:
+  cpp:
+    function: myAtoi
+    includes: [string]
 
 test_cases:
   example_1:

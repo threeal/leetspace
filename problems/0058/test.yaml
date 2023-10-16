@@ -1,9 +1,15 @@
 name: 58. Length of Last Word
-solutions: [c, cpp]
+
 types:
   inputs:
     s: std::string
   output: int
+
+solutions:
+  c:
+  cpp:
+    function: lengthOfLastWord
+    includes: [string]
 
 test_cases:
   example_1:

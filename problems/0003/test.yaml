@@ -1,9 +1,14 @@
 name: 3. Longest Substring Without Repeating Characters
-solutions: [cpp]
+
 types:
   inputs:
     s: std::string
   output: int
+
+solutions:
+  cpp:
+    function: lengthOfLongestSubstring
+    includes: [string, unordered_set]
 
 test_cases:
   example_1:

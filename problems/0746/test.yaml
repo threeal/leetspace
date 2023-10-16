@@ -1,9 +1,17 @@
 name: 746. Min Cost Climbing Stairs
-solutions: [cpp]
+
 types:
   inputs:
     cost: std::vector<int>
   output: int
+
+solutions:
+  cpp:
+    function: minCostClimbingStairs
+    includes:
+      - algorithm
+      - functional
+      - vector
 
 test_cases:
   example_1:

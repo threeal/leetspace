@@ -1,9 +1,17 @@
 name: 1048. Longest String Chain
-solutions: [cpp]
+
 types:
   inputs:
     words: std::vector<std::string>
   output: int
+
+solutions:
+  cpp:
+    function: longestStrChain
+    includes:
+      - string
+      - unordered_map
+      - vector
 
 test_cases:
   example_1:

@@ -1,9 +1,14 @@
 name: 9. Palindrome Number
-solutions: [cpp]
+
 types:
   inputs:
     x: int
   output: bool
+
+solutions:
+  cpp:
+    function: isPalindrome
+    includes: [list]
 
 test_cases:
   example_1:

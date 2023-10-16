@@ -1,9 +1,15 @@
 name: 229. Majority Element II
-solutions: [cpp]
+
 types:
   inputs:
     nums: std::vector<int>
   output: std::vector<int>
+
+solutions:
+  cpp:
+    function: majorityElement
+    includes: [algorithm, unordered_map, vector]
+    output: "[&]{ sort(output.begin(), output.end()); return output; }()"
 
 test_cases:
   example_1:

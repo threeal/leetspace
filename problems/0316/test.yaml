@@ -1,9 +1,18 @@
 name: 316. Remove Duplicate Letters
-solutions: [cpp]
+
 types:
   inputs:
     s: std::string
   output: std::string
+
+solutions:
+  cpp:
+    function: removeDuplicateLetters
+    includes:
+      - stack
+      - string
+      - unordered_map
+      - unordered_set
 
 test_cases:
   example_1:

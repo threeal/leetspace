@@ -1,9 +1,15 @@
 name: 26. Remove Duplicates from Sorted Array
-solutions: [cpp]
+
 types:
   inputs:
     nums: std::vector<int>
   output: std::vector<int>
+
+solutions:
+  cpp:
+    function: removeDuplicates
+    includes: [unordered_set, vector]
+    output: std::vector(nums.begin(), nums.begin() + output)
 
 test_cases:
   example_1:

@@ -1,9 +1,17 @@
 name: 2009. Minimum Number of Operations to Make Array Continuous
-solutions: [cpp]
+
 types:
   inputs:
     nums: std::vector<int>
   output: int
+
+solutions:
+  cpp:
+    function: minOperations
+    includes:
+      - algorithm
+      - limits
+      - vector
 
 test_cases:
   example_1:

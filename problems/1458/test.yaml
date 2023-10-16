@@ -1,10 +1,19 @@
 name: 1458. Max Dot Product of Two Subsequences
-solutions: [cpp]
+
 types:
   inputs:
     nums1: std::vector<int>
     nums2: std::vector<int>
   output: int
+
+solutions:
+  cpp:
+    function: maxDotProduct
+    includes:
+      - algorithm
+      - functional
+      - limits
+      - vector
 
 test_cases:
   example_1:

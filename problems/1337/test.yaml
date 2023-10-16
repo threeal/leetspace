@@ -1,10 +1,15 @@
 name: 1337. The K Weakest Rows in a Matrix
-solutions: [cpp]
+
 types:
   inputs:
     mat: std::vector<std::vector<int>>
     k: int
   output: std::vector<int>
+
+solutions:
+  cpp:
+    function: kWeakestRows
+    includes: [map, set, vector]
 
 test_cases:
   example_1:

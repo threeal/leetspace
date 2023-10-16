@@ -1,10 +1,16 @@
 name: 27. Remove Element
-solutions: [cpp]
+
 types:
   inputs:
     nums: std::vector<int>
     val: int
   output: std::vector<int>
+
+solutions:
+  cpp:
+    function: removeElement
+    includes: [vector]
+    output: std::vector(nums.begin(), nums.begin() + output)
 
 test_cases:
   example_1:

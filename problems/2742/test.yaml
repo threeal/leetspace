@@ -1,10 +1,18 @@
 name: 2742. Painting the Walls
-solutions: [cpp]
+
 types:
   inputs:
     cost: std::vector<int>
     time: std::vector<int>
   output: int
+
+solutions:
+  cpp:
+    function: paintWalls
+    includes:
+      - algorithm
+      - functional
+      - vector
 
 test_cases:
   example_1:

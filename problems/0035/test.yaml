@@ -1,10 +1,15 @@
 name: 35. Search Insert Position
-solutions: [cpp]
+
 types:
   inputs:
     nums: std::vector<int>
     target: int
   output: int
+
+solutions:
+  cpp:
+    function: searchInsert
+    includes: [vector]
 
 test_cases:
   example_1:

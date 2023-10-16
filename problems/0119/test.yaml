@@ -1,9 +1,14 @@
 name: 119. Pascal's Triangle II
-solutions: [cpp]
+
 types:
   inputs:
     rowIndex: int
   output: std::vector<int>
+
+solutions:
+  cpp:
+    function: getRow
+    includes: [functional, vector]
 
 test_cases:
   example_1:

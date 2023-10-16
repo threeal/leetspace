@@ -1,9 +1,15 @@
 name: 5. Longest Palindromic Substring
-solutions: [c, cpp]
+
 types:
   inputs:
     input: std::string
   output: std::string
+
+solutions:
+  c:
+  cpp:
+    function: longestPalindrome
+    includes: [string]
 
 test_cases:
   example_1:

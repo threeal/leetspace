@@ -1,9 +1,14 @@
 name: 905. Sort Array By Parity
-solutions: [cpp]
+
 types:
   inputs:
     nums: std::vector<int>
   output: std::vector<int>
+
+solutions:
+  cpp:
+    function: sortArrayByParity
+    includes: [list, vector]
 
 test_cases:
   example_1:
