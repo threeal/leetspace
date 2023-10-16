@@ -7,6 +7,8 @@ types:
 
 solutions:
   cpp:
+    function: myAtoi
+    includes: [string]
 
 test_cases:
   example_1:

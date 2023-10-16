@@ -8,6 +8,8 @@ types:
 
 solutions:
   cpp:
+    function: kWeakestRows
+    includes: [map, set, vector]
 
 test_cases:
   example_1:

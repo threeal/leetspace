@@ -15,20 +15,25 @@ function(add_python_generator TARGET)
 endfunction()
 
 function(add_problem_test TARGET CONFIG)
-  # Generate a C++ source file from a YAML config files.
+  # Generate a C++ test source file from a YAML config files.
   add_python_generator(
-    ${TARGET}-src
+    ${TARGET}-test-src
     SCRIPT ${CMAKE_SOURCE_DIR}/internal/generators/generate_test.py
     INPUT ${CMAKE_CURRENT_SOURCE_DIR}/${CONFIG}
     OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/src/test.cpp)
+  add_python_generator(
+    ${TARGET}-solution-cpp-src
+    SCRIPT ${CMAKE_SOURCE_DIR}/internal/generators/generate_solution_cpp.py
+    INPUT ${CMAKE_CURRENT_SOURCE_DIR}/${CONFIG}
+    OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/src/solution_cpp.cpp)
 
   # Add a test target that includes the generated C++ source file.
-  add_executable(${TARGET} ${CMAKE_CURRENT_BINARY_DIR}/src/test.cpp)
+  add_executable(${TARGET} ${CMAKE_CURRENT_BINARY_DIR}/src/test.cpp ${CMAKE_CURRENT_BINARY_DIR}/src/solution_cpp.cpp)
   target_link_libraries(${TARGET} PRIVATE Catch2::Catch2WithMain)
 
   set_property(TARGET ${TARGET} PROPERTY CXX_STANDARD 20)
   target_compile_options(${TARGET} PRIVATE -Werror -Wall -Wextra -Wpedantic)
 
-  add_dependencies(${TARGET} ${TARGET}-src)
+  add_dependencies(${TARGET} ${TARGET}-test-src ${TARGET}-solution-cpp-src)
   catch_discover_tests(${TARGET})
 endfunction()

@@ -7,6 +7,9 @@ types:
 
 solutions:
   cpp:
+    function: majorityElement
+    includes: [algorithm, unordered_map, vector]
+    output: "[&]{ sort(output.begin(), output.end()); return output; }()"
 
 test_cases:
   example_1:

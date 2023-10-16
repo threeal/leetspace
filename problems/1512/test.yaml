@@ -8,6 +8,8 @@ types:
 solutions:
   c:
   cpp:
+    function: numIdenticalPairs
+    includes: [vector]
 
 test_cases:
   example_1:

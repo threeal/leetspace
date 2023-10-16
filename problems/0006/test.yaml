@@ -9,6 +9,8 @@ types:
 solutions:
   c:
   cpp:
+    function: convert
+    includes: [string]
 
 test_cases:
   example_1:

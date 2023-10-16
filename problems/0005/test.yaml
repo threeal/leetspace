@@ -8,6 +8,8 @@ types:
 solutions:
   c:
   cpp:
+    function: longestPalindrome
+    includes: [string]
 
 test_cases:
   example_1:

@@ -9,6 +9,8 @@ types:
 solutions:
   c:
   cpp:
+    function: decodeAtIndex
+    includes: [string]
 
 test_cases:
   example_1:

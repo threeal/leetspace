@@ -8,6 +8,12 @@ types:
 
 solutions:
   cpp:
+    function: maxDotProduct
+    includes:
+      - algorithm
+      - functional
+      - limits
+      - vector
 
 test_cases:
   example_1:

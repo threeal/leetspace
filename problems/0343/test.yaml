@@ -7,6 +7,8 @@ types:
 
 solutions:
   cpp:
+    function: integerBreak
+    includes: [vector]
 
 test_cases:
   example_1:

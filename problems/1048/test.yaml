@@ -7,6 +7,11 @@ types:
 
 solutions:
   cpp:
+    function: longestStrChain
+    includes:
+      - string
+      - unordered_map
+      - vector
 
 test_cases:
   example_1:

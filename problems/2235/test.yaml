@@ -9,6 +9,7 @@ types:
 solutions:
   c:
   cpp:
+    function: sum
 
 test_cases:
   example_1:
