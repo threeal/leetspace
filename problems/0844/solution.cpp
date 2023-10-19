@@ -28,14 +28,12 @@ class Solution {
 
   // This function will increment the iterator as long as it still contains the backspace character (`#`).
   void shift_backspace(string::reverse_iterator& it, string::reverse_iterator end) {
+    int skip = 0;
     while (it != end && *it == '#') {
-      int skip = 0;
-      while (it != end && *it == '#') {
-        ++skip;
-        ++it;
-      }
+      ++skip;
+      ++it;
 
-      while (it != end && skip > 0) {
+      while (skip > 0 && it != end && *it != '#') {
         --skip;
         ++it;
       }

@@ -29,3 +29,9 @@ test_cases:
       s: a#c
       t: b
     output: false
+
+  case_1:
+    inputs:
+      s: bxj##tw
+      t: bxo#j##tw
+    output: true
