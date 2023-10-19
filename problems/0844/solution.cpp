@@ -8,7 +8,7 @@ class Solution {
     const auto te = t.rend();
 
     // Iterating through each string backwards.
-    while (ss != se && tt != te) {
+    while (true) {
       // Shift both iterators to skip the backspace character.
       shift_backspace(ss, se);
       shift_backspace(tt, te);

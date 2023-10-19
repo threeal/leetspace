@@ -35,3 +35,9 @@ test_cases:
       s: bxj##tw
       t: bxo#j##tw
     output: true
+
+  case_2:
+    inputs:
+      s: nzp#o#g
+      t: b#nzp#o#g
+    output: true
