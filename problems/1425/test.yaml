@@ -1,0 +1,31 @@
+name: 1425. Constrained Subsequence Sum
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: constrainedSubsetSum
+    includes: [deque, vector]
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [10, 2, -10, 5, 20]
+      k: 2
+    output: 37
+
+  example_2:
+    inputs:
+      nums: [-1, -2, -3]
+      k: 1
+    output: -1
+
+  example_3:
+    inputs:
+      nums: [10, -2, -10, -5, 20]
+      k: 2
+    output: 23
