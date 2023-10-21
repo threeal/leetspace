@@ -9,12 +9,12 @@ types:
 solutions:
   cpp:
     function: constrainedSubsetSum
-    includes: [vector]
+    includes: [deque, vector]
 
 test_cases:
   example_1:
     inputs:
-      nums: [10, 2, -10, 5, 2]
+      nums: [10, 2, -10, 5, 20]
       k: 2
     output: 37
 
