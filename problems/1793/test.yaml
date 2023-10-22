@@ -1,0 +1,25 @@
+name: 1793. Maximum Score of a Good Subarray
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: maximumScore
+    includes: [vector]
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 4, 3, 7, 4, 5]
+      k: 3
+    output: 15
+
+  example_2:
+    inputs:
+      nums: [5, 5, 4, 5, 4, 1, 1, 1]
+      k: 0
+    output: 20
