@@ -24,3 +24,8 @@ test_cases:
     inputs:
       n: 1
     output: true
+
+  case_1:
+    inputs:
+      n: 8
+    output: false
