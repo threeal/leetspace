@@ -12,6 +12,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.1.1
 
+      - name: Setup Poetry
+        uses: threeal/setup-poetry-action@v1.0.0
+
       - name: Install cmake-format
         run: pipx install cmake-format --include-deps
 
