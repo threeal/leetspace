@@ -1,17 +1,3 @@
-function(generate_test_src)
-  cmake_parse_arguments(ARG "" "CONFIG;OUTDIR" "" ${ARGN})
-
-  find_package(Python REQUIRED)
-  set(SCRIPT ${CMAKE_SOURCE_DIR}/internal/generators/generate_test.py)
-  get_filename_component(CONFIG_DIR ${ARG_CONFIG} DIRECTORY)
-
-  add_custom_command(
-    OUTPUT ${ARG_OUTDIR}/solution_cpp.cpp ${ARG_OUTDIR}/test.cpp
-    COMMAND ${Python_EXECUTABLE} ${SCRIPT} ${ARG_CONFIG} ${ARG_OUTDIR}
-    DEPENDS ${SCRIPT} ${ARG_CONFIG} ${CONFIG_DIR}/solution.cpp
-    VERBATIM)
-endfunction()
-
 function(add_problem_test TARGET CONFIG)
   # Generate a C++ test source file from a YAML config files.
   generate_test_src(CONFIG ${CMAKE_CURRENT_SOURCE_DIR}/${CONFIG} OUTDIR ${CMAKE_CURRENT_BINARY_DIR}/src)
