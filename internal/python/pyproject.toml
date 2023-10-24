@@ -1,0 +1,22 @@
+[build-system]
+requires = ["poetry-core >= 1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "leetspace-internal-python"
+version = "2023.10"
+description = "An internal Python module for LeetSpace project."
+license = "MIT License"
+authors = [
+    "Alfi Maulana <alfi.maulana.f@gmail.com>",
+]
+packages = [
+    { include = "generate_test_src", from = "lib" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyyaml = "^6.0.1"
+
+[tool.poetry.scripts]
+generate_test_src = "generate_test_src:main"

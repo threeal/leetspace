@@ -1,5 +1,12 @@
 {
     "additional_commands": {
+        "execute_process": {
+            "kwargs": {
+                "COMMAND": "*",
+                "WORKING_DIRECTORY": 1,
+                "COMMAND_ERROR_IS_FATAL": 1
+            }
+        },
         "file": {
         }
     },
