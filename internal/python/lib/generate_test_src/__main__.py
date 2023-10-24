@@ -2,8 +2,9 @@ import os
 import sys
 import yaml
 
+
 def main():
-    with open(sys.argv[1], 'r') as config_file:
+    with open(sys.argv[1], "r") as config_file:
         config = yaml.safe_load(config_file)
 
         if not os.path.exists(sys.argv[2]):
@@ -18,19 +19,30 @@ def main():
                         output.write("#include <%s>\n" % include)
                     output.write("\nusing namespace std;\n\n")
 
-                with open(os.path.join(os.path.dirname(sys.argv[1]), "solution.cpp"), "r") as source:
+                with open(
+                    os.path.join(os.path.dirname(sys.argv[1]), "solution.cpp"), "r"
+                ) as source:
                     for line in source.readlines():
                         output.write(line)
 
                 output.write("\n%s solution_cpp(" % config["types"]["output"])
-                output.write(", ".join([("%s %s" % (t, v)) for v, t in config["types"]["inputs"].items()]))
+                output.write(
+                    ", ".join(
+                        [
+                            ("%s %s" % (t, v))
+                            for v, t in config["types"]["inputs"].items()
+                        ]
+                    )
+                )
                 output.write(") {\n")
 
                 output.write("  auto output = Solution().%s(" % cfg["function"])
                 output.write(", ".join(config["types"]["inputs"]))
                 output.write(");\n")
 
-                output.write("  return %s;\n" % (cfg["output"] if "output" in cfg else "output"))
+                output.write(
+                    "  return %s;\n" % (cfg["output"] if "output" in cfg else "output")
+                )
 
                 output.write("}\n")
 
@@ -42,7 +54,14 @@ def main():
             output.write("\n")
             for lang in config["solutions"]:
                 output.write("%s solution_%s(" % (config["types"]["output"], lang))
-                output.write(", ".join([("%s %s" % (t, v)) for v, t in config["types"]["inputs"].items()]))
+                output.write(
+                    ", ".join(
+                        [
+                            ("%s %s" % (t, v))
+                            for v, t in config["types"]["inputs"].items()
+                        ]
+                    )
+                )
                 output.write(");\n")
 
             output.write("\nstruct TestCase {\n")
@@ -57,6 +76,7 @@ def main():
 
             def dump(data):
                 import json
+
                 s = json.dumps(data)
                 return s.replace("[", "{").replace("]", "}")
 
@@ -64,7 +84,7 @@ def main():
             for name in config["test_cases"]:
                 cfg = config["test_cases"][name]
                 output.write("  {\n")
-                output.write("    .name = \"%s\",\n" % name)
+                output.write('    .name = "%s",\n' % name)
                 output.write("    .inputs = {\n")
                 for var, val in cfg["inputs"].items():
                     output.write("      .%s = %s,\n" % (var, dump(val)))
@@ -74,8 +94,10 @@ def main():
             output.write("};\n")
 
             for lang in config["solutions"]:
-                output.write("\nTEST_CASE(\"%s (%s)\") {\n" % (config["name"], lang))
-                output.write("  for (const auto& [name, inputs, output] : test_cases) {\n")
+                output.write('\nTEST_CASE("%s (%s)") {\n' % (config["name"], lang))
+                output.write(
+                    "  for (const auto& [name, inputs, output] : test_cases) {\n"
+                )
 
                 inputs = ", ".join(config["types"]["inputs"])
                 output.write("    const auto [%s] = inputs;\n" % inputs)
