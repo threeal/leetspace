@@ -13,13 +13,13 @@ execute_process(
 function(generate_test_src)
   cmake_parse_arguments(ARG "" "CONFIG;OUTDIR" "" ${ARGN})
 
-  set(SCRIPT ${CMAKE_SOURCE_DIR}/internal/python/lib/generate_test_src/__main__.py)
+  file(GLOB_RECURSE SRCS "${CMAKE_SOURCE_DIR}/internal/python/lib/generate_test_src/*.py")
   get_filename_component(CONFIG_DIR ${ARG_CONFIG} DIRECTORY)
 
   add_custom_command(
     OUTPUT ${ARG_OUTDIR}/solution_cpp.cpp ${ARG_OUTDIR}/test.cpp
-    COMMAND ${POETRY_EXEC} run python ${SCRIPT} ${ARG_CONFIG} ${ARG_OUTDIR}
-    DEPENDS ${SCRIPT} ${ARG_CONFIG} ${CONFIG_DIR}/solution.cpp
+    COMMAND ${POETRY_EXEC} run python -m generate_test_src ${ARG_CONFIG} ${ARG_OUTDIR}
+    DEPENDS ${SRCS} ${ARG_CONFIG} ${CONFIG_DIR}/solution.cpp
     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}/internal/python
     VERBATIM)
 endfunction()
