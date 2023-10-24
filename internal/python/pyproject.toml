@@ -17,6 +17,7 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.10"
 pyyaml = "^6.0.1"
+black = "^23.10.1"
 
 [tool.poetry.scripts]
 generate_test_src = "generate_test_src:main"
