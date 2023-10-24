@@ -8,6 +8,11 @@ execute_process(
   WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
   COMMAND_ERROR_IS_FATAL ANY)
 
+execute_process(
+  COMMAND ${POETRY_EXEC} run black lib
+  WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+  COMMAND_ERROR_IS_FATAL ANY)
+
 function(generate_test_src)
   cmake_parse_arguments(ARG "" "CONFIG;OUTDIR" "" ${ARGN})
 
