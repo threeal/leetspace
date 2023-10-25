@@ -1,0 +1,30 @@
+name: 779. K-th Symbol in Grammar
+
+types:
+  inputs:
+    n: int
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: kthGrammar
+
+test_cases:
+  example_1:
+    inputs:
+      n: 1
+      k: 1
+    output: 0
+
+  example_2:
+    inputs:
+      n: 2
+      k: 1
+    output: 0
+
+  example_3:
+    inputs:
+      n: 2
+      k: 2
+    output: 1
