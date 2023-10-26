@@ -8,7 +8,7 @@ types:
 solutions:
   cpp:
     function: numFactoredBinaryTrees
-    includes: [vector]
+    includes: [algorithm, unordered_map, vector]
 
 test_cases:
   example_1:
@@ -20,3 +20,8 @@ test_cases:
     inputs:
       arr: [2, 4, 5, 10]
     output: 7
+
+  case_1:
+    inputs:
+      arr: [2, 4, 16]
+    output: 8
