@@ -1,0 +1,22 @@
+name: 823. Binary Trees With Factors
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: numFactoredBinaryTrees
+    includes: [vector]
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [2, 4]
+    output: 3
+
+  example_2:
+    inputs:
+      arr: [2, 4, 5, 10]
+    output: 7
