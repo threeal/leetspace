@@ -1,0 +1,27 @@
+name: 66. Plus One
+
+types:
+  inputs:
+    digits: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: plusOne
+    includes: [vector]
+
+test_cases:
+  example_1:
+    inputs:
+      digits: [1, 2, 3]
+    output: [1, 2, 4]
+
+  example_2:
+    inputs:
+      digits: [4, 3, 2, 1]
+    output: [4, 3, 2, 2]
+
+  example_3:
+    inputs:
+      digits: [9]
+    output: [1, 0]
