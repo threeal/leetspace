@@ -1,3 +1,5 @@
+const int mod = 1'000'000'007;
+
 class Solution {
  public:
   int numFactoredBinaryTrees(vector<int>& arr) {
@@ -15,12 +17,12 @@ class Solution {
       // Find values that could serve as child nodes.
       for (size_t j = 0; j < i; ++j) {
         if (arr[i] % arr[j] > 0) continue;
-        comb += comb_of[arr[j]] * comb_of[arr[i] / arr[j]];
+        comb = (comb + ((int64_t)comb_of[arr[j]] * comb_of[arr[i] / arr[j]])) % mod;
       }
 
       // Track the number of combinations and add it to the result.
       comb_of[arr[i]] = comb;
-      res += comb;
+      res = (res + comb) % mod;
     }
 
     return res;
