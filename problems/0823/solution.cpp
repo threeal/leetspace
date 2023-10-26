@@ -17,7 +17,9 @@ class Solution {
       // Find values that could serve as child nodes.
       for (size_t j = 0; j < i; ++j) {
         if (arr[i] % arr[j] > 0) continue;
-        comb = (comb + ((int64_t)comb_of[arr[j]] * comb_of[arr[i] / arr[j]])) % mod;
+        const auto it = comb_of.find(arr[i] / arr[j]);
+        if (it == comb_of.end()) continue;
+        comb = (comb + (int64_t)comb_of[arr[j]] * it->second) % mod;
       }
 
       // Track the number of combinations and add it to the result.
