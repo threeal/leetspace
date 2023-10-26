@@ -8,7 +8,7 @@ types:
 solutions:
   cpp:
     function: plusOne
-    includes: [vector]
+    includes: [algorithm, vector]
 
 test_cases:
   example_1:
