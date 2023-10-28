@@ -7,3 +7,12 @@ updates:
     commit-message:
       prefix: chore
     labels: [chore]
+
+  - package-ecosystem: pip
+    directory: /internal/python
+    schedule:
+      interval: daily
+    commit-message:
+      prefix: chore
+    labels: [chore]
+    versioning-strategy: increase
