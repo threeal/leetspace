@@ -19,3 +19,8 @@ test_cases:
     inputs:
       n: 2
     output: 10
+
+  case_1:
+    inputs:
+      n: 3
+    output: 19
