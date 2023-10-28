@@ -1,0 +1,26 @@
+name: 1220. Count Vowels Permutation
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: countVowelPermutation
+
+test_cases:
+  example_1:
+    inputs:
+      n: 1
+    output: 5
+
+  example_2:
+    inputs:
+      n: 2
+    output: 10
+
+  case_1:
+    inputs:
+      n: 3
+    output: 19
