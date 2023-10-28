@@ -3,8 +3,8 @@ class Solution {
   string longestPalindrome(string s) {
     const int n = s.size();
 
+    int res_a = 0;
     int res_n = 1;
-    string res = s.substr(0, res_n);
 
     const function<void(int, int)> fn = [&](int a, int b) {
       if (s[a] != s[b]) return;
@@ -14,8 +14,8 @@ class Solution {
         ++b;
       }
       if (b - a - 1 > res_n) {
+        res_a = a + 1;
         res_n = b - a - 1;
-        res = s.substr(a + 1, res_n);
       }
     };
 
@@ -25,6 +25,6 @@ class Solution {
         fn(i - 1, i + 1);
       }
     }
-    return res;
+    return s.substr(res_a, res_n);
   }
 };
