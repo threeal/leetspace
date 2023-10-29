@@ -1,6 +1,3 @@
 int poorPigs(int buckets, int minutesToDie, int minutesToTest) {
-  (void)buckets;
-  (void)minutesToDie;
-  (void)minutesToTest;
-  return 0;
+  return ceil(log2(buckets) / log2(minutesToTest / minutesToDie + 1));
 }
