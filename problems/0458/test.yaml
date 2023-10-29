@@ -10,6 +10,7 @@ types:
 solutions:
   cpp:
     function: poorPigs
+    includes: [ctgmath]
 
 test_cases:
   example_1:
