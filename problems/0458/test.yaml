@@ -1,0 +1,28 @@
+name: 458. Poor Pigs
+
+types:
+  inputs:
+    buckets: int
+    minutesToDie: int
+    minutesToTest: int
+  output: int
+
+solutions:
+  cpp:
+    function: poorPigs
+    includes: [ctgmath]
+
+test_cases:
+  example_1:
+    inputs:
+      buckets: 4
+      minutesToDie: 15
+      minutesToTest: 15
+    output: 2
+
+  example_2:
+    inputs:
+      buckets: 4
+      minutesToDie: 15
+      minutesToTest: 30
+    output: 2

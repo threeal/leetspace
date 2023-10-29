@@ -34,6 +34,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | Easy | [C++](./problems/0387/solution.cpp) |
 | [389. Find the Difference](https://leetcode.com/problems/find-the-difference) | Easy | [C++](./problems/0389/solution.cpp) |
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | [C++](./problems/0392/solution.cpp) |
+| [458. Poor Pigs](https://leetcode.com/problems/poor-pigs) | Hard | [C++](./problems/0458/solution.cpp) |
 | [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | Easy | [C](./problems/0557/c/solution.c) [C++](./problems/0557/solution.cpp) |
 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) | Easy | [C++](./problems/0746/solution.cpp) |
 | [779. K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) | Medium | [C](./problems/0779/c/solution.c) [C++](./problems/0779/solution.cpp) |
