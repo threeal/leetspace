@@ -8,7 +8,7 @@ types:
 solutions:
   cpp:
     function: sortByBits
-    includes: [vector]
+    includes: [algorithm, vector]
 
 test_cases:
   example_1:
