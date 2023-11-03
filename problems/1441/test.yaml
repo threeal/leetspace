@@ -1,0 +1,33 @@
+name: 1441. Build an Array With Stack Operations
+
+types:
+  inputs:
+    target: std::vector<int>
+    n: int
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: buildArray
+    includes:
+      - string
+      - vector
+
+test_cases:
+  example_1:
+    inputs:
+      target: [1, 3]
+      n: 3
+    output: [Push, Push, Pop, Push]
+
+  example_2:
+    inputs:
+      target: [1, 2, 3]
+      n: 3
+    output: [Push, Push, Push]
+
+  example_3:
+    inputs:
+      target: [1, 2]
+      n: 4
+    output: [Push, Push]
