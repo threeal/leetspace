@@ -51,6 +51,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1356. Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | Easy | [C++](./problems/1356/solution.cpp) |
 | [1361. Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes) | Medium | [C](./problems/1361/c/solution.c) [C++](./problems/1361/solution.cpp) |
 | [1425. Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum) | Hard | [C++](./problems/1425/solution.cpp) |
+| [1441. Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations) | Medium | [C++](./problems/1441/solution.cpp) |
 | [1458. Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences) | Hard | [C++](./problems/1458/solution.cpp) |
 | [1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | Easy | [C](./problems/1512/c/solution.c) [C++](./problems/1512/solution.cpp) |
 | [1658. Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) | Medium | [C++](./problems/1658/solution.cpp) |
