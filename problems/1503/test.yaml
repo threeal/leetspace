@@ -11,6 +11,7 @@ solutions:
   cpp:
     function: getLastMoment
     includes:
+      - algorithm
       - vector
 
 test_cases:
