@@ -35,3 +35,10 @@ test_cases:
       left: [0, 1, 2, 3, 4, 5, 6, 7]
       right: []
     output: 7
+
+  case_1:
+    inputs:
+      n: 1000
+      left: [0]
+      right: []
+    output: 0
