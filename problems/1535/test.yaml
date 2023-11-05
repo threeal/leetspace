@@ -23,3 +23,9 @@ test_cases:
       arr: [3, 2, 1]
       k: 10
     output: 3
+
+  case_1:
+    inputs:
+      arr: [1, 25, 35, 42, 68, 70]
+      k: 1
+    output: 25
