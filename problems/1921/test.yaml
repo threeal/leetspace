@@ -9,7 +9,7 @@ types:
 solutions:
   cpp:
     function: eliminateMaximum
-    includes: [vector]
+    includes: [limits, vector]
 
 test_cases:
   example_1:
