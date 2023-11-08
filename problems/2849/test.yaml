@@ -12,6 +12,7 @@ types:
 solutions:
   cpp:
     function: isReachableAtTime
+    includes: [algorithm, cmath]
 
 test_cases:
   example_1:
