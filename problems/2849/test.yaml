@@ -10,6 +10,7 @@ types:
   output: bool
 
 solutions:
+  c:
   cpp:
     function: isReachableAtTime
     includes: [algorithm, cmath]
