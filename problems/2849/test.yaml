@@ -1,0 +1,52 @@
+name: 2849. Determine if a Cell Is Reachable at a Given Time
+
+types:
+  inputs:
+    sx: int
+    sy: int
+    fx: int
+    fy: int
+    t: int
+  output: bool
+
+solutions:
+  cpp:
+    function: isReachableAtTime
+    includes: [algorithm, cmath]
+
+test_cases:
+  example_1:
+    inputs:
+      sx: 2
+      sy: 4
+      fx: 7
+      fy: 7
+      t: 6
+    output: true
+
+  example_2:
+    inputs:
+      sx: 3
+      sy: 1
+      fx: 7
+      fy: 3
+      t: 3
+    output: false
+
+  case_1:
+    inputs:
+      sx: 1
+      sy: 2
+      fx: 1
+      fy: 2
+      t: 1
+    output: false
+
+  case_2:
+    inputs:
+      sx: 1
+      sy: 1
+      fx: 1
+      fy: 1
+      t: 3
+    output: true
