@@ -32,3 +32,21 @@ test_cases:
       fy: 3
       t: 3
     output: false
+
+  case_1:
+    inputs:
+      sx: 1
+      sy: 2
+      fx: 1
+      fy: 2
+      t: 1
+    output: false
+
+  case_2:
+    inputs:
+      sx: 1
+      sy: 1
+      fx: 1
+      fy: 1
+      t: 3
+    output: true
