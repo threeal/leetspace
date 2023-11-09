@@ -1,0 +1,27 @@
+name: 1793. Maximum Score of a Good Subarray
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: countHomogenous
+    includes: [string]
+
+test_cases:
+  example_1:
+    inputs:
+      s: abbcccaa
+    output: 13
+
+  example_2:
+    inputs:
+      s: xy
+    output: 2
+
+  example_3:
+    inputs:
+      s: zzzzz
+    output: 15

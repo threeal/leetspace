@@ -57,6 +57,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | Easy | [C](./problems/1512/c/solution.c) [C++](./problems/1512/solution.cpp) |
 | [1535. Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game) | Medium | [C++](./problems/1535/solution.cpp) |
 | [1658. Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) | Medium | [C++](./problems/1658/solution.cpp) |
+| [1759. Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings) | Medium | [C++](./problems/1759/solution.cpp) |
 | [1793. Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray) | Hard | [C](./problems/1793/c/solution.c) [C++](./problems/1793/solution.cpp) |
 | [1921. Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters) | Medium | [C++](./problems/1921/solution.cpp) |
 | [2009. Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous) | Hard | [C++](./problems/2009/solution.cpp) |
