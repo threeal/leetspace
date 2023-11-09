@@ -2,25 +2,44 @@ const long long mod = 1'000'000'007;
 
 class Solution {
  public:
+  // The count of homogeneous substrings is equal to the sum of the series of the maximum length of homogeneous substrings.
+  //
+  // For example, if the string is "aabbb", then:
+  //
+  // "a" appears 2 times.
+  // "aa" appears 1 time.
+  // "b" appears 3 times.
+  // "bb" appears 2 times.
+  // "bbb" appears 1 time.
+  //
+  // So, the total is:
+  //
+  // (1 + 2) + (1 + 2 + 3) = 9
+  //
+  // Or, roughly speaking, it equals the sum of the series from 1 to 2 (from "aa") and the series from 1 to 3 (from "bbb").
+  //
   int countHomogenous(string s) {
     long long total = 0;
 
-    char prev = 0;
-    long long n = 0;
-    for (const auto c : s) {
-      if (prev == c) {
-        ++n;
+    // Find the maximum length of each homogeneous substring and sum the series.
+    char prevLetter = 0;
+    long long length = 0;
+    for (const auto letter : s) {
+      if (letter == prevLetter) {
+        ++length;
       } else {
-        total = (total + sumHomogenous(n)) % mod;
-        prev = c;
-        n = 1;
+        total = (total + calculateSeries(length)) % mod;
+        prevLetter = letter;
+        length = 1;
       }
     }
 
-    return (total + sumHomogenous(n)) % mod;
+    return (total + calculateSeries(length)) % mod;
   }
 
-  long long sumHomogenous(long long n) {
+ private:
+  // Calculate the sum of a series from 1 to n.
+  long long calculateSeries(long long n) {
     if (n <= 1) return n;
     return ((n + 1) * n) / 2;
   }
