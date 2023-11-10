@@ -1,0 +1,27 @@
+name: 1743. Restore the Array From Adjacent Pairs
+
+types:
+  inputs:
+    adjacentPairs: std::vector<std::vector<int>>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: restoreArray
+    includes: [algorithm, list, unordered_map, vector]
+
+test_cases:
+  example_1:
+    inputs:
+      adjacentPairs: [[2, 1], [3, 4], [3, 2]]
+    output: [4, 3, 2, 1]
+
+  example_2:
+    inputs:
+      adjacentPairs: [[4, -2], [1, 4], [-3, 1]]
+    output: [-3, 1, 4, -2]
+
+  example_3:
+    inputs:
+      adjacentPairs: [[100000, -100000]]
+    output: [-100000, 100000]
