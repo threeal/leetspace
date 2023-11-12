@@ -20,7 +20,10 @@ class Solution {
       }
     }
 
+    unordered_map<int, int> cache;
     const function<int(unordered_set<int>, int)> fn = [&](unordered_set<int> visitedBuses, int bus) -> int {
+      const auto it = cache.find(bus);
+      if (it != cache.end()) return it->second;
       if (routesBuses[target].contains(bus)) return 1;
 
       visitedBuses.insert(bus);
@@ -29,7 +32,8 @@ class Solution {
         if (visitedBuses.contains(bus)) continue;
         count = min(count, fn(visitedBuses, bus));
       }
-      return count == numeric_limits<int>::max() ? count : 1 + count;
+      if (count != numeric_limits<int>::max()) ++count;
+      return cache[bus] = count;
     };
 
     int count = numeric_limits<int>::max();
