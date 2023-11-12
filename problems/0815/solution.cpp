@@ -11,6 +11,7 @@ class Solution {
       }
     }
 
+    unordered_set<int> visitedRoutes;
     unordered_set<int> visitedBuses;
     unordered_set<int> busesToVisit = routesBuses[source];
 
@@ -24,6 +25,8 @@ class Solution {
       for (const auto busToVisit : busesToVisit) {
         if (routesBuses[target].contains(busToVisit)) return count;
         for (const auto route : routes[busToVisit]) {
+          if (visitedRoutes.contains(route)) continue;
+          visitedRoutes.insert(route);
           for (const auto bus : routesBuses[route]) {
             if (visitedBuses.contains(bus)) continue;
             nextBusesToVisit.insert(bus);
