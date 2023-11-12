@@ -38,6 +38,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | Easy | [C](./problems/0557/c/solution.c) [C++](./problems/0557/solution.cpp) |
 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) | Easy | [C++](./problems/0746/solution.cpp) |
 | [779. K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) | Medium | [C](./problems/0779/c/solution.c) [C++](./problems/0779/solution.cpp) |
+| [815. Bus Routes](https://leetcode.com/problems/bus-routes) | Hard | [C++](./problems/0815/solution.cpp) |
 | [823. Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors) | Medium | [C++](./problems/0823/solution.cpp) |
 | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | Easy | [C++](./problems/0844/solution.cpp) |
 | [880. Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index) | Medium | [C++](./problems/0880/solution.cpp) |
