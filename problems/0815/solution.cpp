@@ -11,29 +11,30 @@ class Solution {
       }
     }
 
-    unordered_map<int, int> cache;
-    const function<int(unordered_set<int>, int)> fn = [&](unordered_set<int> visitedBuses, int bus) -> int {
-      const auto it = cache.find(bus);
-      if (it != cache.end()) return it->second;
-      if (routesBuses[target].contains(bus)) return 1;
-      visitedBuses.insert(bus);
+    unordered_set<int> visitedBuses;
+    unordered_set<int> busesToVisit = routesBuses[source];
 
-      int count = numeric_limits<int>::max();
-      for (const auto route : routes[bus]) {
-        for (const auto bus : routesBuses[route]) {
-          if (visitedBuses.contains(bus)) continue;
-          count = min(count, fn(visitedBuses, bus));
+    int count = 1;
+    while (!busesToVisit.empty()) {
+      for (const auto busToVisit : busesToVisit) {
+        visitedBuses.insert(busToVisit);
+      }
+
+      unordered_set<int> nextBusesToVisit;
+      for (const auto busToVisit : busesToVisit) {
+        if (routesBuses[target].contains(busToVisit)) return count;
+        for (const auto route : routes[busToVisit]) {
+          for (const auto bus : routesBuses[route]) {
+            if (visitedBuses.contains(bus)) continue;
+            nextBusesToVisit.insert(bus);
+          }
         }
       }
 
-      if (count != numeric_limits<int>::max()) ++count;
-      return cache[bus] = count;
-    };
-
-    int count = numeric_limits<int>::max();
-    for (const auto bus : routesBuses[source]) {
-      count = min(count, fn({}, bus));
+      busesToVisit = nextBusesToVisit;
+      ++count;
     }
-    return count == numeric_limits<int>::max() ? -1 : count;
+
+    return -1;
   }
 };
