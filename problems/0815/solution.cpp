@@ -11,27 +11,21 @@ class Solution {
       }
     }
 
-    vector<unordered_set<int>> busesConnections(busCount);
-    for (const auto& [route, buses] : routesBuses) {
-      for (const auto bus : buses) {
-        for (const auto otherBus : buses) {
-          busesConnections[bus].insert(otherBus);
-        }
-      }
-    }
-
     unordered_map<int, int> cache;
     const function<int(unordered_set<int>, int)> fn = [&](unordered_set<int> visitedBuses, int bus) -> int {
       const auto it = cache.find(bus);
       if (it != cache.end()) return it->second;
       if (routesBuses[target].contains(bus)) return 1;
-
       visitedBuses.insert(bus);
+
       int count = numeric_limits<int>::max();
-      for (const auto bus : busesConnections[bus]) {
-        if (visitedBuses.contains(bus)) continue;
-        count = min(count, fn(visitedBuses, bus));
+      for (const auto route : routes[bus]) {
+        for (const auto bus : routesBuses[route]) {
+          if (visitedBuses.contains(bus)) continue;
+          count = min(count, fn(visitedBuses, bus));
+        }
       }
+
       if (count != numeric_limits<int>::max()) ++count;
       return cache[bus] = count;
     };
