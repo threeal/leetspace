@@ -19,20 +19,22 @@ class Solution {
       }
     }
 
+    // Mark the source route as visited.
+    unordered_set<int> visitedRoutes;
+    visitedRoutes.insert(source);
+
     // Get all buses from the source route.
-    unordered_set<int> busesToVisit = routesBuses[source];
+    list<int> busesToVisit;
+    unordered_set<int> visitedBuses;
+    for (const auto bus : routesBuses[source]) {
+      busesToVisit.push_back(bus);
+      visitedBuses.insert(bus);
+    }
 
     // Repeat until there is no more bus to visit.
     int count = 1;
-    unordered_set<int> visitedRoutes;
-    unordered_set<int> visitedBuses;
     while (!busesToVisit.empty()) {
-      // Mark all buses to visit as visited.
-      for (const auto busToVisit : busesToVisit) {
-        visitedBuses.insert(busToVisit);
-      }
-
-      unordered_set<int> nextBusesToVisit;
+      list<int> nextBusesToVisit;
       for (const auto busToVisit : busesToVisit) {
         // If the current bus has the target route, return the required number of buses to visit.
         if (routesBuses[target].contains(busToVisit)) return count;
@@ -43,7 +45,8 @@ class Solution {
           visitedRoutes.insert(route);
           for (const auto bus : routesBuses[route]) {
             if (visitedBuses.contains(bus)) continue;
-            nextBusesToVisit.insert(bus);
+            nextBusesToVisit.push_back(bus);
+            visitedBuses.insert(bus);
           }
         }
       }
