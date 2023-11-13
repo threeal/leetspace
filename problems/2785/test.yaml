@@ -8,7 +8,10 @@ types:
 solutions:
   cpp:
     function: sortVowels
-    includes: [string]
+    includes:
+      - map
+      - set
+      - string
 
 test_cases:
   example_1:
