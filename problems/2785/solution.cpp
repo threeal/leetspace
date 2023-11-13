@@ -1,17 +1,18 @@
-const set<char> vowels = {'A', 'E', 'I', 'O', 'U', 'a', 'e', 'i', 'o', 'u'};
-
 class Solution {
  public:
   string sortVowels(string s) {
-    map<char, int> vowelsCount;
+    map<char, int> vowelsCount{
+        {'A', 0}, {'E', 0}, {'I', 0}, {'O', 0}, {'U', 0}, {'a', 0}, {'e', 0}, {'i', 0}, {'o', 0}, {'u', 0}};
+
     for (const auto c : s) {
-      if (!vowels.contains(c)) continue;
-      ++vowelsCount[c];
+      auto it = vowelsCount.find(c);
+      if (it == vowelsCount.end()) continue;
+      ++(it->second);
     }
 
     auto it = vowelsCount.begin();
     for (auto& c : s) {
-      if (!vowels.contains(c)) continue;
+      if (!vowelsCount.contains(c)) continue;
       while (it->second <= 0) ++it;
       c = it->first;
       --(it->second);

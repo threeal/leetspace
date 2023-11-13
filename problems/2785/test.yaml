@@ -10,7 +10,6 @@ solutions:
     function: sortVowels
     includes:
       - map
-      - set
       - string
 
 test_cases:
