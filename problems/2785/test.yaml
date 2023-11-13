@@ -1,0 +1,22 @@
+name: 2785. Sort Vowels in a String
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: sortVowels
+    includes: [string]
+
+test_cases:
+  example_1:
+    inputs:
+      s: lEetcOde
+    output: lEOtcede
+
+  example_2:
+    inputs:
+      s: lYmpH
+    output: lYmpH
