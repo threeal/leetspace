@@ -1,3 +1,6 @@
+// The solution can be done by counting the number of vowel occurrences and then replacing each vowel using that count as references.
+
+// This enum helps store the count of vowels in an array.
 // clang-format off
 enum { A = 0, E, I, O, U, a, e, i, o, u };
 // clang-format on
@@ -5,8 +8,10 @@ enum { A = 0, E, I, O, U, a, e, i, o, u };
 char* sortVowels(char* s) {
   int vowelsCount[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
+  // Count the vowels from the given string.
   char* c = s;
   while (*c != 0) {
+    // Switch case is used for faster lookup.
     switch (*c) {
       // clang-format off
       case 'A': ++vowelsCount[A]; break;
@@ -24,9 +29,11 @@ char* sortVowels(char* s) {
     ++c;
   }
 
+  // From the first vowel, replace each vowel in the given string according to the vowel count.
   int vowel = A;
   c = s;
   while (*c != 0) {
+    // Switch case is used for faster lookup.
     switch (*c) {
       // clang-format off
       case 'A':
@@ -59,5 +66,6 @@ char* sortVowels(char* s) {
     ++c;
   }
 
+  // Return the modified string.
   return s;
 }
