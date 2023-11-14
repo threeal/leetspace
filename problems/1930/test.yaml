@@ -1,0 +1,31 @@
+name: 1930. Unique Length-3 Palindromic Subsequences
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: countPalindromicSubsequence
+    includes:
+      - string
+      - unordered_map
+      - unordered_set
+      - utility
+
+test_cases:
+  example_1:
+    inputs:
+      s: aabca
+    output: 3
+
+  example_2:
+    inputs:
+      s: adc
+    output: 0
+
+  example_3:
+    inputs:
+      s: bbcbaba
+    output: 4
