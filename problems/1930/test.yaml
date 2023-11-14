@@ -10,6 +10,8 @@ solutions:
     function: countPalindromicSubsequence
     includes:
       - string
+      - unordered_map
+      - unordered_set
 
 test_cases:
   example_1:
