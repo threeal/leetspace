@@ -12,6 +12,7 @@ solutions:
       - string
       - unordered_map
       - unordered_set
+      - utility
 
 test_cases:
   example_1:
