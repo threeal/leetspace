@@ -9,6 +9,7 @@ solutions:
   cpp:
     function: maximumElementAfterDecrementingAndRearranging
     includes:
+      - algorithm
       - vector
 
 test_cases:
