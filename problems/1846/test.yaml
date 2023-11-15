@@ -1,0 +1,28 @@
+name: 1846. Maximum Element After Decreasing and Rearranging
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maximumElementAfterDecrementingAndRearranging
+    includes:
+      - vector
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [2, 2, 1, 2, 1]
+    output: 2
+
+  example_2:
+    inputs:
+      arr: [100, 1, 1000]
+    output: 3
+
+  example_3:
+    inputs:
+      arr: [1, 2, 3, 4, 5]
+    output: 5
