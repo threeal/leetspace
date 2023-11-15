@@ -3,11 +3,11 @@ class Solution {
   int maximumElementAfterDecrementingAndRearranging(vector<int>& arr) {
     sort(arr.begin(), arr.end());
 
-    int max = 0;
+    int res = 0;
     for (const auto num : arr) {
-      if (num - max > 0) ++max;
+      res = min(res + 1, num);
     }
 
-    return max;
+    return res;
   }
 };
