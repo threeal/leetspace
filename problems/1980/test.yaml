@@ -1,0 +1,30 @@
+name: 1980. Find Unique Binary String
+
+types:
+  inputs:
+    nums: std::vector<std::string>
+  output: std::string
+
+solutions:
+  cpp:
+    function: findDifferentBinaryString
+    includes:
+      - algorithm
+      - string
+      - vector
+
+test_cases:
+  example_1:
+    inputs:
+      nums: ["01", "10"]
+    output: "00"
+
+  example_2:
+    inputs:
+      nums: ["00", "01"]
+    output: "10"
+
+  example_3:
+    inputs:
+      nums: ["111", "011", "001"]
+    output: "000"
