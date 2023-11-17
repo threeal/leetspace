@@ -21,15 +21,15 @@ void quickSort(int* low, int* high) {
 }
 
 int minPairSum(int* nums, int numsSize) {
-  quickSort(nums, nums + numsSize - 1);
+  int* left = nums;
+  int* right = nums + numsSize - 1;
 
-  int left = 0;
-  int right = numsSize - 1;
+  quickSort(left, right);
 
   int res = 0;
   while (left < right) {
-    if (nums[left] + nums[right] > res)
-      res = nums[left] + nums[right];
+    if (*left + *right > res)
+      res = *left + *right;
     ++left;
     --right;
   }
