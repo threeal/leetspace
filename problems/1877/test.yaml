@@ -9,6 +9,7 @@ solutions:
   cpp:
     function: minPairSum
     includes:
+      - algorithm
       - vector
 
 test_cases:
