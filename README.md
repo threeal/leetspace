@@ -63,6 +63,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1743. Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs) | Medium | [C++](./problems/1743/solution.cpp) |
 | [1793. Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray) | Hard | [C](./problems/1793/c/solution.c) [C++](./problems/1793/solution.cpp) |
 | [1846. Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging) | Medium | [C++](./problems/1846/solution.cpp) |
+| [1877. Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | Medium | [C++](./problems/1877/solution.cpp) |
 | [1921. Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters) | Medium | [C++](./problems/1921/solution.cpp) |
 | [1930. Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences) | Medium | [C](./problems/1930/c/solution.c) [C++](./problems/1930/solution.cpp) |
 | [1980. Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/) | Medium | [C++](./problems/1980/solution.cpp) |

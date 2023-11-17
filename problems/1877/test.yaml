@@ -1,0 +1,24 @@
+name: 1877. Minimize Maximum Pair Sum in Array
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minPairSum
+    includes:
+      - algorithm
+      - vector
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [3, 5, 2, 3]
+    output: 7
+
+  example_2:
+    inputs:
+      arr: [3, 5, 4, 2, 4, 6]
+    output: 8
