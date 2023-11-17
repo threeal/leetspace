@@ -1,11 +1,17 @@
+// The solution can be done simply by first sorting the array and then
+// iterating from left and right to get the minimized sum of pairs.
+
 void quickSort(int* low, int* high);
 
 int minPairSum(int* nums, int numsSize) {
+  // Declare left and right pointers.
   int* left = nums;
   int* right = nums + numsSize - 1;
 
+  // Sort the given array.
   quickSort(left, right);
 
+  // Iterate from left and right to get the maximum sum of each pair.
   int res = 0;
   while (left < right) {
     if (*left + *right > res)
@@ -17,6 +23,8 @@ int minPairSum(int* nums, int numsSize) {
   return res;
 }
 
+// This function implements quick sort to sort the given range of arrays.
+// See: https://www.geeksforgeeks.org/quick-sort/
 void quickSort(int* low, int* high) {
   if (low >= high) return;
 
