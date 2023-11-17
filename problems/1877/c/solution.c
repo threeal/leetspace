@@ -1,3 +1,22 @@
+void quickSort(int* low, int* high);
+
+int minPairSum(int* nums, int numsSize) {
+  int* left = nums;
+  int* right = nums + numsSize - 1;
+
+  quickSort(left, right);
+
+  int res = 0;
+  while (left < right) {
+    if (*left + *right > res)
+      res = *left + *right;
+    ++left;
+    --right;
+  }
+
+  return res;
+}
+
 void quickSort(int* low, int* high) {
   if (low >= high) return;
 
@@ -18,21 +37,4 @@ void quickSort(int* low, int* high) {
 
   quickSort(low, i - 1);
   quickSort(i + 1, high);
-}
-
-int minPairSum(int* nums, int numsSize) {
-  int* left = nums;
-  int* right = nums + numsSize - 1;
-
-  quickSort(left, right);
-
-  int res = 0;
-  while (left < right) {
-    if (*left + *right > res)
-      res = *left + *right;
-    ++left;
-    --right;
-  }
-
-  return res;
 }
