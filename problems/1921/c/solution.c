@@ -8,8 +8,13 @@ int eliminateMaximum(int* dist, int distSize, int* speed, int speedSize) {
     dist[i] = dist[i] / speed[i] + (dist[i] % speed[i] > 0 ? 1 : 0);
   }
 
-  // Sort the time required from lowest to highest.
-  quickSort(dist, dist + distSize - 1);
+  // Sort the time required from lowest to highest (don't sort if already sorted).
+  for (int i = 1; i < distSize; ++i) {
+    if (dist[i - 1] > dist[i]) {
+      quickSort(dist, dist + distSize - 1);
+      break;
+    }
+  }
 
   // Time equals to kills. Iterate through the time required as long as the current time is not greater than the time required.
   int kills = 0;
