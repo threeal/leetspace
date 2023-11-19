@@ -1,7 +1,13 @@
 void quickSort(int* low, int* high);
 
 int maximumElementAfterDecrementingAndRearranging(int* arr, int arrSize) {
-  quickSort(arr, arr + arrSize - 1);
+  // Sort the time required from lowest to highest (don't sort if already sorted).
+  for (int i = 1; i < arrSize; ++i) {
+    if (arr[i - 1] > arr[i]) {
+      quickSort(arr, arr + arrSize - 1);
+      break;
+    }
+  }
 
   int res = 0;
   for (int i = 0; i < arrSize; ++i) {
