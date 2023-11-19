@@ -11,9 +11,11 @@ class Solution {
 
     frequencies.erase(std::prev(frequencies.end()));
 
+    int freqs = 0;
     int operations = 0;
     for (const auto [num, freq] : frequencies) {
-      operations += operations + freq;
+      freqs += freq;
+      operations += freqs;
     }
 
     return operations;
