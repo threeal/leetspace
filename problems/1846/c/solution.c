@@ -6,13 +6,8 @@
 void mergeSort(int* begin, int* end);
 
 int maximumElementAfterDecrementingAndRearranging(int* arr, int arrSize) {
-  // Sort the time required from lowest to highest (don't sort if already sorted).
-  for (int i = 1; i < arrSize; ++i) {
-    if (arr[i - 1] > arr[i]) {
-      mergeSort(arr, arr + arrSize - 1);
-      break;
-    }
-  }
+  // Sort the array from the lowest to the highest.
+  mergeSort(arr, arr + arrSize - 1);
 
   // Iterating through the elements for calculating the highest possible value.
   // The highest value is at the end of the array, but each next element should be capped if the difference is more than 1.
