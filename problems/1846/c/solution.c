@@ -1,3 +1,6 @@
+// The solution can be done simply by sorting the array from lowest to highest
+// and then iterating through the array following the rules so that the difference between each element should be equal to or less than 1.
+
 #include <stdlib.h>
 
 void mergeSort(int* begin, int* end);
@@ -11,6 +14,8 @@ int maximumElementAfterDecrementingAndRearranging(int* arr, int arrSize) {
     }
   }
 
+  // Iterating through the elements for calculating the highest possible value.
+  // The highest value is at the end of the array, but each next element should be capped if the difference is more than 1.
   int res = 0;
   for (int i = 0; i < arrSize; ++i) {
     res = res + 1 < arr[i] ? res + 1 : arr[i];
