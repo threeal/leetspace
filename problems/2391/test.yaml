@@ -1,0 +1,24 @@
+name: 2391. Minimum Amount of Time to Collect Garbage
+
+types:
+  inputs:
+    garbage: std::vector<std::string>
+    travel: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: garbageCollection
+
+test_cases:
+  example_1:
+    inputs:
+      garbage: ["G", "P", "GP", "GG"]
+      travel: [2, 4, 3]
+    output: 21
+
+  example_2:
+    inputs:
+      garbage: ["MMM", "PGM", "GP"]
+      travel: [3, 10]
+    output: 37
