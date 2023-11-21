@@ -1,0 +1,21 @@
+name: 1814. Count Nice Pairs in an Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: countNicePairs
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [42 ,11 ,1 ,97]
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [13 ,10 ,35 ,24 ,76]
+    output: 4
