@@ -6,14 +6,15 @@ int rev(int val);
 class Solution {
  public:
   int countNicePairs(std::vector<int>& nums) {
-    std::unordered_map<int, int> diffsCounts;
+    std::unordered_map<int, long> diffsCounts;
     for (const auto num : nums) {
       ++diffsCounts[num - rev(num)];
     }
 
-    int totalCount = 0;
+    long totalCount = 0;
     for (const auto [diff, count] : diffsCounts) {
       totalCount += count * (count - 1) / 2;
+      totalCount %= 1000000007;
     }
 
     return totalCount;
