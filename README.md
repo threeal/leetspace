@@ -59,6 +59,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1503. Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank) | Medium | [C](./problems/1503/c/solution.c) [C++](./problems/1503/solution.cpp) |
 | [1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | Easy | [C](./problems/1512/c/solution.c) [C++](./problems/1512/solution.cpp) |
 | [1535. Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game) | Medium | [C](./problems/1535/c/solution.c) [C++](./problems/1535/solution.cpp) |
+| [1630. Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/) | Medium | [C++](./problems/1630/solution.cpp) |
 | [1658. Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) | Medium | [C++](./problems/1658/solution.cpp) |
 | [1759. Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings) | Medium | [C](./problems/1759/c/solution.c) [C++](./problems/1759/solution.cpp) |
 | [1743. Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs) | Medium | [C++](./problems/1743/solution.cpp) |
