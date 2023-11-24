@@ -8,13 +8,13 @@
 class Solution {
  public:
   int maxCoins(std::vector<int>& piles) {
-    // Sort each pile from lowest to highest.
-    std::sort(piles.begin(), piles.end());
+    // Sort each pile from highest to lowest.
+    std::sort(piles.begin(), piles.end(), std::greater<int>());
 
     // Iterate n / 3 times to get the second-highest pile in each iteration.
     int total = 0;
-    for (size_t i = 1; i <= piles.size() / 3; ++i) {
-      total += piles[piles.size() - 2 * i];
+    for (size_t i = 0; i < piles.size() / 3; ++i) {
+      total += piles[2 * i + 1];
     }
 
     return total;
