@@ -1,0 +1,21 @@
+name: 1685. Sum of Absolute Differences in a Sorted Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: getSumAbsoluteDifferences
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 3, 5]
+    output: [4, 3, 5]
+
+  example_2:
+    inputs:
+      nums: [1, 4, 6, 8, 10]
+    output: [24, 15, 13, 15, 21]
