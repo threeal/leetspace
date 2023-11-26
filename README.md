@@ -63,6 +63,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1630. Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/) | Medium | [C++](./problems/1630/solution.cpp) |
 | [1658. Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) | Medium | [C++](./problems/1658/solution.cpp) |
 | [1685. Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | Medium | [C](./problems/1685/c/solution.c) [C++](./problems/1685/solution.cpp) |
+| [1727. Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/) | Medium | [C++](./problems/1727/solution.cpp) |
 | [1759. Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings) | Medium | [C](./problems/1759/c/solution.c) [C++](./problems/1759/solution.cpp) |
 | [1743. Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs) | Medium | [C++](./problems/1743/solution.cpp) |
 | [1793. Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray) | Hard | [C](./problems/1793/c/solution.c) [C++](./problems/1793/solution.cpp) |
