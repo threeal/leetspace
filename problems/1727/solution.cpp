@@ -55,6 +55,7 @@ class Solution {
 
       // Find the largest area from values in the row.
       for (size_t i = 0; i < rows.size(); ++i) {
+        if (rows[i] == 0) break;
         maxArea = std::max<int>(maxArea, (i + 1) * rows[i]);
       }
     }
