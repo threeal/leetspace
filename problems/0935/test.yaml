@@ -1,0 +1,26 @@
+name: 935. Knight Dialer
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: knightDialer
+
+test_cases:
+  example_1:
+    inputs:
+      n: 1
+    output: 10
+
+  example_2:
+    inputs:
+      n: 2
+    output: 20
+
+  example_3:
+    inputs:
+      n: 3131
+    output: 136006598
