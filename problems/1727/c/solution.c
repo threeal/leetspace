@@ -13,8 +13,13 @@ int largestSubmatrix(int** matrix, int matrixSize, int* matrixColSize) {
   // Do brute force search here to calculate the maximum area.
   int maxArea = 0;
   for (int y = 0; y < matrixSize; ++y) {
-    // Sort values in the row from highest to lowest.
-    reversedQuickSort(matrix[y], matrix[y] + matrixColSize[y] - 1);
+    // Sort values in the row from highest to lowest (don't sort if already sorted).
+    for (int x = 1; x < matrixColSize[y]; ++x) {
+      if (matrix[y][x - 1] < matrix[y][x]) {
+        reversedQuickSort(matrix[y], matrix[y] + matrixColSize[y] - 1);
+        break;
+      }
+    }
 
     // Find the largest area from values in the row.
     for (int x = 0; x < matrixColSize[y]; ++x) {
