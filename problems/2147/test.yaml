@@ -24,3 +24,8 @@ test_cases:
     inputs:
       corridor: S
     output: 0
+
+  case_1:
+    inputs:
+      corridor: P
+    output: 0
