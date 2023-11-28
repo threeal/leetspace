@@ -1,6 +1,6 @@
 #include <string>
 
-const unsigned long mod = 1'000'000'009;
+const unsigned long mod = 1'000'000'007;
 
 class Solution {
  public:
