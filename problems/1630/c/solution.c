@@ -1,3 +1,6 @@
+// The solution can be done simply by slicing the array, sorting it,
+// and then iterating through it to check if each element has the same difference.
+
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
