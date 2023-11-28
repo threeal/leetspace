@@ -28,7 +28,7 @@ class Solution {
       }
     }
 
-    if (seats == 1) return 0;
+    if (seats != 2) return 0;
     return count;
   }
 };
