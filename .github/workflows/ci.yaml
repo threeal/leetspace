@@ -28,6 +28,7 @@ jobs:
         uses: threeal/cmake-action@v1.3.0
         with:
           run-build: true
+          generator: Ninja
 
       - name: Check format
         run: |
