@@ -1,6 +1,6 @@
 #include <stdint.h>
 
 int hammingWeight(uint32_t n) {
-  (void)n;
-  return 0;
+  // See this: https://gcc.gnu.org/onlinedocs/gcc/Other-Builtins.html#index-_005f_005fbuiltin_005fpopcount.
+  return __builtin_popcount(n);
 }
