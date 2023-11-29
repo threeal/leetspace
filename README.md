@@ -28,6 +28,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [C](./problems/0058/c/solution.c) [C++](./problems/0058/solution.cpp) |
 | [66. Plus One](https://leetcode.com/problems/plus-one) | Easy | [C++](./problems/0066/solution.cpp) |
 | [119. Pascal's Triangle II](pascals-triangle-ii) | Easy | [C++](./problems/0119/solution.cpp) |
+| [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [C++](./problems/0191/solution.cpp) |
 | [229. Majority Element II](https://leetcode.com/problems/majority-element-ii) | Medium | [C++](./problems/0229/solution.cpp) |
 | [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) | Medium | [C++](./problems/0316/solution.cpp) |
 | [342. Power of Four](https://leetcode.com/problems/power-of-four) | Easy | [C++](./problems/0342/solution.cpp) |
