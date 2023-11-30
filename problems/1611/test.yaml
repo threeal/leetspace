@@ -1,0 +1,21 @@
+name: 1611. Minimum One Bit Operations to Make Integers Zero
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: minimumOneBitOperations
+
+test_cases:
+  example_1:
+    inputs:
+      n: 3
+    output: 2
+
+  example_2:
+    inputs:
+      n: 6
+    output: 4
