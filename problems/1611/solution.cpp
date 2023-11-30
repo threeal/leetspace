@@ -1,3 +1,5 @@
+// IDK man, see this: https://en.wikipedia.org/wiki/Gray_code#Converting_to_and_from_Gray_code
+
 class Solution {
  public:
   int minimumOneBitOperations(int n) {
