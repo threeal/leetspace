@@ -1,3 +1,5 @@
+// This problem can simply be solved by using iterators and a while loop.
+
 #include <stdbool.h>
 
 bool arrayStringsAreEqual(char** word1, int word1Size, char** word2, int word2Size) {
