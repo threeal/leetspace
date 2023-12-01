@@ -8,7 +8,6 @@ types:
 solutions:
   cpp:
     function: isPalindrome
-    includes: [list]
 
 test_cases:
   example_1:

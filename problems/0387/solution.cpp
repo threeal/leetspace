@@ -1,8 +1,12 @@
+#include <string>
+#include <unordered_map>
+#include <unordered_set>
+
 class Solution {
  public:
-  int firstUniqChar(string s) {
-    unordered_set<char> duplicates;
-    unordered_map<char, int> uniques;
+  int firstUniqChar(std::string s) {
+    std::unordered_set<char> duplicates;
+    std::unordered_map<char, int> uniques;
 
     const int n = s.size();
     for (int i = 0; i < n; ++i) {

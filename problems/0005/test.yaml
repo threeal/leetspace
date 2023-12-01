@@ -9,7 +9,6 @@ solutions:
   c:
   cpp:
     function: longestPalindrome
-    includes: [functional, string]
 
 test_cases:
   example_1:

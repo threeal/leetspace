@@ -1,6 +1,8 @@
+#include <string>
+
 class Solution {
  public:
-  int myAtoi(string s) {
+  int myAtoi(std::string s) {
     const int n = s.size();
 
     int i;

@@ -8,11 +8,6 @@ types:
 solutions:
   cpp:
     function: smallestSubsequence
-    includes:
-      - stack
-      - string
-      - unordered_map
-      - unordered_set
 
 test_cases:
   example_1:

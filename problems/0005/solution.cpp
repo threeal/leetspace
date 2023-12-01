@@ -1,12 +1,15 @@
+#include <functional>
+#include <string>
+
 class Solution {
  public:
-  string longestPalindrome(string s) {
+  std::string longestPalindrome(std::string s) {
     const int n = s.size();
 
     int res_a = 0;
     int res_n = 1;
 
-    const function<void(int, int)> fn = [&](int a, int b) {
+    const std::function<void(int, int)> fn = [&](int a, int b) {
       if (s[a] != s[b]) return;
       while (a >= 0 && b < n) {
         if (s[a] != s[b]) break;

@@ -1,12 +1,16 @@
+#include <algorithm>
+#include <map>
+#include <vector>
+
 class Solution {
  public:
-  vector<vector<int>> threeSum(vector<int>& nums) {
-    map<int, int, greater<int>> counts;
+  std::vector<std::vector<int>> threeSum(std::vector<int>& nums) {
+    std::map<int, int, std::greater<int>> counts;
     for (const auto num : nums) {
       ++counts[num];
     }
 
-    vector<vector<int>> result;
+    std::vector<std::vector<int>> result;
     const auto counts_end = counts.end();
     for (auto ai = counts.begin(); ai != counts_end; ++ai) {
       const auto a = ai->first;

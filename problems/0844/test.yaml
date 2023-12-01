@@ -9,7 +9,6 @@ types:
 solutions:
   cpp:
     function: backspaceCompare
-    includes: [string]
 
 test_cases:
   example_1:

@@ -1,6 +1,8 @@
+#include <string>
+
 class Solution {
  public:
-  bool backspaceCompare(string s, string t) {
+  bool backspaceCompare(std::string s, std::string t) {
     auto ss = s.rbegin();
     auto tt = t.rbegin();
 
@@ -27,7 +29,7 @@ class Solution {
   }
 
   // This function will increment the iterator as long as it still contains the backspace character (`#`).
-  void shift_backspace(string::reverse_iterator& it, string::reverse_iterator end) {
+  void shift_backspace(std::string::reverse_iterator& it, std::string::reverse_iterator end) {
     int skip = 0;
     while (it != end && *it == '#') {
       ++skip;

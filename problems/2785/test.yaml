@@ -9,9 +9,6 @@ solutions:
   c:
   cpp:
     function: sortVowels
-    includes:
-      - map
-      - string
 
 test_cases:
   example_1:

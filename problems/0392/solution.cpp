@@ -1,6 +1,8 @@
+#include <string>
+
 class Solution {
  public:
-  bool isSubsequence(string s, string t) {
+  bool isSubsequence(std::string s, std::string t) {
     auto si = s.begin();
     const auto se = s.end();
     if (si == se) return true;

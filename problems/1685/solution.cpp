@@ -37,7 +37,7 @@ class Solution {
 
     // Iterate each element to update the output.
     int leftTotal = 0;
-    for (size_t i = 0; i < nums.size(); ++i) {
+    for (std::size_t i = 0; i < nums.size(); ++i) {
       // Shift value from the right total to the left total.
       leftTotal += nums[i];
       rightTotal -= nums[i];

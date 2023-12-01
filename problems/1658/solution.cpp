@@ -1,6 +1,8 @@
+#include <vector>
+
 class Solution {
  public:
-  int minOperations(vector<int>& nums, int x) {
+  int minOperations(std::vector<int>& nums, int x) {
     int res = -1;
     const int n = nums.size();
 
@@ -14,7 +16,7 @@ class Solution {
       if (xx <= 0) {
         if (xx == 0) {
           int new_res = ll + 1;
-          res = res > 0 ? min(res, new_res) : new_res;
+          res = res > 0 ? std::min(res, new_res) : new_res;
         }
         break;
       }
@@ -35,7 +37,7 @@ class Solution {
         xx -= nums[rr];
         if (xx == 0) {
           int new_res = ll + 1 + n - rr;
-          res = res > 0 ? min(res, new_res) : new_res;
+          res = res > 0 ? std::min(res, new_res) : new_res;
         }
         --rr;
       }

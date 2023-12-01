@@ -4,15 +4,20 @@
 // - If the target route contains any of the current buses, return the required number of buses.
 // - Else, get all buses that are connected with the current buses and repeat the previous step.
 
+#include <list>
+#include <unordered_map>
+#include <unordered_set>
+#include <vector>
+
 class Solution {
  public:
-  int numBusesToDestination(vector<vector<int>>& routes, int source, int target) {
+  int numBusesToDestination(std::vector<std::vector<int>>& routes, int source, int target) {
     // Bus is not required if the source and target routes are the same.
     if (source == target) return 0;
 
     // Create a hash table that maps buses to each route.
     const int busCount = routes.size();
-    unordered_map<int, unordered_set<int>> routesBuses;
+    std::unordered_map<int, std::unordered_set<int>> routesBuses;
     for (int bus = 0; bus < busCount; ++bus) {
       for (const auto route : routes[bus]) {
         routesBuses[route].insert(bus);
@@ -20,12 +25,12 @@ class Solution {
     }
 
     // Mark the source route as visited.
-    unordered_set<int> visitedRoutes;
+    std::unordered_set<int> visitedRoutes;
     visitedRoutes.insert(source);
 
     // Get all buses from the source route.
-    list<int> busesToVisit;
-    unordered_set<int> visitedBuses;
+    std::list<int> busesToVisit;
+    std::unordered_set<int> visitedBuses;
     for (const auto bus : routesBuses[source]) {
       busesToVisit.push_back(bus);
       visitedBuses.insert(bus);
@@ -34,7 +39,7 @@ class Solution {
     // Repeat until there is no more bus to visit.
     int count = 1;
     while (!busesToVisit.empty()) {
-      list<int> nextBusesToVisit;
+      std::list<int> nextBusesToVisit;
       for (const auto busToVisit : busesToVisit) {
         // If the current bus has the target route, return the required number of buses to visit.
         if (routesBuses[target].contains(busToVisit)) return count;

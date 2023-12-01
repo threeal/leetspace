@@ -9,7 +9,6 @@ types:
 solutions:
   cpp:
     function: constrainedSubsetSum
-    includes: [deque, vector]
 
 test_cases:
   example_1:

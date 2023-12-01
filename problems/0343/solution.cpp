@@ -1,3 +1,5 @@
+#include <vector>
+
 class Solution {
  public:
   int integerBreak(int n) {
@@ -6,7 +8,7 @@ class Solution {
       const int div = n / i;
       const int mod = n % i;
 
-      vector<int> nums(i, div);
+      std::vector<int> nums(i, div);
       if (mod > 0) {
         for (int j = 0; j < mod; ++j) {
           ++nums[j];
@@ -23,7 +25,7 @@ class Solution {
     return res;
   }
 
-  int multiplies(const vector<int>& nums) {
+  int multiplies(const std::vector<int>& nums) {
     int total = 1;
     for (int num : nums) {
       total *= num;

@@ -1,14 +1,17 @@
+#include <string>
+#include <vector>
+
 class Solution {
  public:
-  vector<string> letterCombinations(string digits) {
+  std::vector<std::string> letterCombinations(std::string digits) {
     const auto n = digits.size();
     if (n == 0) return {};
 
     // Calculate repeat for each digits.
-    std::vector<size_t> repeats(n, 1);
-    for (size_t i = 0; i < n; ++i) {
+    std::vector<std::size_t> repeats(n, 1);
+    for (std::size_t i = 0; i < n; ++i) {
       repeats[i] = repeat_of(digits[i]);
-      for (size_t j = 0; j < i; ++j) {
+      for (std::size_t j = 0; j < i; ++j) {
         repeats[j] *= repeats[i];
       }
     }
@@ -19,7 +22,7 @@ class Solution {
       result.resize(n);
     }
 
-    for (size_t i = 0; i < n; ++i) {
+    for (std::size_t i = 0; i < n; ++i) {
       switch (digits[i]) {
         case '2':
           repeat_digit(results, "abc", repeats[i], i);
@@ -58,7 +61,7 @@ class Solution {
     return results;
   }
 
-  size_t repeat_of(char digit) {
+  std::size_t repeat_of(char digit) {
     switch (digit) {
       case '7':
       case '9':
@@ -67,14 +70,14 @@ class Solution {
     return 3;
   }
 
-  void repeat_digit(std::vector<std::string>& results, const std::string& chars, size_t repeat, size_t i) {
+  void repeat_digit(std::vector<std::string>& results, const std::string& chars, std::size_t repeat, std::size_t i) {
     repeat /= chars.size();
 
-    size_t j = 0;
+    std::size_t j = 0;
     const auto n = results.size();
     while (j < n) {
       for (const auto c : chars) {
-        for (size_t k = 0; k < repeat; ++k) {
+        for (std::size_t k = 0; k < repeat; ++k) {
           results[j + k][i] = c;
         }
         j += repeat;

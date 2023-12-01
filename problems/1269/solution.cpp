@@ -1,11 +1,15 @@
+#include <algorithm>
+#include <functional>
+#include <vector>
+
 const int mod = 1'000'000'007;
 
 class Solution {
  public:
   int numWays(int steps, int arrLen) {
-    auto cache = vector(steps + 1, vector(min(arrLen, steps) + 1, -1));
+    auto cache = std::vector(steps + 1, std::vector(std::min(arrLen, steps) + 1, -1));
 
-    const function<int(int, int)> fn = [&](int step, int index) {
+    const std::function<int(int, int)> fn = [&](int step, int index) {
       if (step == 0) return index == 0 ? 1 : 0;
       if (step < 0 || index < 0 || index >= arrLen) return 0;
       if (cache[step][index] < 0) {

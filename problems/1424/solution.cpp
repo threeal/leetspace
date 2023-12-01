@@ -9,15 +9,15 @@ class Solution {
  public:
   std::vector<int> findDiagonalOrder(std::vector<std::vector<int>>& nums) {
     // Calculate the maximum diagonal count.
-    size_t diagonalCount = 0;
-    for (size_t y = 0; y < nums.size(); ++y) {
+    std::size_t diagonalCount = 0;
+    for (std::size_t y = 0; y < nums.size(); ++y) {
       diagonalCount = std::max(diagonalCount, y + nums[y].size());
     }
 
     // Push each number into its diagonal.
     std::vector<std::list<int>> diagonals(diagonalCount);
-    for (size_t y = 0; y < nums.size(); ++y) {
-      for (size_t x = 0; x < nums[y].size(); ++x) {
+    for (std::size_t y = 0; y < nums.size(); ++y) {
+      for (std::size_t x = 0; x < nums[y].size(); ++x) {
         diagonals[y + x].push_front(nums[y][x]);
       }
     }

@@ -8,11 +8,6 @@ def generate_solution_cpp_src(source_dir: str, out_dir: str, config: any):
 
         cfg = config["solutions"]["cpp"]
 
-        if cfg is not None and "includes" in cfg:
-            for include in cfg["includes"]:
-                output.write("#include <%s>\n" % include)
-            output.write("\nusing namespace std;\n\n")
-
         with open(os.path.join(source_dir, "solution.cpp"), "r") as source:
             for line in source.readlines():
                 output.write(line)

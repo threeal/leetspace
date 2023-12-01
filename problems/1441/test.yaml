@@ -9,9 +9,6 @@ types:
 solutions:
   cpp:
     function: buildArray
-    includes:
-      - string
-      - vector
 
 test_cases:
   example_1:

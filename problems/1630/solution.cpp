@@ -12,7 +12,7 @@ class Solution {
     std::vector<bool> isArithmetics(n, true);
 
     // Iterating over the given subarrays.
-    for (size_t i = 0; i < n; ++i) {
+    for (std::size_t i = 0; i < n; ++i) {
       // Subarray with a size of 2 or less is always considered arithmetic.
       if (r[i] - l[i] <= 1) continue;
 
@@ -24,7 +24,7 @@ class Solution {
 
       // Check if the difference between each element is the same.
       const auto diff = subnums[1] - subnums[0];
-      for (size_t j = 2; j < subnums.size(); ++j) {
+      for (std::size_t j = 2; j < subnums.size(); ++j) {
         if (subnums[j] - subnums[j - 1] != diff) {
           isArithmetics[i] = false;
           break;

@@ -1,6 +1,8 @@
+#include <string>
+
 class Solution {
  public:
-  int lengthOfLastWord(string s) {
+  int lengthOfLastWord(std::string s) {
     const int n = s.size();
     int b = n - 1;
     while (b >= 0) {

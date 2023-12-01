@@ -9,7 +9,6 @@ types:
 solutions:
   cpp:
     function: findMedianSortedArrays
-    includes: [stack, vector]
 
 test_cases:
   odd_total_size:

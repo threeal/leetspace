@@ -8,7 +8,6 @@ types:
 solutions:
   cpp:
     function: numFactoredBinaryTrees
-    includes: [algorithm, unordered_map, vector]
 
 test_cases:
   example_1:

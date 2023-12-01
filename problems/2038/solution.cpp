@@ -1,12 +1,14 @@
+#include <string>
+
 class Solution {
  public:
-  bool winnerOfGame(string colors) {
-    size_t a = 0;
-    size_t b = 0;
+  bool winnerOfGame(std::string colors) {
+    std::size_t a = 0;
+    std::size_t b = 0;
 
-    size_t start = 0;
-    const size_t n = colors.size();
-    for (size_t i = 1; i < n; ++i) {
+    std::size_t start = 0;
+    const std::size_t n = colors.size();
+    for (std::size_t i = 1; i < n; ++i) {
       if (colors[i] != colors[start]) {
         if (i - start > 2) {
           if (colors[start] == 'A') {

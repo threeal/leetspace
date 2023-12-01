@@ -1,5 +1,7 @@
 const long long mod = 1'000'000'007;
 
+#include <string>
+
 class Solution {
  public:
   // The count of homogeneous substrings is equal to the sum of the series of the maximum length of homogeneous substrings.
@@ -18,7 +20,7 @@ class Solution {
   //
   // Or, roughly speaking, it equals the sum of the series from 1 to 2 (from "aa") and the series from 1 to 3 (from "bbb").
   //
-  int countHomogenous(string s) {
+  int countHomogenous(std::string s) {
     long long total = 0;
 
     // Find the maximum length of each homogeneous substring and sum the series.

@@ -1,7 +1,10 @@
+#include <string>
+#include <vector>
+
 class Solution {
  public:
-  vector<string> buildArray(vector<int>& target, int n) {
-    vector<string> cmds;
+  std::vector<std::string> buildArray(std::vector<int>& target, int n) {
+    std::vector<std::string> cmds;
 
     auto ti = target.begin();
     for (int i = 1; i <= n && ti != target.end(); ++i) {

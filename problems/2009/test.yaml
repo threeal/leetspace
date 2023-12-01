@@ -8,10 +8,6 @@ types:
 solutions:
   cpp:
     function: minOperations
-    includes:
-      - algorithm
-      - limits
-      - vector
 
 test_cases:
   example_1:

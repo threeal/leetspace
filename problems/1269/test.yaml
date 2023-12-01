@@ -9,10 +9,6 @@ types:
 solutions:
   cpp:
     function: numWays
-    includes:
-      - algorithm
-      - functional
-      - vector
 
 test_cases:
   example_1:

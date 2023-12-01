@@ -1,6 +1,9 @@
+#include <stack>
+#include <vector>
+
 class Solution {
  public:
-  double findMedianSortedArrays(vector<int>& a, vector<int>& b) {
+  double findMedianSortedArrays(std::vector<int>& a, std::vector<int>& b) {
     const auto ae = a.end();
     const auto be = b.end();
 
@@ -18,7 +21,7 @@ class Solution {
       return is_even ? (a[n] + a[n - 1]) / 2.0 : a[n];
     }
 
-    stack<int> s;
+    std::stack<int> s;
     while (n >= 0) {
       if (*ai < *bi) {
         s.push(*ai);

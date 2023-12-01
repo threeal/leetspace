@@ -8,7 +8,6 @@ types:
 solutions:
   cpp:
     function: threeSum
-    includes: [algorithm, map, vector]
 
 test_cases:
   example_1:

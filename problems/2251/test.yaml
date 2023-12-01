@@ -9,7 +9,6 @@ types:
 solutions:
   cpp:
     function: fullBloomFlowers
-    includes: [algorithm, map, vector]
 
 test_cases:
   example_1:

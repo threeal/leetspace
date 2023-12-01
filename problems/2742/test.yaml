@@ -9,10 +9,6 @@ types:
 solutions:
   cpp:
     function: paintWalls
-    includes:
-      - algorithm
-      - functional
-      - vector
 
 test_cases:
   example_1:

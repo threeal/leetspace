@@ -10,7 +10,6 @@ solutions:
   c:
   cpp:
     function: getWinner
-    includes: [vector]
 
 test_cases:
   example_1:

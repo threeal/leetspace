@@ -1,13 +1,18 @@
+#include <stack>
+#include <string>
+#include <unordered_map>
+#include <unordered_set>
+
 class Solution {
  public:
-  string removeDuplicateLetters(string s) {
-    unordered_map<char, size_t> counts;
+  std::string removeDuplicateLetters(std::string s) {
+    std::unordered_map<char, std::size_t> counts;
     for (const auto c : s) {
       ++counts[c];
     }
 
-    unordered_set<char> existed;
-    stack<char> orders;
+    std::unordered_set<char> existed;
+    std::stack<char> orders;
 
     for (const auto c : s) {
       --counts[c];
@@ -22,7 +27,7 @@ class Solution {
       existed.insert(c);
     }
 
-    string res;
+    std::string res;
     while (!orders.empty()) {
       res = orders.top() + res;
       orders.pop();
