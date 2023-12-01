@@ -1,6 +1,8 @@
+#include <string>
+
 class Solution {
  public:
-  char findTheDifference(string s, string t) {
+  char findTheDifference(std::string s, std::string t) {
     char maps[26];
     for (int i = 0; i < 26; ++i) {
       maps[i] = 0;

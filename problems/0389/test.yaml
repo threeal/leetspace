@@ -9,7 +9,6 @@ types:
 solutions:
   cpp:
     function: findTheDifference
-    includes: [string]
     output: "{output}"
 
 test_cases:

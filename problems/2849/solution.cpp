@@ -1,3 +1,6 @@
+#include <algorithm>
+#include <cmath>
+
 class Solution {
  public:
   bool isReachableAtTime(int sx, int sy, int fx, int fy, int t) {
@@ -5,6 +8,6 @@ class Solution {
     if (sx == fx && sy == fy && t == 1) return false;
 
     // Time to reach is equal to the largest distance between x and y axes.
-    return max(abs(fx - sx), abs(fy - sy)) <= t;
+    return std::max(std::abs(fx - sx), std::abs(fy - sy)) <= t;
   }
 };

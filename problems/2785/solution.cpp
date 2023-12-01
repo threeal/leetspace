@@ -1,10 +1,13 @@
 // The solution can be done by counting the number of vowel occurrences and then replacing each vowel using that count as references.
 
+#include <map>
+#include <string>
+
 class Solution {
  public:
-  string sortVowels(string s) {
+  std::string sortVowels(std::string s) {
     // Initializes a map for storing the count of vowels.
-    map<char, int> vowelsCount{
+    std::map<char, int> vowelsCount{
         {'A', 0}, {'E', 0}, {'I', 0}, {'O', 0}, {'U', 0}, {'a', 0}, {'e', 0}, {'i', 0}, {'o', 0}, {'u', 0}};
 
     // Count vowels in a string and store it in the map.

@@ -1,12 +1,14 @@
+#include <vector>
+
 class Solution {
  public:
-  int maxArea(vector<int>& height) {
+  int maxArea(std::vector<int>& height) {
     int left = 0;
     int right = height.size() - 1;
 
     int leftHeight = height[left];
     int rightHeight = height[right];
-    int max = min(leftHeight, rightHeight) * (right - left);
+    int max = std::min(leftHeight, rightHeight) * (right - left);
 
     while (left < right) {
       if (leftHeight <= rightHeight) {
@@ -14,7 +16,7 @@ class Solution {
           ++left;
           if (height[left] <= leftHeight) continue;
           leftHeight = height[left];
-          int newMax = min(leftHeight, rightHeight) * (right - left);
+          int newMax = std::min(leftHeight, rightHeight) * (right - left);
           if (newMax > max) max = newMax;
           if (leftHeight > rightHeight) break;
         }
@@ -23,7 +25,7 @@ class Solution {
           --right;
           if (height[right] <= rightHeight) continue;
           rightHeight = height[right];
-          int newMax = min(leftHeight, rightHeight) * (right - left);
+          int newMax = std::min(leftHeight, rightHeight) * (right - left);
           if (newMax > max) max = newMax;
           if (rightHeight >= leftHeight) break;
         }

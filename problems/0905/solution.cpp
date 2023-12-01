@@ -1,7 +1,10 @@
+#include <list>
+#include <vector>
+
 class Solution {
  public:
-  vector<int> sortArrayByParity(vector<int>& nums) {
-    list<int> odd, even;
+  std::vector<int> sortArrayByParity(std::vector<int>& nums) {
+    std::list<int> odd, even;
 
     for (const auto num : nums) {
       if (num % 2)

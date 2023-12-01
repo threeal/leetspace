@@ -8,7 +8,6 @@ types:
 solutions:
   cpp:
     function: plusOne
-    includes: [algorithm, vector]
 
 test_cases:
   example_1:

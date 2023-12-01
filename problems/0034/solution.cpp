@@ -1,6 +1,8 @@
+#include <vector>
+
 class Solution {
  public:
-  vector<int> searchRange(vector<int>& nums, int target) {
+  std::vector<int> searchRange(std::vector<int>& nums, int target) {
     const int n = nums.size();
 
     int a = 0;

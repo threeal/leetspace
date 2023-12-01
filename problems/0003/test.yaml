@@ -8,7 +8,6 @@ types:
 solutions:
   cpp:
     function: lengthOfLongestSubstring
-    includes: [string, unordered_set]
 
 test_cases:
   example_1:

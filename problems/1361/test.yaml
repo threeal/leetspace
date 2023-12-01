@@ -11,10 +11,6 @@ solutions:
   c:
   cpp:
     function: validateBinaryTreeNodes
-    includes:
-      - algorithm
-      - functional
-      - vector
 
 test_cases:
   example_1:

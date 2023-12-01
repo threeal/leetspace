@@ -8,7 +8,6 @@ types:
 solutions:
   cpp:
     function: removeDuplicates
-    includes: [unordered_set, vector]
     output: std::vector(nums.begin(), nums.begin() + output)
 
 test_cases:

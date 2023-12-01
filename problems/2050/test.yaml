@@ -10,12 +10,6 @@ types:
 solutions:
   cpp:
     function: minimumTime
-    includes:
-      - algorithm
-      - list
-      - memory
-      - optional
-      - vector
 
 test_cases:
   example_1:

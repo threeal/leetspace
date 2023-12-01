@@ -4,14 +4,18 @@
 // - For each binary number, compare it with the iterator.
 // - If it is equal, increment the iterator; otherwise, return the iterator.
 
+#include <algorithm>
+#include <string>
+#include <vector>
+
 class Solution {
  public:
-  string findDifferentBinaryString(vector<string>& nums) {
+  std::string findDifferentBinaryString(std::vector<std::string>& nums) {
     // Sort the binary numbers.
-    sort(nums.begin(), nums.end());
+    std::sort(nums.begin(), nums.end());
 
     // Declare a binary number 0 as an iterator.
-    string res(nums.size(), '0');
+    std::string res(nums.size(), '0');
 
     // For each binary number, compare it with the iterator.
     for (const auto& num : nums) {

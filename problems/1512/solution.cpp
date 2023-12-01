@@ -1,6 +1,8 @@
+#include <vector>
+
 class Solution {
  public:
-  int numIdenticalPairs(vector<int>& nums) {
+  int numIdenticalPairs(std::vector<int>& nums) {
     size_t count = 0;
     const size_t n = nums.size();
     for (size_t i = 0; i < n; ++i) {

@@ -8,10 +8,6 @@ types:
 solutions:
   cpp:
     function: findDifferentBinaryString
-    includes:
-      - algorithm
-      - string
-      - vector
 
 test_cases:
   example_1:

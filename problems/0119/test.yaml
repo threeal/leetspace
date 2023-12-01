@@ -8,7 +8,6 @@ types:
 solutions:
   cpp:
     function: getRow
-    includes: [functional, vector]
 
 test_cases:
   example_1:

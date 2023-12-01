@@ -1,10 +1,16 @@
+#include <algorithm>
+#include <list>
+#include <memory>
+#include <optional>
+#include <vector>
+
 class Course {
  public:
   int time;
-  list<shared_ptr<Course>> dependencies;
+  std::list<std::shared_ptr<Course>> dependencies;
 
  private:
-  mutable optional<int> totalTimeCache;
+  mutable std::optional<int> totalTimeCache;
 
  public:
   Course(int time);
@@ -19,7 +25,7 @@ int Course::totalTime() const {
     // Recursively collect the maximum time from all dependencies.
     int maxTime = 0;
     for (const auto& dependency : dependencies) {
-      maxTime = max(maxTime, dependency->totalTime());
+      maxTime = std::max(maxTime, dependency->totalTime());
     }
     totalTimeCache = maxTime + time;
   }
@@ -29,11 +35,11 @@ int Course::totalTime() const {
 
 class Solution {
  public:
-  int minimumTime(int n, vector<vector<int>>& relations, vector<int>& time) {
+  int minimumTime(int n, std::vector<std::vector<int>>& relations, std::vector<int>& time) {
     // Initialize list of courses that contains time.
-    vector<shared_ptr<Course>> courses(n);
+    std::vector<std::shared_ptr<Course>> courses(n);
     for (int i = 0; i < n; ++i) {
-      courses[i] = make_shared<Course>(time[i]);
+      courses[i] = std::make_shared<Course>(time[i]);
     }
 
     // Initialize dependencies of each course.
@@ -44,7 +50,7 @@ class Solution {
     // Find the maximum time of each course.
     int maxTime = 0;
     for (const auto& course : courses) {
-      maxTime = max(maxTime, course->totalTime());
+      maxTime = std::max(maxTime, course->totalTime());
     }
 
     return maxTime;

@@ -1,11 +1,13 @@
+#include <string>
+
 class Solution {
  private:
-  string str;
+  std::string str;
 
  public:
-  string decodeAtIndex(string s, int k) {
+  std::string decodeAtIndex(std::string s, int k) {
     str = s;
-    return string() + decode(k - 1);
+    return std::string() + decode(k - 1);
   }
 
   char decode(uint64_t k) {

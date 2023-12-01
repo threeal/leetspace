@@ -1,6 +1,8 @@
+#include <string>
+
 class Solution {
  public:
-  int strStr(string haystack, string needle) {
+  int strStr(std::string haystack, std::string needle) {
     int hn = haystack.size();
     int nn = needle.size();
     for (int hi = 0; hi <= hn - nn; ++hi) {

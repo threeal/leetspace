@@ -1,15 +1,19 @@
+#include <algorithm>
+#include <unordered_map>
+#include <vector>
+
 const int mod = 1'000'000'007;
 
 class Solution {
  public:
-  int numFactoredBinaryTrees(vector<int>& arr) {
+  int numFactoredBinaryTrees(std::vector<int>& arr) {
     int res = 0;
 
     // Container to track the number of combinations for each value.
-    unordered_map<int, int> comb_of;
+    std::unordered_map<int, int> comb_of;
 
     // Iterate from lower values to higher values.
-    sort(arr.begin(), arr.end());
+    std::sort(arr.begin(), arr.end());
     for (size_t i = 0; i < arr.size(); ++i) {
       // A value can be its own node.
       int comb = 1;

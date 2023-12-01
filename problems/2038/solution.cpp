@@ -1,6 +1,8 @@
+#include <string>
+
 class Solution {
  public:
-  bool winnerOfGame(string colors) {
+  bool winnerOfGame(std::string colors) {
     size_t a = 0;
     size_t b = 0;
 

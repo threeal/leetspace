@@ -9,7 +9,6 @@ types:
 solutions:
   cpp:
     function: removeElement
-    includes: [vector]
     output: std::vector(nums.begin(), nums.begin() + output)
 
 test_cases:

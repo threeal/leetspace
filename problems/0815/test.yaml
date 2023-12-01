@@ -10,11 +10,6 @@ types:
 solutions:
   cpp:
     function: numBusesToDestination
-    includes:
-      - list
-      - unordered_map
-      - unordered_set
-      - vector
 
 test_cases:
   example_1:

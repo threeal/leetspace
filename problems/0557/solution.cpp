@@ -1,6 +1,8 @@
+#include <string>
+
 class Solution {
  public:
-  string reverseWords(string s) {
+  std::string reverseWords(std::string s) {
     const int n = s.size();
     int a = 0;
     for (int i = 0; i < n; ++i) {
@@ -15,7 +17,7 @@ class Solution {
     return s;
   }
 
-  void swap(string& s, int a, int b) {
+  void swap(std::string& s, int a, int b) {
     while (b > a) {
       auto tmp = s[a];
       s[a] = s[b];

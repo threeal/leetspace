@@ -1,7 +1,10 @@
+#include <algorithm>
+#include <vector>
+
 class Solution {
  public:
-  vector<int> plusOne(vector<int>& digits) {
-    reverse(digits.begin(), digits.end());
+  std::vector<int> plusOne(std::vector<int>& digits) {
+    std::reverse(digits.begin(), digits.end());
     size_t i = 0;
     ++digits[i];
     while (digits[i] >= 10) {
@@ -13,7 +16,7 @@ class Solution {
       }
       digits[i - 1] %= 10;
     }
-    reverse(digits.begin(), digits.end());
+    std::reverse(digits.begin(), digits.end());
     return digits;
   }
 };

@@ -1,11 +1,14 @@
+#include <string>
+#include <unordered_set>
+
 class Solution {
  public:
-  int lengthOfLongestSubstring(string s) {
+  int lengthOfLongestSubstring(std::string s) {
     return longest(s.c_str(), s.size());
   }
 
   int longest(const char* str, int n) {
-    unordered_set<char> cs;
+    std::unordered_set<char> cs;
     int i = 0;
     while (i < n) {
       if (cs.contains(str[i])) break;
@@ -15,6 +18,6 @@ class Solution {
     if (n <= 1) return i;
     auto j = longest(str + 1, n - 1);
 
-    return max(i, j);
+    return std::max(i, j);
   }
 };

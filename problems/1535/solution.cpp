@@ -1,6 +1,8 @@
+#include <vector>
+
 class Solution {
  public:
-  int getWinner(vector<int>& arr, int k) {
+  int getWinner(std::vector<int>& arr, int k) {
     int win = 0;
     size_t ref = 0;
 

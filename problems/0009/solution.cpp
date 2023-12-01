@@ -1,3 +1,5 @@
+#include <list>
+
 class Solution {
  public:
   bool isPalindrome(int x) {

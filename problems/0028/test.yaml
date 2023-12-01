@@ -9,7 +9,6 @@ types:
 solutions:
   cpp:
     function: strStr
-    includes: [string]
 
 test_cases:
   example_1:

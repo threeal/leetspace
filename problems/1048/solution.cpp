@@ -1,10 +1,14 @@
+#include <string>
+#include <unordered_map>
+#include <vector>
+
 class Solution {
  private:
-  unordered_map<int, vector<string>> m;
-  unordered_map<string, int> findMaxCache;
+  std::unordered_map<int, std::vector<std::string>> m;
+  std::unordered_map<std::string, int> findMaxCache;
 
  public:
-  int longestStrChain(vector<string>& words) {
+  int longestStrChain(std::vector<std::string>& words) {
     for (const auto& word : words) {
       m[word.size()].push_back(word);
     }

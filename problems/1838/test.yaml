@@ -9,9 +9,6 @@ types:
 solutions:
   cpp:
     function: maxFrequency
-    includes:
-      - algorithm
-      - vector
 
 test_cases:
   example_1:

@@ -1,7 +1,10 @@
+#include <functional>
+#include <vector>
+
 class Solution {
  public:
-  vector<int> getRow(int rowIndex) {
-    auto cache = vector(rowIndex + 1, vector<int>());
+  std::vector<int> getRow(int rowIndex) {
+    auto cache = std::vector(rowIndex + 1, std::vector<int>());
     for (int i = 0; i <= rowIndex; ++i) {
       cache[i].resize(i + 1);
     }
@@ -15,7 +18,7 @@ class Solution {
       return cache[row][index];
     };
 
-    vector<int> arr(rowIndex + 1);
+    std::vector<int> arr(rowIndex + 1);
     for (int i = 0; i <= rowIndex; ++i) {
       arr[i] = fn(rowIndex, i);
     }

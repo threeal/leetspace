@@ -1,6 +1,9 @@
+#include <string>
+#include <vector>
+
 class Solution {
  public:
-  vector<string> letterCombinations(string digits) {
+  std::vector<std::string> letterCombinations(std::string digits) {
     const auto n = digits.size();
     if (n == 0) return {};
 

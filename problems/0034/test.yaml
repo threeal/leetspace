@@ -9,7 +9,6 @@ types:
 solutions:
   cpp:
     function: searchRange
-    includes: [vector]
 
 test_cases:
   example_1:

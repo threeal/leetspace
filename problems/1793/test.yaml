@@ -10,7 +10,6 @@ solutions:
   c:
   cpp:
     function: maximumScore
-    includes: [vector]
 
 test_cases:
   example_1:

@@ -9,7 +9,6 @@ types:
 solutions:
   cpp:
     function: minOperations
-    includes: [vector]
 
 test_cases:
   example_1:

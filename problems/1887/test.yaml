@@ -9,8 +9,6 @@ solutions:
   c:
   cpp:
     function: reductionOperations
-    includes:
-      - vector
 
 test_cases:
   example_1:

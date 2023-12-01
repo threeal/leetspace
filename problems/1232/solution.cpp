@@ -1,6 +1,8 @@
+#include <vector>
+
 class Solution {
  public:
-  bool checkStraightLine(vector<vector<int>>& coordinates) {
+  bool checkStraightLine(std::vector<std::vector<int>>& coordinates) {
     const auto x0 = coordinates[0][0];
     const auto y0 = coordinates[0][1];
     const auto w = coordinates[1][0] - x0;

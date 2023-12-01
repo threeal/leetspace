@@ -10,10 +10,6 @@ solutions:
   c:
   cpp:
     function: eliminateMaximum
-    includes:
-      - algorithm
-      - limits
-      - vector
 
 test_cases:
   example_1:

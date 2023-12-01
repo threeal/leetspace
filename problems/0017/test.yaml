@@ -8,7 +8,6 @@ types:
 solutions:
   cpp:
     function: letterCombinations
-    includes: [string, vector]
 
 test_cases:
   example_1:

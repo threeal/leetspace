@@ -11,7 +11,6 @@ solutions:
   c:
   cpp:
     function: poorPigs
-    includes: [ctgmath]
 
 test_cases:
   example_1:

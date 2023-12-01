@@ -1,7 +1,11 @@
+#include <algorithm>
+#include <map>
+#include <vector>
+
 class Solution {
  public:
-  vector<int> fullBloomFlowers(vector<vector<int>>& flowers, vector<int>& people) {
-    map<int, int, less<int>> positions;
+  std::vector<int> fullBloomFlowers(std::vector<std::vector<int>>& flowers, std::vector<int>& people) {
+    std::map<int, int, std::less<int>> positions;
     for (auto person : people) {
       positions[person] = 0;
     }
@@ -9,7 +13,7 @@ class Solution {
     sort(flowers.begin(), flowers.end(), [](const auto& a, const auto& b) { return a[0] < b[0]; });
     auto flower = flowers.begin();
 
-    vector<int> ends;
+    std::vector<int> ends;
     for (auto& position : positions) {
       ends.erase(
           remove_if(ends.begin(), ends.end(), [=](auto end) { return end < position.first; }), ends.end());
