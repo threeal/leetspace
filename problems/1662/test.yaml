@@ -1,0 +1,30 @@
+name: 1662. Check If Two String Arrays are Equivalent
+
+types:
+  inputs:
+    word1: std::vector<std::string>
+    word2: std::vector<std::string>
+  output: bool
+
+solutions:
+  cpp:
+    function: arrayStringsAreEqual
+
+test_cases:
+  example_1:
+    inputs:
+      word1: [ab, c]
+      word2: [a, bc]
+    output: true
+
+  example_2:
+    inputs:
+      word1: [a, cb]
+      word2: [ab, c]
+    output: false
+
+  example_3:
+    inputs:
+      word1: [abc, d, defg]
+      word2: [abcddefg]
+    output: true
