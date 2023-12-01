@@ -15,10 +15,10 @@ class Solution {
     int travelTime[3] = {0};
 
     // Iterating over the garbage in every house.
-    for (size_t i = 0; i < garbage.size(); ++i) {
+    for (std::size_t i = 0; i < garbage.size(); ++i) {
       // Remember the travel time, don't add it to the total time yet.
       if (i > 0) {
-        for (size_t j = 0; j < 3; ++j) {
+        for (std::size_t j = 0; j < 3; ++j) {
           travelTime[j] += travel[i - 1];
         }
       }
@@ -36,7 +36,7 @@ class Solution {
       }
 
       // Add garbage count and travel time if there's some garbage in the house.
-      for (size_t j = 0; j < 3; ++j) {
+      for (std::size_t j = 0; j < 3; ++j) {
         if (time[j] > 0) {
           totalTime[j] += travelTime[j] + time[j];
           travelTime[j] = 0;

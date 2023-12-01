@@ -4,9 +4,9 @@ class Solution {
  public:
   int getWinner(std::vector<int>& arr, int k) {
     int win = 0;
-    size_t ref = 0;
+    std::size_t ref = 0;
 
-    for (size_t i = 1; i < arr.size(); ++i) {
+    for (std::size_t i = 1; i < arr.size(); ++i) {
       if (win >= k) break;
       if (arr[i] > arr[ref]) {
         win = 1;

@@ -8,7 +8,7 @@ class Solution {
     const auto n = cost.size();
     std::vector<int> cache(n, -1);
 
-    std::function<int(size_t)> fn = [&](size_t i) {
+    std::function<int(std::size_t)> fn = [&](std::size_t i) {
       if (i >= n) return 0;
       if (cache[i] < 0) {
         cache[i] = cost[i] + std::min(fn(i + 1), fn(i + 2));

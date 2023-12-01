@@ -6,7 +6,7 @@ class Solution {
     if (x < 0) return false;
 
     std::list<int> list;
-    size_t n = 0;
+    std::size_t n = 0;
     while (x > 0) {
       list.push_back(x % 10);
       x = x / 10;
@@ -16,7 +16,7 @@ class Solution {
     n = n / 2;
     auto a = list.begin();
     auto b = --list.end();
-    for (size_t i = 0; i < n; ++i) {
+    for (std::size_t i = 0; i < n; ++i) {
       if (*a != *b) return false;
       ++a;
       --b;

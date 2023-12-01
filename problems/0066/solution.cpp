@@ -5,7 +5,7 @@ class Solution {
  public:
   std::vector<int> plusOne(std::vector<int>& digits) {
     std::reverse(digits.begin(), digits.end());
-    size_t i = 0;
+    std::size_t i = 0;
     ++digits[i];
     while (digits[i] >= 10) {
       ++i;

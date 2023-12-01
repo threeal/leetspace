@@ -16,7 +16,7 @@ class Solution {
     }
 
     const auto n = coordinates.size();
-    for (size_t i = 2; i < n; ++i) {
+    for (std::size_t i = 2; i < n; ++i) {
       const auto x = coordinates[i][0] - x0;
       if (coordinates[i][1] - y0 != (x * h) / w) return false;
     }

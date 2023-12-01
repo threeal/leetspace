@@ -14,12 +14,12 @@ class Solution {
 
     // Iterate from lower values to higher values.
     std::sort(arr.begin(), arr.end());
-    for (size_t i = 0; i < arr.size(); ++i) {
+    for (std::size_t i = 0; i < arr.size(); ++i) {
       // A value can be its own node.
       int comb = 1;
 
       // Find values that could serve as child nodes.
-      for (size_t j = 0; j < i; ++j) {
+      for (std::size_t j = 0; j < i; ++j) {
         if (arr[i] % arr[j] > 0) continue;
         const auto it = comb_of.find(arr[i] / arr[j]);
         if (it == comb_of.end()) continue;

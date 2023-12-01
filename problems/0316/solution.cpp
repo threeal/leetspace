@@ -6,7 +6,7 @@
 class Solution {
  public:
   std::string removeDuplicateLetters(std::string s) {
-    std::unordered_map<char, size_t> counts;
+    std::unordered_map<char, std::size_t> counts;
     for (const auto c : s) {
       ++counts[c];
     }

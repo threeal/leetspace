@@ -13,7 +13,7 @@ class Solution {
 
     // Iterate n / 3 times to get the second-highest pile in each iteration.
     int total = 0;
-    for (size_t i = 0; i < piles.size() / 3; ++i) {
+    for (std::size_t i = 0; i < piles.size() / 3; ++i) {
       total += piles[2 * i + 1];
     }
 

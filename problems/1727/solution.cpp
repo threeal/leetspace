@@ -40,8 +40,8 @@ class Solution {
   int largestSubmatrix(std::vector<std::vector<int>>& matrix) {
     // Adjust each element of the matrix so it contains
     // 1 + the number of the above elements whose value is 1.
-    for (size_t y = 1; y < matrix.size(); ++y) {
-      for (size_t x = 0; x < matrix[y].size(); ++x) {
+    for (std::size_t y = 1; y < matrix.size(); ++y) {
+      for (std::size_t x = 0; x < matrix[y].size(); ++x) {
         if (matrix[y][x] == 0) continue;
         matrix[y][x] = matrix[y - 1][x] + 1;
       }
@@ -54,7 +54,7 @@ class Solution {
       sort(rows.begin(), rows.end(), std::greater<int>());
 
       // Find the largest area from values in the row.
-      for (size_t i = 0; i < rows.size(); ++i) {
+      for (std::size_t i = 0; i < rows.size(); ++i) {
         if (rows[i] == 0) break;
         maxArea = std::max<int>(maxArea, (i + 1) * rows[i]);
       }

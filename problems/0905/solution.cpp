@@ -13,7 +13,7 @@ class Solution {
         even.push_back(num);
     }
 
-    size_t i = 0;
+    std::size_t i = 0;
     for (const auto num : even) {
       nums[i++] = num;
     }

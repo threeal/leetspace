@@ -30,7 +30,7 @@ class Solution {
     // Repeatedly add adjacent values starting from the beginning value.
     int prev = begin->first;
     int current = begin->second.front();
-    for (size_t i = 1; i < res.size() - 1; ++i) {
+    for (std::size_t i = 1; i < res.size() - 1; ++i) {
       for (auto adjacent : adjacents[current]) {
         if (adjacent == prev) continue;
         res[i] = prev = current;

@@ -10,8 +10,8 @@ class Solution {
  public:
   int countPalindromicSubsequence(std::string s) {
     // Find the left and right pointers of each character.
-    std::unordered_map<char, std::pair<size_t, size_t>> charsPos;
-    for (size_t i = 0; i < s.size(); ++i) {
+    std::unordered_map<char, std::pair<std::size_t, std::size_t>> charsPos;
+    for (std::size_t i = 0; i < s.size(); ++i) {
       const auto it = charsPos.find(s[i]);
       if (it == charsPos.end())
         charsPos[s[i]] = {i, i};

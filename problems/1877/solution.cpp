@@ -11,8 +11,8 @@ class Solution {
     std::sort(nums.begin(), nums.end());
 
     // Declare left and right pointers.
-    size_t left = 0;
-    size_t right = nums.size() - 1;
+    std::size_t left = 0;
+    std::size_t right = nums.size() - 1;
 
     // Iterate from left and right to get the maximum sum of each pair.
     int res = 0;
