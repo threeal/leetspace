@@ -19,9 +19,9 @@ class Solution {
       if (cache[i1][i2] > min_val) return cache[i1][i2];
 
       cache[i1][i2] = std::max({nums1[i1] * nums2[i2] + std::max(fn(i1 + 1, i2 + 1), 0),
-                           fn(i1 + 1, i2),
-                           fn(i1, i2 + 1),
-                           fn(i1 + 1, i2 + 1)});
+                                fn(i1 + 1, i2),
+                                fn(i1, i2 + 1),
+                                fn(i1 + 1, i2 + 1)});
 
       return cache[i1][i2];
     };
