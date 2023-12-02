@@ -4,31 +4,27 @@
 class Solution {
  public:
   int countCharacters(std::vector<std::string>& words, std::string chars) {
-    std::vector<unsigned char> charCounts(26, 0);
+    std::vector<int> charCounts(26, 0);
 
     for (const auto c : chars) {
       ++charCounts[c - 'a'];
     }
 
-    int sum = 0;
+    int totalSum = 0;
     for (const auto& word : words) {
-      std::vector<unsigned char> wordCounts(26, 0);
-
-      bool isGood = true;
+      int sum = 0;
+      auto counts = charCounts;
       for (const auto c : word) {
-        if (++wordCounts[c - 'a'] > charCounts[c - 'a']) {
-          isGood = false;
+        if (--counts[c - 'a'] < 0) {
+          sum = 0;
           break;
         }
+        ++sum;
       }
 
-      if (isGood) {
-        for (const auto count : wordCounts) {
-          sum += count;
-        }
-      }
+      totalSum += sum;
     }
 
-    return sum;
+    return totalSum;
   }
 };
