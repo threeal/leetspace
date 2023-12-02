@@ -1,0 +1,24 @@
+name: 1160. Find Words That Can Be Formed by Characters
+
+types:
+  inputs:
+    words: std::vector<std::string>
+    chars: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: countCharacters
+
+test_cases:
+  example_1:
+    inputs:
+      words: [cat, bt, hat, tree]
+      chars: atach
+    output: 6
+
+  example_2:
+    inputs:
+      words: [hello, world, leetcode]
+      chars: welldonehoneyr
+    output: 10
