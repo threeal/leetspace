@@ -12,17 +12,16 @@ class Solution {
 
     int totalSum = 0;
     for (const auto& word : words) {
-      int sum = 0;
+      bool isGood = true;
       auto counts = charCounts;
       for (const auto c : word) {
         if (--counts[c - 'a'] < 0) {
-          sum = 0;
+          isGood = false;
           break;
         }
-        ++sum;
       }
 
-      totalSum += sum;
+      if (isGood) totalSum += word.size();
     }
 
     return totalSum;
