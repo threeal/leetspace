@@ -1,3 +1,9 @@
+// The solution can be done as follows:
+// - Count each character in the `chars` string.
+// - For each string in `words`, it is good if each character count
+//   is equal to or less than the count in the `chars` string.
+// - Return the total length of all good strings.
+
 #include <stdbool.h>
 #include <string.h>
 
