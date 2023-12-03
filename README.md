@@ -48,7 +48,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [935. Knight Dialer](https://leetcode.com/problems/knight-dialer/) | Easy | [C++](./problems/0935/solution.cpp) |
 | [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain) | Medium | [C++](./problems/1048/solution.cpp) |
 | [1081. Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters) | Medium | [C++](./problems/1081/solution.cpp) |
-| [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | Easy | [C++](./problems/1160/solution.cpp) |
+| [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | Easy | [C](./problems/1160/c/solution.c) [C++](./problems/1160/solution.cpp) |
 | [1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation) | Hard | [C](./problems/1220/c/solution.c) [C++](./problems/1220/solution.cpp) |
 | [1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line) | Easy | [C++](./problems/1232/solution.cpp) |
 | [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) | Easy | [C](./problems/1266/c/solution.c) [C++](./problems/1266/solution.cpp) |
