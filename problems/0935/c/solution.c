@@ -1,3 +1,26 @@
+// The solution can simply be done by using a for loop.
+//
+// Think about it as an inheritance:
+//
+// - A number ending with 0 will be inherited to a number ending with 4 and 6
+// - A number ending with 1 will be inherited to a number ending with 6 and 8
+// - And so on...
+//
+// For example:
+//
+// - 0 => 04, 06
+// - 1 => 16, 18
+// - And so on...
+//
+// So to count the number, we can do the following:
+//
+// - endedWith6 = endedWith0 + endedWith1
+// - endedWith7 = endedWith2 + endedWith6
+// - And so on...
+//
+// At the end of the loop, we can just total the number count.
+// And don't forget to handle the mod 10e9+7.
+
 #include <string.h>
 
 const unsigned int mod = 1000000007;
