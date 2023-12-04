@@ -1,0 +1,26 @@
+name: 2264. Largest 3-Same-Digit Number in String
+
+types:
+  inputs:
+    num: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: largestGoodInteger
+
+test_cases:
+  example_1:
+    inputs:
+      num: "6777133339"
+    output: "777"
+
+  example_2:
+    inputs:
+      num: "2300019"
+    output: "000"
+
+  example_3:
+    inputs:
+      num: "42352338"
+    output: ""
