@@ -1,0 +1,26 @@
+name: 1716. Calculate Money in Leetcode Bank
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: totalMoney
+
+test_cases:
+  example_1:
+    inputs:
+      n: 4
+    output: 10
+
+  example_2:
+    inputs:
+      n: 10
+    output: 37
+
+  example_3:
+    inputs:
+      n: 20
+    output: 96
