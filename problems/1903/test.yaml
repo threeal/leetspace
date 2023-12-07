@@ -1,0 +1,26 @@
+name: 1903. Largest Odd Number in String
+
+types:
+  inputs:
+    num: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: largestOddNumber
+
+test_cases:
+  example_1:
+    inputs:
+      num: "52"
+    output: "5"
+
+  example_2:
+    inputs:
+      num: "4206"
+    output: ""
+
+  example_3:
+    inputs:
+      num: "35427"
+    output: "35427"
