@@ -1,3 +1,6 @@
+// A number is odd if the last digit is odd, that is why we iterate
+// from the last element to find the first occurrence of an odd digit.
+
 #include <string.h>
 
 char* largestOddNumber(char* num) {
