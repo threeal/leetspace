@@ -1,0 +1,21 @@
+name: 1287. Element Appearing More Than 25% In Sorted Array
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: findSpecialInteger
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [1,2,2,6,6,6,6,7,10]
+    output: 6
+
+  example_2:
+    inputs:
+      arr: [1,1]
+    output: 1
