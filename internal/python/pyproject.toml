@@ -18,7 +18,7 @@ packages = [
 python = "^3.10"
 pyyaml = "^6.0.1"
 black = "^23.11.0"
-isort = "^5.12.0"
+isort = "^5.13.0"
 
 [tool.poetry.scripts]
 generate_test_src = "generate_test_src:main"
