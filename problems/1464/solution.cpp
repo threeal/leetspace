@@ -3,16 +3,25 @@
 class Solution {
  public:
   int maxProduct(std::vector<int>& nums) {
-    for (auto& num : nums) {
-      --num;
-    }
+    auto a = nums[0];
+    auto b = nums[1];
 
-    int max = 0;
-    for (std::size_t i = 0; i < nums.size(); ++i) {
-      for (std::size_t j = i + 1; j < nums.size(); ++j) {
-        max = std::max(max, nums[i] * nums[j]);
+    for (std::size_t i = 2; i < nums.size(); ++i) {
+      if (nums[i] > a) {
+        if (nums[i] > b) {
+          if (a > b) {
+            b = nums[i];
+          } else {
+            a = nums[i];
+          }
+        } else {
+          a = nums[i];
+        }
+      } else if (nums[i] > b) {
+        b = nums[i];
       }
     }
-    return max;
+
+    return --a * --b;
   }
 };
