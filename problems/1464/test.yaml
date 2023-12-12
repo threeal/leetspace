@@ -1,0 +1,26 @@
+name: 1464. Maximum Product of Two Elements in an Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maxProduct
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [3, 4, 5, 2]
+    output: 12
+
+  example_2:
+    inputs:
+      nums: [1, 5, 4, 5]
+    output: 16
+
+  example_3:
+    inputs:
+      nums: [3, 7]
+    output: 12
