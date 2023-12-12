@@ -1,3 +1,5 @@
+// The solution can simply be accomplished by finding the two largest elements and then multiplying them.
+
 int maxProduct(int* nums, int numsSize) {
   // Prepare containers for storing two largest elements.
   // a should be smaller than b.
