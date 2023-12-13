@@ -1,0 +1,27 @@
+name: 1582. Special Positions in a Binary Matrix
+
+types:
+  inputs:
+    mat: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: numSpecial
+
+test_cases:
+  example_1:
+    inputs:
+      mat:
+        - [1, 0, 0]
+        - [0, 0, 1]
+        - [1, 0, 0]
+    output: 1
+
+  example_2:
+    inputs:
+      mat:
+        - [1, 0, 0]
+        - [0, 1, 0]
+        - [0, 0, 1]
+    output: 3
