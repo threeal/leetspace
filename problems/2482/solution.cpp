@@ -8,25 +8,18 @@ class Solution {
 
     std::vector<int> oneRow(m);
     std::vector<int> oneCol(n);
-
-    std::vector<int> zeroRow(m);
-    std::vector<int> zeroCol(n);
-
     for (int i = 0; i < m; ++i) {
       for (int j = 0; j < n; ++j) {
         if (grid[i][j] == 1) {
           ++oneRow[i];
           ++oneCol[j];
-        } else {
-          ++zeroRow[i];
-          ++zeroCol[j];
         }
       }
     }
 
     for (int i = 0; i < m; ++i) {
       for (int j = 0; j < n; ++j) {
-        grid[i][j] = oneRow[i] + oneCol[j] - zeroRow[i] - zeroCol[j];
+        grid[i][j] = 2 * (oneRow[i] + oneCol[j]) - m - n;
       }
     }
 
