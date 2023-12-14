@@ -6,27 +6,30 @@ class Solution {
     const int m = grid.size();
     const int n = grid[0].size();
 
-    auto res = std::vector(m, std::vector(n, 0));
+    std::vector<int> oneRow(m);
+    std::vector<int> oneCol(n);
+
+    std::vector<int> zeroRow(m);
+    std::vector<int> zeroCol(n);
+
     for (int i = 0; i < m; ++i) {
       for (int j = 0; j < n; ++j) {
         if (grid[i][j] == 1) {
-          for (int ii = 0; ii < m; ++ii) {
-            ++res[ii][j];
-          }
-          for (int jj = 0; jj < n; ++jj) {
-            ++res[i][jj];
-          }
+          ++oneRow[i];
+          ++oneCol[j];
         } else {
-          for (int ii = 0; ii < m; ++ii) {
-            --res[ii][j];
-          }
-          for (int jj = 0; jj < n; ++jj) {
-            --res[i][jj];
-          }
+          ++zeroRow[i];
+          ++zeroCol[j];
         }
       }
     }
 
-    return res;
+    for (int i = 0; i < m; ++i) {
+      for (int j = 0; j < n; ++j) {
+        grid[i][j] = oneRow[i] + oneCol[j] - zeroRow[i] - zeroCol[j];
+      }
+    }
+
+    return grid;
   }
 };
