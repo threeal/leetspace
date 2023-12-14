@@ -1,0 +1,31 @@
+name: 2482. Difference Between Ones and Zeros in Row and Column
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: onesMinusZeros
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [0, 1, 1]
+        - [1, 0, 1]
+        - [0, 0, 1]
+    output:
+      - [0, 0, 4]
+      - [0, 0, 4]
+      - [-2, -2, 2]
+
+  example_2:
+    inputs:
+      grid:
+        - [1, 1, 1]
+        - [1, 1, 1]
+    output:
+      - [5, 5, 5]
+      - [5, 5, 5]

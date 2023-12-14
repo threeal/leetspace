@@ -97,6 +97,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2264. Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | Easy | [C](./problems/2264/c/solution.c) [C++](./problems/2264/solution.cpp) |
 | [2391. Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/) | Medium | [C](./problems/2391/c/solution.c) [C++](./problems/2391/solution.cpp) |
 | [2433. Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor) | Medium | [C++](./problems/2433/solution.cpp) |
+| [2482. Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | Medium | [C++](./problems/2482/solution.cpp) |
 | [2642. Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator) | Hard | [C++](./problems/2642/solution.cpp) |
 | [2742. Painting the Walls](https://leetcode.com/problems/painting-the-walls) | Hard | [C++](./problems/2742/solution.cpp) |
 | [2785. Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string) | Medium | [C](./problems/2785/c/solution.c) [C++](./problems/2785/solution.cpp) |
