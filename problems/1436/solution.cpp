@@ -9,18 +9,14 @@ class Solution {
     std::set<std::string> ends;
 
     for (const auto& path : paths) {
-      if (!starts.contains(path[0])) {
-        starts.insert(path[0]);
-        if (ends.contains(path[0])) {
-          ends.erase(path[0]);
-        }
-      }
-
-      if (!starts.contains(path[1]) && !ends.contains(path[1])) {
-        ends.insert(path[1]);
-      }
+      starts.insert(path[0]);
+      ends.insert(path[1]);
     }
 
-    return *ends.begin();
+    for (const auto& end : ends) {
+      if (!starts.contains(end)) return end;
+    }
+
+    return "";
   }
 };
