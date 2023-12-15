@@ -60,6 +60,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1361. Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes) | Medium | [C](./problems/1361/c/solution.c) [C++](./problems/1361/solution.cpp) |
 | [1424. Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/) | Medium | [C++](./problems/1424/solution.cpp) |
 | [1425. Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum) | Hard | [C++](./problems/1425/solution.cpp) |
+| [1436. Destination City](https://leetcode.com/problems/destination-city/) | Easy | [C++](./problems/1436/solution.cpp) |
 | [1441. Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations) | Medium | [C++](./problems/1441/solution.cpp) |
 | [1458. Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences) | Hard | [C++](./problems/1458/solution.cpp) |
 | [1464. Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | Easy | [C](./problems/1464/c/solution.c) [C++](./problems/1464/solution.cpp) |
