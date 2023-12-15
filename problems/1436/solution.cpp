@@ -1,12 +1,12 @@
-#include <set>
 #include <string>
+#include <unordered_set>
 #include <vector>
 
 class Solution {
  public:
   std::string destCity(std::vector<std::vector<std::string>>& paths) {
-    std::set<std::string> starts;
-    std::set<std::string> ends;
+    std::unordered_set<std::string> starts;
+    std::unordered_set<std::string> ends;
 
     for (const auto& path : paths) {
       starts.insert(path[0]);
