@@ -1,0 +1,24 @@
+name: 242. Valid Anagram
+
+types:
+  inputs:
+    s: std::string
+    t: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: isAnagram
+
+test_cases:
+  example_1:
+    inputs:
+      s: anagram
+      t: nagaram
+    output: true
+
+  example_2:
+    inputs:
+      s: rat
+      t: car
+    output: false
