@@ -1,0 +1,21 @@
+name: 1913. Maximum Product Difference Between Two Pairs
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maxProductDifference
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [5, 6, 2, 7, 4]
+    output: 34
+
+  example_2:
+    inputs:
+      nums: [4, 2, 5, 9, 7, 4, 8]
+    output: 64
