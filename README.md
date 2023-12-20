@@ -104,6 +104,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2433. Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor) | Medium | [C++](./problems/2433/solution.cpp) |
 | [2482. Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | Medium | [C++](./problems/2482/solution.cpp) |
 | [2642. Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator) | Hard | [C++](./problems/2642/solution.cpp) |
+| [2706. Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/) | Easy | [C++](./problems/2706/solution.cpp) |
 | [2742. Painting the Walls](https://leetcode.com/problems/painting-the-walls) | Hard | [C++](./problems/2742/solution.cpp) |
 | [2785. Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string) | Medium | [C](./problems/2785/c/solution.c) [C++](./problems/2785/solution.cpp) |
 | [2849. Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time) | Medium | [C](./problems/2849/c/solution.c) [C++](./problems/2849/solution.cpp) |
