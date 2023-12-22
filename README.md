@@ -60,6 +60,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1337. The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix) | Easy | [C++](./problems/1337/solution.cpp) |
 | [1356. Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | Easy | [C++](./problems/1356/solution.cpp) |
 | [1361. Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes) | Medium | [C](./problems/1361/c/solution.c) [C++](./problems/1361/solution.cpp) |
+| [1422. Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | Easy | [C++](./problems/1422/solution.cpp) |
 | [1424. Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/) | Medium | [C++](./problems/1424/solution.cpp) |
 | [1425. Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum) | Hard | [C++](./problems/1425/solution.cpp) |
 | [1436. Destination City](https://leetcode.com/problems/destination-city/) | Easy | [C++](./problems/1436/solution.cpp) |
