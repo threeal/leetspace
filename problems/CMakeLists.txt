@@ -2,19 +2,11 @@ macro(get_dir_name var)
   get_filename_component(${var} ${CMAKE_CURRENT_SOURCE_DIR} NAME)
 endmacro()
 
-function(target_set_cpp_standard target)
-  set_property(TARGET ${target} PROPERTY CXX_STANDARD 20)
-
-  cpmgetpackage(CheckWarning.cmake)
-  target_check_warning(${target})
-endfunction()
-
 macro(add_c_solution target)
   get_dir_name(id)
   set(${target} c-solution-${id})
 
   add_library(c-solution-${id} ${ARGN})
-  target_set_cpp_standard(c-solution-${id})
 endmacro()
 
 function(add_problem_test TARGET CONFIG)
@@ -24,7 +16,6 @@ function(add_problem_test TARGET CONFIG)
   # Add a test target that includes the generated C++ source file.
   add_executable(${TARGET} ${CMAKE_CURRENT_BINARY_DIR}/src/test.cpp ${CMAKE_CURRENT_BINARY_DIR}/src/solution_cpp.cpp)
   target_link_libraries(${TARGET} PRIVATE Catch2::Catch2WithMain)
-  target_set_cpp_standard(${TARGET})
 
   catch_discover_tests(${TARGET})
 endfunction()
