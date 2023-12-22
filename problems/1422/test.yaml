@@ -1,0 +1,26 @@
+name: 1422. Maximum Score After Splitting a String
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: maxScore
+
+test_cases:
+  example_1:
+    inputs:
+      s: "011101"
+    output: 5
+
+  example_2:
+    inputs:
+      s: "00111"
+    output: 5
+
+  example_3:
+    inputs:
+      s: "1111"
+    output: 3
