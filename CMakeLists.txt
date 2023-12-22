@@ -4,6 +4,9 @@ project(leetspace)
 
 include(cmake/CPM.cmake)
 
+cpmgetpackage(CheckWarning.cmake)
+add_check_warning()
+
 cpmgetpackage(Format.cmake)
 
 enable_testing()

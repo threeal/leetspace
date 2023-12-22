@@ -4,9 +4,6 @@ endmacro()
 
 function(target_set_cpp_standard target)
   set_property(TARGET ${target} PROPERTY CXX_STANDARD 20)
-
-  cpmgetpackage(CheckWarning.cmake)
-  target_check_warning(${target})
 endfunction()
 
 macro(add_c_solution target)
