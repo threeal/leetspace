@@ -73,6 +73,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1582. Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | Easy | [C++](./problems/1582/solution.cpp) |
 | [1611. Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/) | Hard | [C](./problems/1611/c/solution.c) [C++](./problems/1611/solution.cpp) |
 | [1630. Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/) | Medium | [C](./problems/1630/c/solution.c) [C++](./problems/1630/solution.cpp) |
+| [1637. Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/) | Medium | [C++](./problems/1637/solution.cpp) |
 | [1658. Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) | Medium | [C++](./problems/1658/solution.cpp) |
 | [1662. Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | Easy | [C](./problems/1662/c/solution.c) [C++](./problems/1662/solution.cpp) |
 | [1685. Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | Medium | [C](./problems/1685/c/solution.c) [C++](./problems/1685/solution.cpp) |

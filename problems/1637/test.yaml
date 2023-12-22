@@ -1,0 +1,21 @@
+name: 1637. Widest Vertical Area Between Two Points Containing No Points
+
+types:
+  inputs:
+    points: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: maxWidthOfVerticalArea
+
+test_cases:
+  example_1:
+    inputs:
+      points: [[8, 7], [9, 9], [7, 4], [9, 7]]
+    output: 1
+
+  example_2:
+    inputs:
+      points: [[3, 1], [9, 0], [1, 0], [1, 4], [5, 3], [8, 8]]
+    output: 3
