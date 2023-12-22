@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.19)
 
 project(leetspace)
 
+set(CMAKE_CXX_STANDARD 20)
+
 include(cmake/CPM.cmake)
 
 cpmgetpackage(CheckWarning.cmake)
