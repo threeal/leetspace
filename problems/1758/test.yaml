@@ -1,0 +1,26 @@
+name: 1758. Minimum Changes To Make Alternating Binary String
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minOperations
+
+test_cases:
+  example_1:
+    inputs:
+      s: "0100"
+    output: 1
+
+  example_2:
+    inputs:
+      s: "10"
+    output: 0
+
+  example_3:
+    inputs:
+      s: "1111"
+    output: 2
