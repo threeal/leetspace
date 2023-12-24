@@ -4,25 +4,15 @@
 class Solution {
  public:
   int minOperations(std::string s) {
-    int zeroFirst = 0;
-    int oneFirst = 0;
+    int cost01 = 0;
 
-    for (std::size_t i = 0; i < s.size(); ++i) {
-      if (i % 2 == 0) {
-        if (s[i] == '0') {
-          ++oneFirst;
-        } else {
-          ++zeroFirst;
-        }
-      } else {
-        if (s[i] == '0') {
-          ++zeroFirst;
-        } else {
-          ++oneFirst;
-        }
+    for (int i = 0; i < static_cast<int>(s.size()); ++i) {
+      if (s[i] - '0' != i % 2) {
+        ++cost01;
       }
     }
 
-    return std::min(zeroFirst, oneFirst);
+    const int cost10 = s.size() - cost01;
+    return std::min(cost01, cost10);
   }
 };
