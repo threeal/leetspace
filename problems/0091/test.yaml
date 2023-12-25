@@ -24,3 +24,8 @@ test_cases:
     inputs:
       s: "06"
     output: 0
+
+  case_1:
+    inputs:
+      s: "1"
+    output: 1
