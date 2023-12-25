@@ -1,0 +1,31 @@
+name: 91. Decode Ways
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: numDecodings
+
+test_cases:
+  example_1:
+    inputs:
+      s: "12"
+    output: 2
+
+  example_2:
+    inputs:
+      s: "226"
+    output: 3
+
+  example_3:
+    inputs:
+      s: "06"
+    output: 0
+
+  case_1:
+    inputs:
+      s: "1"
+    output: 1
