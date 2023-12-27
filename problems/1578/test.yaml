@@ -1,0 +1,30 @@
+name: 1578. Minimum Time to Make Rope Colorful
+
+types:
+  inputs:
+    colors: std::string
+    neededTime: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minCost
+
+test_cases:
+  example_1:
+    inputs:
+      colors: abaac
+      neededTime: [1, 2, 3, 4, 5]
+    output: 3
+
+  example_2:
+    inputs:
+      colors: abc
+      neededTime: [1, 2, 3]
+    output: 0
+
+  case_1:
+    inputs:
+      colors: aabaa
+      neededTime: [1, 2, 3, 4, 1]
+    output: 2
