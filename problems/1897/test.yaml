@@ -1,0 +1,21 @@
+name: 1897. Redistribute Characters to Make All Strings Equal
+
+types:
+  inputs:
+    words: std::vector<std::string>
+  output: bool
+
+solutions:
+  cpp:
+    function: makeEqual
+
+test_cases:
+  example_1:
+    inputs:
+      words: ["abc", "aabc", "bc"]
+    output: true
+
+  example_2:
+    inputs:
+      words: ["ab", "a"]
+    output: false
