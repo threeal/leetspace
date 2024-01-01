@@ -1,0 +1,30 @@
+name: 455. Assign Cookies
+
+types:
+  inputs:
+    g: std::vector<int>
+    s: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: findContentChildren
+
+test_cases:
+  example_1:
+    inputs:
+      g: [1, 2, 3]
+      s: [1, 1]
+    output: 1
+
+  example_2:
+    inputs:
+      g: [1, 2]
+      s: [1, 2, 3]
+    output: 2
+
+  case_1:
+    inputs:
+      g: [10, 9, 8, 7]
+      s: [5, 6, 7, 8]
+    output: 2
