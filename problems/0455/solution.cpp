@@ -7,13 +7,13 @@ class Solution {
     sort(g.begin(), g.end());
     sort(s.begin(), s.end());
 
-    int i = 0;
-    const int n = std::min(g.size(), s.size());
-    while (i < n) {
-      if (g[i] > s[i]) break;
-      ++i;
+    auto gi = g.begin();
+    auto si = s.begin();
+    while (gi != g.end() && si != s.end()) {
+      if (*gi <= *si) ++gi;
+      ++si;
     }
 
-    return i;
+    return std::distance(g.begin(), gi);
   }
 };
