@@ -1,8 +1,19 @@
 void quickSort(int* low, int* high);
 
 int findContentChildren(int* g, int gSize, int* s, int sSize) {
-  quickSort(g, g + gSize - 1);
-  quickSort(s, s + sSize - 1);
+  for (int i = 1; i < gSize; ++i) {
+    if (g[i - 1] > g[i]) {
+      quickSort(g, g + gSize - 1);
+      break;
+    }
+  }
+
+  for (int i = 1; i < sSize; ++i) {
+    if (s[i - 1] > s[i]) {
+      quickSort(s, s + sSize - 1);
+      break;
+    }
+  }
 
   int gi = 0;
   int si = 0;
