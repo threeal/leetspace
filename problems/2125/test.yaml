@@ -1,0 +1,28 @@
+name: 2125. Number of Laser Beams in a Bank
+
+types:
+  inputs:
+    bank: std::vector<std::string>
+  output: int
+
+solutions:
+  cpp:
+    function: numberOfBeams
+
+test_cases:
+  example_1:
+    inputs:
+      bank:
+        - "011001"
+        - "000000"
+        - "010100"
+        - "001000"
+    output: 8
+
+  example_2:
+    inputs:
+      bank:
+        - "000"
+        - "111"
+        - "000"
+    output: 0
