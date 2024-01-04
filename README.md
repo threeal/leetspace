@@ -95,7 +95,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1846. Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging) | Medium | [C](./problems/1846/c/solution.c) [C++](./problems/1846/solution.cpp) |
 | [1877. Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | Medium | [C++](./problems/1877/c/solution.c) [C++](./problems/1877/solution.cpp) |
 | [1887. Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/) | Medium | [C](./problems/1887/c/solution.c) [C++](./problems/1887/solution.cpp) |
-| [1897. Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | Easy | [C++](./problems/1897/solution.cpp) |
+| [1897. Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | Easy | [C](./problems/1897/c/solution.c) [C++](./problems/1897/solution.cpp) |
 | [1903. Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | Easy | [C](./problems/1903/c/solution.c) [C++](./problems/1903/solution.cpp) |
 | [1913. Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) | Easy | [C](./problems/1913/c/solution.c) [C++](./problems/1913/solution.cpp) |
 | [1921. Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters) | Medium | [C](./problems/1921/c/solution.c) [C++](./problems/1921/solution.cpp) |
