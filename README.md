@@ -119,6 +119,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2742. Painting the Walls](https://leetcode.com/problems/painting-the-walls) | Hard | [C++](./problems/2742/solution.cpp) |
 | [2785. Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string) | Medium | [C](./problems/2785/c/solution.c) [C++](./problems/2785/solution.cpp) |
 | [2849. Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time) | Medium | [C](./problems/2849/c/solution.c) [C++](./problems/2849/solution.cpp) |
+| [2870. Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/) | Medium | [C++](./problems/2870/solution.cpp) |
 
 ## License
 

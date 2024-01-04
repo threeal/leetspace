@@ -1,0 +1,21 @@
+name: 2870. Minimum Number of Operations to Make Array Empty
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minOperations
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 3, 3, 2, 2, 4, 2, 3, 4]
+    output: 4
+
+  example_2:
+    inputs:
+      nums: [2, 1, 2, 2, 3, 3]
+    output: -1
