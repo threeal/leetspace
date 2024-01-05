@@ -1,4 +1,5 @@
 #include <functional>
+#include <limits>
 #include <vector>
 
 class Solution {
@@ -14,7 +15,7 @@ class Solution {
       }
 
       int length = 0;
-      const int num = start > 0 ? nums[start - 1] : -1;
+      const int num = start > 0 ? nums[start - 1] : std::numeric_limits<int>::min();
       for (int i = start; i < n; ++i) {
         if (num >= nums[i]) continue;
         length = std::max(length, 1 + fn(i + 1));
