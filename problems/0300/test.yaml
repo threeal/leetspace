@@ -24,3 +24,8 @@ test_cases:
     inputs:
       nums: [7, 7, 7, 7, 7, 7, 7]
     output: 1
+
+  negative:
+    inputs:
+      nums: [-2, -1]
+    output: 2
