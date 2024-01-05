@@ -1,0 +1,26 @@
+name: 300. Longest Increasing Subsequence
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: lengthOfLIS
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [10, 9, 2, 5, 3, 7, 101, 18]
+    output: 4
+
+  example_2:
+    inputs:
+      nums: [0, 1, 0, 3, 2, 3]
+    output: 4
+
+  example_3:
+    inputs:
+      nums: [7, 7, 7, 7, 7, 7, 7]
+    output: 1
