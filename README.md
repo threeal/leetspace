@@ -117,7 +117,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2482. Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | Medium | [C++](./problems/2482/solution.cpp) |
 | [2610. Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions) | Medium | [C++](./problems/2610/solution.cpp) |
 | [2642. Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator) | Hard | [C++](./problems/2642/solution.cpp) |
-| [2706. Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/) | Easy | [C++](./problems/2706/solution.cpp) |
+| [2706. Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/) | Easy | [C](./problems/2706/c/solution.c) [C++](./problems/2706/solution.cpp) |
 | [2742. Painting the Walls](https://leetcode.com/problems/painting-the-walls) | Hard | [C++](./problems/2742/solution.cpp) |
 | [2785. Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string) | Medium | [C](./problems/2785/c/solution.c) [C++](./problems/2785/solution.cpp) |
 | [2849. Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time) | Medium | [C](./problems/2849/c/solution.c) [C++](./problems/2849/solution.cpp) |
