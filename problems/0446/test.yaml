@@ -1,0 +1,26 @@
+name: 446. Arithmetic Slices II - Subsequence
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: numberOfArithmeticSlices
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 4, 6, 8, 10]
+    output: 7
+
+  example_2:
+    inputs:
+      nums: [7, 7, 7, 7, 7]
+    output: 16
+
+  overflow:
+    inputs:
+      nums: [0, 2000000000, -294967296]
+    output: 0
