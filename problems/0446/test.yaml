@@ -19,3 +19,8 @@ test_cases:
     inputs:
       nums: [7, 7, 7, 7, 7]
     output: 16
+
+  overflow:
+    inputs:
+      nums: [0, 2000000000, -294967296]
+    output: 0
