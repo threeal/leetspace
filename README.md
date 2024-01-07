@@ -114,7 +114,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2353. Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/) | Medium | [C++](./problems/2353/solution.cpp) |
 | [2391. Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/) | Medium | [C](./problems/2391/c/solution.c) [C++](./problems/2391/solution.cpp) |
 | [2433. Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor) | Medium | [C++](./problems/2433/solution.cpp) |
-| [2482. Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | Medium | [C++](./problems/2482/solution.cpp) |
+| [2482. Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | Medium | [C](./problems/2482/c/solution.c) [C++](./problems/2482/solution.cpp) |
 | [2610. Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions) | Medium | [C++](./problems/2610/solution.cpp) |
 | [2642. Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator) | Hard | [C++](./problems/2642/solution.cpp) |
 | [2706. Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/) | Easy | [C](./problems/2706/c/solution.c) [C++](./problems/2706/solution.cpp) |
