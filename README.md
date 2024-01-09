@@ -44,6 +44,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [455. Assign Cookies](https://leetcode.com/problems/assign-cookies) | Easy | [C](./problems/0455/c/solution.c) [C++](./problems/0455/solution.cpp) |
 | [458. Poor Pigs](https://leetcode.com/problems/poor-pigs) | Hard | [C](./problems/0458/c/solution.c) [C++](./problems/0458/solution.cpp) |
 | [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | Easy | [C](./problems/0557/c/solution.c) [C++](./problems/0557/solution.cpp) |
+| [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | Easy | [C++](./problems/0606/solution.cpp) |
 | [661. Image Smoother](https://leetcode.com/problems/image-smoother/) | Easy | [C++](./problems/0661/solution.cpp) |
 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) | Easy | [C++](./problems/0746/solution.cpp) |
 | [779. K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) | Medium | [C](./problems/0779/c/solution.c) [C++](./problems/0779/solution.cpp) |
