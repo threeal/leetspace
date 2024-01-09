@@ -79,7 +79,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1535. Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game) | Medium | [C](./problems/1535/c/solution.c) [C++](./problems/1535/solution.cpp) |
 | [1561. Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/) | Medium | [C++](./problems/1561/solution.cpp) |
 | [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) | Medium | [C++](./problems/1578/solution.cpp) |
-| [1582. Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | Easy | [C++](./problems/1582/solution.cpp) |
+| [1582. Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | Easy | [C](./problems/1582/c/solution.c) [C++](./problems/1582/solution.cpp) |
 | [1611. Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/) | Hard | [C](./problems/1611/c/solution.c) [C++](./problems/1611/solution.cpp) |
 | [1624. Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | Easy | [C](./problems/1624/c/solution.c) [C++](./problems/1624/solution.cpp) |
 | [1630. Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/) | Medium | [C](./problems/1630/c/solution.c) [C++](./problems/1630/solution.cpp) |
