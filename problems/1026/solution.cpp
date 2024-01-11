@@ -1,29 +1,30 @@
-#include <list>
+#include <set>
 
 class Solution {
  public:
   int maxAncestorDiff(TreeNode* root) {
-    std::list<int> ancestors{root->val};
+    std::multiset<int> ancestors{root->val};
     return maxDifferences(ancestors, root);
   }
 
-  int maxDifferences(std::list<int>& ancestors, TreeNode* node) {
+  int maxDifferences(std::multiset<int>& ancestors, TreeNode* node) {
     int differences = std::max(
-        std::abs(ancestors.front() - node->val),
-        std::abs(ancestors.back() - node->val));
+        std::abs(*ancestors.begin() - node->val),
+        std::abs(*ancestors.rbegin() - node->val));
 
     if (node->left == nullptr && node->right == nullptr) {
       return differences;
     }
 
-    ancestors.insert(std::lower_bound(ancestors.begin(), ancestors.end(), node->val), node->val);
+    ancestors.insert(node->val);
 
     if (node->left != nullptr) {
       if (node->right != nullptr) {
-        differences = std::max({
+        differences = std::max(
             differences,
-            maxDifferences(ancestors, node->left),
-            maxDifferences(ancestors, node->right)});
+            std::max(
+                maxDifferences(ancestors, node->left),
+                maxDifferences(ancestors, node->right)));
       } else {
         differences = std::max(differences, maxDifferences(ancestors, node->left));
       }
@@ -31,7 +32,7 @@ class Solution {
       differences = std::max(differences, maxDifferences(ancestors, node->right));
     }
 
-    ancestors.erase(std::find(ancestors.begin(), ancestors.end(), node->val));
+    ancestors.erase(node->val);
 
     return differences;
   }
