@@ -117,6 +117,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2251. Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom) | Hard | [C++](./problems/2251/solution.cpp) |
 | [2264. Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | Easy | [C](./problems/2264/c/solution.c) [C++](./problems/2264/solution.cpp) |
 | [2353. Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/) | Medium | [C++](./problems/2353/solution.cpp) |
+| [2385. Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | Medium | [C++](./problems/2385/solution.cpp) |
 | [2391. Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/) | Medium | [C](./problems/2391/c/solution.c) [C++](./problems/2391/solution.cpp) |
 | [2433. Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor) | Medium | [C++](./problems/2433/solution.cpp) |
 | [2482. Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | Medium | [C](./problems/2482/c/solution.c) [C++](./problems/2482/solution.cpp) |
