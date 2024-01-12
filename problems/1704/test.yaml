@@ -1,0 +1,21 @@
+name: 1704. Determine if String Halves Are Alike
+
+types:
+  inputs:
+    s: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: halvesAreAlike
+
+test_cases:
+  example_1:
+    inputs:
+      s: "book"
+    output: true
+
+  example_2:
+    inputs:
+      s: textbook
+    output: false
