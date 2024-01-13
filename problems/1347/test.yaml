@@ -1,0 +1,30 @@
+name: 1347. Minimum Number of Steps to Make Two Strings Anagram
+
+types:
+  inputs:
+    s: std::string
+    t: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minSteps
+
+test_cases:
+  example_1:
+    inputs:
+      s: bab
+      t: aba
+    output: 1
+
+  example_2:
+    inputs:
+      s: leetcode
+      t: practice
+    output: 5
+
+  example_3:
+    inputs:
+      s: anagram
+      t: mangaar
+    output: 0
