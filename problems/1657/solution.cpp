@@ -16,10 +16,11 @@ class Solution {
 
     std::unordered_map<int, int> unique_counts;
     for (const auto& [c, count] : word1Counts) {
+      if (!word2Counts.contains(c)) return false;
       ++unique_counts[count];
     }
-
     for (const auto& [c, count] : word2Counts) {
+      if (!word1Counts.contains(c)) return false;
       --unique_counts[count];
     }
 
