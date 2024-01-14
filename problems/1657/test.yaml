@@ -1,0 +1,30 @@
+name: 1657. Determine if Two Strings Are Close
+
+types:
+  inputs:
+    word1: std::string
+    word2: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: closeStrings
+
+test_cases:
+  example_1:
+    inputs:
+      word1: abc
+      word2: bca
+    output: true
+
+  example_2:
+    inputs:
+      word1: a
+      word2: aa
+    output: false
+
+  example_3:
+    inputs:
+      word1: cabbba
+      word2: abbccc
+    output: true
