@@ -28,3 +28,9 @@ test_cases:
       word1: cabbba
       word2: abbccc
     output: true
+
+  case_1:
+    inputs:
+      word1: uau
+      word2: ssx
+    output: false
