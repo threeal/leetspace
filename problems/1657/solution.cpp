@@ -1,33 +1,28 @@
+#include <algorithm>
 #include <string>
-#include <unordered_map>
+#include <vector>
 
 class Solution {
  public:
   bool closeStrings(std::string word1, std::string word2) {
-    std::unordered_map<char, int> word1Counts;
+    std::vector<int> word1Counts(26, 0);
     for (const auto c : word1) {
-      ++word1Counts[c];
+      ++word1Counts[c - 'a'];
     }
 
-    std::unordered_map<char, int> word2Counts;
+    std::vector<int> word2Counts(26, 0);
     for (const auto c : word2) {
-      ++word2Counts[c];
+      ++word2Counts[c - 'a'];
     }
 
-    std::unordered_map<int, int> unique_counts;
-    for (const auto& [c, count] : word1Counts) {
-      if (!word2Counts.contains(c)) return false;
-      ++unique_counts[count];
-    }
-    for (const auto& [c, count] : word2Counts) {
-      if (!word1Counts.contains(c)) return false;
-      --unique_counts[count];
+    for (int i = 0; i < 26; ++i) {
+      if ((word1Counts[i] > 0) != (word2Counts[i] > 0))
+        return false;
     }
 
-    for (const auto& [count, val] : unique_counts) {
-      if (val != 0) return false;
-    }
+    sort(word1Counts.begin(), word1Counts.end());
+    sort(word2Counts.begin(), word2Counts.end());
 
-    return true;
+    return word1Counts == word2Counts;
   }
 };
