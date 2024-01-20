@@ -27,7 +27,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | [C++](./problems/0035/solution.cpp) |
 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [C](./problems/0058/c/solution.c) [C++](./problems/0058/solution.cpp) |
 | [66. Plus One](https://leetcode.com/problems/plus-one) | Easy | [C++](./problems/0066/solution.cpp) |
-| [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [C++](./problems/0070/solution.cpp) |
+| [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [C](./problems/0070/c/solution.c) [C++](./problems/0070/solution.cpp) |
 | [91. Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | [C](./problems/0091/c/solution.c) [C++](./problems/0091/solution.cpp) |
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [C++](./problems/0094/solution.cpp) |
 | [119. Pascal's Triangle II](pascals-triangle-ii) | Easy | [C++](./problems/0119/solution.cpp) |
