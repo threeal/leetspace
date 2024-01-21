@@ -32,6 +32,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [C++](./problems/0094/solution.cpp) |
 | [119. Pascal's Triangle II](pascals-triangle-ii) | Easy | [C++](./problems/0119/solution.cpp) |
 | [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [C](./problems/0191/c/solution.c) [C++](./problems/0191/solution.cpp) |
+| [198. House Robber](https://leetcode.com/problems/house-robber/) | Medium | [C++](./problems/0198/solution.cpp) |
 | [229. Majority Element II](https://leetcode.com/problems/majority-element-ii) | Medium | [C++](./problems/0229/solution.cpp) |
 | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [C](./problems/0242/c/solution.c) [C++](./problems/0242/solution.cpp) |
 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [C](./problems/0300/c/solution.c) [C++](./problems/0300/solution.cpp) |
