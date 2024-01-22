@@ -1,24 +1,22 @@
+#include <cstdlib>
 #include <vector>
 
 class Solution {
  public:
   std::vector<int> findErrorNums(std::vector<int>& nums) {
     int twice = 0;
-    int missing = 0;
-
-    const int n = nums.size();
-    std::vector<bool> flags(n + 1, false);
-
     for (const auto num : nums) {
-      if (flags[num])
-        twice = num;
-      else
-        flags[num] = true;
+      if (nums[std::abs(num) - 1] < 0) {
+        twice = std::abs(num);
+      } else {
+        nums[std::abs(num) - 1] *= -1;
+      }
     }
 
-    for (int i = 1; i <= n; ++i) {
-      if (!flags[i]) {
-        missing = i;
+    int missing = 0;
+    for (std::size_t i = 0; i < nums.size(); ++i) {
+      if (nums[i] > 0) {
+        missing = i + 1;
         break;
       }
     }
