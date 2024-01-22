@@ -1,0 +1,21 @@
+name: 645. Set Mismatch
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: findErrorNums
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 2, 4]
+    output: [2, 3]
+
+  example_2:
+    inputs:
+      nums: [1, 1]
+    output: [1, 2]
