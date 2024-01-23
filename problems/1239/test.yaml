@@ -1,0 +1,26 @@
+name: 1239. Maximum Length of a Concatenated String with Unique Characters
+
+types:
+  inputs:
+    arr: std::vector<std::string>
+  output: int
+
+solutions:
+  cpp:
+    function: maxLength
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [un, iq, ue]
+    output: 4
+
+  example_2:
+    inputs:
+      arr: [cha, r, act, ers]
+    output: 6
+
+  example_3:
+    inputs:
+      arr: [abcdefghijklmnopqrstuvwxyz]
+    output: 26
