@@ -7,10 +7,20 @@
 class Solution {
  public:
   int maxLength(std::vector<std::string>& arr) {
-    std::vector<std::uint32_t> uniques(arr.size(), 0);
-    for (std::size_t i = 0; i < arr.size(); ++i) {
-      for (const auto c : arr[i]) {
-        uniques[i] |= 1 << (c - 'a');
+    std::vector<std::uint32_t> uniques;
+    for (const auto& str : arr) {
+      std::uint32_t unique = 0;
+      for (const auto c : str) {
+        std::uint32_t div = 1 << (c - 'a');
+        if ((unique & div) != 0) {
+          unique = 0;
+          break;
+        }
+        unique |= div;
+      }
+
+      if (unique != 0) {
+        uniques.push_back(unique);
       }
     }
 
