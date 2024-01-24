@@ -40,3 +40,9 @@ test_cases:
       s: aaa
       p: a*a
     output: true
+
+  case_3:
+    inputs:
+      s: aabcbcbcaccbcaabc
+      p: .*a*aa*.*b*.c*.*a*
+    output: true
