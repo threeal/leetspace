@@ -83,6 +83,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1425. Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum) | Hard | [C++](./problems/1425/solution.cpp) |
 | [1436. Destination City](https://leetcode.com/problems/destination-city/) | Easy | [C++](./problems/1436/solution.cpp) |
 | [1441. Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations) | Medium | [C++](./problems/1441/solution.cpp) |
+| [1457. Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | Medium | [C++](./problems/1457/solution.cpp) |
 | [1458. Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences) | Hard | [C++](./problems/1458/solution.cpp) |
 | [1464. Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | Easy | [C](./problems/1464/c/solution.c) [C++](./problems/1464/solution.cpp) |
 | [1496. Path Crossing](https://leetcode.com/problems/path-crossing/) | Easy | [C++](./problems/1496/solution.cpp) |
