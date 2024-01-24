@@ -34,3 +34,9 @@ test_cases:
       s: mississippi
       p: mis*is*ip*.
     output: true
+
+  case_2:
+    inputs:
+      s: aaa
+      p: a*a
+    output: true
