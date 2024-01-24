@@ -28,3 +28,9 @@ test_cases:
       s: ab
       p: .*
     output: true
+
+  case_1:
+    inputs:
+      s: mississippi
+      p: mis*is*ip*.
+    output: true
