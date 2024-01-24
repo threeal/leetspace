@@ -1,0 +1,30 @@
+name: 10. Regular Expression Matching
+
+types:
+  inputs:
+    s: std::string
+    p: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: isMatch
+
+test_cases:
+  example_1:
+    inputs:
+      s: aa
+      p: a
+    output: false
+
+  example_2:
+    inputs:
+      s: aa
+      p: a*
+    output: true
+
+  example_3:
+    inputs:
+      s: ab
+      p: .*
+    output: true
