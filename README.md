@@ -17,6 +17,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion) | Medium | [C](./problems/0006/c/solution.c) [C++](./problems/0006/solution.cpp) |
 | [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | Medium | [C++](./problems/0008/solution.cpp) |
 | [9. Palindrome Number](https://leetcode.com/problems/palindrome-number) | Easy | [C++](./problems/0009/solution.cpp) |
+| [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Hard | [C++](./problems/0010/solution.cpp) |
 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water) | Medium | [C++](./problems/0011/solution.cpp) |
 | [15. 3Sum](https://leetcode.com/problems/3sum) | Medium | [C++](./problems/0015/solution.cpp) |
 | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | Medium | [C++](./problems/0017/solution.cpp) |
