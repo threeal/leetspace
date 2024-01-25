@@ -38,7 +38,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [C](./problems/0242/c/solution.c) [C++](./problems/0242/solution.cpp) |
 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [C](./problems/0300/c/solution.c) [C++](./problems/0300/solution.cpp) |
 | [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) | Medium | [C++](./problems/0316/solution.cpp) |
-| [342. Power of Four](https://leetcode.com/problems/power-of-four) | Easy | [C++](./problems/0342/solution.cpp) |
+| [342. Power of Four](https://leetcode.com/problems/power-of-four) | Easy | [C](./problems/0342/c/solution.c) [C++](./problems/0342/solution.cpp) |
 | [343. Integer Break](https://leetcode.com/problems/integer-break) | Medium | [C++](./problems/0343/solution.cpp) |
 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | Medium | [C++](./problems/0380/solution.cpp) |
 | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | Easy | [C++](./problems/0387/solution.cpp) |
