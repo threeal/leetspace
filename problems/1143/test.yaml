@@ -1,0 +1,30 @@
+name: 1143. Longest Common Subsequence
+
+types:
+  inputs:
+    text1: std::string
+    text2: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: longestCommonSubsequence
+
+test_cases:
+  example_1:
+    inputs:
+      text1: abcde
+      text2: ace
+    output: 3
+
+  example_2:
+    inputs:
+      text1: abc
+      text2: abc
+    output: 3
+
+  example_3:
+    inputs:
+      text1: abc
+      text2: def
+    output: 0
