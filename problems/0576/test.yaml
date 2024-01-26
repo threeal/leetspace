@@ -31,3 +31,12 @@ test_cases:
       startRow: 0
       startColumn: 1
     output: 12
+
+  overflow:
+    inputs:
+      m: 8
+      n: 50
+      maxMove: 23
+      startRow: 5
+      startColumn: 26
+    output: 914783380
