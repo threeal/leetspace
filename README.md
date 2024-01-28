@@ -66,6 +66,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | Easy | [C++](./problems/0938/solution.cpp) |
 | [1026. Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | Medium | [C++](./problems/1026/solution.cpp) |
 | [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain) | Medium | [C++](./problems/1048/solution.cpp) |
+| [1074. Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/) | Hard | [C++](./problems/1074/solution.cpp) |
 | [1081. Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters) | Medium | [C++](./problems/1081/solution.cpp) |
 | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | [C](./problems/1143/c/solution.c) [C++](./problems/1143/solution.cpp) |
 | [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | Easy | [C](./problems/1160/c/solution.c) [C++](./problems/1160/solution.cpp) |
