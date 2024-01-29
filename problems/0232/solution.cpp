@@ -1,20 +1,34 @@
+#include <stack>
+
 class MyQueue {
+ private:
+  std::stack<int> pushes;
+  std::stack<int> pops;
+
  public:
   MyQueue() {}
 
   void push(int x) {
-    (void)x;
+    pushes.push(x);
   }
 
   int pop() {
-    return 0;
+    const auto val = peek();
+    pops.pop();
+    return val;
   }
 
   int peek() {
-    return 0;
+    if (pops.empty()) {
+      while (!pushes.empty()) {
+        pops.push(pushes.top());
+        pushes.pop();
+      }
+    }
+    return pops.top();
   }
 
   bool empty() {
-    return false;
+    return pops.empty() && pushes.empty();
   }
 };
