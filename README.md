@@ -32,7 +32,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [91. Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | [C](./problems/0091/c/solution.c) [C++](./problems/0091/solution.cpp) |
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [C++](./problems/0094/solution.cpp) |
 | [119. Pascal's Triangle II](pascals-triangle-ii) | Easy | [C++](./problems/0119/solution.cpp) |
-| [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | [C++](./problems/0150/solution.cpp) |
+| [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | [C](./problems/0150/c/solution.c) [C++](./problems/0150/solution.cpp) |
 | [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [C](./problems/0191/c/solution.c) [C++](./problems/0191/solution.cpp) |
 | [198. House Robber](https://leetcode.com/problems/house-robber/) | Medium | [C](./problems/0198/c/solution.c) [C++](./problems/0198/solution.cpp) |
 | [229. Majority Element II](https://leetcode.com/problems/majority-element-ii) | Medium | [C++](./problems/0229/solution.cpp) |
