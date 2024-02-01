@@ -1,0 +1,26 @@
+name: 739. Daily Temperatures
+
+types:
+  inputs:
+    temperatures: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: dailyTemperatures
+
+test_cases:
+  example_1:
+    inputs:
+      temperatures: [73, 74, 75, 71, 69, 72, 76, 73]
+    output: [1, 1, 4, 2, 1, 1, 0, 0]
+
+  example_2:
+    inputs:
+      temperatures: [30, 40, 50, 60]
+    output: [1, 1, 1, 0]
+
+  example_3:
+    inputs:
+      temperatures: [30, 60, 90]
+    output: [1, 1, 0]
