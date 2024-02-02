@@ -1,7 +1,7 @@
-#include <algorithm>
+#include <cstdint>
 #include <vector>
 
-const std::vector<int> digits = {
+const int digits[36] = {
     12,
     23,
     34,
@@ -42,9 +42,18 @@ const std::vector<int> digits = {
 class Solution {
  public:
   std::vector<int> sequentialDigits(int low, int high) {
-    const auto start = std::lower_bound(digits.begin(), digits.end(), low);
-    const auto end = std::upper_bound(digits.begin(), digits.end(), high);
+    std::uint8_t i = 0;
+    while (i < 36) {
+      if (digits[i] >= low) break;
+      ++i;
+    }
 
-    return std::vector(start, end);
+    std::vector<int> output;
+    while (i < 36 && digits[i] <= high) {
+      output.push_back(digits[i]);
+      ++i;
+    }
+
+    return output;
   }
 };
