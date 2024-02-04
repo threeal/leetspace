@@ -1,0 +1,24 @@
+name: 1291. Sequential Digits
+
+types:
+  inputs:
+    low: int
+    high: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: sequentialDigits
+
+test_cases:
+  example_1:
+    inputs:
+      low: 100
+      high: 300
+    output: [123, 234]
+
+  example_2:
+    inputs:
+      low: 1000
+      high: 13000
+    output: [1234, 2345, 3456, 4567, 5678, 6789, 12345]
