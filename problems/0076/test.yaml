@@ -1,0 +1,30 @@
+name: 76. Minimum Window Substring
+
+types:
+  inputs:
+    s: std::string
+    t: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: minWindow
+
+test_cases:
+  example_1:
+    inputs:
+      s: ADOBECODEBANC
+      t: ABC
+    output: BANC
+
+  example_2:
+    inputs:
+      s: a
+      t: a
+    output: a
+
+  example_3:
+    inputs:
+      s: a
+      t: aa
+    output: ''
