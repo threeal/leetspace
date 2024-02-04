@@ -1,0 +1,24 @@
+name: 2966. Divide Array Into Arrays With Max Difference
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: divideArray
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 3, 4, 8, 7, 9, 3, 5, 1]
+      k: 2
+    output: [[1, 1, 3], [3, 4, 5], [7, 8, 9]]
+
+  example_2:
+    inputs:
+      nums: [1, 3, 3, 2, 7, 3]
+      k: 3
+    output: []
