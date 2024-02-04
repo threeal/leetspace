@@ -2,11 +2,15 @@
 // To do this, one can sort the piles and then iterate over the piles n / 3 times
 // to get the second-highest pile in each iteration.
 
-void reversedQuickSort(int* low, int* high);
+#include <stdlib.h>
+
+int comp(const void* a, const void* b) {
+  return *(int*)b - *(int*)a;
+}
 
 int maxCoins(int* piles, int pilesSize) {
   // Sort each pile from highest to lowest.
-  reversedQuickSort(piles, piles + pilesSize - 1);
+  qsort(piles, pilesSize, sizeof(int), comp);
 
   // Iterate n / 3 times to get the second-highest pile in each iteration.
   int total = 0;
@@ -15,28 +19,4 @@ int maxCoins(int* piles, int pilesSize) {
   }
 
   return total;
-}
-
-// This function implements quick sort to sort the given range of arrays.
-// See: https://www.geeksforgeeks.org/quick-sort/
-void reversedQuickSort(int* low, int* high) {
-  if (low >= high) return;
-
-  int* i = low - 1;
-
-  for (int* j = low; j < high; ++j) {
-    if (*j <= *high) continue;
-    ++i;
-    const int temp = *i;
-    *i = *j;
-    *j = temp;
-  }
-
-  ++i;
-  const int temp = *i;
-  *i = *high;
-  *high = temp;
-
-  reversedQuickSort(low, i - 1);
-  reversedQuickSort(i + 1, high);
 }
