@@ -1,19 +1,12 @@
-void quickSort(int* low, int* high);
+#include <stdlib.h>
+
+int comp(const void* a, const void* b) {
+  return *(int*)a - *(int*)b;
+}
 
 int findContentChildren(int* g, int gSize, int* s, int sSize) {
-  for (int i = 1; i < gSize; ++i) {
-    if (g[i - 1] > g[i]) {
-      quickSort(g, g + gSize - 1);
-      break;
-    }
-  }
-
-  for (int i = 1; i < sSize; ++i) {
-    if (s[i - 1] > s[i]) {
-      quickSort(s, s + sSize - 1);
-      break;
-    }
-  }
+  qsort(g, gSize, sizeof(int), comp);
+  qsort(s, sSize, sizeof(int), comp);
 
   int gi = 0;
   int si = 0;
@@ -23,28 +16,4 @@ int findContentChildren(int* g, int gSize, int* s, int sSize) {
   }
 
   return gi;
-}
-
-// This function implements quick sort to sort the given range of arrays.
-// See: https://www.geeksforgeeks.org/quick-sort/
-void quickSort(int* low, int* high) {
-  if (low >= high) return;
-
-  int* i = low - 1;
-
-  for (int* j = low; j < high; ++j) {
-    if (*j >= *high) continue;
-    ++i;
-    const int temp = *i;
-    *i = *j;
-    *j = temp;
-  }
-
-  ++i;
-  const int temp = *i;
-  *i = *high;
-  *high = temp;
-
-  quickSort(low, i - 1);
-  quickSort(i + 1, high);
 }
