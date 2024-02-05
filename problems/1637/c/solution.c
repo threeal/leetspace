@@ -1,10 +1,14 @@
-void quickSortByX(int** low, int** high);
+#include <stdlib.h>
+
+int comp(const void* a, const void* b) {
+  return **(int**)a - **(int**)b;
+}
 
 int maxWidthOfVerticalArea(int** points, int pointsSize, int* pointsColSize) {
   (void)pointsColSize;
 
   // Sort the x coordinates.
-  quickSortByX(points, points + pointsSize - 1);
+  qsort(points, pointsSize, sizeof(int*), comp);
 
   // Find the maximum difference between two different x coordinates.
   int prev_x = points[0][0];
@@ -17,28 +21,4 @@ int maxWidthOfVerticalArea(int** points, int pointsSize, int* pointsColSize) {
   }
 
   return max_width;
-}
-
-// This function implements quick sort to sort the given range of arrays.
-// See: https://www.geeksforgeeks.org/quick-sort/
-void quickSortByX(int** low, int** high) {
-  if (low >= high) return;
-
-  int** i = low - 1;
-
-  for (int** j = low; j < high; ++j) {
-    if (**j >= **high) continue;
-    ++i;
-    int* temp = *i;
-    *i = *j;
-    *j = temp;
-  }
-
-  ++i;
-  int* temp = *i;
-  *i = *high;
-  *high = temp;
-
-  quickSortByX(low, i - 1);
-  quickSortByX(i + 1, high);
 }
