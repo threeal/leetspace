@@ -15,9 +15,8 @@ test_cases:
       strs: [eat, tea, tan, ate, nat, bat]
     output:
       - [bat]
-      - [nat, tan]
-      - [ate, eat, tea]
-
+      - [tan, nat]
+      - [eat, tea, ate]
 
   example_2:
     inputs:
