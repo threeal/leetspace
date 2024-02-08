@@ -5,7 +5,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-void quickSort(int* low, int* high);
+int comp(const void* a, const void* b) {
+  return *(int*)a - *(int*)b;
+}
 
 bool* checkArithmeticSubarrays(int* nums, int numsSize, int* l, int lSize, int* r, int rSize, int* returnSize) {
   // Construct the result array, it defaults to true.
@@ -30,7 +32,7 @@ bool* checkArithmeticSubarrays(int* nums, int numsSize, int* l, int lSize, int* 
     memcpy(slicedNums, nums + l[i], sizeof(int) * range);
 
     // Sort the subarray.
-    quickSort(slicedNums, slicedNums + range - 1);
+    qsort(slicedNums, range, sizeof(int), comp);
 
     // Check if the difference between each element is the same.
     const int diff = slicedNums[1] - slicedNums[0];
@@ -45,28 +47,4 @@ bool* checkArithmeticSubarrays(int* nums, int numsSize, int* l, int lSize, int* 
   free(slicedNums);
 
   return isArithmetics;
-}
-
-// This function implements quick sort to sort the given range of arrays.
-// See: https://www.geeksforgeeks.org/quick-sort/
-void quickSort(int* low, int* high) {
-  if (low >= high) return;
-
-  int* i = low - 1;
-
-  for (int* j = low; j < high; ++j) {
-    if (*j >= *high) continue;
-    ++i;
-    const int temp = *i;
-    *i = *j;
-    *j = temp;
-  }
-
-  ++i;
-  const int temp = *i;
-  *i = *high;
-  *high = temp;
-
-  quickSort(low, i - 1);
-  quickSort(i + 1, high);
 }
