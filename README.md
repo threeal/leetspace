@@ -43,7 +43,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [342. Power of Four](https://leetcode.com/problems/power-of-four) | Easy | [C](./problems/0342/c/solution.c) [C++](./problems/0342/solution.cpp) |
 | [343. Integer Break](https://leetcode.com/problems/integer-break) | Medium | [C++](./problems/0343/solution.cpp) |
 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | Medium | [C++](./problems/0380/solution.cpp) |
-| [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | Easy | [C++](./problems/0387/solution.cpp) |
+| [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | Easy | [C](./problems/0387/c/solution.c) [C++](./problems/0387/solution.cpp) |
 | [389. Find the Difference](https://leetcode.com/problems/find-the-difference) | Easy | [C++](./problems/0389/solution.cpp) |
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | [C++](./problems/0392/solution.cpp) |
 | [446. Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) | Hard | [C++](./problems/0446/solution.cpp) |
