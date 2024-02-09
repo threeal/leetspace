@@ -1,0 +1,21 @@
+name: 279. Perfect Squares
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: numSquares
+
+test_cases:
+  example_1:
+    inputs:
+      n: 12
+    output: 3
+
+  example_2:
+    inputs:
+      n: 13
+    output: 2
