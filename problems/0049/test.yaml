@@ -1,0 +1,31 @@
+name: 49. Group Anagrams
+
+types:
+  inputs:
+    strs: std::vector<std::string>
+  output: std::vector<std::vector<std::string>>
+
+solutions:
+  cpp:
+    function: groupAnagrams
+
+test_cases:
+  example_1:
+    inputs:
+      strs: [eat, tea, tan, ate, nat, bat]
+    output:
+      - [bat]
+      - [tan, nat]
+      - [eat, tea, ate]
+
+  example_2:
+    inputs:
+      strs: ['']
+    output:
+      - ['']
+
+  example_3:
+    inputs:
+      strs: [a]
+    output:
+      - [a]
