@@ -1,0 +1,21 @@
+name: 647. Palindromic Substrings
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: countSubstrings
+
+test_cases:
+  example_1:
+    inputs:
+      s: abc
+    output: 3
+
+  example_2:
+    inputs:
+      s: aaa
+    output: 6
