@@ -136,6 +136,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2009. Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous) | Hard | [C++](./problems/2009/solution.cpp) |
 | [2038. Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color) | Medium | [C](./problems/2038/c/solution.c) [C++](./problems/2038/solution.cpp) |
 | [2050. Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii) | Hard | [C++](./problems/2050/solution.cpp) |
+| [2108. Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | Easy | [C++](./problems/2108/solution.cpp) |
 | [2125. Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/) | Medium | [C](./problems/2125/c/solution.c) [C++](./problems/2125/solution.cpp) |
 | [2147. Number of Ways to Divide a Long Corridor](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/) | Hard | [C](./problems/2147/c/solution.c) [C++](./problems/2147/solution.cpp) |
 | [2225. Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/) | Medium | [C++](./problems/2225/solution.cpp) |
