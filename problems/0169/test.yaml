@@ -1,0 +1,21 @@
+name: 169. Majority Element
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: majorityElement
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [3, 2, 3]
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [2, 2, 1, 1, 1, 2, 2]
+    output: 2
