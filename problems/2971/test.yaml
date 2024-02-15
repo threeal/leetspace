@@ -1,0 +1,26 @@
+name: 2971. Find Polygon With the Largest Perimeter
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: long long
+
+solutions:
+  cpp:
+    function: largestPerimeter
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [5, 5, 5]
+    output: 15
+
+  example_2:
+    inputs:
+      nums: [1, 12, 1, 2, 5, 50, 3]
+    output: 12
+
+  example_3:
+    inputs:
+      nums: [5, 5, 50]
+    output: -1
