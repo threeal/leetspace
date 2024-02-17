@@ -158,6 +158,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2849. Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time) | Medium | [C](./problems/2849/c/solution.c) [C++](./problems/2849/solution.cpp) |
 | [2870. Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/) | Medium | [C++](./problems/2870/solution.cpp) |
 | [2966. Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | Medium | [C](./problems/2966/c/solution.c) [C++](./problems/2966/solution.cpp) |
+| [2971. Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/) | Medium | [C++](./problems/2971/solution.cpp) |
 
 ## License
 
