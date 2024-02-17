@@ -1,34 +1,30 @@
-#include <cstdlib>
-#include <functional>
+#include <queue>
 #include <vector>
 
 class Solution {
  public:
   int furthestBuilding(std::vector<int>& heights, int bricks, int ladders) {
-    const int n = heights.size();
-    const std::function<int(int, int, int)> fn = [&](int i, int bricks, int ladders) {
-      if (i >= n) return i - 1;
+    std::priority_queue<int> q;
 
+    std::size_t i = 1;
+    while (i < heights.size()) {
       const auto diff = heights[i] - heights[i - 1];
-      if (diff <= 0) {
-        return fn(i + 1, bricks, ladders);
-      }
+      if (diff > 0) {
+        bricks -= diff;
+        q.push(diff);
 
-      if (bricks >= diff) {
-        if (ladders > 0) {
-          return std::max(
-              fn(i + 1, bricks - diff, ladders),
-              fn(i + 1, bricks, ladders - 1));
-        } else {
-          return fn(i + 1, bricks - diff, ladders);
+        while (bricks < 0) {
+          bricks += q.top();
+          q.pop();
+          --ladders;
         }
-      } else if (ladders > 0) {
-        return fn(i + 1, bricks, ladders - 1);
+
+        if (ladders < 0) break;
       }
 
-      return i - 1;
-    };
+      ++i;
+    }
 
-    return fn(1, bricks, ladders);
+    return i - 1;
   }
 };
