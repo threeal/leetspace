@@ -4,27 +4,20 @@
 class Solution {
  public:
   int furthestBuilding(std::vector<int>& heights, int bricks, int ladders) {
-    std::priority_queue<int> q;
+    std::priority_queue<int, std::vector<int>, std::greater<>> pq;
 
-    std::size_t i = 1;
-    while (i < heights.size()) {
+    for (std::size_t i = 1; i < heights.size(); ++i) {
       const auto diff = heights[i] - heights[i - 1];
-      if (diff > 0) {
-        bricks -= diff;
-        q.push(diff);
+      if (diff <= 0) continue;
 
-        while (bricks < 0) {
-          bricks += q.top();
-          q.pop();
-          --ladders;
-        }
+      pq.push(diff);
+      if (pq.size() <= static_cast<std::size_t>(ladders)) continue;
 
-        if (ladders < 0) break;
-      }
-
-      ++i;
+      bricks -= pq.top();
+      pq.pop();
+      if (bricks < 0) return i - 1;
     }
 
-    return i - 1;
+    return heights.size() - 1;
   }
 };
