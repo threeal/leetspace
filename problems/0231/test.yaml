@@ -24,3 +24,8 @@ test_cases:
     inputs:
       n: 3
     output: false
+
+  test_case_1108:
+    inputs:
+      n: -2147483648
+    output: false
