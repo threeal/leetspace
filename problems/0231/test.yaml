@@ -1,0 +1,26 @@
+name: 231. Power of Two
+
+types:
+  inputs:
+    n: int
+  output: bool
+
+solutions:
+  cpp:
+    function: isPowerOfTwo
+
+test_cases:
+  example_1:
+    inputs:
+      n: 1
+    output: true
+
+  example_2:
+    inputs:
+      n: 16
+    output: true
+
+  example_3:
+    inputs:
+      n: 3
+    output: false
