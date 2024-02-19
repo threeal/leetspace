@@ -1,5 +1,6 @@
 #include <stdbool.h>
 
 bool isPowerOfTwo(int n) {
-  return n == 2;
+  if (n < 0) ++n;
+  return __builtin_popcount(n) == 1;
 }
