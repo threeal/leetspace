@@ -1,13 +1,12 @@
-#include <algorithm>
+#include <numeric>
 #include <vector>
 
 class Solution {
  public:
   int missingNumber(std::vector<int>& nums) {
-    std::sort(nums.begin(), nums.end());
-    for (int i = 0; i < static_cast<int>(nums.size()); ++i) {
-      if (nums[i] != i) return i;
-    }
-    return nums.size();
+    const int n = nums.size();
+    const auto expected = (n * n + n) / 2;
+    const auto actual = std::accumulate(nums.begin(), nums.end(), 0, std::plus<int>());
+    return expected - actual;
   }
 };
