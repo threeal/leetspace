@@ -75,6 +75,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | Medium | [C++](./problems/0931/solution.cpp) |
 | [935. Knight Dialer](https://leetcode.com/problems/knight-dialer/) | Easy | [C](./problems/0935/c/solution.c) [C++](./problems/0935/solution.cpp) |
 | [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | Easy | [C++](./problems/0938/solution.cpp) |
+| [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Easy | [C++](./problems/0997/solution.cpp) |
 | [1026. Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | Medium | [C++](./problems/1026/solution.cpp) |
 | [1043. Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/) | Medium | [C++](./problems/1043/solution.cpp) |
 | [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain) | Medium | [C++](./problems/1048/solution.cpp) |
