@@ -1,0 +1,30 @@
+name: 201. Bitwise AND of Numbers Range
+
+types:
+  inputs:
+    left: int
+    right: int
+  output: int
+
+solutions:
+  cpp:
+    function: rangeBitwiseAnd
+
+test_cases:
+  example_1:
+    inputs:
+      left: 5
+      right: 7
+    output: 4
+
+  example_2:
+    inputs:
+      left: 0
+      right: 0
+    output: 0
+
+  example_3:
+    inputs:
+      left: 1
+      right: 2147483647
+    output: 0

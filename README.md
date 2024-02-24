@@ -37,6 +37,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [169. Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [C](./problems/0169/c/solution.c) [C++](./problems/0169/solution.cpp) |
 | [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [C](./problems/0191/c/solution.c) [C++](./problems/0191/solution.cpp) |
 | [198. House Robber](https://leetcode.com/problems/house-robber/) | Medium | [C](./problems/0198/c/solution.c) [C++](./problems/0198/solution.cpp) |
+| [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | Medium | [C++](./problems/0201/solution.cpp) |
 | [229. Majority Element II](https://leetcode.com/problems/majority-element-ii) | Medium | [C++](./problems/0229/solution.cpp) |
 | [231. Power of Two](https://leetcode.com/problems/power-of-two/) | Easy | [C](./problems/0231/c/solution.c) [C++](./problems/0231/solution.cpp) |
 | [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [C++](./problems/0232/solution.cpp) |
