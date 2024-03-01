@@ -30,6 +30,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [C](./problems/0058/c/solution.c) [C++](./problems/0058/solution.cpp) |
 | [66. Plus One](https://leetcode.com/problems/plus-one) | Easy | [C++](./problems/0066/solution.cpp) |
 | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [C](./problems/0070/c/solution.c) [C++](./problems/0070/solution.cpp) |
+| [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | [C++](./problems/0076/solution.cpp) |
 | [91. Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | [C](./problems/0091/c/solution.c) [C++](./problems/0091/solution.cpp) |
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [C++](./problems/0094/solution.cpp) |
 | [100. Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [C++](./problems/0100/solution.cpp) |
