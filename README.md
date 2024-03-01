@@ -74,6 +74,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | Easy | [C++](./problems/0872/solution.cpp) |
 | [880. Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index) | Medium | [C++](./problems/0880/solution.cpp) |
 | [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | Easy | [C++](./problems/0905/solution.cpp) |
+| [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) | Medium | [C++](./problems/0907/solution.cpp) |
 | [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | Medium | [C++](./problems/0931/solution.cpp) |
 | [935. Knight Dialer](https://leetcode.com/problems/knight-dialer/) | Easy | [C](./problems/0935/c/solution.c) [C++](./problems/0935/solution.cpp) |
 | [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | Easy | [C++](./problems/0938/solution.cpp) |
