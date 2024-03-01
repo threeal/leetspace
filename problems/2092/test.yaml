@@ -1,0 +1,43 @@
+name: 2092. Find All People With Secret
+
+types:
+  inputs:
+    n: int
+    meetings: std::vector<std::vector<int>>
+    firstPerson: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: findAllPeople
+
+test_cases:
+  example_1:
+    inputs:
+      n: 6
+      meetings:
+        - [1, 2, 5]
+        - [2, 3, 8]
+        - [1, 5, 10]
+      firstPerson: 1
+    output: [0, 1, 2, 3, 5]
+
+  example_2:
+    inputs:
+      n: 4
+      meetings:
+        - [3, 1, 3]
+        - [1, 2, 2]
+        - [0, 3, 3]
+      firstPerson: 3
+    output: [0, 1, 3]
+
+  example_3:
+    inputs:
+      n: 5
+      meetings:
+        - [3, 4, 2]
+        - [1, 2, 1]
+        - [2, 3, 1]
+      firstPerson: 1
+    output: [0, 1, 2, 3, 4]
