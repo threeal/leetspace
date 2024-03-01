@@ -1,0 +1,21 @@
+name: 2864. Maximum Odd Binary Number
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: maximumOddBinaryNumber
+
+test_cases:
+  example_1:
+    inputs:
+      s: "010"
+    output: "001"
+
+  example_2:
+    inputs:
+      s: "0101"
+    output: "1001"
