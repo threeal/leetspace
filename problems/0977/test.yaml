@@ -1,0 +1,21 @@
+name: 977. Squares of a Sorted Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: sortedSquares
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [-4, -1, 0, 3, 10]
+    output: [0, 1, 9, 16, 100]
+
+  example_2:
+    inputs:
+      nums: [-7, -3, 2, 3, 11]
+    output: [4, 9, 9, 49, 121]
