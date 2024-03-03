@@ -1,29 +1,33 @@
-#include <stack>
 #include <vector>
 
 class Solution {
  public:
   std::vector<int> sortedSquares(std::vector<int>& nums) {
-    std::vector<int> outputs;
-    outputs.reserve(nums.size());
+    const int n = nums.size();
 
-    std::stack<int> negs;
-    for (const auto num : nums) {
-      const auto sqr = num * num;
-      if (num < 0) {
-        negs.push(sqr);
-      } else {
-        while (!negs.empty() && negs.top() < sqr) {
-          outputs.push_back(negs.top());
-          negs.pop();
-        }
-        outputs.push_back(sqr);
-      }
+    std::vector<int> outputs;
+    outputs.reserve(n);
+
+    int i = 0;
+    while (i < n && nums[i] < 0) {
+      nums[i] *= nums[i];
+      ++i;
     }
 
-    while (!negs.empty()) {
-      outputs.push_back(negs.top());
-      negs.pop();
+    int j = i - 1;
+    while (i < n) {
+      nums[i] *= nums[i];
+      while (j >= 0 && nums[j] < nums[i]) {
+        outputs.push_back(nums[j]);
+        --j;
+      }
+      outputs.push_back(nums[i]);
+      ++i;
+    }
+
+    while (j >= 0) {
+      outputs.push_back(nums[j]);
+      --j;
     }
 
     return outputs;
