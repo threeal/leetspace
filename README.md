@@ -21,6 +21,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water) | Medium | [C++](./problems/0011/solution.cpp) |
 | [15. 3Sum](https://leetcode.com/problems/3sum) | Medium | [C++](./problems/0015/solution.cpp) |
 | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | Medium | [C++](./problems/0017/solution.cpp) |
+| [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | [C++](./problems/0019/solution.cpp) |
 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Easy | [C++](./problems/0026/solution.cpp) |
 | [27. Remove Element](https://leetcode.com/problems/remove-element) | Easy | [C++](./problems/0027/solution.cpp) |
 | [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | Easy | [C++](./problems/0028/solution.cpp) |
