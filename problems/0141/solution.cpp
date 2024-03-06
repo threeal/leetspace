@@ -1,12 +1,12 @@
 class Solution {
  public:
   bool hasCycle(ListNode *head) {
-    auto node = head;
-    while (node != nullptr) {
-      if (node->next == head) return true;
-      auto prevNode = node;
-      node = node->next;
-      prevNode->next = head;
+    auto slow = head;
+    auto fast = head;
+    while (fast != nullptr && fast->next != nullptr) {
+      slow = slow->next;
+      fast = fast->next->next;
+      if (slow == fast) return true;
     }
     return false;
   }
