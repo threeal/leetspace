@@ -3,11 +3,9 @@ class Solution {
   ListNode* middleNode(ListNode* head) {
     auto middle = head;
 
-    while (head->next != nullptr) {
-      head = head->next;
+    while (head != nullptr && head->next != nullptr) {
+      head = head->next->next;
       middle = middle->next;
-      if (head->next == nullptr) break;
-      head = head->next;
     }
 
     return middle;
