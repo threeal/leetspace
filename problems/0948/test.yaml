@@ -1,0 +1,30 @@
+name: 948. Bag of Tokens
+
+types:
+  inputs:
+    tokens: std::vector<int>
+    power: int
+  output: int
+
+solutions:
+  cpp:
+    function: bagOfTokensScore
+
+test_cases:
+  example_1:
+    inputs:
+      tokens: [100]
+      power: 50
+    output: 0
+
+  example_2:
+    inputs:
+      tokens: [200, 100]
+      power: 150
+    output: 1
+
+  example_3:
+    inputs:
+      tokens: [100, 200, 300, 400]
+      power: 200
+    output: 2
