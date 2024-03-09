@@ -1,0 +1,26 @@
+name: 1750. Minimum Length of String After Deleting Similar Ends
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minimumLength
+
+test_cases:
+  example_1:
+    inputs:
+      s: ca
+    output: 2
+
+  example_2:
+    inputs:
+      s: cabaabac
+    output: 0
+
+  example_3:
+    inputs:
+      s: aabccabba
+    output: 3
