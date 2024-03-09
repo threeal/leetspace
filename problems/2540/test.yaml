@@ -1,0 +1,24 @@
+name: 2540. Minimum Common Value
+
+types:
+  inputs:
+    nums1: std::vector<int>
+    nums2: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: getCommon
+
+test_cases:
+  example_1:
+    inputs:
+      nums1: [1, 2, 3]
+      nums2: [2, 4]
+    output: 2
+
+  example_2:
+    inputs:
+      nums1: [1, 2, 3, 6]
+      nums2: [2, 3, 4, 5]
+    output: 2
