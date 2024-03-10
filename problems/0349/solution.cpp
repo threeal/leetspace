@@ -1,23 +1,23 @@
-#include <unordered_set>
+#include <algorithm>
 #include <vector>
 
 class Solution {
  public:
   std::vector<int> intersection(std::vector<int>& nums1, std::vector<int>& nums2) {
-    std::unordered_set<int> uniques1{};
-    for (const auto num : nums1) {
-      uniques1.insert(num);
-    }
-
-    std::unordered_set<int> uniques2{};
-    for (const auto num : nums2) {
-      uniques2.insert(num);
-    }
-
     std::vector<int> intersections{};
-    for (const auto unique : uniques1) {
-      if (uniques2.contains(unique)) {
-        intersections.push_back(unique);
+
+    std::sort(nums1.begin(), nums1.end());
+    std::sort(nums2.begin(), nums2.end());
+
+    auto it1 = nums1.begin();
+    auto it2 = nums2.begin();
+    while (it1 != nums1.end() && it2 != nums2.end()) {
+      if (*it1 == *it2 && (intersections.empty() || intersections.back() != *it1)) {
+        intersections.push_back(*it1);
+        ++it1;
+        ++it2;
+      } else {
+        *it1 < *it2 ? ++it1 : ++it2;
       }
     }
 
