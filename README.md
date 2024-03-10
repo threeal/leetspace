@@ -76,6 +76,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | Easy | [C++](./problems/0844/solution.cpp) |
 | [867. Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | Easy | [C](./problems/0867/c/solution.c) [C++](./problems/0867/solution.cpp) |
 | [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | Easy | [C++](./problems/0872/solution.cpp) |
+| [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | [C++](./problems/0876/solution.cpp) |
 | [880. Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index) | Medium | [C++](./problems/0880/solution.cpp) |
 | [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | Easy | [C++](./problems/0905/solution.cpp) |
 | [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | Medium | [C++](./problems/0931/solution.cpp) |
