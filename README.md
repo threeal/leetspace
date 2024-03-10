@@ -176,6 +176,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2870. Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/) | Medium | [C++](./problems/2870/solution.cpp) |
 | [2966. Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | Medium | [C](./problems/2966/c/solution.c) [C++](./problems/2966/solution.cpp) |
 | [2971. Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/) | Medium | [C](./problems/2971/c/solution.c) [C++](./problems/2971/solution.cpp) |
+| [3005. Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/) | Easy | [C++](./problems/3005/solution.cpp) |
 
 ## License
 
