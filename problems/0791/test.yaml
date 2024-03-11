@@ -15,10 +15,10 @@ test_cases:
     inputs:
       order: cba
       s: abcd
-    output: cbad
+    output: cdba
 
   example_2:
     inputs:
       order: bcafg
       s: abcd
-    output: bcad
+    output: bdca
