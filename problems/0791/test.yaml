@@ -1,0 +1,24 @@
+name: 791. Custom Sort String
+
+types:
+  inputs:
+    order: std::string
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: customSortString
+
+test_cases:
+  example_1:
+    inputs:
+      order: cba
+      s: abcd
+    output: cbad
+
+  example_2:
+    inputs:
+      order: bcafg
+      s: abcd
+    output: bcad
