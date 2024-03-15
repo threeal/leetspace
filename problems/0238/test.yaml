@@ -1,0 +1,21 @@
+name: 238. Product of Array Except Self
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: productExceptSelf
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3, 4]
+    output: [24, 12, 8, 6]
+
+  example_2:
+    inputs:
+      nums: [-1, 1, 0, -3, 3]
+    output: [0, 0, 9, 0, 0]
