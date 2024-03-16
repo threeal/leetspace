@@ -62,6 +62,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [455. Assign Cookies](https://leetcode.com/problems/assign-cookies) | Easy | [C](./problems/0455/c/solution.c) [C++](./problems/0455/solution.cpp) |
 | [458. Poor Pigs](https://leetcode.com/problems/poor-pigs) | Hard | [C](./problems/0458/c/solution.c) [C++](./problems/0458/solution.cpp) |
 | [513. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | Medium | [C++](./problems/0513/solution.cpp) |
+| [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) | Medium | [C++](./problems/0525/solution.cpp) |
 | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [C++](./problems/0543/solution.cpp) |
 | [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | Easy | [C](./problems/0557/c/solution.c) [C++](./problems/0557/solution.cpp) |
 | [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | Medium | [C++](./problems/0576/solution.cpp) |
