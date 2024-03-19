@@ -1,0 +1,30 @@
+name: 621. Task Scheduler
+
+types:
+  inputs:
+    tasks: std::vector<char>
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: leastInterval
+
+test_cases:
+  example_1:
+    inputs:
+      tasks: [65, 65, 65, 66, 66, 66]
+      n: 2
+    output: 8
+
+  example_2:
+    inputs:
+      tasks: [65, 67, 65, 66, 68, 66]
+      n: 1
+    output: 6
+
+  example_3:
+    inputs:
+      tasks: [65, 65, 65,  66, 66, 66]
+      n: 3
+    output: 10
