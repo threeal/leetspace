@@ -64,7 +64,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | Easy | [C](./problems/0557/c/solution.c) [C++](./problems/0557/solution.cpp) |
 | [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | Medium | [C++](./problems/0576/solution.cpp) |
 | [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | Easy | [C++](./problems/0606/solution.cpp) |
-| [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Medium | [C++](./problems/0621/solution.cpp) |
+| [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Medium | [C](./problems/0621/c/solution.c) [C++](./problems/0621/solution.cpp) |
 | [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/) | Easy | [C](./problems/0645/c/solution.c) [C++](./problems/0645/solution.cpp) |
 | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | [C](./problems/0647/c/solution.c) [C++](./problems/0647/solution.cpp) |
 | [661. Image Smoother](https://leetcode.com/problems/image-smoother/) | Easy | [C++](./problems/0661/solution.cpp) |
