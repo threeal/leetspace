@@ -131,6 +131,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1657. Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/) | Medium | [C](./problems/1657/c/solution.c) [C++](./problems/1657/solution.cpp) |
 | [1658. Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) | Medium | [C++](./problems/1658/solution.cpp) |
 | [1662. Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | Easy | [C](./problems/1662/c/solution.c) [C++](./problems/1662/solution.cpp) |
+| [1669. Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/) | Medium | [C++](./problems/1669/solution.cpp) |
 | [1685. Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | Medium | [C](./problems/1685/c/solution.c) [C++](./problems/1685/solution.cpp) |
 | [1688. Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/description/) | Easy | [C](./problems/1688/c/solution.c) [C++](./problems/1688/solution.cpp) |
 | [1704. Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | Easy | [C](./problems/1704/c/solution.c) [C++](./problems/1704/solution.cpp) |
