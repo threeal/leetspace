@@ -1,0 +1,26 @@
+name: 442. Find All Duplicates in an Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: findDuplicates
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [4, 3, 2, 7, 8, 2, 3, 1]
+    output: [2, 3]
+
+  example_2:
+    inputs:
+      nums: [1, 1, 2]
+    output: [1]
+
+  example_3:
+    inputs:
+      nums: [1]
+    output: []
