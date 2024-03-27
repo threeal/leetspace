@@ -1,0 +1,24 @@
+name: 713. Subarray Product Less Than K
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: numSubarrayProductLessThanK
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [10, 5, 2, 6]
+      k: 100
+    output: 8
+
+  example_2:
+    inputs:
+      nums: [1, 2, 3]
+      k: 0
+    output: 0
