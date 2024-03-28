@@ -42,6 +42,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [229. Majority Element II](https://leetcode.com/problems/majority-element-ii) | Medium | [C++](./problems/0229/solution.cpp) |
 | [231. Power of Two](https://leetcode.com/problems/power-of-two/) | Easy | [C](./problems/0231/c/solution.c) [C++](./problems/0231/solution.cpp) |
 | [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [C++](./problems/0232/solution.cpp) |
+| [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [C++](./problems/0234/solution.cpp) |
 | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [C](./problems/0238/c/solution.c) [C++](./problems/0238/solution.cpp) |
 | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [C](./problems/0242/c/solution.c) [C++](./problems/0242/solution.cpp) |
 | [268. Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [C](./problems/0268/c/solution.c) [C++](./problems/0268/solution.cpp) |
