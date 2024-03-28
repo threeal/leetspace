@@ -48,7 +48,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [C](./problems/0242/c/solution.c) [C++](./problems/0242/solution.cpp) |
 | [268. Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [C](./problems/0268/c/solution.c) [C++](./problems/0268/solution.cpp) |
 | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) | Medium | [C](./problems/0279/c/solution.c) [C++](./problems/0279/solution.cpp) |
-| [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | [C++](./problems/0287/solution.cpp) |
+| [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | [C](./problems/0287/c/solution.c) [C++](./problems/0287/solution.cpp) |
 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [C](./problems/0300/c/solution.c) [C++](./problems/0300/solution.cpp) |
 | [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) | Medium | [C++](./problems/0316/solution.cpp) |
 | [342. Power of Four](https://leetcode.com/problems/power-of-four) | Easy | [C](./problems/0342/c/solution.c) [C++](./problems/0342/solution.cpp) |
