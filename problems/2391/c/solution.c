@@ -1,9 +1,11 @@
 // The solution can simply be done by iterating over the garbage to sum the required times.
 // To calculate the travel time, one should only add it to the total time if there's some garbage in a house.
 
-// clang-format off
-enum GarbageType { Metal = 0, Paper, Glass };
-// clang-format on
+enum GarbageType {
+  Metal = 0,
+  Paper,
+  Glass
+};
 
 int garbageCollection(char** garbage, int garbageSize, int* travel, int travelSize) {
   (void)travelSize;
@@ -25,11 +27,15 @@ int garbageCollection(char** garbage, int garbageSize, int* travel, int travelSi
     char* ci = garbage[i];
     while (*ci != 0) {
       switch (*ci) {
-        // clang-format off
-        case 'M': ++time[Metal]; break;
-        case 'P': ++time[Paper]; break;
-        case 'G': ++time[Glass]; break;
-          // clang-format on
+        case 'M':
+          ++time[Metal];
+          break;
+        case 'P':
+          ++time[Paper];
+          break;
+        case 'G':
+          ++time[Glass];
+          break;
       }
       ++ci;
     }

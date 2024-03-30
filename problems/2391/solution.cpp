@@ -4,9 +4,11 @@
 #include <string>
 #include <vector>
 
-// clang-format off
-enum GarbageType { Metal = 0, Paper, Glass };
-// clang-format on
+enum GarbageType {
+  Metal = 0,
+  Paper,
+  Glass
+};
 
 class Solution {
  public:
@@ -27,11 +29,15 @@ class Solution {
       int time[3] = {0};
       for (const auto c : garbage[i]) {
         switch (c) {
-          // clang-format off
-          case 'M': ++time[Metal]; break;
-          case 'P': ++time[Paper]; break;
-          case 'G': ++time[Glass]; break;
-            // clang-format on
+          case 'M':
+            ++time[Metal];
+            break;
+          case 'P':
+            ++time[Paper];
+            break;
+          case 'G':
+            ++time[Glass];
+            break;
         }
       }
 
