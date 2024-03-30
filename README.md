@@ -25,7 +25,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | [C++](./problems/0035/solution.cpp) |
 | [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | Hard | [C](./problems/0041/c/solution.c) [C++](./problems/0041/solution.cpp) |
 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [C++](./problems/0049/solution.cpp) |
-| [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | [C++](./problems/0057/solution.cpp) |
+| [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | [C](./problems/0057/c/solution.c) [C++](./problems/0057/solution.cpp) |
 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [C](./problems/0058/c/solution.c) [C++](./problems/0058/solution.cpp) |
 | [66. Plus One](https://leetcode.com/problems/plus-one) | Easy | [C++](./problems/0066/solution.cpp) |
 | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [C](./problems/0070/c/solution.c) [C++](./problems/0070/solution.cpp) |
