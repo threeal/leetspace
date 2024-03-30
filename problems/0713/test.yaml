@@ -22,3 +22,9 @@ test_cases:
       nums: [1, 2, 3]
       k: 0
     output: 0
+
+  test_case_96:
+    inputs:
+      nums: [1, 1, 1]
+      k: 1
+    output: 0
