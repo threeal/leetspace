@@ -36,4 +36,4 @@ jobs:
           git diff --exit-code HEAD
 
       - name: Run tests
-        uses: threeal/ctest-action@main
+        uses: threeal/ctest-action@v1.0.0
