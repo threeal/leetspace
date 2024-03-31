@@ -1,0 +1,27 @@
+name: 2444. Count Subarrays With Fixed Bounds
+
+types:
+  inputs:
+    nums: std::vector<int>
+    minK: int
+    maxK: int
+  output: long long
+
+solutions:
+  cpp:
+    function: countSubarrays
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 3, 5, 2, 7, 5]
+      minK: 1
+      maxK: 5
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [1, 1, 1, 1]
+      minK: 1
+      maxK: 1
+    output: 10
