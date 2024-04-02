@@ -1,0 +1,21 @@
+name: 907. Sum of Subarray Minimums
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: sumSubarrayMins
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [3, 1, 2, 4]
+    output: 17
+
+  example_2:
+    inputs:
+      arr: [11, 81, 94, 43, 3]
+    output: 444
