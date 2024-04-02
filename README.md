@@ -123,6 +123,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1441. Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations) | Medium | [C++](./old-problems/1441/solution.cpp) |
 | [1457. Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | Medium | [C++](./old-problems/1457/solution.cpp) |
 | [1458. Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences) | Hard | [C++](./old-problems/1458/solution.cpp) |
+| [1463. Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/) | Hard | [C++](./old-problems/1463/solution.cpp) |
 | [1464. Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | Easy | [C](./old-problems/1464/c/solution.c) [C++](./old-problems/1464/solution.cpp) |
 | [1481. Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | Medium | [C++](./old-problems/1481/solution.cpp) |
 | [1496. Path Crossing](https://leetcode.com/problems/path-crossing/) | Easy | [C++](./old-problems/1496/solution.cpp) |
