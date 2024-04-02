@@ -1,0 +1,30 @@
+name: 205. Isomorphic Strings
+
+types:
+  inputs:
+    s: std::string
+    t: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: isIsomorphic
+
+test_cases:
+  example_1:
+    inputs:
+      s: egg
+      t: add
+    output: true
+
+  example_2:
+    inputs:
+      s: foo
+      t: bar
+    output: false
+
+  example_3:
+    inputs:
+      s: paper
+      t: title
+    output: true
