@@ -128,6 +128,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1496. Path Crossing](https://leetcode.com/problems/path-crossing/) | Easy | [C++](./old-problems/1496/solution.cpp) |
 | [1503. Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank) | Medium | [C](./old-problems/1503/c/solution.c) [C++](./old-problems/1503/solution.cpp) |
 | [1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | Easy | [C](./old-problems/1512/c/solution.c) [C++](./old-problems/1512/solution.cpp) |
+| [1531. String Compression II](https://leetcode.com/problems/string-compression-ii/) | Hard | [C++](./old-problems/1531/solution.cpp) |
 | [1535. Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game) | Medium | [C](./old-problems/1535/c/solution.c) [C++](./old-problems/1535/solution.cpp) |
 | [1561. Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/) | Medium | [C](./old-problems/1561/c/solution.c) [C++](./old-problems/1561/solution.cpp) |
 | [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) | Medium | [C++](./old-problems/1578/solution.cpp) |
