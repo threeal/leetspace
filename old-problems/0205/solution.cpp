@@ -1,24 +1,16 @@
 #include <string>
-#include <unordered_map>
-#include <unordered_set>
+#include <vector>
 
 class Solution {
  public:
   bool isIsomorphic(std::string s, std::string t) {
-    std::unordered_map<char, char> map{};
-    std::unordered_set<char> exist{};
+    std::vector<std::size_t> sMap(128, 0);
+    std::vector<std::size_t> tMap(128, 0);
+
     for (std::size_t i{0}; i < s.size(); ++i) {
-      const auto it = map.find(s[i]);
-      if (it == map.end()) {
-        if (exist.contains(t[i])) {
-          return false;
-        } else {
-          map.emplace(s[i], t[i]);
-          exist.insert(t[i]);
-        }
-      } else if (t[i] != it->second) {
-        return false;
-      }
+      if (sMap[s[i]] != tMap[t[i]]) return false;
+      sMap[s[i]] = i + 1;
+      tMap[t[i]] = i + 1;
     }
 
     return true;
