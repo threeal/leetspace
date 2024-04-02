@@ -5,8 +5,8 @@ on:
   push:
     branches: [main]
 jobs:
-  build-and-test:
-    name: Build and Test
+  test-old-solutions:
+    name: Test Old Solutions
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -15,22 +15,22 @@ jobs:
       - name: Setup Poetry
         uses: threeal/setup-poetry-action@v1.1.0
 
-      - name: Cache deps build
+      - name: Cache Dependencies Build
         uses: actions/cache@v4.0.2
         with:
           path: build/_deps
           key: CPM-${{ runner.os }}-${{ hashFiles('package-lock') }}
 
-      - name: Configure and build
+      - name: Build Solutions
         uses: threeal/cmake-action@v1.3.0
         with:
           run-build: true
           generator: Ninja
 
-      - name: Check format
+      - name: Check Formatting
         run: |
           cmake --build build --target fix-format
           git diff --exit-code HEAD
 
-      - name: Run tests
+      - name: Test Solutions
         uses: threeal/ctest-action@v1.0.0
