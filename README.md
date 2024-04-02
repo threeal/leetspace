@@ -80,6 +80,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [C](./old-problems/0739/c/solution.c) [C++](./old-problems/0739/solution.cpp) |
 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) | Easy | [C++](./old-problems/0746/solution.cpp) |
 | [779. K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) | Medium | [C](./old-problems/0779/c/solution.c) [C++](./old-problems/0779/solution.cpp) |
+| [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | Medium | [C++](./old-problems/0787/solution.cpp) |
 | [791. Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | Medium | [C](./old-problems/0791/c/solution.c) [C++](./old-problems/0791/solution.cpp) |
 | [815. Bus Routes](https://leetcode.com/problems/bus-routes) | Hard | [C++](./old-problems/0815/solution.cpp) |
 | [823. Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors) | Medium | [C++](./old-problems/0823/solution.cpp) |
