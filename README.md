@@ -53,7 +53,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [C](./old-problems/0300/c/solution.c) [C++](./old-problems/0300/solution.cpp) |
 | [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) | Medium | [C++](./old-problems/0316/solution.cpp) |
 | [342. Power of Four](https://leetcode.com/problems/power-of-four) | Easy | [C](./old-problems/0342/c/solution.c) [C++](./old-problems/0342/solution.cpp) |
-| [343. Integer Break](https://leetcode.com/problems/integer-break) | Medium | [C++](./old-problems/0343/solution.cpp) |
+| [343. Integer Break](https://leetcode.com/problems/integer-break) | Medium | [C++](./problems/0343/solution.cpp) |
 | [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | Easy | [C](./old-problems/0349/c/solution.c) [C++](./old-problems/0349/solution.cpp) |
 | [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | Medium | [C++](./old-problems/0368/solution.cpp) |
 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | Medium | [C++](./old-problems/0380/solution.cpp) |
