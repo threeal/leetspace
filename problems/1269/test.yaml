@@ -1,0 +1,34 @@
+cpp:
+  function:
+    name: numWays
+    inputs:
+      - name: steps
+        type: int
+      - name: arrLen
+        type: int
+    output: int
+
+cases:
+  - name: example 1
+    inputs:
+      steps: 3
+      arrLen: 2
+    output: 4
+
+  - name: example 2
+    inputs:
+      steps: 2
+      arrLen: 4
+    output: 2
+
+  - name: example 3
+    inputs:
+      steps: 4
+      arrLen: 2
+    output: 8
+
+  - name: test case 12
+    inputs:
+      steps: 27
+      arrLen: 7
+    output: 127784505

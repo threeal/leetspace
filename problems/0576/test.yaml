@@ -1,0 +1,43 @@
+cpp:
+  function:
+    name: findPaths
+    inputs:
+      - name: m
+        type: int
+      - name: n
+        type: int
+      - name: maxMove
+        type: int
+      - name: startRow
+        type: int
+      - name: startColumn
+        type: int
+    output: int
+
+cases:
+  - name: example 1
+    inputs:
+      m: 2
+      n: 2
+      maxMove: 2
+      startRow: 0
+      startColumn: 0
+    output: 6
+
+  - name: example 2
+    inputs:
+      m: 1
+      n: 3
+      maxMove: 3
+      startRow: 0
+      startColumn: 1
+    output: 12
+
+  - name: test case 80
+    inputs:
+      m: 8
+      n: 50
+      maxMove: 23
+      startRow: 5
+      startColumn: 26
+    output: 914783380

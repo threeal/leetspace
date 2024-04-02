@@ -12,7 +12,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | Medium | [C](./old-problems/0005/c/solution.c) [C++](./old-problems/0005/solution.cpp) |
 | [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion) | Medium | [C](./old-problems/0006/c/solution.c) [C++](./old-problems/0006/solution.cpp) |
 | [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | Medium | [C++](./old-problems/0008/solution.cpp) |
-| [9. Palindrome Number](https://leetcode.com/problems/palindrome-number) | Easy | [C++](./old-problems/0009/solution.cpp) |
+| [9. Palindrome Number](https://leetcode.com/problems/palindrome-number) | Easy | [C++](./problems/0009/solution.cpp) |
 | [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Hard | [C](./old-problems/0010/c/solution.c) [C++](./old-problems/0010/solution.cpp) |
 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water) | Medium | [C++](./old-problems/0011/solution.cpp) |
 | [15. 3Sum](https://leetcode.com/problems/3sum) | Medium | [C++](./old-problems/0015/solution.cpp) |
@@ -53,7 +53,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [C](./old-problems/0300/c/solution.c) [C++](./old-problems/0300/solution.cpp) |
 | [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) | Medium | [C++](./old-problems/0316/solution.cpp) |
 | [342. Power of Four](https://leetcode.com/problems/power-of-four) | Easy | [C](./old-problems/0342/c/solution.c) [C++](./old-problems/0342/solution.cpp) |
-| [343. Integer Break](https://leetcode.com/problems/integer-break) | Medium | [C++](./old-problems/0343/solution.cpp) |
+| [343. Integer Break](https://leetcode.com/problems/integer-break) | Medium | [C++](./problems/0343/solution.cpp) |
 | [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | Easy | [C](./old-problems/0349/c/solution.c) [C++](./old-problems/0349/solution.cpp) |
 | [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | Medium | [C++](./old-problems/0368/solution.cpp) |
 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | Medium | [C++](./old-problems/0380/solution.cpp) |
@@ -70,7 +70,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) | Medium | [C++](./old-problems/0525/solution.cpp) |
 | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [C++](./old-problems/0543/solution.cpp) |
 | [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | Easy | [C](./old-problems/0557/c/solution.c) [C++](./old-problems/0557/solution.cpp) |
-| [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | Medium | [C++](./old-problems/0576/solution.cpp) |
+| [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | Medium | [C++](./problems/0576/solution.cpp) |
 | [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | Easy | [C++](./old-problems/0606/solution.cpp) |
 | [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Medium | [C](./old-problems/0621/c/solution.c) [C++](./old-problems/0621/solution.cpp) |
 | [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/) | Easy | [C](./old-problems/0645/c/solution.c) [C++](./old-problems/0645/solution.cpp) |
@@ -109,7 +109,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | Hard | [C++](./old-problems/1235/solution.cpp) |
 | [1239. Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium | [C](./old-problems/1239/c/solution.c) [C++](./old-problems/1239/solution.cpp) |
 | [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) | Easy | [C](./old-problems/1266/c/solution.c) [C++](./old-problems/1266/solution.cpp) |
-| [1269. Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps) | Hard | [C++](./old-problems/1269/solution.cpp) |
+| [1269. Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps) | Hard | [C++](./problems/1269/solution.cpp) |
 | [1287. Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/) | Easy | [C](./old-problems/1287/c/solution.c) [C++](./old-problems/1287/solution.cpp) |
 | [1291. Sequential Digits](https://leetcode.com/problems/sequential-digits/) | Medium | [C](./old-problems/1291/c/solution.c) [C++](./old-problems/1291/solution.cpp) |
 | [1337. The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix) | Easy | [C++](./old-problems/1337/solution.cpp) |

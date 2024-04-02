@@ -1,0 +1,28 @@
+cpp:
+  function:
+    name: integerBreak
+    inputs:
+      - name: n
+        type: int
+    output: int
+
+cases:
+  - name: example 1
+    inputs:
+      n: 2
+    output: 1
+
+  - name: example 2
+    inputs:
+      n: 10
+    output: 36
+
+  - name: test case 47
+    inputs:
+      n: 3
+    output: 2
+
+  - name: test case 49
+    inputs:
+      n: 8
+    output: 18

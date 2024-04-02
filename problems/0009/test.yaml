@@ -1,0 +1,23 @@
+cpp:
+  function:
+    name: isPalindrome
+    inputs:
+      - name: x
+        type: int
+    output: bool
+
+cases:
+  - name: example 1
+    inputs:
+      x: 121
+    output: true
+
+  - name: example 2
+    inputs:
+      x: -121
+    output: false
+
+  - name: example 3
+    inputs:
+      x: 10
+    output: false
