@@ -1,0 +1,21 @@
+name: 1614. Maximum Nesting Depth of the Parentheses
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: maxDepth
+
+test_cases:
+  example_1:
+    inputs:
+      s: (1+(2*3)+((8)/4))+1
+    output: 3
+
+  example_2:
+    inputs:
+      s: (1)+((2))+(((3)))
+    output: 3
