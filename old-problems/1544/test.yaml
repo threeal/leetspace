@@ -1,0 +1,26 @@
+name: 1544. Make The String Great
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: makeGood
+
+test_cases:
+  example_1:
+    inputs:
+      s: leEeetcode
+    output: leetcode
+
+  example_2:
+    inputs:
+      s: abBAcC
+    output: ""
+
+  example_3:
+    inputs:
+      s: s
+    output: s
