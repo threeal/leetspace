@@ -1,0 +1,39 @@
+name: 79. Word Search
+
+types:
+  inputs:
+    board: std::vector<std::vector<char>>
+    word: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: exist
+
+test_cases:
+  example_1:
+    inputs:
+      board:
+        - [65, 66, 67, 69]
+        - [83, 70, 67, 83]
+        - [65, 68, 69, 69]
+      word: ABCCED
+    output: true
+
+  example_2:
+    inputs:
+      board:
+        - [65, 66, 67, 69]
+        - [83, 70, 67, 83]
+        - [65, 68, 69, 69]
+      word: SEE
+    output: true
+
+  example_3:
+    inputs:
+      board:
+        - [65, 66, 67, 69]
+        - [83, 70, 67, 83]
+        - [65, 68, 69, 69]
+      word: ABCCED
+    output: true
