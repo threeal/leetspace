@@ -2,9 +2,10 @@ cpp:
   function:
     name: isPalindrome
     inputs:
-      - name: x
-        type: int
-    output: bool
+      - type: int
+        value: x
+    output:
+      type: bool
 
 cases:
   - name: example 1

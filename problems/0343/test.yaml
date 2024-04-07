@@ -2,9 +2,10 @@ cpp:
   function:
     name: integerBreak
     inputs:
-      - name: n
-        type: int
-    output: int
+      - type: int
+        value: n
+    output:
+      type: int
 
 cases:
   - name: example 1

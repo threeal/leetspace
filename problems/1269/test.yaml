@@ -2,11 +2,12 @@ cpp:
   function:
     name: numWays
     inputs:
-      - name: steps
-        type: int
-      - name: arrLen
-        type: int
-    output: int
+      - type: int
+        value: steps
+      - type: int
+        value: arrLen
+    output:
+      type: int
 
 cases:
   - name: example 1

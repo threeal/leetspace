@@ -2,17 +2,18 @@ cpp:
   function:
     name: findPaths
     inputs:
-      - name: m
-        type: int
-      - name: n
-        type: int
-      - name: maxMove
-        type: int
-      - name: startRow
-        type: int
-      - name: startColumn
-        type: int
-    output: int
+      - type: int
+        value: m
+      - type: int
+        value: n
+      - type: int
+        value: maxMove
+      - type: int
+        value: startRow
+      - type: int
+        value: startColumn
+    output:
+      type: int
 
 cases:
   - name: example 1
