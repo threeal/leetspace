@@ -1,0 +1,26 @@
+name: 678. Valid Parenthesis String
+
+types:
+  inputs:
+    s: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: checkValidString
+
+test_cases:
+  example_1:
+    inputs:
+      s: ()
+    output: true
+
+  example_2:
+    inputs:
+      s: (*)
+    output: true
+
+  example_3:
+    inputs:
+      s: (*))
+    output: true
