@@ -14,7 +14,7 @@ jobs:
 
       - name: Test Solutions
         working-directory: problems
-        run: npx --yes leettest
+        run: npx --yes leettest@0.1.0
 
   test-old-solutions:
     name: Test Old Solutions
