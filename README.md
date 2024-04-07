@@ -136,7 +136,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1582. Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | Easy | [C](./old-problems/1582/c/solution.c) [C++](./old-problems/1582/solution.cpp) |
 | [1609. Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | Medium | [C++](./old-problems/1609/solution.cpp) |
 | [1611. Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/) | Hard | [C](./old-problems/1611/c/solution.c) [C++](./old-problems/1611/solution.cpp) |
-| [1614. Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | Easy | [C++](./old-problems/1614/solution.cpp) |
+| [1614. Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | Easy | [C++](./old-problems/1614/solution.cpp) [C](./old-problems/1614/c/solution.c) |
 | [1624. Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | Easy | [C](./old-problems/1624/c/solution.c) [C++](./old-problems/1624/solution.cpp) |
 | [1630. Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/) | Medium | [C](./old-problems/1630/c/solution.c) [C++](./old-problems/1630/solution.cpp) |
 | [1637. Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/) | Medium | [C](./old-problems/1637/c/solution.c) [C++](./old-problems/1637/solution.cpp) |
