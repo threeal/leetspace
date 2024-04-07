@@ -4,26 +4,31 @@
 class Solution {
  public:
   bool checkValidString(std::string s) {
-    return iterateIfStringValid(s, 0);
-  }
+    int minLevel{0};
+    int maxLevel{0};
 
- public:
-  bool iterateIfStringValid(std::string_view v, int level) {
-    if (v.empty()) return level == 0;
+    for (const auto c : s) {
+      switch (c) {
+        case '(':
+          ++minLevel;
+          ++maxLevel;
+          break;
 
-    switch (v[0]) {
-      case '(':
-        return iterateIfStringValid(v.substr(1), level + 1);
+        case ')':
+          --minLevel;
+          --maxLevel;
+          break;
 
-      case ')':
-        if (level < 1) return false;
-        return iterateIfStringValid(v.substr(1), level - 1);
+        case '*':
+          --minLevel;
+          ++maxLevel;
+          break;
+      }
 
-      case '*':
-        const bool res = iterateIfStringValid(v.substr(1), level) || iterateIfStringValid(v.substr(1), level + 1);
-        return (!res && level > 0) ? iterateIfStringValid(v.substr(1), level - 1) : res;
+      if (maxLevel < 0) return false;
+      if (minLevel < 0) minLevel = 0;
     }
 
-    return false;
+    return minLevel == 0;
   }
 };
