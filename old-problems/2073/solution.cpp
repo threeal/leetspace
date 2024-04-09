@@ -4,14 +4,16 @@
 class Solution {
  public:
   int timeRequiredToBuy(std::vector<int>& tickets, int k) {
-    int sum{tickets[k]};
+    int target{tickets[k]};
+    int sum{target};
 
     for (int i{0}; i < k; ++i) {
-      sum += std::min(tickets[i], tickets[k]);
+      sum += std::min(tickets[i], target);
     }
 
+    --target;
     for (int i{k + 1}; i < static_cast<int>(tickets.size()); ++i) {
-      sum += std::min(tickets[i], tickets[k] - 1);
+      sum += std::min(tickets[i], target);
     }
 
     return sum;
