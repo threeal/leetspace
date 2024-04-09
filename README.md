@@ -169,6 +169,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2009. Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous) | Hard | [C++](./old-problems/2009/solution.cpp) |
 | [2038. Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color) | Medium | [C](./old-problems/2038/c/solution.c) [C++](./old-problems/2038/solution.cpp) |
 | [2050. Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii) | Hard | [C++](./old-problems/2050/solution.cpp) |
+| [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) | Easy | [C++](./old-problems/2073/solution.cpp) |
 | [2108. Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | Easy | [C](./old-problems/2108/c/solution.c) [C++](./old-problems/2108/solution.cpp) |
 | [2125. Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/) | Medium | [C](./old-problems/2125/c/solution.c) [C++](./old-problems/2125/solution.cpp) |
 | [2147. Number of Ways to Divide a Long Corridor](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/) | Hard | [C](./old-problems/2147/c/solution.c) [C++](./old-problems/2147/solution.cpp) |
