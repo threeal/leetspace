@@ -1,0 +1,21 @@
+name: 950. Reveal Cards In Increasing Order
+
+types:
+  inputs:
+    deck: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: deckRevealedIncreasing
+
+test_cases:
+  example_1:
+    inputs:
+      deck: [17, 13, 11, 2, 3, 5, 7]
+    output: [2, 13, 3, 11, 5, 17, 7]
+
+  example_2:
+    inputs:
+      deck: [1, 1000]
+    output: [1, 1000]
