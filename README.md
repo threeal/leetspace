@@ -149,6 +149,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1669. Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/) | Medium | [C++](./old-problems/1669/solution.cpp) |
 | [1685. Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | Medium | [C](./old-problems/1685/c/solution.c) [C++](./old-problems/1685/solution.cpp) |
 | [1688. Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/description/) | Easy | [C](./old-problems/1688/c/solution.c) [C++](./old-problems/1688/solution.cpp) |
+| [1700. Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/) | Easy | [C++](./old-problems/1700/solution.cpp) |
 | [1704. Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | Easy | [C](./old-problems/1704/c/solution.c) [C++](./old-problems/1704/solution.cpp) |
 | [1716. Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/) | Easy | [C](./old-problems/1716/c/solution.c) [C++](./old-problems/1716/solution.cpp) |
 | [1727. Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/) | Medium | [C](./old-problems/1727/c/solution.c) [C++](./old-problems/1727/solution.cpp) |
