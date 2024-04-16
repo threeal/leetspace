@@ -16,6 +16,8 @@ CPMDeclarePackage(Catch2
   GITHUB_REPOSITORY catchorg/Catch2
   SYSTEM YES
   EXCLUDE_FROM_ALL YES
+  OPTIONS
+    "CATCH_CONFIG_ENABLE_OPTIONAL_STRINGMAKER ON"
 )
 # CheckWarning.cmake
 CPMDeclarePackage(CheckWarning.cmake
