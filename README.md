@@ -98,6 +98,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | Easy | [C++](./old-problems/0938/solution.cpp) |
 | [948. Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/) | Medium | [C](./old-problems/0948/c/solution.c) [C++](./old-problems/0948/solution.cpp) |
 | [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Easy | [C](./old-problems/0977/c/solution.c) [C++](./old-problems/0977/solution.cpp) |
+| [988. Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | Medium | [C++](./old-problems/0988/solution.cpp) |
 | [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | Hard | [C++](./old-problems/0992/solution.cpp) |
 | [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Easy | [C](./old-problems/0997/c/solution.c) [C++](./old-problems/0997/solution.cpp) |
 | [1026. Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | Medium | [C++](./old-problems/1026/solution.cpp) |
