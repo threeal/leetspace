@@ -34,6 +34,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [C++](./old-problems/0094/solution.cpp) |
 | [100. Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [C++](./old-problems/0100/solution.cpp) |
 | [119. Pascal's Triangle II](pascals-triangle-ii) | Easy | [C++](./old-problems/0119/solution.cpp) |
+| [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | Medium | [C++](./old-problems/0129/solution.cpp) |
 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [C++](./old-problems/0141/solution.cpp) |
 | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [C++](./old-problems/0143/solution.cpp) |
 | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | [C](./old-problems/0150/c/solution.c) [C++](./old-problems/0150/solution.cpp) |
