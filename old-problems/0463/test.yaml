@@ -1,0 +1,32 @@
+name: 463. Island Perimeter
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: islandPerimeter
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [0, 1, 0, 0]
+        - [1, 1, 1, 0]
+        - [0, 1, 0, 0]
+        - [1, 1, 0, 0]
+    output: 16
+
+  example_2:
+    inputs:
+      grid:
+        - [1]
+    output: 4
+
+  example_3:
+    inputs:
+      grid:
+        - [1, 0]
+    output: 4
