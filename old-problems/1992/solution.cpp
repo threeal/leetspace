@@ -22,7 +22,7 @@ class Solution {
           ++x2;
         }
 
-        coordinates.push_back({x1, y1, x2 - 1, y2 - 1});
+        coordinates.push_back({y1, x1, y2 - 1, x2 - 1});
 
         // Clear the farmland, preventing it from being counted twice.
         for (int y{y1}; y < y2; ++y) {
