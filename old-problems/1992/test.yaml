@@ -1,0 +1,35 @@
+name: 1992. Find All Groups of Farmland
+
+types:
+  inputs:
+    land: std::vector<std::vector<int>>
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: findFarmland
+
+test_cases:
+  example_1:
+    inputs:
+      land:
+        - [1, 0, 0]
+        - [0, 1, 1]
+        - [0, 1, 1]
+    output:
+      - [0, 0, 0, 0]
+      - [1, 1, 2, 2]
+
+  example_2:
+    inputs:
+      land:
+        - [1, 1]
+        - [1, 1]
+    output:
+      - [0, 0, 1, 1]
+
+  example_3:
+    inputs:
+      land:
+        - [0]
+    output: []
