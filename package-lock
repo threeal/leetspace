@@ -12,7 +12,7 @@ CPMDeclarePackage(Format.cmake
 )
 # Catch2
 CPMDeclarePackage(Catch2
-  VERSION 3.5.3
+  VERSION 3.5.4
   GITHUB_REPOSITORY catchorg/Catch2
   SYSTEM YES
   EXCLUDE_FROM_ALL YES
