@@ -1,0 +1,37 @@
+name: 200. Number of Islands
+
+types:
+  inputs:
+    grid: std::vector<std::vector<char>>
+  output: int
+
+solutions:
+  cpp:
+    function: numIslands
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [49, 49, 49, 49, 48]
+        - [49, 49, 48, 49, 48]
+        - [49, 49, 48, 48, 48]
+        - [48, 48, 48, 48, 48]
+    output: 1
+
+  example_2:
+    inputs:
+      grid:
+        - [49, 49, 48, 48, 48]
+        - [49, 49, 48, 48, 48]
+        - [48, 48, 49, 48, 48]
+        - [48, 48, 48, 49, 49]
+    output: 3
+
+  test_case_35:
+    inputs:
+      grid:
+        - [49, 48, 49, 49, 49]
+        - [49, 48, 49, 48, 49]
+        - [49, 49, 49, 48, 49]
+    output: 1
