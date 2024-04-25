@@ -1,0 +1,24 @@
+name: 2370. Longest Ideal Subsequence
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: longestIdealString
+
+test_cases:
+  example_1:
+    inputs:
+      s: acfgbd
+      k: 2
+    output: 4
+
+  example_2:
+    inputs:
+      s: abcd
+      k: 3
+    output: 4
