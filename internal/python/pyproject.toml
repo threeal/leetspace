@@ -17,7 +17,7 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.10"
 pyyaml = "^6.0.1"
-black = "^24.4.0"
+black = "^24.4.1"
 isort = "^5.13.2"
 
 [tool.poetry.scripts]
