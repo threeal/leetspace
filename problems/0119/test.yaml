@@ -1,0 +1,24 @@
+cpp:
+  function:
+    name: getRow
+    inputs:
+      - type: int
+        value: rowIndex
+    output:
+      type: std::vector<int>
+
+cases:
+  - name: example 1
+    inputs:
+      rowIndex: 3
+    output: [1, 3, 3, 1]
+
+  - name: example 2
+    inputs:
+      rowIndex: 0
+    output: [1]
+
+  - name: example 3
+    inputs:
+      rowIndex: 1
+    output: [1, 1]
