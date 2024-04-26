@@ -63,7 +63,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | Medium | [C++](./old-problems/0380/solution.cpp) |
 | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | Easy | [C](./old-problems/0387/c/solution.c) [C++](./old-problems/0387/solution.cpp) |
 | [389. Find the Difference](https://leetcode.com/problems/find-the-difference) | Easy | [C++](./problems/0389/solution.cpp) |
-| [392. Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | [C++](./old-problems/0392/solution.cpp) |
+| [392. Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | [C++](./problems/0392/solution.cpp) |
 | [404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | Easy | [C++](./old-problems/0404/solution.cpp) |
 | [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | Medium | [C](./old-problems/0442/c/solution.c) [C++](./old-problems/0442/solution.cpp) |
 | [446. Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) | Hard | [C++](./old-problems/0446/solution.cpp) |
