@@ -186,7 +186,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2149. Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/) | Medium | [C](./old-problems/2149/c/solution.c) [C++](./old-problems/2149/solution.cpp) |
 | [2225. Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/) | Medium | [C++](./problems/2225/solution.cpp) |
 | [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers) | Easy | [C](./old-problems/2235/c/solution.c) [C++](./old-problems/2235/solution.cpp) |
-| [2251. Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom) | Hard | [C++](./old-problems/2251/solution.cpp) |
+| [2251. Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom) | Hard | [C++](./problems/2251/solution.cpp) |
 | [2264. Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | Easy | [C](./old-problems/2264/c/solution.c) [C++](./old-problems/2264/solution.cpp) |
 | [2353. Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/) | Medium | [C++](./old-problems/2353/solution.cpp) |
 | [2385. Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | Medium | [C++](./old-problems/2385/solution.cpp) |

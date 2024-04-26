@@ -1,29 +1,28 @@
-name: 2251. Number of Flowers in Full Bloom
+cpp:
+  function:
+    name: fullBloomFlowers
+    inputs:
+      - type: std::vector<std::vector<int>>
+        value: flowers
+      - type: std::vector<int>
+        value: people
+    output:
+      type: std::vector<int>
 
-types:
-  inputs:
-    flowers: std::vector<std::vector<int>>
-    people: std::vector<int>
-  output: std::vector<int>
-
-solutions:
-  cpp:
-    function: fullBloomFlowers
-
-test_cases:
-  example_1:
+cases:
+  - name: example 1
     inputs:
       flowers: [[1, 6], [3, 7], [9, 12], [4, 13]]
       people: [2, 3, 7, 11]
     output: [1, 2, 2, 2]
 
-  example_2:
+  - name: example 2
     inputs:
       flowers: [[1, 10], [3, 3]]
       people: [3, 3, 2]
     output: [2, 2, 1]
 
-  case_1:
+  - name: case 1
     inputs:
       flowers: [[19, 37], [19, 38], [19, 35]]
       people: [6, 7, 21, 1, 13, 37, 5, 37, 46, 43]
