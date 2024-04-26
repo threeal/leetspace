@@ -1,41 +1,40 @@
-name: 34. Find First and Last Position of Element in Sorted Array
+cpp:
+  function:
+    name: searchRange
+    inputs:
+      - type: std::vector<int>
+        value: nums
+      - type: int
+        value: target
+    output:
+      type: std::vector<int>
 
-types:
-  inputs:
-    nums: std::vector<int>
-    target: int
-  output: std::vector<int>
-
-solutions:
-  cpp:
-    function: searchRange
-
-test_cases:
-  example_1:
+cases:
+  - name: example 1
     inputs:
       nums: [5, 7, 7, 8, 8, 10]
       target: 8
     output: [3, 4]
 
-  example_2:
+  - name: example 2
     inputs:
       nums: [5, 7, 7, 8, 8, 10]
       target: 6
     output: [-1, -1]
 
-  example_3:
+  - name: example 3
     inputs:
       nums: []
       target: 0
     output: [-1, -1]
 
-  one_Length:
+  - name: test case 75
     inputs:
       nums: [1]
       target: 1
     output: [0, 0]
 
-  two_Length:
+  - name: test case 76
     inputs:
       nums: [2, 2]
       target: 2
