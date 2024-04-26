@@ -1,0 +1,29 @@
+cpp:
+  function:
+    name: groupAnagrams
+    inputs:
+      - type: std::vector<std::string>
+        value: strs
+    output:
+      type: std::vector<std::vector<std::string>>
+
+cases:
+  - name: example 1
+    inputs:
+      strs: [eat, tea, tan, ate, nat, bat]
+    output:
+      - [bat]
+      - [tan, nat]
+      - [eat, tea, ate]
+
+  - name: example 2
+    inputs:
+      strs: ['']
+    output:
+      - ['']
+
+  - name: example 3
+    inputs:
+      strs: [a]
+    output:
+      - [a]
