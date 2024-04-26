@@ -1,0 +1,23 @@
+cpp:
+  function:
+    name: numSubarraysWithSum
+    inputs:
+      - type: std::vector<int>
+        value: nums
+      - type: int
+        value: goal
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      nums: [1,0,1,0,1]
+      goal: 2
+    output: 4
+
+  - name: example 2
+    inputs:
+      nums: [0,0,0,0,0]
+      goal: 0
+    output: 15
