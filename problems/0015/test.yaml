@@ -1,34 +1,32 @@
-name: 15. 3Sum
+cpp:
+  function:
+    name: threeSum
+    inputs:
+      - type: std::vector<int>
+        value: nums
+    output:
+      type: std::vector<std::vector<int>>
 
-types:
-  inputs:
-    nums: std::vector<int>
-  output: std::vector<std::vector<int>>
-
-solutions:
-  cpp:
-    function: threeSum
-
-test_cases:
-  example_1:
+cases:
+  - name: example 1
     inputs:
       nums: [-1, 0, 1, 2, -1, -4]
     output:
       - [-1, -1, 2]
       - [-1, 0, 1]
 
-  example_2:
+  - name: example 2
     inputs:
       nums: [0, 1, 1]
     output: []
 
-  example_3:
+  - name: example 3
     inputs:
       nums: [0, 0, 0]
     output:
       - [0, 0, 0]
 
-  wrong_case:
+  - name: test case 133
     inputs:
       nums: [1, 1, -2]
     output:
