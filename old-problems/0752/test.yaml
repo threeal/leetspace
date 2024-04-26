@@ -1,0 +1,30 @@
+name: 752. Open the Lock
+
+types:
+  inputs:
+    deadends: std::vector<std::string>
+    target: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: openLock
+
+test_cases:
+  example_1:
+    inputs:
+      deadends: ["0201", "0101", "0102", "1212", "2002"]
+      target: "0202"
+    output: 6
+
+  example_2:
+    inputs:
+      deadends: ["8888"]
+      target: "0009"
+    output: 1
+
+  example_3:
+    inputs:
+      deadends: ["8887", "8889", "8878", "8898", "8788", "8988", "7888", "9888"]
+      target: "8888"
+    output: -1
