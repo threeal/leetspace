@@ -82,7 +82,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [623. Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) | Medium | [C++](./old-problems/0623/solution.cpp) |
 | [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/) | Easy | [C](./old-problems/0645/c/solution.c) [C++](./old-problems/0645/solution.cpp) |
 | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | [C](./old-problems/0647/c/solution.c) [C++](./old-problems/0647/solution.cpp) |
-| [661. Image Smoother](https://leetcode.com/problems/image-smoother/) | Easy | [C++](./old-problems/0661/solution.cpp) |
+| [661. Image Smoother](https://leetcode.com/problems/image-smoother/) | Easy | [C++](./problems/0661/solution.cpp) |
 | [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | [C](./old-problems/0678/c/solution.c) [C++](./old-problems/0678/solution.cpp) |
 | [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | Medium | [C](./old-problems/0713/c/solution.c) [C++](./old-problems/0713/solution.cpp) |
 | [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [C](./old-problems/0739/c/solution.c) [C++](./old-problems/0739/solution.cpp) |

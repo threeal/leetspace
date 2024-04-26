@@ -1,16 +1,14 @@
-name: 661. Image Smoother
+cpp:
+  function:
+    name: imageSmoother
+    inputs:
+      - type: std::vector<std::vector<int>>
+        value: img
+    output:
+      type: std::vector<std::vector<int>>
 
-types:
-  inputs:
-    img: std::vector<std::vector<int>>
-  output: std::vector<std::vector<int>>
-
-solutions:
-  cpp:
-    function: imageSmoother
-
-test_cases:
-  example_1:
+cases:
+  - name: example 1
     inputs:
       img:
         - [1, 1, 1]
@@ -21,7 +19,7 @@ test_cases:
       - [0, 0, 0]
       - [0, 0, 0]
 
-  example_2:
+  - name: example 2
     inputs:
       img:
         - [100, 200, 100]
