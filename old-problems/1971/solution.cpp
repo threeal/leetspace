@@ -6,8 +6,8 @@
 
 class Solution {
  public:
-  bool validPath(int n, std::vector<std::vector<int>>& edges, int source, int destination) {
-    (void)n;
+  bool validPath(int /*n*/, std::vector<std::vector<int>>& edges, int source, int destination) {
+    if (source == destination) return true;
 
     std::unordered_map<int, std::list<int>> connections{};
     for (const auto& edge : edges) {
