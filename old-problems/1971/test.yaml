@@ -28,3 +28,11 @@ test_cases:
       source: 0
       destination: 5
     output: false
+
+  test_case_29:
+    inputs:
+      n: 1
+      edges: []
+      source: 0
+      destination: 0
+    output: true
