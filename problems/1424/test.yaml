@@ -1,16 +1,14 @@
-name: 1424. Diagonal Traverse II
+cpp:
+  function:
+    name: findDiagonalOrder
+    inputs:
+      - type: std::vector<std::vector<int>>
+        value: nums
+    output:
+      type: std::vector<int>
 
-types:
-  inputs:
-    nums: std::vector<std::vector<int>>
-  output: std::vector<int>
-
-solutions:
-  cpp:
-    function: findDiagonalOrder
-
-test_cases:
-  example_1:
+cases:
+  - name: example 1
     inputs:
       nums:
         - [1, 2, 3]
@@ -18,7 +16,7 @@ test_cases:
         - [7, 8, 9]
     output: [1, 4, 2, 7, 5, 3, 8, 6, 9]
 
-  example_2:
+  - name: example 2
     inputs:
       nums:
         - [1, 2, 3, 4, 5]
