@@ -1,0 +1,19 @@
+cpp:
+  function:
+    name: countNicePairs
+    inputs:
+      - type: std::vector<int>
+        value: nums
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      nums: [42 ,11 ,1 ,97]
+    output: 2
+
+  - name: example 2
+    inputs:
+      nums: [13 ,10 ,35 ,24 ,76]
+    output: 4
