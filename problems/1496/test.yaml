@@ -1,0 +1,19 @@
+cpp:
+  function:
+    name: isPathCrossing
+    inputs:
+      - type: std::string
+        value: path
+    output:
+      type: bool
+
+cases:
+  - name: example 1
+    inputs:
+      path: NES
+    output: false
+
+  - name: example 2
+    inputs:
+      path: NESWW
+    output: true
