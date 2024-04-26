@@ -1,41 +1,40 @@
-name: 844. Backspace String Compare
+cpp:
+  function:
+    name: backspaceCompare
+    inputs:
+      - type: std::string
+        value: s
+      - type: std::string
+        value: t
+    output:
+      type: bool
 
-types:
-  inputs:
-    s: std::string
-    t: std::string
-  output: bool
-
-solutions:
-  cpp:
-    function: backspaceCompare
-
-test_cases:
-  example_1:
+cases:
+  - name: example 1
     inputs:
       s: ab#c
       t: ad#c
     output: true
 
-  example_2:
+  - name: example 2
     inputs:
       s: ab##
       t: c#d#
     output: true
 
-  example_3:
+  - name: example 3
     inputs:
       s: a#c
       t: b
     output: false
 
-  case_1:
+  - name: test case 63
     inputs:
       s: bxj##tw
       t: bxo#j##tw
     output: true
 
-  case_2:
+  - name: test case 105
     inputs:
       s: nzp#o#g
       t: b#nzp#o#g
