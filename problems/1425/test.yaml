@@ -1,0 +1,29 @@
+cpp:
+  function:
+    name: constrainedSubsetSum
+    inputs:
+      - type: std::vector<int>
+        value: nums
+      - type: int
+        value: k
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      nums: [10, 2, -10, 5, 20]
+      k: 2
+    output: 37
+
+  - name: example 2
+    inputs:
+      nums: [-1, -2, -3]
+      k: 1
+    output: -1
+
+  - name: example 3
+    inputs:
+      nums: [10, -2, -10, -5, 20]
+      k: 2
+    output: 23
