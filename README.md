@@ -174,7 +174,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1913. Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) | Easy | [C](./old-problems/1913/c/solution.c) [C++](./old-problems/1913/solution.cpp) |
 | [1921. Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters) | Medium | [C](./old-problems/1921/c/solution.c) [C++](./old-problems/1921/solution.cpp) |
 | [1930. Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences) | Medium | [C](./old-problems/1930/c/solution.c) [C++](./old-problems/1930/solution.cpp) |
-| [1980. Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/) | Medium | [C++](./old-problems/1980/solution.cpp) |
+| [1980. Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/) | Medium | [C++](./problems/1980/solution.cpp) |
 | [1992. Find All Groups of Farmland](https://leetcode.com/problems/find-all-groups-of-farmland/) | Medium | [C](./old-problems/1992/c/solution.c) [C++](./old-problems/1992/solution.cpp) |
 | [2009. Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous) | Hard | [C++](./old-problems/2009/solution.cpp) |
 | [2038. Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color) | Medium | [C](./old-problems/2038/c/solution.c) [C++](./old-problems/2038/solution.cpp) |
