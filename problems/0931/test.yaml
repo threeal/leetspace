@@ -1,0 +1,24 @@
+cpp:
+  function:
+    name: minFallingPathSum
+    inputs:
+      - type: std::vector<std::vector<int>>
+        value: matrix
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      matrix:
+        - [2, 1, 3]
+        - [6, 5, 4]
+        - [7, 8, 9]
+    output: 13
+
+  - name: example 2
+    inputs:
+      matrix:
+        - [-19, 57]
+        - [-40, -5]
+    output: -59

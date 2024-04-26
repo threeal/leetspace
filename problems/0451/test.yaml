@@ -1,0 +1,24 @@
+cpp:
+  function:
+    name: frequencySort
+    inputs:
+      - type: std::string
+        value: s
+    output:
+      type: std::string
+
+cases:
+  - name: example 1
+    inputs:
+      s: tree
+    output: eert
+
+  - name: example 2
+    inputs:
+      s: cccaaa
+    output: aaaccc
+
+  - name: example 3
+    inputs:
+      s: Aabb
+    output: bbaA

@@ -1,0 +1,41 @@
+cpp:
+  function:
+    name: kWeakestRows
+    inputs:
+      - type: std::vector<std::vector<int>>
+        value: mat
+      - type: int
+        value: k
+    output:
+      type: std::vector<int>
+
+cases:
+  - name: example 1
+    inputs:
+      mat:
+        - [1, 1, 0, 0, 0]
+        - [1, 1, 1, 1, 0]
+        - [1, 0, 0, 0, 0]
+        - [1, 1, 0, 0, 0]
+        - [1, 1, 1, 1, 1]
+      k: 3
+    output: [2, 0, 3]
+
+  - name: example 2
+    inputs:
+      mat:
+        - [1, 0, 0, 0]
+        - [1, 1, 1, 1]
+        - [1, 0, 0, 0]
+        - [1, 0, 0, 0]
+      k: 2
+    output: [0, 2]
+
+  - name: test case 2
+    inputs:
+      mat:
+        - [1, 1, 1, 1, 1, 1]
+        - [1, 1, 1, 1, 1, 1]
+        - [1, 1, 1, 1, 1, 1]
+      k: 1
+    output: [0]

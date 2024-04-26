@@ -1,0 +1,23 @@
+cpp:
+  function:
+    name: strStr
+    inputs:
+      - type: std::string
+        value: haystack
+      - type: std::string
+        value: needle
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      haystack: sadbutsad
+      needle: sad
+    output: 0
+
+  - name: example 2
+    inputs:
+      haystack: leetcode
+      needle: leeto
+    output: -1

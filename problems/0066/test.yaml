@@ -1,0 +1,24 @@
+cpp:
+  function:
+    name: plusOne
+    inputs:
+      - type: std::vector<int>
+        value: digits
+    output:
+      type: std::vector<int>
+
+cases:
+  - name: example 1
+    inputs:
+      digits: [1, 2, 3]
+    output: [1, 2, 4]
+
+  - name: example 2
+    inputs:
+      digits: [4, 3, 2, 1]
+    output: [4, 3, 2, 2]
+
+  - name: example 3
+    inputs:
+      digits: [9]
+    output: [1, 0]

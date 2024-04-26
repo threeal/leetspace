@@ -1,0 +1,19 @@
+cpp:
+  function:
+    name: maxArea
+    inputs:
+      - type: std::vector<int>
+        value: height
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      height: [1, 8, 6, 2, 5, 4, 8, 3, 7]
+    output: 49
+
+  - name: example 2
+    inputs:
+      height: [1, 1]
+    output: 1

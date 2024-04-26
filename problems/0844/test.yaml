@@ -1,0 +1,41 @@
+cpp:
+  function:
+    name: backspaceCompare
+    inputs:
+      - type: std::string
+        value: s
+      - type: std::string
+        value: t
+    output:
+      type: bool
+
+cases:
+  - name: example 1
+    inputs:
+      s: ab#c
+      t: ad#c
+    output: true
+
+  - name: example 2
+    inputs:
+      s: ab##
+      t: c#d#
+    output: true
+
+  - name: example 3
+    inputs:
+      s: a#c
+      t: b
+    output: false
+
+  - name: test case 63
+    inputs:
+      s: bxj##tw
+      t: bxo#j##tw
+    output: true
+
+  - name: test case 105
+    inputs:
+      s: nzp#o#g
+      t: b#nzp#o#g
+    output: true

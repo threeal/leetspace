@@ -1,0 +1,19 @@
+cpp:
+  function:
+    name: findMaxLength
+    inputs:
+      - type: std::vector<int>
+        value: nums
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      nums: [0,1]
+    output: 2
+
+  - name: example 2
+    inputs:
+      nums: [0,1,0]
+    output: 2

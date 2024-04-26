@@ -1,0 +1,27 @@
+cpp:
+  function:
+    name: minimumTime
+    inputs:
+      - type: int
+        value: n
+      - type: std::vector<std::vector<int>>
+        value: relations
+      - type: std::vector<int>
+        value: time
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      n: 3
+      relations: [[1, 3], [2, 3]]
+      time: [3, 2, 5]
+    output: 8
+
+  - name: example 2
+    inputs:
+      n: 5
+      relations: [[1, 5], [2, 5], [3, 5], [3, 4], [4, 5]]
+      time: [1, 2, 3, 4, 5]
+    output: 12

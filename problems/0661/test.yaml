@@ -1,0 +1,31 @@
+cpp:
+  function:
+    name: imageSmoother
+    inputs:
+      - type: std::vector<std::vector<int>>
+        value: img
+    output:
+      type: std::vector<std::vector<int>>
+
+cases:
+  - name: example 1
+    inputs:
+      img:
+        - [1, 1, 1]
+        - [1, 0, 1]
+        - [1, 1, 1]
+    output:
+      - [0, 0, 0]
+      - [0, 0, 0]
+      - [0, 0, 0]
+
+  - name: example 2
+    inputs:
+      img:
+        - [100, 200, 100]
+        - [200, 50, 200]
+        - [100, 200, 100]
+    output:
+      - [137, 141, 137]
+      - [141, 138, 141]
+      - [137, 141, 137]

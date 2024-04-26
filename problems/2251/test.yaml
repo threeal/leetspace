@@ -1,0 +1,29 @@
+cpp:
+  function:
+    name: fullBloomFlowers
+    inputs:
+      - type: std::vector<std::vector<int>>
+        value: flowers
+      - type: std::vector<int>
+        value: people
+    output:
+      type: std::vector<int>
+
+cases:
+  - name: example 1
+    inputs:
+      flowers: [[1, 6], [3, 7], [9, 12], [4, 13]]
+      people: [2, 3, 7, 11]
+    output: [1, 2, 2, 2]
+
+  - name: example 2
+    inputs:
+      flowers: [[1, 10], [3, 3]]
+      people: [3, 3, 2]
+    output: [2, 2, 1]
+
+  - name: case 1
+    inputs:
+      flowers: [[19, 37], [19, 38], [19, 35]]
+      people: [6, 7, 21, 1, 13, 37, 5, 37, 46, 43]
+    output: [0, 0, 3, 0, 0, 2, 0, 2, 0, 0]

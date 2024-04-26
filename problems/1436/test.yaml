@@ -1,0 +1,24 @@
+cpp:
+  function:
+    name: destCity
+    inputs:
+      - type: std::vector<std::vector<std::string>>
+        value: paths
+    output:
+      type: std::string
+
+cases:
+  - name: example 1
+    inputs:
+      paths: [[London, "New York"], ["New York", Lima], [Lima, "Sao Paulo"]]
+    output: "Sao Paulo"
+
+  - name: example 2
+    inputs:
+      paths: [[B, C], [D, B], [C, A]]
+    output: A
+
+  - name: example 3
+    inputs:
+      paths: [[A, Z]]
+    output: Z
