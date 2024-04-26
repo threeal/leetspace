@@ -1,0 +1,19 @@
+cpp:
+  function:
+    name: maxFrequencyElements
+    inputs:
+      - type: std::vector<int>
+        value: nums
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      nums: [1, 2, 2, 3, 1, 4]
+    output: 4
+
+  - name: example 2
+    inputs:
+      nums: [1, 2, 3, 4, 5]
+    output: 5
