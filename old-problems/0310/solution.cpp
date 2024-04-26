@@ -1,5 +1,5 @@
+#include <list>
 #include <queue>
-#include <unordered_set>
 #include <vector>
 
 class Solution {
@@ -7,23 +7,28 @@ class Solution {
   std::vector<int> findMinHeightTrees(int n, std::vector<std::vector<int>>& edges) {
     if (n == 1) return {0};
 
-    std::vector<std::unordered_set<int>> connections(n);
+    std::vector<std::list<int>> nextsOf(n);
+    std::vector<int> nextsCountOf(n, 0);
     for (const auto& edge : edges) {
-      connections[edge[0]].insert(edge[1]);
-      connections[edge[1]].insert(edge[0]);
+      nextsOf[edge[0]].push_back(edge[1]);
+      ++nextsCountOf[edge[0]];
+
+      nextsOf[edge[1]].push_back(edge[0]);
+      ++nextsCountOf[edge[1]];
     }
 
     std::queue<int> queue{};
-    int visited_left{n};
+    int visitedNodes{0};
 
     for (int node{0}; node < n; ++node) {
-      if (connections[node].size() > 1) continue;
-      queue.push(node);
-      --visited_left;
+      if (nextsCountOf[node] == 1) {
+        queue.push(node);
+        ++visitedNodes;
+      }
     }
 
     while (!queue.empty()) {
-      if (visited_left == 0) {
+      if (visitedNodes == n) {
         std::vector<int> res{};
         while (!queue.empty()) {
           res.push_back(queue.front());
@@ -34,11 +39,11 @@ class Solution {
 
       for (auto i{queue.size()}; i > 0; --i) {
         const auto node{queue.front()};
-        const auto next{*connections[node].begin()};
-        connections[next].erase(node);
-        if (connections[next].size() == 1) {
-          queue.push(next);
-          --visited_left;
+        for (const auto next : nextsOf[node]) {
+          if (--nextsCountOf[next] == 1) {
+            queue.push(next);
+            ++visitedNodes;
+          }
         }
         queue.pop();
       }
