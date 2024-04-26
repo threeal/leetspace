@@ -150,7 +150,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1637. Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/) | Medium | [C](./old-problems/1637/c/solution.c) [C++](./old-problems/1637/solution.cpp) |
 | [1642. Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/) | Medium | [C++](./problems/1642/solution.cpp) |
 | [1657. Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/) | Medium | [C](./old-problems/1657/c/solution.c) [C++](./old-problems/1657/solution.cpp) |
-| [1658. Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) | Medium | [C++](./old-problems/1658/solution.cpp) |
+| [1658. Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) | Medium | [C++](./problems/1658/solution.cpp) |
 | [1662. Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | Easy | [C](./old-problems/1662/c/solution.c) [C++](./old-problems/1662/solution.cpp) |
 | [1669. Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/) | Medium | [C++](./old-problems/1669/solution.cpp) |
 | [1685. Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | Medium | [C](./old-problems/1685/c/solution.c) [C++](./old-problems/1685/solution.cpp) |
