@@ -1,0 +1,21 @@
+name: 1137. N-th Tribonacci Number
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: tribonacci
+
+test_cases:
+  example_1:
+    inputs:
+      n: 4
+    output: 4
+
+  example_2:
+    inputs:
+      n: 25
+    output: 1389537
