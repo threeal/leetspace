@@ -1,32 +1,32 @@
-name: 1235. Maximum Profit in Job Scheduling
+cpp:
+  function:
+    name: jobScheduling
+    inputs:
+      - type: std::vector<int>
+        value: startTime
+      - type: std::vector<int>
+        value: endTime
+      - type: std::vector<int>
+        value: profit
+    output:
+      type: int
 
-types:
-  inputs:
-    startTime: std::vector<int>
-    endTime: std::vector<int>
-    profit: std::vector<int>
-  output: int
-
-solutions:
-  cpp:
-    function: jobScheduling
-
-test_cases:
-  example_1:
+cases:
+  - name: example 1
     inputs:
       startTime: [1, 2, 3, 3]
       endTime: [3, 4, 5, 6]
       profit: [50, 10, 40, 70]
     output: 120
 
-  example_2:
+  - name: example 2
     inputs:
       startTime: [1, 2, 3, 4, 6]
       endTime: [3, 5, 10, 6, 9]
       profit: [20, 20, 100, 70, 60]
     output: 150
 
-  example_3:
+  - name: example 3
     inputs:
       startTime: [1, 1, 1]
       endTime: [2, 3, 4]
