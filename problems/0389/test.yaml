@@ -1,0 +1,23 @@
+cpp:
+  function:
+    name: findTheDifference
+    inputs:
+      - type: std::string
+        value: s
+      - type: std::string
+        value: t
+    output:
+      type: char
+
+cases:
+  - name: example 1
+    inputs:
+      s: abcd
+      t: abcde
+    output: 101
+
+  - name: example 2
+    inputs:
+      s: ""
+      t: y
+    output: 121
