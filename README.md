@@ -66,7 +66,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | [C++](./problems/0392/solution.cpp) |
 | [404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | Easy | [C++](./old-problems/0404/solution.cpp) |
 | [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | Medium | [C](./old-problems/0442/c/solution.c) [C++](./old-problems/0442/solution.cpp) |
-| [446. Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) | Hard | [C++](./old-problems/0446/solution.cpp) |
+| [446. Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) | Hard | [C++](./problems/0446/solution.cpp) |
 | [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | Medium | [C++](./old-problems/0451/solution.cpp) |
 | [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | Medium | [C](./old-problems/0452/c/solution.c) [C++](./old-problems/0452/solution.cpp) |
 | [455. Assign Cookies](https://leetcode.com/problems/assign-cookies) | Easy | [C](./old-problems/0455/c/solution.c) [C++](./old-problems/0455/solution.cpp) |
