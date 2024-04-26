@@ -1,0 +1,19 @@
+cpp:
+  function:
+    name: checkStraightLine
+    inputs:
+      - type: std::vector<std::vector<int>>
+        value: coordinates
+    output:
+      type: bool
+
+cases:
+  - name: example 1
+    inputs:
+      coordinates: [[1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7]]
+    output: true
+
+  - name: example 2
+    inputs:
+      coordinates: [[1, 1], [2, 2], [3, 4], [4, 5], [5, 6], [7, 7]]
+    output: false

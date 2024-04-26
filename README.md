@@ -114,7 +114,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | Easy | [C](./old-problems/1160/c/solution.c) [C++](./old-problems/1160/solution.cpp) |
 | [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | Easy | [C++](./problems/1207/solution.cpp) |
 | [1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation) | Hard | [C](./old-problems/1220/c/solution.c) [C++](./old-problems/1220/solution.cpp) |
-| [1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line) | Easy | [C++](./old-problems/1232/solution.cpp) |
+| [1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line) | Easy | [C++](./problems/1232/solution.cpp) |
 | [1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | Hard | [C++](./old-problems/1235/solution.cpp) |
 | [1239. Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium | [C](./old-problems/1239/c/solution.c) [C++](./old-problems/1239/solution.cpp) |
 | [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) | Easy | [C](./old-problems/1266/c/solution.c) [C++](./old-problems/1266/solution.cpp) |
