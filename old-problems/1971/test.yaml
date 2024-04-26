@@ -1,0 +1,30 @@
+name: 1971. Find if Path Exists in Graph
+
+types:
+  inputs:
+    n: int
+    edges: std::vector<std::vector<int>>
+    source: int
+    destination: int
+  output: bool
+
+solutions:
+  cpp:
+    function: validPath
+
+test_cases:
+  example_1:
+    inputs:
+      n: 3
+      edges: [[0, 1], [1, 2], [2, 0]]
+      source: 0
+      destination: 2
+    output: true
+
+  example_2:
+    inputs:
+      n: 6
+      edges: [[0, 1], [0, 2], [3, 5], [5, 4], [4, 3]]
+      source: 0
+      destination: 5
+    output: false
