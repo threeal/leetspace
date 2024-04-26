@@ -27,16 +27,7 @@ class Solution {
       }
     }
 
-    while (!queue.empty()) {
-      if (visitedNodes == n) {
-        std::vector<int> res{};
-        while (!queue.empty()) {
-          res.push_back(queue.front());
-          queue.pop();
-        }
-        return res;
-      }
-
+    while (visitedNodes < n) {
       for (auto i{queue.size()}; i > 0; --i) {
         const auto node{queue.front()};
         for (const auto next : nextsOf[node]) {
@@ -49,6 +40,11 @@ class Solution {
       }
     }
 
-    return {};
+    std::vector<int> res(queue.size());
+    for (int i = 0; !queue.empty(); ++i) {
+      res[i] = queue.front();
+      queue.pop();
+    }
+    return res;
   }
 };
