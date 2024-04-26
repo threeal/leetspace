@@ -1,12 +1,14 @@
 #include <algorithm>
+#include <array>
 #include <cstdlib>
 #include <string>
-#include <vector>
 
 class Solution {
  public:
   int longestIdealString(std::string s, int k) {
-    std::vector<int> counts(26, 0);
+    std::array<int, 26> counts{};
+    counts.fill(0);
+
     for (const auto c : s) {
       const int i{c - 'a'};
       const int count{counts[i] + 1};
