@@ -1,0 +1,24 @@
+cpp:
+  function:
+    name: letterCombinations
+    inputs:
+      - type: std::string
+        value: digits
+    output:
+      type: std::vector<std::string>
+
+cases:
+  - name: example 1
+    inputs:
+      digits: 23
+    output: [ad, ae, af, bd, be, bf, cd, ce, cf]
+
+  - name: example 2
+    inputs:
+      digits: ""
+    output: []
+
+  - name: example 3
+    inputs:
+      digits: 2
+    output: [a, b, c]
