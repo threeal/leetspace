@@ -8,14 +8,17 @@ class Solution {
     std::vector<bool> visited(n, false);
     visited[source] = true;
 
-    bool valid{true};
-    while (valid) {
-      valid = false;
-      for (const auto& edge : edges) {
-        if (visited[edge[0]] != visited[edge[1]]) {
-          visited[edge[0]] = true;
-          visited[edge[1]] = true;
-          valid = true;
+    std::size_t edgesSize{edges.size()};
+    std::size_t prevEdgesSize{edgesSize + 1};
+    while (edgesSize != prevEdgesSize) {
+      prevEdgesSize = edgesSize;
+      for (std::size_t i{0}; i < edgesSize; ++i) {
+        if (visited[edges[i][0]] != visited[edges[i][1]]) {
+          visited[edges[i][0]] = true;
+          visited[edges[i][1]] = true;
+
+          edges[i] = edges[--edgesSize];
+          --i;
         }
       }
       if (visited[destination]) return true;
