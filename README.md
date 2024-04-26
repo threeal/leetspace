@@ -159,7 +159,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1704. Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | Easy | [C](./old-problems/1704/c/solution.c) [C++](./old-problems/1704/solution.cpp) |
 | [1716. Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/) | Easy | [C](./old-problems/1716/c/solution.c) [C++](./old-problems/1716/solution.cpp) |
 | [1727. Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/) | Medium | [C](./old-problems/1727/c/solution.c) [C++](./old-problems/1727/solution.cpp) |
-| [1743. Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs) | Medium | [C++](./old-problems/1743/solution.cpp) |
+| [1743. Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs) | Medium | [C++](./problems/1743/solution.cpp) |
 | [1750. Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/) | Medium | [C](./old-problems/1750/c/solution.c) [C++](./old-problems/1750/solution.cpp) |
 | [1758. Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | Easy | [C](./old-problems/1758/c/solution.c) [C++](./old-problems/1758/solution.cpp) |
 | [1759. Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings) | Medium | [C](./old-problems/1759/c/solution.c) [C++](./old-problems/1759/solution.cpp) |

@@ -1,26 +1,24 @@
-name: 1743. Restore the Array From Adjacent Pairs
+cpp:
+  function:
+    name: restoreArray
+    inputs:
+      - type: std::vector<std::vector<int>>
+        value: adjacentPairs
+    output:
+      type: std::vector<int>
 
-types:
-  inputs:
-    adjacentPairs: std::vector<std::vector<int>>
-  output: std::vector<int>
-
-solutions:
-  cpp:
-    function: restoreArray
-
-test_cases:
-  example_1:
+cases:
+  - name: example 1
     inputs:
       adjacentPairs: [[2, 1], [3, 4], [3, 2]]
     output: [4, 3, 2, 1]
 
-  example_2:
+  - name: example 2
     inputs:
       adjacentPairs: [[4, -2], [1, 4], [-3, 1]]
     output: [-3, 1, 4, -2]
 
-  example_3:
+  - name: example 3
     inputs:
       adjacentPairs: [[100000, -100000]]
     output: [-100000, 100000]
