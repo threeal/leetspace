@@ -1,23 +1,21 @@
-name: 2225. Find Players With Zero or One Losses
+cpp:
+  function:
+    name: findWinners
+    inputs:
+      - type: std::vector<std::vector<int>>
+        value: matches
+    output:
+      type: std::vector<std::vector<int>>
 
-types:
-  inputs:
-    matches: std::vector<std::vector<int>>
-  output: std::vector<std::vector<int>>
-
-solutions:
-  cpp:
-    function: findWinners
-
-test_cases:
-  example_1:
+cases:
+  - name: example 1
     inputs:
       matches: [[1, 3], [2, 3], [3, 6], [5, 6], [5, 7], [4, 5], [4, 8], [4, 9], [10, 4], [10, 9]]
     output:
       - [1, 2, 10]
       - [4, 5, 7, 8]
 
-  example_2:
+  - name: example 2
     inputs:
       matches: [[2, 3], [1, 3], [5, 4], [6, 4]]
     output:
