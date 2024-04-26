@@ -1,0 +1,24 @@
+cpp:
+  function:
+    name: lengthOfLongestSubstring
+    inputs:
+      - type: std::string
+        value: s
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      s: abcabcbbabcabcbb
+    output: 3
+
+  - name: example 2
+    inputs:
+      s: bbbbb
+    output: 1
+
+  - name: example 3
+    inputs:
+      s: pwwkew
+    output: 3
