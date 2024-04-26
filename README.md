@@ -55,7 +55,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) | Medium | [C](./old-problems/0279/c/solution.c) [C++](./old-problems/0279/solution.cpp) |
 | [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | [C](./old-problems/0287/c/solution.c) [C++](./old-problems/0287/solution.cpp) |
 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [C](./old-problems/0300/c/solution.c) [C++](./old-problems/0300/solution.cpp) |
-| [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) | Medium | [C++](./old-problems/0316/solution.cpp) |
+| [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) | Medium | [C++](./problems/0316/solution.cpp) |
 | [342. Power of Four](https://leetcode.com/problems/power-of-four) | Easy | [C](./old-problems/0342/c/solution.c) [C++](./old-problems/0342/solution.cpp) |
 | [343. Integer Break](https://leetcode.com/problems/integer-break) | Medium | [C++](./problems/0343/solution.cpp) |
 | [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | Easy | [C](./old-problems/0349/c/solution.c) [C++](./old-problems/0349/solution.cpp) |

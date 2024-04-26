@@ -1,0 +1,19 @@
+cpp:
+  function:
+    name: removeDuplicateLetters
+    inputs:
+      - type: std::string
+        value: s
+    output:
+      type: std::string
+
+cases:
+  - name: example 1
+    inputs:
+      s: bcabc
+    output: abc
+
+  - name: example 2
+    inputs:
+      s: cbacdcbc
+    output: acdb
