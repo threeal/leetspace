@@ -1,0 +1,23 @@
+cpp:
+  function:
+    name: findMatrix
+    inputs:
+      - type: std::vector<int>
+        value: nums
+    output:
+      type: std::vector<std::vector<int>>
+
+cases:
+  - name: example 1
+    inputs:
+      nums: [1, 3, 4, 1, 2, 3, 1]
+    output:
+      - [1, 3, 4, 2]
+      - [1, 3]
+      - [1]
+
+  - name: example 2
+    inputs:
+      nums: [1, 2, 3, 4]
+    output:
+      - [1, 2, 3, 4]
