@@ -1,0 +1,19 @@
+cpp:
+  function:
+    name: minCostClimbingStairs
+    inputs:
+      - type: std::vector<int>
+        value: cost
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      cost: [10, 15, 20]
+    output: 15
+
+  - name: example 2
+    inputs:
+      cost: [1, 100, 1, 1, 1, 100, 1, 1, 100, 1]
+    output: 6
