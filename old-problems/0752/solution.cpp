@@ -1,38 +1,42 @@
 #include <queue>
 #include <string>
-#include <unordered_set>
 #include <vector>
 
 class Solution {
  public:
-  int openLock(std::vector<std::string>& deadends, std::string target) {
-    if (target == "0000") return 0;
+  int openLock(std::vector<std::string>& deadends, std::string targetStr) {
+    if (targetStr == "0000") return 0;
 
-    std::unordered_set<std::string> seen(deadends.begin(), deadends.end());
-    if (seen.contains("0000")) return -1;
+    std::vector<bool> seen(10000, false);
+    for (const auto& deadend : deadends) {
+      seen[std::stoi(deadend)] = true;
+    }
 
-    std::queue<std::string> queue{};
-    queue.push("0000");
-    seen.insert("0000");
+    if (seen[0]) return -1;
+
+    std::queue<int> queue{};
+    queue.push(0);
+    seen[0] = true;
 
     int steps{1};
+    int target{std::stoi(targetStr)};
     while (!queue.empty()) {
       for (std::size_t i{queue.size()}; i > 0; --i) {
-        for (int i = 0; i < 4; ++i) {
+        for (int exp{1}; exp <= 1000; exp *= 10) {
           auto key{queue.front()};
-          key[i] = key[i] == '9' ? '0' : key[i] + 1;
+          key += (key / exp) % 10 == 9 ? -9 * exp : exp;
           if (key == target) return steps;
-          if (!seen.contains(key)) {
+          if (!seen[key]) {
             queue.push(key);
-            seen.insert(key);
+            seen[key] = true;
           }
 
           key = queue.front();
-          key[i] = key[i] == '0' ? '9' : key[i] - 1;
+          key += (key / exp) % 10 == 0 ? 9 * exp : -exp;
           if (key == target) return steps;
-          if (!seen.contains(key)) {
+          if (!seen[key]) {
             queue.push(key);
-            seen.insert(key);
+            seen[key] = true;
           }
         }
         queue.pop();
