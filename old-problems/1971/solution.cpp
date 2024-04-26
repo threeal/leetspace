@@ -1,5 +1,3 @@
-#include <list>
-#include <queue>
 #include <vector>
 
 class Solution {
@@ -7,27 +5,23 @@ class Solution {
   bool validPath(int n, std::vector<std::vector<int>>& edges, int source, int destination) {
     if (source == destination) return true;
 
-    std::vector<std::list<int>> connections(n);
-    for (const auto& edge : edges) {
-      connections[edge[0]].push_back(edge[1]);
-      connections[edge[1]].push_back(edge[0]);
-    }
-
     std::vector<bool> visited(n, false);
     visited[source] = true;
 
-    std::queue<int> queue;
-    queue.push(source);
+    std::size_t edgesSize{edges.size()};
+    std::size_t prevEdgesSize{edgesSize + 1};
+    while (edgesSize != prevEdgesSize) {
+      prevEdgesSize = edgesSize;
+      for (std::size_t i{0}; i < edgesSize; ++i) {
+        if (visited[edges[i][0]] != visited[edges[i][1]]) {
+          visited[edges[i][0]] = true;
+          visited[edges[i][1]] = true;
 
-    while (!queue.empty()) {
-      for (const auto next : connections[queue.front()]) {
-        if (next == destination) return true;
-        if (!visited[next]) {
-          visited[next] = true;
-          queue.push(next);
+          edges[i] = edges[--edgesSize];
+          --i;
         }
       }
-      queue.pop();
+      if (visited[destination]) return true;
     }
 
     return false;
