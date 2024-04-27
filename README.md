@@ -87,7 +87,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | Medium | [C](./old-problems/0713/c/solution.c) [C++](./old-problems/0713/solution.cpp) |
 | [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [C](./old-problems/0739/c/solution.c) [C++](./old-problems/0739/solution.cpp) |
 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) | Easy | [C++](./problems/0746/solution.cpp) |
-| [752. Open the Lock](https://leetcode.com/problems/open-the-lock/) | Medium | [C++](./old-problems/0752/solution.cpp) |
+| [752. Open the Lock](https://leetcode.com/problems/open-the-lock/) | Medium | [C](./old-problems/0752/c/solution.c) [C++](./old-problems/0752/solution.cpp) |
 | [779. K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) | Medium | [C](./old-problems/0779/c/solution.c) [C++](./old-problems/0779/solution.cpp) |
 | [791. Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | Medium | [C](./old-problems/0791/c/solution.c) [C++](./old-problems/0791/solution.cpp) |
 | [815. Bus Routes](https://leetcode.com/problems/bus-routes) | Hard | [C++](./problems/0815/solution.cpp) |
