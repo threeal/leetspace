@@ -22,3 +22,9 @@ test_cases:
       ring: godding
       key: godding
     output: 13
+
+  test_case_55:
+    inputs:
+      ring: caotmcaataijjxi
+      key: oatjiioicitatajtijciocjcaaxaaatmctxamacaamjjx
+    output: 137
