@@ -1,0 +1,24 @@
+name: 514. Freedom Trail
+
+types:
+  inputs:
+    ring: std::string
+    key: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: findRotateSteps
+
+test_cases:
+  example_1:
+    inputs:
+      ring: godding
+      key: gd
+    output: 4
+
+  example_2:
+    inputs:
+      ring: godding
+      key: godding
+    output: 13
