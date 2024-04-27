@@ -1,4 +1,4 @@
-#include <queue>
+#include <cstdint>
 #include <string>
 #include <vector>
 
@@ -14,32 +14,36 @@ class Solution {
 
     if (seen[0]) return -1;
 
-    std::queue<int> queue{};
-    queue.push(0);
+    std::vector<std::int16_t> queue(1500);
+    std::size_t queueBegin{0};
+    std::size_t queueEnd{1};
+    queue[queueBegin] = 0;
     seen[0] = true;
 
     int steps{1};
     int target{std::stoi(targetStr)};
-    while (!queue.empty()) {
-      for (std::size_t i{queue.size()}; i > 0; --i) {
-        for (int exp{1}; exp <= 1000; exp *= 10) {
-          auto key{queue.front()};
+    while (queueBegin != queueEnd) {
+      for (std::size_t i{(queueBegin < queueEnd ? queueEnd : 1500 + queueEnd) - queueBegin}; i > 0; --i) {
+        for (std::int16_t exp{1}; exp <= 1000; exp *= 10) {
+          auto key{queue[queueBegin]};
           key += (key / exp) % 10 == 9 ? -9 * exp : exp;
           if (key == target) return steps;
           if (!seen[key]) {
-            queue.push(key);
+            queue[queueEnd] = key;
+            if (++queueEnd == 1500) queueEnd = 0;
             seen[key] = true;
           }
 
-          key = queue.front();
+          key = queue[queueBegin];
           key += (key / exp) % 10 == 0 ? 9 * exp : -exp;
           if (key == target) return steps;
           if (!seen[key]) {
-            queue.push(key);
+            queue[queueEnd] = key;
+            if (++queueEnd == 1500) queueEnd = 0;
             seen[key] = true;
           }
         }
-        queue.pop();
+        if (++queueBegin == 1500) queueBegin = 0;
       }
       ++steps;
     }
