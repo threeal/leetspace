@@ -1,4 +1,3 @@
-#include <list>
 #include <queue>
 #include <vector>
 
@@ -7,14 +6,21 @@ class Solution {
   std::vector<int> findMinHeightTrees(int n, std::vector<std::vector<int>>& edges) {
     if (n == 1) return {0};
 
-    std::vector<std::list<int>> nextsOf(n);
     std::vector<int> nextsCountOf(n, 0);
     for (const auto& edge : edges) {
-      nextsOf[edge[0]].push_back(edge[1]);
       ++nextsCountOf[edge[0]];
-
-      nextsOf[edge[1]].push_back(edge[0]);
       ++nextsCountOf[edge[1]];
+    }
+
+    std::vector<std::vector<int>> nextsOf(n);
+    for (int i{0}; i < n; ++i) {
+      nextsOf[i].resize(nextsCountOf[i]);
+      nextsCountOf[i] = 0;
+    }
+
+    for (const auto& edge : edges) {
+      nextsOf[edge[0]][nextsCountOf[edge[0]]++] = edge[1];
+      nextsOf[edge[1]][nextsCountOf[edge[1]]++] = edge[0];
     }
 
     std::queue<int> queue{};
