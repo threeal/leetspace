@@ -3,6 +3,9 @@
 class Solution {
  public:
   int minOperations(std::vector<int>& nums, int k) {
-    return nums.size() + k;
+    for (const auto num : nums) {
+      k ^= num;
+    }
+    return __builtin_popcount(k);
   }
 };
