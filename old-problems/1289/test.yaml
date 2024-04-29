@@ -1,0 +1,25 @@
+name: 1289. Minimum Falling Path Sum II
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: minFallingPathSum
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [1,2,3]
+        - [4,5,6]
+        - [7,8,9]
+    output: 13
+
+  example_2:
+    inputs:
+      grid:
+        - [7]
+    output: 7
