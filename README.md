@@ -123,7 +123,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) | Easy | [C](./old-problems/1266/c/solution.c) [C++](./old-problems/1266/solution.cpp) |
 | [1269. Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps) | Hard | [C++](./problems/1269/solution.cpp) |
 | [1287. Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/) | Easy | [C](./old-problems/1287/c/solution.c) [C++](./old-problems/1287/solution.cpp) |
-| [1289. Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/) | Hard | [C++](./old-problems/1289/solution.cpp) |
+| [1289. Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/) | Hard | [C](./old-problems/1289/c/solution.c) [C++](./old-problems/1289/solution.cpp) |
 | [1291. Sequential Digits](https://leetcode.com/problems/sequential-digits/) | Medium | [C](./old-problems/1291/c/solution.c) [C++](./old-problems/1291/solution.cpp) |
 | [1337. The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix) | Easy | [C++](./problems/1337/solution.cpp) |
 | [1347. Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | Medium | [C](./old-problems/1347/c/solution.c) [C++](./old-problems/1347/solution.cpp) |
