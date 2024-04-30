@@ -1,5 +1,4 @@
 #include <list>
-#include <tuple>
 #include <vector>
 
 class Solution {
@@ -11,31 +10,30 @@ class Solution {
       nexts[edge[1]].push_back(edge[0]);
     }
 
+    std::vector<int> counts(n, 1);
     std::vector<int> sums(n, 0);
-    std::vector<std::vector<std::tuple<int, int>>> cache(n, std::vector<std::tuple<int, int>>(n, {-1, -1}));
 
-    while (--n >= 0) {
-      for (const auto next : nexts[n]) {
-        const auto [count, sum] = sumOfDistancesInTree(nexts, cache, n, next);
-        sums[n] += count + sum;
-      }
-    }
+    dfsCount(nexts, sums, counts, 0, -1);
+    dfsSum(nexts, sums, counts, 0, -1);
 
     return sums;
   }
 
-  std::tuple<int, int> sumOfDistancesInTree(const std::vector<std::list<int>>& nexts, std::vector<std::vector<std::tuple<int, int>>>& cache, int from, int to) {
-    if (std::get<0>(cache[from][to]) < 0) {
-      int counts{1};
-      int sums{0};
-      for (const auto next : nexts[to]) {
-        if (next == from) continue;
-        const auto [count, sum] = sumOfDistancesInTree(nexts, cache, to, next);
-        counts += count;
-        sums += count + sum;
-      }
-      cache[from][to] = {counts, sums};
+ private:
+  void dfsCount(const std::vector<std::list<int>>& nexts, std::vector<int>& sums, std::vector<int>& counts, int node, int parent) {
+    for (const auto next : nexts[node]) {
+      if (next == parent) continue;
+      dfsCount(nexts, sums, counts, next, node);
+      counts[node] += counts[next];
+      sums[node] += counts[next] + sums[next];
     }
-    return cache[from][to];
+  }
+
+  void dfsSum(const std::vector<std::list<int>>& nexts, std::vector<int>& sums, std::vector<int>& counts, int node, int parent) {
+    for (const auto next : nexts[node]) {
+      if (next == parent) continue;
+      sums[next] = sums[node] + counts.size() - counts[next] * 2;
+      dfsSum(nexts, sums, counts, next, node);
+    }
   }
 };
