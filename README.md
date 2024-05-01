@@ -181,6 +181,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1971. Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | Easy | [C](./old-problems/1971/c/solution.c) [C++](./old-problems/1971/solution.cpp) |
 | [1980. Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/) | Medium | [C++](./problems/1980/solution.cpp) |
 | [1992. Find All Groups of Farmland](https://leetcode.com/problems/find-all-groups-of-farmland/) | Medium | [C](./old-problems/1992/c/solution.c) [C++](./old-problems/1992/solution.cpp) |
+| [2000. Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | Easy | [C++](./old-problems/2000/solution.cpp) |
 | [2009. Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous) | Hard | [C++](./problems/2009/solution.cpp) |
 | [2038. Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color) | Medium | [C](./old-problems/2038/c/solution.c) [C++](./old-problems/2038/solution.cpp) |
 | [2050. Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii) | Hard | [C++](./problems/2050/solution.cpp) |
