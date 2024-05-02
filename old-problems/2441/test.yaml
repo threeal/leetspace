@@ -1,0 +1,26 @@
+name: 2441. Largest Positive Integer That Exists With Its Negative
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: findMaxK
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [-1, 2, -3, 3]
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [-1, 10, 6, 7, -7, 1]
+    output: 7
+
+  example_2:
+    inputs:
+      nums: [-10, 8, 6, 7, -2, -3]
+    output: -1
