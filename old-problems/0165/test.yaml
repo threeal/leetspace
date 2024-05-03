@@ -1,0 +1,30 @@
+name: 165. Compare Version Numbers
+
+types:
+  inputs:
+    version1: std::string
+    version2: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: compareVersion
+
+test_cases:
+  example_1:
+    inputs:
+      version1: "1.01"
+      version2: "1.001"
+    output: 0
+
+  example_2:
+    inputs:
+      version1: "1.0"
+      version2: "1.0.0"
+    output: 0
+
+  example_3:
+    inputs:
+      version1: "0.1"
+      version2: "1.1"
+    output: -1
