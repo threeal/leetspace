@@ -1,51 +1,53 @@
-#include <iterator>
 #include <string>
-#include <utility>
 
 class Solution {
  public:
   int compareVersion(std::string version1, std::string version2) {
-    auto it1 = version1.begin();
-    auto it2 = version2.begin();
-    while (it1 != version1.end() && it2 != version2.end()) {
-      while (it1 != version1.end() && *it1 == '0') ++it1;
-      auto begin1 = it1;
+    const int size1 = version1.size();
+    const int size2 = version2.size();
 
-      while (it2 != version2.end() && *it2 == '0') ++it2;
-      auto begin2 = it2;
+    int i1{0};
+    int i2{0};
 
-      while (it1 != version1.end() && *it1 != '.') ++it1;
-      while (it2 != version2.end() && *it2 != '.') ++it2;
+    while (i1 < size1 && i2 < size2) {
+      while (i1 < size1 && version1[i1] == '0') ++i1;
+      auto begin1 = i1;
 
-      if (std::distance(begin1, it1) == std::distance(begin2, it2)) {
-        while (begin1 != it1 && begin2 != it2) {
-          if (*begin1 != *begin2) return *begin1 < *begin2 ? -1 : 1;
+      while (i2 < size2 && version2[i2] == '0') ++i2;
+      auto begin2 = i2;
+
+      while (i1 < size1 && version1[i1] != '.') ++i1;
+      while (i2 < size2 && version2[i2] != '.') ++i2;
+
+      if (i1 - begin1 == i2 - begin2) {
+        while (begin1 < i1 && begin2 < i2) {
+          if (version1[begin1] != version2[begin2]) {
+            return version1[begin1] < version2[begin2] ? -1 : 1;
+          }
           ++begin1;
           ++begin2;
         }
       } else {
-        return std::distance(begin1, it1) < std::distance(begin2, it2) ? -1 : 1;
+        return i1 - begin1 < i2 - begin2 ? -1 : 1;
       }
 
-      if (it1 != version1.end()) ++it1;
-      if (it2 != version2.end()) ++it2;
+      ++i1;
+      ++i2;
     }
 
-    if (it1 != version1.end()) {
-      while (it1 != version1.end()) {
-        while (it1 != version1.end() && *it1 == '0') ++it1;
-        if (it1 != version1.end()) {
-          if (*it1 != '.') return 1;
-          ++it1;
-        }
+    while (i1 < size1) {
+      while (i1 < size1 && version1[i1] == '0') ++i1;
+      if (i1 < size1) {
+        if (version1[i1] != '.') return 1;
+        ++i1;
       }
-    } else if (it2 != version2.end()) {
-      while (it2 != version2.end()) {
-        while (it2 != version2.end() && *it2 == '0') ++it2;
-        if (it2 != version2.end()) {
-          if (*it2 != '.') return -1;
-          ++it2;
-        }
+    }
+
+    while (i2 < size2) {
+      while (i2 < size2 && version2[i2] == '0') ++i2;
+      if (i2 < size2) {
+        if (version2[i2] != '.') return -1;
+        ++i2;
       }
     }
 
