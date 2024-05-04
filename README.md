@@ -99,6 +99,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | Easy | [C++](./old-problems/0872/solution.cpp) |
 | [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | [C++](./old-problems/0876/solution.cpp) |
 | [880. Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index) | Medium | [C++](./old-problems/0880/solution.cpp) |
+| [881. Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | Medium | [C++](./old-problems/0881/solution.cpp) |
 | [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | Easy | [C++](./problems/0905/solution.cpp) |
 | [930. Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | Medium | [C++](./problems/0930/solution.cpp) |
 | [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | Medium | [C++](./problems/0931/solution.cpp) |
