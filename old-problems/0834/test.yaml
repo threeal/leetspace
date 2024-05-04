@@ -1,0 +1,30 @@
+name: 834. Sum of Distances in Tree
+
+types:
+  inputs:
+    n: int
+    edges: std::vector<std::vector<int>>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: sumOfDistancesInTree
+
+test_cases:
+  example_1:
+    inputs:
+      n: 6
+      edges: [[0, 1], [0, 2], [2, 3], [2, 4], [2, 5]]
+    output: [8, 12, 6, 10, 10, 10]
+
+  example_2:
+    inputs:
+      n: 1
+      edges: []
+    output: [0]
+
+  example_3:
+    inputs:
+      n: 2
+      edges: [[1, 0]]
+    output: [1, 1]
