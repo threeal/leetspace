@@ -1,6 +1,7 @@
 int minOperations(int* nums, int numsSize, int k) {
-  (void)nums;
-  (void)numsSize;
-  (void)k;
-  return 0;
+  while (--numsSize >= 0) {
+    k ^= *nums;
+    ++nums;
+  }
+  return __builtin_popcount(k);
 }
