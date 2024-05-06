@@ -1,0 +1,26 @@
+name: 1915. Number of Wonderful Substrings
+
+types:
+  inputs:
+    word: std::string
+  output: long long
+
+solutions:
+  cpp:
+    function: wonderfulSubstrings
+
+test_cases:
+  example_1:
+    inputs:
+      word: aba
+    output: 4
+
+  example_2:
+    inputs:
+      word: aabb
+    output: 9
+
+  example_3:
+    inputs:
+      word: he
+    output: 2
