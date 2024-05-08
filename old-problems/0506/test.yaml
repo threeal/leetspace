@@ -1,0 +1,21 @@
+name: 506. Relative Ranks
+
+types:
+  inputs:
+    score: std::vector<int>
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: findRelativeRanks
+
+test_cases:
+  example_1:
+    inputs:
+      score: [5, 4, 3, 2, 1]
+    output: ["Gold Medal", "Silver Medal", "Bronze Medal", "4", "5"]
+
+  example_2:
+    inputs:
+      score: [10, 3, 8, 9, 4]
+    output: ["Gold Medal", "5", "Bronze Medal", "Silver Medal", "4"]
