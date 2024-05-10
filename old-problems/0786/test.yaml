@@ -1,0 +1,24 @@
+name: 786. K-th Smallest Prime Fraction
+
+types:
+  inputs:
+    arr: std::vector<int>
+    k: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: kthSmallestPrimeFraction
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [1, 2, 3, 5]
+      k: 3
+    output: [2, 5]
+
+  example_2:
+    inputs:
+      arr: [1, 7]
+      k: 1
+    output: [1, 7]
