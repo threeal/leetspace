@@ -1,51 +1,43 @@
-#include <string.h>
-
 int compareVersion(char* version1, char* version2) {
-  const int size1 = strlen(version1);
-  const int size2 = strlen(version2);
+  while (*version1 != 0 && *version2 != 0) {
+    while (*version1 == '0') ++version1;
+    char* begin1 = version1;
 
-  int i1 = 0;
-  int i2 = 0;
+    while (*version2 == '0') ++version2;
+    char* begin2 = version2;
 
-  while (i1 < size1 && i2 < size2) {
-    while (i1 < size1 && version1[i1] == '0') ++i1;
-    int begin1 = i1;
+    while (*version1 != 0 && *version1 != '.') ++version1;
+    while (*version2 != 0 && *version2 != '.') ++version2;
 
-    while (i2 < size2 && version2[i2] == '0') ++i2;
-    int begin2 = i2;
-
-    while (i1 < size1 && version1[i1] != '.') ++i1;
-    while (i2 < size2 && version2[i2] != '.') ++i2;
-
-    if (i1 - begin1 == i2 - begin2) {
-      while (begin1 < i1 && begin2 < i2) {
-        if (version1[begin1] != version2[begin2]) {
-          return version1[begin1] < version2[begin2] ? -1 : 1;
+    if (version1 - begin1 == version2 - begin2) {
+      while (begin1 < version1 && begin2 < version2) {
+        if (*begin1 != *begin2) {
+          return *begin1 < *begin2 ? -1 : 1;
         }
         ++begin1;
         ++begin2;
       }
     } else {
-      return i1 - begin1 < i2 - begin2 ? -1 : 1;
+      return version1 - begin1 < version2 - begin2 ? -1 : 1;
     }
 
-    ++i1;
-    ++i2;
+    if (*version1 != 0) ++version1;
+    if (*version2 != 0) ++version2;
   }
 
-  while (i1 < size1) {
-    while (i1 < size1 && version1[i1] == '0') ++i1;
-    if (i1 < size1) {
-      if (version1[i1] != '.') return 1;
-      ++i1;
+  while (*version1 != 0) {
+    while (*version1 == '0') ++version1;
+    if (*version1 != 0) {
+      if (*version1 != '.') return 1;
+      ++version1;
     }
   }
 
-  while (i2 < size2) {
-    while (i2 < size2 && version2[i2] == '0') ++i2;
-    if (i2 < size2) {
-      if (version2[i2] != '.') return -1;
-      ++i2;
+  while (*version2 != 0) {
+    while (*version2 == '0') ++version2;
+    if (*version2 != 0) {
+      if (*version2 != '.') return -1;
+      ++version2;
     }
   }
 
