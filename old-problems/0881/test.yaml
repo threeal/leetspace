@@ -1,0 +1,30 @@
+name: 881. Boats to Save People
+
+types:
+  inputs:
+    people: std::vector<int>
+    limit: int
+  output: int
+
+solutions:
+  cpp:
+    function: numRescueBoats
+
+test_cases:
+  example_1:
+    inputs:
+      people: [1, 2]
+      limit: 3
+    output: 1
+
+  example_2:
+    inputs:
+      people: [3, 2, 2, 1]
+      limit: 3
+    output: 3
+
+  example_3:
+    inputs:
+      people: [3, 5, 3, 4]
+      limit: 5
+    output: 4
