@@ -1,0 +1,35 @@
+name: 2373. Largest Local Values in a Matrix
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: largestLocal
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [9, 9, 8, 1]
+        - [5, 6, 2, 6]
+        - [8, 2, 6, 4]
+        - [6, 2, 2, 2]
+    output:
+      - [9, 9]
+      - [8, 6]
+
+  example_2:
+    inputs:
+      grid:
+        - [1, 1, 1, 1, 1]
+        - [1, 1, 1, 1, 1]
+        - [1, 1, 2, 1, 1]
+        - [1, 1, 1, 1, 1]
+        - [1, 1, 1, 1, 1]
+    output:
+      - [2, 2, 2]
+      - [2, 2, 2]
+      - [2, 2, 2]
