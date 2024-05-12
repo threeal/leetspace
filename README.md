@@ -209,6 +209,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2444. Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/) | Hard | [C](./old-problems/2444/c/solution.c) [C++](./old-problems/2444/solution.cpp) |
 | [2482. Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | Medium | [C](./old-problems/2482/c/solution.c) [C++](./old-problems/2482/solution.cpp) |
 | [2485. Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/) | Easy | [C](./old-problems/2485/c/solution.c) [C++](./old-problems/2485/solution.cpp) |
+| [2487. Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | Medium | [C++](./old-problems/2487/solution.cpp) |
 | [2540. Minimum Common Value](https://leetcode.com/problems/minimum-common-value/) | Easy | [C](./old-problems/2540/c/solution.c) [C++](./old-problems/2540/solution.cpp) |
 | [2610. Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions) | Medium | [C++](./problems/2610/solution.cpp) |
 | [2642. Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator) | Hard | [C++](./old-problems/2642/solution.cpp) |
