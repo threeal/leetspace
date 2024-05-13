@@ -38,7 +38,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [C++](./old-problems/0141/solution.cpp) |
 | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [C++](./old-problems/0143/solution.cpp) |
 | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | [C](./old-problems/0150/c/solution.c) [C++](./old-problems/0150/solution.cpp) |
-| [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | Medium | [C++](./old-problems/0165/solution.cpp) |
+| [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | Medium | [C](./old-problems/0165/c/solution.c) [C++](./old-problems/0165/solution.cpp) |
 | [169. Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [C](./old-problems/0169/c/solution.c) [C++](./old-problems/0169/solution.cpp) |
 | [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [C](./old-problems/0191/c/solution.c) [C++](./old-problems/0191/solution.cpp) |
 | [198. House Robber](https://leetcode.com/problems/house-robber/) | Medium | [C](./old-problems/0198/c/solution.c) [C++](./old-problems/0198/solution.cpp) |
