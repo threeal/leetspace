@@ -12,8 +12,8 @@ cases:
     inputs:
       nums: [-1, 0, 1, 2, -1, -4]
     output:
-      - [-1, -1, 2]
       - [-1, 0, 1]
+      - [-1, -1, 2]
 
   - name: example 2
     inputs:
@@ -25,6 +25,19 @@ cases:
       nums: [0, 0, 0]
     output:
       - [0, 0, 0]
+
+  - name: test case 85
+    inputs:
+      nums: [0, 0, 0, 0]
+    output:
+      - [0, 0, 0]
+
+  - name: test case 125
+    inputs:
+      nums: [-2, 0, 1, 1, 2]
+    output:
+      - [-2, 1, 1]
+      - [-2, 0, 2]
 
   - name: test case 133
     inputs:

@@ -1,35 +1,31 @@
 #include <algorithm>
-#include <map>
 #include <vector>
 
 class Solution {
  public:
   std::vector<std::vector<int>> threeSum(std::vector<int>& nums) {
-    std::map<int, int, std::greater<int>> counts;
-    for (const auto num : nums) {
-      ++counts[num];
-    }
+    std::vector<std::vector<int>> result{};
 
-    std::vector<std::vector<int>> result;
-    const auto counts_end = counts.end();
-    for (auto ai = counts.begin(); ai != counts_end; ++ai) {
-      const auto a = ai->first;
-      if (a <= 0) break;
+    std::sort(nums.begin(), nums.end());
+    for (std::size_t k{2}; k < nums.size(); ++k) {
+      while (k + 1 < nums.size() && nums[k] == nums[k + 1]) ++k;
 
-      auto bi = ai;
-      if (bi->second <= 1) ++bi;
-      for (; bi != counts_end; ++bi) {
-        const auto b = bi->first;
-        if (-b - a > b) break;
-        const auto ci = counts.find(-b - a);
-        if (ci == counts_end) continue;
-        if (ci->first == b && ci->second < 2) continue;
-        result.push_back({ci->first, b, a});
+      std::size_t i{0};
+      std::size_t j{k - 1};
+
+      while (i < j) {
+        if (nums[i] + nums[j] == -nums[k]) {
+          result.push_back({nums[i], nums[j], nums[k]});
+          while (i + 1 < j && nums[i] == nums[i + 1]) ++i;
+          while (j - 1 > i && nums[j] == nums[j - 1]) --j;
+          ++i;
+          --j;
+        } else if (nums[i] + nums[j] < -nums[k]) {
+          ++i;
+        } else {
+          --j;
+        }
       }
-    }
-
-    if (counts[0] >= 3) {
-      result.push_back({0, 0, 0});
     }
 
     return result;
