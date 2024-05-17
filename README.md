@@ -130,6 +130,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1287. Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/) | Easy | [C](./old-problems/1287/c/solution.c) [C++](./old-problems/1287/solution.cpp) |
 | [1289. Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/) | Hard | [C](./old-problems/1289/c/solution.c) [C++](./old-problems/1289/solution.cpp) |
 | [1291. Sequential Digits](https://leetcode.com/problems/sequential-digits/) | Medium | [C](./old-problems/1291/c/solution.c) [C++](./old-problems/1291/solution.cpp) |
+| [1325. Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/) | Medium | [C++](./old-problems/1325/solution.cpp) |
 | [1337. The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix) | Easy | [C++](./problems/1337/solution.cpp) |
 | [1347. Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | Medium | [C](./old-problems/1347/c/solution.c) [C++](./old-problems/1347/solution.cpp) |
 | [1356. Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | Easy | [C++](./problems/1356/solution.cpp) |
