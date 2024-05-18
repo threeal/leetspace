@@ -104,6 +104,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [880. Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index) | Medium | [C++](./old-problems/0880/solution.cpp) |
 | [881. Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | Medium | [C](./old-problems/0881/c/solution.c) [C++](./old-problems/0881/solution.cpp) |
 | [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | Easy | [C++](./problems/0905/solution.cpp) |
+| [908. Smallest Range I](https://leetcode.com/problems/smallest-range-i/) | Easy | [C++](./old-problems/0908/solution.cpp) |
 | [930. Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | Medium | [C++](./problems/0930/solution.cpp) |
 | [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | Medium | [C++](./problems/0931/solution.cpp) |
 | [935. Knight Dialer](https://leetcode.com/problems/knight-dialer/) | Easy | [C](./old-problems/0935/c/solution.c) [C++](./old-problems/0935/solution.cpp) |
