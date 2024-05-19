@@ -1,0 +1,27 @@
+name: 857. Minimum Cost to Hire K Workers
+
+types:
+  inputs:
+    quality: std::vector<int>
+    wage: std::vector<int>
+    k: int
+  output: double
+
+solutions:
+  cpp:
+    function: mincostToHireWorkers
+
+test_cases:
+  example_1:
+    inputs:
+      quality: [10, 20, 5]
+      wage: [70, 50, 30]
+      k: 2
+    output: 105.00000
+
+  example_2:
+    inputs:
+      quality: [3, 1, 10, 10, 1]
+      wage: [4, 8, 2, 2, 7]
+      k: 3
+    output: 30.666666666666664
