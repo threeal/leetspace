@@ -180,6 +180,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1814. Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/) | Medium | [C++](./problems/1814/solution.cpp) |
 | [1838. Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/) | Medium | [C++](./problems/1838/solution.cpp) |
 | [1846. Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging) | Medium | [C](./old-problems/1846/c/solution.c) [C++](./old-problems/1846/solution.cpp) |
+| [1863. Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | Easy | [C++](./old-problems/1863/solution.cpp) |
 | [1877. Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | Medium | [C++](./old-problems/1877/c/solution.c) [C++](./old-problems/1877/solution.cpp) |
 | [1887. Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/) | Medium | [C](./old-problems/1887/c/solution.c) [C++](./old-problems/1887/solution.cpp) |
 | [1897. Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | Easy | [C](./old-problems/1897/c/solution.c) [C++](./old-problems/1897/solution.cpp) |
