@@ -1,0 +1,29 @@
+name: 1219. Path with Maximum Gold
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: getMaximumGold
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [0, 6, 0]
+        - [5, 8, 7]
+        - [0, 9, 0]
+    output: 24
+
+  example_2:
+    inputs:
+      grid:
+        - [1, 0, 7]
+        - [2, 0, 6]
+        - [3, 4, 5]
+        - [0, 3, 0]
+        - [9, 0, 20]
+    output: 28
