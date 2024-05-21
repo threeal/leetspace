@@ -1,0 +1,24 @@
+name: 16. 3Sum Closest
+
+types:
+  inputs:
+    nums: std::vector<int>
+    target: int
+  output: int
+
+solutions:
+  cpp:
+    function: threeSumClosest
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [-1, 2, 1, -4]
+      target: 1
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [0, 0, 0]
+      target: 1
+    output: 0
