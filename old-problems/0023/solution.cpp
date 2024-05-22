@@ -1,36 +1,35 @@
 #include <queue>
-#include <tuple>
 #include <vector>
 
 class Solution {
  public:
+  struct Compare {
+    bool operator()(ListNode* a, ListNode* b) {
+      return a->val > b->val;
+    }
+  };
+
   ListNode* mergeKLists(std::vector<ListNode*>& lists) {
-    std::priority_queue<
-        std::tuple<int, ListNode*>,
-        std::vector<std::tuple<int, ListNode*>>,
-        std::greater<std::tuple<int, ListNode*>>>
-        queue{};
+    std::priority_queue<ListNode*, std::vector<ListNode*>, Compare> queue{};
 
     for (const auto list : lists) {
       if (list == nullptr) continue;
-      queue.push({list->val, list});
+      queue.push(list);
     }
 
     if (queue.empty()) return nullptr;
 
-    auto head{std::get<1>(queue.top())};
+    auto head{queue.top()};
     queue.pop();
 
-    if (head->next != nullptr)
-      queue.push({head->next->val, head->next});
+    if (head->next != nullptr) queue.push(head->next);
 
     auto node{head};
     while (!queue.empty()) {
-      node->next = std::get<1>(queue.top());
+      node->next = queue.top();
       queue.pop();
 
-      if (node->next->next != nullptr)
-        queue.push({node->next->next->val, node->next->next});
+      if (node->next->next != nullptr) queue.push(node->next->next);
 
       node = node->next;
     }
