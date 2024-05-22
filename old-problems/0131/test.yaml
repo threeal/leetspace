@@ -1,0 +1,21 @@
+name: 131. Palindrome Partitioning
+
+types:
+  inputs:
+    s: std::string
+  output: std::vector<std::vector<std::string>>
+
+solutions:
+  cpp:
+    function: partition
+
+test_cases:
+  example_1:
+    inputs:
+      s: aab
+    output: [[a, a, b], [aa, b]]
+
+  example_2:
+    inputs:
+      s: a
+    output: [[a]]
