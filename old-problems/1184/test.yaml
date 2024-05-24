@@ -1,0 +1,34 @@
+name: 1184. Distance Between Bus Stops
+
+types:
+  inputs:
+    distance: std::vector<int>
+    start: int
+    destination: int
+  output: int
+
+solutions:
+  cpp:
+    function: distanceBetweenBusStops
+
+test_cases:
+  example_1:
+    inputs:
+      distance: [1, 2, 3, 4]
+      start: 0
+      destination: 1
+    output: 1
+
+  example_2:
+    inputs:
+      distance: [1, 2, 3, 4]
+      start: 0
+      destination: 2
+    output: 3
+
+  example_3:
+    inputs:
+      distance: [1, 2, 3, 4]
+      start: 0
+      destination: 3
+    output: 4
