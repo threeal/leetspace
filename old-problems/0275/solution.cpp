@@ -3,10 +3,18 @@
 class Solution {
  public:
   int hIndex(std::vector<int>& citations) {
-    int count = citations.size();
-    for (std::size_t i{0}; i < citations.size(); ++i, --count) {
-      if (citations[i] >= count) return count;
+    int left{0};
+    int right = citations.size();
+
+    while (left < right) {
+      const int mid{(left + right) / 2};
+      if (citations[mid] >= static_cast<int>(citations.size()) - mid) {
+        right = mid;
+      } else {
+        left = mid + 1;
+      }
     }
-    return count;
+
+    return static_cast<int>(citations.size()) - left;
   }
 };
