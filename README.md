@@ -241,7 +241,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2971. Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/) | Medium | [C](./old-problems/2971/c/solution.c) [C++](./old-problems/2971/solution.cpp) |
 | [2997. Minimum Number of Operations to Make Array XOR Equal to K](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/) | Medium | [C](./old-problems/2997/c/solution.c) [C++](./old-problems/2997/solution.cpp) |
 | [3005. Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/) | Easy | [C++](./problems/3005/solution.cpp) |
-| [3075. Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/) | Medium | [C++](./old-problems/3075/solution.cpp) |
+| [3075. Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/) | Medium | [C](./old-problems/3075/c/solution.c) [C++](./old-problems/3075/solution.cpp) |
 
 ## License
 
