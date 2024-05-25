@@ -1,0 +1,41 @@
+name: 3068. Find the Maximum Sum of Node Values
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+    edges: std::vector<std::vector<int>>
+  output: long long
+
+solutions:
+  cpp:
+    function: maximumValueSum
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 1]
+      k: 3
+      edges: [[0, 1], [0, 2]]
+    output: 6
+
+  example_2:
+    inputs:
+      nums: [2, 3]
+      k: 7
+      edges: [[0, 1]]
+    output: 9
+
+  example_3:
+    inputs:
+      nums: [7, 7, 7, 7, 7, 7]
+      k: 3
+      edges: [[0, 1], [0, 2], [0, 3], [0, 4], [0, 5]]
+    output: 42
+
+  test_case_563:
+    inputs:
+      nums: [7, 7, 7, 7, 7, 7]
+      k: 1000000000
+      edges: [[0, 1], [0, 2], [0, 3], [0, 4], [0, 5]]
+    output: 6000000042
