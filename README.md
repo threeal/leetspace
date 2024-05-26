@@ -215,7 +215,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2331. Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | Easy | [C++](./old-problems/2331/solution.cpp) |
 | [2353. Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/) | Medium | [C++](./old-problems/2353/solution.cpp) |
 | [2370. Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/) | Medium | [C](./old-problems/2370/c/solution.c) [C++](./old-problems/2370/solution.cpp) |
-| [2373. Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/) | Easy | [C++](./old-problems/2373/solution.cpp) |
+| [2373. Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/) | Easy | [C](./old-problems/2373/c/solution.c) [C++](./old-problems/2373/solution.cpp) |
 | [2385. Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | Medium | [C++](./old-problems/2385/solution.cpp) |
 | [2391. Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/) | Medium | [C](./old-problems/2391/c/solution.c) [C++](./old-problems/2391/solution.cpp) |
 | [2433. Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor) | Medium | [C++](./problems/2433/solution.cpp) |
