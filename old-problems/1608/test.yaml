@@ -1,0 +1,26 @@
+name: 1608. Special Array With X Elements Greater Than or Equal X
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: specialArray
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [3, 5]
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [0, 0]
+    output: -1
+
+  example_3:
+    inputs:
+      nums: [0, 4, 3, 0, 4]
+    output: 3
