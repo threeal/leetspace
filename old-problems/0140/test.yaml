@@ -1,0 +1,30 @@
+name: 140. Word Break II
+
+types:
+  inputs:
+    s: std::string
+    wordDict: std::vector<std::string>
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: wordBreak
+
+test_cases:
+  example_1:
+    inputs:
+      s: catsanddog
+      wordDict: [cat, cats, and, sand, dog]
+    output: ["cats and dog", "cat sand dog"]
+
+  example_2:
+    inputs:
+      s: pineapplepenapple
+      wordDict: [apple, pen, applepen, pine, pineapple]
+    output: ["pine apple pen apple", "pineapple pen apple", "pine applepen apple"]
+
+  example_3:
+    inputs:
+      s: catsandog
+      wordDict: [cats, dog, sand, and, cat]
+    output: []
