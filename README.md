@@ -171,7 +171,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1561. Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/) | Medium | [C](./old-problems/1561/c/solution.c) [C++](./old-problems/1561/solution.cpp) |
 | [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) | Medium | [C++](./old-problems/1578/solution.cpp) |
 | [1582. Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | Easy | [C](./old-problems/1582/c/solution.c) [C++](./old-problems/1582/solution.cpp) |
-| [1608. Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | Easy | [C++](./old-problems/1608/solution.cpp) |
+| [1608. Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | Easy | [C](./old-problems/1608/c/solution.c) [C++](./old-problems/1608/solution.cpp) |
 | [1609. Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | Medium | [C++](./old-problems/1609/solution.cpp) |
 | [1611. Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/) | Hard | [C](./old-problems/1611/c/solution.c) [C++](./old-problems/1611/solution.cpp) |
 | [1614. Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | Easy | [C++](./old-problems/1614/solution.cpp) [C](./old-problems/1614/c/solution.c) |
