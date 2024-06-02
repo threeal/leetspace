@@ -33,6 +33,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | [C](./old-problems/0057/c/solution.c) [C++](./old-problems/0057/solution.cpp) |
 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [C](./old-problems/0058/c/solution.c) [C++](./old-problems/0058/solution.cpp) |
 | [66. Plus One](https://leetcode.com/problems/plus-one) | Easy | [C++](./problems/0066/solution.cpp) |
+| [67. Add Binary](https://leetcode.com/problems/add-binary/) | Easy | [C++](./old-problems/0067/solution.cpp) |
 | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [C](./old-problems/0070/c/solution.c) [C++](./old-problems/0070/solution.cpp) |
 | [78. Subsets](https://leetcode.com/problems/subsets/) | Medium | [C++](./old-problems/0078/solution.cpp) |
 | [79. Word Search](https://leetcode.com/problems/word-search/) | Medium | [C](./old-problems/0079/c/solution.c) [C++](./old-problems/0079/solution.cpp) |
@@ -42,6 +43,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [119. Pascal's Triangle II](pascals-triangle-ii) | Easy | [C++](./problems/0119/solution.cpp) |
 | [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | Medium | [C++](./old-problems/0129/solution.cpp) |
 | [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | [C++](./old-problems/0131/solution.cpp) |
+| [140. Word Break II](https://leetcode.com/problems/word-break-ii/) | Hard | [C++](./old-problems/0140/solution.cpp) |
 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [C++](./old-problems/0141/solution.cpp) |
 | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [C++](./old-problems/0143/solution.cpp) |
 | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | [C](./old-problems/0150/c/solution.c) [C++](./old-problems/0150/solution.cpp) |
@@ -116,7 +118,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [880. Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index) | Medium | [C++](./old-problems/0880/solution.cpp) |
 | [881. Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | Medium | [C](./old-problems/0881/c/solution.c) [C++](./old-problems/0881/solution.cpp) |
 | [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | Easy | [C++](./problems/0905/solution.cpp) |
-| [908. Smallest Range I](https://leetcode.com/problems/smallest-range-i/) | Easy | [C++](./old-problems/0908/solution.cpp) |
+| [908. Smallest Range I](https://leetcode.com/problems/smallest-range-i/) | Easy | [C](./old-problems/0908/c/solution.c) [C++](./old-problems/0908/solution.cpp) |
 | [930. Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | Medium | [C++](./problems/0930/solution.cpp) |
 | [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | Medium | [C++](./problems/0931/solution.cpp) |
 | [935. Knight Dialer](https://leetcode.com/problems/knight-dialer/) | Easy | [C](./old-problems/0935/c/solution.c) [C++](./old-problems/0935/solution.cpp) |
@@ -249,7 +251,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2971. Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/) | Medium | [C](./old-problems/2971/c/solution.c) [C++](./old-problems/2971/solution.cpp) |
 | [2997. Minimum Number of Operations to Make Array XOR Equal to K](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/) | Medium | [C](./old-problems/2997/c/solution.c) [C++](./old-problems/2997/solution.cpp) |
 | [3005. Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/) | Easy | [C++](./problems/3005/solution.cpp) |
-| [3068. Find the Maximum Sum of Node Values](https://leetcode.com/problems/find-the-maximum-sum-of-node-values/) | Hard | [C++](./old-problems/3068/solution.cpp) |
+| [3068. Find the Maximum Sum of Node Values](https://leetcode.com/problems/find-the-maximum-sum-of-node-values/) | Hard | [C](./old-problems/3068/c/solution.c) [C++](./old-problems/3068/solution.cpp) |
 | [3075. Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/) | Medium | [C](./old-problems/3075/c/solution.c) [C++](./old-problems/3075/solution.cpp) |
 
 ## License
