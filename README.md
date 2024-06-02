@@ -177,6 +177,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1614. Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | Easy | [C++](./old-problems/1614/solution.cpp) [C](./old-problems/1614/c/solution.c) |
 | [1624. Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | Easy | [C](./old-problems/1624/c/solution.c) [C++](./old-problems/1624/solution.cpp) |
 | [1630. Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/) | Medium | [C](./old-problems/1630/c/solution.c) [C++](./old-problems/1630/solution.cpp) |
+| [1636. Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/) | Easy | [C++](./old-problems/1636/solution.cpp) |
 | [1637. Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/) | Medium | [C](./old-problems/1637/c/solution.c) [C++](./old-problems/1637/solution.cpp) |
 | [1642. Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/) | Medium | [C++](./problems/1642/solution.cpp) |
 | [1657. Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/) | Medium | [C](./old-problems/1657/c/solution.c) [C++](./old-problems/1657/solution.cpp) |
