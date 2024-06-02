@@ -1,0 +1,24 @@
+name: 67. Add Binary
+
+types:
+  inputs:
+    a: std::string
+    b: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: addBinary
+
+test_cases:
+  example_1:
+    inputs:
+      a: "11"
+      b: "1"
+    output: "100"
+
+  example_2:
+    inputs:
+      a: "1010"
+      b: "1011"
+    output: "10101"
