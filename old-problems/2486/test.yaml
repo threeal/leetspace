@@ -1,0 +1,30 @@
+name: 2486. Append Characters to String to Make Subsequence
+
+types:
+  inputs:
+    s: std::string
+    t: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: appendCharacters
+
+test_cases:
+  example_1:
+    inputs:
+      s: coaching
+      t: coding
+    output: 4
+
+  example_2:
+    inputs:
+      s: abcde
+      t: a
+    output: 0
+
+  example_3:
+    inputs:
+      s: z
+      t: abcde
+    output: 5
