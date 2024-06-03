@@ -139,6 +139,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | Easy | [C](./old-problems/1160/c/solution.c) [C++](./old-problems/1160/solution.cpp) |
 | [1184. Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/) | Easy | [C++](./old-problems/1184/solution.cpp) |
 | [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | Easy | [C++](./problems/1207/solution.cpp) |
+| [1208. Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/) | Medium | [C++](./old-problems/1208/solution.cpp) |
 | [1219. Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/) | Medium | [C](./old-problems/1219/c/solution.c) [C++](./old-problems/1219/solution.cpp) |
 | [1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation) | Hard | [C](./old-problems/1220/c/solution.c) [C++](./old-problems/1220/solution.cpp) |
 | [1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line) | Easy | [C++](./problems/1232/solution.cpp) |
