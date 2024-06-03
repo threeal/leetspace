@@ -1,3 +1,5 @@
+#include<stdlib.h>
+
 int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes) {
     *returnSize = 1 << numsSize;
     int** result = (int**)malloc(*returnSize * sizeof(int*));
