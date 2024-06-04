@@ -1,22 +1,21 @@
+#include <bit>
+#include <cstdint>
 #include <string>
-#include <vector>
 
 class Solution {
  public:
   int longestPalindrome(std::string s) {
-    std::vector<bool> exists('z' + 1, false);
+    std::uint32_t lower{0};
+    std::uint32_t upper{0};
 
-    int length{0};
     for (const auto c : s) {
-      if (exists[c]) {
-        exists[c] = false;
-        length += 2;
+      if (c >= 'a') {
+        lower ^= 1 << (c - 'a');
       } else {
-        exists[c] = true;
+        upper ^= 1 << (c - 'A');
       }
     }
 
-    if (length < static_cast<int>(s.size())) ++length;
-    return length;
+    return s.size() - std::max(0, std::popcount(lower) + std::popcount(upper) - 1);
   }
 };
