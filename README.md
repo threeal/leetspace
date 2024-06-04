@@ -27,7 +27,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | Easy | [C++](./problems/0028/solution.cpp) |
 | [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | Medium | [C++](./problems/0034/solution.cpp) |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | [C++](./problems/0035/solution.cpp) |
-| [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [C++](./old-problems/0036/solution.cpp) |
+| [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [C](./old-problems/0036/c/solution.c) [C++](./old-problems/0036/solution.cpp) |
 | [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | Hard | [C](./old-problems/0041/c/solution.c) [C++](./old-problems/0041/solution.cpp) |
 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [C++](./problems/0049/solution.cpp) |
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | [C](./old-problems/0057/c/solution.c) [C++](./old-problems/0057/solution.cpp) |
