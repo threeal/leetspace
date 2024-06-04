@@ -1,0 +1,21 @@
+name: 409. Longest Palindrome
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: longestPalindrome
+
+test_cases:
+  example_1:
+    inputs:
+      s: abccccdd
+    output: 7
+
+  example_2:
+    inputs:
+      s: a
+    output: 1
