@@ -146,7 +146,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line) | Easy | [C++](./problems/1232/solution.cpp) |
 | [1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | Hard | [C++](./problems/1235/solution.cpp) |
 | [1239. Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium | [C](./old-problems/1239/c/solution.c) [C++](./old-problems/1239/solution.cpp) |
-| [1255. Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/) | Hard | [C++](./old-problems/1255/solution.cpp) |
+| [1255. Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/) | Hard | [C](./old-problems/1255/c/solution.c) [C++](./old-problems/1255/solution.cpp) |
 | [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) | Easy | [C](./old-problems/1266/c/solution.c) [C++](./old-problems/1266/solution.cpp) |
 | [1269. Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps) | Hard | [C++](./problems/1269/solution.cpp) |
 | [1287. Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/) | Easy | [C](./old-problems/1287/c/solution.c) [C++](./old-problems/1287/solution.cpp) |
