@@ -259,6 +259,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3005. Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/) | Easy | [C++](./problems/3005/solution.cpp) |
 | [3068. Find the Maximum Sum of Node Values](https://leetcode.com/problems/find-the-maximum-sum-of-node-values/) | Hard | [C](./old-problems/3068/c/solution.c) [C++](./old-problems/3068/solution.cpp) |
 | [3075. Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/) | Medium | [C](./old-problems/3075/c/solution.c) [C++](./old-problems/3075/solution.cpp) |
+| [3110. Score of a String](https://leetcode.com/problems/score-of-a-string/) | Easy | [C++](./old-problems/3110/solution.cpp) |
 
 ## License
 
