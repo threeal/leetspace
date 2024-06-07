@@ -22,3 +22,9 @@ test_cases:
       dictionary: [a, b, c]
       sentence: aadsfasf absbs bbab cadsfafs
     output: a a b c
+
+  test_case_126:
+    inputs:
+      dictionary: [catt, cat, bat, rat]
+      sentence: the cattle was rattled by the battery
+    output: the cat was rat by the bat
