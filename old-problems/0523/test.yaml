@@ -1,0 +1,30 @@
+name: 523. Continuous Subarray Sum
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: bool
+
+solutions:
+  cpp:
+    function: checkSubarraySum
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [23, 2, 4, 6, 7]
+      k: 6
+    output: true
+
+  example_2:
+    inputs:
+      nums: [23, 2, 6, 4, 7]
+      k: 6
+    output: true
+
+  example_3:
+    inputs:
+      nums: [23, 2, 6, 4, 7]
+      k: 13
+    output: false
