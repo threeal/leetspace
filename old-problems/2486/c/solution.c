@@ -1,5 +1,9 @@
+#include <string.h>
+
 int appendCharacters(char* s, char* t) {
-  (void)s;
-  (void)t;
-  return 0;
+  while (*s != 0) {
+    if (*s == *t) ++t;
+    ++s;
+  }
+  return strlen(t);
 }
