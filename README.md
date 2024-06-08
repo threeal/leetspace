@@ -243,7 +243,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2444. Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/) | Hard | [C](./old-problems/2444/c/solution.c) [C++](./old-problems/2444/solution.cpp) |
 | [2482. Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | Medium | [C](./old-problems/2482/c/solution.c) [C++](./old-problems/2482/solution.cpp) |
 | [2485. Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/) | Easy | [C](./old-problems/2485/c/solution.c) [C++](./old-problems/2485/solution.cpp) |
-| [2486. Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/) | Medium | [C++](./old-problems/2486/solution.cpp) |
+| [2486. Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/) | Medium | [C](./old-problems/2486/c/solution.c) [C++](./old-problems/2486/solution.cpp) |
 | [2487. Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | Medium | [C++](./old-problems/2487/solution.cpp) |
 | [2540. Minimum Common Value](https://leetcode.com/problems/minimum-common-value/) | Easy | [C](./old-problems/2540/c/solution.c) [C++](./old-problems/2540/solution.cpp) |
 | [2597. The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/) | Medium | [C](./old-problems/2597/c/solution.c) [C++](./old-problems/2597/solution.cpp) |
