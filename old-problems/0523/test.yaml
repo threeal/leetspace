@@ -28,3 +28,9 @@ test_cases:
       nums: [23, 2, 6, 4, 7]
       k: 13
     output: false
+
+  test_case_88:
+    inputs:
+      nums: [23, 2, 4, 6, 6]
+      k: 7
+    output: true
