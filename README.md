@@ -203,6 +203,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1750. Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/) | Medium | [C](./old-problems/1750/c/solution.c) [C++](./old-problems/1750/solution.cpp) |
 | [1758. Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | Easy | [C](./old-problems/1758/c/solution.c) [C++](./old-problems/1758/solution.cpp) |
 | [1759. Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings) | Medium | [C](./old-problems/1759/c/solution.c) [C++](./old-problems/1759/solution.cpp) |
+| [1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) | Hard | [C++](./old-problems/1770/solution.cpp) |
 | [1793. Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray) | Hard | [C](./old-problems/1793/c/solution.c) [C++](./old-problems/1793/solution.cpp) |
 | [1814. Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/) | Medium | [C++](./problems/1814/solution.cpp) |
 | [1838. Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/) | Medium | [C++](./problems/1838/solution.cpp) |
