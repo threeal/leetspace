@@ -1,0 +1,26 @@
+name: 1051. Height Checker
+
+types:
+  inputs:
+    heights: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: heightChecker
+
+test_cases:
+  example_1:
+    inputs:
+      heights: [1, 1, 4, 2, 1, 3]
+    output: 3
+
+  example_2:
+    inputs:
+      heights: [5, 1, 2, 3, 4]
+    output: 5
+
+  example_3:
+    inputs:
+      heights: [1, 2, 3, 4, 5]
+    output: 0
