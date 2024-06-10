@@ -1,0 +1,21 @@
+name: 1002. Find Common Characters
+
+types:
+  inputs:
+    words: std::vector<std::string>
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: commonChars
+
+test_cases:
+  example_1:
+    inputs:
+      words: [bella, label, roller]
+    output: [e, l, l]
+
+  example_2:
+    inputs:
+      words: [cool, lock, cook]
+    output: [c, o]

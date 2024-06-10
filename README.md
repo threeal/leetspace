@@ -135,6 +135,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [988. Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | Medium | [C++](./old-problems/0988/solution.cpp) |
 | [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | Hard | [C++](./problems/0992/solution.cpp) |
 | [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Easy | [C](./old-problems/0997/c/solution.c) [C++](./old-problems/0997/solution.cpp) |
+| [1002. Find Common Characters](https://leetcode.com/problems/find-common-characters/) | Easy | [C++](./old-problems/1002/solution.cpp) |
 | [1026. Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | Medium | [C++](./old-problems/1026/solution.cpp) |
 | [1043. Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/) | Medium | [C](./old-problems/1043/c/solution.c) [C++](./old-problems/1043/solution.cpp) |
 | [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain) | Medium | [C++](./problems/1048/solution.cpp) |
