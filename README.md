@@ -64,6 +64,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [C](./old-problems/0238/c/solution.c) [C++](./old-problems/0238/solution.cpp) |
 | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [C](./old-problems/0242/c/solution.c) [C++](./old-problems/0242/solution.cpp) |
 | [260. Single Number III](https://leetcode.com/problems/single-number-iii/) | Medium | [C](./old-problems/0260/c/solution.c) [C++](./old-problems/0260/solution.cpp) |
+| [263. Ugly Number](https://leetcode.com/problems/ugly-number/) | Easy | [C++](./old-problems/0263/solution.cpp) |
 | [268. Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [C](./old-problems/0268/c/solution.c) [C++](./old-problems/0268/solution.cpp) |
 | [275. H-Index II](https://leetcode.com/problems/h-index-ii/) | Medium | [C](./old-problems/0275/c/solution.c) [C++](./old-problems/0275/solution.cpp) |
 | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) | Medium | [C](./old-problems/0279/c/solution.c) [C++](./old-problems/0279/solution.cpp) |
