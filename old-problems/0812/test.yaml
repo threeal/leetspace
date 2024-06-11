@@ -1,0 +1,21 @@
+name: 812. Largest Triangle Area
+
+types:
+  inputs:
+    points: std::vector<std::vector<int>>
+  output: double
+
+solutions:
+  cpp:
+    function: largestTriangleArea
+
+test_cases:
+  example_1:
+    inputs:
+      points: [[0, 0], [0, 1], [1, 0], [0, 2], [2, 0]]
+    output: 2.00000
+
+  example_2:
+    inputs:
+      points: [[1, 0], [0, 0], [0, 1]]
+    output: 0.50000
