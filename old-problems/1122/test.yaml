@@ -1,0 +1,24 @@
+name: 1122. Relative Sort Array
+
+types:
+  inputs:
+    arr1: std::vector<int>
+    arr2: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: relativeSortArray
+
+test_cases:
+  example_1:
+    inputs:
+      arr1: [2, 3, 1, 3, 2, 4, 6, 7, 9, 2, 19]
+      arr2: [2, 1, 4, 3, 9, 6]
+    output: [2, 2, 2, 1, 4, 3, 3, 9, 6, 7, 19]
+
+  example_2:
+    inputs:
+      arr1: [28, 6, 22, 8, 44, 17]
+      arr2: [22, 28, 8, 6]
+    output: [22, 28, 8, 6, 17, 44]
