@@ -1,0 +1,24 @@
+name: 846. Hand of Straights
+
+types:
+  inputs:
+    hand: std::vector<int>
+    groupSize: int
+  output: bool
+
+solutions:
+  cpp:
+    function: isNStraightHand
+
+test_cases:
+  example_1:
+    inputs:
+      hand: [1, 2, 3, 6, 2, 3, 4, 7, 8]
+      groupSize: 3
+    output: true
+
+  example_2:
+    inputs:
+      hand: [1, 2, 3, 4, 5]
+      groupSize: 4
+    output: false
