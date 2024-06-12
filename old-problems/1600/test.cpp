@@ -20,4 +20,21 @@ TEST_CASE("1600. Throne Inheritance") {
 
     REQUIRE(inheritance.getInheritanceOrder() == std::vector<std::string>{"king", "andy", "matthew", "alex", "asha", "catherine"});
   }
+
+  SECTION("Test Case 3") {
+    ThroneInheritance inheritance("king");
+    inheritance.birth("king", "clyde");
+
+    REQUIRE(inheritance.getInheritanceOrder() == std::vector<std::string>{"king", "clyde"});
+
+    inheritance.death("clyde");
+    inheritance.birth("king", "shannon");
+
+    REQUIRE(inheritance.getInheritanceOrder() == std::vector<std::string>{"king", "shannon"});
+
+    inheritance.birth("king", "scott");
+    inheritance.birth("scott", "keith");
+
+    REQUIRE(inheritance.getInheritanceOrder() == std::vector<std::string>{"king", "shannon", "scott", "keith"});
+  }
 }
