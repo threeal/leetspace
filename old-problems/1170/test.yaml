@@ -1,0 +1,24 @@
+name: 1170. Compare Strings by Frequency of the Smallest Character
+
+types:
+  inputs:
+    queries: std::vector<std::string>
+    words: std::vector<std::string>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: numSmallerByFrequency
+
+test_cases:
+  example_1:
+    inputs:
+      queries: [cbd]
+      words: [zaaaz]
+    output: [1]
+
+  example_2:
+    inputs:
+      queries: [bbb, cc]
+      words: [a, aa, aaa, aaaa]
+    output: [1, 2]

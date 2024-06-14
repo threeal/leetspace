@@ -1,0 +1,26 @@
+name: 2124. Check if All A's Appears Before All B's
+
+types:
+  inputs:
+    s: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: checkString
+
+test_cases:
+  example_1:
+    inputs:
+      s: aaabbb
+    output: true
+
+  example_2:
+    inputs:
+      s: abab
+    output: false
+
+  example_3:
+    inputs:
+      s: bbb
+    output: true

@@ -1,0 +1,22 @@
+name: 3110. Score of a String
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  c:
+  cpp:
+    function: scoreOfString
+
+test_cases:
+  example_1:
+    inputs:
+      s: hello
+    output: 13
+
+  example_2:
+    inputs:
+      s: zaz
+    output: 50

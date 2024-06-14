@@ -1,0 +1,35 @@
+name: 1208. Get Equal Substrings Within Budget
+
+types:
+  inputs:
+    s: std::string
+    t: std::string
+    maxCost: int
+  output: int
+
+solutions:
+  c:
+  cpp:
+    function: equalSubstring
+
+test_cases:
+  example_1:
+    inputs:
+      s: abcd
+      t: bcdf
+      maxCost: 3
+    output: 3
+
+  example_2:
+    inputs:
+      s: abcd
+      t: cdef
+      maxCost: 3
+    output: 1
+
+  example_3:
+    inputs:
+      s: abcd
+      t: acde
+      maxCost: 0
+    output: 1

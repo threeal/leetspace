@@ -1,0 +1,27 @@
+name: 1404. Number of Steps to Reduce a Number in Binary Representation to One
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  c:
+  cpp:
+    function: numSteps
+
+test_cases:
+  example_1:
+    inputs:
+      s: "1101"
+    output: 6
+
+  example_2:
+    inputs:
+      s: "10"
+    output: 1
+
+  example_3:
+    inputs:
+      s: "1"
+    output: 0

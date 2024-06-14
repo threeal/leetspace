@@ -1,0 +1,27 @@
+name: 151. Reverse Words in a String
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  c:
+  cpp:
+    function: reverseWords
+
+test_cases:
+  example_1:
+    inputs:
+      s: the sky is blue
+    output: blue is sky the
+
+  example_2:
+    inputs:
+      s: "  hello world  "
+    output: world hello
+
+  example_3:
+    inputs:
+      s: a good   example
+    output: example good a
