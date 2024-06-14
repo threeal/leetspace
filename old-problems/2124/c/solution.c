@@ -1,6 +1,7 @@
 #include <stdbool.h>
 
 bool checkString(char* s) {
-  (void)s;
-  return false;
+  while (*s == 'a') ++s;
+  while (*s == 'b') ++s;
+  return *s == 0;
 }
