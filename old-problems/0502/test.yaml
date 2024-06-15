@@ -1,0 +1,30 @@
+name: 502. IPO
+
+types:
+  inputs:
+    k: int
+    w: int
+    profits: std::vector<int>
+    capital: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: findMaximizedCapital
+
+test_cases:
+  example_1:
+    inputs:
+      k: 2
+      w: 0
+      profits: [1, 2, 3]
+      capital: [0, 1, 1]
+    output: 4
+
+  example_2:
+    inputs:
+      k: 3
+      w: 0
+      profits: [1, 2, 3]
+      capital: [0, 1, 2]
+    output: 6
