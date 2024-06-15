@@ -1,0 +1,24 @@
+name: 974. Subarray Sums Divisible by K
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: subarraysDivByK
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [4, 5, 0, -2, -3, 1]
+      k: 5
+    output: 7
+
+  example_2:
+    inputs:
+      nums: [5]
+      k: 9
+    output: 0
