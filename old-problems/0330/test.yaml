@@ -28,3 +28,9 @@ test_cases:
       nums: [1, 2, 2]
       n: 5
     output: 0
+
+  test_case_3:
+    inputs:
+      nums: [1, 2, 31, 33]
+      n: 2147483647
+    output: 28
