@@ -73,6 +73,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | Easy | [C++](./old-problems/0303/solution.cpp) |
 | [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Medium | [C](./old-problems/0310/c/solution.c) [C++](./old-problems/0310/solution.cpp) |
 | [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters) | Medium | [C++](./problems/0316/solution.cpp) |
+| [330. Patching Array](https://leetcode.com/problems/patching-array/) | Hard | [C++](./old-problems/0330/solution.cpp) |
 | [342. Power of Four](https://leetcode.com/problems/power-of-four) | Easy | [C](./old-problems/0342/c/solution.c) [C++](./old-problems/0342/solution.cpp) |
 | [343. Integer Break](https://leetcode.com/problems/integer-break) | Medium | [C++](./problems/0343/solution.cpp) |
 | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | [C++](./old-problems/0344/solution.cpp) |
