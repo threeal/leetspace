@@ -1,0 +1,21 @@
+name: 258. Add Digits
+
+types:
+  inputs:
+    num: int
+  output: int
+
+solutions:
+  cpp:
+    function: addDigits
+
+test_cases:
+  example_1:
+    inputs:
+      num: 38
+    output: 2
+
+  example_2:
+    inputs:
+      num: 0
+    output: 0
