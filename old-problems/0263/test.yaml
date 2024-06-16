@@ -1,0 +1,26 @@
+name: 263. Ugly Number
+
+types:
+  inputs:
+    n: int
+  output: bool
+
+solutions:
+  cpp:
+    function: isUgly
+
+test_cases:
+  example_1:
+    inputs:
+      n: 6
+    output: true
+
+  example_2:
+    inputs:
+      n: 1
+    output: true
+
+  example_3:
+    inputs:
+      n: 14
+    output: false
