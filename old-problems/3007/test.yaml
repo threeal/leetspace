@@ -1,0 +1,24 @@
+name: 3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K
+
+types:
+  inputs:
+    k: long long
+    x: int
+  output: long long
+
+solutions:
+  cpp:
+    function: findMaximumNumber
+
+test_cases:
+  example_1:
+    inputs:
+      k: 9
+      x: 1
+    output: 6
+
+  example_2:
+    inputs:
+      k: 7
+      x: 2
+    output: 9
