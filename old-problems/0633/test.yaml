@@ -1,0 +1,21 @@
+name: 633. Sum of Square Numbers
+
+types:
+  inputs:
+    c: int
+  output: bool
+
+solutions:
+  cpp:
+    function: judgeSquareSum
+
+test_cases:
+  example_1:
+    inputs:
+      c: 5
+    output: true
+
+  example_2:
+    inputs:
+      c: 3
+    output: false
