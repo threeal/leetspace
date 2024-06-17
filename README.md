@@ -115,7 +115,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [779. K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) | Medium | [C](./old-problems/0779/c/solution.c) [C++](./old-problems/0779/solution.cpp) |
 | [786. K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | Medium | [C](./old-problems/0786/c/solution.c) [C++](./old-problems/0786/solution.cpp) |
 | [791. Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | Medium | [C](./old-problems/0791/c/solution.c) [C++](./old-problems/0791/solution.cpp) |
-| [812. Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | Easy | [C++](./old-problems/0812/solution.cpp) |
+| [812. Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | Easy | [C](./old-problems/0812/c/solution.c) [C++](./old-problems/0812/solution.cpp) |
 | [815. Bus Routes](https://leetcode.com/problems/bus-routes) | Hard | [C++](./problems/0815/solution.cpp) |
 | [823. Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors) | Medium | [C++](./problems/0823/solution.cpp) |
 | [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/) | Hard | [C](./old-problems/0834/c/solution.c) [C++](./old-problems/0834/solution.cpp) |
