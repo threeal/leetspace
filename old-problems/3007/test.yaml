@@ -22,3 +22,9 @@ test_cases:
       k: 7
       x: 2
     output: 9
+
+  test_case_502:
+    inputs:
+      k: 3278539330613
+      x: 5
+    output: 851568447023
