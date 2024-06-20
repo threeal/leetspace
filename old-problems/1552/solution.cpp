@@ -12,11 +12,11 @@ class Solution {
       const int mid{(low + high + 1) / 2};
 
       int balls{1};
-      auto it = position.begin();
-      while (balls <= m) {
-        it = std::lower_bound(it, position.end(), *it + mid);
-        if (it == position.end()) break;
-        ++balls;
+      for (int i = position.size() - 2, prev = position.back(); i >= 0; --i) {
+        if (prev - position[i] >= mid) {
+          prev = position[i];
+          ++balls;
+        }
       }
 
       if (balls < m) {
