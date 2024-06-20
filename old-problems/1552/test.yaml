@@ -1,0 +1,24 @@
+name: 1552. Magnetic Force Between Two Balls
+
+types:
+  inputs:
+    position: std::vector<int>
+    m: int
+  output: int
+
+solutions:
+  cpp:
+    function: maxDistance
+
+test_cases:
+  example_1:
+    inputs:
+      position: [1, 2, 3, 4, 7]
+      m: 3
+    output: 3
+
+  example_2:
+    inputs:
+      position: [5, 4, 3, 2, 1, 1000000000]
+      m: 2
+    output: 999999999
