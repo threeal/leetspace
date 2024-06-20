@@ -29,3 +29,8 @@ test_cases:
     inputs:
       word: abbcc
     output: true
+
+  test_case_47:
+    inputs:
+      word: cbccca
+    output: false
