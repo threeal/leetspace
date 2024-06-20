@@ -19,3 +19,8 @@ test_cases:
     inputs:
       word: aazz
     output: false
+
+  test_case_40:
+    inputs:
+      word: cccaa
+    output: true
