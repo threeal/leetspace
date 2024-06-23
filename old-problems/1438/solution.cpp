@@ -1,4 +1,3 @@
-#include <deque>
 #include <vector>
 
 class Solution {
@@ -6,22 +5,28 @@ class Solution {
   int longestSubarray(std::vector<int>& nums, int limit) {
     int longest{0};
 
-    std::deque<int> increasing{};
-    std::deque<int> decreasing{};
+    std::vector<int> increasing(nums.size());
+    int* increasingFront{increasing.data()};
+    int* increasingBack{increasingFront - 1};
+
+    std::vector<int> decreasing(nums.size());
+    int* decreasingFront{decreasing.data()};
+    int* decreasingBack{decreasingFront - 1};
+
     for (int left = nums.size() - 1, right = left; left >= 0; --left) {
-      while (!increasing.empty() && increasing.back() > nums[left]) {
-        increasing.pop_back();
+      while (increasingBack >= increasingFront && *increasingBack > nums[left]) {
+        --increasingBack;
       }
-      increasing.push_back(nums[left]);
+      *(++increasingBack) = nums[left];
 
-      while (!decreasing.empty() && decreasing.back() < nums[left]) {
-        decreasing.pop_back();
+      while (decreasingBack >= decreasingFront && *decreasingBack < nums[left]) {
+        --decreasingBack;
       }
-      decreasing.push_back(nums[left]);
+      *(++decreasingBack) = nums[left];
 
-      while (decreasing.front() - increasing.front() > limit) {
-        if (nums[right] == increasing.front()) increasing.pop_front();
-        if (nums[right] == decreasing.front()) decreasing.pop_front();
+      while (*decreasingFront - *increasingFront > limit) {
+        if (nums[right] == *increasingFront) ++increasingFront;
+        if (nums[right] == *decreasingFront) ++decreasingFront;
         --right;
       }
 
