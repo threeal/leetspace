@@ -1,0 +1,21 @@
+name: 945. Minimum Increment to Make Array Unique
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minIncrementForUnique
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 2]
+    output: 1
+
+  example_2:
+    inputs:
+      nums: [3, 2, 1, 2, 1, 7]
+    output: 6
