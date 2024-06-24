@@ -1,0 +1,30 @@
+name: 875. Koko Eating Bananas
+
+types:
+  inputs:
+    piles: std::vector<int>
+    h: int
+  output: int
+
+solutions:
+  cpp:
+    function: minEatingSpeed
+
+test_cases:
+  example_1:
+    inputs:
+      piles: [3,6,7,11]
+      h: 8
+    output: 4
+
+  example_2:
+    inputs:
+      piles: [30,11,23,4,20]
+      h: 5
+    output: 30
+
+  example_3:
+    inputs:
+      piles: [30,11,23,4,20]
+      h: 6
+    output: 23
