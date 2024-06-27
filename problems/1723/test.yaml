@@ -1,0 +1,23 @@
+cpp:
+  function:
+    name: minimumTimeRequired
+    inputs:
+      - type: std::vector<int>
+        value: jobs
+      - type: int
+        value: k
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      jobs: [3, 2, 3]
+      k: 3
+    output: 3
+
+  - name: example 2
+    inputs:
+      jobs: [1, 2, 4, 7, 8]
+      k: 2
+    output: 11
