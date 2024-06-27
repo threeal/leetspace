@@ -21,3 +21,9 @@ cases:
       jobs: [1, 2, 4, 7, 8]
       k: 2
     output: 11
+
+  - name: test case 44
+    inputs:
+      jobs: [251, 252, 251, 252, 250, 254, 255, 253, 254, 256, 253, 256]
+      k: 8
+    output: 504
