@@ -92,6 +92,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | Medium | [C++](./problems/0451/solution.cpp) |
 | [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | Medium | [C](./old-problems/0452/c/solution.c) [C++](./old-problems/0452/solution.cpp) |
 | [455. Assign Cookies](https://leetcode.com/problems/assign-cookies) | Easy | [C](./old-problems/0455/c/solution.c) [C++](./old-problems/0455/solution.cpp) |
+| [456. 132 Pattern](https://leetcode.com/problems/132-pattern) | Medium | [C++](./old-problems/0456/solution.cpp) |
 | [458. Poor Pigs](https://leetcode.com/problems/poor-pigs) | Hard | [C](./old-problems/0458/c/solution.c) [C++](./old-problems/0458/solution.cpp) |
 | [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/) | Easy | [C](./old-problems/0463/c/solution.c) [C++](./old-problems/0463/solution.cpp) |
 | [506. Relative Ranks](https://leetcode.com/problems/relative-ranks/) | Easy | [C](./old-problems/0506/c/solution.c) [C++](./old-problems/0506/solution.cpp) |
