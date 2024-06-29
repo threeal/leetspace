@@ -1,0 +1,36 @@
+name: 330. Patching Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: minPatches
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 3]
+      n: 6
+    output: 1
+
+  example_2:
+    inputs:
+      nums: [1, 5, 10]
+      n: 20
+    output: 2
+
+  example_3:
+    inputs:
+      nums: [1, 2, 2]
+      n: 5
+    output: 0
+
+  test_case_3:
+    inputs:
+      nums: [1, 2, 31, 33]
+      n: 2147483647
+    output: 28
