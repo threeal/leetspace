@@ -65,6 +65,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | Medium | [C++](./old-problems/0237/solution.cpp) |
 | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [C](./old-problems/0238/c/solution.c) [C++](./old-problems/0238/solution.cpp) |
 | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [C](./old-problems/0242/c/solution.c) [C++](./old-problems/0242/solution.cpp) |
+| [258. Add Digits](https://leetcode.com/problems/add-digits/) | Easy | [C++](./old-problems/0258/solution.cpp) |
 | [260. Single Number III](https://leetcode.com/problems/single-number-iii/) | Medium | [C](./old-problems/0260/c/solution.c) [C++](./old-problems/0260/solution.cpp) |
 | [263. Ugly Number](https://leetcode.com/problems/ugly-number/) | Easy | [C](./old-problems/0263/c/solution.c) [C++](./old-problems/0263/solution.cpp) |
 | [268. Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [C](./old-problems/0268/c/solution.c) [C++](./old-problems/0268/solution.cpp) |
