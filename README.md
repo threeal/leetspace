@@ -97,7 +97,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [456. 132 Pattern](https://leetcode.com/problems/132-pattern) | Medium | [C++](./old-problems/0456/solution.cpp) |
 | [458. Poor Pigs](https://leetcode.com/problems/poor-pigs) | Hard | [C](./old-problems/0458/c/solution.c) [C++](./old-problems/0458/solution.cpp) |
 | [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/) | Easy | [C](./old-problems/0463/c/solution.c) [C++](./old-problems/0463/solution.cpp) |
-| [502. IPO](https://leetcode.com/problems/ipo/) | Hard | [C++](./old-problems/0502/solution.cpp) |
+| [502. IPO](https://leetcode.com/problems/ipo/) | Hard | [C](./old-problems/0502/c/solution.c) [C++](./old-problems/0502/solution.cpp) |
 | [506. Relative Ranks](https://leetcode.com/problems/relative-ranks/) | Easy | [C](./old-problems/0506/c/solution.c) [C++](./old-problems/0506/solution.cpp) |
 | [513. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | Medium | [C++](./old-problems/0513/solution.cpp) |
 | [514. Freedom Trail](https://leetcode.com/problems/freedom-trail/) | Hard | [C](./old-problems/0514/c/solution.c) [C++](./old-problems/0514/solution.cpp) |
