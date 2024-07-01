@@ -1,0 +1,39 @@
+name: 2018. Check if Word Can Be Placed In Crossword
+
+types:
+  inputs:
+    board: std::vector<std::vector<char>>
+    word: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: placeWordInCrossword
+
+test_cases:
+  example_1:
+    inputs:
+      board:
+        - [35, 32, 35]
+        - [32, 32, 35]
+        - [35, 99, 32]
+      word: abc
+    output: true
+
+  example_2:
+    inputs:
+      board:
+        - [32, 35, 97]
+        - [32, 35, 99]
+        - [32, 35, 97]
+      word: ac
+    output: false
+
+  example_3:
+    inputs:
+      board:
+        - [35, 32, 35]
+        - [32, 32, 35]
+        - [35, 32, 99]
+      word: ca
+    output: true
