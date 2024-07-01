@@ -1,0 +1,30 @@
+name: 1531. String Compression II
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: getLengthOfOptimalCompression
+
+test_cases:
+  example_1:
+    inputs:
+      s: aaabcccd
+      k: 2
+    output: 4
+
+  example_2:
+    inputs:
+      s: aabbaa
+      k: 2
+    output: 2
+
+  example_3:
+    inputs:
+      s: aaaaaaaaaaa
+      k: 0
+    output: 3
