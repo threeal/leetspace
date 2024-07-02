@@ -155,7 +155,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1043. Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/) | Medium | [C](./old-problems/1043/c/solution.c) [C++](./old-problems/1043/solution.cpp) |
 | [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain) | Medium | [C++](./problems/1048/solution.cpp) |
 | [1051. Height Checker](https://leetcode.com/problems/height-checker/) | Easy | [C](./old-problems/1051/c/solution.c) [C++](./old-problems/1051/solution.cpp) |
-| [1052. Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/) | Medium | [C++](./old-problems/1052/solution.cpp) |
+| [1052. Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/) | Medium | [C](./old-problems/1052/c/solution.c) [C++](./old-problems/1052/solution.cpp) |
 | [1081. Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters) | Medium | [C++](./problems/1081/solution.cpp) |
 | [1122. Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | Easy | [C](./old-problems/1122/c/solution.c) [C++](./old-problems/1122/solution.cpp) |
 | [1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy | [C](./old-problems/1137/c/solution.c) [C++](./old-problems/1137/solution.cpp) |
