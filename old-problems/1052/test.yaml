@@ -1,0 +1,34 @@
+name: 1052. Grumpy Bookstore Owner
+
+types:
+  inputs:
+    customers: std::vector<int>
+    grumpy: std::vector<int>
+    minutes: int
+  output: int
+
+solutions:
+  cpp:
+    function: maxSatisfied
+
+test_cases:
+  example_1:
+    inputs:
+      customers: [1, 0, 1, 2, 1, 1, 7, 5]
+      grumpy: [0, 1, 0, 1, 0, 1, 0, 1]
+      minutes: 3
+    output: 16
+
+  example_2:
+    inputs:
+      customers: [1]
+      grumpy: [0]
+      minutes: 1
+    output: 1
+
+  test_case_24:
+    inputs:
+      customers: [10, 1, 7]
+      grumpy: [0, 0, 0]
+      minutes: 2
+    output: 18
