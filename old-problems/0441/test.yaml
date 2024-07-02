@@ -1,0 +1,21 @@
+name: 441. Arranging Coins
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: arrangeCoins
+
+test_cases:
+  example_1:
+    inputs:
+      n: 5
+    output: 2
+
+  example_2:
+    inputs:
+      n: 8
+    output: 3
