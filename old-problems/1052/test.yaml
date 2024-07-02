@@ -25,3 +25,10 @@ test_cases:
       grumpy: [0]
       minutes: 1
     output: 1
+
+  test_case_24:
+    inputs:
+      customers: [10, 1, 7]
+      grumpy: [0, 0, 0]
+      minutes: 2
+    output: 18
