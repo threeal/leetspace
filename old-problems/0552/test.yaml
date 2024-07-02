@@ -1,0 +1,26 @@
+name: 552. Student Attendance Record II
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: checkRecord
+
+test_cases:
+  example_1:
+    inputs:
+      n: 2
+    output: 8
+
+  example_2:
+    inputs:
+      n: 1
+    output: 3
+
+  example_3:
+    inputs:
+      n: 10101
+    output: 183236316
