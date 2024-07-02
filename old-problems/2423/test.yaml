@@ -1,0 +1,36 @@
+name: 2423. Remove Letter To Equalize Frequency
+
+types:
+  inputs:
+    word: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: equalFrequency
+
+test_cases:
+  example_1:
+    inputs:
+      word: abcc
+    output: true
+
+  example_2:
+    inputs:
+      word: aazz
+    output: false
+
+  test_case_40:
+    inputs:
+      word: cccaa
+    output: true
+
+  test_case_42:
+    inputs:
+      word: abbcc
+    output: true
+
+  test_case_47:
+    inputs:
+      word: cbccca
+    output: false
