@@ -1,0 +1,30 @@
+name: 2162. Minimum Cost to Set Cooking Time
+
+types:
+  inputs:
+    startAt: int
+    moveCost: int
+    pushCost: int
+    targetSeconds: int
+  output: int
+
+solutions:
+  cpp:
+    function: minCostSetTime
+
+test_cases:
+  example_1:
+    inputs:
+      startAt: 1
+      moveCost: 2
+      pushCost: 1
+      targetSeconds: 600
+    output: 6
+
+  example_2:
+    inputs:
+      startAt: 0
+      moveCost: 1
+      pushCost: 2
+      targetSeconds: 76
+    output: 6
