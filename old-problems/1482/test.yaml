@@ -1,0 +1,34 @@
+name: 1482. Minimum Number of Days to Make m Bouquets
+
+types:
+  inputs:
+    bloomDay: std::vector<int>
+    m: int
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: minDays
+
+test_cases:
+  example_1:
+    inputs:
+      bloomDay: [1, 10, 3, 10, 2]
+      m: 3
+      k: 1
+    output: 3
+
+  example_2:
+    inputs:
+      bloomDay: [1, 10, 3, 10, 2]
+      m: 3
+      k: 2
+    output: -1
+
+  example_3:
+    inputs:
+      bloomDay: [7, 7, 7, 7, 12, 7, 7]
+      m: 2
+      k: 3
+    output: 12
