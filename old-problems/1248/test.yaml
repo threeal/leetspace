@@ -1,0 +1,30 @@
+name: 1248. Count Number of Nice Subarrays
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: numberOfSubarrays
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 1, 2, 1, 1]
+      k: 3
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [2, 4, 6]
+      k: 1
+    output: 0
+
+  example_3:
+    inputs:
+      nums: [2, 2, 2, 1, 2, 2, 1, 2, 2, 2]
+      k: 2
+    output: 16
