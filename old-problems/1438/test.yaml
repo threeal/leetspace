@@ -1,0 +1,30 @@
+name: 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
+
+types:
+  inputs:
+    nums: std::vector<int>
+    limit: int
+  output: int
+
+solutions:
+  cpp:
+    function: longestSubarray
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [8, 2, 4, 7]
+      limit: 4
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [10, 1, 2, 4, 7, 2]
+      limit: 5
+    output: 4
+
+  example_3:
+    inputs:
+      nums: [4, 2, 2, 2, 4, 4, 2, 2]
+      limit: 0
+    output: 3
