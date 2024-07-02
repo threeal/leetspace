@@ -142,7 +142,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | Medium | [C++](./problems/0931/solution.cpp) |
 | [935. Knight Dialer](https://leetcode.com/problems/knight-dialer/) | Easy | [C](./old-problems/0935/c/solution.c) [C++](./old-problems/0935/solution.cpp) |
 | [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | Easy | [C++](./old-problems/0938/solution.cpp) |
-| [945. Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | Medium | [C++](./old-problems/0945/solution.cpp) |
+| [945. Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | Medium | [C](./old-problems/0945/c/solution.c) [C++](./old-problems/0945/solution.cpp) |
 | [948. Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/) | Medium | [C](./old-problems/0948/c/solution.c) [C++](./old-problems/0948/solution.cpp) |
 | [974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | Medium | [C](./old-problems/0974/c/solution.c) [C++](./old-problems/0974/solution.cpp) |
 | [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Easy | [C](./old-problems/0977/c/solution.c) [C++](./old-problems/0977/solution.cpp) |
