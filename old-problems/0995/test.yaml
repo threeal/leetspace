@@ -1,0 +1,30 @@
+name: 995. Minimum Number of K Consecutive Bit Flips
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: minKBitFlips
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [0, 1, 0]
+      k: 1
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [1, 1, 0]
+      k: 2
+    output: -1
+
+  example_3:
+    inputs:
+      nums: [0, 0, 0, 1, 0, 1, 1, 0]
+      k: 3
+    output: 3
