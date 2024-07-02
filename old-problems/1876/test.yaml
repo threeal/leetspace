@@ -1,0 +1,21 @@
+name: 1876. Substrings of Size Three with Distinct Characters
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: countGoodSubstrings
+
+test_cases:
+  example_1:
+    inputs:
+      s: xyzzaz
+    output: 1
+
+  example_2:
+    inputs:
+      s: aababcabc
+    output: 4
