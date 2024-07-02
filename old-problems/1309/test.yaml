@@ -1,0 +1,21 @@
+name: 1309. Decrypt String from Alphabet to Integer Mapping
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: freqAlphabets
+
+test_cases:
+  example_1:
+    inputs:
+      s: 10#11#12
+    output: jkab
+
+  example_2:
+    inputs:
+      s: 1326#
+    output: acz
