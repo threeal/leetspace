@@ -1,0 +1,36 @@
+name: 835. Image Overlap
+
+types:
+  inputs:
+    img1: std::vector<std::vector<int>>
+    img2: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: largestOverlap
+
+test_cases:
+  example_1:
+    inputs:
+      img1:
+        - [1, 1, 0]
+        - [0, 1, 0]
+        - [0, 1, 0]
+      img2:
+        - [0, 0, 0]
+        - [0, 1, 1]
+        - [0, 0, 1]
+    output: 3
+
+  example_2:
+    inputs:
+      img1: [[1]]
+      img2: [[1]]
+    output: 1
+
+  example_3:
+    inputs:
+      img1: [[0]]
+      img2: [[0]]
+    output: 0
