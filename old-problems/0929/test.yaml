@@ -25,3 +25,10 @@ test_cases:
         - b@leetcode.com
         - c@leetcode.com
     output: 3
+
+  test_case_187:
+    inputs:
+      emails:
+        - a.............@b.com
+        - a++++++@b.com
+    output: 1
