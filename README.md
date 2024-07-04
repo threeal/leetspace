@@ -154,6 +154,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Easy | [C](./old-problems/0997/c/solution.c) [C++](./old-problems/0997/solution.cpp) |
 | [1002. Find Common Characters](https://leetcode.com/problems/find-common-characters/) | Easy | [C](./old-problems/1002/c/solution.c) [C++](./old-problems/1002/solution.cpp) |
 | [1026. Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | Medium | [C++](./old-problems/1026/solution.cpp) |
+| [1038. Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | Medium | [C++](./old-problems/1038/solution.cpp) |
 | [1043. Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/) | Medium | [C](./old-problems/1043/c/solution.c) [C++](./old-problems/1043/solution.cpp) |
 | [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain) | Medium | [C++](./problems/1048/solution.cpp) |
 | [1051. Height Checker](https://leetcode.com/problems/height-checker/) | Easy | [C](./old-problems/1051/c/solution.c) [C++](./old-problems/1051/solution.cpp) |
