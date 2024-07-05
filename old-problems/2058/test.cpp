@@ -42,4 +42,10 @@ TEST_CASE("2058. Find the Minimum and Maximum Number of Nodes Between Critical P
         to_list({1, 3, 2, 2, 3, 2, 2, 2, 7}));
     REQUIRE(std::vector<int>{3, 3} == out);
   }
+
+  SECTION("Test Case 50") {
+    const auto out = Solution{}.nodesBetweenCriticalPoints(
+        to_list({6, 8, 4, 1, 9, 6, 6, 10, 6}));
+    REQUIRE(std::vector<int>{1, 6} == out);
+  }
 }
