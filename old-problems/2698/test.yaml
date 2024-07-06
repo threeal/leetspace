@@ -1,0 +1,21 @@
+name: 2698. Find the Punishment Number of an Integer
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: punishmentNumber
+
+test_cases:
+  example_1:
+    inputs:
+      n: 10
+    output: 182
+
+  example_2:
+    inputs:
+      n: 37
+    output: 1478
