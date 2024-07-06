@@ -291,6 +291,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2642. Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator) | Hard | [C++](./old-problems/2642/solution.cpp) |
 | [2706. Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/) | Easy | [C](./old-problems/2706/c/solution.c) [C++](./old-problems/2706/solution.cpp) |
 | [2742. Painting the Walls](https://leetcode.com/problems/painting-the-walls) | Hard | [C++](./problems/2742/solution.cpp) |
+| [2770. Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/) | Medium | [C++](./old-problems/2770/solution.cpp) |
 | [2785. Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string) | Medium | [C](./old-problems/2785/c/solution.c) [C++](./old-problems/2785/solution.cpp) |
 | [2812. Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/) | Medium | [C++](./problems/2812/solution.cpp) |
 | [2816. Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/) | Medium | [C++](./old-problems/2816/solution.cpp) |
