@@ -1,0 +1,21 @@
+name: 1550. Three Consecutive Odds
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: threeConsecutiveOdds
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [2, 6, 4, 1]
+    output: false
+
+  example_2:
+    inputs:
+      arr: [1, 2, 34, 3, 4, 5, 7, 23, 12]
+    output: true
