@@ -24,3 +24,8 @@ test_cases:
     inputs:
       croakOfFrogs: croakcrook
     output: -1
+
+  test_case_58:
+    inputs:
+      croakOfFrogs: croakcroa
+    output: -1
