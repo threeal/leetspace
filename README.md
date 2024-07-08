@@ -204,6 +204,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1482. Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | Medium | [C++](./old-problems/1482/solution.cpp) |
 | [1496. Path Crossing](https://leetcode.com/problems/path-crossing/) | Easy | [C++](./problems/1496/solution.cpp) |
 | [1503. Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank) | Medium | [C](./old-problems/1503/c/solution.c) [C++](./old-problems/1503/solution.cpp) |
+| [1507. Reformat Date](https://leetcode.com/problems/reformat-date/) | Easy | [C++](./old-problems/1507/solution.cpp) |
 | [1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | Easy | [C](./old-problems/1512/c/solution.c) [C++](./old-problems/1512/solution.cpp) |
 | [1535. Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game) | Medium | [C](./old-problems/1535/c/solution.c) [C++](./old-problems/1535/solution.cpp) |
 | [1544. Make The String Great](https://leetcode.com/problems/make-the-string-great/) | Easy | [C](./old-problems/1544/c/solution.c) [C++](./old-problems/1544/solution.cpp) |
