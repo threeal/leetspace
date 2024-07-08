@@ -1,19 +1,24 @@
-#include <queue>
+#include <vector>
 
 class Solution {
  public:
   int findTheWinner(int n, int k) {
-    std::queue<int> friends{};
-    for (int i{1}; i <= n; ++i) friends.push(i);
+    std::vector<int> friends(n);
+    for (int i{n}; i > 0; --i) friends[i - 1] = i;
 
-    while (friends.size() > 1) {
+    int begin{0};
+    int end{0};
+
+    int left{n};
+    while (--left > 0) {
       for (int i{k}; i > 1; --i) {
-        friends.push(friends.front());
-        friends.pop();
+        friends[end] = friends[begin];
+        if (++begin >= n) begin = 0;
+        if (++end >= n) end = 0;
       }
-      friends.pop();
+      if (++begin >= n) begin = 0;
     }
 
-    return friends.front();
+    return friends[begin];
   }
 };
