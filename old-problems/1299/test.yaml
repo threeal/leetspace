@@ -1,0 +1,21 @@
+name: 1299. Replace Elements with Greatest Element on Right Side
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: replaceElements
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [17, 18, 5, 4, 6, 1]
+    output: [18, 6, 6, 6, 1, -1]
+
+  example_2:
+    inputs:
+      arr: [400]
+    output: [-1]
