@@ -230,6 +230,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1685. Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | Medium | [C](./old-problems/1685/c/solution.c) [C++](./old-problems/1685/solution.cpp) |
 | [1688. Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/description/) | Easy | [C](./old-problems/1688/c/solution.c) [C++](./old-problems/1688/solution.cpp) |
 | [1700. Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/) | Easy | [C](./old-problems/1700/c/solution.c) [C++](./old-problems/1700/solution.cpp) |
+| [1701. Average Waiting Time](https://leetcode.com/problems/average-waiting-time/) | Medium | [C++](./old-problems/1701/solution.cpp) |
 | [1704. Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | Easy | [C](./old-problems/1704/c/solution.c) [C++](./old-problems/1704/solution.cpp) |
 | [1716. Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/) | Easy | [C](./old-problems/1716/c/solution.c) [C++](./old-problems/1716/solution.cpp) |
 | [1723. Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/) | Hard | [C++](./problems/1723/solution.cpp) |
