@@ -1,0 +1,26 @@
+name: 204. Count Primes
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: countPrimes
+
+test_cases:
+  example_1:
+    inputs:
+      n: 10
+    output: 4
+
+  example_2:
+    inputs:
+      n: 0
+    output: 0
+
+  example_3:
+    inputs:
+      n: 1
+    output: 0
