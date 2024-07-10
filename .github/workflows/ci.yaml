@@ -45,4 +45,4 @@ jobs:
           git diff --exit-code HEAD
 
       - name: Test Solutions
-        uses: threeal/ctest-action@v1.0.0
+        uses: threeal/ctest-action@v1.1.0
