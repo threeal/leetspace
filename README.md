@@ -153,7 +153,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [979. Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/) | Medium | [C++](./old-problems/0979/solution.cpp) |
 | [988. Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | Medium | [C++](./old-problems/0988/solution.cpp) |
 | [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | Hard | [C++](./problems/0992/solution.cpp) |
-| [995. Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/) | Hard | [C++](./old-problems/0995/solution.cpp) |
+| [995. Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/) | Hard | [C](./old-problems/0995/c/solution.c) [C++](./old-problems/0995/solution.cpp) |
 | [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Easy | [C](./old-problems/0997/c/solution.c) [C++](./old-problems/0997/solution.cpp) |
 | [1002. Find Common Characters](https://leetcode.com/problems/find-common-characters/) | Easy | [C](./old-problems/1002/c/solution.c) [C++](./old-problems/1002/solution.cpp) |
 | [1026. Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | Medium | [C++](./old-problems/1026/solution.cpp) |
