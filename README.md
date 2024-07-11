@@ -43,6 +43,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [C++](./old-problems/0094/solution.cpp) |
 | [100. Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [C++](./old-problems/0100/solution.cpp) |
 | [119. Pascal's Triangle II](pascals-triangle-ii) | Easy | [C++](./problems/0119/solution.cpp) |
+| [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) | Easy | [C++](./old-problems/0125/solution.cpp) |
 | [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | Medium | [C++](./old-problems/0129/solution.cpp) |
 | [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | [C++](./old-problems/0131/solution.cpp) |
 | [140. Word Break II](https://leetcode.com/problems/word-break-ii/) | Hard | [C++](./old-problems/0140/solution.cpp) |

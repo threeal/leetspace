@@ -1,0 +1,26 @@
+name: 125. Valid Palindrome
+
+types:
+  inputs:
+    s: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: isPalindrome
+
+test_cases:
+  example_1:
+    inputs:
+      s: "A man, a plan, a canal: Panama"
+    output: true
+
+  example_2:
+    inputs:
+      s: race a car
+    output: false
+
+  example_2:
+    inputs:
+      s: " "
+    output: true
