@@ -1,0 +1,21 @@
+name: 860. Lemonade Change
+
+types:
+  inputs:
+    bills: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: lemonadeChange
+
+test_cases:
+  example_1:
+    inputs:
+      bills: [5, 5, 5, 10, 20]
+    output: true
+
+  example_2:
+    inputs:
+      bills: [5, 5, 10, 10, 20]
+    output: false
