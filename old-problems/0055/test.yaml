@@ -19,3 +19,8 @@ test_cases:
     inputs:
       nums: [3, 2, 1, 0, 4]
     output: false
+
+  test_case_151:
+    inputs:
+      nums: [0]
+    output: true
