@@ -1,0 +1,21 @@
+name: 55. Jump Game
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: canJump
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 3, 1, 1, 4]
+    output: true
+
+  example_2:
+    inputs:
+      nums: [3, 2, 1, 0, 4]
+    output: false
