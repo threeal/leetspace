@@ -19,3 +19,8 @@ test_cases:
     inputs:
       bills: [5, 5, 10, 10, 20]
     output: false
+
+  test_case_47:
+    inputs:
+      bills: [5, 5, 5, 5, 20, 20, 5, 5, 5, 5]
+    output: false
