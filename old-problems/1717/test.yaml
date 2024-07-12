@@ -1,0 +1,27 @@
+name: 1717. Maximum Score From Removing Substrings
+
+types:
+  inputs:
+    s: std::string
+    x: int
+    y: int
+  output: int
+
+solutions:
+  cpp:
+    function: maximumGain
+
+test_cases:
+  example_1:
+    inputs:
+      s: cdbcbbaaabab
+      x: 4
+      y: 5
+    output: 19
+
+  example_2:
+    inputs:
+      s: aabbaaxybbaabb
+      x: 5
+      y:  4
+    output: 20
