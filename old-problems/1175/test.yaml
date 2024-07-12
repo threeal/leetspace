@@ -1,0 +1,21 @@
+name: 1175. Prime Arrangements
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: numPrimeArrangements
+
+test_cases:
+  example_1:
+    inputs:
+      n: 5
+    output: 12
+
+  example_2:
+    inputs:
+      n: 100
+    output: 682289015
