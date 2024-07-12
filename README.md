@@ -190,6 +190,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1337. The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix) | Easy | [C++](./problems/1337/solution.cpp) |
 | [1347. Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | Medium | [C](./old-problems/1347/c/solution.c) [C++](./old-problems/1347/solution.cpp) |
 | [1356. Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | Easy | [C++](./problems/1356/solution.cpp) |
+| [1357. Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/) | Medium | [C++](./old-problems/1357/solution.cpp) |
 | [1361. Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes) | Medium | [C](./old-problems/1361/c/solution.c) [C++](./old-problems/1361/solution.cpp) |
 | [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | Medium | [C++](./old-problems/1382/solution.cpp) |
 | [1404. Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | Medium | [C](./old-problems/1404/c/solution.c) [C++](./old-problems/1404/solution.cpp) |
