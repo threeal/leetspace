@@ -278,6 +278,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2149. Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/) | Medium | [C](./old-problems/2149/c/solution.c) [C++](./old-problems/2149/solution.cpp) |
 | [2181. Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | Medium | [C++](./old-problems/2181/solution.cpp) |
 | [2192. All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium | [C++](./problems/2192/solution.cpp) |
+| [2211. Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/) | Medium | [C++](./old-problems/2211/solution.cpp) |
 | [2225. Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/) | Medium | [C++](./problems/2225/solution.cpp) |
 | [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers) | Easy | [C](./old-problems/2235/c/solution.c) [C++](./old-problems/2235/solution.cpp) |
 | [2251. Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom) | Hard | [C++](./problems/2251/solution.cpp) |

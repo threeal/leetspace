@@ -1,0 +1,21 @@
+name: 2211. Count Collisions on a Road
+
+types:
+  inputs:
+    directions: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: countCollisions
+
+test_cases:
+  example_1:
+    inputs:
+      directions: RLRSLL
+    output: 5
+
+  example_2:
+    inputs:
+      directions: LLRR
+    output: 0
