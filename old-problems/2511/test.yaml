@@ -24,3 +24,8 @@ test_cases:
     inputs:
       forts: [1, 0, 0, -1]
     output: 2
+
+  test_case_38:
+    inputs:
+      forts: [1, 0, 0, -1, 0, 0, -1, 0, 0, 1]
+    output: 2
