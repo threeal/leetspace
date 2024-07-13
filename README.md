@@ -90,7 +90,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | [C++](./problems/0392/solution.cpp) |
 | [404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | Easy | [C++](./old-problems/0404/solution.cpp) |
 | [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | Easy | [C](./old-problems/0409/c/solution.c) [C++](./old-problems/0409/solution.cpp) |
-| [441. Arranging Coins](https://leetcode.com/problems/arranging-coins/) | Easy | [C++](./old-problems/0441/solution.cpp) |
+| [441. Arranging Coins](https://leetcode.com/problems/arranging-coins/) | Easy | [C](./old-problems/0441/c/solution.c) [C++](./old-problems/0441/solution.cpp) |
 | [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | Medium | [C](./old-problems/0442/c/solution.c) [C++](./old-problems/0442/solution.cpp) |
 | [446. Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) | Hard | [C++](./problems/0446/solution.cpp) |
 | [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | Medium | [C++](./problems/0451/solution.cpp) |
