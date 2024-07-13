@@ -1,0 +1,26 @@
+name: 1513. Number of Substrings With Only 1s
+
+types:
+  inputs:
+    nums: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: numSub
+
+test_cases:
+  example_1:
+    inputs:
+      nums: "0110111"
+    output: 9
+
+  example_2:
+    inputs:
+      nums: "101"
+    output: 2
+
+  example_3:
+    inputs:
+      nums: "111111"
+    output: 21
