@@ -281,7 +281,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers) | Easy | [C](./old-problems/2235/c/solution.c) [C++](./old-problems/2235/solution.cpp) |
 | [2251. Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom) | Hard | [C++](./problems/2251/solution.cpp) |
 | [2264. Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | Easy | [C](./old-problems/2264/c/solution.c) [C++](./old-problems/2264/solution.cpp) |
-| [2285. Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/) | Medium | [C++](./old-problems/2285/solution.cpp) |
+| [2285. Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/) | Medium | [C](./old-problems/2285/c/solution.c) [C++](./old-problems/2285/solution.cpp) |
 | [2331. Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | Easy | [C++](./old-problems/2331/solution.cpp) |
 | [2353. Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/) | Medium | [C++](./old-problems/2353/solution.cpp) |
 | [2370. Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/) | Medium | [C](./old-problems/2370/c/solution.c) [C++](./old-problems/2370/solution.cpp) |
