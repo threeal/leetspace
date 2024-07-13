@@ -1,0 +1,21 @@
+name: 2511. Maximum Enemy Forts That Can Be Captured
+
+types:
+  inputs:
+    forts: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: captureForts
+
+test_cases:
+  example_1:
+    inputs:
+      forts: [1, 0, 0, -1, 0, 0, 0, 0, 1]
+    output: 4
+
+  example_2:
+    inputs:
+      forts: [0, 0, 1, -1]
+    output: 0
