@@ -1,3 +1,6 @@
 int passThePillow(int n, int time) {
-  return n % time + 1;
+  --n;
+  return (time / n) % 2 == 0
+      ? 1 + time % n
+      : 1 + n - time % n;
 }
