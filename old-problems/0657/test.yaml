@@ -1,0 +1,21 @@
+name: 657. Robot Return to Origin
+
+types:
+  inputs:
+    moves: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: judgeCircle
+
+test_cases:
+  example_1:
+    inputs:
+      moves: UD
+    output: true
+
+  example_2:
+    inputs:
+      moves: LL
+    output: false
