@@ -216,7 +216,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1552. Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/) | Medium | [C](./old-problems/1552/c/solution.c) [C++](./old-problems/1552/solution.cpp) |
 | [1561. Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/) | Medium | [C](./old-problems/1561/c/solution.c) [C++](./old-problems/1561/solution.cpp) |
 | [1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) | Medium | [C++](./old-problems/1578/solution.cpp) |
-| [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/) | Hard | [C++](./old-problems/1579/solution.cpp) |
+| [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/) | Hard | [C](./old-problems/1579/c/solution.c) [C++](./old-problems/1579/solution.cpp) |
 | [1582. Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | Easy | [C](./old-problems/1582/c/solution.c) [C++](./old-problems/1582/solution.cpp) |
 | [1600. Throne Inheritance](https://leetcode.com/problems/throne-inheritance/) | Medium | [C++](./old-problems/1600/solution.cpp) |
 | [1608. Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | Easy | [C](./old-problems/1608/c/solution.c) [C++](./old-problems/1608/solution.cpp) |
