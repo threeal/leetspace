@@ -1,0 +1,26 @@
+name: 1507. Reformat Date
+
+types:
+  inputs:
+    date: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: reformatDate
+
+test_cases:
+  example_1:
+    inputs:
+      date: 20th Oct 2052
+    output: "2052-10-20"
+
+  example_2:
+    inputs:
+      date: 6th Jun 1933
+    output: "1933-06-06"
+
+  example_3:
+    inputs:
+      date: 26th May 1960
+    output: "1960-05-26"
