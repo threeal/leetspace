@@ -1,0 +1,26 @@
+name: 2144. Minimum Cost of Buying Candies With Discount
+
+types:
+  inputs:
+    cost: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minimumCost
+
+test_cases:
+  example_1:
+    inputs:
+      cost: [1, 2, 3]
+    output: 5
+
+  example_2:
+    inputs:
+      cost: [6, 5, 7, 9, 2, 2]
+    output: 23
+
+  example_3:
+    inputs:
+      cost: [5, 5]
+    output: 10
