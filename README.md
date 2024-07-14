@@ -274,7 +274,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2108. Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | Easy | [C](./old-problems/2108/c/solution.c) [C++](./old-problems/2108/solution.cpp) |
 | [2124. Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/) | Easy | [C](./old-problems/2124/c/solution.c) [C++](./old-problems/2124/solution.cpp) |
 | [2125. Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/) | Medium | [C](./old-problems/2125/c/solution.c) [C++](./old-problems/2125/solution.cpp) |
-| [2144. Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | Easy | [C++](./old-problems/2144/solution.cpp) |
+| [2144. Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | Easy | [C](./old-problems/2144/c/solution.c) [C++](./old-problems/2144/solution.cpp) |
 | [2147. Number of Ways to Divide a Long Corridor](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/) | Hard | [C](./old-problems/2147/c/solution.c) [C++](./old-problems/2147/solution.cpp) |
 | [2149. Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/) | Medium | [C](./old-problems/2149/c/solution.c) [C++](./old-problems/2149/solution.cpp) |
 | [2181. Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | Medium | [C++](./old-problems/2181/solution.cpp) |
