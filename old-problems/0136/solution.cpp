@@ -3,6 +3,8 @@
 class Solution {
  public:
   int singleNumber(std::vector<int>& nums) {
-    return nums.front();
+    int sum{0};
+    for (const auto num : nums) sum ^= num;
+    return sum;
   }
 };
