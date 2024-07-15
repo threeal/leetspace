@@ -194,6 +194,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1361. Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes) | Medium | [C](./old-problems/1361/c/solution.c) [C++](./old-problems/1361/solution.cpp) |
 | [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | Medium | [C++](./old-problems/1382/solution.cpp) |
 | [1404. Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | Medium | [C](./old-problems/1404/c/solution.c) [C++](./old-problems/1404/solution.cpp) |
+| [1419. Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/) | Medium | [C++](./old-problems/1419/solution.cpp) |
 | [1422. Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | Easy | [C](./old-problems/1422/c/solution.c) [C++](./old-problems/1422/solution.cpp) |
 | [1424. Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/) | Medium | [C++](./problems/1424/solution.cpp) |
 | [1425. Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum) | Hard | [C++](./problems/1425/solution.cpp) |
