@@ -1,0 +1,26 @@
+name: 136. Single Number
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: singleNumber
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 2, 1]
+    output: 1
+
+  example_2:
+    inputs:
+      nums: [4, 1, 2, 1, 2]
+    output: 4
+
+  example_2:
+    inputs:
+      nums: [1]
+    output: 1
