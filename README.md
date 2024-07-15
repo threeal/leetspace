@@ -56,6 +56,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [198. House Robber](https://leetcode.com/problems/house-robber/) | Medium | [C](./old-problems/0198/c/solution.c) [C++](./old-problems/0198/solution.cpp) |
 | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [C](./old-problems/0200/c/solution.c) [C++](./old-problems/0200/solution.cpp) |
 | [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | Medium | [C](./old-problems/0201/c/solution.c) [C++](./old-problems/0201/solution.cpp) |
+| [204. Count Primes](https://leetcode.com/problems/count-primes/) | Medium | [C++](./old-problems/0204/solution.cpp) |
 | [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | Easy | [C](./old-problems/0205/c/solution.c) [C++](./old-problems/0205/solution.cpp) |
 | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [C++](./old-problems/0206/solution.cpp) |
 | [229. Majority Element II](https://leetcode.com/problems/majority-element-ii) | Medium | [C++](./old-problems/0229/solution.cpp) |
