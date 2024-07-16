@@ -1,5 +1,11 @@
 int minOperations(char** logs, int logsSize) {
-  (void)logs;
-  (void)logsSize;
-  return 0;
+  int level = 0;
+  for (int i = 0; i < logsSize; ++i) {
+    if (logs[i][0] == '.') {
+      if (logs[i][1] == '.' && level > 0) --level;
+    } else {
+      ++level;
+    }
+  }
+  return level;
 }
