@@ -1,0 +1,26 @@
+name: 1598. Crawler Log Folder
+
+types:
+  inputs:
+    logs: std::vector<std::string>
+  output: int
+
+solutions:
+  cpp:
+    function: minOperations
+
+test_cases:
+  example_1:
+    inputs:
+      logs: [d1/, d2/, ../, d21/, ./]
+    output: 2
+
+  example_2:
+    inputs:
+      logs: [d1/, d2/, ./, d3/, ../, d31/]
+    output: 3
+
+  example_3:
+    inputs:
+      logs: [d1/, ../, ../, ../]
+    output: 0
