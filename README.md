@@ -275,6 +275,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2050. Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii) | Hard | [C++](./problems/2050/solution.cpp) |
 | [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | Medium | [C++](./old-problems/2058/solution.cpp) |
 | [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) | Easy | [C](./old-problems/2073/c/solution.c) [C++](./old-problems/2073/solution.cpp) |
+| [2096. Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) | Medium | [C++](./old-problems/2096/solution.cpp) |
 | [2108. Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | Easy | [C](./old-problems/2108/c/solution.c) [C++](./old-problems/2108/solution.cpp) |
 | [2124. Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/) | Easy | [C](./old-problems/2124/c/solution.c) [C++](./old-problems/2124/solution.cpp) |
 | [2125. Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/) | Medium | [C](./old-problems/2125/c/solution.c) [C++](./old-problems/2125/solution.cpp) |
