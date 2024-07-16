@@ -1,0 +1,38 @@
+name: 1090. Largest Values From Labels
+
+types:
+  inputs:
+    values: std::vector<int>
+    labels: std::vector<int>
+    numWanted: int
+    numLimit: int
+  output: int
+
+solutions:
+  cpp:
+    function: largestValsFromLabels
+
+test_cases:
+  example_1:
+    inputs:
+      values: [5, 4, 3, 2, 1]
+      labels: [1, 1, 2, 2, 3]
+      numWanted: 3
+      numLimit: 1
+    output: 9
+
+  example_2:
+    inputs:
+      values: [5, 4, 3, 2, 1]
+      labels: [1, 3, 3, 3, 2]
+      numWanted: 3
+      numLimit: 2
+    output: 12
+
+  test_case_24:
+    inputs:
+      values: [9, 8, 8, 7, 6]
+      labels: [0, 0, 0, 1, 1]
+      numWanted: 3
+      numLimit: 1
+    output: 16
