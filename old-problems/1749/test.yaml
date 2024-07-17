@@ -1,0 +1,21 @@
+name: 1749. Maximum Absolute Sum of Any Subarray
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maxAbsoluteSum
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, -3, 2, 3, -4]
+    output: 5
+
+  example_2:
+    inputs:
+      nums: [2, -5, 1, -4, 3, -2]
+    output: 8
