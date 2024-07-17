@@ -1,0 +1,21 @@
+name: 1791. Find Center of Star Graph
+
+types:
+  inputs:
+    edges: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: findCenter
+
+test_cases:
+  example_1:
+    inputs:
+      edges: [[1, 2], [2, 3], [4, 2]]
+    output: 2
+
+  example_2:
+    inputs:
+      edges: [[1, 2], [5, 1], [1, 3], [1, 4]]
+    output: 1
