@@ -1,0 +1,24 @@
+name: 796. Rotate String
+
+types:
+  inputs:
+    s: std::string
+    goal: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: rotateString
+
+test_cases:
+  example_1:
+    inputs:
+      s: abcde
+      goal: cdeab
+    output: true
+
+  example_2:
+    inputs:
+      s: abcde
+      goal: abced
+    output: false
