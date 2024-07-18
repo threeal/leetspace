@@ -1,0 +1,26 @@
+name: 1190. Reverse Substrings Between Each Pair of Parentheses
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: reverseParentheses
+
+test_cases:
+  example_1:
+    inputs:
+      s: (abcd)
+    output: dcba
+
+  example_2:
+    inputs:
+      s: (u(love)i)
+    output: iloveu
+
+  example_3:
+    inputs:
+      s: (ed(et(oc))el)
+    output: leetcode
