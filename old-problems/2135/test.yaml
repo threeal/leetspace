@@ -22,3 +22,9 @@ test_cases:
       startWords: [ab, a]
       targetWords: [abc, abcd]
     output: 1
+
+  test_case_69:
+    inputs:
+      startWords: [g, vf, ylpuk, nyf, gdj, j, fyqzg, sizec]
+      targetWords: [r, am, jg, umhjo, fov, lujy, b, uz, y]
+    output: 2
