@@ -247,7 +247,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1701. Average Waiting Time](https://leetcode.com/problems/average-waiting-time/) | Medium | [C++](./old-problems/1701/solution.cpp) |
 | [1704. Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | Easy | [C](./old-problems/1704/c/solution.c) [C++](./old-problems/1704/solution.cpp) |
 | [1716. Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/) | Easy | [C](./old-problems/1716/c/solution.c) [C++](./old-problems/1716/solution.cpp) |
-| [1717. Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/) | Medium | [C++](./old-problems/1717/solution.cpp) |
+| [1717. Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/) | Medium | [C](./old-problems/1717/c/solution.c) [C++](./old-problems/1717/solution.cpp) |
 | [1723. Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/) | Hard | [C++](./problems/1723/solution.cpp) |
 | [1727. Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/) | Medium | [C](./old-problems/1727/c/solution.c) [C++](./old-problems/1727/solution.cpp) |
 | [1743. Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs) | Medium | [C++](./problems/1743/solution.cpp) |
