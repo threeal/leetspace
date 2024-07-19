@@ -23,6 +23,12 @@ test_cases:
       typed: ssaaedd
     output: false
 
+  test_case_69:
+    inputs:
+      namee: vtkgn
+      typed: vttkgnn
+    output: true
+
   test_case_90:
     inputs:
       namee: alex
