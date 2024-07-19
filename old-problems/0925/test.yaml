@@ -22,3 +22,9 @@ test_cases:
       namee: saeed
       typed: ssaaedd
     output: false
+
+  test_case_90:
+    inputs:
+      namee: alex
+      typed: aaleexa
+    output: false
