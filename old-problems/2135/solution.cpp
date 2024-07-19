@@ -1,5 +1,6 @@
 #include <cstdint>
 #include <string>
+#include <unordered_set>
 #include <vector>
 
 class Solution {
@@ -7,13 +8,13 @@ class Solution {
   int wordCount(
       std::vector<std::string>& startWords,
       std::vector<std::string>& targetWords) {
-    std::vector<bool> startMaskExist(1 << 26, false);
+    std::unordered_set<std::uint32_t> startMasks{};
     for (const auto& word : startWords) {
       std::uint32_t mask{0};
       for (const auto c : word) {
         mask |= 1 << (c - 'a');
       }
-      startMaskExist[mask] = true;
+      startMasks.insert(mask);
     }
 
     int count{0};
@@ -24,7 +25,7 @@ class Solution {
       }
 
       for (std::uint32_t i = 1 << 25; i > 0; i = i >> 1) {
-        if (mask & i && startMaskExist[mask ^ i]) {
+        if (mask & i && startMasks.contains(mask ^ i)) {
           ++count;
           break;
         }
