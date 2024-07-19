@@ -1,0 +1,21 @@
+name: 485. Max Consecutive Ones
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: findMaxConsecutiveOnes
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 1, 0, 1, 1, 1]
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [1, 0, 1, 1, 0, 1]
+    output: 2
