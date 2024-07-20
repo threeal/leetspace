@@ -9,6 +9,7 @@ types:
   output: int
 
 solutions:
+  c:
   cpp:
     function: largestValsFromLabels
 
