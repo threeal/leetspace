@@ -1,0 +1,29 @@
+name: 1605. Find Valid Matrix Given Row and Column Sums
+
+types:
+  inputs:
+    rowSum: std::vector<int>
+    colSum: std::vector<int>
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: restoreMatrix
+
+test_cases:
+  example_1:
+    inputs:
+      rowSum: [3, 8]
+      colSum: [4, 7]
+    output:
+      - [3, 0]
+      - [1, 7]
+
+  example_2:
+    inputs:
+      rowSum: [5, 7, 10]
+      colSum: [8, 6, 8]
+    output:
+      - [0, 5, 0]
+      - [6, 1, 0]
+      - [2, 0, 8]
