@@ -1,0 +1,24 @@
+cpp:
+  function:
+    name: countOfAtoms
+    inputs:
+      - type: std::string
+        value: formula
+    output:
+      type: std::string
+
+cases:
+  - name: example 1
+    inputs:
+      formula: H2O
+    output: H2O
+
+  - name: example 2
+    inputs:
+      formula: Mg(OH)2
+    output: H2MgO2
+
+  - name: example 3
+    inputs:
+      formula: K4(ON(SO3)2)2
+    output: K4N2O14S4
