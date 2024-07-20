@@ -1,0 +1,36 @@
+name: 925. Long Pressed Name
+
+types:
+  inputs:
+    namee: std::string
+    typed: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: isLongPressedName
+
+test_cases:
+  example_1:
+    inputs:
+      namee: alex
+      typed: aaleex
+    output: true
+
+  example_2:
+    inputs:
+      namee: saeed
+      typed: ssaaedd
+    output: false
+
+  test_case_69:
+    inputs:
+      namee: vtkgn
+      typed: vttkgnn
+    output: true
+
+  test_case_90:
+    inputs:
+      namee: alex
+      typed: aaleexa
+    output: false
