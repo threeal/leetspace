@@ -1,0 +1,30 @@
+name: 2392. Build a Matrix With Conditions
+
+types:
+  inputs:
+    k: int
+    rowConditions: std::vector<std::vector<int>>
+    colConditions: std::vector<std::vector<int>>
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: buildMatrix
+
+test_cases:
+  example_1:
+    inputs:
+      k: 3
+      rowConditions: [[1, 2], [3, 2]]
+      colConditions: [[2, 1], [3, 2]]
+    output:
+      - [3, 0, 0]
+      - [0, 0, 1]
+      - [0, 2, 0]
+
+  example_2:
+    inputs:
+      k: 3
+      rowConditions: [[1, 2], [2, 3], [3, 1], [2, 3]]
+      colConditions: [[2, 1]]
+    output: []
