@@ -1,0 +1,26 @@
+name: 1366. Rank Teams by Votes
+
+types:
+  inputs:
+    votes: std::vector<std::string>
+  output: std::string
+
+solutions:
+  cpp:
+    function: rankTeams
+
+test_cases:
+  example_1:
+    inputs:
+      votes: [ABC, ACB, ABC, ACB, ACB]
+    output: ACB
+
+  example_2:
+    inputs:
+      votes: [WXYZ, XYZW]
+    output: XWYZ
+
+  example_3:
+    inputs:
+      votes: [ZMNAGUEDSJYLBOPHRQICWFXTVK]
+    output: ZMNAGUEDSJYLBOPHRQICWFXTVK
