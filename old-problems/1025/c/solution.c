@@ -1,6 +1,5 @@
 #include <stdbool.h>
 
 bool divisorGame(int n) {
-  (void)n;
-  return false;
+  return n % 2 == 0;
 }
