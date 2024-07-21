@@ -164,7 +164,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [995. Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/) | Hard | [C](./old-problems/0995/c/solution.c) [C++](./old-problems/0995/solution.cpp) |
 | [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Easy | [C](./old-problems/0997/c/solution.c) [C++](./old-problems/0997/solution.cpp) |
 | [1002. Find Common Characters](https://leetcode.com/problems/find-common-characters/) | Easy | [C](./old-problems/1002/c/solution.c) [C++](./old-problems/1002/solution.cpp) |
-| [1025. Divisor Game](https://leetcode.com/problems/divisor-game/) | Easy | [C++](./old-problems/1025/solution.cpp) |
+| [1025. Divisor Game](https://leetcode.com/problems/divisor-game/) | Easy | [C](./old-problems/1025/c/solution.c) [C++](./old-problems/1025/solution.cpp) |
 | [1026. Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | Medium | [C++](./old-problems/1026/solution.cpp) |
 | [1038. Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | Medium | [C++](./old-problems/1038/solution.cpp) |
 | [1043. Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/) | Medium | [C](./old-problems/1043/c/solution.c) [C++](./old-problems/1043/solution.cpp) |
