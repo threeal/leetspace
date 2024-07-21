@@ -137,13 +137,13 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | Easy | [C++](./problems/0844/solution.cpp) |
 | [846. Hand of Straights](https://leetcode.com/problems/hand-of-straights/) | medium | [C](./old-problems/0846/c/solution.c) [C++](./old-problems/0846/solution.cpp) |
 | [857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) | Hard | [C++](./old-problems/0857/solution.cpp) |
+| [860. Lemonade Change](https://leetcode.com/problems/lemonade-change/) | Easy | [C](./old-problems/0860/c/solution.c) [C++](./old-problems/0860/solution.cpp) |
 | [861. Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/) | Medium | [C](./old-problems/0861/c/solution.c) [C++](./old-problems/0861/solution.cpp) |
 | [867. Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | Easy | [C](./old-problems/0867/c/solution.c) [C++](./old-problems/0867/solution.cpp) |
 | [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | Easy | [C++](./old-problems/0872/solution.cpp) |
 | [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium | [C](./old-problems/0875/c/solution.c) [C++](./old-problems/0875/solution.cpp) |
 | [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | [C++](./old-problems/0876/solution.cpp) |
 | [880. Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index) | Medium | [C++](./old-problems/0880/solution.cpp) |
-| [860. Lemonade Change](https://leetcode.com/problems/lemonade-change/) | Easy | [C++](./old-problems/0860/solution.cpp) |
 | [881. Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | Medium | [C](./old-problems/0881/c/solution.c) [C++](./old-problems/0881/solution.cpp) |
 | [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | Easy | [C++](./problems/0905/solution.cpp) |
 | [908. Smallest Range I](https://leetcode.com/problems/smallest-range-i/) | Easy | [C](./old-problems/0908/c/solution.c) [C++](./old-problems/0908/solution.cpp) |
