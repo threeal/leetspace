@@ -1,3 +1,7 @@
 int singleNumber(int* nums, int numsSize) {
-  return nums[numsSize - 1];
+  int sum = 0;
+  for (int i = numsSize - 1; i >= 0; --i) {
+    sum ^= nums[i];
+  }
+  return sum;
 }
