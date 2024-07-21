@@ -47,7 +47,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) | Easy | [C++](./old-problems/0125/solution.cpp) |
 | [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | Medium | [C++](./old-problems/0129/solution.cpp) |
 | [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | [C++](./old-problems/0131/solution.cpp) |
-| [136. Single Number](https://leetcode.com/problems/single-number/) | Easy | [C++](./old-problems/0136/solution.cpp) |
+| [136. Single Number](https://leetcode.com/problems/single-number/) | Easy | [C](./old-problems/0136/solution.c) [C++](./old-problems/0136/solution.cpp) |
 | [140. Word Break II](https://leetcode.com/problems/word-break-ii/) | Hard | [C++](./old-problems/0140/solution.cpp) |
 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [C++](./old-problems/0141/solution.cpp) |
 | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [C++](./old-problems/0143/solution.cpp) |
