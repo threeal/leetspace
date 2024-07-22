@@ -1,0 +1,30 @@
+name: 1534. Count Good Triplets
+
+types:
+  inputs:
+    arr: std::vector<int>
+    a: int
+    b: int
+    c: int
+  output: int
+
+solutions:
+  cpp:
+    function: countGoodTriplets
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [3,0,1,1,9,7]
+      a: 7
+      b: 2
+      c: 3
+    output: 4
+
+  example_2:
+    inputs:
+      arr: [1,1,2,2,3]
+      a: 0
+      b: 0
+      c: 1
+    output: 0
