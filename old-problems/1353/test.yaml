@@ -1,0 +1,21 @@
+name: 1353. Maximum Number of Events That Can Be Attended
+
+types:
+  inputs:
+    events: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: maxEvents
+
+test_cases:
+  example_1:
+    inputs:
+      events: [[1, 2], [2, 3], [3, 4]]
+    output: 3
+
+  example_2:
+    inputs:
+      events: [[1, 2], [2, 3], [3, 4], [1, 2]]
+    output: 4
