@@ -1,0 +1,24 @@
+name: 2418. Sort the People
+
+types:
+  inputs:
+    names: std::vector<std::string>
+    heights: std::vector<int>
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: sortPeople
+
+test_cases:
+  example_1:
+    inputs:
+      names: [Mary, John, Emma]
+      heights: [180, 165, 170]
+    output: [Mary, Emma, John]
+
+  example_2:
+    inputs:
+      names: [Alice, Bob, Bob]
+      heights: [155, 185, 150]
+    output: [Bob, Alice, Bob]
