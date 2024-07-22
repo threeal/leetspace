@@ -24,3 +24,8 @@ test_cases:
     inputs:
       events: [[1, 2], [1, 2], [3, 3], [1, 5], [1, 5]]
     output: 5
+
+  test_case_41:
+    inputs:
+      events: [[1, 10], [2, 2], [2, 2], [2, 2], [2, 2]]
+    output: 2
