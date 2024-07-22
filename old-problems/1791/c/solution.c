@@ -1,3 +1,7 @@
 int findCenter(int** edges, int edgesSize, int* edgesColSize) {
-  return edges[edgesSize - 1][edgesColSize[edgesSize - 1] - 1];
+  (void)edgesSize;
+  (void)edgesColSize;
+  return edges[0][0] == edges[1][0] || edges[0][0] == edges[1][1]
+      ? edges[0][0]
+      : edges[0][1];
 }
