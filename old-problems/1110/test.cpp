@@ -93,4 +93,20 @@ TEST_CASE("1110. Delete Nodes And Return Forest") {
 
     REQUIRE(actual == expected);
   }
+
+  SECTION("Test Case 44") {
+    std::vector<int> toDelete{2, 3};
+    const auto trees = Solution{}.delNodes(
+        from_list({1, 2, std::nullopt, 4, 3}), toDelete);
+
+    std::vector<std::vector<std::optional<int>>> actual(trees.size());
+    for (std::size_t i = 0; i < trees.size(); ++i) {
+      actual[i] = to_list(trees[i]);
+    }
+
+    const std::vector<std::vector<std::optional<int>>> expected{
+        {1}, {4}};
+
+    REQUIRE(actual == expected);
+  }
 }
