@@ -71,9 +71,11 @@ TEST_CASE("1110. Delete Nodes And Return Forest") {
     for (std::size_t i = 0; i < trees.size(); ++i) {
       actual[i] = to_list(trees[i]);
     }
+    std::sort(actual.begin(), actual.end());
 
-    const std::vector<std::vector<std::optional<int>>> expected{
+    std::vector<std::vector<std::optional<int>>> expected{
         {1, 2, std::nullopt, 4}, {6}, {7}};
+    std::sort(expected.begin(), expected.end());
 
     REQUIRE(actual == expected);
   }
@@ -87,9 +89,10 @@ TEST_CASE("1110. Delete Nodes And Return Forest") {
     for (std::size_t i = 0; i < trees.size(); ++i) {
       actual[i] = to_list(trees[i]);
     }
+    std::sort(actual.begin(), actual.end());
 
-    const std::vector<std::vector<std::optional<int>>> expected{
-        {1, 2, 4}};
+    std::vector<std::vector<std::optional<int>>> expected{{1, 2, 4}};
+    std::sort(expected.begin(), expected.end());
 
     REQUIRE(actual == expected);
   }
@@ -103,9 +106,10 @@ TEST_CASE("1110. Delete Nodes And Return Forest") {
     for (std::size_t i = 0; i < trees.size(); ++i) {
       actual[i] = to_list(trees[i]);
     }
+    std::sort(actual.begin(), actual.end());
 
-    const std::vector<std::vector<std::optional<int>>> expected{
-        {1}, {4}};
+    std::vector<std::vector<std::optional<int>>> expected{{1}, {4}};
+    std::sort(expected.begin(), expected.end());
 
     REQUIRE(actual == expected);
   }
