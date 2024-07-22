@@ -20,6 +20,11 @@ test_cases:
       events: [[1, 2], [2, 3], [3, 4], [1, 2]]
     output: 4
 
+  test_case_31:
+    inputs:
+      events: [[1, 5], [1, 5], [1, 5], [2, 3], [2, 3]]
+    output: 5
+
   test_case_34:
     inputs:
       events: [[1, 2], [1, 2], [3, 3], [1, 5], [1, 5]]
