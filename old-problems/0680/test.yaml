@@ -1,0 +1,26 @@
+name: 680. Valid Palindrome II
+
+types:
+  inputs:
+    s: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: validPalindrome
+
+test_cases:
+  example_1:
+    inputs:
+      s: aba
+    output: true
+
+  example_2:
+    inputs:
+      s: abca
+    output: true
+
+  example_3:
+    inputs:
+      s: abc
+    output: false
