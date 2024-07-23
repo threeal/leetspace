@@ -1,0 +1,30 @@
+name: 2135. Count Words Obtained After Adding a Letter
+
+types:
+  inputs:
+    startWords: std::vector<std::string>
+    targetWords: std::vector<std::string>
+  output: int
+
+solutions:
+  cpp:
+    function: wordCount
+
+test_cases:
+  example_1:
+    inputs:
+      startWords: [ant, act, tack]
+      targetWords: [tack, act, acti]
+    output: 2
+
+  example_2:
+    inputs:
+      startWords: [ab, a]
+      targetWords: [abc, abcd]
+    output: 1
+
+  test_case_69:
+    inputs:
+      startWords: [g, vf, ylpuk, nyf, gdj, j, fyqzg, sizec]
+      targetWords: [r, am, jg, umhjo, fov, lujy, b, uz, y]
+    output: 2
