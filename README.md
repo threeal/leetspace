@@ -182,7 +182,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1170. Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/) | Medium | [C++](./old-problems/1170/solution.cpp) |
 | [1175. Prime Arrangements](https://leetcode.com/problems/prime-arrangements/) | Easy | [C](./old-problems/1175/c/solution.c) [C++](./old-problems/1175/solution.cpp) |
 | [1184. Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/) | Easy | [C](./old-problems/1184/c/solution.c) [C++](./old-problems/1184/solution.cpp) |
-| [1190. Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | Medium | [C++](./old-problems/1190/solution.cpp) |
+| [1190. Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | Medium | [C](./old-problems/1190/c/solution.c) [C++](./old-problems/1190/solution.cpp) |
 | [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | Easy | [C++](./problems/1207/solution.cpp) |
 | [1208. Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/) | Medium | [C](./old-problems/1208/c/solution.c) [C++](./old-problems/1208/solution.cpp) |
 | [1219. Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/) | Medium | [C](./old-problems/1219/c/solution.c) [C++](./old-problems/1219/solution.cpp) |
