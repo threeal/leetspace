@@ -1,0 +1,30 @@
+name: 1071. Greatest Common Divisor of Strings
+
+types:
+  inputs:
+    str1: std::string
+    str2: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: gcdOfStrings
+
+test_cases:
+  example_1:
+    inputs:
+      str1: ABCABC
+      str2: ABC
+    output: ABC
+
+  example_2:
+    inputs:
+      str1: ABABAB
+      str2: ABAB
+    output: AB
+
+  test_case_24:
+    inputs:
+      str1: LEET
+      str2: CODE
+    output: ""
