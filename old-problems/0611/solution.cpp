@@ -8,10 +8,15 @@ class Solution {
 
     int count{0};
     for (int c = nums.size() - 1; c >= 2; --c) {
-      for (int b{c - 1}; b >= 1; --b) {
-        int a{0};
-        while (a < b && nums[a] + nums[b] <= nums[c]) ++a;
-        count += b - a;
+      int a{0};
+      int b{c - 1};
+      while (a < b) {
+        if (nums[a] + nums[b] > nums[c]) {
+          count += b - a;
+          --b;
+        } else {
+          ++a;
+        }
       }
     }
 
