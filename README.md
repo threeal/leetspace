@@ -30,6 +30,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [C](./old-problems/0036/c/solution.c) [C++](./old-problems/0036/solution.cpp) |
 | [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | Hard | [C](./old-problems/0041/c/solution.c) [C++](./old-problems/0041/solution.cpp) |
 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [C++](./problems/0049/solution.cpp) |
+| [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [C++](./old-problems/0053/solution.cpp) |
 | [55. Jump Game](https://leetcode.com/problems/jump-game/) | Medium | [C++](./old-problems/0055/solution.cpp) |
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | [C](./old-problems/0057/c/solution.c) [C++](./old-problems/0057/solution.cpp) |
 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [C](./old-problems/0058/c/solution.c) [C++](./old-problems/0058/solution.cpp) |
