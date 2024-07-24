@@ -1,0 +1,34 @@
+name: 1380. Lucky Numbers in a Matrix
+
+types:
+  inputs:
+    matrix: std::vector<std::vector<int>>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: luckyNumbers
+
+test_cases:
+  example_1:
+    inputs:
+      matrix:
+        - [3, 7, 8]
+        - [9, 11, 13]
+        - [15, 16, 17]
+    output: [15]
+
+  example_2:
+    inputs:
+      matrix:
+        - [1, 10, 4, 2]
+        - [9, 3, 8, 7]
+        - [15, 16, 17, 12]
+    output: [12]
+
+  example_3:
+    inputs:
+      matrix:
+        - [7, 8]
+        - [1, 2]
+    output: [7]

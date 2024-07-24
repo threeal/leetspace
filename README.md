@@ -212,6 +212,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1357. Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/) | Medium | [C++](./old-problems/1357/solution.cpp) |
 | [1361. Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes) | Medium | [C](./old-problems/1361/c/solution.c) [C++](./old-problems/1361/solution.cpp) |
 | [1366. Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/) | Medium | [C](./old-problems/1366/c/solution.c) [C++](./old-problems/1366/solution.cpp) |
+| [1380. Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) | Easy | [C++](./old-problems/1380/solution.cpp) |
 | [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | Medium | [C++](./old-problems/1382/solution.cpp) |
 | [1404. Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | Medium | [C](./old-problems/1404/c/solution.c) [C++](./old-problems/1404/solution.cpp) |
 | [1419. Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/) | Medium | [C](./old-problems/1419/c/solution.c) [C++](./old-problems/1419/solution.cpp) |
