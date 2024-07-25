@@ -1,0 +1,30 @@
+name: 1668. Maximum Repeating Substring
+
+types:
+  inputs:
+    sequence: std::string
+    word: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: maxRepeating
+
+test_cases:
+  example_1:
+    inputs:
+      sequence: ababc
+      word: ab
+    output: 2
+
+  example_2:
+    inputs:
+      sequence: ababc
+      word: ba
+    output: 1
+
+  example_3:
+    inputs:
+      sequence: ababc
+      word: ac
+    output: 0
