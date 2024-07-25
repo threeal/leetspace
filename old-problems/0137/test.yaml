@@ -1,0 +1,21 @@
+name: 137. Single Number II
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: singleNumber
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 2, 3, 2]
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [0, 1, 0, 1, 0, 1, 99]
+    output: 99
