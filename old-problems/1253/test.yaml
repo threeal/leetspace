@@ -36,3 +36,10 @@ test_cases:
     output:
       - [1, 1, 1, 0, 1, 0, 0, 1, 0, 0]
       - [1, 0, 1, 0, 0, 0, 1, 1, 0, 1]
+
+  test_case_66:
+    inputs:
+      upper: 9
+      lower: 2
+      colsum: [0, 1, 2, 0, 0, 0, 0, 0, 2, 1, 2, 1, 2]
+    output: []
