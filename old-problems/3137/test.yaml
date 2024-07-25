@@ -1,0 +1,24 @@
+name: 3137. Minimum Number of Operations to Make Word K-Periodic
+
+types:
+  inputs:
+    word: std::string
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: minimumOperationsToMakeKPeriodic
+
+test_cases:
+  example_1:
+    inputs:
+      word: leetcodeleet
+      k: 4
+    output: 1
+
+  example_2:
+    inputs:
+      word: leetcoleet
+      k: 2
+    output: 3
