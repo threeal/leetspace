@@ -37,6 +37,13 @@ test_cases:
       - [1, 1, 1, 0, 1, 0, 0, 1, 0, 0]
       - [1, 0, 1, 0, 0, 0, 1, 1, 0, 1]
 
+  test_case_59:
+    inputs:
+      upper: 4
+      lower: 7
+      colsum: [2, 1, 2, 2, 1, 1, 1]
+    output: []
+
   test_case_66:
     inputs:
       upper: 9
