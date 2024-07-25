@@ -125,7 +125,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [657. Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | Easy | [C](./old-problems/0657/c/solution.c) [C++](./old-problems/0657/solution.cpp) |
 | [661. Image Smoother](https://leetcode.com/problems/image-smoother/) | Easy | [C++](./problems/0661/solution.cpp) |
 | [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | [C](./old-problems/0678/c/solution.c) [C++](./old-problems/0678/solution.cpp) |
-| [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | [C++](./old-problems/0680/solution.cpp) |
+| [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | [C](./old-problems/0680/c/solution.c) [C++](./old-problems/0680/solution.cpp) |
 | [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | Medium | [C](./old-problems/0713/c/solution.c) [C++](./old-problems/0713/solution.cpp) |
 | [726. Number of Atoms](https://leetcode.com/problems/number-of-atoms/) | Hard | [C++](./problems/0726/solution.cpp) |
 | [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [C](./old-problems/0739/c/solution.c) [C++](./old-problems/0739/solution.cpp) |
