@@ -248,6 +248,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1582. Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | Easy | [C](./old-problems/1582/c/solution.c) [C++](./old-problems/1582/solution.cpp) |
 | [1598. Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/) | Easy | [C](./old-problems/1598/c/solution.c) [C++](./old-problems/1598/solution.cpp) |
 | [1600. Throne Inheritance](https://leetcode.com/problems/throne-inheritance/) | Medium | [C++](./old-problems/1600/solution.cpp) |
+| [1605. Find Valid Matrix Given Row and Column Sums](https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/) | Medium | [C++](./old-problems/1605/solution.cpp) |
 | [1608. Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | Easy | [C](./old-problems/1608/c/solution.c) [C++](./old-problems/1608/solution.cpp) |
 | [1609. Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | Medium | [C++](./old-problems/1609/solution.cpp) |
 | [1611. Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/) | Hard | [C](./old-problems/1611/c/solution.c) [C++](./old-problems/1611/solution.cpp) |
