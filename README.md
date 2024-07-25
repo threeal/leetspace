@@ -49,7 +49,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | Medium | [C++](./old-problems/0129/solution.cpp) |
 | [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | [C++](./old-problems/0131/solution.cpp) |
 | [136. Single Number](https://leetcode.com/problems/single-number/) | Easy | [C](./old-problems/0136/solution.c) [C++](./old-problems/0136/solution.cpp) |
-| [137. Single Number II](https://leetcode.com/problems/single-number-ii/) | Medium | [C++](./old-problems/0137/solution.cpp) |
+| [137. Single Number II](https://leetcode.com/problems/single-number-ii/) | Medium | [C](./old-problems/0137/c/solution.c) [C++](./old-problems/0137/solution.cpp) |
 | [140. Word Break II](https://leetcode.com/problems/word-break-ii/) | Hard | [C++](./old-problems/0140/solution.cpp) |
 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [C++](./old-problems/0141/solution.cpp) |
 | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [C++](./old-problems/0143/solution.cpp) |
