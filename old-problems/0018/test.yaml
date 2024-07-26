@@ -22,3 +22,9 @@ test_cases:
       nums: [2, 2, 2, 2, 2]
       target: 8
     output: [[2, 2, 2, 2]]
+
+  test_case_283:
+    inputs:
+      nums: [1000000000, 1000000000, 1000000000, 1000000000]
+      target: 0
+    output: []
