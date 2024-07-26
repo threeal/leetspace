@@ -18,6 +18,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [15. 3Sum](https://leetcode.com/problems/3sum) | Medium | [C++](./problems/0015/solution.cpp) |
 | [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | [C](./old-problems/0016/c/solution.c) [C++](./old-problems/0016/solution.cpp) |
 | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | Medium | [C++](./problems/0017/solution.cpp) |
+| [18. 4Sum](https://leetcode.com/problems/4sum/) | Medium | [C++](./old-problems/0018/solution.cpp) |
 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | [C++](./old-problems/0019/solution.cpp) |
 | [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | [C++](./old-problems/0023/solution.cpp) |
 | [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium | [C++](./old-problems/0024/solution.cpp) |

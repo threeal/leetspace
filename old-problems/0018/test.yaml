@@ -1,0 +1,36 @@
+name: 18. 4Sum
+
+types:
+  inputs:
+    nums: std::vector<int>
+    target: int
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: fourSum
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 0, -1, 0, -2, 2]
+      target: 0
+    output: [[-2, -1, 1, 2], [-2, 0, 0, 2], [-1, 0, 0, 1]]
+
+  example_2:
+    inputs:
+      nums: [2, 2, 2, 2, 2]
+      target: 8
+    output: [[2, 2, 2, 2]]
+
+  test_case_283:
+    inputs:
+      nums: [1000000000, 1000000000, 1000000000, 1000000000]
+      target: 0
+    output: []
+
+  test_case_291:
+    inputs:
+      nums: [1000000000, 1000000000, 1000000000, 1000000000]
+      target: -294967296
+    output: []
