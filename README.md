@@ -299,7 +299,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1971. Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | Easy | [C](./old-problems/1971/c/solution.c) [C++](./old-problems/1971/solution.cpp) |
 | [1980. Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/) | Medium | [C++](./problems/1980/solution.cpp) |
 | [1992. Find All Groups of Farmland](https://leetcode.com/problems/find-all-groups-of-farmland/) | Medium | [C](./old-problems/1992/c/solution.c) [C++](./old-problems/1992/solution.cpp) |
-| [1995. Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/) | Easy | [C++](./old-problems/1995/solution.cpp) |
+| [1995. Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/) | Easy | [C](./old-problems/1995/c/solution.c) [C++](./old-problems/1995/solution.cpp) |
 | [2000. Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | Easy | [C](./old-problems/2000/c/solution.c) [C++](./old-problems/2000/solution.cpp) |
 | [2009. Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous) | Hard | [C++](./problems/2009/solution.cpp) |
 | [2018. Check if Word Can Be Placed In Crossword](https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/) | Medium | [C](./old-problems/2018/c/solution.c) [C++](./old-problems/2018/solution.cpp) |
