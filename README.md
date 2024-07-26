@@ -234,7 +234,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1496. Path Crossing](https://leetcode.com/problems/path-crossing/) | Easy | [C++](./problems/1496/solution.cpp) |
 | [1503. Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank) | Medium | [C](./old-problems/1503/c/solution.c) [C++](./old-problems/1503/solution.cpp) |
 | [1507. Reformat Date](https://leetcode.com/problems/reformat-date/) | Easy | [C](./old-problems/1507/c/solution.c) [C++](./old-problems/1507/solution.cpp) |
-| [1509. Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/) | Medium | [C++](./old-problems/1509/solution.cpp) |
+| [1509. Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/) | Medium | [C](./old-problems/1509/c/solution.c) [C++](./old-problems/1509/solution.cpp) |
 | [1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | Easy | [C](./old-problems/1512/c/solution.c) [C++](./old-problems/1512/solution.cpp) |
 | [1518. Water Bottles](https://leetcode.com/problems/water-bottles/) | Easy | [C](./old-problems/1518/c/solution.c) [C++](./old-problems/1518/solution.cpp) |
 | [1530. Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | Medium | [C++](./old-problems/1530/solution.cpp) |
