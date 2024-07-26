@@ -1,0 +1,26 @@
+name: 1995. Count Special Quadruplets
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: countQuadruplets
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1,2,3,6]
+    output: 1
+
+  example_2:
+    inputs:
+      nums: [3,3,6,4,5]
+    output: 0
+
+  example_3:
+    inputs:
+      nums: [1,1,1,3,5]
+    output: 4
