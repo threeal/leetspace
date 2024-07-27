@@ -1,0 +1,29 @@
+name: 1109. Corporate Flight Bookings
+
+types:
+  inputs:
+    bookings: std::vector<std::vector<int>>
+    n: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: corpFlightBookings
+
+test_cases:
+  example_1:
+    inputs:
+      bookings:
+        - [1, 2, 10]
+        - [2, 3, 20]
+        - [2, 5, 25]
+      n: 5
+    output: [10, 55, 45, 25, 25]
+
+  example_2:
+    inputs:
+      bookings:
+        - [1, 2, 10]
+        - [2, 2, 15]
+      n: 2
+    output: [10, 25]
