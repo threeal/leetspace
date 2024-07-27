@@ -7,15 +7,45 @@ int** reconstructMatrix(
   *returnColumnSizes = malloc(2 * sizeof(int));
   *returnSize = 2;
 
-  mat[0] = malloc(colsumSize * sizeof(int));
+  mat[0] = calloc(colsumSize, sizeof(int));
   (*returnColumnSizes)[0] = colsumSize;
 
-  mat[1] = malloc(colsumSize * sizeof(int));
+  mat[1] = calloc(colsumSize, sizeof(int));
   (*returnColumnSizes)[1] = colsumSize;
 
-  (void)upper;
-  (void)lower;
-  (void)colsum;
+  for (int i = colsumSize - 1; i >= 0; --i) {
+    if (colsum[i] == 2) {
+      if (lower > 0 && upper > 0) {
+        mat[1][i] = 1;
+        mat[0][i] = 1;
+        --lower;
+        --upper;
+      } else {
+        *returnSize = 0;
+        return mat;
+      }
+    }
+  }
+
+  for (int i = colsumSize - 1; i >= 0; --i) {
+    if (colsum[i] == 1) {
+      if (lower > 0) {
+        mat[1][i] = 1;
+        --lower;
+      } else if (upper > 0) {
+        mat[0][i] = 1;
+        --upper;
+      } else {
+        *returnSize = 0;
+        return mat;
+      }
+    }
+  }
+
+  if (upper > 0 || lower > 0) {
+    *returnSize = 0;
+    return mat;
+  }
 
   return mat;
 }
