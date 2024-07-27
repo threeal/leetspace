@@ -19,3 +19,8 @@ test_cases:
     inputs:
       s: azxxzy
     output: ay
+
+  test_case_98:
+    inputs:
+      s: aaaaaaaa
+    output: ""
