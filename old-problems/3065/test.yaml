@@ -1,0 +1,30 @@
+name: 3065. Minimum Operations to Exceed Threshold Value I
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: minOperations
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 11, 10, 1, 3]
+      k: 10
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [1, 1, 2, 4, 9]
+      k: 1
+    output: 0
+
+  example_3:
+    inputs:
+      nums: [1, 1, 2, 4, 9]
+      k: 9
+    output: 4
