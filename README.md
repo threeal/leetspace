@@ -118,7 +118,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | Easy | [C](./old-problems/0557/c/solution.c) [C++](./old-problems/0557/solution.cpp) |
 | [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | Medium | [C++](./problems/0576/solution.cpp) |
 | [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | Easy | [C++](./old-problems/0606/solution.cpp) |
-| [611. Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | Medium | [C++](./old-problems/0611/solution.cpp) |
+| [611. Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | Medium | [C](./old-problems/0611/c/solution.c) [C++](./old-problems/0611/solution.cpp) |
 | [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Medium | [C](./old-problems/0621/c/solution.c) [C++](./old-problems/0621/solution.cpp) |
 | [623. Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) | Medium | [C++](./old-problems/0623/solution.cpp) |
 | [633. Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | Medium | [C](./old-problems/0633/c/solution.c) [C++](./old-problems/0633/solution.cpp) |
