@@ -1,0 +1,26 @@
+name: 1275. Find Winner on a Tic Tac Toe Game
+
+types:
+  inputs:
+    moves: std::vector<std::vector<int>>
+  output: std::string
+
+solutions:
+  cpp:
+    function: tictactoe
+
+test_cases:
+  example_1:
+    inputs:
+      moves: [[0, 0], [2, 0], [1, 1], [2, 1], [2, 2]]
+    output: A
+
+  example_2:
+    inputs:
+      moves: [[0, 0], [1, 1], [0, 1], [0, 2], [1, 0], [2, 0]]
+    output: B
+
+  example_3:
+    inputs:
+      moves: [[0, 0], [1, 1], [2, 0], [1, 0], [1, 2], [2, 1], [0, 1], [0, 2], [2, 2]]
+    output: Draw
