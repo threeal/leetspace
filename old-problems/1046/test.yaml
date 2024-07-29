@@ -1,0 +1,21 @@
+name: 1046. Last Stone Weight
+
+types:
+  inputs:
+    stones: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: lastStoneWeight
+
+test_cases:
+  example_1:
+    inputs:
+      stones: [2, 7, 4, 1, 8, 1]
+    output: 1
+
+  example_2:
+    inputs:
+      stones: [1]
+    output: 1
