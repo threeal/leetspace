@@ -1,0 +1,21 @@
+name: 914. X of a Kind in a Deck of Cards
+
+types:
+  inputs:
+    deck: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: hasGroupsSizeX
+
+test_cases:
+  example_1:
+    inputs:
+      deck: [1, 2, 3, 4, 4, 3, 2, 1]
+    output: true
+
+  example_2:
+    inputs:
+      deck: [1, 1, 1, 2, 2, 2, 3, 3]
+    output: false
