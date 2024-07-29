@@ -114,6 +114,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [514. Freedom Trail](https://leetcode.com/problems/freedom-trail/) | Hard | [C](./old-problems/0514/c/solution.c) [C++](./old-problems/0514/solution.cpp) |
 | [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | Medium | [C](./old-problems/0523/c/solution.c) [C++](./old-problems/0523/solution.cpp) |
 | [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) | Medium | [C++](./problems/0525/solution.cpp) |
+| [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | Easy | [C++](./old-problems/0541/solution.cpp) |
 | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [C++](./old-problems/0543/solution.cpp) |
 | [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | Easy | [C](./old-problems/0557/c/solution.c) [C++](./old-problems/0557/solution.cpp) |
 | [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | Medium | [C++](./problems/0576/solution.cpp) |

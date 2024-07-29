@@ -1,0 +1,24 @@
+name: 541. Reverse String II
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: reverseStr
+
+test_cases:
+  example_1:
+    inputs:
+      s: abcdefg
+      k: 2
+    output: bacdfeg
+
+  example_2:
+    inputs:
+      s: abcd
+      k: 2
+    output: bacd
