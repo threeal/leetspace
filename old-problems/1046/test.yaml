@@ -19,3 +19,8 @@ test_cases:
     inputs:
       stones: [1]
     output: 1
+
+  test_case_44:
+    inputs:
+      stones: [2, 2]
+    output: 0
