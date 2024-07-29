@@ -1,0 +1,30 @@
+name: 1209. Remove All Adjacent Duplicates in String II
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: removeDuplicates
+
+test_cases:
+  example_1:
+    inputs:
+      s: abcd
+      k: 2
+    output: abcd
+
+  example_2:
+    inputs:
+      s: deeedbbcccbdaa
+      k: 3
+    output: aa
+
+  example_3:
+    inputs:
+      s: pbbcggttciiippooaais
+      k: 2
+    output: ps
