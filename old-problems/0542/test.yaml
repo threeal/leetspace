@@ -1,0 +1,33 @@
+name: 542. 01 Matrix
+
+types:
+  inputs:
+    mat: std::vector<std::vector<int>>
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: updateMatrix
+
+test_cases:
+  example_1:
+    inputs:
+      mat:
+        - [0,0,0]
+        - [0,1,0]
+        - [0,0,0]
+    output:
+      - [0,0,0]
+      - [0,1,0]
+      - [0,0,0]
+
+  example_2:
+    inputs:
+      mat:
+        - [0,0,0]
+        - [0,1,0]
+        - [1,1,1]
+    output:
+      - [0,0,0]
+      - [0,1,0]
+      - [1,2,1]
