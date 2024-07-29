@@ -363,6 +363,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2751. Robot Collisions](https://leetcode.com/problems/robot-collisions/) | Hard | [C++](./old-problems/2751/solution.cpp) |
 | [2770. Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/) | Medium | [C](./old-problems/2770/c/solution.c) [C++](./old-problems/2770/solution.cpp) |
 | [2785. Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string) | Medium | [C](./old-problems/2785/c/solution.c) [C++](./old-problems/2785/solution.cpp) |
+| [2810. Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/) | Easy | [C++](./old-problems/2810/solution.cpp) |
 | [2812. Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/) | Medium | [C++](./problems/2812/solution.cpp) |
 | [2816. Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/) | Medium | [C++](./old-problems/2816/solution.cpp) |
 | [2849. Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time) | Medium | [C](./old-problems/2849/c/solution.c) [C++](./old-problems/2849/solution.cpp) |
