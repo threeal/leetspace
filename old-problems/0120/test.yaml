@@ -1,0 +1,26 @@
+name: 120. Triangle
+
+types:
+  inputs:
+    triangle: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: minimumTotal
+
+test_cases:
+  example_1:
+    inputs:
+      triangle:
+        - [2]
+        - [3, 4]
+        - [6, 5, 7]
+        - [4, 1, 8, 3]
+    output: 11
+
+  example_2:
+    inputs:
+      triangle:
+        - [-10]
+    output: -10
