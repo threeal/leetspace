@@ -1,0 +1,30 @@
+name: 1247. Minimum Swaps to Make Strings Equal
+
+types:
+  inputs:
+    s1: std::string
+    s2: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minimumSwap
+
+test_cases:
+  example_1:
+    inputs:
+      s1: xx
+      s2: yy
+    output: 1
+
+  example_2:
+    inputs:
+      s1: xy
+      s2: yx
+    output: 2
+
+  example_3:
+    inputs:
+      s1: xx
+      s2: xy
+    output: -1
