@@ -1,0 +1,21 @@
+name: 345. Reverse Vowels of a String
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: reverseVowels
+
+test_cases:
+  example_1:
+    inputs:
+      s: hello
+    output: holle
+
+  example_2:
+    inputs:
+      s: leetcode
+    output: leotcede
