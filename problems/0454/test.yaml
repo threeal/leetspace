@@ -1,0 +1,39 @@
+cpp:
+  function:
+    name: fourSumCount
+    inputs:
+      - type: std::vector<int>
+        value: nums1
+      - type: std::vector<int>
+        value: nums2
+      - type: std::vector<int>
+        value: nums3
+      - type: std::vector<int>
+        value: nums4
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      nums1: [1, 2]
+      nums2: [-2, -1]
+      nums3: [-1, 2]
+      nums4: [0, 2]
+    output: 2
+
+  - name: example 2
+    inputs:
+      nums1: [0]
+      nums2: [0]
+      nums3: [0]
+      nums4: [0]
+    output: 1
+
+  - name: test case 5
+    inputs:
+      nums1: [0, 1, -1]
+      nums2: [-1, 1, 0]
+      nums3: [0, 0, 1]
+      nums4: [-1, 1, 1]
+    output: 17
