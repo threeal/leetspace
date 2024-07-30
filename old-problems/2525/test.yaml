@@ -28,3 +28,11 @@ test_cases:
       height: 800
       mass: 50
     output: Neither
+
+  test_case_13:
+    inputs:
+      length: 2909
+      width: 3968
+      height: 3272
+      mass: 727
+    output: Both
