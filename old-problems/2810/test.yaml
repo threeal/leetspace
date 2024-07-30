@@ -1,0 +1,21 @@
+name: 2810. Faulty Keyboard
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: finalString
+
+test_cases:
+  example_1:
+    inputs:
+      s: string
+    output: rtsng
+
+  example_2:
+    inputs:
+      s: poiinter
+    output: ponter
