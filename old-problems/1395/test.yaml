@@ -1,0 +1,26 @@
+name: 1395. Count Number of Teams
+
+types:
+  inputs:
+    rating: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: numTeams
+
+test_cases:
+  example_1:
+    inputs:
+      rating: [2, 5, 3, 4, 1]
+    output: 3
+
+  example_2:
+    inputs:
+      rating: [2, 1, 3]
+    output: 0
+
+  example_3:
+    inputs:
+      rating: [1, 2, 3, 4]
+    output: 4
