@@ -1,0 +1,30 @@
+name: 2525. Categorize Box According to Criteria
+
+types:
+  inputs:
+    length: int
+    width: int
+    height: int
+    mass: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: categorizeBox
+
+test_cases:
+  example_1:
+    inputs:
+      length: 1000
+      width: 35
+      height: 700
+      mass: 300
+    output: Heavy
+
+  example_2:
+    inputs:
+      length: 200
+      width: 50
+      height: 800
+      mass: 50
+    output: Neither
