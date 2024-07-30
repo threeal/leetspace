@@ -29,3 +29,11 @@ cases:
       nums3: [0]
       nums4: [0]
     output: 1
+
+  - name: test case 5
+    inputs:
+      nums1: [0, 1, -1]
+      nums2: [-1, 1, 0]
+      nums3: [0, 0, 1]
+      nums4: [-1, 1, 1]
+    output: 17
