@@ -30,7 +30,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | [C++](./problems/0035/solution.cpp) |
 | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [C](./old-problems/0036/c/solution.c) [C++](./old-problems/0036/solution.cpp) |
 | [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | Hard | [C](./old-problems/0041/c/solution.c) [C++](./old-problems/0041/solution.cpp) |
-| [46. Permutations](https://leetcode.com/problems/permutations/) | Medium | [C++](./old-problems/0046/solution.cpp) |
+| [46. Permutations](https://leetcode.com/problems/permutations/) | Medium | [C](./old-problems/0046/c/solution.c) [C++](./old-problems/0046/solution.cpp) |
 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [C++](./problems/0049/solution.cpp) |
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [C](./old-problems/0053/c/solution.c) [C++](./old-problems/0053/solution.cpp) |
 | [55. Jump Game](https://leetcode.com/problems/jump-game/) | Medium | [C++](./old-problems/0055/solution.cpp) |
