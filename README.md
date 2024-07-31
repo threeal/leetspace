@@ -26,6 +26,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Easy | [C++](./old-problems/0026/solution.cpp) |
 | [27. Remove Element](https://leetcode.com/problems/remove-element) | Easy | [C++](./old-problems/0027/solution.cpp) |
 | [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | Easy | [C++](./problems/0028/solution.cpp) |
+| [31. Next Permutation](https://leetcode.com/problems/next-permutation/) | Medium | [C++](./old-problems/0031/solution.cpp) |
 | [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | Medium | [C++](./problems/0034/solution.cpp) |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | [C++](./problems/0035/solution.cpp) |
 | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [C](./old-problems/0036/c/solution.c) [C++](./old-problems/0036/solution.cpp) |
