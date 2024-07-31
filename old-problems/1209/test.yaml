@@ -29,3 +29,9 @@ test_cases:
       s: pbbcggttciiippooaais
       k: 2
     output: ps
+
+  test_case_4:
+    inputs:
+      s: yfttttfbbbbnnnnffbgffffgbbbbgssssgthyyyy
+      k: 4
+    output: ybth
