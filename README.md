@@ -201,7 +201,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1190. Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | Medium | [C](./old-problems/1190/c/solution.c) [C++](./old-problems/1190/solution.cpp) |
 | [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | Easy | [C++](./problems/1207/solution.cpp) |
 | [1208. Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/) | Medium | [C](./old-problems/1208/c/solution.c) [C++](./old-problems/1208/solution.cpp) |
-| [1209. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | Medium | [C++](./old-problems/1209/solution.cpp) |
+| [1209. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | Medium | [C](./old-problems/1209/c/solution.c) [C++](./old-problems/1209/solution.cpp) |
 | [1219. Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/) | Medium | [C](./old-problems/1219/c/solution.c) [C++](./old-problems/1219/solution.cpp) |
 | [1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation) | Hard | [C](./old-problems/1220/c/solution.c) [C++](./old-problems/1220/solution.cpp) |
 | [1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line) | Easy | [C++](./problems/1232/solution.cpp) |
