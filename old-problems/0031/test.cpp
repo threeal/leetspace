@@ -22,4 +22,10 @@ TEST_CASE("31. Next Permutation") {
     Solution{}.nextPermutation(nums);
     REQUIRE(nums == std::vector<int>{1, 5, 1});
   }
+
+  SECTION("Test Case 202") {
+    std::vector<int> nums{1, 3, 2};
+    Solution{}.nextPermutation(nums);
+    REQUIRE(nums == std::vector<int>{2, 1, 3});
+  }
 }
