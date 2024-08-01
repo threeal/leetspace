@@ -5,20 +5,7 @@ class Solution {
  public:
   int snakesAndLadders(std::vector<std::vector<int>>& board) {
     const int n = board.size();
-    const int end = n * n - 1;
-
-    std::vector<int> line{};
-    line.reserve(n * n);
-    bool right{true};
-    for (int i{n - 1}; i >= 0; --i) {
-      if (right) {
-        for (int j{0}; j < n; ++j) line.push_back(board[i][j]);
-        right = false;
-      } else {
-        for (int j{n - 1}; j >= 0; --j) line.push_back(board[i][j]);
-        right = true;
-      }
-    }
+    const int end{n * n - 1};
 
     std::queue<int> positions{};
     positions.push(0);
@@ -29,16 +16,16 @@ class Solution {
         positions.pop();
 
         if (pos + 6 >= end) return moves;
-        for (int j{1}; j <= 6; ++j) {
-          int next = pos + j;
-          if (line[next] > 0) {
-            const auto temp = line[next];
-            line[next] = 0;
-            next = temp - 1;
+        for (int next{pos + 6}; next > pos; --next) {
+          const int y{n - 1 - next / n};
+          const int x{(next / n) % 2 == 0 ? next % n : n - 1 - next % n};
+          if (board[y][x] > 0) {
+            const int next{board[y][x] - 1};
+            board[y][x] = 0;
             if (next == end) return moves;
             positions.push(next);
-          } else if (line[next] < 0) {
-            line[next] = 0;
+          } else if (board[y][x] < 0) {
+            board[y][x] = 0;
             positions.push(next);
           }
         }
