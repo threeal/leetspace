@@ -19,3 +19,8 @@ test_cases:
     inputs:
       trees: [[1, 2], [2, 2], [4, 2]]
     output: [[4, 2], [2, 2], [1, 2]]
+
+  test_case_18:
+    inputs:
+      trees: [[1, 5]]
+    output: [[1, 5]]
