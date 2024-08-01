@@ -1,0 +1,21 @@
+name: 976. Largest Perimeter Triangle
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: largestPerimeter
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 1, 2]
+    output: 5
+
+  example_2:
+    inputs:
+      nums: [1, 2, 1, 10]
+    output: 0
