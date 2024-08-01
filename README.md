@@ -208,6 +208,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line) | Easy | [C++](./problems/1232/solution.cpp) |
 | [1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | Hard | [C++](./problems/1235/solution.cpp) |
 | [1239. Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium | [C](./old-problems/1239/c/solution.c) [C++](./old-problems/1239/solution.cpp) |
+| [1247. Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) | Medium | [C++](./old-problems/1247/solution.cpp) |
 | [1248. Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/) | Medium | [C](./old-problems/1248/c/solution.c) [C++](./old-problems/1248/solution.cpp) |
 | [1253. Reconstruct a 2-Row Binary Matrix](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/) | Medium | [C](./old-problems/1253/c/solution.c) [C++](./old-problems/1253/solution.cpp) |
 | [1255. Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/) | Hard | [C](./old-problems/1255/c/solution.c) [C++](./old-problems/1255/solution.cpp) |
