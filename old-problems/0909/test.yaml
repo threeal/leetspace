@@ -35,3 +35,11 @@ test_cases:
         - [-1, 9, 8]
         - [-1, 8, 9]
     output: 1
+
+  test_case_126:
+    inputs:
+      board:
+        - [1, 1, -1]
+        - [1, 1, 1]
+        - [-1, 1, 1]
+    output: -1
