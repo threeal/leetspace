@@ -9,6 +9,7 @@ types:
   output: std::string
 
 solutions:
+  c:
   cpp:
     function: categorizeBox
 
