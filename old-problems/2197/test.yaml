@@ -1,0 +1,26 @@
+name: 2197. Replace Non-Coprime Numbers in Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: replaceNonCoprimes
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [6, 4, 3, 2, 7, 6, 2]
+    output: [12, 7, 6]
+
+  example_2:
+    inputs:
+      nums: [2, 2, 1, 1, 3, 3, 3]
+    output: [2, 1, 1, 3]
+
+  test_case_7:
+    inputs:
+      nums: [31, 97561, 97561, 97561, 97561, 97561, 97561, 97561, 97561]
+    output: [31, 97561]
