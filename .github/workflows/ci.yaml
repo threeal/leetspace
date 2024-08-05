@@ -34,9 +34,8 @@ jobs:
           key: CPM-${{ runner.os }}-${{ hashFiles('package-lock') }}
 
       - name: Build Solutions
-        uses: threeal/cmake-action@v1.3.0
+        uses: threeal/cmake-action@v2.0.0
         with:
-          run-build: true
           generator: Ninja
 
       - name: Check Formatting
