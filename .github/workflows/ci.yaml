@@ -33,6 +33,9 @@ jobs:
           path: build/_deps
           key: CPM-${{ runner.os }}-${{ hashFiles('package-lock') }}
 
+      - name: Setup Ninja
+        uses: seanmiddleditch/gha-setup-ninja@v5
+
       - name: Build Solutions
         uses: threeal/cmake-action@v2.0.0
         with:
