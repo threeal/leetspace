@@ -163,7 +163,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [881. Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | Medium | [C](./old-problems/0881/c/solution.c) [C++](./old-problems/0881/solution.cpp) |
 | [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | Easy | [C++](./problems/0905/solution.cpp) |
 | [908. Smallest Range I](https://leetcode.com/problems/smallest-range-i/) | Easy | [C](./old-problems/0908/c/solution.c) [C++](./old-problems/0908/solution.cpp) |
-| [909. Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/) | Medium | [C++](./old-problems/0909/solution.cpp) |
+| [909. Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/) | Medium | [C](./old-problems/0909/c/solution.c) [C++](./old-problems/0909/solution.cpp) |
 | [912. Sort an Array](https://leetcode.com/problems/sort-an-array/) | Medium | [C](./old-problems/0912/c/solution.c) [C++](./old-problems/0912/solution.cpp) |
 | [925. Long Pressed Name](https://leetcode.com/problems/long-pressed-name/) | Easy | [C](./old-problems/0925/c/solution.c) [C++](./old-problems/0925/solution.cpp) |
 | [929. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | Easy | [C](./old-problems/0929/c/solution.c) [C++](./old-problems/0929/solution.cpp) |
