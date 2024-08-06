@@ -1,0 +1,26 @@
+name: 2490. Circular Sentence
+
+types:
+  inputs:
+    sentence: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: isCircularSentence
+
+test_cases:
+  example_1:
+    inputs:
+      sentence: leetcode exercises sound delightful
+    output: true
+
+  example_2:
+    inputs:
+      sentence: eetcode
+    output: true
+
+  example_3:
+    inputs:
+      sentence: Leetcode is cool
+    output: false
