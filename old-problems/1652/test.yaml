@@ -1,0 +1,30 @@
+name: 1652. Defuse the Bomb
+
+types:
+  inputs:
+    code: std::vector<int>
+    k: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: decrypt
+
+test_cases:
+  example_1:
+    inputs:
+      code: [5, 7, 1, 4]
+      k: 3
+    output: [12, 10, 16, 13]
+
+  example_2:
+    inputs:
+      code: [1, 2, 3, 4]
+      k: 0
+    output: [0, 0, 0, 0]
+
+  example_3:
+    inputs:
+      code: [2, 4, 9, 3]
+      k: -2
+    output: [12, 5, 6, 13]
