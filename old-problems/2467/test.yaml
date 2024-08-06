@@ -25,3 +25,10 @@ test_cases:
       bob: 1
       amount: [-7280, 2350]
     output: -7280
+
+  test_case_21:
+    inputs:
+      edges: [[0, 1], [1, 2], [2, 3]]
+      bob: 3
+      amount: [-5644, -6018, 1188, -8502]
+    output: -11662
