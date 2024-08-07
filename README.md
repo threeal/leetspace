@@ -371,7 +371,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2497. Maximum Star Sum of a Graph](https://leetcode.com/problems/maximum-star-sum-of-a-graph/) | Medium | [C++](./old-problems/2497/solution.cpp) |
 | [2511. Maximum Enemy Forts That Can Be Captured](https://leetcode.com/problems/maximum-enemy-forts-that-can-be-captured/) | Easy | [C](./old-problems/2511/c/solution.c) [C++](./old-problems/2511/solution.cpp) |
 | [2525. Categorize Box According to Criteria](https://leetcode.com/problems/categorize-box-according-to-criteria/) | Easy | [C](./old-problems/2525/c/solution.c) [C++](./old-problems/2525/solution.cpp) |
-| [2531. Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/) | Medium | [C++](./old-problems/2531/solution.cpp) |
+| [2531. Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/) | Medium | [C](./old-problems/2531/c/solution.c) [C++](./old-problems/2531/solution.cpp) |
 | [2540. Minimum Common Value](https://leetcode.com/problems/minimum-common-value/) | Easy | [C](./old-problems/2540/c/solution.c) [C++](./old-problems/2540/solution.cpp) |
 | [2545. Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/) | Medium | [C](./old-problems/2545/c/solution.c) [C++](./old-problems/2545/solution.cpp) |
 | [2582. Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/) | Easy | [C](./old-problems/2582/c/solution.c) [C++](./old-problems/2582/solution.cpp) |
