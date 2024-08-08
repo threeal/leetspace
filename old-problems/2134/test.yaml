@@ -1,0 +1,31 @@
+name: 2134. Minimum Swaps to Group All 1's Together II
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minSwaps
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [0, 1, 0, 1, 1, 0, 0]
+    output: 1
+
+  example_2:
+    inputs:
+      nums: [0, 1, 1, 1, 0, 0, 1, 1, 0]
+    output: 2
+
+  example_3:
+    inputs:
+      nums: [1, 1, 0, 0, 1]
+    output: 0
+
+  test_case_6:
+    inputs:
+      nums: [0, 0, 0]
+    output: 0
