@@ -19,3 +19,8 @@ test_cases:
     inputs:
       s: "11100"
     output: 0
+
+  test_case_18:
+    inputs:
+      s: "001011"
+    output: 4
