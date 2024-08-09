@@ -379,6 +379,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2582. Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/) | Easy | [C](./old-problems/2582/c/solution.c) [C++](./old-problems/2582/solution.cpp) |
 | [2597. The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/) | Medium | [C](./old-problems/2597/c/solution.c) [C++](./old-problems/2597/solution.cpp) |
 | [2610. Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions) | Medium | [C++](./problems/2610/solution.cpp) |
+| [2616. Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/) | Medium | [C++](./old-problems/2616/solution.cpp) |
 | [2642. Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator) | Hard | [C++](./old-problems/2642/solution.cpp) |
 | [2678. Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/) | Easy | [C](./old-problems/2678/c/solution.c) [C++](./old-problems/2678/solution.cpp) |
 | [2698. Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/) | Medium | [C](./old-problems/2698/c/solution.c) [C++](./old-problems/2698/solution.cpp) |
