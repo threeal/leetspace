@@ -1,0 +1,32 @@
+name: 840. Magic Squares In Grid
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: numMagicSquaresInside
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [4, 3, 8, 4]
+        - [9, 5, 1, 9]
+        - [2, 7, 6, 2]
+    output: 1
+
+  example_2:
+    inputs:
+      grid: [[8]]
+    output: 0
+
+  test_case_8:
+    inputs:
+      grid:
+        - [4, 7, 8]
+        - [9, 5, 1]
+        - [2, 3, 6]
+    output: 0
