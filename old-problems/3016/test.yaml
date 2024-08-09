@@ -1,0 +1,26 @@
+name: 3016. Minimum Number of Pushes to Type Word II
+
+types:
+  inputs:
+    word: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minimumPushes
+
+test_cases:
+  example_1:
+    inputs:
+      word: abcde
+    output: 5
+
+  example_2:
+    inputs:
+      word: xyzxyzxyzxyz
+    output: 12
+
+  test_case_502:
+    inputs:
+      word: aabbccddeeffgghhiiiiii
+    output: 24
