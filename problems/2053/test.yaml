@@ -1,0 +1,29 @@
+cpp:
+  function:
+    name: kthDistinct
+    inputs:
+      - type: std::vector<std::string>
+        value: arr
+      - type: int
+        value: k
+    output:
+      type: std::string
+
+cases:
+  - name: example 1
+    inputs:
+      arr: [d, b, c, b, c, a]
+      k: 2
+    output: a
+
+  - name: example 2
+    inputs:
+      arr: [aaa, aa, a]
+      k: 1
+    output: aaa
+
+  - name: example 3
+    inputs:
+      arr: [a, b, a]
+      k: 3
+    output: ""
