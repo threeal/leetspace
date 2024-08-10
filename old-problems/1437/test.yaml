@@ -1,0 +1,24 @@
+name: 1437. Check If All 1's Are at Least Length K Places Away
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: bool
+
+solutions:
+  cpp:
+    function: kLengthApart
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 0, 0, 0, 1, 0, 0, 1]
+      k: 2
+    output: true
+
+  example_2:
+    inputs:
+      nums: [1, 0, 0, 1, 0, 1]
+      k: 2
+    output: false
