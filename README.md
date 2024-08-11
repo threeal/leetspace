@@ -171,7 +171,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [929. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | Easy | [C](./old-problems/0929/c/solution.c) [C++](./old-problems/0929/solution.cpp) |
 | [930. Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | Medium | [C++](./problems/0930/solution.cpp) |
 | [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | Medium | [C++](./problems/0931/solution.cpp) |
-| [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) | Medium | [C++](./old-problems/0934/solution.cpp) |
+| [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) | Medium | [C](./old-problems/0934/c/solution.c) [C++](./old-problems/0934/solution.cpp) |
 | [935. Knight Dialer](https://leetcode.com/problems/knight-dialer/) | Easy | [C](./old-problems/0935/c/solution.c) [C++](./old-problems/0935/solution.cpp) |
 | [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | Easy | [C++](./old-problems/0938/solution.cpp) |
 | [945. Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | Medium | [C](./old-problems/0945/c/solution.c) [C++](./old-problems/0945/solution.cpp) |
