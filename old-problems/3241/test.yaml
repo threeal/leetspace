@@ -1,0 +1,26 @@
+name: 3241. Time Taken to Mark All Nodes
+
+types:
+  inputs:
+    edges: std::vector<std::vector<int>>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: timeTaken
+
+test_cases:
+  example_1:
+    inputs:
+      edges: [[0, 1], [0, 2]]
+    output: [2, 4, 3]
+
+  example_2:
+    inputs:
+      edges: [[0, 1]]
+    output: [1, 2]
+
+  example_3:
+    inputs:
+      edges: [[2, 4], [0, 1], [2, 3], [0, 2]]
+    output: [4, 6, 3, 5, 5]
