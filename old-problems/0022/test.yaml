@@ -13,7 +13,7 @@ test_cases:
   example_1:
     inputs:
       n: 3
-    output: [((())), (()()), (())(), ()(()), ()()()]
+    output: [((())), (()()), ()(()), (())(), ()()()]
 
   example_2:
     inputs:
