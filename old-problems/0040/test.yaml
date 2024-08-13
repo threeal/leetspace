@@ -1,0 +1,30 @@
+name: 40. Combination Sum II
+
+types:
+  inputs:
+    combinations: std::vector<int>
+    target: int
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: combinationSum2
+
+test_cases:
+  example_1:
+    inputs:
+      combinations: [10, 1, 2, 7, 6, 1, 5]
+      target: 8
+    output:
+      - [1, 1, 6]
+      - [1, 2, 5]
+      - [1, 7]
+      - [2, 6]
+
+  example_2:
+    inputs:
+      combinations: [2, 5, 2, 1, 2]
+      target: 5
+    output:
+      - [1, 2, 2]
+      - [5]
