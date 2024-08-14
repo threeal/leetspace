@@ -1,0 +1,30 @@
+name: 719. Find K-th Smallest Pair Distance
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: smallestDistancePair
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 3, 1]
+      k: 1
+    output: 0
+
+  example_2:
+    inputs:
+      nums: [1, 1, 1]
+      k: 2
+    output: 0
+
+  test_case_96:
+    inputs:
+      nums: [1, 6, 1]
+      k: 3
+    output: 5
