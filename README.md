@@ -386,7 +386,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2545. Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/) | Medium | [C](./old-problems/2545/c/solution.c) [C++](./old-problems/2545/solution.cpp) |
 | [2582. Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/) | Easy | [C](./old-problems/2582/c/solution.c) [C++](./old-problems/2582/solution.cpp) |
 | [2597. The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/) | Medium | [C](./old-problems/2597/c/solution.c) [C++](./old-problems/2597/solution.cpp) |
-| [2605. Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | Easy | [C++](./old-problems/2605/solution.cpp) |
+| [2605. Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | Easy | [C](./old-problems/2605/c/solution.c) [C++](./old-problems/2605/solution.cpp) |
 | [2610. Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions) | Medium | [C++](./problems/2610/solution.cpp) |
 | [2642. Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator) | Hard | [C++](./old-problems/2642/solution.cpp) |
 | [2678. Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/) | Easy | [C](./old-problems/2678/c/solution.c) [C++](./old-problems/2678/solution.cpp) |
