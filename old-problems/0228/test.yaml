@@ -19,3 +19,8 @@ test_cases:
     inputs:
       nums: [0, 2, 3, 4, 6, 8, 9]
     output: ["0", "2->4", "6", "8->9"]
+
+  test_case_2:
+    inputs:
+      nums: []
+    output: []
