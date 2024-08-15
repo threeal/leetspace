@@ -1,0 +1,24 @@
+name: 299. Bulls and Cows
+
+types:
+  inputs:
+    secret: std::string
+    guess: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: getHint
+
+test_cases:
+  example_1:
+    inputs:
+      secret: "1807"
+      guess: "7810"
+    output: "1A3B"
+
+  example_2:
+    inputs:
+      secret: "1123"
+      guess: "0111"
+    output: "1A1B"
