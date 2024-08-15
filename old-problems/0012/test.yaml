@@ -1,0 +1,26 @@
+name: 12. Integer to Roman
+
+types:
+  inputs:
+    num: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: intToRoman
+
+test_cases:
+  example_1:
+    inputs:
+      num: 3749
+    output: MMMDCCXLIX
+
+  example_2:
+    inputs:
+      num: 58
+    output: LVIII
+
+  example_3:
+    inputs:
+      num: 1994
+    output: MCMXCIV

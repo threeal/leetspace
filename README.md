@@ -15,6 +15,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [9. Palindrome Number](https://leetcode.com/problems/palindrome-number) | Easy | [C++](./problems/0009/solution.cpp) |
 | [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Hard | [C](./old-problems/0010/c/solution.c) [C++](./old-problems/0010/solution.cpp) |
 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water) | Medium | [C++](./problems/0011/solution.cpp) |
+| [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | [C++](./old-problems/0012/solution.cpp) |
 | [15. 3Sum](https://leetcode.com/problems/3sum) | Medium | [C++](./problems/0015/solution.cpp) |
 | [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | [C](./old-problems/0016/c/solution.c) [C++](./old-problems/0016/solution.cpp) |
 | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | Medium | [C++](./problems/0017/solution.cpp) |
