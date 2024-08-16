@@ -1,0 +1,21 @@
+name: 2380. Time Needed to Rearrange a Binary String
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: secondsToRemoveOccurrences
+
+test_cases:
+  example_1:
+    inputs:
+      s: "0110101"
+    output: 4
+
+  example_2:
+    inputs:
+      s: "11100"
+    output: 0
