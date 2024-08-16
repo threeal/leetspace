@@ -19,3 +19,8 @@ test_cases:
     inputs:
       arrays: [[1], [1]]
     output: 0
+
+  test_case_121:
+    inputs:
+      arrays: [[1, 4], [0, 5]]
+    output: 4
