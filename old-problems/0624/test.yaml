@@ -1,0 +1,21 @@
+name: 624. Maximum Distance in Arrays
+
+types:
+  inputs:
+    arrays: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: maxDistance
+
+test_cases:
+  example_1:
+    inputs:
+      arrays: [[1, 2, 3], [4, 5], [1, 2, 3]]
+    output: 4
+
+  example_2:
+    inputs:
+      arrays: [[1], [1]]
+    output: 0
