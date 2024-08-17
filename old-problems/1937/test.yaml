@@ -1,0 +1,27 @@
+name: 1937. Maximum Number of Points with Cost
+
+types:
+  inputs:
+    points: std::vector<std::vector<int>>
+  output: long long
+
+solutions:
+  cpp:
+    function: maxPoints
+
+test_cases:
+  example_1:
+    inputs:
+      points:
+        - [1, 2, 3]
+        - [1, 5, 1]
+        - [3, 1, 1]
+    output: 9
+
+  example_2:
+    inputs:
+      points:
+        - [1, 5]
+        - [2, 3]
+        - [4, 2]
+    output: 11
