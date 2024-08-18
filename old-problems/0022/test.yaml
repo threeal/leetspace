@@ -1,0 +1,21 @@
+name: 22. Generate Parentheses
+
+types:
+  inputs:
+    n: int
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: generateParenthesis
+
+test_cases:
+  example_1:
+    inputs:
+      n: 3
+    output: [((())), (()()), ()(()), (())(), ()()()]
+
+  example_2:
+    inputs:
+      n: 1
+    output: [()]
