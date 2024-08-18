@@ -19,3 +19,8 @@ test_cases:
     inputs:
       n: 1
     output: 1
+
+  test_case_502:
+    inputs:
+      n: 1407
+    output: 536870912
