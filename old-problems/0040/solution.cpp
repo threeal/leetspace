@@ -1,4 +1,5 @@
 #include <algorithm>
+#include <span>
 #include <vector>
 
 class Solution {
@@ -8,30 +9,32 @@ class Solution {
     std::sort(candidates.begin(), candidates.end());
 
     std::vector<std::vector<int>> combinations{};
-    findCombinations(
-        combinations, candidates.data(), candidates.size(), target);
+    std::vector<int> current{};
+    fillCombinations(combinations, current, candidates, target);
     return combinations;
   }
 
-  void findCombinations(
+  void fillCombinations(
       std::vector<std::vector<int>>& combinations,
-      int* candidates, int candidatesSize, int target) {
-    for (int i{0}; i < candidatesSize; ++i) {
+      std::vector<int>& current,
+      std::span<int> candidates,
+      int target) {
+    int prevCandidate{0};
+    for (std::size_t i{0}; i < candidates.size(); ++i) {
       if (candidates[i] > target) break;
-      if (i < candidatesSize - 1 && candidates[i] == candidates[i + 1]) {
-        continue;
-      }
 
+      if (candidates[i] == prevCandidate) continue;
+      prevCandidate = candidates[i];
+
+      current.push_back(candidates[i]);
       if (candidates[i] == target) {
-        combinations.push_back({candidates[i]});
+        combinations.push_back(current);
       } else {
-        std::size_t j{combinations.size()};
-        findCombinations(combinations, candidates, i, target - candidates[i]);
-        while (j < combinations.size()) {
-          combinations[j].push_back(candidates[i]);
-          ++j;
-        }
+        fillCombinations(
+            combinations, current, candidates.subspan(i + 1),
+            target - candidates[i]);
       }
+      current.pop_back();
     }
   }
 };
