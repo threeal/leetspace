@@ -72,6 +72,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [204. Count Primes](https://leetcode.com/problems/count-primes/) | Medium | [C](./old-problems/0204/c/solution.c) [C++](./old-problems/0204/solution.cpp) |
 | [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | Easy | [C](./old-problems/0205/c/solution.c) [C++](./old-problems/0205/solution.cpp) |
 | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [C++](./old-problems/0206/solution.cpp) |
+| [228. Summary Ranges](https://leetcode.com/problems/summary-ranges/) | Easy | [C++](./old-problems/0228/solution.cpp) |
 | [229. Majority Element II](https://leetcode.com/problems/majority-element-ii) | Medium | [C++](./old-problems/0229/solution.cpp) |
 | [231. Power of Two](https://leetcode.com/problems/power-of-two/) | Easy | [C](./old-problems/0231/c/solution.c) [C++](./old-problems/0231/solution.cpp) |
 | [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [C++](./old-problems/0232/solution.cpp) |
