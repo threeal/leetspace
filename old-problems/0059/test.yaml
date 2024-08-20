@@ -1,0 +1,24 @@
+name: 59. Spiral Matrix II
+
+types:
+  inputs:
+    n: int
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: generateMatrix
+
+test_cases:
+  example_1:
+    inputs:
+      n: 3
+    output:
+      - [1, 2, 3]
+      - [8, 9, 4]
+      - [7, 6, 5]
+
+  example_2:
+    inputs:
+      n: 1
+    output: [[1]]
