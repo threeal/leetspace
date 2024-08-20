@@ -19,3 +19,8 @@ test_cases:
     inputs:
       piles: [1, 2, 3, 4, 5, 100]
     output: 104
+
+  test_case_4:
+    inputs:
+      piles: [1]
+    output: 1
