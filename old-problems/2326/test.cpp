@@ -39,4 +39,12 @@ TEST_CASE("2326. Spiral Matrix IV") {
     std::vector<std::vector<int>> expected{{0, 1, 2, -1}};
     REQUIRE(expected == actual);
   }
+
+  SECTION("Test Case 46") {
+    const auto actual = Solution{}.spiralMatrix(
+        10, 1, to_list({8, 24, 5, 21, 10, 11, 11, 12, 6, 17}));
+    std::vector<std::vector<int>> expected{
+        {8}, {24}, {5}, {21}, {10}, {11}, {11}, {12}, {6}, {17}};
+    REQUIRE(expected == actual);
+  }
 }
