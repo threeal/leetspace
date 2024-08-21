@@ -1,0 +1,21 @@
+name: 664. Strange Printer
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: strangePrinter
+
+test_cases:
+  example_1:
+    inputs:
+      s: aaabbb
+    output: 2
+
+  example_2:
+    inputs:
+      s: aba
+    output: 2
