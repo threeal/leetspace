@@ -1,0 +1,21 @@
+name: 2535. Difference Between Element Sum and Digit Sum of an Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: differenceOfSum
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 15, 6, 3]
+    output: 9
+
+  example_2:
+    inputs:
+      nums: [1, 2, 3, 4]
+    output: 0
