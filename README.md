@@ -175,6 +175,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [880. Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index) | Medium | [C++](./old-problems/0880/solution.cpp) |
 | [881. Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | Medium | [C](./old-problems/0881/c/solution.c) [C++](./old-problems/0881/solution.cpp) |
 | [885. Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/) | Medium | [C](./old-problems/0885/c/solution.c) [C++](./old-problems/0885/solution.cpp) |
+| [888. Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | Easy | [C++](./old-problems/0888/solution.cpp) |
 | [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | Easy | [C++](./problems/0905/solution.cpp) |
 | [908. Smallest Range I](https://leetcode.com/problems/smallest-range-i/) | Easy | [C](./old-problems/0908/c/solution.c) [C++](./old-problems/0908/solution.cpp) |
 | [909. Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/) | Medium | [C](./old-problems/0909/c/solution.c) [C++](./old-problems/0909/solution.cpp) |

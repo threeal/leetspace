@@ -1,0 +1,30 @@
+name: 888. Fair Candy Swap
+
+types:
+  inputs:
+    aliceSizes: std::vector<int>
+    bobSizes: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: fairCandySwap
+
+test_cases:
+  example_1:
+    inputs:
+      aliceSizes: [1, 1]
+      bobSizes: [2, 2]
+    output:  [1, 2]
+
+  example_2:
+    inputs:
+      aliceSizes: [1, 2]
+      bobSizes: [2, 3]
+    output:  [1, 2]
+
+  example_2:
+    inputs:
+      aliceSizes: [2]
+      bobSizes: [1, 3]
+    output:  [2, 3]
