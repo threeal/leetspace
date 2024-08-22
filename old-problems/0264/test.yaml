@@ -1,0 +1,26 @@
+name: 264. Ugly Number II
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: nthUglyNumber
+
+test_cases:
+  example_1:
+    inputs:
+      n: 10
+    output: 12
+
+  example_2:
+    inputs:
+      n: 1
+    output: 1
+
+  test_case_502:
+    inputs:
+      n: 1407
+    output: 536870912
