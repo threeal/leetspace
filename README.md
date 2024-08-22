@@ -40,7 +40,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [55. Jump Game](https://leetcode.com/problems/jump-game/) | Medium | [C++](./old-problems/0055/solution.cpp) |
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | [C](./old-problems/0057/c/solution.c) [C++](./old-problems/0057/solution.cpp) |
 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [C](./old-problems/0058/c/solution.c) [C++](./old-problems/0058/solution.cpp) |
-| [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | Medium | [C++](./old-problems/0059/solution.cpp) |
+| [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | Medium | [C](./old-problems/0059/c/solution.c) [C++](./old-problems/0059/solution.cpp) |
 | [66. Plus One](https://leetcode.com/problems/plus-one) | Easy | [C++](./problems/0066/solution.cpp) |
 | [67. Add Binary](https://leetcode.com/problems/add-binary/) | Easy | [C](./old-problems/0067/c/solution.c) [C++](./old-problems/0067/solution.cpp) |
 | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [C](./old-problems/0070/c/solution.c) [C++](./old-problems/0070/solution.cpp) |
