@@ -1,0 +1,35 @@
+name: 39. Combination Sum
+
+types:
+  inputs:
+    candidates: std::vector<int>
+    target: int
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: combinationSum
+
+test_cases:
+  example_1:
+    inputs:
+      candidates: [2, 3, 6, 7]
+      target: 7
+    output:
+      - [2, 2, 3]
+      - [7]
+
+  example_2:
+    inputs:
+      candidates: [2, 3, 5]
+      target: 8
+    output:
+      - [2, 2, 2, 2]
+      - [2, 3, 3]
+      - [3, 5]
+
+  example_3:
+    inputs:
+      candidates: [2]
+      target: 1
+    output: []

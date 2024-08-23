@@ -32,6 +32,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | Medium | [C++](./problems/0034/solution.cpp) |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | [C++](./problems/0035/solution.cpp) |
 | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [C](./old-problems/0036/c/solution.c) [C++](./old-problems/0036/solution.cpp) |
+| [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | [C++](./old-problems/0039/solution.cpp) |
 | [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium | [C](./old-problems/0040/c/solution.c) [C++](./old-problems/0040/solution.cpp) |
 | [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | Hard | [C](./old-problems/0041/c/solution.c) [C++](./old-problems/0041/solution.cpp) |
 | [46. Permutations](https://leetcode.com/problems/permutations/) | Medium | [C](./old-problems/0046/c/solution.c) [C++](./old-problems/0046/solution.cpp) |
