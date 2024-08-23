@@ -28,3 +28,9 @@ test_cases:
       startValue: 3
       target: 10
     output: 3
+
+  test_case_5:
+    inputs:
+      startValue: 1
+      target: 1000000000
+    output: 39
