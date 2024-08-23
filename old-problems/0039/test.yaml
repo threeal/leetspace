@@ -33,3 +33,12 @@ test_cases:
       candidates: [2]
       target: 1
     output: []
+
+  test_case_39:
+    inputs:
+      candidates: [8, 7, 4, 3]
+      target: 11
+    output:
+      - [8, 3]
+      - [7, 4]
+      - [4, 4, 3]
