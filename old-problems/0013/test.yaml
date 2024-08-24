@@ -1,0 +1,26 @@
+name: 13. Roman to Integer
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: romanToInt
+
+test_cases:
+  example_1:
+    inputs:
+      s: III
+    output: 3
+
+  example_2:
+    inputs:
+      s: LVIII
+    output: 58
+
+  example_3:
+    inputs:
+      s: MCMXCIV
+    output: 1994
