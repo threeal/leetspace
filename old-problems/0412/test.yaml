@@ -6,6 +6,7 @@ types:
   output: std::vector<std::string>
 
 solutions:
+  c:
   cpp:
     function: fizzBuzz
 
