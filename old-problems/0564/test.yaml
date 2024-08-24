@@ -19,3 +19,8 @@ test_cases:
     inputs:
       n: "1"
     output: "0"
+
+  test_case_216:
+    inputs:
+      n: "9009"
+    output: "8998"
