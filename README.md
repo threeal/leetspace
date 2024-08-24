@@ -132,6 +132,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | Easy | [C](./old-problems/0541/c/solution.c) [C++](./old-problems/0541/solution.cpp) |
 | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [C++](./old-problems/0543/solution.cpp) |
 | [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | Easy | [C](./old-problems/0557/c/solution.c) [C++](./old-problems/0557/solution.cpp) |
+| [564. Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome/) | Hard | [C++](./old-problems/0564/solution.cpp) |
 | [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | Medium | [C++](./problems/0576/solution.cpp) |
 | [587. Erect the Fence](https://leetcode.com/problems/erect-the-fence/) | Hard | [C++](./old-problems/0587/solution.cpp) |
 | [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | Easy | [C++](./old-problems/0606/solution.cpp) |

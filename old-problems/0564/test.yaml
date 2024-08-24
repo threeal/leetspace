@@ -1,0 +1,21 @@
+name: 564. Find the Closest Palindrome
+
+types:
+  inputs:
+    n: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: nearestPalindromic
+
+test_cases:
+  example_1:
+    inputs:
+      n: "123"
+    output: "121"
+
+  example_2:
+    inputs:
+      n: "1"
+    output: "0"
