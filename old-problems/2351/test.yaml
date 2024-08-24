@@ -1,0 +1,21 @@
+name: 2351. First Letter to Appear Twice
+
+types:
+  inputs:
+    s: std::string
+  output: char
+
+solutions:
+  cpp:
+    function: repeatedCharacter
+
+test_cases:
+  example_1:
+    inputs:
+      s: abccbaacz
+    output: 99
+
+  example_2:
+    inputs:
+      s: abcdd
+    output: 100
