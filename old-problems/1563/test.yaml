@@ -1,0 +1,26 @@
+name: 1563. Stone Game V
+
+types:
+  inputs:
+    stoneValue: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: stoneGameV
+
+test_cases:
+  example_1:
+    inputs:
+      stoneValue: [6, 2, 3, 4, 5, 5]
+    output: 18
+
+  example_2:
+    inputs:
+      stoneValue: [7, 7, 7, 7, 7, 7, 7]
+    output: 28
+
+  example_3:
+    inputs:
+      stoneValue: [4]
+    output: 0
