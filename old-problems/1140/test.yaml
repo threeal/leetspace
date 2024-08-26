@@ -1,0 +1,26 @@
+name: 1140. Stone Game II
+
+types:
+  inputs:
+    piles: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: stoneGameII
+
+test_cases:
+  example_1:
+    inputs:
+      piles: [2, 7, 9, 4, 4]
+    output: 10
+
+  example_2:
+    inputs:
+      piles: [1, 2, 3, 4, 5, 100]
+    output: 104
+
+  test_case_4:
+    inputs:
+      piles: [1]
+    output: 1
