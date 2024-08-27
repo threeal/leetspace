@@ -1,0 +1,26 @@
+name: 628. Maximum Product of Three Numbers
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maximumProduct
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3]
+    output: 6
+
+  example_2:
+    inputs:
+      nums: [1, 2, 3, 4]
+    output: 24
+
+  test_case_121:
+    inputs:
+      nums: [-1, -2, -3]
+    output: -6
