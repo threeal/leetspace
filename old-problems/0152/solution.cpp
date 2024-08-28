@@ -6,37 +6,15 @@ class Solution {
   int maxProduct(std::vector<int>& nums) {
     int max{std::numeric_limits<int>::min()};
 
-    int r = nums.size() - 1;
-    while (r >= 0) {
-      while (r >= 0 && nums[r] == 0) {
-        if (max < 0) max = 0;
-        --r;
-      }
-      if (r < 0) break;
+    int left{1}, right{1};
+    for (int l{0}, r = nums.size() - 1; r >= 0; ++l, --r) {
+      if (left == 0) left = 1;
+      left *= nums[l];
+      if (left > max) max = left;
 
-      int product{1};
-      int l{r};
-      while (l >= 0 && nums[l] != 0) {
-        product *= nums[l];
-        --l;
-      }
-
-      if (product > 0) {
-        if (product > max) max = product;
-      } else {
-        int tempProduct{product};
-        for (int i = l + 1; i < r && product < 0; ++i) {
-          product /= nums[i];
-        }
-        if (product > max) max = product;
-
-        for (int i = r; i > l + 1 && tempProduct < 0; --i) {
-          tempProduct /= nums[i];
-        }
-        if (tempProduct > max) max = tempProduct;
-      }
-
-      r = l;
+      if (right == 0) right = 1;
+      right *= nums[r];
+      if (right > max) max = right;
     }
 
     return max;
