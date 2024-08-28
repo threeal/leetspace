@@ -1,61 +1,34 @@
+#include <limits.h>
+
 int maximumProduct(int* nums, int numsSize) {
-  int temp;
-  if (nums[0] > nums[1]) {
-    temp = nums[0];
-    nums[0] = nums[1];
-    nums[1] = temp;
-  }
+  int min1 = INT_MAX, min2 = INT_MAX;
+  int max1 = INT_MIN, max2 = INT_MIN, max3 = INT_MIN;
 
-  for (int i = 2; i < numsSize; ++i) {
-    if (nums[i] < nums[1]) {
-      if (nums[i] < nums[0]) {
-        temp = nums[1];
-        nums[1] = nums[0];
-        nums[0] = nums[i];
-        nums[i] = temp;
+  for (int i = numsSize - 1; i >= 0; --i) {
+    if (nums[i] > max3) {
+      if (nums[i] > max1) {
+        max3 = max2;
+        max2 = max1;
+        max1 = nums[i];
+      } else if (nums[i] > max2) {
+        max3 = max2;
+        max2 = nums[i];
       } else {
-        temp = nums[1];
-        nums[1] = nums[i];
-        nums[i] = temp;
+        max3 = nums[i];
+      }
+    }
+
+    if (nums[i] < min2) {
+      if (nums[i] < min1) {
+        min2 = min1;
+        min1 = nums[i];
+      } else {
+        min2 = nums[i];
       }
     }
   }
 
-  if (nums[numsSize - 2] > nums[numsSize - 1]) {
-    temp = nums[numsSize - 2];
-    nums[numsSize - 2] = nums[numsSize - 1];
-    nums[numsSize - 1] = temp;
-  }
-
-  if (nums[numsSize - 3] > nums[numsSize - 2]) {
-    if (nums[numsSize - 3] > nums[numsSize - 1]) {
-      temp = nums[numsSize - 3];
-      nums[numsSize - 3] = nums[numsSize - 2];
-      nums[numsSize - 2] = nums[numsSize - 1];
-      nums[numsSize - 1] = temp;
-    } else {
-      temp = nums[numsSize - 3];
-      nums[numsSize - 3] = nums[numsSize - 2];
-      nums[numsSize - 2] = temp;
-    }
-  }
-
-  for (int i = numsSize - 4; i >= 2; --i) {
-    if (nums[i] > nums[numsSize - 3]) {
-      if (nums[i] > nums[numsSize - 1]) {
-        nums[numsSize - 3] = nums[numsSize - 2];
-        nums[numsSize - 2] = nums[numsSize - 1];
-        nums[numsSize - 1] = nums[i];
-      } else if (nums[i] > nums[numsSize - 2]) {
-        nums[numsSize - 3] = nums[numsSize - 2];
-        nums[numsSize - 2] = nums[i];
-      } else {
-        nums[numsSize - 3] = nums[i];
-      }
-    }
-  }
-
-  const int lowAndHigh = nums[0] * nums[1] * nums[numsSize - 1];
-  const int high = nums[numsSize - 1] * nums[numsSize - 2] * nums[numsSize - 3];
-  return lowAndHigh > high ? lowAndHigh : high;
+  const int minminmax = min1 * min2 * max1;
+  const int maxmaxmax = max1 * max2 * max3;
+  return minminmax > maxmaxmax ? minminmax : maxmaxmax;
 }
