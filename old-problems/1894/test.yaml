@@ -28,3 +28,9 @@ test_cases:
       chalk: [2, 2, 3]
       k: 1
     output: 0
+
+  test_case_70:
+    inputs:
+      chalk: [1, 2, 3, 5]
+      k: 1000000000
+    output: 3
