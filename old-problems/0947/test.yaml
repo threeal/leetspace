@@ -1,0 +1,26 @@
+name: 947. Most Stones Removed with Same Row or Column
+
+types:
+  inputs:
+    stones: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: removeStones
+
+test_cases:
+  example_1:
+    inputs:
+      stones: [[0, 0], [0, 1], [1, 0], [1, 2], [2, 1], [2, 2]]
+    output: 5
+
+  example_2:
+    inputs:
+      stones: [[0, 0], [0, 2], [1, 1], [2, 0], [2, 2]]
+    output: 3
+
+  example_3:
+    inputs:
+      stones: [[0, 0]]
+    output: 0
