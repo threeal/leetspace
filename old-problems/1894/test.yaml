@@ -1,0 +1,24 @@
+name: 1894. Find the Student that Will Replace the Chalk
+
+types:
+  inputs:
+    chalk: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: chalkReplacer
+
+test_cases:
+  example_1:
+    inputs:
+      chalk: [5, 1, 5]
+      k: 22
+    output: 0
+
+  example_2:
+    inputs:
+      chalk: [3, 4, 1, 2]
+      k: 25
+    output: 1
