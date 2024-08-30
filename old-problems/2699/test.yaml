@@ -1,0 +1,42 @@
+name: 2699. Modify Graph Edge Weights
+
+types:
+  inputs:
+    n: int
+    edges: std::vector<std::vector<int>>
+    source: int
+    destination: int
+    target: int
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: modifiedGraphEdges
+
+test_cases:
+  example_1:
+    inputs:
+      n: 5
+      edges: [[4, 1, -1], [2, 0, -1], [0, 3, -1], [4, 3, -1]]
+      source: 0
+      destination: 1
+      target: 5
+    output: [[4, 1, 1], [2, 0, 1], [0, 3, 3], [4, 3, 1]]
+
+  example_2:
+    inputs:
+      n: 3
+      edges: [[0, 1, -1], [0, 2, 5]]
+      source: 0
+      destination: 2
+      target: 6
+    output: []
+
+  example_2:
+    inputs:
+      n: 4
+      edges: [[1, 0, 4], [1, 2, 3], [2, 3, 5], [0, 3, -1]]
+      source: 0
+      destination: 2
+      target: 6
+    output: [[1, 0, 4], [1, 2, 3], [2, 3, 5], [0, 3, 1]]
