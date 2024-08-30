@@ -150,7 +150,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [650. 2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/) | Medium | [C](./old-problems/0650/c/solution.c) [C++](./old-problems/0650/solution.cpp) |
 | [657. Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | Easy | [C](./old-problems/0657/c/solution.c) [C++](./old-problems/0657/solution.cpp) |
 | [661. Image Smoother](https://leetcode.com/problems/image-smoother/) | Easy | [C++](./problems/0661/solution.cpp) |
-| [664. Strange Printer](https://leetcode.com/problems/strange-printer/) | Hard | [C++](./old-problems/0664/solution.cpp) |
+| [664. Strange Printer](https://leetcode.com/problems/strange-printer/) | Hard | [C](./old-problems/0664/c/solution.c) [C++](./old-problems/0664/solution.cpp) |
 | [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | [C](./old-problems/0678/c/solution.c) [C++](./old-problems/0678/solution.cpp) |
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | [C](./old-problems/0680/c/solution.c) [C++](./old-problems/0680/solution.cpp) |
 | [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Easy | [C++](./old-problems/0703/solution.cpp) |
