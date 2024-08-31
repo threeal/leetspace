@@ -1,0 +1,42 @@
+name: 1514. Path with Maximum Probability
+
+types:
+  inputs:
+    n: int
+    edges: std::vector<std::vector<int>>
+    succProb: std::vector<double>
+    start: int
+    end: int
+  output: double
+
+solutions:
+  cpp:
+    function: maxProbability
+
+test_cases:
+  example_1:
+    inputs:
+      n: 3
+      edges: [[0, 1], [1, 2], [0, 2]]
+      succProb: [0.5, 0.5, 0.2]
+      start: 0
+      end: 2
+    output: 0.25000
+
+  example_2:
+    inputs:
+      n: 3
+      edges: [[0, 1], [1, 2], [0, 2]]
+      succProb: [0.5, 0.5, 0.3]
+      start: 0
+      end: 2
+    output: 0.30000
+
+  example_3:
+    inputs:
+      n: 3
+      edges: [[0, 1]]
+      succProb: [0.5]
+      start: 0
+      end: 2
+    output: 0.00000
