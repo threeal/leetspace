@@ -1,0 +1,36 @@
+name: 991. Broken Calculator
+
+types:
+  inputs:
+    startValue: int
+    target: int
+  output: int
+
+solutions:
+  cpp:
+    function: brokenCalc
+
+test_cases:
+  example_1:
+    inputs:
+      startValue: 2
+      target: 3
+    output: 2
+
+  example_2:
+    inputs:
+      startValue: 5
+      target: 8
+    output: 2
+
+  example_3:
+    inputs:
+      startValue: 3
+      target: 10
+    output: 3
+
+  test_case_5:
+    inputs:
+      startValue: 1
+      target: 1000000000
+    output: 39
