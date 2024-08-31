@@ -142,7 +142,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Medium | [C](./old-problems/0621/c/solution.c) [C++](./old-problems/0621/solution.cpp) |
 | [623. Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) | Medium | [C++](./old-problems/0623/solution.cpp) |
 | [624. Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/) | Medium | [C](./old-problems/0624/c/solution.c) [C++](./old-problems/0624/solution.cpp) |
-| [628. Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | Easy | [C++](./old-problems/0628/solution.cpp) |
+| [628. Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | Easy | [C](./old-problems/0628/c/solution.c) [C++](./old-problems/0628/solution.cpp) |
 | [633. Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | Medium | [C](./old-problems/0633/c/solution.c) [C++](./old-problems/0633/solution.cpp) |
 | [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/) | Easy | [C](./old-problems/0645/c/solution.c) [C++](./old-problems/0645/solution.cpp) |
 | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | [C](./old-problems/0647/c/solution.c) [C++](./old-problems/0647/solution.cpp) |
