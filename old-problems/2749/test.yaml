@@ -28,3 +28,9 @@ test_cases:
       num1: 110
       num2: 55
     output: -1
+
+  test_case_402:
+    inputs:
+      num1: 112577768
+      num2: -501662198
+    output: 16
