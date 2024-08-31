@@ -1,0 +1,24 @@
+name: 2749. Minimum Operations to Make the Integer Zero
+
+types:
+  inputs:
+    num1: int
+    num2: int
+  output: int
+
+solutions:
+  cpp:
+    function: makeTheIntegerZero
+
+test_cases:
+  example_1:
+    inputs:
+      num1: 3
+      num2: -2
+    output: 3
+
+  example_2:
+    inputs:
+      num1: 5
+      num2: 7
+    output: -1
