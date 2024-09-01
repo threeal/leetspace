@@ -1,0 +1,30 @@
+name: 1686. Stone Game VI
+
+types:
+  inputs:
+    aliceValues: std::vector<int>
+    bobValues: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: stoneGameVI
+
+test_cases:
+  example_1:
+    inputs:
+      aliceValues: [1, 3]
+      bobValues: [2, 1]
+    output: 1
+
+  example_2:
+    inputs:
+      aliceValues: [1, 2]
+      bobValues: [3, 1]
+    output: 0
+
+  example_3:
+    inputs:
+      aliceValues: [2, 4, 3]
+      bobValues: [1, 6, 7]
+    output: -1
