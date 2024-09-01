@@ -1,4 +1,4 @@
-#include <algorithm>
+#include <cstring>
 #include <vector>
 
 class Solution {
@@ -8,7 +8,7 @@ class Solution {
     if (original.size() != static_cast<std::size_t>(m * n)) return {};
     std::vector<std::vector<int>> output(m, std::vector<int>(n));
     for (int i{m - 1}; i >= 0; --i) {
-      std::copy_n(original.begin() + i * n, n, output[i].begin());
+      std::memcpy(output[i].data(), original.data() + i * n, n * sizeof(int));
     }
     return output;
   }
