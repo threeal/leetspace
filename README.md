@@ -65,6 +65,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [C++](./old-problems/0141/solution.cpp) |
 | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [C++](./old-problems/0143/solution.cpp) |
 | [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | Easy | [C++](./old-problems/0145/solution.cpp) |
+| [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | Hard | [C++](./old-problems/0149/solution.cpp) |
 | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | [C](./old-problems/0150/c/solution.c) [C++](./old-problems/0150/solution.cpp) |
 | [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | [C](./old-problems/0151/c/solution.c) [C++](./old-problems/0151/solution.cpp) |
 | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Medium | [C++](./old-problems/0152/solution.cpp) |
