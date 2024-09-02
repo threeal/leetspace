@@ -348,7 +348,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1876. Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters) | Easy | [C](./old-problems/1876/c/solution.c) [C++](./old-problems/1876/solution.cpp) |
 | [1877. Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | Medium | [C++](./old-problems/1877/c/solution.c) [C++](./old-problems/1877/solution.cpp) |
 | [1887. Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/) | Medium | [C](./old-problems/1887/c/solution.c) [C++](./old-problems/1887/solution.cpp) |
-| [1894. Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/) | Medium | [C++](./old-problems/1894/solution.cpp) |
+| [1894. Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/) | Medium | [C](./old-problems/1894/c/solution.c) [C++](./old-problems/1894/solution.cpp) |
 | [1895. Largest Magic Square](https://leetcode.com/problems/largest-magic-square/) | Medium | [C](./old-problems/1895/c/solution.c) [C++](./old-problems/1895/solution.cpp) |
 | [1897. Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | Easy | [C](./old-problems/1897/c/solution.c) [C++](./old-problems/1897/solution.cpp) |
 | [1903. Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | Easy | [C](./old-problems/1903/c/solution.c) [C++](./old-problems/1903/solution.cpp) |
