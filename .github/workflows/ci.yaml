@@ -28,10 +28,11 @@ jobs:
         uses: threeal/setup-poetry-action@v1.1.0
 
       - name: Cache Dependencies Build
-        uses: actions/cache@v4.0.2
+        uses: threeal/cache-action@v0.1.0
         with:
-          path: build/_deps
-          key: CPM-${{ runner.os }}-${{ hashFiles('package-lock') }}
+          key: CPM-${{ runner.os }}
+          version: ${{ hashFiles('package-lock') }}
+          files: build/_deps
 
       - name: Setup Ninja
         uses: seanmiddleditch/gha-setup-ninja@v5
