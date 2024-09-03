@@ -1,0 +1,30 @@
+name: 1945. Sum of Digits of String After Convert
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: getLucky
+
+test_cases:
+  example_1:
+    inputs:
+      s: iiii
+      k: 1
+    output: 36
+
+  example_2:
+    inputs:
+      s: leetcode
+      k: 2
+    output: 6
+
+  example_3:
+    inputs:
+      s: zbax
+      k: 2
+    output: 8
