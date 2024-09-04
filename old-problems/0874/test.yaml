@@ -1,0 +1,30 @@
+name: 874. Walking Robot Simulation
+
+types:
+  inputs:
+    commands: std::vector<int>
+    obstacles: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: robotSim
+
+test_cases:
+  example_1:
+    inputs:
+      commands: [4, -1, 3]
+      obstacles: []
+    output: 25
+
+  example_2:
+    inputs:
+      commands: [4, -1, 4, -2, 4]
+      obstacles: [[2, 4]]
+    output: 65
+
+  example_3:
+    inputs:
+      commands: [6, -1, -1, 6]
+      obstacles: []
+    output: 36
