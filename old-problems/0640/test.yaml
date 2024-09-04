@@ -1,0 +1,26 @@
+name: 640. Solve the Equation
+
+types:
+  inputs:
+    equation: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: solveEquation
+
+test_cases:
+  example_1:
+    inputs:
+      equation: x+5-3+x=6+x-2
+    output: x=2
+
+  example_2:
+    inputs:
+      equation: x=x
+    output: Infinite solutions
+
+  example_3:
+    inputs:
+      equation: 2x=x
+    output: x=0

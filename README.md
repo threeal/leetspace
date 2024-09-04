@@ -147,6 +147,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [624. Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/) | Medium | [C](./old-problems/0624/c/solution.c) [C++](./old-problems/0624/solution.cpp) |
 | [628. Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | Easy | [C](./old-problems/0628/c/solution.c) [C++](./old-problems/0628/solution.cpp) |
 | [633. Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | Medium | [C](./old-problems/0633/c/solution.c) [C++](./old-problems/0633/solution.cpp) |
+| [640. Solve the Equation](https://leetcode.com/problems/solve-the-equation/) | Medium | [C++](./old-problems/0640/solution.cpp) |
 | [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/) | Easy | [C](./old-problems/0645/c/solution.c) [C++](./old-problems/0645/solution.cpp) |
 | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | [C](./old-problems/0647/c/solution.c) [C++](./old-problems/0647/solution.cpp) |
 | [648. Replace Words](https://leetcode.com/problems/replace-words/) | Medium | [C++](./old-problems/0648/solution.cpp) |
