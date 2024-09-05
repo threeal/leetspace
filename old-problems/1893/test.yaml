@@ -25,3 +25,10 @@ test_cases:
       left: 21
       right: 21
     output: false
+
+  test_case_2:
+    inputs:
+      ranges: [[1, 50]]
+      left: 1
+      right: 50
+    output: true
