@@ -1,0 +1,34 @@
+name: 2022. Convert 1D Array Into 2D Array
+
+types:
+  inputs:
+    original: std::vector<int>
+    m: int
+    n: int
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: construct2DArray
+
+test_cases:
+  example_1:
+    inputs:
+      original: [1, 2, 3, 4]
+      m: 2
+      n: 2
+    output: [[1, 2], [3, 4]]
+
+  example_2:
+    inputs:
+      original: [1, 2, 3]
+      m: 1
+      n: 3
+    output: [[1, 2, 3]]
+
+  example_3:
+    inputs:
+      original: [1, 2]
+      m: 1
+      n: 1
+    output: []
