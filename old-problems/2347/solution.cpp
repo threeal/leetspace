@@ -6,17 +6,19 @@ class Solution {
   std::string bestHand(std::vector<int>& ranks, std::vector<char>& suits) {
     for (int i{4}; i > 0; --i) {
       if (suits[i] != suits[0]) {
-        int maxPair{0};
-        for (int i{4}; i >= 0; --i) {
-          int pair{0};
-          for (int j{4}; j >= 0; --j) {
-            if (ranks[i] == ranks[j]) ++pair;
+        int ones{0}, twos{0};
+        for (const auto rank : ranks) {
+          if ((ones & (1 << rank)) > 0) {
+            if ((twos & (1 << rank)) > 0) {
+              return "Three of a Kind";
+            } else {
+              twos |= 1 << rank;
+            }
+          } else {
+            ones |= 1 << rank;
           }
-          if (pair > maxPair) maxPair = pair;
         }
-        return maxPair < 3
-            ? (maxPair < 2 ? "High Card" : "Pair")
-            : "Three of a Kind";
+        return twos > 0 ? "Pair" : "High Card";
       }
     }
     return "Flush";
