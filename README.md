@@ -136,6 +136,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | Easy | [C](./old-problems/0541/c/solution.c) [C++](./old-problems/0541/solution.cpp) |
 | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [C++](./old-problems/0543/solution.cpp) |
 | [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | Easy | [C](./old-problems/0557/c/solution.c) [C++](./old-problems/0557/solution.cpp) |
+| [566. Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | Easy | [C++](./old-problems/0566/solution.cpp) |
 | [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | Medium | [C++](./problems/0576/solution.cpp) |
 | [587. Erect the Fence](https://leetcode.com/problems/erect-the-fence/) | Hard | [C++](./old-problems/0587/solution.cpp) |
 | [590. N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | Easy | [C++](./old-problems/0590/solution.cpp) |

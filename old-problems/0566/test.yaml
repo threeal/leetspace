@@ -1,0 +1,27 @@
+name: 566. Reshape the Matrix
+
+types:
+  inputs:
+    mat: std::vector<std::vector<int>>
+    r: int
+    c: int
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: matrixReshape
+
+test_cases:
+  example_1:
+    inputs:
+      mat: [[1, 2], [3, 4]]
+      r: 1
+      c: 4
+    output: [[1, 2, 3, 4]]
+
+  example_2:
+    inputs:
+      mat: [[1, 2], [3, 4]]
+      r: 2
+      c: 4
+    output: [[1, 2], [3, 4]]
