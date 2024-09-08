@@ -327,6 +327,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1668. Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/) | Easy | [C](./old-problems/1668/c/solution.c) [C++](./old-problems/1668/solution.cpp) |
 | [1669. Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/) | Medium | [C++](./old-problems/1669/solution.cpp) |
 | [1685. Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | Medium | [C](./old-problems/1685/c/solution.c) [C++](./old-problems/1685/solution.cpp) |
+| [1686. Stone Game VI](https://leetcode.com/problems/stone-game-vi/) | Medium | [C++](./old-problems/1686/solution.cpp) |
 | [1688. Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/description/) | Easy | [C](./old-problems/1688/c/solution.c) [C++](./old-problems/1688/solution.cpp) |
 | [1700. Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/) | Easy | [C](./old-problems/1700/c/solution.c) [C++](./old-problems/1700/solution.cpp) |
 | [1701. Average Waiting Time](https://leetcode.com/problems/average-waiting-time/) | Medium | [C](./old-problems/1701/c/solution.c) [C++](./old-problems/1701/solution.cpp) |
