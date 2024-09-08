@@ -1,0 +1,30 @@
+name: 2347. Best Poker Hand
+
+types:
+  inputs:
+    ranks: std::vector<int>
+    suits: std::vector<char>
+  output: std::string
+
+solutions:
+  cpp:
+    function: bestHand
+
+test_cases:
+  example_1:
+    inputs:
+      ranks: [13, 2, 3, 1, 9]
+      suits: [97, 97, 97, 97, 97]
+    output: Flush
+
+  example_2:
+    inputs:
+      ranks: [4, 4, 2, 4, 4]
+      suits: [100, 97, 97, 98, 99]
+    output: Three of a Kind
+
+  example_3:
+    inputs:
+      ranks: [10, 10, 2, 12, ]
+      suits: [97, 98, 99, 97, 100]
+    output: Pair
