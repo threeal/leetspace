@@ -183,6 +183,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | Easy | [C++](./old-problems/0872/solution.cpp) |
 | [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium | [C](./old-problems/0875/c/solution.c) [C++](./old-problems/0875/solution.cpp) |
 | [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | [C++](./old-problems/0876/solution.cpp) |
+| [877. Stone Game](https://leetcode.com/problems/stone-game/) | Medium | [C++](./old-problems/0877/solution.cpp) |
 | [880. Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index) | Medium | [C++](./old-problems/0880/solution.cpp) |
 | [881. Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | Medium | [C](./old-problems/0881/c/solution.c) [C++](./old-problems/0881/solution.cpp) |
 | [885. Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/) | Medium | [C](./old-problems/0885/c/solution.c) [C++](./old-problems/0885/solution.cpp) |

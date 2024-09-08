@@ -1,0 +1,21 @@
+name: 877. Stone Game
+
+types:
+  inputs:
+    piles: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: stoneGame
+
+test_cases:
+  example_1:
+    inputs:
+      piles: [5, 3, 4, 5]
+    output: true
+
+  example_2:
+    inputs:
+      piles: [3, 7, 2, 3]
+    output: true
