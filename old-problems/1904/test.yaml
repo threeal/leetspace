@@ -1,0 +1,31 @@
+name: 1904. The Number of Full Rounds You Have Played
+
+
+types:
+  inputs:
+    loginTime: std::string
+    logoutTime: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: numberOfRounds
+
+test_cases:
+  example_1:
+    inputs:
+      loginTime: "09:31"
+      logoutTime: "10:14"
+    output: 1
+
+  example_2:
+    inputs:
+      loginTime: "21:30"
+      logoutTime: "03:00"
+    output: 22
+
+  test_case_99:
+    inputs:
+      loginTime: "00:47"
+      logoutTime: "00:57"
+    output: 0
