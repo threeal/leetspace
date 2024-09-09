@@ -23,3 +23,9 @@ test_cases:
       loginTime: "21:30"
       logoutTime: "03:00"
     output: 22
+
+  test_case_99:
+    inputs:
+      loginTime: "00:47"
+      logoutTime: "00:57"
+    output: 0
