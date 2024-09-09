@@ -357,6 +357,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1895. Largest Magic Square](https://leetcode.com/problems/largest-magic-square/) | Medium | [C](./old-problems/1895/c/solution.c) [C++](./old-problems/1895/solution.cpp) |
 | [1897. Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | Easy | [C](./old-problems/1897/c/solution.c) [C++](./old-problems/1897/solution.cpp) |
 | [1903. Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | Easy | [C](./old-problems/1903/c/solution.c) [C++](./old-problems/1903/solution.cpp) |
+| [1904. The Number of Full Rounds You Have Played](https://leetcode.com/problems/the-number-of-full-rounds-you-have-played/) | Medium | [C++](./old-problems/1904/solution.cpp) |
 | [1905. Count Sub Islands](https://leetcode.com/problems/count-sub-islands/) | Medium | [C](./old-problems/1905/c/solution.c) [C++](./old-problems/1905/solution.cpp) |
 | [1913. Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) | Easy | [C](./old-problems/1913/c/solution.c) [C++](./old-problems/1913/solution.cpp) |
 | [1915. Number of Wonderful Substrings](https://leetcode.com/problems/number-of-wonderful-substrings/) | Medium | [C](./old-problems/1915/c/solution.c) [C++](./old-problems/1915/solution.cpp) |
