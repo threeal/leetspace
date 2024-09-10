@@ -1,0 +1,26 @@
+name: 2232. Minimize Result by Adding Parentheses to Expression
+
+types:
+  inputs:
+    expression: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: minimizeResult
+
+test_cases:
+  example_1:
+    inputs:
+      expression: 247+38
+    output: 2(47+38)
+
+  example_2:
+    inputs:
+      expression: 12+34
+    output: 1(2+3)4
+
+  example_3:
+    inputs:
+      expression: 999+999
+    output: (999+999)
