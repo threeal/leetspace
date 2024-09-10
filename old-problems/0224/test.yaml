@@ -24,3 +24,8 @@ test_cases:
     inputs:
       s: (1+(4+5+2)-3)+(6+8)
     output: 23
+
+  test_case_6:
+    inputs:
+      s: "2147483647"
+    output: 2147483647
