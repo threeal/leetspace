@@ -32,3 +32,10 @@ test_cases:
       k: 30
       target: 500
     output: 222616187
+
+  test_case_63:
+    inputs:
+      n: 20
+      k: 19
+      target: 233
+    output: 378846878
