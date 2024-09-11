@@ -1,0 +1,24 @@
+name: 2220. Minimum Bit Flips to Convert Number
+
+types:
+  inputs:
+    start: int
+    goal: int
+  output: int
+
+solutions:
+  cpp:
+    function: minBitFlips
+
+test_cases:
+  example_1:
+    inputs:
+      start: 10
+      goal: 7
+    output: 3
+
+  example_2:
+    inputs:
+      start: 3
+      goal: 4
+    output: 3
