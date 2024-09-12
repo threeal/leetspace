@@ -1,0 +1,26 @@
+name: 1888. Minimum Number of Flips to Make the Binary String Alternating
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minFlips
+
+test_cases:
+  example_1:
+    inputs:
+      s: "111000"
+    output: 2
+
+  example_2:
+    inputs:
+      s: "010"
+    output: 0
+
+  example_3:
+    inputs:
+      s: "1110"
+    output: 1
