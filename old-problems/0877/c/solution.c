@@ -3,5 +3,5 @@
 bool stoneGame(int* piles, int pilesSize) {
   (void)piles;
   (void)pilesSize;
-  return false;
+  return true;
 }
