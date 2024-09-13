@@ -7,17 +7,15 @@ class Solution {
       stones[i] += stones[i - 1];
     }
 
-    std::vector<int> diffs = stones;
-    std::vector<int> prevDiffs(stones.size(), 0);
+    std::vector<int> diffs(stones.size(), 0);
     for (std::size_t i = 1; i < diffs.size(); ++i) {
-      for (int j = diffs.size() - i - 1; j >= 0; --j) {
+      for (std::size_t j = 0; j < diffs.size() - i; ++j) {
         diffs[j] = std::max(
-            stones[j + i] - stones[j] - prevDiffs[j + 1],
-            stones[j + i - 1] - (j > 0 ? stones[j - 1] : 0) - prevDiffs[j]);
+            stones[j + i] - stones[j] - diffs[j + 1],
+            stones[j + i - 1] - (j > 0 ? stones[j - 1] : 0) - diffs[j]);
       }
-      std::swap(prevDiffs, diffs);
     }
 
-    return prevDiffs[0];
+    return diffs[0];
   }
 };
