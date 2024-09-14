@@ -20,6 +20,13 @@ test_cases:
       nums: [1, 2, 3, 4]
     output: 1
 
+  test_case_26:
+    inputs:
+      nums: [
+        311155, 311155, 311155, 311155, 311155, 311155, 311155, 311155, 201191,
+        311155]
+    output: 8
+
   test_case_31:
     inputs:
       nums: [
