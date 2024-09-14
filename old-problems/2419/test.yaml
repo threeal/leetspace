@@ -1,0 +1,21 @@
+name: 2419. Longest Subarray With Maximum Bitwise AND
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: longestSubarray
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3, 3, 2, 2]
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [1, 2, 3, 4]
+    output: 1
