@@ -378,7 +378,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2009. Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous) | Hard | [C++](./problems/2009/solution.cpp) |
 | [2018. Check if Word Can Be Placed In Crossword](https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/) | Medium | [C](./old-problems/2018/c/solution.c) [C++](./old-problems/2018/solution.cpp) |
 | [2022. Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/) | Medium | [C](./old-problems/2022/c/solution.c) [C++](./old-problems/2022/solution.cpp) |
-| [2028. Find Missing Observations](https://leetcode.com/problems/find-missing-observations/) | Medium | [C++](./old-problems/2028/solution.cpp) |
+| [2028. Find Missing Observations](https://leetcode.com/problems/find-missing-observations/) | Medium | [C](./old-problems/2028/c/solution.c) [C++](./old-problems/2028/solution.cpp) |
 | [2037. Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/) | Easy | [C](./old-problems/2037/c/solution.c) [C++](./old-problems/2037/solution.cpp) |
 | [2038. Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color) | Medium | [C](./old-problems/2038/c/solution.c) [C++](./old-problems/2038/solution.cpp) |
 | [2050. Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii) | Hard | [C++](./problems/2050/solution.cpp) |
