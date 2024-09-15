@@ -1,0 +1,26 @@
+name: 1371. Find the Longest Substring Containing Vowels in Even Counts
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: findTheLongestSubstring
+
+test_cases:
+  example_1:
+    inputs:
+      s: eleetminicoworoep
+    output: 13
+
+  example_2:
+    inputs:
+      s: leetcodeisgreat
+    output: 5
+
+  example_3:
+    inputs:
+      s: bcbcbc
+    output: 6
