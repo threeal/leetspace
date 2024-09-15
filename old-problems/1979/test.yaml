@@ -1,0 +1,26 @@
+name: 1979. Find Greatest Common Divisor of Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: findGCD
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 5, 6, 9, 10]
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [7, 5, 6, 8, 3]
+    output: 1
+
+  test_case_29:
+    inputs:
+      nums: [3, 3]
+    output: 3
