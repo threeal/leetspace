@@ -371,6 +371,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1937. Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) | Medium | [C](./old-problems/1937/c/solution.c) [C++](./old-problems/1937/solution.cpp) |
 | [1945. Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | Easy | [C++](./old-problems/1945/solution.cpp) |
 | [1971. Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | Easy | [C](./old-problems/1971/c/solution.c) [C++](./old-problems/1971/solution.cpp) |
+| [1976. Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/) | Medium | [C++](./old-problems/1976/solution.cpp) |
 | [1980. Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/) | Medium | [C++](./problems/1980/solution.cpp) |
 | [1992. Find All Groups of Farmland](https://leetcode.com/problems/find-all-groups-of-farmland/) | Medium | [C](./old-problems/1992/c/solution.c) [C++](./old-problems/1992/solution.cpp) |
 | [1995. Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/) | Easy | [C](./old-problems/1995/c/solution.c) [C++](./old-problems/1995/solution.cpp) |
