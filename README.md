@@ -447,7 +447,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2698. Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/) | Medium | [C](./old-problems/2698/c/solution.c) [C++](./old-problems/2698/solution.cpp) |
 | [2706. Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/) | Easy | [C](./old-problems/2706/c/solution.c) [C++](./old-problems/2706/solution.cpp) |
 | [2742. Painting the Walls](https://leetcode.com/problems/painting-the-walls) | Hard | [C++](./problems/2742/solution.cpp) |
-| [2748. Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/) | Easy | [C++](./old-problems/2748/solution.cpp) |
+| [2748. Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/) | Easy | [C](./old-problems/2748/c/solution.c) [C++](./old-problems/2748/solution.cpp) |
 | [2749. Minimum Operations to Make the Integer Zero](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/) | Medium | [C](./old-problems/2749/c/solution.c) [C++](./old-problems/2749/solution.cpp) |
 | [2751. Robot Collisions](https://leetcode.com/problems/robot-collisions/) | Hard | [C++](./old-problems/2751/solution.cpp) |
 | [2770. Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/) | Medium | [C](./old-problems/2770/c/solution.c) [C++](./old-problems/2770/solution.cpp) |
