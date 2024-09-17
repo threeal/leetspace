@@ -9,13 +9,14 @@ types:
 solutions:
   cpp:
     function: uncommonFromSentences
+    output: "[&]{ sort(output.begin(), output.end()); return output; }()"
 
 test_cases:
   example_1:
     inputs:
       s1: this apple is sweet
       s2: this apple is sour
-    output: [sweet, sour]
+    output: [sour, sweet]
 
   example_2:
     inputs:
