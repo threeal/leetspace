@@ -70,6 +70,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Medium | [C](./old-problems/0152/c/solution.c) [C++](./old-problems/0152/solution.cpp) |
 | [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | Medium | [C](./old-problems/0165/c/solution.c) [C++](./old-problems/0165/solution.cpp) |
 | [169. Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [C](./old-problems/0169/c/solution.c) [C++](./old-problems/0169/solution.cpp) |
+| [179. Largest Number](https://leetcode.com/problems/largest-number/) | Medium | [C++](./old-problems/0179/solution.cpp) |
 | [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [C](./old-problems/0191/c/solution.c) [C++](./old-problems/0191/solution.cpp) |
 | [198. House Robber](https://leetcode.com/problems/house-robber/) | Medium | [C](./old-problems/0198/c/solution.c) [C++](./old-problems/0198/solution.cpp) |
 | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [C](./old-problems/0200/c/solution.c) [C++](./old-problems/0200/solution.cpp) |
