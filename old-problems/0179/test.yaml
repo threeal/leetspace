@@ -24,3 +24,8 @@ test_cases:
     inputs:
       nums: [34323, 3432]
     output: "343234323"
+
+  test_case_229:
+    inputs:
+      nums: [0, 0]
+    output: "0"
