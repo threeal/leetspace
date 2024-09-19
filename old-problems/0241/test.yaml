@@ -13,9 +13,9 @@ test_cases:
   example_1:
     inputs:
       expression: "2-1-1"
-    output: [0, 2]
+    output: [2, 0]
 
   example_2:
     inputs:
       expression: "2*3-4*5"
-    output: [-34, -14, -10, -10, 10]
+    output: [-34, -10, -14, -10, 10]
