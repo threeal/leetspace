@@ -1,0 +1,21 @@
+name: 202. Happy Number
+
+types:
+  inputs:
+    n: int
+  output: bool
+
+solutions:
+  cpp:
+    function: isHappy
+
+test_cases:
+  example_1:
+    inputs:
+      n: 19
+    output: true
+
+  example_2:
+    inputs:
+      n: 2
+    output: false
