@@ -1,0 +1,21 @@
+name: 241. Different Ways to Add Parentheses
+
+types:
+  inputs:
+    expression: std::string
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: diffWaysToCompute
+
+test_cases:
+  example_1:
+    inputs:
+      expression: "2-1-1"
+    output: [0, 2]
+
+  example_2:
+    inputs:
+      expression: "2*3-4*5"
+    output: [-34, -14, -10, -10, 10]
