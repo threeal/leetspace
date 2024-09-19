@@ -3,18 +3,15 @@
 class Solution {
  public:
   int removeBoxes(std::vector<int>& boxes) {
-    std::vector<int> cache(boxes.size() * boxes.size() * boxes.size(), -1);
-    return removeBoxesRange(cache.data(), boxes, 0, boxes.size() - 1, 0);
+    int cache[100][100][100] = {0};
+    return removeBoxesRange(cache, boxes.data(), 0, boxes.size() - 1, 0);
   }
 
  private:
   static int removeBoxesRange(
-      int* cache, const std::vector<int>& boxes, int left, int right, int prev) {
+      int cache[100][100][100], int* boxes, int left, int right, int prev) {
     if (left > right) return 0;
-
-    const int cacheId =
-      left * boxes.size() * boxes.size() + right * boxes.size() + prev;
-    if (cache[cacheId] >= 0) return cache[cacheId];
+    if (cache[left][right][prev] > 0) return cache[left][right][prev];
 
     int i{left + 1};
     while (i <= right && boxes[i] == boxes[left]) ++i;
@@ -33,7 +30,7 @@ class Solution {
       }
     }
 
-    cache[cacheId] = bestScore;
+    cache[left][right][prev] = bestScore;
     return bestScore;
   }
 };
