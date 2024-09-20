@@ -51,4 +51,9 @@ TEST_CASE("2. Add Two Numbers") {
         to_list({9, 9, 9, 9, 9, 9, 9}), to_list({9, 9, 9, 9}));
     REQUIRE(std::vector<int>{8, 9, 9, 9, 0, 0, 0, 1} == from_list(out));
   }
+
+  SECTION("Test Case 1382") {
+    const auto out = Solution{}.addTwoNumbers(to_list({5}), to_list({5}));
+    REQUIRE(std::vector<int>{0, 1} == from_list(out));
+  }
 }
