@@ -1,0 +1,26 @@
+name: 546. Remove Boxes
+
+types:
+  inputs:
+    boxes: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: removeBoxes
+
+test_cases:
+  example_1:
+    inputs:
+      boxes: [1, 3, 2, 2, 2, 3, 4, 3, 1]
+    output: 23
+
+  example_2:
+    inputs:
+      boxes: [1, 1, 1]
+    output: 9
+
+  example_3:
+    inputs:
+      boxes: [1]
+    output: 1
