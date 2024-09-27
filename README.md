@@ -240,6 +240,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy | [C](./old-problems/1137/c/solution.c) [C++](./old-problems/1137/solution.cpp) |
 | [1140. Stone Game II](https://leetcode.com/problems/stone-game-ii/) | Medium | [C](./old-problems/1140/c/solution.c) [C++](./old-problems/1140/solution.cpp) |
 | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | [C](./old-problems/1143/c/solution.c) [C++](./old-problems/1143/solution.cpp) |
+| [1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) | Medium | [C++](./old-problems/1155/solution.cpp) |
 | [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | Easy | [C](./old-problems/1160/c/solution.c) [C++](./old-problems/1160/solution.cpp) |
 | [1170. Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/) | Medium | [C++](./old-problems/1170/solution.cpp) |
 | [1175. Prime Arrangements](https://leetcode.com/problems/prime-arrangements/) | Easy | [C](./old-problems/1175/c/solution.c) [C++](./old-problems/1175/solution.cpp) |
