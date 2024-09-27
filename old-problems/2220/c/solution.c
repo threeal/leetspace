@@ -1,3 +1,3 @@
 int minBitFlips(int start, int goal) {
-  return goal - start;
+  return __builtin_popcount(start ^ goal);
 }
