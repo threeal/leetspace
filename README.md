@@ -281,6 +281,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1366. Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/) | Medium | [C](./old-problems/1366/c/solution.c) [C++](./old-problems/1366/solution.cpp) |
 | [1367. Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/) | Medium | [C++](./old-problems/1367/solution.cpp) |
 | [1380. Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) | Easy | [C](./old-problems/1380/c/solution.c) [C++](./old-problems/1380/solution.cpp) |
+| [1381. Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | Medium | [C++](./old-problems/1381/solution.cpp) |
 | [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | Medium | [C++](./old-problems/1382/solution.cpp) |
 | [1395. Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/) | Medium | [C](./old-problems/1395/c/solution.c) [C++](./old-problems/1395/solution.cpp) |
 | [1404. Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | Medium | [C](./old-problems/1404/c/solution.c) [C++](./old-problems/1404/solution.cpp) |
