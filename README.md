@@ -299,6 +299,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1481. Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | Medium | [C++](./problems/1481/solution.cpp) |
 | [1482. Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | Medium | [C](./old-problems/1482/c/solution.c) [C++](./old-problems/1482/solution.cpp) |
 | [1496. Path Crossing](https://leetcode.com/problems/path-crossing/) | Easy | [C++](./problems/1496/solution.cpp) |
+| [1497. Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | Medium | [C++](./old-problems/1497/solution.cpp) |
 | [1503. Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank) | Medium | [C](./old-problems/1503/c/solution.c) [C++](./old-problems/1503/solution.cpp) |
 | [1507. Reformat Date](https://leetcode.com/problems/reformat-date/) | Easy | [C](./old-problems/1507/c/solution.c) [C++](./old-problems/1507/solution.cpp) |
 | [1508. Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/) | Medium | [C](./old-problems/1508/c/solution.c) [C++](./old-problems/1508/solution.cpp) |
