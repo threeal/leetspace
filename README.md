@@ -444,6 +444,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2486. Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/) | Medium | [C](./old-problems/2486/c/solution.c) [C++](./old-problems/2486/solution.cpp) |
 | [2487. Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | Medium | [C++](./old-problems/2487/solution.cpp) |
 | [2490. Circular Sentence](https://leetcode.com/problems/circular-sentence/) | Easy | [C](./old-problems/2490/c/solution.c) [C++](./old-problems/2490/solution.cpp) |
+| [2491. Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | Medium | [C++](./old-problems/2491/solution.cpp) |
 | [2497. Maximum Star Sum of a Graph](https://leetcode.com/problems/maximum-star-sum-of-a-graph/) | Medium | [C++](./old-problems/2497/solution.cpp) |
 | [2511. Maximum Enemy Forts That Can Be Captured](https://leetcode.com/problems/maximum-enemy-forts-that-can-be-captured/) | Easy | [C](./old-problems/2511/c/solution.c) [C++](./old-problems/2511/solution.cpp) |
 | [2525. Categorize Box According to Criteria](https://leetcode.com/problems/categorize-box-according-to-criteria/) | Easy | [C](./old-problems/2525/c/solution.c) [C++](./old-problems/2525/solution.cpp) |
