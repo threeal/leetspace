@@ -431,7 +431,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2385. Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | Medium | [C++](./old-problems/2385/solution.cpp) |
 | [2391. Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/) | Medium | [C](./old-problems/2391/c/solution.c) [C++](./old-problems/2391/solution.cpp) |
 | [2418. Sort the People](https://leetcode.com/problems/sort-the-people/) | Easy | [C](./old-problems/2418/c/solution.c) [C++](./old-problems/2418/solution.cpp) |
-| [2419. Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | Medium | [C++](./old-problems/2419/solution.cpp) |
+| [2419. Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | Medium | [C](./old-problems/2419/c/solution.c) [C++](./old-problems/2419/solution.cpp) |
 | [2423. Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/) | Easy | [C](./old-problems/2423/c/solution.c) [C++](./old-problems/2423/solution.cpp) |
 | [2424. Longest Uploaded Prefix](https://leetcode.com/problems/longest-uploaded-prefix/) | Medium | [C++](./old-problems/2424/solution.cpp) |
 | [2425. Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | Medium | [C](./old-problems/2425/c/solution.c) [C++](./old-problems/2425/solution.cpp) |
