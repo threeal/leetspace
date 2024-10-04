@@ -280,7 +280,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1361. Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes) | Medium | [C](./old-problems/1361/c/solution.c) [C++](./old-problems/1361/solution.cpp) |
 | [1366. Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/) | Medium | [C](./old-problems/1366/c/solution.c) [C++](./old-problems/1366/solution.cpp) |
 | [1367. Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/) | Medium | [C++](./old-problems/1367/solution.cpp) |
-| [1371. Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/) | Medium | [C++](./old-problems/1371/solution.cpp) |
+| [1371. Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/) | Medium | [C](./old-problems/1371/c/solution.c) [C++](./old-problems/1371/solution.cpp) |
 | [1380. Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) | Easy | [C](./old-problems/1380/c/solution.c) [C++](./old-problems/1380/solution.cpp) |
 | [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | Medium | [C++](./old-problems/1382/solution.cpp) |
 | [1395. Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/) | Medium | [C](./old-problems/1395/c/solution.c) [C++](./old-problems/1395/solution.cpp) |
