@@ -137,6 +137,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [514. Freedom Trail](https://leetcode.com/problems/freedom-trail/) | Hard | [C](./old-problems/0514/c/solution.c) [C++](./old-problems/0514/solution.cpp) |
 | [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | Medium | [C](./old-problems/0523/c/solution.c) [C++](./old-problems/0523/solution.cpp) |
 | [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) | Medium | [C++](./problems/0525/solution.cpp) |
+| [539. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | Medium | [C++](./old-problems/0539/solution.cpp) |
 | [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | Easy | [C](./old-problems/0541/c/solution.c) [C++](./old-problems/0541/solution.cpp) |
 | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [C++](./old-problems/0543/solution.cpp) |
 | [546. Remove Boxes](https://leetcode.com/problems/remove-boxes/) | Hard | [C](./old-problems/0546/c/solution.c) [C++](./old-problems/0546/solution.cpp) |
