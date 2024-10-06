@@ -34,3 +34,9 @@ test_cases:
       sentence1: B
       sentence2: ByI BMyQIqce b bARkkMaABi vlR RLHhqjNzCN oXvyK zRXR q ff B yHS OD KkvJA P JdWksnH
     output: false
+
+  test_case_137:
+    inputs:
+      sentence1: C
+      sentence2: CB B C
+    output: true
