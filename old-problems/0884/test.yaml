@@ -1,0 +1,25 @@
+name: 884. Uncommon Words from Two Sentences
+
+types:
+  inputs:
+    s1: std::string
+    s2: std::string
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: uncommonFromSentences
+    output: "[&]{ sort(output.begin(), output.end()); return output; }()"
+
+test_cases:
+  example_1:
+    inputs:
+      s1: this apple is sweet
+      s2: this apple is sour
+    output: [sour, sweet]
+
+  example_2:
+    inputs:
+      s1: apple apple
+      s2: banana
+    output: [banana]
