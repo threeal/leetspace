@@ -28,3 +28,9 @@ test_cases:
       sentence1: Eating right now
       sentence2: Eating
     output: true
+
+  test_case_134:
+    inputs:
+      sentence1: B
+      sentence2: ByI BMyQIqce b bARkkMaABi vlR RLHhqjNzCN oXvyK zRXR q ff B yHS OD KkvJA P JdWksnH
+    output: false
