@@ -7,8 +7,7 @@ set(CMAKE_CXX_STANDARD 20)
 include(cmake/CPM.cmake)
 
 cpmgetpackage(CheckWarning.cmake)
-include(${CheckWarning_SOURCE_DIR}/cmake/CheckWarning.cmake)
-add_check_warning()
+add_check_warning(TREAT_WARNINGS_AS_ERRORS)
 
 cpmgetpackage(Format.cmake)
 
