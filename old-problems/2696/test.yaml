@@ -1,0 +1,21 @@
+name: 2696. Minimum String Length After Removing Substrings
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minLength
+
+test_cases:
+  example_1:
+    inputs:
+      s: ABFCACDB
+    output: 2
+
+  example_2:
+    inputs:
+      s: ACBBD
+    output: 5
