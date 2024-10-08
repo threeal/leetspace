@@ -1,0 +1,31 @@
+name: 1909. Remove One Element to Make the Array Strictly Increasing
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: canBeIncreasing
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 10, 5, 7]
+    output: true
+
+  example_2:
+    inputs:
+      nums: [2, 3, 1, 2]
+    output: false
+
+  example_3:
+    inputs:
+      nums: [1, 1, 1]
+    output: false
+
+  test_case_8:
+    inputs:
+      nums: [100, 21, 100]
+    output: true
