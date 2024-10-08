@@ -30,8 +30,25 @@ def generate_test_src(out_dir: str, config: any):
         def dump(data):
             import json
 
-            s = json.dumps(data)
-            return s.replace("[", "{").replace("]", "}")
+            string = json.dumps(data)
+
+            # Replace square brackets with curly brackets.
+            formatted_string = ""
+            quotations = 0
+            for c in string:
+                if c == '"':
+                    quotations += 1
+                elif quotations % 2 == 0:
+                    if c == "[":
+                        formatted_string += "{"
+                        continue
+                    elif c == "]":
+                        formatted_string += "}"
+                        continue
+
+                formatted_string += c
+
+            return formatted_string
 
         output.write("\nconst std::vector<TestCase> test_cases = {\n")
         for name in config["test_cases"]:
