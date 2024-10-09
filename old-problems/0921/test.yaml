@@ -1,0 +1,21 @@
+name: 921. Minimum Add to Make Parentheses Valid
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minAddToMakeValid
+
+test_cases:
+  example_1:
+    inputs:
+      s: ())
+    output: 1
+
+  example_2:
+    inputs:
+      s: (((
+    output: 3
