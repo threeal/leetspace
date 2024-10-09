@@ -1,0 +1,30 @@
+name: 440. K-th Smallest in Lexicographical Order
+
+types:
+  inputs:
+    n: int
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: findKthNumber
+
+test_cases:
+  example_1:
+    inputs:
+      n: 13
+      k: 2
+    output: 10
+
+  example_2:
+    inputs:
+      n: 1
+      k: 1
+    output: 1
+
+  test_case_40:
+    inputs:
+      n: 681692778
+      k: 351251360
+    output: 416126219
