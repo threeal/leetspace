@@ -1,0 +1,19 @@
+cpp:
+  function:
+    name: shortestPalindrome
+    inputs:
+      - type: std::string
+        value: s
+    output:
+      type: std::string
+
+cases:
+  - name: example 1
+    inputs:
+      s: aacecaaa
+    output: aaacecaaa
+
+  - name: example 2
+    inputs:
+      s: abcd
+    output: dcbabcd
