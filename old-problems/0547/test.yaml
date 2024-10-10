@@ -1,0 +1,21 @@
+name: 547. Number of Provinces
+
+types:
+  inputs:
+    isConnected: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: findCircleNum
+
+test_cases:
+  example_1:
+    inputs:
+      isConnected: [[1, 1, 0], [1, 1, 0], [0, 0, 1]]
+    output: 2
+
+  example_2:
+    inputs:
+      isConnected: [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+    output: 3
