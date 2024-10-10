@@ -12,16 +12,15 @@ class Solution {
       }
     }
 
+    static const int exp[11] = {
+        0, 1, 10, 100, 1000, 10000, 100000, 1000000,
+        10000000, 100000000, 1000000000};
+
     int maxLength{0};
     for (auto num : arr2) {
-      while (num > 0) {
+      while (num > 0 && num >= exp[maxLength]) {
         if (prefixes.contains(num)) {
-          int length{0};
-          while (num > 0) {
-            ++length;
-            num /= 10;
-          }
-          if (length > maxLength) maxLength = length;
+          while (num >= exp[maxLength + 1]) ++maxLength;
           break;
         }
         num /= 10;
