@@ -440,6 +440,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2380. Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/) | Medium | [C](./old-problems/2380/c/solution.c) [C++](./old-problems/2380/solution.cpp) |
 | [2385. Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | Medium | [C++](./old-problems/2385/solution.cpp) |
 | [2391. Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/) | Medium | [C](./old-problems/2391/c/solution.c) [C++](./old-problems/2391/solution.cpp) |
+| [2416. Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/) | Hard | [C++](./old-problems/2416/solution.cpp) |
 | [2418. Sort the People](https://leetcode.com/problems/sort-the-people/) | Easy | [C](./old-problems/2418/c/solution.c) [C++](./old-problems/2418/solution.cpp) |
 | [2419. Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | Medium | [C++](./old-problems/2419/solution.cpp) |
 | [2423. Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/) | Easy | [C](./old-problems/2423/c/solution.c) [C++](./old-problems/2423/solution.cpp) |

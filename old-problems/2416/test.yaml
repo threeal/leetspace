@@ -1,0 +1,21 @@
+name: 2416. Sum of Prefix Scores of Strings
+
+types:
+  inputs:
+    words: std::vector<std::string>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: sumPrefixScores
+
+test_cases:
+  example_1:
+    inputs:
+      words: [abc, ab, bc, b]
+    output: [5, 4, 3, 2]
+
+  example_2:
+    inputs:
+      words: [abcd]
+    output: [4]
