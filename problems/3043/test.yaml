@@ -21,3 +21,9 @@ cases:
       arr1: [1, 2, 3]
       arr2: [4, 4, 4]
     output: 0
+
+  - name: test case 149
+    inputs:
+      arr1: [10]
+      arr2: [17, 11]
+    output: 1
