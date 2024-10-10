@@ -1,0 +1,23 @@
+cpp:
+  function:
+    name: longestCommonPrefix
+    inputs:
+      - type: std::vector<int>
+        value: arr1
+      - type: std::vector<int>
+        value: arr2
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      arr1: [1, 10, 100]
+      arr2: [1000]
+    output: 3
+
+  - name: example 2
+    inputs:
+      arr1: [1, 2, 3]
+      arr2: [4, 4, 4]
+    output: 0
