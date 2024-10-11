@@ -1,0 +1,24 @@
+name: 1942. The Number of the Smallest Unoccupied Chair
+
+types:
+  inputs:
+    times: std::vector<std::vector<int>>
+    targetFriend: int
+  output: int
+
+solutions:
+  cpp:
+    function: smallestChair
+
+test_cases:
+  example_1:
+    inputs:
+      times: [[1, 4], [2, 3], [4, 6]]
+      targetFriend: 1
+    output: 1
+
+  example_2:
+    inputs:
+      times: [[3, 10], [1, 5], [2, 6]]
+      targetFriend: 0
+    output: 2
