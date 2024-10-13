@@ -159,6 +159,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [623. Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) | Medium | [C++](./old-problems/0623/solution.cpp) |
 | [624. Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/) | Medium | [C](./old-problems/0624/c/solution.c) [C++](./old-problems/0624/solution.cpp) |
 | [628. Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | Easy | [C](./old-problems/0628/c/solution.c) [C++](./old-problems/0628/solution.cpp) |
+| [632. Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | Hard | [C++](./old-problems/0632/solution.cpp) |
 | [633. Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | Medium | [C](./old-problems/0633/c/solution.c) [C++](./old-problems/0633/solution.cpp) |
 | [640. Solve the Equation](https://leetcode.com/problems/solve-the-equation/) | Medium | [C](./old-problems/0640/c/solution.c) [C++](./old-problems/0640/solution.cpp) |
 | [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/) | Easy | [C](./old-problems/0645/c/solution.c) [C++](./old-problems/0645/solution.cpp) |
