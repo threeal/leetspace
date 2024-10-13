@@ -72,6 +72,14 @@ class AllOne {
       auto keyNode = it->second;
       auto countNode = keyNode->parentCount;
 
+      if (countNode->oldestKey == keyNode && countNode->newestKey == keyNode) {
+        if (countNode->next == nullptr ||
+            countNode->next->count != countNode->count + 1) {
+          ++(countNode->count);
+          return;
+        }
+      }
+
       if (countNode->next == nullptr) {
         countNode->next = new CountNode(countNode->count + 1);
         countNode->next->prev = countNode;
@@ -178,6 +186,14 @@ class AllOne {
       keysNodes.erase(it);
       delete keyNode;
     } else {
+      if (countNode->oldestKey == keyNode && countNode->newestKey == keyNode) {
+        if (countNode->prev == nullptr ||
+            countNode->prev->count != countNode->count - 1) {
+          --(countNode->count);
+          return;
+        }
+      }
+
       if (countNode->prev == nullptr) {
         countNode->prev = new CountNode(countNode->count - 1);
         countNode->prev->next = countNode;
