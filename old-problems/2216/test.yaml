@@ -1,0 +1,21 @@
+name: 2216. Minimum Deletions to Make Array Beautiful
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minDeletion
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 1, 2, 3, 5]
+    output: 1
+
+  example_2:
+    inputs:
+      nums: [1, 1, 2, 2, 3, 3]
+    output: 2
