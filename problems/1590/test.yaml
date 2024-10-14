@@ -1,0 +1,29 @@
+cpp:
+  function:
+    name: minSubarray
+    inputs:
+      - type: std::vector<int>
+        value: nums
+      - type: int
+        value: p
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      nums: [3, 1, 4, 2]
+      p: 6
+    output: 1
+
+  - name: example 2
+    inputs:
+      nums: [6, 3, 5, 2]
+      p: 9
+    output: 2
+
+  - name: case 1
+    inputs:
+      nums: [1, 2, 3]
+      p: 3
+    output: 0
