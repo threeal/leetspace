@@ -150,6 +150,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [546. Remove Boxes](https://leetcode.com/problems/remove-boxes/) | Hard | [C](./old-problems/0546/c/solution.c) [C++](./old-problems/0546/solution.cpp) |
 | [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | Medium | [C++](./old-problems/0547/solution.cpp) |
 | [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | Easy | [C](./old-problems/0557/c/solution.c) [C++](./old-problems/0557/solution.cpp) |
+| [564. Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome/) | Hard | [C++](./old-problems/0564/solution.cpp) |
 | [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | Medium | [C++](./problems/0576/solution.cpp) |
 | [587. Erect the Fence](https://leetcode.com/problems/erect-the-fence/) | Hard | [C++](./old-problems/0587/solution.cpp) |
 | [590. N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | Easy | [C++](./old-problems/0590/solution.cpp) |
