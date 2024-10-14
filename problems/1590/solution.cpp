@@ -1,22 +1,29 @@
 #include <numeric>
+#include <unordered_map>
 #include <vector>
 
 class Solution {
  public:
   int minSubarray(std::vector<int>& nums, int p) {
-    const auto mod = std::accumulate(nums.begin(), nums.end(), 0ll) % p;
-    if (mod == 0) return 0;
+    const int targetMod = std::accumulate(nums.begin(), nums.end(), 0ll) % p;
+    if (targetMod == 0) return 0;
 
-    for (std::size_t n{1}; n < nums.size(); ++n) {
-      auto sum = std::accumulate(nums.begin(), nums.begin() + n, 0ll);
-      if (sum % p == mod) return n;
+    int mod{0};
+    std::unordered_map<int, int> modIdxs;
+    modIdxs[0] = -1;
 
-      for (std::size_t i{n}; i < nums.size(); ++i) {
-        sum = sum + nums[i] - nums[i - n];
-        if (sum % p == mod) return n;
+    int minLength = nums.size();
+    for (int i{0}; i < static_cast<int>(nums.size()); ++i) {
+      mod = (mod + nums[i]) % p;
+
+      const auto it = modIdxs.find((p + mod - targetMod) % p);
+      if (it != modIdxs.end()) {
+        if (i - it->second < minLength) minLength = i - it->second;
       }
+
+      modIdxs[mod] = i;
     }
 
-    return -1;
+    return minLength == static_cast<int>(nums.size()) ? -1 : minLength;
   }
 };
