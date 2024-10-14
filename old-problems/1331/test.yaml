@@ -1,0 +1,26 @@
+name: 1331. Rank Transform of an Array
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: arrayRankTransform
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [40, 10, 20, 30]
+    output: [4, 1, 2, 3]
+
+  example_2:
+    inputs:
+      arr: [100, 100, 100]
+    output: [1, 1, 1]
+
+  example_3:
+    inputs:
+      arr: [37, 12, 28, 9, 100, 56, 80, 5, 12]
+    output: [5, 3, 4, 2, 8, 6, 7, 1, 3]
