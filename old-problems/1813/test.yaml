@@ -1,0 +1,42 @@
+name: 1813. Sentence Similarity III
+
+types:
+  inputs:
+    sentence1: std::string
+    sentence2: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: areSentencesSimilar
+
+test_cases:
+  example_1:
+    inputs:
+      sentence1: My name is Haley
+      sentence2: My Haley
+    output: true
+
+  example_2:
+    inputs:
+      sentence1: of
+      sentence2: A lot of words
+    output: false
+
+  example_3:
+    inputs:
+      sentence1: Eating right now
+      sentence2: Eating
+    output: true
+
+  test_case_134:
+    inputs:
+      sentence1: B
+      sentence2: ByI BMyQIqce b bARkkMaABi vlR RLHhqjNzCN oXvyK zRXR q ff B yHS OD KkvJA P JdWksnH
+    output: false
+
+  test_case_137:
+    inputs:
+      sentence1: C
+      sentence2: CB B C
+    output: true
