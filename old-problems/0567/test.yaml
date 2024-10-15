@@ -1,0 +1,24 @@
+name: 567. Permutation in String
+
+types:
+  inputs:
+    s1: std::string
+    s2: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: checkInclusion
+
+test_cases:
+  example_1:
+    inputs:
+      s1: ab
+      s2: eidbaooo
+    output: true
+
+  example_2:
+    inputs:
+      s1: ab
+      s2: eidboaoo
+    output: false
