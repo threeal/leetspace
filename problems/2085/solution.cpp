@@ -1,11 +1,14 @@
 #include <string>
 #include <unordered_map>
+#include <utility>
 #include <vector>
 
 class Solution {
  public:
   int countWords(
       std::vector<std::string>& words1, std::vector<std::string>& words2) {
+    if (words2.size() < words1.size()) std::swap(words1, words2);
+
     std::unordered_map<std::string, int> frequencies{};
     for (const auto& word : words1) ++frequencies[word];
 
