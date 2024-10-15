@@ -1,0 +1,30 @@
+
+cpp:
+  function:
+    name: countWords
+    inputs:
+      - type: std::vector<std::string>
+        value: words1
+      - type: std::vector<std::string>
+        value: words2
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      words1: [leetcode, is, amazing, as, is]
+      words2: [amazing, leetcode, is]
+    output: 2
+
+  - name: example 2
+    inputs:
+      words1: [b, bb, bbb]
+      words2: [a, aa, aaa]
+    output: 0
+
+  - name: example 3
+    inputs:
+      words1: [a, ab]
+      words2: [a, a, a, ab]
+    output: 1
