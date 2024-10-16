@@ -1,0 +1,26 @@
+name: 1963. Minimum Number of Swaps to Make the String Balanced
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minSwaps
+
+test_cases:
+  example_1:
+    inputs:
+      s: "][]["
+    output: 1
+
+  example_2:
+    inputs:
+      s: "]]][[["
+    output: 2
+
+  example_3:
+    inputs:
+      s: "[]"
+    output: 0
