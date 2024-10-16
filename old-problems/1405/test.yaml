@@ -25,3 +25,10 @@ test_cases:
       b: 1
       c: 0
     output: aabaa
+
+  test_case_33:
+    inputs:
+      a: 0
+      b: 8
+      c: 11
+    output: ccbccbbccbbccbbccbc
