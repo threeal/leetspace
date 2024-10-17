@@ -1,0 +1,21 @@
+name: 962. Maximum Width Ramp
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maxWidthRamp
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [6, 0, 8, 2, 1, 5]
+    output: 4
+
+  example_2:
+    inputs:
+      nums: [9, 8, 1, 0, 1, 9, 4, 0, 4, 1]
+    output: 7
