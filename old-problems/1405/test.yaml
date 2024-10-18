@@ -1,0 +1,34 @@
+name: 1405. Longest Happy String
+
+types:
+  inputs:
+    a: int
+    b: int
+    c: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: longestDiverseString
+
+test_cases:
+  example_1:
+    inputs:
+      a: 1
+      b: 1
+      c: 7
+    output: ccaccbcc
+
+  example_2:
+    inputs:
+      a: 7
+      b: 1
+      c: 0
+    output: aabaa
+
+  test_case_33:
+    inputs:
+      a: 0
+      b: 8
+      c: 11
+    output: ccbccbbccbbccbbccbc
