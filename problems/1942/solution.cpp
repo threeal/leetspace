@@ -1,61 +1,46 @@
 #include <algorithm>
 #include <queue>
+#include <tuple>
 #include <vector>
 
 class Solution {
  public:
   int smallestChair(std::vector<std::vector<int>>& times, int targetFriend) {
-    std::vector<int> arrivingFriends{};
-    arrivingFriends.reserve(times.size());
+    std::vector<std::tuple<int, int>> events{};
+    events.reserve(times.size() * 2 - 2);
 
     const int targetArrival{times[targetFriend][0]};
-    for (std::size_t i{0}; i < times.size(); ++i) {
-      if (times[i][0] < targetArrival) arrivingFriends.push_back(i);
-    }
-
-    std::sort(
-        arrivingFriends.begin(), arrivingFriends.end(),
-        [&times](const auto a, const auto b) {
-          return times[a][0] < times[b][0];
-        });
-
-    std::vector<int> chairs(arrivingFriends.size() + 1, -1);
-
-    const auto compare = [&times, &chairs](int a, int b) {
-      return times[chairs[a]][1] > times[chairs[b]][1];
-    };
-    std::priority_queue<int, std::vector<int>, decltype(compare)>
-        leavingChairs(compare);
-
-    for (const auto arrivingFriend : arrivingFriends) {
-      while (
-          !leavingChairs.empty() &&
-          times[chairs[leavingChairs.top()]][1] <= times[arrivingFriend][0]) {
-        chairs[leavingChairs.top()] = -1;
-        leavingChairs.pop();
-      }
-
-      for (std::size_t i{0}; i < chairs.size(); ++i) {
-        if (chairs[i] < 0) {
-          chairs[i] = arrivingFriend;
-          leavingChairs.push(i);
-          break;
+    for (int i{0}; i < static_cast<int>(times.size()); ++i) {
+      if (times[i][0] < targetArrival) {
+        events.push_back({times[i][0], i});
+        if (times[i][1] <= targetArrival) {
+          events.push_back({times[i][1], ~i});
         }
       }
     }
 
-    while (!leavingChairs.empty() &&
-           times[chairs[leavingChairs.top()]][1] <= times[targetFriend][0]) {
-      chairs[leavingChairs.top()] = -1;
-      leavingChairs.pop();
-    }
+    std::sort(
+        events.begin(), events.end(),
+        [](const auto a, const auto b) {
+          return std::get<0>(a) == std::get<0>(b)
+              ? std::get<1>(a) < 0
+              : std::get<0>(a) < std::get<0>(b);
+        });
 
-    for (std::size_t i{0}; i < chairs.size(); ++i) {
-      if (chairs[i] < 0) {
-        return i;
+    std::vector<int> chairs(times.size());
+
+    std::priority_queue<int, std::vector<int>, std::greater<int>> available{};
+    for (int i = times.size(); i >= 0; --i) available.push(i);
+
+    for (const auto& [time, idx] : events) {
+      if (idx >= 0) {
+        chairs[idx] = available.top();
+        available.pop();
+      } else {
+        available.push(chairs[~idx]);
       }
     }
 
-    return chairs.size();
+    return available.top();
   }
 };
