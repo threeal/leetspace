@@ -377,7 +377,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) | Hard | [C++](./old-problems/1770/solution.cpp) |
 | [1791. Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/) | Easy | [C](./old-problems/1791/c/solution.c) [C++](./old-problems/1791/solution.cpp) |
 | [1793. Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray) | Hard | [C](./old-problems/1793/c/solution.c) [C++](./old-problems/1793/solution.cpp) |
-| [1813. Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii/) | Medium | [C++](./old-problems/1813/solution.cpp) |
+| [1813. Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii/) | Medium | [C](./old-problems/1813/c/solution.c) [C++](./old-problems/1813/solution.cpp) |
 | [1814. Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/) | Medium | [C++](./problems/1814/solution.cpp) |
 | [1823. Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/) | Medium | [C](./old-problems/1823/c/solution.c) [C++](./old-problems/1823/solution.cpp) |
 | [1838. Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/) | Medium | [C++](./problems/1838/solution.cpp) |
