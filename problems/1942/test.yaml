@@ -1,0 +1,23 @@
+cpp:
+  function:
+    name: smallestChair
+    inputs:
+      - type: std::vector<std::vector<int>>
+        value: times
+      - type: int
+        value: targetFriend
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      times: [[1, 4], [2, 3], [4, 6]]
+      targetFriend: 1
+    output: 1
+
+  - name: example 2
+    inputs:
+      times: [[3, 10], [1, 5], [2, 6]]
+      targetFriend: 0
+    output: 2

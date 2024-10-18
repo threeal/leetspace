@@ -402,6 +402,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1930. Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences) | Medium | [C](./old-problems/1930/c/solution.c) [C++](./old-problems/1930/solution.cpp) |
 | [1936. Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/) | Medium | [C](./old-problems/1936/c/solution.c) [C++](./old-problems/1936/solution.cpp) |
 | [1937. Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) | Medium | [C](./old-problems/1937/c/solution.c) [C++](./old-problems/1937/solution.cpp) |
+| [1942. The Number of the Smallest Unoccupied Chair](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/) | Medium | [C++](./problems/1942/solution.cpp) |
 | [1945. Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | Easy | [C](./old-problems/1945/c/solution.c) [C++](./old-problems/1945/solution.cpp) |
 | [1963. Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/) | Medium | [C++](./old-problems/1963/solution.cpp) |
 | [1971. Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | Easy | [C](./old-problems/1971/c/solution.c) [C++](./old-problems/1971/solution.cpp) |
