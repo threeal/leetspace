@@ -1,0 +1,21 @@
+name: 632. Smallest Range Covering Elements from K Lists
+
+types:
+  inputs:
+    nums: std::vector<std::vector<int>>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: smallestRange
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [[4, 10, 15, 24, 26], [0, 9, 12, 20], [5, 18, 22, 30]]
+    output: [20, 24]
+
+  example_2:
+    inputs:
+      nums: [[1, 2, 3], [1, 2, 3], [1, 2, 3]]
+    output: [1, 1]
