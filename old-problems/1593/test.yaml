@@ -1,0 +1,26 @@
+name: 1593. Split a String Into the Max Number of Unique Substrings
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: maxUniqueSplit
+
+test_cases:
+  example_1:
+    inputs:
+      s: ababccc
+    output: 5
+
+  example_2:
+    inputs:
+      s: aba
+    output: 2
+
+  case_1:
+    inputs:
+      s: aa
+    output: 1
