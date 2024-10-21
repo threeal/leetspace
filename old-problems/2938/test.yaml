@@ -1,0 +1,26 @@
+name: 2938. Separate Black and White Balls
+
+types:
+  inputs:
+    s: std::string
+  output: long long
+
+solutions:
+  cpp:
+    function: minimumSteps
+
+test_cases:
+  example_1:
+    inputs:
+      s: "101"
+    output: 1
+
+  example_2:
+    inputs:
+      s: "100"
+    output: 2
+
+  example_3:
+    inputs:
+      s: "0111"
+    output: 0
