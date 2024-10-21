@@ -1,0 +1,24 @@
+name: 3093. Longest Common Suffix Queries
+
+types:
+  inputs:
+    wordsContainer: std::vector<std::string>
+    wordsQuery: std::vector<std::string>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: stringIndices
+
+test_cases:
+  example_1:
+    inputs:
+      wordsContainer: [abcd, bcd, xbcd]
+      wordsQuery: [cd, bcd, xyz]
+    output: [1, 1, 1]
+
+  example_2:
+    inputs:
+      wordsContainer: [abcdefgh, poiuygh, ghghgh]
+      wordsQuery: [gh, acbfgh, acbfegh]
+    output: [2, 0, 2]
