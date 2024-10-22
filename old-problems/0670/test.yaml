@@ -1,0 +1,21 @@
+name: 670. Maximum Swap
+
+types:
+  inputs:
+    num: int
+  output: int
+
+solutions:
+  cpp:
+    function: maximumSwap
+
+test_cases:
+  example_1:
+    inputs:
+      num: 2736
+    output: 7236
+
+  example_2:
+    inputs:
+      num: 9973
+    output: 9973
