@@ -1,0 +1,26 @@
+name: 1568. Minimum Number of Days to Disconnect Island
+
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: minDays
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [0, 1, 1, 0]
+        - [0, 1, 1, 0]
+        - [0, 0, 0, 0]
+    output: 2
+
+  example_2:
+    inputs:
+      grid:
+        - [1, 1]
+    output: 2
