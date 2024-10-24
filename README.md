@@ -226,6 +226,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [945. Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | Medium | [C](./old-problems/0945/c/solution.c) [C++](./old-problems/0945/solution.cpp) |
 | [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) | Medium | [C++](./old-problems/0947/solution.cpp) |
 | [948. Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/) | Medium | [C](./old-problems/0948/c/solution.c) [C++](./old-problems/0948/solution.cpp) |
+| [951. Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | Medium | [C++](./old-problems/0951/solution.cpp) |
 | [959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/) | Medium | [C](./old-problems/0959/c/solution.c) [C++](./old-problems/0959/solution.cpp) |
 | [962. Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/) | Medium | [C](./old-problems/0962/c/solution.c) [C++](./old-problems/0962/solution.cpp) |
 | [974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | Medium | [C](./old-problems/0974/c/solution.c) [C++](./old-problems/0974/solution.cpp) |
