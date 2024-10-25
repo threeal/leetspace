@@ -1,0 +1,26 @@
+name: 1233. Remove Sub-Folders from the Filesystem
+
+types:
+  inputs:
+    folder: std::vector<std::string>
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: removeSubfolders
+
+test_cases:
+  example_1:
+    inputs:
+      folder: [/a, /a/b, /c/d, /c/d/e, /c/f]
+    output: [/a, /c/d, /c/f]
+
+  example_2:
+    inputs:
+      folder: [/a, /a/b/c, /a/b/d]
+    output: [/a]
+
+  case_1:
+    inputs:
+      folder: [/a/b/c, /a/b/ca, /a/b/d]
+    output: [/a/b/c, /a/b/ca, /a/b/d]

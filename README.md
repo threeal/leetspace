@@ -270,6 +270,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1219. Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/) | Medium | [C](./old-problems/1219/c/solution.c) [C++](./old-problems/1219/solution.cpp) |
 | [1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation) | Hard | [C](./old-problems/1220/c/solution.c) [C++](./old-problems/1220/solution.cpp) |
 | [1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line) | Easy | [C++](./problems/1232/solution.cpp) |
+| [1233. Remove Sub-Folders from the Filesystem](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/) | Medium | [C++](./old-problems/1233/solution.cpp) |
 | [1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | Hard | [C++](./problems/1235/solution.cpp) |
 | [1239. Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium | [C](./old-problems/1239/c/solution.c) [C++](./old-problems/1239/solution.cpp) |
 | [1247. Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) | Medium | [C](./old-problems/1247/c/solution.c) [C++](./old-problems/1247/solution.cpp) |
