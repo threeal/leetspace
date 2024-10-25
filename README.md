@@ -332,6 +332,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1534. Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | Easy | [C](./old-problems/1534/c/solution.c) [C++](./old-problems/1534/solution.cpp) |
 | [1535. Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game) | Medium | [C](./old-problems/1535/c/solution.c) [C++](./old-problems/1535/solution.cpp) |
 | [1544. Make The String Great](https://leetcode.com/problems/make-the-string-great/) | Easy | [C](./old-problems/1544/c/solution.c) [C++](./old-problems/1544/solution.cpp) |
+| [1545. Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | Medium | [C++](./old-problems/1545/solution.cpp) |
 | [1550. Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) | Easy | [C](./old-problems/1550/c/solution.c) [C++](./old-problems/1550/solution.cpp) |
 | [1552. Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/) | Medium | [C](./old-problems/1552/c/solution.c) [C++](./old-problems/1552/solution.cpp) |
 | [1561. Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/) | Medium | [C](./old-problems/1561/c/solution.c) [C++](./old-problems/1561/solution.cpp) |

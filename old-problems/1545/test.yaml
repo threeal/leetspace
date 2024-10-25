@@ -1,0 +1,24 @@
+name: 1545. Find Kth Bit in Nth Binary String
+
+types:
+  inputs:
+    n: int
+    k: int
+  output: char
+
+solutions:
+  cpp:
+    function: findKthBit
+
+test_cases:
+  example_1:
+    inputs:
+      n: 3
+      k: 1
+    output: 48
+
+  example_2:
+    inputs:
+      n: 4
+      k: 11
+    output: 49
