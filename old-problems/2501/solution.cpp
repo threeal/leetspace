@@ -1,5 +1,4 @@
 #include <algorithm>
-#include <unordered_map>
 #include <vector>
 
 class Solution {
@@ -7,21 +6,17 @@ class Solution {
   int longestSquareStreak(std::vector<int>& nums) {
     std::sort(nums.begin(), nums.end(), std::greater<int>());
 
-    int maxSquare{-1};
-    std::unordered_map<int, int> squares{};
+    char maxSquare{1};
+    std::vector<char> squares(100001, 0);
     for (const auto num : nums) {
       if (num <= 316) {
-        const auto it = squares.find(num * num);
-        if (it != squares.end()) {
-          squares.emplace(num, 1 + it->second);
-          if (1 + it->second > maxSquare) maxSquare = 1 + it->second;
-          continue;
-        }
+        squares[num] = 1 + squares[num * num];
+        if (squares[num] > maxSquare) maxSquare = squares[num];
+      } else {
+        squares[num] = 1;
       }
-
-      squares.emplace(num, 1);
     }
 
-    return maxSquare;
+    return maxSquare > 1 ? maxSquare : -1;
   }
 };
