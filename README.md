@@ -495,6 +495,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2610. Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions) | Medium | [C++](./problems/2610/solution.cpp) |
 | [2642. Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator) | Hard | [C++](./old-problems/2642/solution.cpp) |
 | [2678. Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/) | Easy | [C](./old-problems/2678/c/solution.c) [C++](./old-problems/2678/solution.cpp) |
+| [2684. Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/) | Medium | [C++](./old-problems/2684/solution.cpp) |
 | [2696. Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) | Easy | [C](./old-problems/2696/c/solution.c) [C++](./old-problems/2696/solution.cpp) |
 | [2698. Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/) | Medium | [C](./old-problems/2698/c/solution.c) [C++](./old-problems/2698/solution.cpp) |
 | [2706. Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/) | Easy | [C](./old-problems/2706/c/solution.c) [C++](./old-problems/2706/solution.cpp) |
