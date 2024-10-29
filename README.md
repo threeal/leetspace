@@ -343,6 +343,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/) | Hard | [C](./old-problems/1579/c/solution.c) [C++](./old-problems/1579/solution.cpp) |
 | [1582. Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | Easy | [C](./old-problems/1582/c/solution.c) [C++](./old-problems/1582/solution.cpp) |
 | [1590. Make Sum Divisible by P](https://leetcode.com/problems/make-sum-divisible-by-p/) | Medium | [C++](./problems/1590/solution.cpp) |
+| [1593. Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/) | Medium | [C++](./problems/1593/solution.cpp) |
 | [1598. Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/) | Easy | [C](./old-problems/1598/c/solution.c) [C++](./old-problems/1598/solution.cpp) |
 | [1600. Throne Inheritance](https://leetcode.com/problems/throne-inheritance/) | Medium | [C++](./old-problems/1600/solution.cpp) |
 | [1605. Find Valid Matrix Given Row and Column Sums](https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/) | Medium | [C](./old-problems/1605/c/solution.c) [C++](./old-problems/1605/solution.cpp) |
