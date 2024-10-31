@@ -1,0 +1,24 @@
+name: 2463. Minimum Total Distance Traveled
+
+types:
+  inputs:
+    robot: std::vector<int>
+    factory: std::vector<std::vector<int>>
+  output: long long
+
+solutions:
+  cpp:
+    function: minimumTotalDistance
+
+test_cases:
+  example_1:
+    inputs:
+      robot: [0, 4, 6]
+      factory: [[2, 2], [6, 2]]
+    output: 4
+
+  example_2:
+    inputs:
+      robot: [1, -1]
+      factory: [[-2, 1], [2, 1]]
+    output: 2
