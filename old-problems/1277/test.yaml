@@ -1,0 +1,27 @@
+name: 1277. Count Square Submatrices with All Ones
+
+types:
+  inputs:
+    matrix: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: countSquares
+
+test_cases:
+  example_1:
+    inputs:
+      matrix:
+        - [0, 1, 1, 1]
+        - [1, 1, 1, 1]
+        - [0, 1, 1, 1]
+    output: 15
+
+  example_2:
+    inputs:
+      matrix:
+        - [1, 0, 1]
+        - [1, 1, 0]
+        - [1, 1, 0]
+    output: 7
