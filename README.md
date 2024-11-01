@@ -282,7 +282,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) | Easy | [C](./old-problems/1266/c/solution.c) [C++](./old-problems/1266/solution.cpp) |
 | [1269. Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps) | Hard | [C++](./problems/1269/solution.cpp) |
 | [1275. Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) | Easy | [C](./old-problems/1275/c/solution.c) [C++](./old-problems/1275/solution.cpp) |
-| [1277. Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | Medium | [C++](./old-problems/1277/solution.cpp) |
+| [1277. Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | Medium | [C](./old-problems/1277/c/solution.c) [C++](./old-problems/1277/solution.cpp) |
 | [1287. Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/) | Easy | [C](./old-problems/1287/c/solution.c) [C++](./old-problems/1287/solution.cpp) |
 | [1289. Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/) | Hard | [C](./old-problems/1289/c/solution.c) [C++](./old-problems/1289/solution.cpp) |
 | [1291. Sequential Digits](https://leetcode.com/problems/sequential-digits/) | Medium | [C](./old-problems/1291/c/solution.c) [C++](./old-problems/1291/solution.cpp) |
