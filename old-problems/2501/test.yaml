@@ -1,0 +1,26 @@
+name: 2501. Longest Square Streak in an Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: longestSquareStreak
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [4, 3, 6, 16, 8, 2]
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [2, 3, 5, 6, 7]
+    output: -1
+
+  test_case_7:
+    inputs:
+      nums: [4, 16, 256, 65536]
+    output: 4
