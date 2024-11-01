@@ -1,0 +1,26 @@
+name: 1957. Delete Characters to Make Fancy String
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: makeFancyString
+
+test_cases:
+  example_1:
+    inputs:
+      s: leeetcode
+    output: leetcode
+
+  example_2:
+    inputs:
+      s: aaabaaaa
+    output: aabaa
+
+  example_3:
+    inputs:
+      s: aab
+    output: aab
