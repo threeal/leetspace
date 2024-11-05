@@ -1,0 +1,26 @@
+name: 2914. Minimum Number of Changes to Make Binary String Beautiful
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minChanges
+
+test_cases:
+  example_1:
+    inputs:
+      s: "1001"
+    output: 2
+
+  example_2:
+    inputs:
+      s: "10"
+    output: 1
+
+  example_3:
+    inputs:
+      s: "0000"
+    output: 0
