@@ -1,0 +1,45 @@
+cpp:
+  function:
+    name: robotSim
+    inputs:
+      - type: std::vector<int>
+        value: commands
+      - type: std::vector<std::vector<int>>
+        value: obstacles
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      commands: [4, -1, 3]
+      obstacles: []
+    output: 25
+
+  - name: example 2
+    inputs:
+      commands: [4, -1, 4, -2, 4]
+      obstacles: [[2, 4]]
+    output: 65
+
+  - name: example 3
+    inputs:
+      commands: [6, -1, -1, 6]
+      obstacles: []
+    output: 36
+
+  - name: test case 20
+    inputs:
+      commands: [-2, 8, 3, 7, -1]
+      obstacles: [
+        [-4, -1], [1, -1], [1, 4], [5, 0], [4, 5], [-2, -1], [2, -5], [5, 1],
+        [-3, -1], [5, -3]]
+    output: 324
+
+  - name: test case 45
+    inputs:
+      commands: [-2, -1, -2, 3, 7]
+      obstacles: [
+        [1, -3], [2, -3], [4, 0], [-2, 5], [-5, 2], [0, 0], [4, -4], [-2, -5],
+        [-1, -2], [0, 2]]
+    output: 100
