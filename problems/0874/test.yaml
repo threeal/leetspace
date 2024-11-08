@@ -27,3 +27,11 @@ cases:
       commands: [6, -1, -1, 6]
       obstacles: []
     output: 36
+
+  - name: test case 20
+    inputs:
+      commands: [-2, 8, 3, 7, -1]
+      obstacles: [
+        [-4, -1], [1, -1], [1, 4], [5, 0], [4, 5], [-2, -1], [2, -5], [5, 1],
+        [-3, -1], [5, -3]]
+    output: 324
