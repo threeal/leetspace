@@ -22,3 +22,9 @@ test_cases:
       n: 2
       x: 7
     output: 15
+
+  test_case_330:
+    inputs:
+      n: 3
+      x: 1
+    output: 5
