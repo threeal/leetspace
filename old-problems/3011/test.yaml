@@ -1,0 +1,31 @@
+name: 3011. Find if Array Can Be Sorted
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: canSortArray
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [8, 4, 2, 30, 15]
+    output: true
+
+  example_2:
+    inputs:
+      nums: [1, 2, 3, 4, 5]
+    output: true
+
+  example_3:
+    inputs:
+      nums: [3, 16, 8, 4, 2]
+    output: false
+
+  test_case_929:
+    inputs:
+      nums: [20, 16]
+    output: false

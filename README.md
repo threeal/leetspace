@@ -535,6 +535,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2998. Minimum Number of Operations to Make X and Y Equal](https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/) | Medium | [C](./old-problems/2998/c/solution.c) [C++](./old-problems/2998/solution.cpp) |
 | [3005. Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/) | Easy | [C++](./problems/3005/solution.cpp) |
 | [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](https://leetcode.com/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/) | Medium | [C](./old-problems/3007/c/solution.c) [C++](./old-problems/3007/solution.cpp) |
+| [3011. Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | Medium | [C++](./old-problems/3011/solution.cpp) |
 | [3016. Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description) | Medium | [C](./old-problems/3016/c/solution.c) [C++](./old-problems/3016/solution.cpp) |
 | [3043. Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) | Medium | [C++](./problems/3043/solution.cpp) |
 | [3065. Minimum Operations to Exceed Threshold Value I](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/) | Easy | [C](./old-problems/3065/c/solution.c) [C++](./old-problems/3065/solution.cpp) |
