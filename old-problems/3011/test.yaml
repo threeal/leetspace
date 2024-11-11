@@ -6,6 +6,7 @@ types:
   output: bool
 
 solutions:
+  c:
   cpp:
     function: canSortArray
 
