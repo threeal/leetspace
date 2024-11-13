@@ -32,3 +32,10 @@ test_cases:
       lower: 0
       upper: 0
     output: 15
+
+  test_case_12:
+    inputs:
+      nums: [0, 0, 0, 0, 0, 0]
+      lower: -1000000000
+      upper: 1000000000
+    output: 15
