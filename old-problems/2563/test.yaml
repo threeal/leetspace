@@ -25,3 +25,10 @@ test_cases:
       lower: 11
       upper: 11
     output: 1
+
+  test_case_10:
+    inputs:
+      nums: [0, 0, 0, 0, 0, 0]
+      lower: 0
+      upper: 0
+    output: 15
