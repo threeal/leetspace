@@ -1,0 +1,27 @@
+name: 2563. Count the Number of Fair Pairs
+
+types:
+  inputs:
+    nums: std::vector<int>
+    lower: int
+    upper: int
+  output: long long
+
+solutions:
+  cpp:
+    function: countFairPairs
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [0, 1, 7, 4, 4, 5]
+      lower: 3
+      upper: 6
+    output: 6
+
+  example_2:
+    inputs:
+      nums: [1, 7, 9, 2, 5]
+      lower: 11
+      upper: 11
+    output: 1
