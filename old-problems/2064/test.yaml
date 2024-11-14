@@ -1,0 +1,31 @@
+name: 2064. Minimized Maximum of Products Distributed to Any Store
+
+
+types:
+  inputs:
+    n: int
+    quantities: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minimizedMaximum
+
+test_cases:
+  example_1:
+    inputs:
+      n: 6
+      quantities: [11, 6]
+    output: 3
+
+  example_2:
+    inputs:
+      n: 7
+      quantities: [15, 10, 10]
+    output: 5
+
+  example_3:
+    inputs:
+      n: 1
+      quantities: [100000]
+    output: 100000
