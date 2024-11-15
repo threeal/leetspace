@@ -29,3 +29,10 @@ test_cases:
     inputs:
       arr: [1]
     output: 0
+
+  test_case_117:
+    inputs:
+      arr: [
+        6, 10, 21, 37, 34, 17, 23, 18, 14, 6, 26, 26, 28, 40, 26, 20, 33, 29,
+        4, 17]
+    output: 16
