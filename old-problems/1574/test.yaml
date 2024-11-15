@@ -24,3 +24,8 @@ test_cases:
     inputs:
       arr: [1, 2, 3]
     output: 0
+
+  test_case_3:
+    inputs:
+      arr: [1]
+    output: 0
