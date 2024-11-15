@@ -1,0 +1,26 @@
+name: 1574. Shortest Subarray to be Removed to Make Array Sorted
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: findLengthOfShortestSubarray
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [1, 2, 3, 10, 4, 2, 3, 5]
+    output: 3
+
+  example_2:
+    inputs:
+      arr: [5, 4, 3, 2, 1]
+    output: 4
+
+  example_3:
+    inputs:
+      arr: [1, 2, 3]
+    output: 0
