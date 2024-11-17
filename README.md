@@ -201,6 +201,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) | Hard | [C++](./old-problems/0857/solution.cpp) |
 | [860. Lemonade Change](https://leetcode.com/problems/lemonade-change/) | Easy | [C](./old-problems/0860/c/solution.c) [C++](./old-problems/0860/solution.cpp) |
 | [861. Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/) | Medium | [C](./old-problems/0861/c/solution.c) [C++](./old-problems/0861/solution.cpp) |
+| [862. Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | Hard | [C++](./old-problems/0862/solution.cpp) |
 | [867. Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | Easy | [C](./old-problems/0867/c/solution.c) [C++](./old-problems/0867/solution.cpp) |
 | [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | Easy | [C++](./old-problems/0872/solution.cpp) |
 | [874. Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/) | Medium | [C++](./problems/0874/solution.cpp) |
