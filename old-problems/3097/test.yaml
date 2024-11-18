@@ -1,0 +1,30 @@
+name: 3097. Shortest Subarray With OR at Least K II
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: minimumSubarrayLength
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3]
+      k: 2
+    output: 1
+
+  example_2:
+    inputs:
+      nums: [2, 1, 8]
+      k: 10
+    output: 3
+
+  example_3:
+    inputs:
+      nums: [1, 2]
+      k: 0
+    output: 1
