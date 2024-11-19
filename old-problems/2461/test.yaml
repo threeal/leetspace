@@ -1,0 +1,24 @@
+name: 2461. Maximum Sum of Distinct Subarrays With Length K
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: long long
+
+solutions:
+  cpp:
+    function: maximumSubarraySum
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 5, 4, 2, 9, 9, 9]
+      k: 3
+    output: 15
+
+  example_2:
+    inputs:
+      nums: [4, 4, 4]
+      k: 3
+    output: 0
