@@ -1,3 +1,4 @@
+#include <utility>
 #include <vector>
 
 class Solution {
@@ -10,10 +11,11 @@ class Solution {
       if (largest < nums[i]) largest = nums[i];
     }
 
-    for (int i = smallest; i > 0; --i) {
-      if (smallest % i == 0 && largest % i == 0) return i;
+    while (smallest != 0) {
+      std::swap(largest, smallest);
+      smallest %= largest;
     }
 
-    return 1;
+    return largest;
   }
 };
