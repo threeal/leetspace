@@ -1,0 +1,26 @@
+name: 2601. Prime Subtraction Operation
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: primeSubOperation
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [4, 9, 6, 10]
+    output: true
+
+  example_2:
+    inputs:
+      nums: [6, 8, 11, 12]
+    output: true
+
+  example_3:
+    inputs:
+      nums: [5, 8, 3]
+    output: false
