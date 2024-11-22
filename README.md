@@ -421,7 +421,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1963. Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/) | Medium | [C](./old-problems/1963/c/solution.c) [C++](./old-problems/1963/solution.cpp) |
 | [1971. Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | Easy | [C](./old-problems/1971/c/solution.c) [C++](./old-problems/1971/solution.cpp) |
 | [1976. Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/) | Medium | [C++](./old-problems/1976/solution.cpp) |
-| [1979. Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | Easy | [C++](./old-problems/1979/solution.cpp) |
+| [1979. Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | Easy | [C](./old-problems/1979/c/solution.c) [C++](./old-problems/1979/solution.cpp) |
 | [1980. Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/) | Medium | [C++](./problems/1980/solution.cpp) |
 | [1992. Find All Groups of Farmland](https://leetcode.com/problems/find-all-groups-of-farmland/) | Medium | [C](./old-problems/1992/c/solution.c) [C++](./old-problems/1992/solution.cpp) |
 | [1995. Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/) | Easy | [C](./old-problems/1995/c/solution.c) [C++](./old-problems/1995/solution.cpp) |
