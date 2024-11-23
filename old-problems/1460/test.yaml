@@ -1,0 +1,30 @@
+name: 1460. Make Two Arrays Equal by Reversing Subarrays
+
+types:
+  inputs:
+    target: std::vector<int>
+    arr: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: canBeEqual
+
+test_cases:
+  example_1:
+    inputs:
+      target: [1, 2, 3, 4]
+      arr: [2, 4, 1, 3]
+    output: true
+
+  example_2:
+    inputs:
+      target: [7]
+      arr: [7]
+    output: true
+
+  example_3:
+    inputs:
+      target: [3, 7, 9]
+      arr: [3, 7, 11]
+    output: false
