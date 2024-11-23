@@ -1,0 +1,44 @@
+name: 1861. Rotating the Box
+
+types:
+  inputs:
+    box: std::vector<std::vector<char>>
+  output: std::vector<std::vector<char>>
+
+solutions:
+  cpp:
+    function: rotateTheBox
+
+test_cases:
+  example_1:
+    inputs:
+      box: [[35, 46, 35]]
+    output:
+      - [46]
+      - [35]
+      - [35]
+
+  example_2:
+    inputs:
+      box:
+        - [35, 46, 42, 46]
+        - [35, 35, 42, 46]
+    output:
+      - [35, 46]
+      - [35, 35]
+      - [42, 42]
+      - [46, 46]
+
+  example_3:
+    inputs:
+      box:
+        - [35, 35, 42, 46, 42, 46]
+        - [35, 35, 35, 42, 46, 46]
+        - [35, 35, 35, 46, 35, 46]
+    output:
+      - [46, 35, 35]
+      - [46, 35, 35]
+      - [35, 35, 42]
+      - [35, 42, 46]
+      - [35, 46, 42]
+      - [35, 46, 46]

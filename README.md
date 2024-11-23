@@ -395,6 +395,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1829. Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/) | Medium | [C](./old-problems/1829/c/solution.c) [C++](./old-problems/1829/solution.cpp) |
 | [1838. Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/) | Medium | [C++](./problems/1838/solution.cpp) |
 | [1846. Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging) | Medium | [C](./old-problems/1846/c/solution.c) [C++](./old-problems/1846/solution.cpp) |
+| [1861. Rotating the Box](https://leetcode.com/problems/rotating-the-box/) | Medium | [C++](./old-problems/1861/solution.cpp) |
 | [1863. Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | Easy | [C](./old-problems/1863/c/solution.c) [C++](./old-problems/1863/solution.cpp) |
 | [1876. Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters) | Easy | [C](./old-problems/1876/c/solution.c) [C++](./old-problems/1876/solution.cpp) |
 | [1877. Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | Medium | [C++](./old-problems/1877/c/solution.c) [C++](./old-problems/1877/solution.cpp) |
