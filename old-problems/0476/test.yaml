@@ -1,0 +1,21 @@
+name: 476. Number Complement
+
+types:
+  inputs:
+    num: int
+  output: int
+
+solutions:
+  cpp:
+    function: findComplement
+
+test_cases:
+  example_1:
+    inputs:
+      num: 5
+    output: 2
+
+  example_2:
+    inputs:
+      num: 1
+    output: 0
