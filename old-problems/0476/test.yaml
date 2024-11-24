@@ -20,3 +20,8 @@ test_cases:
     inputs:
       num: 1
     output: 0
+
+  test_case_41:
+    inputs:
+      num: 2147483647
+    output: 0
