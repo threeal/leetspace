@@ -137,7 +137,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [456. 132 Pattern](https://leetcode.com/problems/132-pattern) | Medium | [C](./old-problems/0456/c/solution.c) [C++](./old-problems/0456/solution.cpp) |
 | [458. Poor Pigs](https://leetcode.com/problems/poor-pigs) | Hard | [C](./old-problems/0458/c/solution.c) [C++](./old-problems/0458/solution.cpp) |
 | [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/) | Easy | [C](./old-problems/0463/c/solution.c) [C++](./old-problems/0463/solution.cpp) |
-| [476. Number Complement](https://leetcode.com/problems/number-complement/description/) | Easy | [C++](./old-problems/0476/solution.cpp) |
+| [476. Number Complement](https://leetcode.com/problems/number-complement/description/) | Easy | [C](./old-problems/0476/c/solution.c) [C++](./old-problems/0476/solution.cpp) |
 | [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Easy | [C++](./old-problems/0485/solution.cpp) |
 | [502. IPO](https://leetcode.com/problems/ipo/) | Hard | [C](./old-problems/0502/c/solution.c) [C++](./old-problems/0502/solution.cpp) |
 | [506. Relative Ranks](https://leetcode.com/problems/relative-ranks/) | Easy | [C](./old-problems/0506/c/solution.c) [C++](./old-problems/0506/solution.cpp) |
