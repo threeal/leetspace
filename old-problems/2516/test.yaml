@@ -1,0 +1,24 @@
+name: 2516. Take K of Each Character From Left and Right
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: takeCharacters
+
+test_cases:
+  example_1:
+    inputs:
+      s: aabaaaacaabc
+      k: 2
+    output: 8
+
+  example_2:
+    inputs:
+      s: a
+      k: 1
+    output: -1
