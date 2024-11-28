@@ -24,3 +24,8 @@ test_cases:
     inputs:
       x: 120
     output: 21
+
+  test_case_12:
+    inputs:
+      x: 1534236469
+    output: 0
