@@ -12,6 +12,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | Hard | [C++](./problems/0004/solution.cpp) |
 | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | Medium | [C](./old-problems/0005/c/solution.c) [C++](./old-problems/0005/solution.cpp) |
 | [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion) | Medium | [C](./old-problems/0006/c/solution.c) [C++](./old-problems/0006/solution.cpp) |
+| [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | [C++](./old-problems/0007/solution.cpp) |
 | [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | Medium | [C++](./problems/0008/solution.cpp) |
 | [9. Palindrome Number](https://leetcode.com/problems/palindrome-number) | Easy | [C++](./problems/0009/solution.cpp) |
 | [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Hard | [C](./old-problems/0010/c/solution.c) [C++](./old-problems/0010/solution.cpp) |
