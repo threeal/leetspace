@@ -1,0 +1,24 @@
+name: 1638. Count Substrings That Differ by One Character
+
+types:
+  inputs:
+    s: std::string
+    t: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: countSubstrings
+
+test_cases:
+  example_1:
+    inputs:
+      s: aba
+      t: baba
+    output: 6
+
+  example_2:
+    inputs:
+      s: ab
+      t: bb
+    output: 3
