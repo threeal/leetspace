@@ -34,3 +34,9 @@ test_cases:
       sentence: hello from the other side
       searchWord: they
     output: -1
+
+  test_case_17:
+    inputs:
+      sentence: love errichto jonathan dumb
+      searchWord: dumb
+    output: 4
