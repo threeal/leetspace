@@ -1,0 +1,30 @@
+name: 1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence
+
+types:
+  inputs:
+    sentence: std::string
+    searchWord: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: isPrefixOfWord
+
+test_cases:
+  example_1:
+    inputs:
+      sentence: i love eating burger
+      searchWord: burg
+    output: 4
+
+  example_2:
+    inputs:
+      sentence: this problem is an easy problem
+      searchWord: pro
+    output: 2
+
+  example_2:
+    inputs:
+      sentence: i am tired
+      searchWord: you
+    output: -1
