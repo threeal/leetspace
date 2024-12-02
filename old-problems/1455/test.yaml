@@ -28,3 +28,9 @@ test_cases:
       sentence: i am tired
       searchWord: you
     output: -1
+
+  test_case_4:
+    inputs:
+      sentence: hello from the other side
+      searchWord: they
+    output: -1
