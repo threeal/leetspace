@@ -1,0 +1,30 @@
+name: 2109. Adding Spaces to a String
+
+types:
+  inputs:
+    s: std::string
+    spaces: std::vector<int>
+  output: std::string
+
+solutions:
+  cpp:
+    function: addSpaces
+
+test_cases:
+  example_1:
+    inputs:
+      s: LeetcodeHelpsMeLearn
+      spaces: [8, 13, 15]
+    output: Leetcode Helps Me Learn
+
+  example_2:
+    inputs:
+      s: icodeinpython
+      spaces: [1, 5, 7, 9]
+    output: i code in py thon
+
+  example_3:
+    inputs:
+      s: spacing
+      spaces: [0, 1, 2, 3, 4, 5, 6]
+    output: " s p a c i n g"
