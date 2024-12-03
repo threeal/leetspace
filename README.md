@@ -508,6 +508,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2540. Minimum Common Value](https://leetcode.com/problems/minimum-common-value/) | Easy | [C](./old-problems/2540/c/solution.c) [C++](./old-problems/2540/solution.cpp) |
 | [2544. Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | Easy | [C](./old-problems/2544/c/solution.c) [C++](./old-problems/2544/solution.cpp) |
 | [2545. Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/) | Medium | [C](./old-problems/2545/c/solution.c) [C++](./old-problems/2545/solution.cpp) |
+| [2563. Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs/) | Medium | [C++](./old-problems/2563/solution.cpp) |
 | [2582. Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/) | Easy | [C](./old-problems/2582/c/solution.c) [C++](./old-problems/2582/solution.cpp) |
 | [2583. Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/) | Medium | [C++](./old-problems/2583/solution.cpp) |
 | [2597. The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/) | Medium | [C](./old-problems/2597/c/solution.c) [C++](./old-problems/2597/solution.cpp) |
