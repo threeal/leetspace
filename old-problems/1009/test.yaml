@@ -1,0 +1,31 @@
+name: 1009. Complement of Base 10 Integer
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: bitwiseComplement
+
+test_cases:
+  example_1:
+    inputs:
+      n: 5
+    output: 2
+
+  example_2:
+    inputs:
+      n: 7
+    output: 0
+
+  example_2:
+    inputs:
+      n: 10
+    output: 5
+
+  test_case_127:
+    inputs:
+      n: 0
+    output: 1
