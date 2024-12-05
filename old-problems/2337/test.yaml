@@ -28,3 +28,9 @@ test_cases:
       start: _R
       target: R_
     output: false
+
+  test_case_128:
+    inputs:
+      start: _LL__R__R_
+      target: L___L___RR
+    output: false
