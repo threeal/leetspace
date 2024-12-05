@@ -1,0 +1,30 @@
+name: 2337. Move Pieces to Obtain a String
+
+types:
+  inputs:
+    start: std::string
+    target: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: canChange
+
+test_cases:
+  example_1:
+    inputs:
+      start: _L__R__R_
+      target: L______RR
+    output: true
+
+  example_2:
+    inputs:
+      start: R_L_
+      target: __LR
+    output: false
+
+  example_3:
+    inputs:
+      start: _R
+      target: R_
+    output: false
