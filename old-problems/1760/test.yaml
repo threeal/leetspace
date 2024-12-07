@@ -1,0 +1,24 @@
+name: 1760. Minimum Limit of Balls in a Bag
+
+types:
+  inputs:
+    nums: std::vector<int>
+    maxOperations: int
+  output: int
+
+solutions:
+  cpp:
+    function: minimumSize
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [9]
+      maxOperations: 2
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [2, 4, 8, 2]
+      maxOperations: 4
+    output: 2
