@@ -1,0 +1,26 @@
+name: 773. Sliding Puzzle
+
+types:
+  inputs:
+    board: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: slidingPuzzle
+
+test_cases:
+  example_1:
+    inputs:
+      board: [[1, 2, 3], [4, 0, 5]]
+    output: 1
+
+  example_2:
+    inputs:
+      board: [[1, 2, 3], [5, 4, 0]]
+    output: -1
+
+  example_3:
+    inputs:
+      board: [[4, 1, 2], [5, 0, 3]]
+    output: 5
