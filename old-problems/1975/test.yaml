@@ -1,0 +1,26 @@
+name: 1975. Maximum Matrix Sum
+
+types:
+  inputs:
+    matrix: std::vector<std::vector<int>>
+  output: long long
+
+solutions:
+  cpp:
+    function: maxMatrixSum
+
+test_cases:
+  example_1:
+    inputs:
+      matrix:
+        - [1, -1]
+        - [-1, 1]
+    output: 4
+
+  example_2:
+    inputs:
+      matrix:
+        - [1, 2, 3]
+        - [-1, -2, -3]
+        - [1, 2, 3]
+    output: 16
