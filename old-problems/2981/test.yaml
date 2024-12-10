@@ -24,3 +24,8 @@ test_cases:
     inputs:
       s: abcaba
     output: 1
+
+  test_case_169:
+    inputs:
+      s: abcccccdddd
+    output: 3
