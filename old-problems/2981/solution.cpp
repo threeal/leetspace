@@ -1,5 +1,5 @@
 #include <string>
-#include <unordered_map>
+#include <vector>
 
 struct Specials {
   int a;
@@ -10,43 +10,41 @@ struct Specials {
 class Solution {
  public:
   int maximumLength(std::string s) {
-    std::unordered_map<char, Specials> specials{};
+    std::vector<Specials> specials(26, {.a = 0, .b = 0, .c = 0});
 
     int prev{0};
     for (int i{1}; i <= static_cast<int>(s.size()); ++i) {
       if (s[i] != s[i - 1]) {
-        auto it = specials.find(s[i - 1]);
-        if (it == specials.end()) {
-          specials.emplace(s[i - 1], Specials{.a = i - prev, .b = 0, .c = 0});
-        } else {
-          if (i - prev > it->second.a) {
-            it->second.c = it->second.b;
-            it->second.b = it->second.a;
-            it->second.a = i - prev;
-          } else if (i - prev > it->second.b) {
-            it->second.c = it->second.b;
-            it->second.b = i - prev;
-          } else if (i - prev > it->second.c) {
-            it->second.c = i - prev;
-          }
+        auto& special = specials[s[i - 1] - 'a'];
+        if (i - prev > special.a) {
+          special.c = special.b;
+          special.b = special.a;
+          special.a = i - prev;
+        } else if (i - prev > special.b) {
+          special.c = special.b;
+          special.b = i - prev;
+        } else if (i - prev > special.c) {
+          special.c = i - prev;
         }
         prev = i;
       }
     }
 
     int max{0};
-    for (const auto& [c, s] : specials) {
-      if (s.a - 2 > max) max = s.a - 2;
+    for (const auto special : specials) {
+      if (special.a > 0) {
+        if (special.a - 2 > max) max = special.a - 2;
 
-      if (s.b > 0) {
-        if (s.a == s.b) {
-          if (s.a - 1 > max) max = s.a - 1;
-        } else {
-          if (s.b > max) max = s.b;
-        }
+        if (special.b > 0) {
+          if (special.a == special.b) {
+            if (special.a - 1 > max) max = special.a - 1;
+          } else {
+            if (special.b > max) max = special.b;
+          }
 
-        if (s.c > 0) {
-          if (s.c > max) max = s.c;
+          if (special.c > 0) {
+            if (special.c > max) max = special.c;
+          }
         }
       }
     }
