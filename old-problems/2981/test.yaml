@@ -1,0 +1,41 @@
+name: 2981. Find Longest Special Substring That Occurs Thrice I
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: maximumLength
+
+test_cases:
+  example_1:
+    inputs:
+      s: aaaa
+    output: 2
+
+  example_2:
+    inputs:
+      s: abcdef
+    output: -1
+
+  example_3:
+    inputs:
+      s: abcaba
+    output: 1
+
+  test_case_169:
+    inputs:
+      s: abcccccdddd
+    output: 3
+
+  test_case_746:
+    inputs:
+      s: cbc
+    output: -1
+
+  test_case_775:
+    inputs:
+      s: hejlgbsjpedppppppdddddpphpppiiiiiga
+    output: 4
