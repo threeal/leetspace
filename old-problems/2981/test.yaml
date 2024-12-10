@@ -34,3 +34,8 @@ test_cases:
     inputs:
       s: cbc
     output: -1
+
+  test_case_775:
+    inputs:
+      s: hejlgbsjpedppppppdddddpphpppiiiiiga
+    output: 4
