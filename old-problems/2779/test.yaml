@@ -1,0 +1,24 @@
+name: 2779. Maximum Beauty of an Array After Applying Operation
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: maximumBeauty
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [4, 6, 1, 2]
+      k: 2
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [1, 1, 1, 1]
+      k: 10
+    output: 4
