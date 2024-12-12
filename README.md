@@ -299,6 +299,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1331. Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/) | Easy | [C](./old-problems/1331/c/solution.c) [C++](./old-problems/1331/solution.cpp) |
 | [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium | [C](./old-problems/1334/c/solution.c) [C++](./old-problems/1334/solution.cpp) |
 | [1337. The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix) | Easy | [C++](./problems/1337/solution.cpp) |
+| [1346. Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | Easy | [C++](./old-problems/1346/solution.cpp) |
 | [1347. Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | Medium | [C](./old-problems/1347/c/solution.c) [C++](./old-problems/1347/solution.cpp) |
 | [1348. Tweet Counts Per Frequency](https://leetcode.com/problems/tweet-counts-per-frequency/) | Medium | [C++](./old-problems/1348/solution.cpp) |
 | [1353. Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/) | Medium | [C++](./old-problems/1353/solution.cpp) |

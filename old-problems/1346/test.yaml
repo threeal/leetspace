@@ -1,0 +1,22 @@
+name: 1346. Check If N and Its Double Exist
+
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: checkIfExist
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [10, 2, 5, 3]
+    output: true
+
+  example_2:
+    inputs:
+      arr: [3, 1, 7, 11]
+    output: false
