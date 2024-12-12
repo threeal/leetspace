@@ -1,12 +1,12 @@
 name: 1346. Check If N and Its Double Exist
 
-
 types:
   inputs:
     arr: std::vector<int>
   output: bool
 
 solutions:
+  c:
   cpp:
     function: checkIfExist
 
