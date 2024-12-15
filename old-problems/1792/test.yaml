@@ -1,0 +1,24 @@
+name: 1792. Maximum Average Pass Ratio
+
+types:
+  inputs:
+    classes: std::vector<std::vector<int>>
+    extraStudents: int
+  output: double
+
+solutions:
+  cpp:
+    function: maxAverageRatio
+
+test_cases:
+  example_1:
+    inputs:
+      classes: [[1, 2], [3, 5], [2, 2]]
+      extraStudents: 2
+    output: 0.78333
+
+  example_2:
+    inputs:
+      classes: [[2, 4], [3, 9], [4, 5], [2, 10]]
+      extraStudents: 4
+    output: 0.53485
