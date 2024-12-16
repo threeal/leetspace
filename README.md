@@ -567,6 +567,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3152. Special Array II](https://leetcode.com/problems/special-array-ii/) | Medium | [C++](./old-problems/3152/solution.cpp) |
 | [3163. String Compression III](https://leetcode.com/problems/string-compression-iii/description/) | Medium | [C](./old-problems/3163/c/solution.c) [C++](./old-problems/3163/solution.cpp) |
 | [3217. Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/) | Medium | [C++](./old-problems/3217/solution.cpp) |
+| [3264. Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/) | Easy | [C++](./old-problems/3264/solution.cpp) |
 
 ## License
 
