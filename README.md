@@ -541,6 +541,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2810. Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/) | Easy | [C](./old-problems/2810/c/solution.c) [C++](./old-problems/2810/solution.cpp) |
 | [2812. Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/) | Medium | [C++](./problems/2812/solution.cpp) |
 | [2816. Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/) | Medium | [C++](./old-problems/2816/solution.cpp) |
+| [2825. Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/) | Medium | [C++](./old-problems/2825/solution.cpp) |
 | [2849. Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time) | Medium | [C](./old-problems/2849/c/solution.c) [C++](./old-problems/2849/solution.cpp) |
 | [2864. Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | Easy | [C](./old-problems/2864/c/solution.c) [C++](./old-problems/2864/solution.cpp) |
 | [2870. Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/) | Medium | [C++](./problems/2870/solution.cpp) |
