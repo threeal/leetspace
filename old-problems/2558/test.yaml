@@ -1,0 +1,24 @@
+name: 2558. Take Gifts From the Richest Pile
+
+types:
+  inputs:
+    gifts: std::vector<int>
+    k: int
+  output: long long
+
+solutions:
+  cpp:
+    function: pickGifts
+
+test_cases:
+  example_1:
+    inputs:
+      gifts: [25, 64, 9, 4, 100]
+      k: 4
+    output: 29
+
+  example_2:
+    inputs:
+      gifts: [1, 1, 1, 1]
+      k: 4
+    output: 4
