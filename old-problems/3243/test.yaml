@@ -1,0 +1,24 @@
+name: 3243. Shortest Distance After Road Addition Queries I
+
+types:
+  inputs:
+    n: int
+    queries: std::vector<std::vector<int>>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: shortestDistanceAfterQueries
+
+test_cases:
+  example_1:
+    inputs:
+      n: 5
+      queries: [[2, 4], [0, 2], [0, 4]]
+    output: [3, 2, 1]
+
+  example_2:
+    inputs:
+      n: 4
+      queries: [[0, 3], [0, 2]]
+    output: [1, 1]
