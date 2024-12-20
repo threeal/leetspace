@@ -1,36 +1,37 @@
-#include <list>
+#include <queue>
 #include <utility>
 
 class Solution {
  public:
   TreeNode* reverseOddLevels(TreeNode* root) {
-    std::list<TreeNode*> nodes{};
-    nodes.push_back(root);
+    if (root->left == nullptr) return root;
 
-    bool isOdd{false};
-    while (!nodes.empty()) {
-      if (isOdd) {
-        auto left = nodes.begin();
-        auto right = nodes.rbegin();
-        for (std::size_t n{nodes.size() / 2}; n > 0; --n) {
-          std::swap((*left)->val, (*right)->val);
-          ++left;
-          ++right;
+    std::queue<TreeNode*> lefts{}, rights{};
+    lefts.push(root->left);
+    rights.push(root->right);
+
+    bool isOdd{true};
+    while (!lefts.empty()) {
+      for (std::size_t n{lefts.size()}; n > 0; --n) {
+        auto left = lefts.front();
+        lefts.pop();
+
+        auto right = rights.front();
+        rights.pop();
+
+        if (isOdd) std::swap(left->val, right->val);
+
+        if (left->left != nullptr) {
+          lefts.push(left->left);
+          lefts.push(left->right);
+        }
+
+        if (right->right != nullptr) {
+          rights.push(right->right);
+          rights.push(right->left);
         }
       }
       isOdd = !isOdd;
-
-      for (std::size_t n{nodes.size()}; n > 0; --n) {
-        if (nodes.front()->left != nullptr) {
-          nodes.push_back(nodes.front()->left);
-        }
-
-        if (nodes.front()->right != nullptr) {
-          nodes.push_back(nodes.front()->right);
-        }
-
-        nodes.pop_front();
-      }
     }
 
     return root;
