@@ -1,0 +1,26 @@
+name: 1072. Flip Columns For Maximum Number of Equal Rows
+
+types:
+  inputs:
+    matrix: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: maxEqualRowsAfterFlips
+
+test_cases:
+  example_1:
+    inputs:
+      matrix: [[0, 1], [1, 1]]
+    output: 1
+
+  example_2:
+    inputs:
+      matrix: [[0, 1], [1, 0]]
+    output: 2
+
+  test_case_24:
+    inputs:
+      matrix: [[0, 0, 0], [0, 0, 1], [1, 1, 0]]
+    output: 2
