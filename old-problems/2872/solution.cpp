@@ -1,5 +1,4 @@
 #include <list>
-#include <tuple>
 #include <vector>
 
 class Solution {
@@ -13,27 +12,24 @@ class Solution {
       leaves[edge[1]].push_back(edge[0]);
     }
 
-    const auto [count, sum] = splitOrMerge(leaves, values, k, -1, 0);
-    return count;
+    return splitOrMerge(leaves.data(), values.data(), k, -1, 0);
   }
 
  private:
-  static std::tuple<int, int> splitOrMerge(
-      const std::vector<std::list<int>>& leaves,
-      const std::vector<int>& values, int k, int parent, int node) {
-    int count{0}, sum{values[node] % k};
-
+  static int splitOrMerge(
+      std::list<int>* leaves, int* values, int k, int parent, int node) {
+    int count{0};
     for (const auto leaf : leaves[node]) {
       if (leaf == parent) continue;
-      const auto [leafCount, leafSum] = splitOrMerge(leaves, values, k, node, leaf);
-      count += leafCount;
-      sum = (sum + leafSum) % k;
+      count += splitOrMerge(leaves, values, k, node, leaf);
     }
 
-    if (sum % k == 0) {
-      return {count + 1, 0};
-    } else {
-      return {count, sum};
+    if (values[node] % k == 0) {
+      ++count;
+    } else if (parent >= 0) {
+      values[parent] = (values[parent] + values[node]) % k;
     }
+
+    return count;
   }
 };
