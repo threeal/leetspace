@@ -571,6 +571,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3137. Minimum Number of Operations to Make Word K-Periodic](https://leetcode.com/problems/minimum-number-of-operations-to-make-word-k-periodic/) | Medium | [C++](./old-problems/3137/solution.cpp) |
 | [3152. Special Array II](https://leetcode.com/problems/special-array-ii/) | Medium | [C++](./old-problems/3152/solution.cpp) |
 | [3163. String Compression III](https://leetcode.com/problems/string-compression-iii/description/) | Medium | [C](./old-problems/3163/c/solution.c) [C++](./old-problems/3163/solution.cpp) |
+| [3203. Find Minimum Diameter After Merging Two Trees](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/) | Hard | [C++](./old-problems/3203/solution.cpp) |
 | [3217. Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/) | Medium | [C++](./old-problems/3217/solution.cpp) |
 
 ## License
