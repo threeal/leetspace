@@ -50,4 +50,11 @@ TEST_CASE("515. Find Largest Value in Each Tree Row") {
     const std::vector<int> expected{1, 3};
     REQUIRE(actual == expected);
   }
+
+  SECTION("Test Case 29") {
+    auto root = to_tree({0, -1});
+    const auto actual = Solution{}.largestValues(root);
+    const std::vector<int> expected{0, -1};
+    REQUIRE(actual == expected);
+  }
 }
