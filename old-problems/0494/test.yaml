@@ -1,0 +1,24 @@
+name: 494. Target Sum
+
+types:
+  inputs:
+    nums: std::vector<int>
+    target: int
+  output: int
+
+solutions:
+  cpp:
+    function: findTargetSumWays
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 1, 1, 1, 1]
+      target: 3
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [1]
+      target: 1
+    output: 1
