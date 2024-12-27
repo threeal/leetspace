@@ -1,0 +1,21 @@
+name: 1014. Best Sightseeing Pair
+
+types:
+  inputs:
+    values: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maxScoreSightseeingPair
+
+test_cases:
+  example_1:
+    inputs:
+      values: [8, 1, 5, 2, 6]
+    output: 11
+
+  example_2:
+    inputs:
+      values: [1, 2]
+    output: 2
