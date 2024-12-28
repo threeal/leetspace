@@ -1,0 +1,26 @@
+name: 1475. Final Prices With a Special Discount in a Shop
+
+types:
+  inputs:
+    prices: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: finalPrices
+
+test_cases:
+  example_1:
+    inputs:
+      prices: [8, 4, 6, 2, 3]
+    output: [4, 2, 4, 2, 3]
+
+  example_2:
+    inputs:
+      prices: [1, 2, 3, 4, 5]
+    output: [1, 2, 3, 4, 5]
+
+  example_3:
+    inputs:
+      prices: [10, 1, 1, 6]
+    output: [9, 0, 1, 6]
