@@ -1,0 +1,24 @@
+cpp:
+  function:
+    name: maxEqualRowsAfterFlips
+    inputs:
+      - type: std::vector<std::vector<int>>
+        value: matrix
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      matrix: [[0, 1], [1, 1]]
+    output: 1
+
+  - name: example 2
+    inputs:
+      matrix: [[0, 1], [1, 0]]
+    output: 2
+
+  - name: test case 24
+    inputs:
+      matrix: [[0, 0, 0], [0, 0, 1], [1, 1, 0]]
+    output: 2
