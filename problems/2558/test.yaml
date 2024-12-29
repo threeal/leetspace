@@ -1,0 +1,23 @@
+cpp:
+  function:
+    name: pickGifts
+    inputs:
+      - type: std::vector<int>
+        value: gifts
+      - type: int
+        value: k
+    output:
+      type: long long
+
+cases:
+  - name: example 1
+    inputs:
+      gifts: [25, 64, 9, 4, 100]
+      k: 4
+    output: 29
+
+  - name: example 2
+    inputs:
+      gifts: [1, 1, 1, 1]
+      k: 4
+    output: 4
