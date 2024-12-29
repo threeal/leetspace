@@ -35,3 +35,9 @@ test_cases:
         bcacdbccdb]
       target: bcbbcccc
     output: 677452090
+
+  test_case_89:
+    inputs:
+      words: [abba, baab]
+      target: babbbb
+    output: 0
