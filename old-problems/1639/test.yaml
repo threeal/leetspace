@@ -1,0 +1,24 @@
+name: 1639. Number of Ways to Form a Target String Given a Dictionary
+
+types:
+  inputs:
+    words: std::vector<std::string>
+    target: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: numWays
+
+test_cases:
+  example_1:
+    inputs:
+      words: [acca, bbbb, caca]
+      target: aba
+    output: 6
+
+  example_2:
+    inputs:
+      words: [abba, baab]
+      target: bab
+    output: 4
