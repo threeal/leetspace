@@ -1,0 +1,23 @@
+cpp:
+  function:
+    name: shortestDistanceAfterQueries
+    inputs:
+      - type: int
+        value: n
+      - type: std::vector<std::vector<int>>
+        value: queries
+    output:
+      type: std::vector<int>
+
+cases:
+  - name: example 1
+    inputs:
+      n: 5
+      queries: [[2, 4], [0, 2], [0, 4]]
+    output: [3, 2, 1]
+
+  - name: example 2
+    inputs:
+      n: 4
+      queries: [[0, 3], [0, 2]]
+    output: [1, 1]
