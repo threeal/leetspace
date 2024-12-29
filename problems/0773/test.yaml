@@ -1,0 +1,24 @@
+cpp:
+  function:
+    name: slidingPuzzle
+    inputs:
+      - type: std::vector<std::vector<int>>
+        value: board
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      board: [[1, 2, 3], [4, 0, 5]]
+    output: 1
+
+  - name: example 2
+    inputs:
+      board: [[1, 2, 3], [5, 4, 0]]
+    output: -1
+
+  - name: example 3
+    inputs:
+      board: [[4, 1, 2], [5, 0, 3]]
+    output: 5

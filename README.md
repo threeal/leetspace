@@ -188,6 +188,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [C](./old-problems/0739/c/solution.c) [C++](./old-problems/0739/solution.cpp) |
 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) | Easy | [C++](./problems/0746/solution.cpp) |
 | [752. Open the Lock](https://leetcode.com/problems/open-the-lock/) | Medium | [C](./old-problems/0752/c/solution.c) [C++](./old-problems/0752/solution.cpp) |
+| [773. Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/) | Hard | [C++](./problems/0773/solution.cpp) |
 | [779. K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) | Medium | [C](./old-problems/0779/c/solution.c) [C++](./old-problems/0779/solution.cpp) |
 | [786. K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | Medium | [C](./old-problems/0786/c/solution.c) [C++](./old-problems/0786/solution.cpp) |
 | [791. Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | Medium | [C](./old-problems/0791/c/solution.c) [C++](./old-problems/0791/solution.cpp) |
