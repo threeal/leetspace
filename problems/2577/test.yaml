@@ -1,0 +1,25 @@
+cpp:
+  function:
+    name: minimumTime
+    inputs:
+      - type: std::vector<std::vector<int>>
+        value: grid
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      grid:
+        - [0, 1, 3, 2]
+        - [5, 1, 2, 5]
+        - [4, 3, 8, 6]
+    output: 7
+
+  - name: example 2
+    inputs:
+      grid:
+        - [0, 2, 4]
+        - [3, 2, 1]
+        - [1, 0, 4]
+    output: -1
