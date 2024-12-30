@@ -8,6 +8,7 @@ types:
   output: std::vector<int>
 
 solutions:
+  c:
   cpp:
     function: getFinalState
 
