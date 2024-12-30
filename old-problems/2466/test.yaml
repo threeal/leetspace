@@ -1,0 +1,30 @@
+name: 2466. Count Ways To Build Good Strings
+
+types:
+  inputs:
+    low: int
+    high: int
+    zero: int
+    one: int
+  output: int
+
+solutions:
+  cpp:
+    function: countGoodStrings
+
+test_cases:
+  example_1:
+    inputs:
+      low: 3
+      high: 3
+      zero: 1
+      one: 1
+    output: 8
+
+  example_2:
+    inputs:
+      low: 2
+      high: 3
+      zero: 1
+      one: 2
+    output: 5
