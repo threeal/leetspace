@@ -1,0 +1,30 @@
+name: 862. Shortest Subarray with Sum at Least K
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: shortestSubarray
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1]
+      k: 1
+    output: 1
+
+  example_2:
+    inputs:
+      nums: [1, 2]
+      k: 4
+    output: -1
+
+  example_3:
+    inputs:
+      nums: [2, -1, 2]
+      k: 3
+    output: 3
