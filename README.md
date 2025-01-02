@@ -507,6 +507,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2461. Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/) | Medium | [C](./old-problems/2461/c/solution.c) [C++](./old-problems/2461/solution.cpp) |
 | [2463. Minimum Total Distance Traveled](https://leetcode.com/problems/minimum-total-distance-traveled/) | Hard | [C++](./old-problems/2463/solution.cpp) |
 | [2467. Most Profitable Path in a Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree/) | Medium | [C](./old-problems/2467/c/solution.c) [C++](./old-problems/2467/solution.cpp) |
+| [2471. Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/) | Medium | [C++](./old-problems/2471/solution.cpp) |
 | [2482. Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | Medium | [C](./old-problems/2482/c/solution.c) [C++](./old-problems/2482/solution.cpp) |
 | [2485. Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/) | Easy | [C](./old-problems/2485/c/solution.c) [C++](./old-problems/2485/solution.cpp) |
 | [2486. Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/) | Medium | [C](./old-problems/2486/c/solution.c) [C++](./old-problems/2486/solution.cpp) |
