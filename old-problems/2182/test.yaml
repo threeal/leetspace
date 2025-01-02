@@ -1,0 +1,24 @@
+name: 2182. Construct String With Repeat Limit
+
+types:
+  inputs:
+    s: std::string
+    repeatLimit: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: repeatLimitedString
+
+test_cases:
+  example_1:
+    inputs:
+      s: cczazcc
+      repeatLimit: 3
+    output: zzcccac
+
+  example_2:
+    inputs:
+      s: aababab
+      repeatLimit: 2
+    output: bbabaa
