@@ -1,0 +1,26 @@
+name: 2270. Number of Ways to Split Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: waysToSplitArray
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [10, 4, -8, 7]
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [2, 3, 1, 0]
+    output: 2
+
+  test_case_46:
+    inputs:
+      nums: [-1, -2]
+    output: 1
