@@ -490,7 +490,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2370. Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/) | Medium | [C](./old-problems/2370/c/solution.c) [C++](./old-problems/2370/solution.cpp) |
 | [2373. Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/) | Easy | [C](./old-problems/2373/c/solution.c) [C++](./old-problems/2373/solution.cpp) |
 | [2380. Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/) | Medium | [C++](./old-problems/2380/solution.cpp) |
-| [2381. Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/description/) | Medium | [C++](./old-problems/2381/solution.cpp) |
+| [2381. Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/description/) | Medium | [C](./old-problems/2381/c/solution.c) [C++](./old-problems/2381/solution.cpp) |
 | [2385. Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | Medium | [C++](./old-problems/2385/solution.cpp) |
 | [2391. Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/) | Medium | [C](./old-problems/2391/c/solution.c) [C++](./old-problems/2391/solution.cpp) |
 | [2938. Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/) | Medium | [C++](./old-problems/2938/solution.cpp) |
