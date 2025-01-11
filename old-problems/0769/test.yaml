@@ -1,0 +1,21 @@
+name: 769. Max Chunks To Make Sorted
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maxChunksToSorted
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [4, 3, 2, 1, 0]
+    output: 1
+
+  example_2:
+    inputs:
+      arr: [1, 0, 2, 3, 4]
+    output: 4
