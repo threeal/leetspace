@@ -1,0 +1,30 @@
+name: 2116. Check if a Parentheses String Can Be Valid
+
+types:
+  inputs:
+    s: std::string
+    locked: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: canBeValid
+
+test_cases:
+  example_1:
+    inputs:
+      s: ))()))
+      locked: "010100"
+    output: true
+
+  example_2:
+    inputs:
+      s: ()()
+      locked: "0000"
+    output: true
+
+  example_3:
+    inputs:
+      s: )
+      locked: "0"
+    output: false
