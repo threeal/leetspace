@@ -28,3 +28,9 @@ test_cases:
       s: )
       locked: "0"
     output: false
+
+  test_case_240:
+    inputs:
+      s: ((()(()()))()((()()))))()((()(()
+      locked: "10111100100101001110100010001001"
+    output: true
