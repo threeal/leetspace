@@ -180,6 +180,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [670. Maximum Swap](https://leetcode.com/problems/maximum-swap/) | Medium | [C](./old-problems/0670/c/solution.c) [C++](./old-problems/0670/solution.cpp) |
 | [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | [C](./old-problems/0678/c/solution.c) [C++](./old-problems/0678/solution.cpp) |
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | [C](./old-problems/0680/c/solution.c) [C++](./old-problems/0680/solution.cpp) |
+| [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | Hard | [C++](./old-problems/0689/solution.cpp) |
 | [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Easy | [C++](./old-problems/0703/solution.cpp) |
 | [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | Medium | [C](./old-problems/0713/c/solution.c) [C++](./old-problems/0713/solution.cpp) |
 | [719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/) | Hard | [C](./old-problems/0719/c/solution.c) [C++](./old-problems/0719/solution.cpp) |

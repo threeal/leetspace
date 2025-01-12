@@ -1,0 +1,24 @@
+name: 689. Maximum Sum of 3 Non-Overlapping Subarrays
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: maxSumOfThreeSubarrays
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 1, 2, 6, 7, 5, 1]
+      k: 2
+    output: [0, 3, 5]
+
+  example_2:
+    inputs:
+      nums: [1, 2, 1, 2, 1, 2, 1, 2, 1]
+      k: 2
+    output: [0, 2, 4]
