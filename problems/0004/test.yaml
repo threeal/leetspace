@@ -39,3 +39,9 @@ cases:
       nums1: [3]
       nums2: [-2, -1]
     output: -1.00000
+
+  - name: test case 2036
+    inputs:
+      nums1: []
+      nums2: [2, 3]
+    output: 2.50000
