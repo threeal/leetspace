@@ -1,54 +1,63 @@
-#include <stack>
 #include <vector>
 
 class Solution {
  public:
   double findMedianSortedArrays(std::vector<int>& a, std::vector<int>& b) {
-    const auto ae = a.end();
-    const auto be = b.end();
-
-    auto ai = a.begin();
-    auto bi = b.begin();
-
-    int n = a.size() + b.size();
-
-    const bool is_even = n % 2 == 0;
-    n /= 2;
-
-    if (ai == ae) {
-      return is_even ? (b[n] + b[n - 1]) / 2.0 : b[n];
-    } else if (bi == be) {
-      return is_even ? (a[n] + a[n - 1]) / 2.0 : a[n];
-    }
-
-    std::stack<int> s;
-    while (n >= 0) {
-      if (*ai < *bi) {
-        s.push(*ai);
-        if (++ai == ae) {
-          while (--n >= 0) {
-            s.push(*bi);
-            ++bi;
-          }
+    std::size_t target{(a.size() + b.size()) / 2 + 1};
+    if ((a.size() + b.size()) % 2 == 0) {
+      std::size_t ai{0}, bi{0};
+      int median1{}, median2{};
+      while (target > 0) {
+        if (ai == a.size()) {
+          median2 = (target == 1) ? median1 : b[bi + target - 2];
+          median1 = b[bi + target - 1];
+          break;
         }
-      } else {
-        s.push(*bi);
-        if (++bi == be) {
-          while (--n >= 0) {
-            s.push(*ai);
-            ++ai;
-          }
+
+        if (bi == b.size()) {
+          median2 = (target == 1) ? median1 : a[ai + target - 2];
+          median1 = a[ai + target - 1];
+          break;
         }
+
+        median2 = median1;
+        if (a[ai] <= b[bi]) {
+          median1 = a[ai];
+          ++ai;
+        } else {
+          median1 = b[bi];
+          ++bi;
+        }
+
+        --target;
       }
-      --n;
-    }
+      return (median1 + median2) / 2.0;
+    } else {
+      std::size_t ai{0}, bi{0};
+      int median{};
+      while (target > 0) {
+        if (ai == a.size()) {
+          median = b[bi + target - 1];
+          break;
+        }
 
-    double res = s.top();
-    if (is_even) {
-      s.pop();
-      res = (res + s.top()) / 2.0;
-    }
+        if (bi == b.size()) {
+          median = a[ai + target - 1];
+          break;
+        }
 
-    return res;
+        if (a[ai] <= b[bi]) {
+          median = a[ai];
+          ++ai;
+        } else {
+          median = b[bi];
+          ++bi;
+        }
+
+        --target;
+      }
+
+      return median;
+    }
   }
 };
