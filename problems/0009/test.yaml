@@ -22,3 +22,8 @@ cases:
     inputs:
       x: 10
     output: false
+
+  - name: test case 30
+    inputs:
+      x: 1234567899
+    output: false
