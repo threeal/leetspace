@@ -1,0 +1,24 @@
+name: 2429. Minimize XOR
+
+types:
+  inputs:
+    num1: int
+    num2: int
+  output: int
+
+solutions:
+  cpp:
+    function: minimizeXor
+
+test_cases:
+  example_1:
+    inputs:
+      num1: 3
+      num2: 5
+    output: 3
+
+  example_2:
+    inputs:
+      num1: 1
+      num2: 12
+    output: 3
