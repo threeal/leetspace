@@ -19,6 +19,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water) | Medium | [C++](./problems/0011/solution.cpp) |
 | [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | [C](./old-problems/0012/c/solution.c) [C++](./old-problems/0012/solution.cpp) |
 | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [C](./old-problems/0013/c/solution.c) [C++](./old-problems/0013/solution.cpp) |
+| [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [C++](./old-problems/0014/solution.cpp) |
 | [15. 3Sum](https://leetcode.com/problems/3sum) | Medium | [C++](./problems/0015/solution.cpp) |
 | [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | [C](./old-problems/0016/c/solution.c) [C++](./old-problems/0016/solution.cpp) |
 | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | Medium | [C++](./problems/0017/solution.cpp) |
