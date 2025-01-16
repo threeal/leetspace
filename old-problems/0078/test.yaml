@@ -8,14 +8,6 @@ types:
 solutions:
   cpp:
     function: subsets
-    output: |
-      [&]{
-        sort(output.begin(), output.end());
-        for (auto& nums : output) {
-          sort(nums.begin(), nums.end());
-        }
-        return output;
-      }()
 
 test_cases:
   example_1:
