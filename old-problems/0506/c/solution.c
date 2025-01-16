@@ -25,7 +25,7 @@ char** findRelativeRanks(int* score, int scoreSize, int* returnSize) {
   if (scoreSize > 1) *scoreRanks[1].rank = "Silver Medal";
   if (scoreSize > 2) *scoreRanks[2].rank = "Bronze Medal";
   for (int i = 3; i < scoreSize; ++i) {
-    char* buffer = malloc(7 * sizeof(char));
+    char* buffer = malloc(12 * sizeof(char));
     sprintf(buffer, "%d", i + 1);
     *scoreRanks[i].rank = buffer;
   }
