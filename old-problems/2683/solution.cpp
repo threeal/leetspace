@@ -1,8 +1,13 @@
+#include <functional>
+#include <numeric>
 #include <vector>
 
 class Solution {
  public:
   bool doesValidArrayExist(std::vector<int>& derived) {
-    return derived.empty();
+    const auto sum = std::accumulate(
+        derived.begin(), derived.end(), 0, std::bit_xor());
+
+    return sum == 0;
   }
 };
