@@ -15,8 +15,9 @@ class Solution {
   std::vector<std::vector<int>> subsets(std::vector<int>& nums) {
     std::vector<std::vector<int>> subsets{{}};
     subsets.reserve(pown(2, nums.size() - 1));
-    for (int i = nums.size() - 1; i >= 0; --i) {
-      for (int j = subsets.size() - 1; j >= 0; --j) {
+    for (std::size_t i{0}; i < nums.size(); ++i) {
+      const std::size_t n{subsets.size()};
+      for (std::size_t j{0}; j < n; ++j) {
         subsets.push_back(subsets[j]);
         subsets.back().push_back(nums[i]);
       }

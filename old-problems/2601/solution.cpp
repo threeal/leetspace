@@ -1,4 +1,5 @@
 #include <algorithm>
+#include <array>
 #include <vector>
 
 const std::array<int, 168> primes{

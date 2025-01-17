@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <unordered_map>
 #include <vector>
 
@@ -15,6 +16,7 @@ class Solution {
       if (count > threshold) result.push_back(num);
     }
 
+    std::sort(result.begin(), result.end());
     return result;
   }
 };

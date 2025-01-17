@@ -9,7 +9,6 @@ types:
 solutions:
   cpp:
     function: uncommonFromSentences
-    output: "[&]{ sort(output.begin(), output.end()); return output; }()"
 
 test_cases:
   example_1:
