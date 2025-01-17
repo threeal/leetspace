@@ -8,11 +8,15 @@ class Solution {
     for (auto& line : grid) {
       for (auto& c : line) {
         switch (c) {
-          // clang-format off
-          case ' ': c = 0b000000; break;
-          case '/': c = 0b000001; break;
-          case '\\': c = 0b000011; break;
-            // clang-format on
+          case ' ':
+            c = 0b000000;
+            break;
+          case '/':
+            c = 0b000001;
+            break;
+          case '\\':
+            c = 0b000011;
+            break;
         }
       }
     }

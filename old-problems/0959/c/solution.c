@@ -7,11 +7,15 @@ int regionsBySlashes(char** grid, int gridSize) {
   for (int i = gridSize - 1; i >= 0; --i) {
     for (char* c = grid[i]; *c != 0; ++c) {
       switch (*c) {
-        // clang-format off
-        case ' ': *c = 0b000000; break;
-        case '/': *c = 0b000001; break;
-        case '\\': *c = 0b000011; break;
-          // clang-format on
+        case ' ':
+          *c = 0b000000;
+          break;
+        case '/':
+          *c = 0b000001;
+          break;
+        case '\\':
+          *c = 0b000011;
+          break;
       }
     }
   }
