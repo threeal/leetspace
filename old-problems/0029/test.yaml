@@ -1,0 +1,24 @@
+name: 29. Divide Two Integers
+
+types:
+  inputs:
+    dividend: int
+    divisor: int
+  output: int
+
+solutions:
+  cpp:
+    function: divide
+
+test_cases:
+  example_1:
+    inputs:
+      dividend: 10
+      divisor: 3
+    output: 3
+
+  example_2:
+    inputs:
+      dividend: 7
+      divisor: -3
+    output: -2
