@@ -46,7 +46,7 @@ char* minimizeResult(char* expression) {
     ++c1;
   }
 
-  char* out = malloc(13 * sizeof(char));
+  char* out = malloc(46 * sizeof(char));
   if (minOutLeft > 0) {
     if (minOutRight > 0) {
       sprintf(out, "%d(%d+%d)%d", minOutLeft, minLeft, minRight, minOutRight);
