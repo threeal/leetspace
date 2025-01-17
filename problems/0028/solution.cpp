@@ -3,17 +3,10 @@
 class Solution {
  public:
   int strStr(std::string haystack, std::string needle) {
-    int hn = haystack.size();
-    int nn = needle.size();
-    for (int hi = 0; hi <= hn - nn; ++hi) {
-      bool ok = true;
-      for (int i = 0; hi + i < hn && i < nn; ++i) {
-        if (haystack[hi + i] != needle[i]) {
-          ok = false;
-          break;
-        }
+    if (haystack.size() >= needle.size()) {
+      for (std::size_t i{0}; i <= haystack.size() - needle.size(); ++i) {
+        if (haystack.compare(i, needle.size(), needle) == 0) return i;
       }
-      if (ok) return hi;
     }
     return -1;
   }
