@@ -1,0 +1,26 @@
+name: 2683. Neighboring Bitwise XOR
+
+types:
+  inputs:
+    derived: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: doesValidArrayExist
+
+test_cases:
+  example_1:
+    inputs:
+      derived: [1, 1, 0]
+    output: true
+
+  example_2:
+    inputs:
+      derived: [1, 1]
+    output: true
+
+  example_3:
+    inputs:
+      derived: [1, 0]
+    output: false
