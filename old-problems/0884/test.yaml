@@ -15,7 +15,7 @@ test_cases:
     inputs:
       s1: this apple is sweet
       s2: this apple is sour
-    output: [sweet, sour]
+    output: [sour, sweet]
 
   example_2:
     inputs:

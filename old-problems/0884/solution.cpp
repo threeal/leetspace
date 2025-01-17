@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <string>
 #include <unordered_map>
 #include <vector>
@@ -32,6 +33,10 @@ class Solution {
     for (const auto& [s, freq] : freqs) {
       if (freq == 1) output.push_back(s);
     }
+
+    // TODO: sort to pass test case.
+    std::sort(output.begin(), output.end());
+
     return output;
   }
 };
