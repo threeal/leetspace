@@ -21,3 +21,9 @@ cases:
       haystack: leetcode
       needle: leeto
     output: -1
+
+  - name: test case 9
+    inputs:
+      haystack: aaa
+      needle: aaaa
+    output: -1
