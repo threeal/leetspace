@@ -14,11 +14,7 @@ std::vector<std::vector<int>> solution_c(std::vector<int> nums, int k) {
   for (int i = 0; i < returnSize; ++i) {
     output[i].resize(returnColumnSizes[i]);
     std::memcpy(output[i].data(), returnData[i], returnColumnSizes[i] * sizeof(int));
-    free(returnData[i]);
   }
-
-  if (returnData != NULL) free(returnData);
-  if (returnColumnSizes != NULL) free(returnColumnSizes);
 
   return output;
 }
