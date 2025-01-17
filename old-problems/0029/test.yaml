@@ -22,3 +22,9 @@ test_cases:
       dividend: 7
       divisor: -3
     output: -2
+
+  test_case_9:
+    inputs:
+      dividend: -1
+      divisor: 1
+    output: -1
