@@ -28,3 +28,9 @@ test_cases:
       dividend: -1
       divisor: 1
     output: -1
+
+  test_case_12:
+    inputs:
+      dividend: -2147483648
+      divisor: 1
+    output: -2147483648
