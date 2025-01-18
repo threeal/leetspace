@@ -1,0 +1,23 @@
+cpp:
+  function:
+    name: maxAverageRatio
+    inputs:
+      - type: std::vector<std::vector<int>>
+        value: classes
+      - type: int
+        value: extraStudents
+    output:
+      type: double
+
+cases:
+  - name: example 1
+    inputs:
+      classes: [[1, 2], [3, 5], [2, 2]]
+      extraStudents: 2
+    output: 0.78333333333333333
+
+  - name: example 2
+    inputs:
+      classes: [[2, 4], [3, 9], [4, 5], [2, 10]]
+      extraStudents: 4
+    output: 0.53484848484848491
