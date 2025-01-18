@@ -487,7 +487,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2251. Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom) | Hard | [C++](./problems/2251/solution.cpp) |
 | [2257. Count Unguarded Cells in the Grid](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/) | Medium | [C](./old-problems/2257/c/solution.c) [C++](./old-problems/2257/solution.cpp) |
 | [2264. Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | Easy | [C](./old-problems/2264/c/solution.c) [C++](./old-problems/2264/solution.cpp) |
-| [2270. Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/) | Medium | [C++](./old-problems/2270/solution.cpp) |
+| [2270. Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/) | Medium | [C](./old-problems/2270/c/solution.c) [C++](./old-problems/2270/solution.cpp) |
 | [2275. Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/) | Medium | [C](./old-problems/2275/c/solution.c) [C++](./old-problems/2275/solution.cpp) |
 | [2285. Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/) | Medium | [C](./old-problems/2285/c/solution.c) [C++](./old-problems/2285/solution.cpp) |
 | [2290. Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/) | Hard | [C++](./problems/2290/solution.cpp) |
