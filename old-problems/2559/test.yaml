@@ -1,0 +1,24 @@
+name: 2559. Count Vowel Strings in Ranges
+
+types:
+  inputs:
+    words: std::vector<std::string>
+    queries: std::vector<std::vector<int>>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: vowelStrings
+
+test_cases:
+  example_1:
+    inputs:
+      words: [aba, bcb, ece, aa, e]
+      queries: [[0, 2], [1, 4], [1, 1]]
+    output: [2, 3, 0]
+
+  example_2:
+    inputs:
+      words: [a, e, i]
+      queries: [[0, 2], [0, 1], [2, 2]]
+    output: [3, 2, 1]
