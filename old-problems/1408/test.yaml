@@ -1,0 +1,26 @@
+name: 1408. String Matching in an Array
+
+types:
+  inputs:
+    words: std::vector<std::string>
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: stringMatching
+
+test_cases:
+  example_1:
+    inputs:
+      words: [mass, as, hero, superhero]
+    output: [as, hero]
+
+  example_2:
+    inputs:
+      words: [leetcode, et, code]
+    output: [et, code]
+
+  example_3:
+    inputs:
+      words: [blue, green, bu]
+    output: []
