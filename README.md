@@ -123,6 +123,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [389. Find the Difference](https://leetcode.com/problems/find-the-difference) | Easy | [C++](./problems/0389/solution.cpp) |
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | [C++](./problems/0392/solution.cpp) |
 | [404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | Easy | [C++](./old-problems/0404/solution.cpp) |
+| [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) | Hard | [C++](./old-problems/0407/solution.cpp) |
 | [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | Easy | [C](./old-problems/0409/c/solution.c) [C++](./old-problems/0409/solution.cpp) |
 | [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | Easy | [C](./old-problems/0412/c/solution.c) [C++](./old-problems/0412/solution.cpp) |
 | [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | Medium | [C](./old-problems/0413/c/solution.c) [C++](./old-problems/0413/solution.cpp) |
