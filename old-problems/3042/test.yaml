@@ -1,0 +1,26 @@
+name: 3042. Count Prefix and Suffix Pairs I
+
+types:
+  inputs:
+    words: std::vector<std::string>
+  output: int
+
+solutions:
+  cpp:
+    function: countPrefixSuffixPairs
+
+test_cases:
+  example_1:
+    inputs:
+      words: [a, aba, ababa, aa]
+    output: 4
+
+  example_2:
+    inputs:
+      words: [pa, papa, ma, mama]
+    output: 2
+
+  example_3:
+    inputs:
+      words: [abab, ab]
+    output: 0
