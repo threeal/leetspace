@@ -1,0 +1,21 @@
+name: 3223. Minimum Length of String After Operations
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minimumLength
+
+test_cases:
+  example_1:
+    inputs:
+      s: abaacbcbb
+    output: 5
+
+  example_2:
+    inputs:
+      s: aa
+    output: 2
