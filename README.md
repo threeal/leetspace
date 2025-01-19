@@ -475,6 +475,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2170. Minimum Operations to Make the Array Alternating](https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/) | Medium | [C++](./old-problems/2170/solution.cpp) |
 | [2181. Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | Medium | [C++](./old-problems/2181/solution.cpp) |
 | [2182. Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/) | Medium | [C++](./old-problems/2182/solution.cpp) |
+| [2185. Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | Easy | [C++](./old-problems/2185/solution.cpp) |
 | [2192. All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium | [C++](./problems/2192/solution.cpp) |
 | [2196. Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/) | Medium | [C++](./old-problems/2196/solution.cpp) |
 | [2197. Replace Non-Coprime Numbers in Array](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/) | Hard | [C++](./old-problems/2197/solution.cpp) |

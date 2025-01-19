@@ -1,0 +1,24 @@
+name: 2185. Counting Words With a Given Prefix
+
+types:
+  inputs:
+    words: std::vector<std::string>
+    pref: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: prefixCount
+
+test_cases:
+  example_1:
+    inputs:
+      words: [pay, attention, practice, attend]
+      pref: at
+    output: 2
+
+  example_2:
+    inputs:
+      words: [leetcode, win, loops, success]
+      pref: code
+    output: 0
