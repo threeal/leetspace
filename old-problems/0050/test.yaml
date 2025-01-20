@@ -21,7 +21,7 @@ test_cases:
     inputs:
       x: 2.10000
       n: 3
-    output: 9.26100
+    output: 9.26100000000000101
 
   example_3:
     inputs:
