@@ -1,0 +1,30 @@
+name: 50. Pow(x, n)
+
+types:
+  inputs:
+    x: double
+    n: int
+  output: double
+
+solutions:
+  cpp:
+    function: myPow
+
+test_cases:
+  example_1:
+    inputs:
+      x: 2.00000
+      n: 10
+    output: 1024.00000
+
+  example_2:
+    inputs:
+      x: 2.10000
+      n: 3
+    output: 9.26100
+
+  example_3:
+    inputs:
+      x: 2.00000
+      n: -2
+    output: 0.25000
