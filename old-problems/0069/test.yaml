@@ -1,0 +1,21 @@
+name: 69. Sqrt(x)
+
+types:
+  inputs:
+    x: int
+  output: int
+
+solutions:
+  cpp:
+    function: mySqrt
+
+test_cases:
+  example_1:
+    inputs:
+      x: 4
+    output: 2
+
+  example_2:
+    inputs:
+      x: 8
+    output: 2
