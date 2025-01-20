@@ -1,0 +1,24 @@
+name: 916. Word Subsets
+
+types:
+  inputs:
+    words1: std::vector<std::string>
+    words2: std::vector<std::string>
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: wordSubsets
+
+test_cases:
+  example_1:
+    inputs:
+      words1: [amazon, apple, facebook, google, leetcode]
+      words2: [e, o]
+    output: [facebook, google, leetcode]
+
+  example_2:
+    inputs:
+      words1: [amazon, apple, facebook, google, leetcode]
+      words2: [l, e]
+    output: [apple, google, leetcode]
