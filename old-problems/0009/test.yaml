@@ -1,0 +1,31 @@
+name: 9. Palindrome Number
+
+types:
+  inputs:
+    x: int
+  output: bool
+
+solutions:
+  cpp:
+    function: isPalindrome
+
+test_cases:
+  example_1:
+    inputs:
+      x: 121
+    output: true
+
+  example_2:
+    inputs:
+      x: -121
+    output: false
+
+  example_3:
+    inputs:
+      x: 10
+    output: false
+
+  test_case_30:
+    inputs:
+      x: 1234567899
+    output: false
