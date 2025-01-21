@@ -14,7 +14,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion) | Medium | [C](./old-problems/0006/c/solution.c) [C++](./old-problems/0006/solution.cpp) |
 | [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | [C](./old-problems/0007/c/solution.c) [C++](./old-problems/0007/solution.cpp) |
 | [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | Medium | [C++](./problems/0008/solution.cpp) |
-| [9. Palindrome Number](https://leetcode.com/problems/palindrome-number) | Easy | [C++](./old-problems/0009/solution.cpp) |
+| [9. Palindrome Number](https://leetcode.com/problems/palindrome-number) | Easy | [C](./old-problems/0009/c/solution.c) [C++](./old-problems/0009/solution.cpp) |
 | [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Hard | [C](./old-problems/0010/c/solution.c) [C++](./old-problems/0010/solution.cpp) |
 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water) | Medium | [C++](./problems/0011/solution.cpp) |
 | [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | [C](./old-problems/0012/c/solution.c) [C++](./old-problems/0012/solution.cpp) |
