@@ -523,7 +523,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2444. Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/) | Hard | [C](./old-problems/2444/c/solution.c) [C++](./old-problems/2444/solution.cpp) |
 | [2461. Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/) | Medium | [C](./old-problems/2461/c/solution.c) [C++](./old-problems/2461/solution.cpp) |
 | [2463. Minimum Total Distance Traveled](https://leetcode.com/problems/minimum-total-distance-traveled/) | Hard | [C++](./old-problems/2463/solution.cpp) |
-| [2466. Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/) | Medium | [C++](./old-problems/2466/solution.cpp) |
+| [2466. Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/) | Medium | [C](./old-problems/2466/c/solution.c) [C++](./old-problems/2466/solution.cpp) |
 | [2467. Most Profitable Path in a Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree/) | Medium | [C](./old-problems/2467/c/solution.c) [C++](./old-problems/2467/solution.cpp) |
 | [2482. Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | Medium | [C](./old-problems/2482/c/solution.c) [C++](./old-problems/2482/solution.cpp) |
 | [2485. Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/) | Easy | [C](./old-problems/2485/c/solution.c) [C++](./old-problems/2485/solution.cpp) |
