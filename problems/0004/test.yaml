@@ -21,3 +21,33 @@ cases:
       nums1: [1, 2]
       nums2: [3, 4]
     output: 2.50000
+
+  - name: test case 3
+    inputs:
+      nums1: []
+      nums2: [1]
+    output: 1.00000
+
+  - name: test case 1148
+    inputs:
+      nums1: [2, 2, 4, 4]
+      nums2: [2, 2, 2, 4, 4]
+    output: 2.00000
+
+  - name: test case 1991
+    inputs:
+      nums1: [3]
+      nums2: [-2, -1]
+    output: -1.00000
+
+  - name: test case 2036
+    inputs:
+      nums1: []
+      nums2: [2, 3]
+    output: 2.50000
+
+  - name: test case 2042
+    inputs:
+      nums1: [1]
+      nums2: [2, 3, 4]
+    output: 2.50000
