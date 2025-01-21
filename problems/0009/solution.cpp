@@ -1,26 +1,18 @@
-#include <list>
-
 class Solution {
  public:
   bool isPalindrome(int x) {
     if (x < 0) return false;
 
-    std::list<int> list;
-    std::size_t n = 0;
-    while (x > 0) {
-      list.push_back(x % 10);
-      x = x / 10;
-      ++n;
+    int high{1000000000};
+    while (high > x) high /= 10;
+
+    int low{1};
+    while (low < high) {
+      if (x / low % 10 != x / high % 10) return false;
+      high /= 10;
+      low *= 10;
     }
 
-    n = n / 2;
-    auto a = list.begin();
-    auto b = --list.end();
-    for (std::size_t i = 0; i < n; ++i) {
-      if (*a != *b) return false;
-      ++a;
-      --b;
-    }
     return true;
   }
 };
