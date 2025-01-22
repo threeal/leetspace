@@ -1,0 +1,31 @@
+name: 20. Valid Parentheses
+
+types:
+  inputs:
+    s: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: isValid
+
+test_cases:
+  example_1:
+    inputs:
+      s: "()"
+    output: true
+
+  example_2:
+    inputs:
+      s: "()[]{}"
+    output: true
+
+  example_3:
+    inputs:
+      s: "(]"
+    output: false
+
+  example_4:
+    inputs:
+      s: "([])"
+    output: true
