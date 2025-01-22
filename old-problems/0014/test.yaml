@@ -1,0 +1,21 @@
+name: 14. Longest Common Prefix
+
+types:
+  inputs:
+    strs: std::vector<std::string>
+  output: std::string
+
+solutions:
+  cpp:
+    function: longestCommonPrefix
+
+test_cases:
+  example_1:
+    inputs:
+      strs: [flower, flow, flight]
+    output: fl
+
+  example_2:
+    inputs:
+      strs: [dog, racecar, car]
+    output: ""
