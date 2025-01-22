@@ -29,3 +29,8 @@ test_cases:
     inputs:
       s: "([])"
     output: true
+
+  test_case_90:
+    inputs:
+      s: "["
+    output: false
