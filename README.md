@@ -9,7 +9,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1. Two Sum](https://leetcode.com/problems/two-sum) | Easy | [C](./old-problems/0001/c/solution.c) [C++](./old-problems/0001/solution.cpp) |
 | [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | [C++](./old-problems/0002/solution.cpp) |
 | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | Medium | [C](./old-problems/0003/c/solution.c) [C++](./old-problems/0003/solution.cpp) |
-| [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | Hard | [C++](./old-problems/0004/solution.cpp) |
+| [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | Hard | [C](./old-problems/0004/c/solution.c) [C++](./old-problems/0004/solution.cpp) |
 | [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | Medium | [C](./old-problems/0005/c/solution.c) [C++](./old-problems/0005/solution.cpp) |
 | [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion) | Medium | [C](./old-problems/0006/c/solution.c) [C++](./old-problems/0006/solution.cpp) |
 | [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | [C](./old-problems/0007/c/solution.c) [C++](./old-problems/0007/solution.cpp) |
