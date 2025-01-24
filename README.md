@@ -562,7 +562,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2642. Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator) | Hard | [C++](./old-problems/2642/solution.cpp) |
 | [2657. Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) | Medium | [C](./old-problems/2657/c/solution.c) [C++](./old-problems/2657/solution.cpp) |
 | [2678. Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/) | Easy | [C](./old-problems/2678/c/solution.c) [C++](./old-problems/2678/solution.cpp) |
-| [2683. Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/) | Medium | [C++](./old-problems/2683/solution.cpp) |
+| [2683. Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/) | Medium | [C](./old-problems/2683/c/solution.c) [C++](./old-problems/2683/solution.cpp) |
 | [2684. Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/) | Medium | [C](./old-problems/2684/c/solution.c) [C++](./old-problems/2684/solution.cpp) |
 | [2696. Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) | Easy | [C](./old-problems/2696/c/solution.c) [C++](./old-problems/2696/solution.cpp) |
 | [2698. Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/) | Medium | [C](./old-problems/2698/c/solution.c) [C++](./old-problems/2698/solution.cpp) |
