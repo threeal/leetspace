@@ -51,6 +51,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | Medium | [C](./old-problems/0059/c/solution.c) [C++](./old-problems/0059/solution.cpp) |
 | [66. Plus One](https://leetcode.com/problems/plus-one) | Easy | [C++](./problems/0066/solution.cpp) |
 | [67. Add Binary](https://leetcode.com/problems/add-binary/) | Easy | [C](./old-problems/0067/c/solution.c) [C++](./old-problems/0067/solution.cpp) |
+| [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | [C++](./old-problems/0069/solution.cpp) |
 | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [C](./old-problems/0070/c/solution.c) [C++](./old-problems/0070/solution.cpp) |
 | [75. Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [C++](./old-problems/0075/solution.cpp) |
 | [78. Subsets](https://leetcode.com/problems/subsets/) | Medium | [C++](./old-problems/0078/solution.cpp) |
