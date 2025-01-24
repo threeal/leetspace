@@ -1,5 +1,9 @@
 #include <stdbool.h>
 
 bool doesValidArrayExist(int* derived, int derivedSize) {
-  return derived[derivedSize - 1] == 0;
+  int sum = 0;
+  for (int i = 0; i < derivedSize; ++i) {
+    sum ^= derived[i];
+  }
+  return sum == 0;
 }
