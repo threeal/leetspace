@@ -58,6 +58,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [79. Word Search](https://leetcode.com/problems/word-search/) | Medium | [C](./old-problems/0079/c/solution.c) [C++](./old-problems/0079/solution.cpp) |
 | [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | [C++](./old-problems/0088/solution.cpp) |
 | [91. Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | [C](./old-problems/0091/c/solution.c) [C++](./old-problems/0091/solution.cpp) |
+| [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/) | Medium | [C++](./old-problems/0093/solution.cpp) |
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [C++](./old-problems/0094/solution.cpp) |
 | [100. Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [C++](./old-problems/0100/solution.cpp) |
 | [119. Pascal's Triangle II](pascals-triangle-ii) | Easy | [C++](./problems/0119/solution.cpp) |
