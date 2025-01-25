@@ -25,7 +25,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | Medium | [C++](./problems/0017/solution.cpp) |
 | [18. 4Sum](https://leetcode.com/problems/4sum/) | Medium | [C](./old-problems/0018/c/solution.c) [C++](./old-problems/0018/solution.cpp) |
 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | [C++](./old-problems/0019/solution.cpp) |
-| [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [C++](./old-problems/0020/solution.cpp) |
+| [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [C](./old-problems/0020/c/solution.c) [C++](./old-problems/0020/solution.cpp) |
 | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [C++](./old-problems/0021/solution.cpp) |
 | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | [C](./old-problems/0022/c/solution.c) [C++](./old-problems/0022/solution.cpp) |
 | [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | [C++](./old-problems/0023/solution.cpp) |
