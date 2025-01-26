@@ -476,6 +476,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2116. Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/) | Medium | [C++](./old-problems/2116/solution.cpp) |
 | [2124. Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/) | Easy | [C](./old-problems/2124/c/solution.c) [C++](./old-problems/2124/solution.cpp) |
 | [2125. Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/) | Medium | [C](./old-problems/2125/c/solution.c) [C++](./old-problems/2125/solution.cpp) |
+| [2127. Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/) | Hard | [C++](./old-problems/2127/solution.cpp) |
 | [2134. Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/) | Medium | [C](./old-problems/2134/c/solution.c) [C++](./old-problems/2134/solution.cpp) |
 | [2135. Count Words Obtained After Adding a Letter](https://leetcode.com/problems/count-words-obtained-after-adding-a-letter/) | Medium | [C](./old-problems/2135/c/solution.c) [C++](./old-problems/2135/solution.cpp) |
 | [2144. Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | Easy | [C](./old-problems/2144/c/solution.c) [C++](./old-problems/2144/solution.cpp) |
