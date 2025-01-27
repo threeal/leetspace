@@ -1,0 +1,34 @@
+name: 1267. Count Servers that Communicate
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: countServers
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [1, 0]
+        - [0, 1]
+    output: 0
+
+  example_2:
+    inputs:
+      grid:
+        - [1, 0]
+        - [1, 1]
+    output: 3
+
+  example_3:
+    inputs:
+      grid:
+        - [1, 1, 0, 0]
+        - [0, 0, 1, 0]
+        - [0, 0, 1, 0]
+        - [0, 0, 0, 1]
+    output: 4
