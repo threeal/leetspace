@@ -303,7 +303,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1253. Reconstruct a 2-Row Binary Matrix](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/) | Medium | [C](./old-problems/1253/c/solution.c) [C++](./old-problems/1253/solution.cpp) |
 | [1255. Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/) | Hard | [C](./old-problems/1255/c/solution.c) [C++](./old-problems/1255/solution.cpp) |
 | [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) | Easy | [C](./old-problems/1266/c/solution.c) [C++](./old-problems/1266/solution.cpp) |
-| [1267. Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) | Medium | [C++](./old-problems/1267/solution.cpp) |
+| [1267. Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) | Medium | [C](./old-problems/1267/c/solution.c) [C++](./old-problems/1267/solution.cpp) |
 | [1269. Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps) | Hard | [C++](./problems/1269/solution.cpp) |
 | [1275. Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/) | Easy | [C](./old-problems/1275/c/solution.c) [C++](./old-problems/1275/solution.cpp) |
 | [1277. Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | Medium | [C](./old-problems/1277/c/solution.c) [C++](./old-problems/1277/solution.cpp) |
