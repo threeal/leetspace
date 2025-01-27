@@ -48,6 +48,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [50. Pow(x, n)](https://leetcode.com/problems/powx-n/) | Medium | [C++](./old-problems/0050/solution.cpp) |
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [C](./old-problems/0053/c/solution.c) [C++](./old-problems/0053/solution.cpp) |
 | [55. Jump Game](https://leetcode.com/problems/jump-game/) | Medium | [C++](./old-problems/0055/solution.cpp) |
+| [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | [C++](./old-problems/0056/solution.cpp) |
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | [C](./old-problems/0057/c/solution.c) [C++](./old-problems/0057/solution.cpp) |
 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [C](./old-problems/0058/c/solution.c) [C++](./old-problems/0058/solution.cpp) |
 | [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | Medium | [C](./old-problems/0059/c/solution.c) [C++](./old-problems/0059/solution.cpp) |
