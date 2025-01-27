@@ -43,6 +43,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | [C++](./old-problems/0039/solution.cpp) |
 | [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium | [C](./old-problems/0040/c/solution.c) [C++](./old-problems/0040/solution.cpp) |
 | [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | Hard | [C](./old-problems/0041/c/solution.c) [C++](./old-problems/0041/solution.cpp) |
+| [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | [C++](./old-problems/0045/solution.cpp) |
 | [46. Permutations](https://leetcode.com/problems/permutations/) | Medium | [C](./old-problems/0046/c/solution.c) [C++](./old-problems/0046/solution.cpp) |
 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [C++](./problems/0049/solution.cpp) |
 | [50. Pow(x, n)](https://leetcode.com/problems/powx-n/) | Medium | [C++](./old-problems/0050/solution.cpp) |
