@@ -63,7 +63,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [91. Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | [C](./old-problems/0091/c/solution.c) [C++](./old-problems/0091/solution.cpp) |
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [C++](./old-problems/0094/solution.cpp) |
 | [100. Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [C++](./old-problems/0100/solution.cpp) |
-| [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | [C++](./old-problems/0118/solution.cpp) |
+| [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | [C](./old-problems/0118/c/solution.c) [C++](./old-problems/0118/solution.cpp) |
 | [119. Pascal's Triangle II](pascals-triangle-ii) | Easy | [C++](./problems/0119/solution.cpp) |
 | [120. Triangle](https://leetcode.com/problems/triangle/) | Medium | [C](./old-problems/0120/c/solution.c) [C++](./old-problems/0120/solution.cpp) |
 | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [C](./old-problems/0121/c/solution.c) [C++](./old-problems/0121/solution.cpp) |
