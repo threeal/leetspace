@@ -1,0 +1,21 @@
+name: 802. Find Eventual Safe States
+
+types:
+  inputs:
+    graph: std::vector<std::vector<int>>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: eventualSafeNodes
+
+test_cases:
+  example_1:
+    inputs:
+      graph: [[1, 2], [2, 3], [5], [0], [5], [], []]
+    output: [2, 4, 5, 6]
+
+  example_2:
+    inputs:
+      graph: [[1, 2, 3, 4], [1, 2], [3, 4], [0, 4], []]
+    output: [4]
