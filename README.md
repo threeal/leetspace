@@ -45,6 +45,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | Hard | [C](./old-problems/0041/c/solution.c) [C++](./old-problems/0041/solution.cpp) |
 | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | [C++](./old-problems/0045/solution.cpp) |
 | [46. Permutations](https://leetcode.com/problems/permutations/) | Medium | [C](./old-problems/0046/c/solution.c) [C++](./old-problems/0046/solution.cpp) |
+| [48. Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [C++](./old-problems/0048/solution.cpp) |
 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [C++](./problems/0049/solution.cpp) |
 | [50. Pow(x, n)](https://leetcode.com/problems/powx-n/) | Medium | [C](./old-problems/0050/c/solution.c) [C++](./old-problems/0050/solution.cpp) |
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [C](./old-problems/0053/c/solution.c) [C++](./old-problems/0053/solution.cpp) |
