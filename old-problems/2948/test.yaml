@@ -1,0 +1,36 @@
+name: 2948. Make Lexicographically Smallest Array by Swapping Elements
+
+types:
+  inputs:
+    nums: std::vector<int>
+    limit: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: lexicographicallySmallestArray
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 5, 3, 9, 8]
+      limit: 2
+    output: [1, 3, 5, 8, 9]
+
+  example_2:
+    inputs:
+      nums: [1, 7, 6, 18, 2, 1]
+      limit: 3
+    output: [1, 6, 7, 18, 1, 2]
+
+  example_3:
+    inputs:
+      nums: [1, 7, 28, 19, 10]
+      limit: 3
+    output: [1, 7, 28, 19, 10]
+
+  test_case_389:
+    inputs:
+      nums: [1, 60, 34, 84, 62, 56, 39, 76, 49, 38]
+      limit: 4
+    output: [1, 56, 34, 84, 60, 62, 38, 76, 49, 39]
