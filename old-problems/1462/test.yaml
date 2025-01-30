@@ -1,0 +1,27 @@
+name: 1462. Course Schedule IV
+
+types:
+  inputs:
+    numCourses: int
+    prerequisities: std::vector<std::vector<int>>
+    queries: std::vector<std::vector<int>>
+  output: std::vector<bool>
+
+solutions:
+  cpp:
+    function: checkIfPrerequisite
+
+test_cases:
+  example_1:
+    inputs:
+      numCourses: 2
+      prerequisities: [[1, 0]]
+      queries: [[0, 1], [1, 0]]
+    output: [false, true]
+
+  example_2:
+    inputs:
+      numCourses: 3
+      prerequisities: [[1, 2], [1, 0], [2, 0]]
+      queries: [[1, 0], [1, 2]]
+    output: [true, true]
