@@ -1,0 +1,30 @@
+name: 2000. Reverse Prefix of Word
+
+types:
+  inputs:
+    word: std::string
+    ch: char
+  output: std::string
+
+solutions:
+  cpp:
+    function: reversePrefix
+
+test_cases:
+  example_1:
+    inputs:
+      word: abcdefd
+      ch: 100
+    output: dcbaefd
+
+  example_2:
+    inputs:
+      word: xyxzxe
+      ch: 122
+    output: zxyxxe
+
+  example_3:
+    inputs:
+      word: abcd
+      ch: 122
+    output: abcd
