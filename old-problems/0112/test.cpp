@@ -57,4 +57,10 @@ TEST_CASE("112. Path Sum") {
     auto output = Solution{}.hasPathSum(nullptr, 0);
     REQUIRE_FALSE(output);
   }
+
+  SECTION("Test Case 72") {
+    auto root = to_tree({1, 2});
+    auto output = Solution{}.hasPathSum(root, 1);
+    REQUIRE_FALSE(output);
+  }
 }
