@@ -1,0 +1,26 @@
+name: 1752. Check if Array Is Sorted and Rotated
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: check
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [3, 4, 5, 1, 2]
+    output: true
+
+  example_2:
+    inputs:
+      nums: [2, 1, 3, 4]
+    output: false
+
+  example_3:
+    inputs:
+      nums: [1, 2, 3]
+    output: true
