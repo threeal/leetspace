@@ -63,4 +63,10 @@ TEST_CASE("112. Path Sum") {
     auto output = Solution{}.hasPathSum(root, 1);
     REQUIRE_FALSE(output);
   }
+
+  SECTION("Test Case 86") {
+    auto root = to_tree({-2, std::nullopt, -3});
+    auto output = Solution{}.hasPathSum(root, -5);
+    REQUIRE(output);
+  }
 }
