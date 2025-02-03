@@ -25,7 +25,7 @@ test_cases:
       words: [What, must, be, acknowledgment, shall, be]
       maxWidth: 16
     output:
-      - What   must   be,
+      - What   must   be
       - "acknowledgment  "
       - "shall be        "
 
@@ -37,9 +37,9 @@ test_cases:
       ]
       maxWidth: 20
     output:
-      - Science  is  what we,
-      - understand      well,
-      - enough to explain to,
-      - a  computer.  Art is,
-      - everything  else  we,
+      - Science  is  what we
+      - understand      well
+      - enough to explain to
+      - a  computer.  Art is
+      - everything  else  we
       - "do                  "
