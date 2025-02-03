@@ -1,0 +1,31 @@
+cpp:
+  function:
+    name: minimumMoves
+    inputs:
+      - type: std::vector<std::vector<int>>
+        value: grid
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      grid:
+        - [0, 0, 0, 0, 0, 1]
+        - [1, 1, 0, 0, 1, 0]
+        - [0, 0, 0, 0, 1, 1]
+        - [0, 0, 1, 0, 1, 0]
+        - [0, 1, 1, 0, 0, 0]
+        - [0, 1, 1, 0, 0, 0]
+    output: 11
+
+  - name: example 2
+    inputs:
+      grid:
+        - [0, 0, 1, 1, 1, 1]
+        - [0, 0, 0, 0, 1, 1]
+        - [1, 1, 0, 0, 0, 1]
+        - [1, 1, 1, 0, 0, 1]
+        - [1, 1, 1, 0, 0, 1]
+        - [1, 1, 1, 0, 0, 0]
+    output: 9
