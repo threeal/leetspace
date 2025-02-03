@@ -608,7 +608,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2914. Minimum Number of Changes to Make Binary String Beautiful](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/) | Medium | [C](./old-problems/2914/c/solution.c) [C++](./old-problems/2914/solution.cpp) |
 | [2924. Find Champion II](https://leetcode.com/problems/find-champion-ii/description/) | Medium | [C++](./old-problems/2924/solution.cpp) |
 | [2938. Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/) | Medium | [C++](./old-problems/2938/solution.cpp) |
-| [2948. Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | Medium | [C++](./old-problems/2948/solution.cpp) |
+| [2948. Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | Medium | [C](./old-problems/2948/c/solution.c) [C++](./old-problems/2948/solution.cpp) |
 | [2958. Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | Medium | [C++](./problems/2958/solution.cpp) |
 | [2962. Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/) | Medium | [C](./old-problems/2962/c/solution.c) [C++](./old-problems/2962/solution.cpp) |
 | [2966. Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | Medium | [C](./old-problems/2966/c/solution.c) [C++](./old-problems/2966/solution.cpp) |
