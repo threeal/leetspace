@@ -1,0 +1,26 @@
+name: 3105. Longest Strictly Increasing or Strictly Decreasing Subarray
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: longestMonotonicSubarray
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 4, 3, 3, 2]
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [3, 3, 3, 3]
+    output: 1
+
+  example_3:
+    inputs:
+      nums: [3, 2, 1]
+    output: 3
