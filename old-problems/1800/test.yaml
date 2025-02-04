@@ -1,0 +1,26 @@
+name: 1800. Maximum Ascending Subarray Sum
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maxAscendingSum
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [10, 20, 30, 5, 10, 50]
+    output: 65
+
+  example_2:
+    inputs:
+      nums: [10, 20, 30, 40, 50]
+    output: 150
+
+  example_3:
+    inputs:
+      nums: [12, 17, 15, 13, 10, 11, 12]
+    output: 33
