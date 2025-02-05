@@ -1,0 +1,21 @@
+name: 89. Gray Code
+
+types:
+  inputs:
+    n: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: grayCode
+
+test_cases:
+  example_1:
+    inputs:
+      n: 2
+    output: [0, 1, 3, 2]
+
+  example_2:
+    inputs:
+      n: 1
+    output: [0, 1]
