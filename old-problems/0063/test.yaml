@@ -1,0 +1,21 @@
+name: 63. Unique Paths II
+
+types:
+  inputs:
+    obstacleGrid: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: uniquePathsWithObstacles
+
+test_cases:
+  example_1:
+    inputs:
+      obstacleGrid: [[0, 0, 0], [0, 1, 0], [0, 0, 0]]
+    output: 2
+
+  example_2:
+    inputs:
+      obstacleGrid: [[0, 1], [0, 0]]
+    output: 1
