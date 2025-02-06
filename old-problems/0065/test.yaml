@@ -1,0 +1,26 @@
+name: 65. Valid Number
+
+types:
+  inputs:
+    s: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: isNumber
+
+test_cases:
+  example_1:
+    inputs:
+      s: "0"
+    output: true
+
+  example_2:
+    inputs:
+      s: e
+    output: false
+
+  example_3:
+    inputs:
+      s: .
+    output: false
