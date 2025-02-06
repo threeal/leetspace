@@ -1,0 +1,24 @@
+name: 62. Unique Paths
+
+types:
+  inputs:
+    m: int
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: uniquePaths
+
+test_cases:
+  example_1:
+    inputs:
+      m: 3
+      n: 7
+    output: 28
+
+  example_2:
+    inputs:
+      m: 3
+      n: 2
+    output: 3
