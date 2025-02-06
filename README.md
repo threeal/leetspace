@@ -636,7 +636,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3110. Score of a String](https://leetcode.com/problems/score-of-a-string/) | Easy | [C](./old-problems/3110/c/solution.c) [C++](./old-problems/3110/solution.cpp) |
 | [3133. Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | Medium | [C](./old-problems/3133/c/solution.c) [C++](./old-problems/3133/solution.cpp) |
 | [3137. Minimum Number of Operations to Make Word K-Periodic](https://leetcode.com/problems/minimum-number-of-operations-to-make-word-k-periodic/) | Medium | [C++](./old-problems/3137/solution.cpp) |
-| [3151. Special Array I](https://leetcode.com/problems/special-array-i/) | Easy | [C++](./old-problems/3151/solution.cpp) |
+| [3151. Special Array I](https://leetcode.com/problems/special-array-i/) | Easy | [C](./old-problems/3151/c/solution.c) [C++](./old-problems/3151/solution.cpp) |
 | [3152. Special Array II](https://leetcode.com/problems/special-array-ii/) | Medium | [C++](./old-problems/3152/solution.cpp) |
 | [3163. String Compression III](https://leetcode.com/problems/string-compression-iii/description/) | Medium | [C](./old-problems/3163/c/solution.c) [C++](./old-problems/3163/solution.cpp) |
 | [3217. Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/) | Medium | [C++](./old-problems/3217/solution.cpp) |
