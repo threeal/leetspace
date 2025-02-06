@@ -78,6 +78,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [C](./old-problems/0121/c/solution.c) [C++](./old-problems/0121/solution.cpp) |
 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) | Easy | [C](./old-problems/0125/c/solution.c) [C++](./old-problems/0125/solution.cpp) |
 | [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | Medium | [C++](./old-problems/0129/solution.cpp) |
+| [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | Medium | [C++](./old-problems/0130/solution.cpp) |
 | [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | [C++](./old-problems/0131/solution.cpp) |
 | [136. Single Number](https://leetcode.com/problems/single-number/) | Easy | [C](./old-problems/0136/solution.c) [C++](./old-problems/0136/solution.cpp) |
 | [137. Single Number II](https://leetcode.com/problems/single-number-ii/) | Medium | [C](./old-problems/0137/c/solution.c) [C++](./old-problems/0137/solution.cpp) |
