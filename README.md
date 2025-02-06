@@ -55,6 +55,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [C](./old-problems/0058/c/solution.c) [C++](./old-problems/0058/solution.cpp) |
 | [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | Medium | [C](./old-problems/0059/c/solution.c) [C++](./old-problems/0059/solution.cpp) |
 | [61. Rotate List](https://leetcode.com/problems/rotate-list/) | Medium | [C++](./old-problems/0061/solution.cpp) |
+| [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | [C++](./old-problems/0062/solution.cpp) |
 | [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | Medium | [C](./old-problems/0064/c/solution.c) [C++](./old-problems/0064/solution.cpp) |
 | [66. Plus One](https://leetcode.com/problems/plus-one) | Easy | [C++](./problems/0066/solution.cpp) |
 | [67. Add Binary](https://leetcode.com/problems/add-binary/) | Easy | [C](./old-problems/0067/c/solution.c) [C++](./old-problems/0067/solution.cpp) |
