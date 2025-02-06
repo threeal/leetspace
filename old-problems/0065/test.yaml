@@ -24,3 +24,8 @@ test_cases:
     inputs:
       s: .
     output: false
+
+  test_case_1488:
+    inputs:
+      s: 6.3.0
+    output: false
