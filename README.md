@@ -67,6 +67,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [75. Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [C++](./old-problems/0075/solution.cpp) |
 | [78. Subsets](https://leetcode.com/problems/subsets/) | Medium | [C++](./old-problems/0078/solution.cpp) |
 | [79. Word Search](https://leetcode.com/problems/word-search/) | Medium | [C](./old-problems/0079/c/solution.c) [C++](./old-problems/0079/solution.cpp) |
+| [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | Medium | [C++](./old-problems/0080/solution.cpp) |
 | [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | Medium | [C](./old-problems/0081/c/solution.c) [C++](./old-problems/0081/solution.cpp) |
 | [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Easy | [C++](./old-problems/0083/solution.cpp) |
 | [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | [C++](./old-problems/0088/solution.cpp) |
