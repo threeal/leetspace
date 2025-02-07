@@ -21,4 +21,11 @@ TEST_CASE("73. Set Matrix Zeroes") {
         {0, 0, 0, 0}, {0, 4, 5, 0}, {0, 3, 1, 0}};
     REQUIRE(matrix == expected);
   }
+
+  SECTION("Test Case 5") {
+    std::vector<std::vector<int>> matrix{{0, 1}};
+    Solution{}.setZeroes(matrix);
+    std::vector<std::vector<int>> expected{{0, 0}};
+    REQUIRE(matrix == expected);
+  }
 }
