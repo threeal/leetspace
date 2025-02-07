@@ -58,6 +58,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | [C++](./old-problems/0062/solution.cpp) |
 | [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | Medium | [C++](./old-problems/0063/solution.cpp) |
 | [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | Medium | [C](./old-problems/0064/c/solution.c) [C++](./old-problems/0064/solution.cpp) |
+| [65. Valid Number](https://leetcode.com/problems/valid-number/) | Hard | [C++](./old-problems/0065/solution.cpp) |
 | [66. Plus One](https://leetcode.com/problems/plus-one) | Easy | [C++](./problems/0066/solution.cpp) |
 | [67. Add Binary](https://leetcode.com/problems/add-binary/) | Easy | [C](./old-problems/0067/c/solution.c) [C++](./old-problems/0067/solution.cpp) |
 | [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | [C](./old-problems/0069/c/solution.c) [C++](./old-problems/0069/solution.cpp) |
