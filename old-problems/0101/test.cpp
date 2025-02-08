@@ -50,4 +50,9 @@ TEST_CASE("101. Symmetric Tree") {
     auto root = to_tree({1, 2, 2, std::nullopt, 3, std::nullopt, 3});
     REQUIRE_FALSE(Solution{}.isSymmetric(root));
   }
+
+  SECTION("Test Case 168") {
+    auto root = to_tree({1, 2, 3});
+    REQUIRE_FALSE(Solution{}.isSymmetric(root));
+  }
 }
