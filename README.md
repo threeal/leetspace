@@ -80,6 +80,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [119. Pascal's Triangle II](pascals-triangle-ii) | Easy | [C](./old-problems/0119/c/solution.c) [C++](./old-problems/0119/solution.cpp) |
 | [120. Triangle](https://leetcode.com/problems/triangle/) | Medium | [C](./old-problems/0120/c/solution.c) [C++](./old-problems/0120/solution.cpp) |
 | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [C](./old-problems/0121/c/solution.c) [C++](./old-problems/0121/solution.cpp) |
+| [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | [C++](./old-problems/0122/solution.cpp) |
 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) | Easy | [C](./old-problems/0125/c/solution.c) [C++](./old-problems/0125/solution.cpp) |
 | [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | Medium | [C++](./old-problems/0129/solution.cpp) |
 | [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | [C++](./old-problems/0131/solution.cpp) |
