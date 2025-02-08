@@ -1,0 +1,21 @@
+name: 52. N-Queens II
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: totalNQueens
+
+test_cases:
+  example_1:
+    inputs:
+      n: 4
+    output: 2
+
+  example_2:
+    inputs:
+      n: 1
+    output: 1
