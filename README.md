@@ -575,6 +575,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2540. Minimum Common Value](https://leetcode.com/problems/minimum-common-value/) | Easy | [C](./old-problems/2540/c/solution.c) [C++](./old-problems/2540/solution.cpp) |
 | [2544. Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | Easy | [C](./old-problems/2544/c/solution.c) [C++](./old-problems/2544/solution.cpp) |
 | [2545. Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/) | Medium | [C](./old-problems/2545/c/solution.c) [C++](./old-problems/2545/solution.cpp) |
+| [2349. Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/) | Medium | [C++](./old-problems/2349/solution.cpp) |
 | [2554. Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/) | Medium | [C++](./old-problems/2554/solution.cpp) |
 | [2558. Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/) | Easy | [C++](./problems/2558/solution.cpp) |
 | [2559. Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/) | Medium | [C](./old-problems/2559/c/solution.c) [C++](./old-problems/2559/solution.cpp) |
