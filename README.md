@@ -63,6 +63,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [67. Add Binary](https://leetcode.com/problems/add-binary/) | Easy | [C](./old-problems/0067/c/solution.c) [C++](./old-problems/0067/solution.cpp) |
 | [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | [C](./old-problems/0069/c/solution.c) [C++](./old-problems/0069/solution.cpp) |
 | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [C](./old-problems/0070/c/solution.c) [C++](./old-problems/0070/solution.cpp) |
+| [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | [C++](./old-problems/0073/solution.cpp) |
 | [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [C++](./old-problems/0074/solution.cpp) |
 | [75. Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [C++](./old-problems/0075/solution.cpp) |
 | [78. Subsets](https://leetcode.com/problems/subsets/) | Medium | [C++](./old-problems/0078/solution.cpp) |
