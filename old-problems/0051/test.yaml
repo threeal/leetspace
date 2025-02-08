@@ -1,0 +1,21 @@
+name: 51. N-Queens
+
+types:
+  inputs:
+    n: int
+  output: std::vector<std::vector<std::string>>
+
+solutions:
+  cpp:
+    function: solveNQueens
+
+test_cases:
+  example_1:
+    inputs:
+      n: 4
+    output: [[.Q.., ...Q, Q..., ..Q.], [..Q., Q..., ...Q, .Q..]]
+
+  example_2:
+    inputs:
+      n: 1
+    output: [[Q]]
