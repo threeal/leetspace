@@ -1,0 +1,26 @@
+name: 168. Excel Sheet Column Title
+
+types:
+  inputs:
+    columnNumber: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: convertToTitle
+
+test_cases:
+  example_1:
+    inputs:
+      columnNumber: 1
+    output: A
+
+  example_2:
+    inputs:
+      columnNumber: 28
+    output: AB
+
+  example_3:
+    inputs:
+      columnNumber: 701
+    output: ZY
