@@ -42,4 +42,9 @@ TEST_CASE("92. Reverse Linked List II") {
     const auto out = Solution{}.reverseBetween(to_list({5}), 1, 1);
     REQUIRE(std::vector<int>{5} == from_list(out));
   }
+
+  SECTION("Test Case 18") {
+    const auto out = Solution{}.reverseBetween(to_list({3, 5}), 1, 2);
+    REQUIRE(std::vector<int>{5, 3} == from_list(out));
+  }
 }
