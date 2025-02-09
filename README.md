@@ -443,6 +443,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1791. Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/) | Easy | [C](./old-problems/1791/c/solution.c) [C++](./old-problems/1791/solution.cpp) |
 | [1792. Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/) | Medium | [C++](./problems/1792/solution.cpp) |
 | [1793. Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray) | Hard | [C](./old-problems/1793/c/solution.c) [C++](./old-problems/1793/solution.cpp) |
+| [1800. Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/) | Easy | [C++](./old-problems/1800/solution.cpp) |
 | [1813. Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii/) | Medium | [C](./old-problems/1813/c/solution.c) [C++](./old-problems/1813/solution.cpp) |
 | [1814. Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/) | Medium | [C++](./problems/1814/solution.cpp) |
 | [1823. Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/) | Medium | [C](./old-problems/1823/c/solution.c) [C++](./old-problems/1823/solution.cpp) |
