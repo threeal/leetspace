@@ -1,0 +1,30 @@
+name: 1790. Check if One String Swap Can Make Strings Equal
+
+types:
+  inputs:
+    s1: std::string
+    s2: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: areAlmostEqual
+
+test_cases:
+  example_1:
+    inputs:
+      s1: bank
+      s2: kanb
+    output: true
+
+  example_2:
+    inputs:
+      s1: attack
+      s2: defend
+    output: false
+
+  example_3:
+    inputs:
+      s1: kelb
+      s2: kelb
+    output: true

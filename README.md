@@ -440,6 +440,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1759. Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings) | Medium | [C](./old-problems/1759/c/solution.c) [C++](./old-problems/1759/solution.cpp) |
 | [1760. Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/) | Medium | [C](./old-problems/1760/c/solution.c) [C++](./old-problems/1760/solution.cpp) |
 | [1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) | Hard | [C++](./old-problems/1770/solution.cpp) |
+| [1790. Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | Easy | [C++](./old-problems/1790/solution.cpp) |
 | [1791. Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/) | Easy | [C](./old-problems/1791/c/solution.c) [C++](./old-problems/1791/solution.cpp) |
 | [1792. Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/) | Medium | [C++](./problems/1792/solution.cpp) |
 | [1793. Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray) | Hard | [C](./old-problems/1793/c/solution.c) [C++](./old-problems/1793/solution.cpp) |
