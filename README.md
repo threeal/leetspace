@@ -88,6 +88,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [140. Word Break II](https://leetcode.com/problems/word-break-ii/) | Hard | [C++](./old-problems/0140/solution.cpp) |
 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [C++](./old-problems/0141/solution.cpp) |
 | [143. Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [C++](./old-problems/0143/solution.cpp) |
+| [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Easy | [C++](./old-problems/0144/solution.cpp) |
 | [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | Easy | [C++](./old-problems/0145/solution.cpp) |
 | [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | Hard | [C++](./old-problems/0149/solution.cpp) |
 | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | [C](./old-problems/0150/c/solution.c) [C++](./old-problems/0150/solution.cpp) |
