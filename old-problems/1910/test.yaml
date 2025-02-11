@@ -1,0 +1,24 @@
+name: 1910. Remove All Occurrences of a Substring
+
+types:
+  inputs:
+    s: std::string
+    part: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: removeOccurrences
+
+test_cases:
+  example_1:
+    inputs:
+      s: daabcbaabcbc
+      part: abc
+    output: dab
+
+  example_2:
+    inputs:
+      s: axxxxyyyyb
+      part: xy
+    output: ab
