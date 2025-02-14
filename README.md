@@ -101,6 +101,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | [C](./old-problems/0150/c/solution.c) [C++](./old-problems/0150/solution.cpp) |
 | [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | [C](./old-problems/0151/c/solution.c) [C++](./old-problems/0151/solution.cpp) |
 | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Medium | [C](./old-problems/0152/c/solution.c) [C++](./old-problems/0152/solution.cpp) |
+| [164. Maximum Gap](https://leetcode.com/problems/maximum-gap/) | Medium | [C++](./old-problems/0164/solution.cpp) |
 | [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | Medium | [C](./old-problems/0165/c/solution.c) [C++](./old-problems/0165/solution.cpp) |
 | [169. Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [C](./old-problems/0169/c/solution.c) [C++](./old-problems/0169/solution.cpp) |
 | [179. Largest Number](https://leetcode.com/problems/largest-number/) | Medium | [C](./old-problems/0179/c/solution.c) [C++](./old-problems/0179/solution.cpp) |
