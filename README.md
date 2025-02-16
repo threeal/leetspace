@@ -103,7 +103,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Medium | [C](./old-problems/0152/c/solution.c) [C++](./old-problems/0152/solution.cpp) |
 | [164. Maximum Gap](https://leetcode.com/problems/maximum-gap/) | Medium | [C](./old-problems/0164/c/solution.c) [C++](./old-problems/0164/solution.cpp) |
 | [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | Medium | [C](./old-problems/0165/c/solution.c) [C++](./old-problems/0165/solution.cpp) |
-| [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | Easy | [C++](./old-problems/0168/solution.cpp) |
+| [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | Easy | [C](./old-problems/0168/c/solution.c) [C++](./old-problems/0168/solution.cpp) |
 | [169. Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [C](./old-problems/0169/c/solution.c) [C++](./old-problems/0169/solution.cpp) |
 | [179. Largest Number](https://leetcode.com/problems/largest-number/) | Medium | [C](./old-problems/0179/c/solution.c) [C++](./old-problems/0179/solution.cpp) |
 | [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [C](./old-problems/0191/c/solution.c) [C++](./old-problems/0191/solution.cpp) |
