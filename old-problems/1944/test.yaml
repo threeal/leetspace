@@ -1,0 +1,21 @@
+name: 1944. Number of Visible People in a Queue
+
+types:
+  inputs:
+    heights: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: canSeePersonsCount
+
+test_cases:
+  example_1:
+    inputs:
+      heights: [10, 6, 8, 5, 11, 9]
+    output: [3, 1, 2, 1, 1, 0]
+
+  example_2:
+    inputs:
+      heights: [5, 1, 2, 3, 10]
+    output: [4, 1, 1, 1, 0]
