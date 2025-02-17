@@ -1,0 +1,24 @@
+name: 134. Gas Station
+
+types:
+  inputs:
+    gas: std::vector<int>
+    cost: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: canCompleteCircuit
+
+test_cases:
+  example_1:
+    inputs:
+      gas: [1, 2, 3, 4, 5]
+      cost: [3, 4, 5, 1, 2]
+    output: 3
+
+  example_2:
+    inputs:
+      gas: [2, 3, 4]
+      cost: [3, 4, 3]
+    output: -1
