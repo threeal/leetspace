@@ -1,0 +1,26 @@
+name: 1079. Letter Tile Possibilities
+
+types:
+  inputs:
+    tiles: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: numTilePossibilities
+
+test_cases:
+  example_1:
+    inputs:
+      tiles: AAB
+    output: 8
+
+  example_2:
+    inputs:
+      tiles: AAABBC
+    output: 188
+
+  example_3:
+    inputs:
+      tiles: V
+    output: 1
