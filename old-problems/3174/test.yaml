@@ -1,0 +1,21 @@
+name: 3174. Clear Digits
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: clearDigits
+
+test_cases:
+  example_1:
+    inputs:
+      s: abc
+    output: abc
+
+  example_2:
+    inputs:
+      s: cb34
+    output: ""
