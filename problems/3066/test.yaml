@@ -21,3 +21,9 @@ cases:
       nums: [1, 1, 2, 4, 9]
       k: 20
     output: 4
+
+  - name: test case 2
+    inputs:
+      nums: [999999999, 999999999, 999999999]
+      k: 1000000000
+    output: 2
