@@ -556,6 +556,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2364. Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/) | Medium | [C++](./old-problems/2364/solution.cpp) |
 | [2370. Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/) | Medium | [C](./old-problems/2370/c/solution.c) [C++](./old-problems/2370/solution.cpp) |
 | [2373. Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/) | Easy | [C](./old-problems/2373/c/solution.c) [C++](./old-problems/2373/solution.cpp) |
+| [2375. Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/) | Medium | [C++](./old-problems/2375/solution.cpp) |
 | [2380. Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/) | Medium | [C++](./old-problems/2380/solution.cpp) |
 | [2381. Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/description/) | Medium | [C](./old-problems/2381/c/solution.c) [C++](./old-problems/2381/solution.cpp) |
 | [2385. Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | Medium | [C++](./old-problems/2385/solution.cpp) |
