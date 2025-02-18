@@ -77,6 +77,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [91. Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | [C](./old-problems/0091/c/solution.c) [C++](./old-problems/0091/solution.cpp) |
 | [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | Medium | [C++](./old-problems/0092/solution.cpp) |
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [C++](./old-problems/0094/solution.cpp) |
+| [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | Medium | [C++](./old-problems/0095/solution.cpp) |
 | [100. Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [C++](./old-problems/0100/solution.cpp) |
 | [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | Easy | [C++](./old-problems/0101/solution.cpp) |
 | [112. Path Sum](https://leetcode.com/problems/path-sum/) | Easy | [C++](./old-problems/0112/solution.cpp) |
