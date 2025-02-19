@@ -52,4 +52,9 @@ TEST_CASE("98. Validate Binary Search Tree") {
     auto root = to_tree({5, 1, 4, null, null, 3, 6});
     REQUIRE_FALSE(Solution{}.isValidBST(root));
   }
+
+  SECTION("Test Case 65") {
+    auto root = to_tree({-2147483648, -2147483648});
+    REQUIRE_FALSE(Solution{}.isValidBST(root));
+  }
 }
