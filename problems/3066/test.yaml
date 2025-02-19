@@ -1,0 +1,29 @@
+cpp:
+  function:
+    name: minOperations
+    inputs:
+      - type: std::vector<int>
+        value: nums
+      - type: int
+        value: k
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      nums: [2, 11, 10, 1, 3]
+      k: 10
+    output: 2
+
+  - name: example 2
+    inputs:
+      nums: [1, 1, 2, 4, 9]
+      k: 20
+    output: 4
+
+  - name: test case 2
+    inputs:
+      nums: [999999999, 999999999, 999999999]
+      k: 1000000000
+    output: 2
