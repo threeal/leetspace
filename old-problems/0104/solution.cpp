@@ -1,6 +1,9 @@
+#include <algorithm>
+
 class Solution {
  public:
   int maxDepth(TreeNode* root) {
-    return root->val;
+    if (root == nullptr) return 0;
+    return 1 + std::max(maxDepth(root->left), maxDepth(root->right));
   }
 };
