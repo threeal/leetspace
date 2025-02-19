@@ -1,0 +1,26 @@
+name: 123. Best Time to Buy and Sell Stock III
+
+types:
+  inputs:
+    prices: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maxProfit
+
+test_cases:
+  example_1:
+    inputs:
+      prices: [3, 3, 5, 0, 0, 3, 1, 4]
+    output: 6
+
+  example_2:
+    inputs:
+      prices: [1, 2, 3, 4, 5]
+    output: 4
+
+  example_3:
+    inputs:
+      prices: [7, 6, 4, 3, 1]
+    output: 0
