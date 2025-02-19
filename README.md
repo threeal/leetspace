@@ -79,6 +79,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [C++](./old-problems/0094/solution.cpp) |
 | [100. Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [C++](./old-problems/0100/solution.cpp) |
 | [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | Easy | [C++](./old-problems/0101/solution.cpp) |
+| [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [C++](./old-problems/0104/solution.cpp) |
 | [112. Path Sum](https://leetcode.com/problems/path-sum/) | Easy | [C++](./old-problems/0112/solution.cpp) |
 | [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/) | Medium | [C++](./old-problems/0113/solution.cpp) |
 | [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | [C](./old-problems/0118/c/solution.c) [C++](./old-problems/0118/solution.cpp) |
