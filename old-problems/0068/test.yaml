@@ -1,0 +1,45 @@
+name: 68. Text Justification
+
+types:
+  inputs:
+    words: std::vector<std::string>
+    maxWidth: int
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: fullJustify
+
+test_cases:
+  example_1:
+    inputs:
+      words: [This, is, an, example, of, text, justification.]
+      maxWidth: 16
+    output:
+      - This    is    an
+      - example  of text
+      - "justification.  "
+
+  example_2:
+    inputs:
+      words: [What, must, be, acknowledgment, shall, be]
+      maxWidth: 16
+    output:
+      - What   must   be
+      - "acknowledgment  "
+      - "shall be        "
+
+  example_3:
+    inputs:
+      words: [
+        Science, is, what, we, understand, well, enough, to, explain, to, a,
+        computer., Art, is, everything, else, we, do
+      ]
+      maxWidth: 20
+    output:
+      - Science  is  what we
+      - understand      well
+      - enough to explain to
+      - a  computer.  Art is
+      - everything  else  we
+      - "do                  "
