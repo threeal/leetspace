@@ -549,6 +549,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2326. Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/) | Medium | [C++](./old-problems/2326/solution.cpp) |
 | [2331. Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | Easy | [C++](./old-problems/2331/solution.cpp) |
 | [2337. Move Pieces to Obtain a String](https://leetcode.com/problems/move-pieces-to-obtain-a-string/) | Medium | [C](./old-problems/2337/c/solution.c) [C++](./old-problems/2337/solution.cpp) |
+| [2342. Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | Medium | [C++](./old-problems/2342/solution.cpp) |
 | [2347. Best Poker Hand](https://leetcode.com/problems/best-poker-hand/) | Easy | [C](./old-problems/2347/c/solution.c) [C++](./old-problems/2347/solution.cpp) |
 | [2348. Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | Medium | [C](./old-problems/2348/c/solution.c) [C++](./old-problems/2348/solution.cpp) |
 | [2351. First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/) | Easy | [C](./old-problems/2351/c/solution.c) [C++](./old-problems/2351/solution.cpp) |

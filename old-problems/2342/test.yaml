@@ -1,0 +1,21 @@
+name: 2342. Max Sum of a Pair With Equal Sum of Digits
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maximumSum
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [18,43,36,13,7]
+    output: 54
+
+  example_2:
+    inputs:
+      nums: [10,12,19,14]
+    output: -1
