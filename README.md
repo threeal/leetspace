@@ -498,7 +498,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1975. Maximum Matrix Sum](https://leetcode.com/problems/maximum-matrix-sum/) | Medium | [C++](./old-problems/1975/solution.cpp) |
 | [1976. Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/) | Medium | [C++](./old-problems/1976/solution.cpp) |
 | [1979. Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | Easy | [C](./old-problems/1979/c/solution.c) [C++](./old-problems/1979/solution.cpp) |
-| [1980. Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/) | Medium | [C++](./problems/1980/solution.cpp) |
+| [1980. Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/) | Medium | [C++](./old-problems/1980/solution.cpp) |
 | [1992. Find All Groups of Farmland](https://leetcode.com/problems/find-all-groups-of-farmland/) | Medium | [C](./old-problems/1992/c/solution.c) [C++](./old-problems/1992/solution.cpp) |
 | [1995. Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/) | Easy | [C](./old-problems/1995/c/solution.c) [C++](./old-problems/1995/solution.cpp) |
 | [2000. Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | Easy | [C](./old-problems/2000/c/solution.c) [C++](./old-problems/2000/solution.cpp) |
