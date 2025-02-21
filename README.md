@@ -520,6 +520,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) | Easy | [C](./old-problems/2073/c/solution.c) [C++](./old-problems/2073/solution.cpp) |
 | [2085. Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/) | Easy | [C++](./problems/2085/solution.cpp) |
 | [2096. Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) | Medium | [C++](./old-problems/2096/solution.cpp) |
+| [2097. Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs/) | Hard | [C++](./old-problems/2097/solution.cpp) |
 | [2108. Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | Easy | [C](./old-problems/2108/c/solution.c) [C++](./old-problems/2108/solution.cpp) |
 | [2109. Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/) | Medium | [C](./old-problems/2109/c/solution.c) [C++](./old-problems/2109/solution.cpp) |
 | [2116. Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/) | Medium | [C++](./old-problems/2116/solution.cpp) |
