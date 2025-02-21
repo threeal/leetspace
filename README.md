@@ -337,6 +337,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1248. Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/) | Medium | [C](./old-problems/1248/c/solution.c) [C++](./old-problems/1248/solution.cpp) |
 | [1253. Reconstruct a 2-Row Binary Matrix](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/) | Medium | [C](./old-problems/1253/c/solution.c) [C++](./old-problems/1253/solution.cpp) |
 | [1255. Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/) | Hard | [C](./old-problems/1255/c/solution.c) [C++](./old-problems/1255/solution.cpp) |
+| [1261. Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/) | Medium | [C++](./old-problems/1261/solution.cpp) |
 | [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) | Easy | [C](./old-problems/1266/c/solution.c) [C++](./old-problems/1266/solution.cpp) |
 | [1267. Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) | Medium | [C](./old-problems/1267/c/solution.c) [C++](./old-problems/1267/solution.cpp) |
 | [1269. Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps) | Hard | [C++](./problems/1269/solution.cpp) |
