@@ -1,0 +1,26 @@
+name: 153. Find Minimum in Rotated Sorted Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: findMin
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [3, 4, 5, 1, 2]
+    output: 1
+
+  example_2:
+    inputs:
+      nums: [4, 5, 6, 7, 0, 1, 2]
+    output: 0
+
+  example_3:
+    inputs:
+      nums: [11, 13, 15, 17]
+    output: 11
