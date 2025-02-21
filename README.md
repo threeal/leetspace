@@ -337,6 +337,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1248. Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/) | Medium | [C](./old-problems/1248/c/solution.c) [C++](./old-problems/1248/solution.cpp) |
 | [1253. Reconstruct a 2-Row Binary Matrix](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/) | Medium | [C](./old-problems/1253/c/solution.c) [C++](./old-problems/1253/solution.cpp) |
 | [1255. Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/) | Hard | [C](./old-problems/1255/c/solution.c) [C++](./old-problems/1255/solution.cpp) |
+| [1261. Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/) | Medium | [C++](./old-problems/1261/solution.cpp) |
 | [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) | Easy | [C](./old-problems/1266/c/solution.c) [C++](./old-problems/1266/solution.cpp) |
 | [1267. Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) | Medium | [C](./old-problems/1267/c/solution.c) [C++](./old-problems/1267/solution.cpp) |
 | [1269. Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps) | Hard | [C++](./problems/1269/solution.cpp) |
@@ -561,7 +562,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2364. Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/) | Medium | [C](./old-problems/2364/c/solution.c) [C++](./old-problems/2364/solution.cpp) |
 | [2370. Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/) | Medium | [C](./old-problems/2370/c/solution.c) [C++](./old-problems/2370/solution.cpp) |
 | [2373. Largest Local Values in a Matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/) | Easy | [C](./old-problems/2373/c/solution.c) [C++](./old-problems/2373/solution.cpp) |
-| [2375. Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/) | Medium | [C++](./old-problems/2375/solution.cpp) |
+| [2375. Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/) | Medium | [C](./old-problems/2375/c/solution.c) [C++](./old-problems/2375/solution.cpp) |
 | [2380. Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/) | Medium | [C++](./old-problems/2380/solution.cpp) |
 | [2381. Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/description/) | Medium | [C](./old-problems/2381/c/solution.c) [C++](./old-problems/2381/solution.cpp) |
 | [2385. Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | Medium | [C++](./old-problems/2385/solution.cpp) |
