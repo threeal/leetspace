@@ -1,0 +1,21 @@
+name: 2375. Construct Smallest Number From DI String
+
+types:
+  inputs:
+    pattern: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: smallestNumber
+
+test_cases:
+  example_1:
+    inputs:
+      pattern: IIIDIDDD
+    output: "123549876"
+
+  example_2:
+    inputs:
+      pattern: DDD
+    output: "4321"
