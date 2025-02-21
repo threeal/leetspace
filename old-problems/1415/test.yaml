@@ -1,0 +1,30 @@
+name: 1415. The k-th Lexicographical String of All Happy Strings of Length n
+
+types:
+  inputs:
+    n: int
+    k: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: getHappyString
+
+test_cases:
+  example_1:
+    inputs:
+      n: 1
+      k: 3
+    output: c
+
+  example_2:
+    inputs:
+      n: 1
+      k: 4
+    output: ""
+
+  example_3:
+    inputs:
+      n: 3
+      k: 9
+    output: cab
