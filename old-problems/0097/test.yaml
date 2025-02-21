@@ -1,0 +1,34 @@
+name: 97. Interleaving String
+
+types:
+  inputs:
+    s1: std::string
+    s2: std::string
+    s3: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: isInterleave
+
+test_cases:
+  example_1:
+    inputs:
+      s1: aabcc
+      s2: dbbca
+      s3: aadbbcbcac
+    output: true
+
+  example_2:
+    inputs:
+      s1: aabcc
+      s2: dbbca
+      s3: aadbbbaccc
+    output: false
+
+  example_2:
+    inputs:
+      s1: ""
+      s2: ""
+      s3: ""
+    output: true
