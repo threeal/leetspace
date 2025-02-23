@@ -89,6 +89,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | [C](./old-problems/0122/c/solution.c) [C++](./old-problems/0122/solution.cpp) |
 | [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | Hard | [C++](./old-problems/0123/solution.cpp) |
 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) | Easy | [C](./old-problems/0125/c/solution.c) [C++](./old-problems/0125/solution.cpp) |
+| [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [C++](./old-problems/0128/solution.cpp) |
 | [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | Medium | [C++](./old-problems/0129/solution.cpp) |
 | [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | Medium | [C++](./old-problems/0130/solution.cpp) |
 | [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | [C++](./old-problems/0131/solution.cpp) |
