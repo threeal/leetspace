@@ -259,6 +259,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [884. Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/) | Easy | [C++](./old-problems/0884/solution.cpp) |
 | [885. Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/) | Medium | [C](./old-problems/0885/c/solution.c) [C++](./old-problems/0885/solution.cpp) |
 | [888. Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | Easy | [C](./old-problems/0888/c/solution.c) [C++](./old-problems/0888/solution.cpp) |
+| [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium | [C++](./old-problems/0889/solution.cpp) |
 | [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | Easy | [C++](./problems/0905/solution.cpp) |
 | [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) | Medium | [C](./old-problems/0907/c/solution.c) [C++](./old-problems/0907/solution.cpp) |
 | [908. Smallest Range I](https://leetcode.com/problems/smallest-range-i/) | Easy | [C](./old-problems/0908/c/solution.c) [C++](./old-problems/0908/solution.cpp) |
