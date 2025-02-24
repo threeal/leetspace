@@ -375,7 +375,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1404. Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | Medium | [C](./old-problems/1404/c/solution.c) [C++](./old-problems/1404/solution.cpp) |
 | [1405. Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | Medium | [C](./old-problems/1405/c/solution.c) [C++](./old-problems/1405/solution.cpp) |
 | [1408. String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | Easy | [C](./old-problems/1408/c/solution.c) [C++](./old-problems/1408/solution.cpp) |
-| [1415. The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium | [C++](./old-problems/1415/solution.cpp) |
+| [1415. The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium | [C](./old-problems/1415/c/solution.c) [C++](./old-problems/1415/solution.cpp) |
 | [1419. Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/) | Medium | [C](./old-problems/1419/c/solution.c) [C++](./old-problems/1419/solution.cpp) |
 | [1422. Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | Easy | [C](./old-problems/1422/c/solution.c) [C++](./old-problems/1422/solution.cpp) |
 | [1424. Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/) | Medium | [C++](./problems/1424/solution.cpp) |
