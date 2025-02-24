@@ -672,6 +672,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3016. Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description) | Medium | [C](./old-problems/3016/c/solution.c) [C++](./old-problems/3016/solution.cpp) |
 | [3042. Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/) | Easy | [C](./old-problems/3042/c/solution.c) [C++](./old-problems/3042/solution.cpp) |
 | [3043. Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) | Medium | [C++](./problems/3043/solution.cpp) |
+| [3046. Split the Array](https://leetcode.com/problems/split-the-array/) | Easy | [C++](./old-problems/3046/solution.cpp) |
 | [3065. Minimum Operations to Exceed Threshold Value I](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/) | Easy | [C](./old-problems/3065/c/solution.c) [C++](./old-problems/3065/solution.cpp) |
 | [3066. Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/) | Medium | [C++](./problems/3066/solution.cpp) |
 | [3068. Find the Maximum Sum of Node Values](https://leetcode.com/problems/find-the-maximum-sum-of-node-values/) | Hard | [C](./old-problems/3068/c/solution.c) [C++](./old-problems/3068/solution.cpp) |
