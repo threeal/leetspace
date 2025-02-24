@@ -1,0 +1,21 @@
+name: 462. Minimum Moves to Equal Array Elements II
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minMoves2
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3]
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [1, 10, 2, 9]
+    output: 16
