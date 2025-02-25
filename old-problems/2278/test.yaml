@@ -1,0 +1,24 @@
+name: 2278. Percentage of Letter in String
+
+types:
+  inputs:
+    s: std::string
+    letter: char
+  output: int
+
+solutions:
+  cpp:
+    function: percentageLetter
+
+test_cases:
+  example_1:
+    inputs:
+      s: foobar
+      letter: 111
+    output: 33
+
+  example_2:
+    inputs:
+      s: jjjj
+      letter: 107
+    output: 0
