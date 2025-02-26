@@ -1,0 +1,21 @@
+name: 3046. Split the Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: isPossibleToSplit
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 1, 2, 2, 3, 4]
+    output: true
+
+  example_2:
+    inputs:
+      nums: [1, 1, 1, 1]
+    output: false
