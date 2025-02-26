@@ -1,5 +1,9 @@
 #include <stdbool.h>
 
 bool isPossibleToSplit(int* nums, int numsSize) {
-  return nums[numsSize - 1] == 0;
+  char freqs[101] = {0};
+  for (int i = 0; i < numsSize; ++i) {
+    if (++freqs[nums[i]] == 3) return false;
+  }
+  return true;
 }
