@@ -1,0 +1,26 @@
+name: 292. Nim Game
+
+types:
+  inputs:
+    nums: int
+  output: bool
+
+solutions:
+  cpp:
+    function: canWinNim
+
+test_cases:
+  example_1:
+    inputs:
+      nums: 4
+    output: false
+
+  example_2:
+    inputs:
+      nums: 1
+    output: true
+
+  example_3:
+    inputs:
+      nums: 2
+    output: true
