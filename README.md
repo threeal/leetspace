@@ -409,6 +409,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | Easy | [C](./old-problems/1512/c/solution.c) [C++](./old-problems/1512/solution.cpp) |
 | [1514. Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) | Medium | [C](./old-problems/1514/c/solution.c) [C++](./old-problems/1514/solution.cpp) |
 | [1518. Water Bottles](https://leetcode.com/problems/water-bottles/) | Easy | [C](./old-problems/1518/c/solution.c) [C++](./old-problems/1518/solution.cpp) |
+| [1524. Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | Medium | [C++](./old-problems/1524/solution.cpp) |
 | [1530. Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | Medium | [C++](./old-problems/1530/solution.cpp) |
 | [1534. Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | Easy | [C](./old-problems/1534/c/solution.c) [C++](./old-problems/1534/solution.cpp) |
 | [1535. Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game) | Medium | [C](./old-problems/1535/c/solution.c) [C++](./old-problems/1535/solution.cpp) |
