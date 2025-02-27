@@ -1,0 +1,24 @@
+name: 115. Distinct Subsequences
+
+types:
+  inputs:
+    s: std::string
+    t: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: numDistinct
+
+test_cases:
+  example_1:
+    inputs:
+      s: rabbbit
+      t: rabbit
+    output: 3
+
+  example_2:
+    inputs:
+      s: babgbag
+      t: bag
+    output: 5
