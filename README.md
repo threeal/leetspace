@@ -444,6 +444,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1657. Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/) | Medium | [C](./old-problems/1657/c/solution.c) [C++](./old-problems/1657/solution.cpp) |
 | [1658. Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) | Medium | [C++](./problems/1658/solution.cpp) |
 | [1662. Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | Easy | [C](./old-problems/1662/c/solution.c) [C++](./old-problems/1662/solution.cpp) |
+| [1663. Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/) | Medium | [C++](./old-problems/1663/solution.cpp) |
 | [1668. Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/) | Easy | [C](./old-problems/1668/c/solution.c) [C++](./old-problems/1668/solution.cpp) |
 | [1669. Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/) | Medium | [C++](./old-problems/1669/solution.cpp) |
 | [1671. Minimum Number of Removals to Make Mountain Array](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/) | Hard | [C++](./old-problems/1671/solution.cpp) |
