@@ -1,0 +1,21 @@
+name: 873. Length of Longest Fibonacci Subsequence
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: lenLongestFibSubseq
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [1, 2, 3, 4, 5, 6, 7, 8]
+    output: 5
+
+  example_2:
+    inputs:
+      arr: [1, 3, 7, 11, 12, 14, 18]
+    output: 3
