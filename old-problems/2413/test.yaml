@@ -1,0 +1,21 @@
+name: 2413. Smallest Even Multiple
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: smallestEvenMultiple
+
+test_cases:
+  example_1:
+    inputs:
+      n: 5
+    output: 10
+
+  example_2:
+    inputs:
+      n: 6
+    output: 6
