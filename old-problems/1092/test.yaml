@@ -1,0 +1,24 @@
+name: 1092. Shortest Common Supersequence
+
+types:
+  inputs:
+    str1: std::string
+    str2: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: shortestCommonSupersequence
+
+test_cases:
+  example_1:
+    inputs:
+      str1: abac
+      str2: cab
+    output: cabac
+
+  example_2:
+    inputs:
+      str1: aaaaaaaa
+      str2: aaaaaaaa
+    output: aaaaaaaa
