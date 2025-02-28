@@ -225,6 +225,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [670. Maximum Swap](https://leetcode.com/problems/maximum-swap/) | Medium | [C](./old-problems/0670/c/solution.c) [C++](./old-problems/0670/solution.cpp) |
 | [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | [C](./old-problems/0678/c/solution.c) [C++](./old-problems/0678/solution.cpp) |
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | [C](./old-problems/0680/c/solution.c) [C++](./old-problems/0680/solution.cpp) |
+| [682. Baseball Game](https://leetcode.com/problems/baseball-game/) | Easy | [C++](./old-problems/0682/solution.cpp) |
 | [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) | Medium | [C](./old-problems/0684/c/solution.c) [C++](./old-problems/0684/solution.cpp) |
 | [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | Hard | [C](./old-problems/0689/c/solution.c) [C++](./old-problems/0689/solution.cpp) |
 | [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Easy | [C++](./old-problems/0703/solution.cpp) |
