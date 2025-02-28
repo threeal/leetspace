@@ -219,6 +219,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | [C](./old-problems/0647/c/solution.c) [C++](./old-problems/0647/solution.cpp) |
 | [648. Replace Words](https://leetcode.com/problems/replace-words/) | Medium | [C++](./old-problems/0648/solution.cpp) |
 | [650. 2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/) | Medium | [C](./old-problems/0650/c/solution.c) [C++](./old-problems/0650/solution.cpp) |
+| [655. Print Binary Tree](https://leetcode.com/problems/print-binary-tree/) | Medium | [C++](./old-problems/0655/solution.cpp) |
 | [657. Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | Easy | [C](./old-problems/0657/c/solution.c) [C++](./old-problems/0657/solution.cpp) |
 | [661. Image Smoother](https://leetcode.com/problems/image-smoother/) | Easy | [C++](./problems/0661/solution.cpp) |
 | [664. Strange Printer](https://leetcode.com/problems/strange-printer/) | Hard | [C](./old-problems/0664/c/solution.c) [C++](./old-problems/0664/solution.cpp) |
