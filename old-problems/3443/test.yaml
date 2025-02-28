@@ -1,0 +1,24 @@
+name: 3443. Maximum Manhattan Distance After K Changes
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: maxDistance
+
+test_cases:
+  example_1:
+    inputs:
+      s: NWSE
+      k: 1
+    output: 3
+
+  example_2:
+    inputs:
+      s: NSWWEW
+      k: 3
+    output: 6
