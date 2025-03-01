@@ -502,6 +502,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1910. Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | Medium | [C](./old-problems/1910/c/solution.c) [C++](./old-problems/1910/solution.cpp) |
 | [1913. Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) | Easy | [C](./old-problems/1913/c/solution.c) [C++](./old-problems/1913/solution.cpp) |
 | [1915. Number of Wonderful Substrings](https://leetcode.com/problems/number-of-wonderful-substrings/) | Medium | [C](./old-problems/1915/c/solution.c) [C++](./old-problems/1915/solution.cpp) |
+| [1920. Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | Easy | [C++](./old-problems/1920/solution.cpp) |
 | [1921. Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters) | Medium | [C](./old-problems/1921/c/solution.c) [C++](./old-problems/1921/solution.cpp) |
 | [1930. Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences) | Medium | [C](./old-problems/1930/c/solution.c) [C++](./old-problems/1930/solution.cpp) |
 | [1936. Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/) | Medium | [C](./old-problems/1936/c/solution.c) [C++](./old-problems/1936/solution.cpp) |
