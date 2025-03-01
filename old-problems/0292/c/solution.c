@@ -1,5 +1,5 @@
 #include <stdbool.h>
 
 bool canWinNim(int n) {
-  return n == 0;
+  return n % 4 != 0;
 }
