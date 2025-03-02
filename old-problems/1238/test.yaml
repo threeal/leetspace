@@ -1,0 +1,24 @@
+name: 1238. Circular Permutation in Binary Representation
+
+types:
+  inputs:
+    n: int
+    start: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: circularPermutation
+
+test_cases:
+  example_1:
+    inputs:
+      n: 2
+      start: 3
+    output: [3, 2, 0, 1]
+
+  example_2:
+    inputs:
+      n: 3
+      start: 2
+    output: [2, 3, 1, 0, 4, 5, 7, 6]
