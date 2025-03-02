@@ -1,0 +1,26 @@
+name: 326. Power of Three
+
+types:
+  inputs:
+    n: int
+  output: bool
+
+solutions:
+  cpp:
+    function: isPowerOfThree
+
+test_cases:
+  example_1:
+    inputs:
+      n: 27
+    output: true
+
+  example_2:
+    inputs:
+      n: 0
+    output: false
+
+  example_3:
+    inputs:
+      n: -1
+    output: false
