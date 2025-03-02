@@ -1,0 +1,21 @@
+name: 396. Rotate Function
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maxRotateFunction
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [4, 3, 2, 6]
+    output: 26
+
+  example_2:
+    inputs:
+      nums: [100]
+    output: 0
