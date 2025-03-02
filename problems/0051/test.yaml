@@ -1,0 +1,19 @@
+cpp:
+  function:
+    name: solveNQueens
+    inputs:
+      - type: int
+        value: n
+    output:
+      type: std::vector<std::vector<std::string>>
+
+cases:
+  - name: example 1
+    inputs:
+      n: 4
+    output: [[.Q.., ...Q, Q..., ..Q.], [..Q., Q..., ...Q, .Q..]]
+
+  - name: example 2
+    inputs:
+      n: 1
+    output: [[Q]]
