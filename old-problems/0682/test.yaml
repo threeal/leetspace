@@ -1,0 +1,26 @@
+name: 682. Baseball Game
+
+types:
+  inputs:
+    ops: std::vector<std::string>
+  output: int
+
+solutions:
+  cpp:
+    function: calPoints
+
+test_cases:
+  example_1:
+    inputs:
+      ops: ["5", "2", "C", "D", "+"]
+    output: 30
+
+  example_2:
+    inputs:
+      ops: ["5", "-2", "4", "C", "D", "9", "+", "+"]
+    output: 27
+
+  example_3:
+    inputs:
+      ops: ["1", "C"]
+    output: 0
