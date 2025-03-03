@@ -322,6 +322,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1080. Insufficient Nodes in Root to Leaf Paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/) | Medium | [C++](./old-problems/1080/solution.cpp) |
 | [1081. Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters) | Medium | [C++](./problems/1081/solution.cpp) |
 | [1090. Largest Values From Labels](https://leetcode.com/problems/largest-values-from-labels/) | Medium | [C](./old-problems/1090/c/solution.c) [C++](./old-problems/1090/solution.cpp) |
+| [1092. Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/) | Hard | [C++](./old-problems/1092/solution.cpp) |
 | [1105. Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves/) | Medium | [C](./old-problems/1105/c/solution.c) [C++](./old-problems/1105/solution.cpp) |
 | [1106. Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/) | Hard | [C](./old-problems/1106/c/solution.c) [C++](./old-problems/1106/solution.cpp) |
 | [1109. Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) | Medium | [C](./old-problems/1109/c/solution.c) [C++](./old-problems/1109/solution.cpp) |
