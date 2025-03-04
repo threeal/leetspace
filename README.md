@@ -167,7 +167,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | Easy | [C](./old-problems/0387/c/solution.c) [C++](./old-problems/0387/solution.cpp) |
 | [389. Find the Difference](https://leetcode.com/problems/find-the-difference) | Easy | [C++](./problems/0389/solution.cpp) |
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | [C++](./problems/0392/solution.cpp) |
-| [396. Rotate Function](https://leetcode.com/problems/rotate-function/) | Medium | [C++](./old-problems/0396/solution.cpp) |
+| [396. Rotate Function](https://leetcode.com/problems/rotate-function/) | Medium | [C](./old-problems/0396/c/solution.c) [C++](./old-problems/0396/solution.cpp) |
 | [404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | Easy | [C++](./old-problems/0404/solution.cpp) |
 | [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | Easy | [C](./old-problems/0409/c/solution.c) [C++](./old-problems/0409/solution.cpp) |
 | [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | Easy | [C](./old-problems/0412/c/solution.c) [C++](./old-problems/0412/solution.cpp) |
