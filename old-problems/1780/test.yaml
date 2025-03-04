@@ -1,0 +1,26 @@
+name: 1780. Check if Number is a Sum of Powers of Three
+
+types:
+  inputs:
+    n: int
+  output: bool
+
+solutions:
+  cpp:
+    function: checkPowersOfThree
+
+test_cases:
+  example_1:
+    inputs:
+      n: 12
+    output: true
+
+  example_2:
+    inputs:
+      n: 91
+    output: true
+
+  example_3:
+    inputs:
+      n: 21
+    output: false
