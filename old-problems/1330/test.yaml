@@ -1,0 +1,21 @@
+name: 1330. Reverse Subarray To Maximize Array Value
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maxValueAfterReverse
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 3, 1, 5, 4]
+    output: 10
+
+  example_2:
+    inputs:
+      nums: [2, 4, 9, 24, 2, 1, 10]
+    output: 68
