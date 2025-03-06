@@ -1,0 +1,30 @@
+name: 322. Coin Change
+
+types:
+  inputs:
+    coins: std::vector<int>
+    amount: int
+  output: int
+
+solutions:
+  cpp:
+    function: coinChange
+
+test_cases:
+  example_1:
+    inputs:
+      coins: [1, 2, 5]
+      amount: 11
+    output: 3
+
+  example_2:
+    inputs:
+      coins: [2]
+      amount: 3
+    output: -1
+
+  example_3:
+    inputs:
+      coins: [1]
+      amount: 0
+    output: 0
