@@ -1,0 +1,21 @@
+name: 2165. Smallest Value of the Rearranged Number
+
+types:
+  inputs:
+    num: long long
+  output: long long
+
+solutions:
+  cpp:
+    function: smallestNumber
+
+test_cases:
+  example_1:
+    inputs:
+      num: 310
+    output: 103
+
+  example_2:
+    inputs:
+      num: -7605
+    output: -7650
