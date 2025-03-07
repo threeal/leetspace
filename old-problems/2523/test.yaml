@@ -1,0 +1,24 @@
+name: 2523. Closest Prime Numbers in Range
+
+types:
+  inputs:
+    left: int
+    right: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: closestPrimes
+
+test_cases:
+  example_1:
+    inputs:
+      left: 10
+      right: 19
+    output: [11, 13]
+
+  example_2:
+    inputs:
+      left: 4
+      right: 6
+    output: [-1, -1]
