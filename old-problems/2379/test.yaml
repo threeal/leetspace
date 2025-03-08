@@ -1,0 +1,24 @@
+name: 2379. Minimum Recolors to Get K Consecutive Black Blocks
+
+types:
+  inputs:
+    blocks: std::string
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: minimumRecolors
+
+test_cases:
+  example_1:
+    inputs:
+      blocks: WBBWWBBWBW
+      k: 7
+    output: 3
+
+  example_2:
+    inputs:
+      blocks: WBWBBBW
+      k: 2
+    output: 0
