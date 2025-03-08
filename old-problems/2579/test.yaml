@@ -1,0 +1,21 @@
+name: 2579. Count Total Number of Colored Cells
+
+types:
+  inputs:
+    n: int
+  output: long long
+
+solutions:
+  cpp:
+    function: coloredCells
+
+test_cases:
+  example_1:
+    inputs:
+      n: 1
+    output: 1
+
+  example_2:
+    inputs:
+      n: 2
+    output: 5
