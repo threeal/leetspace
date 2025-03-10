@@ -1,0 +1,30 @@
+name: 3306. Count of Substrings Containing Every Vowel and K Consonants II
+
+types:
+  inputs:
+    word: std::string
+    k: int
+  output: long long
+
+solutions:
+  cpp:
+    function: countOfSubstrings
+
+test_cases:
+  example_1:
+    inputs:
+      word: aeioqq
+      k: 1
+    output: 0
+
+  example_2:
+    inputs:
+      word: aeiou
+      k: 0
+    output: 1
+
+  test_case_629:
+    inputs:
+      word: ieaouqqieaouqq
+      k: 1
+    output: 3
