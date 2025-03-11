@@ -1,0 +1,21 @@
+name: 2965. Find Missing and Repeated Values
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: findMissingAndRepeatedValues
+
+test_cases:
+  example_1:
+    inputs:
+      grid: [[1, 3], [2, 2]]
+    output: [2, 4]
+
+  example_2:
+    inputs:
+      grid: [[9, 1, 7], [8, 9, 2], [3, 4, 6]]
+    output: [9, 5]
