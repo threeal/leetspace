@@ -720,6 +720,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3223. Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/) | Medium | [C](./old-problems/3223/c/solution.c) [C++](./old-problems/3223/solution.cpp) |
 | [3243. Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/) | Medium | [C++](./problems/3243/solution.cpp) |
 | [3264. Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/) | Easy | [C](./old-problems/3264/c/solution.c) [C++](./old-problems/3264/solution.cpp) |
+| [3270. Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/) | Easy | [C++](./old-problems/3270/solution.cpp) |
 | [3443. Maximum Manhattan Distance After K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/) | Medium | [C](./old-problems/3443/c/solution.c) [C++](./old-problems/3443/solution.cpp) |
 
 ## License
