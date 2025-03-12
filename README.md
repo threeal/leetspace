@@ -560,7 +560,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2147. Number of Ways to Divide a Long Corridor](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/) | Hard | [C](./old-problems/2147/c/solution.c) [C++](./old-problems/2147/solution.cpp) |
 | [2149. Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/) | Medium | [C](./old-problems/2149/c/solution.c) [C++](./old-problems/2149/solution.cpp) |
 | [2161. Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | Medium | [C](./old-problems/2161/c/solution.c) [C++](./old-problems/2161/solution.cpp) |
-| [2165. Smallest Value of the Rearranged Number](https://leetcode.com/problems/smallest-value-of-the-rearranged-number/) | Medium | [C++](./old-problems/2165/solution.cpp) |
+| [2165. Smallest Value of the Rearranged Number](https://leetcode.com/problems/smallest-value-of-the-rearranged-number/) | Medium | [C](./old-problems/2165/c/solution.c) [C++](./old-problems/2165/solution.cpp) |
 | [2170. Minimum Operations to Make the Array Alternating](https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/) | Medium | [C++](./old-problems/2170/solution.cpp) |
 | [2181. Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | Medium | [C++](./old-problems/2181/solution.cpp) |
 | [2182. Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/) | Medium | [C++](./old-problems/2182/solution.cpp) |
