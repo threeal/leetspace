@@ -632,6 +632,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2511. Maximum Enemy Forts That Can Be Captured](https://leetcode.com/problems/maximum-enemy-forts-that-can-be-captured/) | Easy | [C](./old-problems/2511/c/solution.c) [C++](./old-problems/2511/solution.cpp) |
 | [2516. Take K of Each Character From Left and Right](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/) | Medium | [C++](./old-problems/2516/solution.cpp) |
 | [2525. Categorize Box According to Criteria](https://leetcode.com/problems/categorize-box-according-to-criteria/) | Easy | [C](./old-problems/2525/c/solution.c) [C++](./old-problems/2525/solution.cpp) |
+| [2529. Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/) | Easy | [C++](./old-problems/2529/solution.cpp) |
 | [2530. Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/) | Medium | [C++](./old-problems/2530/solution.cpp) |
 | [2531. Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/) | Medium | [C](./old-problems/2531/c/solution.c) [C++](./old-problems/2531/solution.cpp) |
 | [2535. Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/) | Easy | [C](./old-problems/2535/c/solution.c) [C++](./old-problems/2535/solution.cpp) |

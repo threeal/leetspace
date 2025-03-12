@@ -1,0 +1,26 @@
+name: 2529. Maximum Count of Positive Integer and Negative Integer
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maximumCount
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [-2, -1, -1, 1, 2, 3]
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [-3, -2, -1, 0, 0, 1, 2]
+    output: 3
+
+  test_case_13:
+    inputs:
+      nums: [5, 20, 66, 1314]
+    output: 4
