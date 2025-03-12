@@ -1,0 +1,30 @@
+name: 415. Add Strings
+
+types:
+  inputs:
+    num1: std::string
+    num2: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: addStrings
+
+test_cases:
+  example_1:
+    inputs:
+      num1: "11"
+      num2: "123"
+    output: "134"
+
+  example_2:
+    inputs:
+      num1: "456"
+      num2: "77"
+    output: "533"
+
+  example_3:
+    inputs:
+      num1: "0"
+      num2: "0"
+    output: "0"
