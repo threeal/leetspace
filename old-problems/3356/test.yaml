@@ -1,0 +1,24 @@
+name: 3356. Zero Array Transformation II
+
+types:
+  inputs:
+    nums: std::vector<int>
+    queries: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: minZeroArray
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 0, 2]
+      queries: [[0, 2, 1], [0, 2, 1], [1, 1, 3]]
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [4, 3, 2, 1]
+      queries: [[1, 3, 2], [0, 2, 1]]
+    output: -1
