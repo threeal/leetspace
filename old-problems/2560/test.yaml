@@ -1,0 +1,24 @@
+name: 2560. House Robber IV
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: minCapability
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 3, 5, 9]
+      k: 2
+    output: 5
+
+  example_2:
+    inputs:
+      nums: [2, 7, 9, 3, 1]
+      k: 2
+    output: 2
