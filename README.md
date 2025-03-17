@@ -570,6 +570,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2192. All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium | [C++](./problems/2192/solution.cpp) |
 | [2196. Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/) | Medium | [C++](./old-problems/2196/solution.cpp) |
 | [2197. Replace Non-Coprime Numbers in Array](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/) | Hard | [C++](./old-problems/2197/solution.cpp) |
+| [2206. Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/) | Easy | [C++](./old-problems/2206/solution.cpp) |
 | [2211. Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/) | Medium | [C++](./old-problems/2211/solution.cpp) |
 | [2216. Minimum Deletions to Make Array Beautiful](https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful/) | Medium | [C](./old-problems/2216/c/solution.c) [C++](./old-problems/2216/solution.cpp) |
 | [2220. Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/) | Easy | [C](./old-problems/2220/c/solution.c) [C++](./old-problems/2220/solution.cpp) |
