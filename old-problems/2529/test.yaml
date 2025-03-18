@@ -6,6 +6,7 @@ types:
   output: int
 
 solutions:
+  c:
   cpp:
     function: maximumCount
 
@@ -24,3 +25,8 @@ test_cases:
     inputs:
       nums: [5, 20, 66, 1314]
     output: 4
+
+  test_case_27:
+    inputs:
+      nums: [-1563, -236, -114, -55, 427, 447, 687, 752, 1021, 1636]
+    output: 6
