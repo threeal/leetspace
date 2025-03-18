@@ -1,0 +1,24 @@
+name: 2226. Maximum Candies Allocated to K Children
+
+types:
+  inputs:
+    candies: std::vector<int>
+    k: long long
+  output: int
+
+solutions:
+  cpp:
+    function: maximumCandies
+
+test_cases:
+  example_1:
+    inputs:
+      candies: [5, 8, 6]
+      k: 3
+    output: 5
+
+  example_2:
+    inputs:
+      candies: [2, 5]
+      k: 11
+    output: 0
