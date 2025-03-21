@@ -1,0 +1,30 @@
+name: 2401. Longest Nice Subarray
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: longestNiceSubarray
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 3, 8, 48, 10]
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [3, 1, 5, 11, 13]
+    output: 1
+
+  test_case_58:
+    inputs:
+      nums: [
+        178830999, 19325904, 844110858, 806734874, 280746028, 64, 256, 33554432,
+        882197187, 104359873, 453049214, 820924081, 624788281, 710612132,
+        839991691
+      ]
+    output: 4
