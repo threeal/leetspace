@@ -1,0 +1,21 @@
+name: 3191. Minimum Operations to Make Binary Array Elements Equal to One I
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minOperations
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [0, 1, 1, 1, 0, 0]
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [0, 1, 1, 1]
+    output: -1
