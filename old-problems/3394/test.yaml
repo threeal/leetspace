@@ -1,0 +1,32 @@
+name: 3394. Check if Grid can be Cut into Sections
+
+types:
+  inputs:
+    n: int
+    rectangles: std::vector<std::vector<int>>
+  output: bool
+
+solutions:
+  cpp:
+    function: checkValidCuts
+
+test_cases:
+  example_1:
+    inputs:
+      n: 5
+      rectangles: [[1, 0, 5, 2], [0, 2, 2, 4], [3, 2, 5, 3], [0, 4, 4, 5]]
+    output: true
+
+  example_2:
+    inputs:
+      n: 4
+      rectangles: [[0, 0, 1, 1], [2, 0, 3, 4], [0, 2, 2, 3], [3, 0, 4, 3]]
+    output: true
+
+  test_case_623:
+    inputs:
+      n: 4
+      rectangles: [
+        [0, 2, 2, 4], [1, 0, 3, 2], [2, 2, 3, 4], [3, 0, 4, 2], [3, 2, 4, 4]
+      ]
+    output: false
