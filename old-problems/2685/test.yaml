@@ -1,0 +1,24 @@
+name: 2685. Count the Number of Complete Components
+
+types:
+  inputs:
+    n: int
+    edges: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: countCompleteComponents
+
+test_cases:
+  example_1:
+    inputs:
+      n: 6
+      edges: [[0, 1], [0, 2], [1, 2], [3, 4]]
+    output: 3
+
+  example_2:
+    inputs:
+      n: 6
+      edges: [[0, 1], [0, 2], [1, 2], [3, 4], [3, 5]]
+    output: 1
