@@ -1,0 +1,30 @@
+name: 2033. Minimum Operations to Make a Uni-Value Grid
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+    x: int
+  output: int
+
+solutions:
+  cpp:
+    function: minOperations
+
+test_cases:
+  example_1:
+    inputs:
+      grid: [[2, 4], [6, 8]]
+      x: 2
+    output: 4
+
+  example_2:
+    inputs:
+      grid: [[1, 5], [2, 3]]
+      x: 1
+    output: 5
+
+  example_3:
+    inputs:
+      grid: [[1, 2], [3, 4]]
+      x: 2
+    output: -1
