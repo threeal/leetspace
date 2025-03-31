@@ -1,0 +1,24 @@
+name: 2551. Put Marbles in Bags
+
+types:
+  inputs:
+    weights: std::vector<int>
+    k: int
+  output: long long
+
+solutions:
+  cpp:
+    function: putMarbles
+
+test_cases:
+  example_1:
+    inputs:
+      weights: [1, 3, 5, 1]
+      k: 2
+    output: 4
+
+  example_2:
+    inputs:
+      weights: [1, 3]
+      k: 2
+    output: 0
