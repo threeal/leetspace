@@ -1,0 +1,21 @@
+name: 763. Partition Labels
+
+types:
+  inputs:
+    s: std::string
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: partitionLabels
+
+test_cases:
+  example_1:
+    inputs:
+      s: ababcbacadefegdehijhklij
+    output: [9, 7, 8]
+
+  example_2:
+    inputs:
+      s: eccbbbbdec
+    output: [10]
