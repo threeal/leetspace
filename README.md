@@ -146,6 +146,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [275. H-Index II](https://leetcode.com/problems/h-index-ii/) | Medium | [C](./old-problems/0275/c/solution.c) [C++](./old-problems/0275/solution.cpp) |
 | [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) | Easy | [C++](./old-problems/0278/solution.cpp) |
 | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) | Medium | [C](./old-problems/0279/c/solution.c) [C++](./old-problems/0279/solution.cpp) |
+| [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [C++](./old-problems/0283/solution.cpp) |
 | [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | [C](./old-problems/0287/c/solution.c) [C++](./old-problems/0287/solution.cpp) |
 | [292. Nim Game](https://leetcode.com/problems/nim-game/) | Easy | [C](./old-problems/0292/c/solution.c) [C++](./old-problems/0292/solution.cpp) |
 | [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | Medium | [C](./old-problems/0299/c/solution.c) [C++](./old-problems/0299/solution.cpp) |
