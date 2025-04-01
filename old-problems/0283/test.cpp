@@ -16,4 +16,10 @@ TEST_CASE("283. Move Zeroes") {
     Solution{}.moveZeroes(nums);
     REQUIRE(nums == std::vector<int>{0});
   }
+
+  SECTION("Test Case 19") {
+    std::vector<int> nums{73348, 66106, -85359, 53996, 18849, -6590, -53381, -86613, -41065, 83457, 0};
+    Solution{}.moveZeroes(nums);
+    REQUIRE(nums == std::vector<int>{73348, 66106, -85359, 53996, 18849, -6590, -53381, -86613, -41065, 83457, 0});
+  }
 }
