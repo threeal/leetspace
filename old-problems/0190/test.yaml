@@ -1,0 +1,21 @@
+name: 190. Reverse Bits
+
+types:
+  inputs:
+    n: std::uint32_t
+  output: std::uint32_t
+
+solutions:
+  cpp:
+    function: reverseBits
+
+test_cases:
+  example_1:
+    inputs:
+      n: 43261596
+    output: 964176192
+
+  example_2:
+    inputs:
+      n: 4294967293
+    output: 3221225471
