@@ -1,0 +1,21 @@
+name: 367. Valid Perfect Square
+
+types:
+  inputs:
+    num: int
+  output: bool
+
+solutions:
+  cpp:
+    function: isPerfectSquare
+
+test_cases:
+  example_1:
+    inputs:
+      num: 16
+    output: true
+
+  example_2:
+    inputs:
+      num: 14
+    output: false
