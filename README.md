@@ -338,6 +338,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1109. Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) | Medium | [C](./old-problems/1109/c/solution.c) [C++](./old-problems/1109/solution.cpp) |
 | [1110. Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/description) | Medium | [C++](./old-problems/1110/solution.cpp) |
 | [1122. Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | Easy | [C](./old-problems/1122/c/solution.c) [C++](./old-problems/1122/solution.cpp) |
+| [1123. Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) | Medium | [C++](./old-problems/1123/solution.cpp) |
 | [1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy | [C](./old-problems/1137/c/solution.c) [C++](./old-problems/1137/solution.cpp) |
 | [1140. Stone Game II](https://leetcode.com/problems/stone-game-ii/) | Medium | [C](./old-problems/1140/c/solution.c) [C++](./old-problems/1140/solution.cpp) |
 | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | [C](./old-problems/1143/c/solution.c) [C++](./old-problems/1143/solution.cpp) |
