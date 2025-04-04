@@ -1,0 +1,26 @@
+name: 2874. Maximum Value of an Ordered Triplet II
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: long long
+
+solutions:
+  cpp:
+    function: maximumTripletValue
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [12, 6, 1, 2, 7]
+    output: 77
+
+  example_2:
+    inputs:
+      nums: [1, 10, 3, 4, 19]
+    output: 133
+
+  example_3:
+    inputs:
+      nums: [1, 2, 3]
+    output: 0
