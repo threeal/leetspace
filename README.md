@@ -704,7 +704,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2870. Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/) | Medium | [C++](./problems/2870/solution.cpp) |
 | [2872. Maximum Number of K-Divisible Components](https://leetcode.com/problems/maximum-number-of-k-divisible-components/) | Hard | [C](./old-problems/2872/c/solution.c) [C++](./old-problems/2872/solution.cpp) |
 | [2873. Maximum Value of an Ordered Triplet I](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/) | Easy | [C](./old-problems/2873/c/solution.c) [C++](./old-problems/2873/solution.cpp) |
-| [2874. Maximum Value of an Ordered Triplet II](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii/) | Medium | [C++](./old-problems/2874/solution.cpp) |
+| [2874. Maximum Value of an Ordered Triplet II](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii/) | Medium | [C](./old-problems/2874/c/solution.c) [C++](./old-problems/2874/solution.cpp) |
 | [2914. Minimum Number of Changes to Make Binary String Beautiful](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/) | Medium | [C](./old-problems/2914/c/solution.c) [C++](./old-problems/2914/solution.cpp) |
 | [2923. Find Champion I](https://leetcode.com/problems/find-champion-i/) | Easy | [C](./old-problems/2923/c/solution.c) [C++](./old-problems/2923/solution.cpp) |
 | [2924. Find Champion II](https://leetcode.com/problems/find-champion-ii/description/) | Medium | [C++](./old-problems/2924/solution.cpp) |
