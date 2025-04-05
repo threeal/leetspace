@@ -165,6 +165,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | Easy | [C](./old-problems/0349/c/solution.c) [C++](./old-problems/0349/solution.cpp) |
 | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy | [C](./old-problems/0350/c/solution.c) [C++](./old-problems/0350/solution.cpp) |
 | [355. Design Twitter](https://leetcode.com/problems/design-twitter/) | Medium | [C++](./old-problems/0355/solution.cpp) |
+| [367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | Easy | [C++](./old-problems/0367/solution.cpp) |
 | [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | Medium | [C++](./problems/0368/solution.cpp) |
 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | Medium | [C++](./old-problems/0380/solution.cpp) |
 | [386. Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/) | Medium | [C](./old-problems/0386/c/solution.c) [C++](./old-problems/0386/solution.cpp) |
