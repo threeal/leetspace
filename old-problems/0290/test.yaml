@@ -1,0 +1,42 @@
+name: 290. Word Pattern
+
+types:
+  inputs:
+    pattern: std::string
+    s: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: wordPattern
+
+test_cases:
+  example_1:
+    inputs:
+      pattern: abba
+      s: dog cat cat dog
+    output: true
+
+  example_2:
+    inputs:
+      pattern: abba
+      s: dog cat cat fish
+    output: false
+
+  example_3:
+    inputs:
+      pattern: aaaa
+      s: dog cat cat dog
+    output: false
+
+  test_case_15:
+    inputs:
+      pattern: abba
+      s: dog dog dog dog
+    output: false
+
+  test_case_19:
+    inputs:
+      pattern: aaa
+      s: aa aa aa aa
+    output: false

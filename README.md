@@ -149,6 +149,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) | Medium | [C](./old-problems/0279/c/solution.c) [C++](./old-problems/0279/solution.cpp) |
 | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [C++](./old-problems/0283/solution.cpp) |
 | [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | [C](./old-problems/0287/c/solution.c) [C++](./old-problems/0287/solution.cpp) |
+| [290. Word Pattern](https://leetcode.com/problems/word-pattern/) | Easy | [C++](./old-problems/0290/solution.cpp) |
 | [292. Nim Game](https://leetcode.com/problems/nim-game/) | Easy | [C](./old-problems/0292/c/solution.c) [C++](./old-problems/0292/solution.cpp) |
 | [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | Medium | [C](./old-problems/0299/c/solution.c) [C++](./old-problems/0299/solution.cpp) |
 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [C](./old-problems/0300/c/solution.c) [C++](./old-problems/0300/solution.cpp) |
