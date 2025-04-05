@@ -164,6 +164,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | Easy | [C](./old-problems/0345/c/solution.c) [C++](./old-problems/0345/solution.cpp) |
 | [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | Easy | [C](./old-problems/0349/c/solution.c) [C++](./old-problems/0349/solution.cpp) |
 | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy | [C](./old-problems/0350/c/solution.c) [C++](./old-problems/0350/solution.cpp) |
+| [352. Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/) | Hard | [C++](./old-problems/0352/solution.cpp) |
 | [355. Design Twitter](https://leetcode.com/problems/design-twitter/) | Medium | [C++](./old-problems/0355/solution.cpp) |
 | [367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | Easy | [C++](./old-problems/0367/solution.cpp) |
 | [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | Medium | [C++](./problems/0368/solution.cpp) |
