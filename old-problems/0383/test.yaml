@@ -1,0 +1,30 @@
+name: 383. Ransom Note
+
+types:
+  inputs:
+    ransomNote: std::string
+    magazine: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: canConstruct
+
+test_cases:
+  example_1:
+    inputs:
+      ransomNote: a
+      magazine: b
+    output: false
+
+  example_2:
+    inputs:
+      ransomNote: aa
+      magazine: ab
+    output: false
+
+  example_3:
+    inputs:
+      ransomNote: aa
+      magazine: aab
+    output: true
