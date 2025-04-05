@@ -28,3 +28,9 @@ test_cases:
       pattern: aaaa
       s: dog cat cat dog
     output: false
+
+  test_case_15:
+    inputs:
+      pattern: abba
+      s: dog dog dog dog
+    output: false
