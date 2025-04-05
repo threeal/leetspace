@@ -1,0 +1,21 @@
+name: 338. Counting Bits
+
+types:
+  inputs:
+    n: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: countBits
+
+test_cases:
+  example_1:
+    inputs:
+      n: 2
+    output: [0, 1, 1]
+
+  example_2:
+    inputs:
+      n: 5
+    output: [0, 1, 1, 2, 1, 2]
