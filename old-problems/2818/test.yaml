@@ -1,0 +1,24 @@
+name: 2818. Apply Operations to Maximize Score
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: maximumScore
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [8, 3, 9, 3, 8]
+      k: 2
+    output: 81
+
+  example_2:
+    inputs:
+      nums: [19, 12, 14, 6, 10, 18]
+      k: 3
+    output: 4788
