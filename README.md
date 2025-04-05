@@ -166,6 +166,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy | [C](./old-problems/0350/c/solution.c) [C++](./old-problems/0350/solution.cpp) |
 | [355. Design Twitter](https://leetcode.com/problems/design-twitter/) | Medium | [C++](./old-problems/0355/solution.cpp) |
 | [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | Medium | [C++](./problems/0368/solution.cpp) |
+| [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | Medium | [C++](./old-problems/0374/solution.cpp) |
 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | Medium | [C++](./old-problems/0380/solution.cpp) |
 | [386. Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/) | Medium | [C](./old-problems/0386/c/solution.c) [C++](./old-problems/0386/solution.cpp) |
 | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | Easy | [C](./old-problems/0387/c/solution.c) [C++](./old-problems/0387/solution.cpp) |
