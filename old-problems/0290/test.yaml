@@ -34,3 +34,9 @@ test_cases:
       pattern: abba
       s: dog dog dog dog
     output: false
+
+  test_case_19:
+    inputs:
+      pattern: aaa
+      s: aa aa aa aa
+    output: false
