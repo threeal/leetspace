@@ -22,3 +22,9 @@ test_cases:
       nums: [19, 12, 14, 6, 10, 18]
       k: 3
     output: 4788
+
+  test_case_262:
+    inputs:
+      nums: [3289, 2832, 14858, 22011]
+      k: 6
+    output: 256720975
