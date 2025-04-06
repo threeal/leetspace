@@ -174,6 +174,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | [C++](./problems/0392/solution.cpp) |
 | [396. Rotate Function](https://leetcode.com/problems/rotate-function/) | Medium | [C](./old-problems/0396/c/solution.c) [C++](./old-problems/0396/solution.cpp) |
 | [404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | Easy | [C++](./old-problems/0404/solution.cpp) |
+| [405. Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | Easy | [C++](./old-problems/0405/solution.cpp) |
 | [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | Easy | [C](./old-problems/0409/c/solution.c) [C++](./old-problems/0409/solution.cpp) |
 | [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | Easy | [C](./old-problems/0412/c/solution.c) [C++](./old-problems/0412/solution.cpp) |
 | [413. Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | Medium | [C](./old-problems/0413/c/solution.c) [C++](./old-problems/0413/solution.cpp) |
