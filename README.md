@@ -159,7 +159,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [322. Coin Change](https://leetcode.com/problems/coin-change/) | Medium | [C](./old-problems/0322/c/solution.c) [C++](./old-problems/0322/solution.cpp) |
 | [326. Power of Three](https://leetcode.com/problems/power-of-three/) | Easy | [C](./old-problems/0326/c/solution.c) [C++](./old-problems/0326/solution.cpp) |
 | [330. Patching Array](https://leetcode.com/problems/patching-array/) | Hard | [C](./old-problems/0330/c/solution.c) [C++](./old-problems/0330/solution.cpp) |
-| [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | [C++](./old-problems/0338/solution.cpp) |
+| [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | [C](./old-problems/0338/c/solution.c) [C++](./old-problems/0338/solution.cpp) |
 | [342. Power of Four](https://leetcode.com/problems/power-of-four) | Easy | [C](./old-problems/0342/c/solution.c) [C++](./old-problems/0342/solution.cpp) |
 | [343. Integer Break](https://leetcode.com/problems/integer-break) | Medium | [C++](./problems/0343/solution.cpp) |
 | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | [C++](./old-problems/0344/solution.cpp) |
