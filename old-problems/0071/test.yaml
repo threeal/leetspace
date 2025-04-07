@@ -1,0 +1,36 @@
+name: 71. Simplify Path
+
+types:
+  inputs:
+    path: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: simplifyPath
+
+test_cases:
+  example_1:
+    inputs:
+      path: /home/
+    output: /home
+
+  example_2:
+    inputs:
+      path: /home//foo/
+    output: /home/foo
+
+  example_3:
+    inputs:
+      path: /home/user/Documents/../Pictures
+    output: /home/user/Pictures
+
+  example_4:
+    inputs:
+      path: /../
+    output: /
+
+  example_5:
+    inputs:
+      path: /.../a/../b/c/../d/./
+    output: /.../b/d
