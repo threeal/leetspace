@@ -644,7 +644,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2493. Divide Nodes Into the Maximum Number of Groups](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/) | Hard | [C++](./old-problems/2493/solution.cpp) |
 | [2497. Maximum Star Sum of a Graph](https://leetcode.com/problems/maximum-star-sum-of-a-graph/) | Medium | [C++](./old-problems/2497/solution.cpp) |
 | [2501. Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array/) | Medium | [C](./old-problems/2501/c/solution.c) [C++](./old-problems/2501/solution.cpp) |
-| [2503. Maximum Number of Points From Grid Queries](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/) | Hard | [C++](./old-problems/2503/solution.cpp) |
+| [2503. Maximum Number of Points From Grid Queries](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/) | Hard | [C](./old-problems/2503/c/solution.c) [C++](./old-problems/2503/solution.cpp) |
 | [2511. Maximum Enemy Forts That Can Be Captured](https://leetcode.com/problems/maximum-enemy-forts-that-can-be-captured/) | Easy | [C](./old-problems/2511/c/solution.c) [C++](./old-problems/2511/solution.cpp) |
 | [2516. Take K of Each Character From Left and Right](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/) | Medium | [C++](./old-problems/2516/solution.cpp) |
 | [2523. Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/) | Medium | [C](./old-problems/2523/c/solution.c) [C++](./old-problems/2523/solution.cpp) |
