@@ -1,0 +1,26 @@
+name: 32. Longest Valid Parentheses
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: longestValidParentheses
+
+test_cases:
+  example_1:
+    inputs:
+      s: (()
+    output: 2
+
+  example_2:
+    inputs:
+      s: )()())
+    output: 4
+
+  example_3:
+    inputs:
+      s: ""
+    output: 0

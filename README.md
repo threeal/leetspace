@@ -36,6 +36,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | Easy | [C](./old-problems/0028/c/solution.c) [C++](./old-problems/0028/solution.cpp) |
 | [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | Medium | [C](./old-problems/0029/c/solution.c) [C++](./old-problems/0029/solution.cpp) |
 | [31. Next Permutation](https://leetcode.com/problems/next-permutation/) | Medium | [C++](./old-problems/0031/solution.cpp) |
+| [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Hard | [C++](./old-problems/0032/solution.cpp) |
 | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [C++](./old-problems/0033/solution.cpp) |
 | [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | Medium | [C++](./problems/0034/solution.cpp) |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | [C++](./problems/0035/solution.cpp) |
