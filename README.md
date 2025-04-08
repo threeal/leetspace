@@ -756,6 +756,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3264. Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/) | Easy | [C](./old-problems/3264/c/solution.c) [C++](./old-problems/3264/solution.cpp) |
 | [3270. Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/) | Easy | [C](./old-problems/3270/c/solution.c) [C++](./old-problems/3270/solution.cpp) |
 | [3356. Zero Array Transformation II](https://leetcode.com/problems/zero-array-transformation-ii/) | Medium | [C](./old-problems/3356/c/solution.c) [C++](./old-problems/3356/solution.cpp) |
+| [3396. Minimum Number of Operations to Make Elements in Array Distinct](https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/) | Easy | [C++](./old-problems/3396/solution.cpp) |
 | [3443. Maximum Manhattan Distance After K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/) | Medium | [C](./old-problems/3443/c/solution.c) [C++](./old-problems/3443/solution.cpp) |
 
 ## License
