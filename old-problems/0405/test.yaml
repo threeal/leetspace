@@ -1,0 +1,21 @@
+name: 405. Convert a Number to Hexadecimal
+
+types:
+  inputs:
+    num: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: toHex
+
+test_cases:
+  example_1:
+    inputs:
+      num: 26
+    output: "1a"
+
+  example_2:
+    inputs:
+      num: -1
+    output: "ffffffff"
