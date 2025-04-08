@@ -24,3 +24,8 @@ test_cases:
     inputs:
       s: ""
     output: 0
+
+  test_case_173:
+    inputs:
+      s: ()(()
+    output: 2
