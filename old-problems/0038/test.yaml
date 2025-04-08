@@ -1,0 +1,21 @@
+name: 38. Count and Say
+
+types:
+  inputs:
+    n: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: countAndSay
+
+test_cases:
+  example_1:
+    inputs:
+      n: 4
+    output: "1211"
+
+  example_2:
+    inputs:
+      n: 1
+    output: "1"
