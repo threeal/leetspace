@@ -24,3 +24,8 @@ test_cases:
     inputs:
       deck: [1]
     output: false
+
+  test_case_55:
+    inputs:
+      deck: [1, 1, 1, 1, 2, 2, 2, 2, 2, 2]
+    output: true
