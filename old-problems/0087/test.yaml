@@ -1,0 +1,30 @@
+name: 87. Scramble String
+
+types:
+  inputs:
+    s1: std::string
+    s2: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: isScramble
+
+test_cases:
+  example_1:
+    inputs:
+      s1: great
+      s2: rgeat
+    output: true
+
+  example_2:
+    inputs:
+      s1: abcde
+      s2: caebd
+    output: false
+
+  example_3:
+    inputs:
+      s1: a
+      s2: a
+    output: true
