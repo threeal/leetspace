@@ -1,0 +1,38 @@
+name: 2999. Count the Number of Powerful Integers
+
+types:
+  inputs:
+    start: long long
+    finish: long long
+    limit: int
+    s: std::string
+  output: long long
+
+solutions:
+  cpp:
+    function: numberOfPowerfulInt
+
+test_cases:
+  example_1:
+    inputs:
+      start: 1
+      finish: 6000
+      limit: 4
+      s: "124"
+    output: 5
+
+  example_2:
+    inputs:
+      start: 15
+      finish: 215
+      limit: 6
+      s: "10"
+    output: 2
+
+  example_3:
+    inputs:
+      start: 1000
+      finish: 2000
+      limit: 4
+      s: "3000"
+    output: 0
