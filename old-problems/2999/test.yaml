@@ -36,3 +36,11 @@ test_cases:
       limit: 4
       s: "3000"
     output: 0
+
+  test_case_701:
+    inputs:
+      start: 10
+      finish: 1844
+      limit: 5
+      s: "12"
+    output: 12
