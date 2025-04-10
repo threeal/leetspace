@@ -1,0 +1,21 @@
+name: 274. H-Index
+
+types:
+  inputs:
+    citations: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: hIndex
+
+test_cases:
+  example_1:
+    inputs:
+      citations: [3, 0, 6, 1, 5]
+    output: 3
+
+  example_2:
+    inputs:
+      citations: [1, 3, 1]
+    output: 1
