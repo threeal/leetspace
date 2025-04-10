@@ -1,0 +1,21 @@
+name: 416. Partition Equal Subset Sum
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: canPartition
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1,5,11,5]
+    output: true
+
+  example_2:
+    inputs:
+      nums: [1,2,3,5]
+    output: false
