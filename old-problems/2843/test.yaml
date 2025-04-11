@@ -1,0 +1,24 @@
+name: 2843. Count Symmetric Integers
+
+types:
+  inputs:
+    low: int
+    high: int
+  output: int
+
+solutions:
+  cpp:
+    function: countSymmetricIntegers
+
+test_cases:
+  example_1:
+    inputs:
+      low: 1
+      high: 100
+    output: 9
+
+  example_2:
+    inputs:
+      low: 1200
+      high: 1230
+    output: 4
