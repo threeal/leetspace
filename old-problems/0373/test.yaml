@@ -1,0 +1,27 @@
+name: 373. Find K Pairs with Smallest Sums
+
+types:
+  inputs:
+    nums1: std::vector<int>
+    nums2: std::vector<int>
+    k: int
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: kSmallestPairs
+
+test_cases:
+  example_1:
+    inputs:
+      nums1: [1, 7, 11]
+      nums2: [2, 4, 6]
+      k: 3
+    output: [[1, 2], [1, 4], [1, 6]]
+
+  example_2:
+    inputs:
+      nums1: [1, 1, 2]
+      nums2: [1, 2, 3]
+      k: 2
+    output: [[1, 1], [1, 1]]
