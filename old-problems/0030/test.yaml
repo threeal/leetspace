@@ -28,3 +28,9 @@ test_cases:
       s: barfoofoobarthefoobarman
       words: [bar, foo, the]
     output: [6, 9, 12]
+
+  test_case_169:
+    inputs:
+      s: aaaaaaaaaaaaaa
+      words: [aa, aa]
+    output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
