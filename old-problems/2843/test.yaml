@@ -22,3 +22,9 @@ test_cases:
       low: 1200
       high: 1230
     output: 4
+
+  test_case_1832:
+    inputs:
+      low: 100
+      high: 1782
+    output: 44
