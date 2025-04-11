@@ -1,0 +1,26 @@
+name: 3396. Minimum Number of Operations to Make Elements in Array Distinct
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minimumOperations
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3, 4, 2, 3, 3, 5, 7]
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [4, 5, 6, 4, 4]
+    output: 2
+
+  test_case_629:
+    inputs:
+      nums: [6, 7, 8, 9]
+    output: 0
