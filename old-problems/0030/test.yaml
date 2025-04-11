@@ -1,0 +1,30 @@
+name: 30. Substring with Concatenation of All Words
+
+types:
+  inputs:
+    s: std::string
+    words: std::vector<std::string>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: findSubstring
+
+test_cases:
+  example_1:
+    inputs:
+      s: barfoothefoobarman
+      words: [foo, bar]
+    output: [0, 9]
+
+  example_2:
+    inputs:
+      s: wordgoodgoodgoodbestword
+      words: [word, good, best, word]
+    output: []
+
+  example_3:
+    inputs:
+      s: barfoofoobarthefoobarman
+      words: [bar, foo, the]
+    output: [6, 9, 12]
