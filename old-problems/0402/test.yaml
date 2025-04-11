@@ -1,0 +1,36 @@
+name: 402. Remove K Digits
+
+types:
+  inputs:
+    num: std::string
+    k: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: removeKdigits
+
+test_cases:
+  example_1:
+    inputs:
+      num: "1432219"
+      k: 3
+    output: "1219"
+
+  example_2:
+    inputs:
+      num: "10200"
+      k: 1
+    output: "200"
+
+  example_3:
+    inputs:
+      num: "10"
+      k: 2
+    output: "0"
+
+  test_case_38:
+    inputs:
+      num: "10001"
+      k: 1
+    output: "1"
