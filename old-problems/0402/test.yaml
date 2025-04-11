@@ -28,3 +28,9 @@ test_cases:
       num: "10"
       k: 2
     output: "0"
+
+  test_case_38:
+    inputs:
+      num: "10001"
+      k: 1
+    output: "1"
