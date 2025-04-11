@@ -1,0 +1,30 @@
+name: 3375. Minimum Operations to Make Array Values Equal to K
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: minOperations
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [5, 2, 5, 4, 5]
+      k: 2
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [2, 1, 2]
+      k: 2
+    output: -1
+
+  example_3:
+    inputs:
+      nums: [9, 7, 5, 3]
+      k: 1
+    output: 4
