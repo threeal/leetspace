@@ -30,3 +30,8 @@ test_cases:
     inputs:
       s: ()(()
     output: 2
+
+  test_case_199:
+    inputs:
+      s: ()
+    output: 2
