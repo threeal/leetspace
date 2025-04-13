@@ -1,0 +1,26 @@
+name: 1922. Count Good Numbers
+
+types:
+  inputs:
+    n: long long
+  output: int
+
+solutions:
+  cpp:
+    function: countGoodNumbers
+
+test_cases:
+  example_1:
+    inputs:
+      n: 1
+    output: 5
+
+  example_2:
+    inputs:
+      n: 4
+    output: 400
+
+  example_3:
+    inputs:
+      n: 50
+    output: 564908303
