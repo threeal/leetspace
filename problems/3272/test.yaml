@@ -21,3 +21,9 @@ cases:
       n: 1
       k: 4
     output: 2
+
+  - name: test case 629
+    inputs:
+      n: 5
+      k: 6
+    output: 2468
