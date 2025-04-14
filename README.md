@@ -35,6 +35,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [27. Remove Element](https://leetcode.com/problems/remove-element) | Easy | [C++](./old-problems/0027/solution.cpp) |
 | [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | Easy | [C](./old-problems/0028/c/solution.c) [C++](./old-problems/0028/solution.cpp) |
 | [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | Medium | [C](./old-problems/0029/c/solution.c) [C++](./old-problems/0029/solution.cpp) |
+| [30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | Hard | [C++](./problems/0030/solution.cpp) |
 | [31. Next Permutation](https://leetcode.com/problems/next-permutation/) | Medium | [C++](./old-problems/0031/solution.cpp) |
 | [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Hard | [C](./old-problems/0032/c/solution.c) [C++](./old-problems/0032/solution.cpp) |
 | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [C++](./old-problems/0033/solution.cpp) |
