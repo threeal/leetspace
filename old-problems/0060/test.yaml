@@ -1,0 +1,30 @@
+name: 60. Permutation Sequence
+
+types:
+  inputs:
+    n: int
+    k: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: getPermutation
+
+test_cases:
+  example_1:
+    inputs:
+      n: 3
+      k: 3
+    output: "213"
+
+  example_2:
+    inputs:
+      n: 4
+      k: 9
+    output: "2314"
+
+  example_3:
+    inputs:
+      n: 3
+      k: 1
+    output: "123"

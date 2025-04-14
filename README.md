@@ -61,6 +61,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | [C](./old-problems/0057/c/solution.c) [C++](./old-problems/0057/solution.cpp) |
 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [C](./old-problems/0058/c/solution.c) [C++](./old-problems/0058/solution.cpp) |
 | [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | Medium | [C](./old-problems/0059/c/solution.c) [C++](./old-problems/0059/solution.cpp) |
+| [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | Hard | [C++](./old-problems/0060/solution.cpp) |
 | [61. Rotate List](https://leetcode.com/problems/rotate-list/) | Medium | [C++](./old-problems/0061/solution.cpp) |
 | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | [C](./old-problems/0062/c/solution.c) [C++](./old-problems/0062/solution.cpp) |
 | [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | Medium | [C](./old-problems/0063/c/solution.c) [C++](./old-problems/0063/solution.cpp) |
