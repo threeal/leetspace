@@ -6,6 +6,7 @@ types:
   output: int
 
 solutions:
+  c:
   cpp:
     function: longestValidParentheses
 
@@ -28,4 +29,9 @@ test_cases:
   test_case_173:
     inputs:
       s: ()(()
+    output: 2
+
+  test_case_199:
+    inputs:
+      s: ()
     output: 2
