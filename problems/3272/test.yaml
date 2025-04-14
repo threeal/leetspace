@@ -1,0 +1,23 @@
+cpp:
+  function:
+    name: countGoodIntegers
+    inputs:
+      - type: int
+        value: n
+      - type: int
+        value: k
+    output:
+      type: long long
+
+cases:
+  - name: example 1
+    inputs:
+      n: 3
+      k: 5
+    output: 27
+
+  - name: example 2
+    inputs:
+      n: 1
+      k: 4
+    output: 2
