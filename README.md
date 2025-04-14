@@ -152,7 +152,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [264. Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | Medium | [C](./old-problems/0264/c/solution.c) [C++](./old-problems/0264/solution.cpp) |
 | [268. Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [C](./old-problems/0268/c/solution.c) [C++](./old-problems/0268/solution.cpp) |
 | [273. Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | Hard | [C](./old-problems/0273/c/solution.c) [C++](./old-problems/0273/solution.cpp) |
-| [274. H-Index](https://leetcode.com/problems/h-index/) | Medium | [C++](./old-problems/0274/solution.cpp) |
+| [274. H-Index](https://leetcode.com/problems/h-index/) | Medium | [C](./old-problems/0274/c/solution.c) [C++](./old-problems/0274/solution.cpp) |
 | [275. H-Index II](https://leetcode.com/problems/h-index-ii/) | Medium | [C](./old-problems/0275/c/solution.c) [C++](./old-problems/0275/solution.cpp) |
 | [278. First Bad Version](https://leetcode.com/problems/first-bad-version/) | Easy | [C++](./old-problems/0278/solution.cpp) |
 | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) | Medium | [C](./old-problems/0279/c/solution.c) [C++](./old-problems/0279/solution.cpp) |
