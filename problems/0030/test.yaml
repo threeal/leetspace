@@ -1,0 +1,29 @@
+cpp:
+  function:
+    name: findSubstring
+    inputs:
+      - type: std::string
+        value: s
+      - type: std::vector<std::string>
+        value: words
+    output:
+      type: std::vector<int>
+
+cases:
+  - name: example 1
+    inputs:
+      s: barfoothefoobarman
+      words: [foo, bar]
+    output: [0, 9]
+
+  - name: example 2
+    inputs:
+      s: wordgoodgoodgoodbestword
+      words: [word, good, best, word]
+    output: []
+
+  - name: example 3
+    inputs:
+      s: barfoofoobarthefoobarman
+      words: [bar, foo, the]
+    output: [6, 9, 12]
