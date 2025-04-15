@@ -21,4 +21,4 @@ cases:
   - name: example 3
     inputs:
       s: Aabb
-    output: bbaA
+    output: bbAa
