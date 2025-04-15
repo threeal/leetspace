@@ -1,0 +1,24 @@
+name: 2179. Count Good Triplets in an Array
+
+types:
+  inputs:
+    nums1: std::vector<int>
+    nums2: std::vector<int>
+  output: long long
+
+solutions:
+  cpp:
+    function: goodTriplets
+
+test_cases:
+  example_1:
+    inputs:
+      nums1: [2, 0, 1, 3]
+      nums2: [0, 1, 2, 3]
+    output: 1
+
+  example_2:
+    inputs:
+      nums1: [4, 0, 1, 3, 2]
+      nums2: [4, 1, 0, 2, 3]
+    output: 4
