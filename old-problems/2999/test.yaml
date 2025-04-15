@@ -9,6 +9,7 @@ types:
   output: long long
 
 solutions:
+  c:
   cpp:
     function: numberOfPowerfulInt
 
