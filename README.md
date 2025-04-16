@@ -678,6 +678,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2530. Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/) | Medium | [C++](./old-problems/2530/solution.cpp) |
 | [2531. Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/) | Medium | [C](./old-problems/2531/c/solution.c) [C++](./old-problems/2531/solution.cpp) |
 | [2535. Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/) | Easy | [C](./old-problems/2535/c/solution.c) [C++](./old-problems/2535/solution.cpp) |
+| [2537. Count the Number of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays/) | Medium | [C++](./problems/2537/solution.cpp) |
 | [2540. Minimum Common Value](https://leetcode.com/problems/minimum-common-value/) | Easy | [C](./old-problems/2540/c/solution.c) [C++](./old-problems/2540/solution.cpp) |
 | [2544. Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | Easy | [C](./old-problems/2544/c/solution.c) [C++](./old-problems/2544/solution.cpp) |
 | [2545. Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/) | Medium | [C](./old-problems/2545/c/solution.c) [C++](./old-problems/2545/solution.cpp) |
