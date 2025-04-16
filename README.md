@@ -216,7 +216,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [494. Target Sum](https://leetcode.com/problems/target-sum/) | Medium | [C++](./old-problems/0494/solution.cpp) |
 | [495. Teemo Attacking](https://leetcode.com/problems/teemo-attacking/) | Medium | [C](./old-problems/0495/c/solution.c) [C++](./old-problems/0495/solution.cpp) |
 | [502. IPO](https://leetcode.com/problems/ipo/) | Hard | [C](./old-problems/0502/c/solution.c) [C++](./old-problems/0502/solution.cpp) |
-| [504. Base 7](https://leetcode.com/problems/base-7/) | Easy | [C++](./old-problems/0504/solution.cpp) |
+| [504. Base 7](https://leetcode.com/problems/base-7/) | Easy | [C](./old-problems/0504/c/solution.c) [C++](./old-problems/0504/solution.cpp) |
 | [506. Relative Ranks](https://leetcode.com/problems/relative-ranks/) | Easy | [C](./old-problems/0506/c/solution.c) [C++](./old-problems/0506/solution.cpp) |
 | [513. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | Medium | [C++](./old-problems/0513/solution.cpp) |
 | [514. Freedom Trail](https://leetcode.com/problems/freedom-trail/) | Hard | [C](./old-problems/0514/c/solution.c) [C++](./old-problems/0514/solution.cpp) |
