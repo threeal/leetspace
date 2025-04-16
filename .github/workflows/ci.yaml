@@ -30,11 +30,10 @@ jobs:
           version: 1.8.5
 
       - name: Cache Dependencies Build
-        uses: threeal/cache-action@v0.2.1
+        uses: actions/cache@v4.2.3
         with:
-          key: CPM-${{ runner.os }}
-          version: ${{ hashFiles('package-lock') }}
-          files: build/_deps
+          key: CPM-${{ runner.os }}-${{ hashFiles('package-lock') }}
+          path: build/_deps
 
       - name: Setup Ninja
         uses: seanmiddleditch/gha-setup-ninja@v6
