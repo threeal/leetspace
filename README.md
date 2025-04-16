@@ -51,6 +51,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/) | Medium | [C](./old-problems/0043/c/solution.c) [C++](./old-problems/0043/solution.cpp) |
 | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | [C](./old-problems/0045/c/solution.c) [C++](./old-problems/0045/solution.cpp) |
 | [46. Permutations](https://leetcode.com/problems/permutations/) | Medium | [C](./old-problems/0046/c/solution.c) [C++](./old-problems/0046/solution.cpp) |
+| [47. Permutations II](https://leetcode.com/problems/permutations-ii/) | Medium | [C++](./old-problems/0047/solution.cpp) |
 | [48. Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [C++](./old-problems/0048/solution.cpp) |
 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [C++](./problems/0049/solution.cpp) |
 | [50. Pow(x, n)](https://leetcode.com/problems/powx-n/) | Medium | [C](./old-problems/0050/c/solution.c) [C++](./old-problems/0050/solution.cpp) |
