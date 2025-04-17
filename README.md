@@ -453,6 +453,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1508. Range Sum of Sorted Subarray Sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/) | Medium | [C](./old-problems/1508/c/solution.c) [C++](./old-problems/1508/solution.cpp) |
 | [1509. Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/) | Medium | [C](./old-problems/1509/c/solution.c) [C++](./old-problems/1509/solution.cpp) |
 | [1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | Easy | [C](./old-problems/1512/c/solution.c) [C++](./old-problems/1512/solution.cpp) |
+| [1513. Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/) | Medium | [C++](./old-problems/1513/solution.cpp) |
 | [1514. Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) | Medium | [C](./old-problems/1514/c/solution.c) [C++](./old-problems/1514/solution.cpp) |
 | [1518. Water Bottles](https://leetcode.com/problems/water-bottles/) | Easy | [C](./old-problems/1518/c/solution.c) [C++](./old-problems/1518/solution.cpp) |
 | [1524. Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | Medium | [C](./old-problems/1524/c/solution.c) [C++](./old-problems/1524/solution.cpp) |
