@@ -11,11 +11,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.2
+        with:
+          submodules: true
+
+      - name: Setup pnpm
+        uses: threeal/setup-pnpm-action@v1.0.0
 
       - name: Test Solutions
-        uses: threeal/leettest-action@v0.2.0
-        with:
-          files: problems/**/solution.cpp
+        working-directory: leettest
+        run: pnpm start ../problems
 
   test-old-solutions:
     name: Test Old Solutions
