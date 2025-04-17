@@ -1,0 +1,30 @@
+name: 1400. Construct K Palindrome Strings
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: bool
+
+solutions:
+  cpp:
+    function: canConstruct
+
+test_cases:
+  example_1:
+    inputs:
+      s: annabelle
+      k: 2
+    output: true
+
+  example_2:
+    inputs:
+      s: leetcode
+      k: 3
+    output: false
+
+  example_3:
+    inputs:
+      s: "true"
+      k: 4
+    output: true
