@@ -1,0 +1,24 @@
+name: 1103. Distribute Candies to People
+
+types:
+  inputs:
+    candies: int
+    num_people: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: distributeCandies
+
+test_cases:
+  example_1:
+    inputs:
+      candies: 7
+      num_people: 4
+    output: [1, 2, 3, 1]
+
+  example_2:
+    inputs:
+      candies: 10
+      num_people: 3
+    output: [5, 2, 3]
