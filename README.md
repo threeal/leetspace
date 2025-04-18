@@ -58,7 +58,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [51. N-Queens](https://leetcode.com/problems/n-queens/) | Hard | [C++](./problems/0051/solution.cpp) |
 | [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/) | Hard | [C](./old-problems/0052/c/solution.c) [C++](./old-problems/0052/solution.cpp) |
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [C](./old-problems/0053/c/solution.c) [C++](./old-problems/0053/solution.cpp) |
-| [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [C++](./old-problems/0054/solution.cpp) |
+| [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [C](./old-problems/0054/c/solution.c) [C++](./old-problems/0054/solution.cpp) |
 | [55. Jump Game](https://leetcode.com/problems/jump-game/) | Medium | [C](./old-problems/0055/c/solution.c) [C++](./old-problems/0055/solution.cpp) |
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | [C](./old-problems/0056/c/solution.c) [C++](./old-problems/0056/solution.cpp) |
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | [C](./old-problems/0057/c/solution.c) [C++](./old-problems/0057/solution.cpp) |
