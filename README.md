@@ -86,6 +86,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | Medium | [C](./old-problems/0081/c/solution.c) [C++](./old-problems/0081/solution.cpp) |
 | [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | Medium | [C++](./old-problems/0082/solution.cpp) |
 | [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Easy | [C++](./old-problems/0083/solution.cpp) |
+| [86. Partition List](https://leetcode.com/problems/partition-list/) | Medium | [C++](./old-problems/0086/solution.cpp) |
 | [87. Scramble String](https://leetcode.com/problems/scramble-string/) | Hard | [C](./old-problems/0087/c/solution.c) [C++](./old-problems/0087/solution.cpp) |
 | [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | [C++](./old-problems/0088/solution.cpp) |
 | [89. Gray Code](https://leetcode.com/problems/gray-code/) | Medium | [C](./old-problems/0089/c/solution.c) [C++](./old-problems/0089/solution.cpp) |
