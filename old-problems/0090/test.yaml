@@ -13,7 +13,7 @@ test_cases:
   example_1:
     inputs:
       nums: [1, 2, 2]
-    output: [[], [1], [1, 2], [1, 2, 2], [2], [2, 2]]
+    output: [[], [2], [2, 2], [1], [1, 2], [1, 2, 2]]
 
   example_2:
     inputs:
