@@ -90,6 +90,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [87. Scramble String](https://leetcode.com/problems/scramble-string/) | Hard | [C](./old-problems/0087/c/solution.c) [C++](./old-problems/0087/solution.cpp) |
 | [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | [C++](./old-problems/0088/solution.cpp) |
 | [89. Gray Code](https://leetcode.com/problems/gray-code/) | Medium | [C](./old-problems/0089/c/solution.c) [C++](./old-problems/0089/solution.cpp) |
+| [90. Subsets II](https://leetcode.com/problems/subsets-ii/) | Medium | [C++](./old-problems/0090/solution.cpp) |
 | [91. Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | [C](./old-problems/0091/c/solution.c) [C++](./old-problems/0091/solution.cpp) |
 | [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | Medium | [C++](./old-problems/0092/solution.cpp) |
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [C++](./old-problems/0094/solution.cpp) |
