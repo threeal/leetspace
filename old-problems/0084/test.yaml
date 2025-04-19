@@ -1,0 +1,21 @@
+name: 84. Largest Rectangle in Histogram
+
+types:
+  inputs:
+    heights: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: largestRectangleArea
+
+test_cases:
+  example_1:
+    inputs:
+      heights: [2, 1, 5, 6, 2, 3]
+    output: 10
+
+  example_2:
+    inputs:
+      heights: [2, 4]
+    output: 4
