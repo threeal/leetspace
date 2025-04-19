@@ -28,3 +28,9 @@ test_cases:
       s: aa
       goal: aa
     output: true
+
+  test_case_37:
+    inputs:
+      s: ab
+      goal: babbb
+    output: false
