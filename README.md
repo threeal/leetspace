@@ -79,7 +79,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | [C++](./old-problems/0073/solution.cpp) |
 | [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [C](./old-problems/0074/c/solution.c) [C++](./old-problems/0074/solution.cpp) |
 | [75. Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | [C++](./old-problems/0075/solution.cpp) |
-| [77. Combinations](https://leetcode.com/problems/combinations/) | Medium | [C++](./old-problems/0077/solution.cpp) |
+| [77. Combinations](https://leetcode.com/problems/combinations/) | Medium | [C](./old-problems/0077/c/solution.c) [C++](./old-problems/0077/solution.cpp) |
 | [78. Subsets](https://leetcode.com/problems/subsets/) | Medium | [C++](./old-problems/0078/solution.cpp) |
 | [79. Word Search](https://leetcode.com/problems/word-search/) | Medium | [C](./old-problems/0079/c/solution.c) [C++](./old-problems/0079/solution.cpp) |
 | [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | Medium | [C++](./old-problems/0080/solution.cpp) |
