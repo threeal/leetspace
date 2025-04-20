@@ -212,6 +212,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [441. Arranging Coins](https://leetcode.com/problems/arranging-coins/) | Easy | [C](./old-problems/0441/c/solution.c) [C++](./old-problems/0441/solution.cpp) |
 | [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | Medium | [C](./old-problems/0442/c/solution.c) [C++](./old-problems/0442/solution.cpp) |
 | [446. Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) | Hard | [C++](./problems/0446/solution.cpp) |
+| [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy | [C++](./old-problems/0448/solution.cpp) |
 | [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | Medium | [C](./old-problems/0451/c/solution.c) [C++](./old-problems/0451/solution.cpp) |
 | [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | Medium | [C](./old-problems/0452/c/solution.c) [C++](./old-problems/0452/solution.cpp) |
 | [454. 4Sum II](https://leetcode.com/problems/4sum-ii/) | Medium | [C++](./problems/0454/solution.cpp) |
