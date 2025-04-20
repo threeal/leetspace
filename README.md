@@ -297,7 +297,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | Easy | [C++](./problems/0844/solution.cpp) |
 | [846. Hand of Straights](https://leetcode.com/problems/hand-of-straights/) | medium | [C](./old-problems/0846/c/solution.c) [C++](./old-problems/0846/solution.cpp) |
 | [857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) | Hard | [C++](./old-problems/0857/solution.cpp) |
-| [859. Buddy Strings](https://leetcode.com/problems/buddy-strings/description/) | Easy | [C++](./old-problems/0859/solution.cpp) |
+| [859. Buddy Strings](https://leetcode.com/problems/buddy-strings/description/) | Easy | [C](./old-problems/0859/c/solution.c) [C++](./old-problems/0859/solution.cpp) |
 | [860. Lemonade Change](https://leetcode.com/problems/lemonade-change/) | Easy | [C](./old-problems/0860/c/solution.c) [C++](./old-problems/0860/solution.cpp) |
 | [861. Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/) | Medium | [C](./old-problems/0861/c/solution.c) [C++](./old-problems/0861/solution.cpp) |
 | [865. Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/) | Medium | [C++](./old-problems/0865/solution.cpp) |
