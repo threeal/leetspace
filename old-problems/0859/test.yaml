@@ -1,0 +1,36 @@
+name: 859. Buddy Strings
+
+types:
+  inputs:
+    s: std::string
+    goal: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: buddyStrings
+
+test_cases:
+  example_1:
+    inputs:
+      s: ab
+      goal: ba
+    output: true
+
+  example_2:
+    inputs:
+      s: ab
+      goal: ab
+    output: false
+
+  example_3:
+    inputs:
+      s: aa
+      goal: aa
+    output: true
+
+  test_case_37:
+    inputs:
+      s: ab
+      goal: babbb
+    output: false
