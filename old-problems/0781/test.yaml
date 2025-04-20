@@ -1,0 +1,21 @@
+name: 781. Rabbits in Forest
+
+types:
+  inputs:
+    answers: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: numRabbits
+
+test_cases:
+  example_1:
+    inputs:
+      answers: [1, 1, 2]
+    output: 5
+
+  example_2:
+    inputs:
+      answers: [10, 10, 10]
+    output: 11
