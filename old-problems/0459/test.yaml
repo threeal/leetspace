@@ -1,0 +1,26 @@
+name: 459. Repeated Substring Pattern
+
+types:
+  inputs:
+    s: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: repeatedSubstringPattern
+
+test_cases:
+  example_1:
+    inputs:
+      s: abab
+    output: true
+
+  example_2:
+    inputs:
+      s: aba
+    output: false
+
+  example_3:
+    inputs:
+      s: abcabcabcabc
+    output: true
