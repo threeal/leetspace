@@ -169,6 +169,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium | [C](./old-problems/0287/c/solution.c) [C++](./old-problems/0287/solution.cpp) |
 | [290. Word Pattern](https://leetcode.com/problems/word-pattern/) | Easy | [C++](./old-problems/0290/solution.cpp) |
 | [292. Nim Game](https://leetcode.com/problems/nim-game/) | Easy | [C](./old-problems/0292/c/solution.c) [C++](./old-problems/0292/solution.cpp) |
+| [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | [C++](./old-problems/0295/solution.cpp) |
 | [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | Medium | [C](./old-problems/0299/c/solution.c) [C++](./old-problems/0299/solution.cpp) |
 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [C](./old-problems/0300/c/solution.c) [C++](./old-problems/0300/solution.cpp) |
 | [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | Easy | [C++](./old-problems/0303/solution.cpp) |
