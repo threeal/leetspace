@@ -1,0 +1,21 @@
+name: 520. Detect Capital
+
+types:
+  inputs:
+    word: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: detectCapitalUse
+
+test_cases:
+  example_1:
+    inputs:
+      word: USA
+    output: true
+
+  example_2:
+    inputs:
+      word: FlaG
+    output: false
