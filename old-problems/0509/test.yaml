@@ -1,0 +1,26 @@
+name: 509. Fibonacci Number
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: fib
+
+test_cases:
+  example_1:
+    inputs:
+      n: 2
+    output: 1
+
+  example_2:
+    inputs:
+      n: 3
+    output: 2
+
+  example_3:
+    inputs:
+      n: 4
+    output: 3
