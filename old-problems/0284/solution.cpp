@@ -1,16 +1,29 @@
 #include <vector>
 
 class PeekingIterator : public Iterator {
+ private:
+  bool hasPeeked;
+  int peekedVal;
+
  public:
-  PeekingIterator(const std::vector<int>& nums) : Iterator(nums) {}
+  PeekingIterator(const std::vector<int>& nums)
+      : Iterator(nums), hasPeeked{false}, peekedVal{} {}
 
   int peek() {
-    return 0;
+    if (!hasPeeked) {
+      peekedVal = Iterator::next();
+      hasPeeked = true;
+    }
+    return peekedVal;
   }
 
-  // int next() {
-  // }
+  int next() {
+    if (!hasPeeked) return Iterator::next();
+    hasPeeked = false;
+    return peekedVal;
+  }
 
-  // bool hasNext() const {
-  // }
+  bool hasNext() const {
+    return hasPeeked || Iterator::hasNext();
+  }
 };
