@@ -1,0 +1,24 @@
+name: 605. Can Place Flowers
+
+types:
+  inputs:
+    flowerbed: std::vector<int>
+    n: int
+  output: bool
+
+solutions:
+  cpp:
+    function: canPlaceFlowers
+
+test_cases:
+  example_1:
+    inputs:
+      flowerbed: [1, 0, 0, 0, 1]
+      n: 1
+    output: true
+
+  example_2:
+    inputs:
+      flowerbed: [1, 0, 0, 0, 1]
+      n: 2
+    output: false
