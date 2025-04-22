@@ -1,0 +1,36 @@
+name: 598. Range Addition II
+
+types:
+  inputs:
+    m: int
+    n: int
+    ops: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: maxCount
+
+test_cases:
+  example_1:
+    inputs:
+      m: 3
+      n: 3
+      ops: [[2, 2], [3, 3]]
+    output: 4
+
+  example_2:
+    inputs:
+      m: 3
+      n: 3
+      ops: [
+        [2, 2], [3, 3], [3, 3], [3, 3], [2, 2], [3, 3], [3, 3], [3, 3], [2, 2],
+        [3, 3], [3, 3], [3, 3]]
+    output: 4
+
+  example_3:
+    inputs:
+      m: 3
+      n: 3
+      ops: []
+    output: 9
