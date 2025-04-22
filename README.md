@@ -208,7 +208,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [415. Add Strings](https://leetcode.com/problems/add-strings/) | Easy | [C](./old-problems/0415/c/solution.c) [C++](./old-problems/0415/solution.cpp) |
 | [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | Medium | [C](./old-problems/0416/c/solution.c) [C++](./old-problems/0416/solution.cpp) |
 | [432. All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) | Hard | [C++](./old-problems/0432/solution.cpp) |
-| [434. Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | Easy | [C++](./old-problems/0434/solution.cpp) |
+| [434. Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | Easy | [C](./old-problems/0434/c/solution.c) [C++](./old-problems/0434/solution.cpp) |
 | [440. K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/) | Hard | [C](./old-problems/0440/c/solution.c) [C++](./old-problems/0440/solution.cpp) |
 | [441. Arranging Coins](https://leetcode.com/problems/arranging-coins/) | Easy | [C](./old-problems/0441/c/solution.c) [C++](./old-problems/0441/solution.cpp) |
 | [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | Medium | [C](./old-problems/0442/c/solution.c) [C++](./old-problems/0442/solution.cpp) |
