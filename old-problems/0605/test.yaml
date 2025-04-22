@@ -28,3 +28,9 @@ test_cases:
       flowerbed: [1, 0, 1, 0, 1, 0, 1]
       n: 1
     output: false
+
+  test_case_115:
+    inputs:
+      flowerbed: [1, 0, 0, 0, 1, 0, 0]
+      n: 2
+    output: true
