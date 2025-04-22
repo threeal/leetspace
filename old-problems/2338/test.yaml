@@ -22,3 +22,9 @@ test_cases:
       n: 5
       maxValue: 3
     output: 11
+
+  test_case_38:
+    inputs:
+      n: 9767
+      maxValue: 9557
+    output: 2378615
