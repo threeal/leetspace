@@ -34,3 +34,9 @@ test_cases:
       flowerbed: [1, 0, 0, 0, 1, 0, 0]
       n: 2
     output: true
+
+  test_case_122:
+    inputs:
+      flowerbed: [0, 0]
+      n: 2
+    output: false
