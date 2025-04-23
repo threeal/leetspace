@@ -1,0 +1,21 @@
+name: 357. Count Numbers with Unique Digits
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: countNumbersWithUniqueDigits
+
+test_cases:
+  example_1:
+    inputs:
+      n: 2
+    output: 91
+
+  example_2:
+    inputs:
+      n: 0
+    output: 1
