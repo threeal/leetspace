@@ -445,6 +445,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1381. Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | Medium | [C++](./old-problems/1381/solution.cpp) |
 | [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | Medium | [C++](./old-problems/1382/solution.cpp) |
 | [1395. Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/) | Medium | [C](./old-problems/1395/c/solution.c) [C++](./old-problems/1395/solution.cpp) |
+| [1399. Count Largest Group](https://leetcode.com/problems/count-largest-group/) | Easy | [C++](./old-problems/1399/solution.cpp) |
 | [1404. Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | Medium | [C](./old-problems/1404/c/solution.c) [C++](./old-problems/1404/solution.cpp) |
 | [1405. Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | Medium | [C](./old-problems/1405/c/solution.c) [C++](./old-problems/1405/solution.cpp) |
 | [1408. String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | Easy | [C](./old-problems/1408/c/solution.c) [C++](./old-problems/1408/solution.cpp) |

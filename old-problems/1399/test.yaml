@@ -1,0 +1,21 @@
+name: 1399. Count Largest Group
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: countLargestGroup
+
+test_cases:
+  example_1:
+    inputs:
+      n: 13
+    output: 4
+
+  example_2:
+    inputs:
+      n: 2
+    output: 2
