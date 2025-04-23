@@ -1,0 +1,24 @@
+name: 313. Super Ugly Number
+
+types:
+  inputs:
+    n: int
+    primes: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: nthSuperUglyNumber
+
+test_cases:
+  example_1:
+    inputs:
+      n: 12
+      primes: [2, 7, 13, 19]
+    output: 32
+
+  example_2:
+    inputs:
+      n: 1
+      primes: [2, 3, 5]
+    output: 1
