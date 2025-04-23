@@ -1,0 +1,21 @@
+name: 696. Count Binary Substrings
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: countBinarySubstrings
+
+test_cases:
+  example_1:
+    inputs:
+      s: "00110011"
+    output: 6
+
+  example_2:
+    inputs:
+      s: "10101"
+    output: 4
