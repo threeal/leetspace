@@ -22,3 +22,9 @@ test_cases:
       n: 1
       primes: [2, 3, 5]
     output: 1
+
+  test_case_84:
+    inputs:
+      n: 5911
+      primes: [2, 3, 5, 7]
+    output: 2144153025
