@@ -755,6 +755,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2779. Maximum Beauty of an Array After Applying Operation](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/) | Medium | [C](./old-problems/2779/c/solution.c) [C++](./old-problems/2779/solution.cpp) |
 | [2780. Minimum Index of a Valid Split](https://leetcode.com/problems/minimum-index-of-a-valid-split/description/) | Medium | [C](./old-problems/2780/c/solution.c) [C++](./old-problems/2780/solution.cpp) |
 | [2785. Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string) | Medium | [C](./old-problems/2785/c/solution.c) [C++](./old-problems/2785/solution.cpp) |
+| [2799. Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/) | Medium | [C++](./old-problems/2799/solution.cpp) |
 | [2807. Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/) | Medium | [C++](./old-problems/2807/solution.cpp) |
 | [2810. Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/) | Easy | [C](./old-problems/2810/c/solution.c) [C++](./old-problems/2810/solution.cpp) |
 | [2812. Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/) | Medium | [C++](./problems/2812/solution.cpp) |
