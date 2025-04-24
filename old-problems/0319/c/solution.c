@@ -1,3 +1,5 @@
+#include <math.h>
+
 int bulbSwitch(int n) {
-  return n;
+  return sqrt(n);
 }
