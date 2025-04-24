@@ -84,4 +84,14 @@ TEST_CASE("297. Serialize and Deserialize Binary Tree") {
 
     REQUIRE(from_tree(parsedRoot) == from_tree(root));
   }
+
+  SECTION("Test Case 29") {
+    TreeNode* root{to_tree({1, null, 2})};
+
+    Codec codec;
+    const std::string data{codec.serialize(root)};
+    TreeNode* parsedRoot{codec.deserialize(data)};
+
+    REQUIRE(from_tree(parsedRoot) == from_tree(root));
+  }
 }
