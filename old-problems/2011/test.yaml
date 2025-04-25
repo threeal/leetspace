@@ -1,0 +1,26 @@
+name: 2011. Final Value of Variable After Performing Operations
+
+types:
+  inputs:
+    rectangles: std::vector<std::string>
+  output: int
+
+solutions:
+  cpp:
+    function: finalValueAfterOperations
+
+test_cases:
+  example_1:
+    inputs:
+      rectangles: [--X, X++, X++]
+    output: 1
+
+  example_2:
+    inputs:
+      rectangles: [++X, ++X, X++]
+    output: 3
+
+  example_2:
+    inputs:
+      rectangles: [X++, ++X, --X, X--]
+    output: 0
