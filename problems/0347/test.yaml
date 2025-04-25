@@ -1,0 +1,23 @@
+cpp:
+  function:
+    name: topKFrequent
+    inputs:
+      - type: std::vector<int>
+        value: nums
+      - type: int
+        value: k
+    output:
+      type: std::vector<int>
+
+cases:
+  - name: example 1
+    inputs:
+      nums: [1, 1, 1, 2, 2, 3]
+      k: 2
+    output: [1, 2]
+
+  - name: example 2
+    inputs:
+      nums: [1]
+      k: 1
+    output: [1]
