@@ -1,0 +1,24 @@
+name: 2769. Find the Maximum Achievable Number
+
+types:
+  inputs:
+    num: int
+    t: int
+  output: int
+
+solutions:
+  cpp:
+    function: theMaximumAchievableX
+
+test_cases:
+  example_1:
+    inputs:
+      num: 4
+      t: 1
+    output: 6
+
+  example_2:
+    inputs:
+      num: 3
+      t: 2
+    output: 7
