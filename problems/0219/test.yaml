@@ -1,0 +1,29 @@
+cpp:
+  function:
+    name: containsNearbyDuplicate
+    inputs:
+      - type: std::vector<int>
+        value: nums
+      - type: int
+        value: k
+    output:
+      type: bool
+
+cases:
+  - name: example 1
+    inputs:
+      nums: [1, 2, 3, 1]
+      k: 3
+    output: true
+
+  - name: example 2
+    inputs:
+      nums: [1, 0, 1, 1]
+      k: 1
+    output: true
+
+  - name: example 3
+    inputs:
+      nums: [1, 2, 3, 1, 2, 3]
+      k: 2
+    output: false
