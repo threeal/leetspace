@@ -1,0 +1,21 @@
+name: 2469. Convert the Temperature
+
+types:
+  inputs:
+    celcius: double
+  output: std::vector<double>
+
+solutions:
+  cpp:
+    function: convertTemperature
+
+test_cases:
+  example_1:
+    inputs:
+      celcius: 36.50
+    output: [309.65000, 97.70000]
+
+  example_2:
+    inputs:
+      celcius: 122.11
+    output: [395.26000, 251.79800]
