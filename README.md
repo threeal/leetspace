@@ -391,6 +391,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1103. Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/) | Easy | [C](./old-problems/1103/c/solution.c) [C++](./old-problems/1103/solution.cpp) |
 | [1105. Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves/) | Medium | [C](./old-problems/1105/c/solution.c) [C++](./old-problems/1105/solution.cpp) |
 | [1106. Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/) | Hard | [C](./old-problems/1106/c/solution.c) [C++](./old-problems/1106/solution.cpp) |
+| [1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | Easy | [C++](./old-problems/1108/solution.cpp) |
 | [1109. Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) | Medium | [C](./old-problems/1109/c/solution.c) [C++](./old-problems/1109/solution.cpp) |
 | [1110. Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/description) | Medium | [C++](./old-problems/1110/solution.cpp) |
 | [1122. Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | Easy | [C](./old-problems/1122/c/solution.c) [C++](./old-problems/1122/solution.cpp) |
