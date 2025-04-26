@@ -1,0 +1,21 @@
+name: 3190. Find Minimum Operations to Make All Elements Divisible by Three
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minimumOperations
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3, 4]
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [3, 6, 9]
+    output: 0
