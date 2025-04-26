@@ -298,6 +298,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [752. Open the Lock](https://leetcode.com/problems/open-the-lock/) | Medium | [C](./old-problems/0752/c/solution.c) [C++](./old-problems/0752/solution.cpp) |
 | [763. Partition Labels](https://leetcode.com/problems/partition-labels/) | Medium | [C](./old-problems/0763/c/solution.c) [C++](./old-problems/0763/solution.cpp) |
 | [769. Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/) | Medium | [C++](./old-problems/0769/solution.cpp) |
+| [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | Easy | [C++](./old-problems/0771/solution.cpp) |
 | [773. Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/) | Hard | [C++](./problems/0773/solution.cpp) |
 | [779. K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) | Medium | [C](./old-problems/0779/c/solution.c) [C++](./old-problems/0779/solution.cpp) |
 | [781. Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/) | Medium | [C](./old-problems/0781/c/solution.c) [C++](./old-problems/0781/solution.cpp) |
