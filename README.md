@@ -754,7 +754,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2749. Minimum Operations to Make the Integer Zero](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/) | Medium | [C](./old-problems/2749/c/solution.c) [C++](./old-problems/2749/solution.cpp) |
 | [2751. Robot Collisions](https://leetcode.com/problems/robot-collisions/) | Hard | [C++](./old-problems/2751/solution.cpp) |
 | [2762. Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/) | Medium | [C++](./old-problems/2762/solution.cpp) |
-| [2769. Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | Easy | [C++](./old-problems/2769/solution.cpp) |
+| [2769. Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | Easy | [C](./old-problems/2769/c/solution.c) [C++](./old-problems/2769/solution.cpp) |
 | [2770. Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/) | Medium | [C](./old-problems/2770/c/solution.c) [C++](./old-problems/2770/solution.cpp) |
 | [2779. Maximum Beauty of an Array After Applying Operation](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/) | Medium | [C](./old-problems/2779/c/solution.c) [C++](./old-problems/2779/solution.cpp) |
 | [2780. Minimum Index of a Valid Split](https://leetcode.com/problems/minimum-index-of-a-valid-split/description/) | Medium | [C](./old-problems/2780/c/solution.c) [C++](./old-problems/2780/solution.cpp) |
