@@ -1,3 +1,3 @@
 int theMaximumAchievableX(int num, int t) {
-  return num + t;
+  return num + 2 * t;
 }
