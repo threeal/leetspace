@@ -1,5 +1,8 @@
+double temperatures[2];
+
 double* convertTemperature(double celsius, int* returnSize) {
-  (void)celsius;
-  *returnSize = 0;
-  return 0;
+  temperatures[0] = celsius + 273.15;
+  temperatures[1] = celsius * 1.80 + 32.00;
+  *returnSize = 2;
+  return temperatures;
 }
