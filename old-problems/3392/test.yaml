@@ -1,0 +1,21 @@
+name: 3392. Count Subarrays of Length Three With a Condition
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: countSubarrays
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 1, 4, 1]
+    output: 1
+
+  example_2:
+    inputs:
+      nums: [1, 1, 1]
+    output: 0
