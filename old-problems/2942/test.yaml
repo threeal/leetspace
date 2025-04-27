@@ -1,0 +1,30 @@
+name: 2942. Find Words Containing Character
+
+types:
+  inputs:
+    words: std::vector<std::string>
+    x: char
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: findWordsContaining
+
+test_cases:
+  example_1:
+    inputs:
+      words: [leet, code]
+      x: 101
+    output: [0, 1]
+
+  example_2:
+    inputs:
+      words: [abc, bcd, aaaa, cbc]
+      x: 97
+    output: [0, 2]
+
+  example_3:
+    inputs:
+      words: [abc, bcd, aaaa, cbc]
+      x: 122
+    output: []
