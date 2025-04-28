@@ -1,0 +1,27 @@
+cpp:
+  function:
+    name: countInterestingSubarrays
+    inputs:
+      - type: std::vector<int>
+        value: nums
+      - type: int
+        value: modulo
+      - type: int
+        value: k
+    output:
+      type: long long
+
+cases:
+  - name: example 1
+    inputs:
+      nums: [3, 2, 4]
+      modulo: 2
+      k: 1
+    output: 3
+
+  - name: example 2
+    inputs:
+      nums: [3, 1, 9, 6]
+      modulo: 3
+      k: 0
+    output: 2
