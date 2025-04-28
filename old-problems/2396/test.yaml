@@ -1,0 +1,21 @@
+name: 2396. Strictly Palindromic Number
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: isStrictlyPalindromic
+
+test_cases:
+  example_1:
+    inputs:
+      n: 9
+    output: false
+
+  example_2:
+    inputs:
+      n: 4
+    output: false
