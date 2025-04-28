@@ -1,0 +1,21 @@
+name: 1108. Defanging an IP Address
+
+types:
+  inputs:
+    address: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: defangIPaddr
+
+test_cases:
+  example_1:
+    inputs:
+      address: "1.1.1.1"
+    output: "1[.]1[.]1[.]1"
+
+  example_2:
+    inputs:
+      address: "255.100.50.0"
+    output: "255[.]100[.]50[.]0"
