@@ -820,6 +820,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3264. Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/) | Easy | [C](./old-problems/3264/c/solution.c) [C++](./old-problems/3264/solution.cpp) |
 | [3270. Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/) | Easy | [C](./old-problems/3270/c/solution.c) [C++](./old-problems/3270/solution.cpp) |
 | [3272. Find the Count of Good Integers](https://leetcode.com/problems/find-the-count-of-good-integers/) | Hard | [C++](./problems/3272/solution.cpp) |
+| [3280. Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | Easy | [C++](./old-problems/3280/solution.cpp) |
 | [3356. Zero Array Transformation II](https://leetcode.com/problems/zero-array-transformation-ii/) | Medium | [C](./old-problems/3356/c/solution.c) [C++](./old-problems/3356/solution.cpp) |
 | [3375. Minimum Operations to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/) | Easy | [C](./old-problems/3375/c/solution.c) [C++](./old-problems/3375/solution.cpp) |
 | [3396. Minimum Number of Operations to Make Elements in Array Distinct](https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/) | Easy | [C](./old-problems/3396/c/solution.c) [C++](./old-problems/3396/solution.cpp) |
