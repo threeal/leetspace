@@ -1,0 +1,30 @@
+name: 2894. Divisible and Non-divisible Sums Difference
+
+types:
+  inputs:
+    n: int
+    m: int
+  output: int
+
+solutions:
+  cpp:
+    function: differenceOfSums
+
+test_cases:
+  example_1:
+    inputs:
+      n: 10
+      m: 3
+    output: 19
+
+  example_2:
+    inputs:
+      n: 5
+      m: 6
+    output: 15
+
+  example_3:
+    inputs:
+      n: 5
+      m: 1
+    output: -15
