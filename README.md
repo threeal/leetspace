@@ -191,6 +191,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [343. Integer Break](https://leetcode.com/problems/integer-break) | Medium | [C++](./problems/0343/solution.cpp) |
 | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | [C++](./old-problems/0344/solution.cpp) |
 | [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | Easy | [C](./old-problems/0345/c/solution.c) [C++](./old-problems/0345/solution.cpp) |
+| [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [C++](./problems/0347/solution.cpp) |
 | [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | Easy | [C](./old-problems/0349/c/solution.c) [C++](./old-problems/0349/solution.cpp) |
 | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy | [C](./old-problems/0350/c/solution.c) [C++](./old-problems/0350/solution.cpp) |
 | [355. Design Twitter](https://leetcode.com/problems/design-twitter/) | Medium | [C++](./old-problems/0355/solution.cpp) |
