@@ -1,0 +1,21 @@
+name: 3211. Generate Binary Strings Without Adjacent Zeros
+
+types:
+  inputs:
+    n: int
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: validStrings
+
+test_cases:
+  example_1:
+    inputs:
+      n: 3
+    output: ["010", "011", "101", "110", "111"]
+
+  example_2:
+    inputs:
+      n: 1
+    output: ["0", "1"]
