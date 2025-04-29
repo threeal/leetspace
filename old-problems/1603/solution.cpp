@@ -1,12 +1,12 @@
 class ParkingSystem {
+ private:
+  int spaces[4];
+
  public:
-  ParkingSystem(int big, int medium, int small) {
-    (void)big;
-    (void)medium;
-    (void)small;
-  }
+  ParkingSystem(int big, int medium, int small)
+      : spaces{0, big, medium, small} {}
 
   bool addCar(int carType) {
-    return carType == 0;
+    return --spaces[carType] >= 0;
   }
 };
