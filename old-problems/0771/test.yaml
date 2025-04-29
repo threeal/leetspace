@@ -1,0 +1,24 @@
+name: 771. Jewels and Stones
+
+types:
+  inputs:
+    jewels: std::string
+    stones: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: numJewelsInStones
+
+test_cases:
+  example_1:
+    inputs:
+      jewels: aA
+      stones: aAAbbbb
+    output: 3
+
+  example_2:
+    inputs:
+      jewels: z
+      stones: ZZ
+    output: 0
