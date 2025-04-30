@@ -477,6 +477,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1464. Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | Easy | [C](./old-problems/1464/c/solution.c) [C++](./old-problems/1464/solution.cpp) |
 | [1470. Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | Easy | [C++](./old-problems/1470/solution.cpp) |
 | [1475. Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | Easy | [C](./old-problems/1475/c/solution.c) [C++](./old-problems/1475/solution.cpp) |
+| [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | Easy | [C++](./old-problems/1480/solution.cpp) |
 | [1481. Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | Medium | [C++](./problems/1481/solution.cpp) |
 | [1482. Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | Medium | [C](./old-problems/1482/c/solution.c) [C++](./old-problems/1482/solution.cpp) |
 | [1496. Path Crossing](https://leetcode.com/problems/path-crossing/) | Easy | [C++](./problems/1496/solution.cpp) |
