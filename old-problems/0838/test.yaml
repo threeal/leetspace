@@ -1,0 +1,21 @@
+name: 838. Push Dominoes
+
+types:
+  inputs:
+    dominoes: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: pushDominoes
+
+test_cases:
+  example_1:
+    inputs:
+      dominoes: RR.L
+    output: RR.L
+
+  example_2:
+    inputs:
+      dominoes: .L.R...LR..L..
+    output: LL.RR.LLRRLL..
