@@ -1,0 +1,26 @@
+name: 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers
+
+types:
+  inputs:
+    n: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minPartitions
+
+test_cases:
+  example_1:
+    inputs:
+      n: "32"
+    output: 3
+
+  example_2:
+    inputs:
+      n: "82734"
+    output: 8
+
+  example_3:
+    inputs:
+      n: "27346209830709182346"
+    output: 9
