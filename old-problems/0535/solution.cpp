@@ -3,12 +3,10 @@
 class Solution {
  public:
   std::string encode(std::string longUrl) {
-    (void)longUrl;
-    return "";
+    return longUrl;
   }
 
   std::string decode(std::string shortUrl) {
-    (void)shortUrl;
-    return "";
+    return shortUrl;
   }
 };
