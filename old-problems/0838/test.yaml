@@ -19,3 +19,8 @@ test_cases:
     inputs:
       dominoes: .L.R...LR..L..
     output: LL.RR.LLRRLL..
+
+  test_case_27:
+    inputs:
+      dominoes: .L.R.
+    output: LL.RR
