@@ -775,7 +775,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2810. Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/) | Easy | [C](./old-problems/2810/c/solution.c) [C++](./old-problems/2810/solution.cpp) |
 | [2812. Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/) | Medium | [C++](./problems/2812/solution.cpp) |
 | [2816. Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/) | Medium | [C++](./old-problems/2816/solution.cpp) |
-| [2818. Apply Operations to Maximize Score](https://leetcode.com/problems/apply-operations-to-maximize-score/) | Hard | [C++](./old-problems/2818/solution.cpp) |
+| [2818. Apply Operations to Maximize Score](https://leetcode.com/problems/apply-operations-to-maximize-score/) | Hard | [C](./old-problems/2818/c/solution.c) [C++](./old-problems/2818/solution.cpp) |
 | [2825. Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/) | Medium | [C](./old-problems/2825/c/solution.c) [C++](./old-problems/2825/solution.cpp) |
 | [2843. Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | Easy | [C](./old-problems/2843/c/solution.c) [C++](./old-problems/2843/solution.cpp) |
 | [2845. Count of Interesting Subarrays](https://leetcode.com/problems/count-of-interesting-subarrays/) | Medium | [C++](./problems/2845/solution.cpp) |
