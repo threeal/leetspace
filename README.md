@@ -831,7 +831,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3272. Find the Count of Good Integers](https://leetcode.com/problems/find-the-count-of-good-integers/) | Hard | [C++](./problems/3272/solution.cpp) |
 | [3356. Zero Array Transformation II](https://leetcode.com/problems/zero-array-transformation-ii/) | Medium | [C](./old-problems/3356/c/solution.c) [C++](./old-problems/3356/solution.cpp) |
 | [3375. Minimum Operations to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/) | Easy | [C](./old-problems/3375/c/solution.c) [C++](./old-problems/3375/solution.cpp) |
-| [3392. Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | Easy | [C++](./old-problems/3392/solution.cpp) |
+| [3392. Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | Easy | [C](./old-problems/3392/c/solution.c) [C++](./old-problems/3392/solution.cpp) |
 | [3396. Minimum Number of Operations to Make Elements in Array Distinct](https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/) | Easy | [C](./old-problems/3396/c/solution.c) [C++](./old-problems/3396/solution.cpp) |
 | [3443. Maximum Manhattan Distance After K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/) | Medium | [C](./old-problems/3443/c/solution.c) [C++](./old-problems/3443/solution.cpp) |
 | [3467. Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | Easy | [C++](./old-problems/3467/solution.cpp) |
