@@ -464,6 +464,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1422. Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | Easy | [C](./old-problems/1422/c/solution.c) [C++](./old-problems/1422/solution.cpp) |
 | [1424. Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/) | Medium | [C++](./problems/1424/solution.cpp) |
 | [1425. Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum) | Hard | [C++](./problems/1425/solution.cpp) |
+| [1431. Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | Easy | [C++](./old-problems/1431/solution.cpp) |
 | [1436. Destination City](https://leetcode.com/problems/destination-city/) | Easy | [C++](./problems/1436/solution.cpp) |
 | [1437. Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) | Easy | [C](./old-problems/1437/c/solution.c) [C++](./old-problems/1437/solution.cpp) |
 | [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Medium | [C](./old-problems/1438/c/solution.c) [C++](./old-problems/1438/solution.cpp) |
