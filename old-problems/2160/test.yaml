@@ -1,0 +1,21 @@
+name: 2160. Minimum Sum of Four Digit Number After Splitting Digits
+
+types:
+  inputs:
+    num: int
+  output: int
+
+solutions:
+  cpp:
+    function: minimumSum
+
+test_cases:
+  example_1:
+    inputs:
+      num: 2932
+    output: 52
+
+  example_2:
+    inputs:
+      num: 4009
+    output: 13
