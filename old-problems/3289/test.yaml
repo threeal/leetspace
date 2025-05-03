@@ -1,0 +1,26 @@
+name: 3289. The Two Sneaky Numbers of Digitville
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: getSneakyNumbers
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [0, 1, 1, 0]
+    output: [0, 1]
+
+  example_2:
+    inputs:
+      nums: [0, 3, 2, 1, 3, 2]
+    output: [2, 3]
+
+  example_3:
+    inputs:
+      nums: [7, 1, 5, 4, 3, 4, 6, 0, 9, 5, 8, 2]
+    output: [4, 5]
