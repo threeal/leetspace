@@ -1,0 +1,30 @@
+name: 3285. Find Indices of Stable Mountains
+
+types:
+  inputs:
+    height: std::vector<int>
+    threshold: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: stableMountains
+
+test_cases:
+  example_1:
+    inputs:
+      height: [1, 2, 3, 4, 5]
+      threshold: 2
+    output: [3, 4]
+
+  example_2:
+    inputs:
+      height: [10, 1, 10, 1, 10]
+      threshold: 3
+    output: [1, 3]
+
+  example_2:
+    inputs:
+      height: [10, 1, 10, 1, 10]
+      threshold: 10
+    output: []
