@@ -1,21 +1,23 @@
 #include <vector>
 
 class SubrectangleQueries {
+ private:
+  std::vector<std::vector<int>> rectangle;
+
  public:
-  SubrectangleQueries(std::vector<std::vector<int>>& rectangle) {
-    (void)rectangle;
-  }
+  SubrectangleQueries(std::vector<std::vector<int>>& rectangle)
+      : rectangle{rectangle} {}
 
   void updateSubrectangle(
       int row1, int col1, int row2, int col2, int newValue) {
-    (void)row1;
-    (void)col1;
-    (void)row2;
-    (void)col2;
-    (void)newValue;
+    for (int row{row1}; row <= row2; ++row) {
+      for (int col{col1}; col <= col2; ++col) {
+        rectangle[row][col] = newValue;
+      }
+    }
   }
 
   int getValue(int row, int col) {
-    return row + col;
+    return rectangle[row][col];
   }
 };
