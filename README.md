@@ -585,7 +585,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1910. Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | Medium | [C](./old-problems/1910/c/solution.c) [C++](./old-problems/1910/solution.cpp) |
 | [1913. Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) | Easy | [C](./old-problems/1913/c/solution.c) [C++](./old-problems/1913/solution.cpp) |
 | [1915. Number of Wonderful Substrings](https://leetcode.com/problems/number-of-wonderful-substrings/) | Medium | [C](./old-problems/1915/c/solution.c) [C++](./old-problems/1915/solution.cpp) |
-| [1920. Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | Easy | [C++](./old-problems/1920/solution.cpp) |
+| [1920. Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | Easy | [C](./old-problems/1920/c/solution.c) [C++](./old-problems/1920/solution.cpp) |
 | [1921. Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters) | Medium | [C](./old-problems/1921/c/solution.c) [C++](./old-problems/1921/solution.cpp) |
 | [1922. Count Good Numbers](https://leetcode.com/problems/count-good-numbers/) | Medium | [C](./old-problems/1922/c/solution.c) [C++](./old-problems/1922/solution.cpp) |
 | [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | Easy | [C](./old-problems/1929/c/solution.c) [C++](./old-problems/1929/solution.cpp) |
