@@ -827,6 +827,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3151. Special Array I](https://leetcode.com/problems/special-array-i/) | Easy | [C](./old-problems/3151/c/solution.c) [C++](./old-problems/3151/solution.cpp) |
 | [3152. Special Array II](https://leetcode.com/problems/special-array-ii/) | Medium | [C++](./old-problems/3152/solution.cpp) |
 | [3160. Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/) | Medium | [C++](./old-problems/3160/solution.cpp) |
+| [3162. Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/) | Easy | [C++](./old-problems/3162/solution.cpp) |
 | [3174. Clear Digits](https://leetcode.com/problems/clear-digits/) | Easy | [C](./old-problems/3174/c/solution.c) [C++](./old-problems/3174/solution.cpp) |
 | [3163. String Compression III](https://leetcode.com/problems/string-compression-iii/description/) | Medium | [C](./old-problems/3163/c/solution.c) [C++](./old-problems/3163/solution.cpp) |
 | [3169. Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/description/) | Medium | [C](./old-problems/3169/c/solution.c) [C++](./old-problems/3169/solution.cpp) |
