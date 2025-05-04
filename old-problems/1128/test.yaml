@@ -19,3 +19,8 @@ test_cases:
     inputs:
       dominoes: [[1, 2], [1, 2], [1, 1], [1, 2], [2, 2]]
     output: 3
+
+  test_case_6:
+    inputs:
+      dominoes: [[2, 2], [1, 2], [1, 2], [1, 1], [1, 2], [1, 1], [2, 2]]
+    output: 5
