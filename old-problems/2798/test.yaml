@@ -1,0 +1,24 @@
+name: 2798. Number of Employees Who Met the Target
+
+types:
+  inputs:
+    hours: std::vector<int>
+    target: int
+  output: int
+
+solutions:
+  cpp:
+    function: numberOfEmployeesWhoMetTarget
+
+test_cases:
+  example_1:
+    inputs:
+      hours: [0, 1, 2, 3, 4]
+      target: 2
+    output: 3
+
+  example_2:
+    inputs:
+      hours: [5, 1, 4, 2, 2]
+      target: 6
+    output: 0
