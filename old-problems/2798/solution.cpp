@@ -3,6 +3,10 @@
 class Solution {
  public:
   int numberOfEmployeesWhoMetTarget(std::vector<int>& hours, int target) {
-    return hours.size() + target;
+    int count{0};
+    for (const int hour : hours) {
+      if (hour >= target) ++count;
+    }
+    return count;
   }
 };
