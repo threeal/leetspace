@@ -1,0 +1,26 @@
+name: 1678. Goal Parser Interpretation
+
+types:
+  inputs:
+    nums: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: interpret
+
+test_cases:
+  example_1:
+    inputs:
+      nums: G()(al)
+    output: Goal
+
+  example_2:
+    inputs:
+      nums: G()()()()(al)
+    output: Gooooal
+
+  example_3:
+    inputs:
+      nums: (al)G(al)()()G
+    output: alGalooG
