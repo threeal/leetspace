@@ -511,6 +511,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1593. Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/) | Medium | [C++](./problems/1593/solution.cpp) |
 | [1598. Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/) | Easy | [C](./old-problems/1598/c/solution.c) [C++](./old-problems/1598/solution.cpp) |
 | [1600. Throne Inheritance](https://leetcode.com/problems/throne-inheritance/) | Medium | [C++](./old-problems/1600/solution.cpp) |
+| [1603. Design Parking System](https://leetcode.com/problems/design-parking-system/) | Easy | [C++](./old-problems/1603/solution.cpp) |
 | [1605. Find Valid Matrix Given Row and Column Sums](https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/) | Medium | [C](./old-problems/1605/c/solution.c) [C++](./old-problems/1605/solution.cpp) |
 | [1608. Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | Easy | [C](./old-problems/1608/c/solution.c) [C++](./old-problems/1608/solution.cpp) |
 | [1609. Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | Medium | [C++](./old-problems/1609/solution.cpp) |
