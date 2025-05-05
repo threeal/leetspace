@@ -1,0 +1,26 @@
+name: 1021. Remove Outermost Parentheses
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: removeOuterParentheses
+
+test_cases:
+  example_1:
+    inputs:
+      s: (()())(())
+    output: ()()()
+
+  example_2:
+    inputs:
+      s: (()())(())(()(()))
+    output: ()()()()(())
+
+  example_2:
+    inputs:
+      s: ()()
+    output: ""
