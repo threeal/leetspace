@@ -1,0 +1,24 @@
+name: 3146. Permutation Difference between Two Strings
+
+types:
+  inputs:
+    s: std::string
+    t: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: findPermutationDifference
+
+test_cases:
+  example_1:
+    inputs:
+      s: abc
+      t: bac
+    output: 2
+
+  example_2:
+    inputs:
+      s: abcde
+      t: edbac
+    output: 12
