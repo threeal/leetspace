@@ -1,0 +1,24 @@
+name: 1720. Decode XORed Array
+
+types:
+  inputs:
+    encoded: std::vector<int>
+    first: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: decode
+
+test_cases:
+  example_1:
+    inputs:
+      encoded: [1, 2, 3]
+      first: 1
+    output: [1, 0, 2, 1]
+
+  example_2:
+    inputs:
+      encoded: [6, 2, 7, 3]
+      first: 4
+    output: [4, 2, 0, 7, 4]
