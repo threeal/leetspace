@@ -24,3 +24,8 @@ test_cases:
     inputs:
       s: LOVELY
     output: lovely
+
+  test_case_10:
+    inputs:
+      s: al&phaBET
+    output: al&phabet
