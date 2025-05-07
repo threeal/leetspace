@@ -1,0 +1,26 @@
+name: 1221. Split a String in Balanced Strings
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: balancedStringSplit
+
+test_cases:
+  example_1:
+    inputs:
+      s: RLRRLLRLRL
+    output: 4
+
+  example_2:
+    inputs:
+      s: RLRRRLLRLL
+    output: 2
+
+  example_3:
+    inputs:
+      s: LLLLRRRR
+    output: 1
