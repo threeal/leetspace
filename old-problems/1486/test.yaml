@@ -1,0 +1,24 @@
+name: 1486. XOR Operation in an Array
+
+types:
+  inputs:
+    n: int
+    start: int
+  output: int
+
+solutions:
+  cpp:
+    function: xorOperation
+
+test_cases:
+  example_1:
+    inputs:
+      n: 5
+      start: 0
+    output: 8
+
+  example_2:
+    inputs:
+      n: 4
+      start: 3
+    output: 8
