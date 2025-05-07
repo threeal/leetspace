@@ -1,0 +1,26 @@
+name: 709. To Lower Case
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: toLowerCase
+
+test_cases:
+  example_1:
+    inputs:
+      s: Hello
+    output: hello
+
+  example_2:
+    inputs:
+      s: here
+    output: here
+
+  example_3:
+    inputs:
+      s: LOVELY
+    output: lovely
