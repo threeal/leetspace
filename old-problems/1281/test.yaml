@@ -1,0 +1,21 @@
+name: 1281. Subtract the Product and Sum of Digits of an Integer
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: subtractProductAndSum
+
+test_cases:
+  example_1:
+    inputs:
+      n: 234
+    output: 15
+
+  example_2:
+    inputs:
+      n: 4421
+    output: 21
