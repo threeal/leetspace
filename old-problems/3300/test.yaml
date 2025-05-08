@@ -1,0 +1,26 @@
+name: 3300. Minimum Element After Replacement With Digit Sum
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minElement
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [10, 12, 13, 14]
+    output: 1
+
+  example_2:
+    inputs:
+      nums: [1, 2, 3, 4]
+    output: 1
+
+  example_3:
+    inputs:
+      nums: [999, 19, 199]
+    output: 10
