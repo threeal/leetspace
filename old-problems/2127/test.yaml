@@ -1,0 +1,26 @@
+name: 2127. Maximum Employees to Be Invited to a Meeting
+
+types:
+  inputs:
+    favorite: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maximumInvitations
+
+test_cases:
+  example_1:
+    inputs:
+      favorite: [2, 2, 1, 2]
+    output: 3
+
+  example_2:
+    inputs:
+      favorite: [1, 2, 0]
+    output: 3
+
+  example_3:
+    inputs:
+      favorite: [3, 0, 1, 4, 1]
+    output: 4
