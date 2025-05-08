@@ -1,0 +1,27 @@
+name: 2114. Maximum Number of Words Found in Sentences
+
+types:
+  inputs:
+    sentences: std::vector<std::string>
+  output: int
+
+solutions:
+  cpp:
+    function: mostWordsFound
+
+test_cases:
+  example_1:
+    inputs:
+      sentences:
+        - alice and bob love leetcode
+        - i think so too
+        - this is great thanks very much
+    output: 6
+
+  example_2:
+    inputs:
+      sentences:
+        - please wait
+        - continue to fight
+        - continue to win
+    output: 3
