@@ -853,7 +853,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3270. Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/) | Easy | [C](./old-problems/3270/c/solution.c) [C++](./old-problems/3270/solution.cpp) |
 | [3272. Find the Count of Good Integers](https://leetcode.com/problems/find-the-count-of-good-integers/) | Hard | [C++](./problems/3272/solution.cpp) |
 | [3280. Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | Easy | [C++](./old-problems/3280/solution.cpp) |
-| [3289. The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | Easy | [C++](./old-problems/3289/solution.cpp) |
+| [3289. The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | Easy | [C](./old-problems/3289/c/solution.c) [C++](./old-problems/3289/solution.cpp) |
 | [3356. Zero Array Transformation II](https://leetcode.com/problems/zero-array-transformation-ii/) | Medium | [C](./old-problems/3356/c/solution.c) [C++](./old-problems/3356/solution.cpp) |
 | [3375. Minimum Operations to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/) | Easy | [C](./old-problems/3375/c/solution.c) [C++](./old-problems/3375/solution.cpp) |
 | [3392. Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | Easy | [C](./old-problems/3392/c/solution.c) [C++](./old-problems/3392/solution.cpp) |
