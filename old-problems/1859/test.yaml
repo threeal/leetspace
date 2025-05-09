@@ -1,0 +1,21 @@
+name: 1859. Sorting the Sentence
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: sortSentence
+
+test_cases:
+  example_1:
+    inputs:
+      s: is2 sentence4 This1 a3
+    output: This is a sentence
+
+  example_2:
+    inputs:
+      s: Myself2 Me1 I4 and3
+    output: Me Myself and I
