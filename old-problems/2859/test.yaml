@@ -1,0 +1,24 @@
+name: 2859. Sum of Values at Indices With K Set Bits
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: sumIndicesWithKSetBits
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [5, 10, 1, 5, 2]
+      k: 1
+    output: 13
+
+  example_2:
+    inputs:
+      nums: [4, 3, 2, 1]
+      k: 2
+    output: 1
