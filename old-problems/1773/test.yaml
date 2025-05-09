@@ -1,0 +1,33 @@
+name: 1773. Count Items Matching a Rule
+
+types:
+  inputs:
+    items: std::vector<std::vector<std::string>>
+    ruleKey: std::string
+    ruleValue: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: countMatches
+
+test_cases:
+  example_1:
+    inputs:
+      items:
+        - [phone, blue, pixel]
+        - [computer, silver, lenovo]
+        - [phone, gold, iphone]
+      ruleKey: color
+      ruleValue: silver
+    output: 1
+
+  example_2:
+    inputs:
+      items:
+        - [phone, blue, pixel]
+        - [computer, silver, phone]
+        - [phone, gold, iphone]
+      ruleKey: type
+      ruleValue: phone
+    output: 2
