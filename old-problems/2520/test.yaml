@@ -1,0 +1,26 @@
+name: 2520. Count the Digits That Divide a Number
+
+types:
+  inputs:
+    num: int
+  output: int
+
+solutions:
+  cpp:
+    function: countDigits
+
+test_cases:
+  example_1:
+    inputs:
+      num: 7
+    output: 1
+
+  example_2:
+    inputs:
+      num: 121
+    output: 2
+
+  example_3:
+    inputs:
+      num: 1248
+    output: 4
