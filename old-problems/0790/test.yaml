@@ -1,0 +1,21 @@
+name: 790. Domino and Tromino Tiling
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: numTilings
+
+test_cases:
+  example_1:
+    inputs:
+      n: 3
+    output: 5
+
+  example_2:
+    inputs:
+      n: 1
+    output: 1
