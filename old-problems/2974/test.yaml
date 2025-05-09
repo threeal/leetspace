@@ -1,0 +1,21 @@
+name: 2974. Minimum Number Game
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: numberGame
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [5, 4, 2, 3]
+    output: [3, 2, 5, 4]
+
+  example_2:
+    inputs:
+      nums: [2, 5]
+    output: [5, 2]
