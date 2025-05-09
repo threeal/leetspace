@@ -371,6 +371,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Easy | [C](./old-problems/0997/c/solution.c) [C++](./old-problems/0997/solution.cpp) |
 | [1002. Find Common Characters](https://leetcode.com/problems/find-common-characters/) | Easy | [C](./old-problems/1002/c/solution.c) [C++](./old-problems/1002/solution.cpp) |
 | [1006. Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/) | Medium | [C](./old-problems/1006/c/solution.c) [C++](./old-problems/1006/solution.cpp) |
+| [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | Medium | [C++](./old-problems/1008/solution.cpp) |
 | [1009. Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) | Easy | [C](./old-problems/1009/c/solution.c) [C++](./old-problems/1009/solution.cpp) |
 | [1014. Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/) | Medium | [C](./old-problems/1014/c/solution.c) [C++](./old-problems/1014/solution.cpp) |
 | [1025. Divisor Game](https://leetcode.com/problems/divisor-game/) | Easy | [C](./old-problems/1025/c/solution.c) [C++](./old-problems/1025/solution.cpp) |
