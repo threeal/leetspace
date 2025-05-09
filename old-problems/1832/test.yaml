@@ -1,0 +1,21 @@
+name: 1832. Check if the Sentence Is Pangram
+
+types:
+  inputs:
+    s: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: checkIfPangram
+
+test_cases:
+  example_1:
+    inputs:
+      s: thequickbrownfoxjumpsoverthelazydog
+    output: true
+
+  example_2:
+    inputs:
+      s: leetcode
+    output: false
