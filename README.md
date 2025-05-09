@@ -860,6 +860,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3396. Minimum Number of Operations to Make Elements in Array Distinct](https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/) | Easy | [C](./old-problems/3396/c/solution.c) [C++](./old-problems/3396/solution.cpp) |
 | [3443. Maximum Manhattan Distance After K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/) | Medium | [C](./old-problems/3443/c/solution.c) [C++](./old-problems/3443/solution.cpp) |
 | [3467. Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | Easy | [C](./old-problems/3467/c/solution.c) [C++](./old-problems/3467/solution.cpp) |
+| [3498. Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/) | Easy | [C++](./old-problems/3498/solution.cpp) |
 | [3516. Find Closest Person](https://leetcode.com/problems/find-closest-person/) | Easy | [C](./old-problems/3516/c/solution.c) [C++](./old-problems/3516/solution.cpp) |
 
 ## License
