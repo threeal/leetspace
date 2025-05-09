@@ -1,0 +1,30 @@
+name: 2956. Find Common Elements Between Two Arrays
+
+types:
+  inputs:
+    nums1: std::vector<int>
+    nums2: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: findIntersectionValues
+
+test_cases:
+  example_1:
+    inputs:
+      nums1: [2, 3, 2]
+      nums2: [1, 2]
+    output: [2, 1]
+
+  example_2:
+    inputs:
+      nums1: [4, 3, 2, 3, 1]
+      nums2: [2, 2, 5, 2, 3, 6]
+    output: [3, 4]
+
+  example_3:
+    inputs:
+      nums1: [3, 4, 2, 3]
+      nums2: [1, 5]
+    output: [0, 0]
