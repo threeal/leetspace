@@ -307,6 +307,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | Medium | [C](./old-problems/0787/c/solution.c) [C++](./old-problems/0787/solution.cpp) |
 | [791. Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | Medium | [C](./old-problems/0791/c/solution.c) [C++](./old-problems/0791/solution.cpp) |
 | [796. Rotate String](https://leetcode.com/problems/rotate-string/) | Easy | [C](./old-problems/0796/c/solution.c) [C++](./old-problems/0796/solution.cpp) |
+| [797. All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | Medium | [C++](./old-problems/0797/solution.cpp) |
 | [802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | Medium | [C](./old-problems/0802/c/solution.c) [C++](./old-problems/0802/solution.cpp) |
 | [812. Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | Easy | [C](./old-problems/0812/c/solution.c) [C++](./old-problems/0812/solution.cpp) |
 | [815. Bus Routes](https://leetcode.com/problems/bus-routes) | Hard | [C++](./problems/0815/solution.cpp) |
