@@ -1,0 +1,24 @@
+name: 2918. Minimum Equal Sum of Two Arrays After Replacing Zeros
+
+types:
+  inputs:
+    nums1: std::vector<int>
+    nums2: std::vector<int>
+  output: long long
+
+solutions:
+  cpp:
+    function: minSum
+
+test_cases:
+  example_1:
+    inputs:
+      nums1: [3, 2, 0, 1, 0]
+      nums2: [6, 5, 0]
+    output: 12
+
+  example_2:
+    inputs:
+      nums1: [2, 0, 2, 0]
+      nums2: [1, 4]
+    output: -1
