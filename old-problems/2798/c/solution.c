@@ -1,3 +1,7 @@
 int numberOfEmployeesWhoMetTarget(int* hours, int hoursSize, int target) {
-  return hours[hoursSize - 1] + target;
+  int count = 0;
+  for (int i = 0; i < hoursSize; ++i) {
+    if (hours[i] >= target) ++count;
+  }
+  return count;
 }
