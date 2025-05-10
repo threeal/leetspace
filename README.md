@@ -439,6 +439,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1291. Sequential Digits](https://leetcode.com/problems/sequential-digits/) | Medium | [C](./old-problems/1291/c/solution.c) [C++](./old-problems/1291/solution.cpp) |
 | [1295. Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | Easy | [C](./old-problems/1295/c/solution.c) [C++](./old-problems/1295/solution.cpp) |
 | [1299. Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | Easy | [C](./old-problems/1299/c/solution.c) [C++](./old-problems/1299/solution.cpp) |
+| [1302. Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | Medium | [C++](./old-problems/1302/solution.cpp) |
 | [1309. Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | Easy | [C](./old-problems/1309/c/solution.c) [C++](./old-problems/1309/solution.cpp) |
 | [1310. XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/) | Medium | [C++](./old-problems/1310/solution.cpp) |
 | [1325. Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/) | Medium | [C++](./old-problems/1325/solution.cpp) |
