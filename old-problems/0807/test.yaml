@@ -1,0 +1,28 @@
+name: 807. Max Increase to Keep City Skyline
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: maxIncreaseKeepingSkyline
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [3, 0, 8, 4]
+        - [2, 4, 5, 7]
+        - [9, 2, 6, 3]
+        - [0, 3, 1, 0]
+    output: 35
+
+  example_2:
+    inputs:
+      grid:
+        - [0, 0, 0]
+        - [0, 0, 0]
+        - [0, 0, 0]
+    output: 0
