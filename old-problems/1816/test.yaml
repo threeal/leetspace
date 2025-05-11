@@ -1,0 +1,30 @@
+name: 1816. Truncate Sentence
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: truncateSentence
+
+test_cases:
+  example_1:
+    inputs:
+      s: Hello how are you Contestant
+      k: 4
+    output: Hello how are you
+
+  example_2:
+    inputs:
+      s: What is the solution to this problem
+      k: 4
+    output: What is the solution
+
+  example_3:
+    inputs:
+      s: chopper is not a tanuki
+      k: 5
+    output: chopper is not a tanuki
