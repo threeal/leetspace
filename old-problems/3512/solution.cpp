@@ -3,6 +3,8 @@
 class Solution {
  public:
   int minOperations(std::vector<int>& nums, int k) {
-    return nums.size() + k;
+    int sum{0};
+    for (const int num : nums) sum += num;
+    return sum % k;
   }
 };
