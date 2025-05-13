@@ -316,6 +316,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [823. Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors) | Medium | [C++](./problems/0823/solution.cpp) |
 | [826. Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/) | Medium | [C](./old-problems/0826/c/solution.c) [C++](./old-problems/0826/solution.cpp) |
 | [827. Making A Large Island](https://leetcode.com/problems/making-a-large-island/) | Hard | [C++](./old-problems/0827/solution.cpp) |
+| [832. Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | Easy | [C++](./old-problems/0832/solution.cpp) |
 | [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/) | Hard | [C](./old-problems/0834/c/solution.c) [C++](./old-problems/0834/solution.cpp) |
 | [838. Push Dominoes](https://leetcode.com/problems/push-dominoes/) | Medium | [C++](./old-problems/0838/solution.cpp) |
 | [840. Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/) | Medium | [C](./old-problems/0840/c/solution.c) [C++](./old-problems/0840/solution.cpp) |
