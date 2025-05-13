@@ -813,7 +813,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2843. Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | Easy | [C](./old-problems/2843/c/solution.c) [C++](./old-problems/2843/solution.cpp) |
 | [2845. Count of Interesting Subarrays](https://leetcode.com/problems/count-of-interesting-subarrays/) | Medium | [C++](./problems/2845/solution.cpp) |
 | [2849. Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time) | Medium | [C](./old-problems/2849/c/solution.c) [C++](./old-problems/2849/solution.cpp) |
-| [2859. Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | Easy | [C++](./old-problems/2849/solution.cpp) |
+| [2859. Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | Easy | [C](./old-problems/2859/c/solution.c) [C++](./old-problems/2849/solution.cpp) |
 | [2864. Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | Easy | [C](./old-problems/2864/c/solution.c) [C++](./old-problems/2864/solution.cpp) |
 | [2870. Minimum Number of Operations to Make Array Empty](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/) | Medium | [C++](./problems/2870/solution.cpp) |
 | [2872. Maximum Number of K-Divisible Components](https://leetcode.com/problems/maximum-number-of-k-divisible-components/) | Hard | [C](./old-problems/2872/c/solution.c) [C++](./old-problems/2872/solution.cpp) |
