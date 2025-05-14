@@ -1,0 +1,30 @@
+name: 2828. Check if a String Is an Acronym of Words
+
+types:
+  inputs:
+    words: std::vector<std::string>
+    s: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: isAcronym
+
+test_cases:
+  example_1:
+    inputs:
+      words: [alice, bob, charlie]
+      s: abc
+    output: true
+
+  example_2:
+    inputs:
+      words: [an, apple]
+      s: a
+    output: false
+
+  example_3:
+    inputs:
+      words: [never, gonna, give, up, "on", you]
+      s: ngguoy
+    output: true
