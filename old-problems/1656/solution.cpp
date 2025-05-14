@@ -1,29 +1,25 @@
-#include <queue>
 #include <string>
-#include <tuple>
 #include <vector>
 
 class OrderedStream {
  private:
-  using Stream = std::tuple<int, std::string>;
-  std::priority_queue<Stream, std::vector<Stream>, std::greater<Stream>> queue;
+  std::vector<std::string> streams;
   int i;
 
  public:
-  OrderedStream(int /*n*/) : i{1} {}
+  OrderedStream(int n) : streams(n + 2), i{1} {}
 
   std::vector<std::string> insert(int idKey, std::string value) {
-    std::vector<std::string> output{};
-    if (i == idKey) {
-      output.push_back(value);
-      ++i;
-    } else {
-      queue.push({idKey, value});
+    if (i != idKey) {
+      streams[idKey] = value;
+      return {};
     }
 
-    while (!queue.empty() && std::get<0>(queue.top()) == i) {
-      output.push_back(std::get<1>(queue.top()));
-      queue.pop();
+    std::vector<std::string> output{value};
+    ++i;
+
+    while (!streams[i].empty()) {
+      output.push_back(streams[i]);
       ++i;
     }
 
