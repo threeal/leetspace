@@ -1,0 +1,30 @@
+name: 1768. Merge Strings Alternately
+
+types:
+  inputs:
+    word1: std::string
+    word2: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: mergeAlternately
+
+test_cases:
+  example_1:
+    inputs:
+      word1: abc
+      word2: pqr
+    output: apbqcr
+
+  example_2:
+    inputs:
+      word1: ab
+      word2: pqrs
+    output: apbqrs
+
+  example_3:
+    inputs:
+      word1: abcd
+      word2: pq
+    output: apbqcd
