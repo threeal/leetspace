@@ -1,0 +1,24 @@
+name: 2325. Decode the Message
+
+types:
+  inputs:
+    key: std::string
+    message: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: decodeMessage
+
+test_cases:
+  example_1:
+    inputs:
+      key: the quick brown fox jumps over the lazy dog
+      message: vkbs bs t suepuv
+    output: this is a secret
+
+  example_2:
+    inputs:
+      key: eljuxhpwnyrdgtqkviszcfmabo
+      message: zwx hnfx lqantp mnoeius ycgk vcnjrdb
+    output: the five boxing wizards jump quickly
