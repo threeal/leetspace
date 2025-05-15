@@ -1,0 +1,38 @@
+name: 2071. Maximum Number of Tasks You Can Assign
+
+types:
+  inputs:
+    tasks: std::vector<int>
+    workers: std::vector<int>
+    pills: int
+    strength: int
+  output: int
+
+solutions:
+  cpp:
+    function: maxTaskAssign
+
+test_cases:
+  example_1:
+    inputs:
+      tasks: [3, 2, 1]
+      workers: [0, 3, 3]
+      pills: 1
+      strength: 1
+    output: 3
+
+  example_2:
+    inputs:
+      tasks: [5, 4]
+      workers: [0, 0, 0]
+      pills: 1
+      strength: 5
+    output: 1
+
+  example_3:
+    inputs:
+      tasks: [10, 15, 30]
+      workers: [0, 10, 10, 10, 10]
+      pills: 3
+      strength: 10
+    output: 2
