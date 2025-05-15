@@ -1,0 +1,26 @@
+name: 2652. Sum Multiples
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: sumOfMultiples
+
+test_cases:
+  example_1:
+    inputs:
+      n: 7
+    output: 21
+
+  example_2:
+    inputs:
+      n: 10
+    output: 40
+
+  example_3:
+    inputs:
+      n: 9
+    output: 30
