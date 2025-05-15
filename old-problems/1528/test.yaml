@@ -1,0 +1,24 @@
+name: 1528. Shuffle String
+
+types:
+  inputs:
+    s: std::string
+    indices: std::vector<int>
+  output: std::string
+
+solutions:
+  cpp:
+    function: restoreString
+
+test_cases:
+  example_1:
+    inputs:
+      s: codeleet
+      indices: [4, 5, 6, 7, 0, 2, 1, 3]
+    output: leetcode
+
+  example_2:
+    inputs:
+      s: abc
+      indices: [0, 1, 2]
+    output: abc
