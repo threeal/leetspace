@@ -289,6 +289,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) | Medium | [C](./old-problems/0684/c/solution.c) [C++](./old-problems/0684/solution.cpp) |
 | [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | Hard | [C](./old-problems/0689/c/solution.c) [C++](./old-problems/0689/solution.cpp) |
 | [696. Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | Easy | [C](./old-problems/0696/c/solution.c) [C++](./old-problems/0696/solution.cpp) |
+| [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Easy | [C++](./old-problems/0700/solution.cpp) |
 | [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Easy | [C++](./old-problems/0703/solution.cpp) |
 | [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | Medium | [C](./old-problems/0713/c/solution.c) [C++](./old-problems/0713/solution.cpp) |
 | [719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/) | Hard | [C](./old-problems/0719/c/solution.c) [C++](./old-problems/0719/solution.cpp) |
