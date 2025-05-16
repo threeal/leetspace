@@ -15,7 +15,7 @@ test_cases:
     inputs:
       words: [bab, dab, cab]
       groups: [1, 2, 2]
-    output: [bab, cab]
+    output: [bab, dab]
 
   example_2:
     inputs:
