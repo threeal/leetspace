@@ -1,0 +1,26 @@
+name: 2744. Find Maximum Number of String Pairs
+
+types:
+  inputs:
+    words: std::vector<std::string>
+  output: int
+
+solutions:
+  cpp:
+    function: maximumNumberOfStringPairs
+
+test_cases:
+  example_1:
+    inputs:
+      words: [cd, ac, dc, ca, zz]
+    output: 2
+
+  example_2:
+    inputs:
+      words: [ab, ba, cc]
+    output: 1
+
+  example_2:
+    inputs:
+      words: [aa, ab]
+    output: 0
