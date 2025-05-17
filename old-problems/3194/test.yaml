@@ -1,0 +1,26 @@
+name: 3194. Minimum Average of Smallest and Largest Elements
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: double
+
+solutions:
+  cpp:
+    function: minimumAverage
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [7, 8, 3, 4, 15, 13, 4, 1]
+    output: 5.5
+
+  example_2:
+    inputs:
+      nums: [1, 9, 8, 3, 10, 5]
+    output: 5.5
+
+  example_3:
+    inputs:
+      nums: [1, 2, 3, 7, 8, 9]
+    output: 5.0
