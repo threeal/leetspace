@@ -442,6 +442,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1282. Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/) | Medium | [C](./old-problems/1282/c/solution.c) [C++](./old-problems/1282/solution.cpp) |
 | [1287. Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/) | Easy | [C](./old-problems/1287/c/solution.c) [C++](./old-problems/1287/solution.cpp) |
 | [1289. Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/) | Hard | [C](./old-problems/1289/c/solution.c) [C++](./old-problems/1289/solution.cpp) |
+| [1290. Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Easy | [C++](./old-problems/1290/solution.cpp) |
 | [1291. Sequential Digits](https://leetcode.com/problems/sequential-digits/) | Medium | [C](./old-problems/1291/c/solution.c) [C++](./old-problems/1291/solution.cpp) |
 | [1295. Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | Easy | [C](./old-problems/1295/c/solution.c) [C++](./old-problems/1295/solution.cpp) |
 | [1299. Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | Easy | [C](./old-problems/1299/c/solution.c) [C++](./old-problems/1299/solution.cpp) |
