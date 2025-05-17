@@ -596,6 +596,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1823. Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/) | Medium | [C](./old-problems/1823/c/solution.c) [C++](./old-problems/1823/solution.cpp) |
 | [1828. Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/) | Medium | [C](./old-problems/1828/c/solution.c) [C++](./old-problems/1828/solution.cpp) |
 | [1829. Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/) | Medium | [C](./old-problems/1829/c/solution.c) [C++](./old-problems/1829/solution.cpp) |
+| [1832. Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | Easy | [C++](./old-problems/1832/solution.cpp) |
 | [1838. Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/) | Medium | [C++](./problems/1838/solution.cpp) |
 | [1845. Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/) | Medium | [C++](./old-problems/1845/solution.cpp) |
 | [1846. Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging) | Medium | [C](./old-problems/1846/c/solution.c) [C++](./old-problems/1846/solution.cpp) |
