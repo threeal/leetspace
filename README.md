@@ -521,6 +521,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1545. Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | Medium | [C](./old-problems/1545/c/solution.c) [C++](./old-problems/1545/solution.cpp) |
 | [1550. Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) | Easy | [C](./old-problems/1550/c/solution.c) [C++](./old-problems/1550/solution.cpp) |
 | [1552. Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/) | Medium | [C](./old-problems/1552/c/solution.c) [C++](./old-problems/1552/solution.cpp) |
+| [1557. Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/) | Medium | [C++](./old-problems/1557/solution.cpp) |
 | [1561. Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/) | Medium | [C](./old-problems/1561/c/solution.c) [C++](./old-problems/1561/solution.cpp) |
 | [1563. Stone Game V](https://leetcode.com/problems/stone-game-v/) | Hard | [C](./old-problems/1563/c/solution.c) [C++](./old-problems/1563/solution.cpp) |
 | [1566. Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/) | Easy | [C](./old-problems/1566/c/solution.c) [C++](./old-problems/1566/solution.cpp) |
