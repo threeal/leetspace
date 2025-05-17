@@ -1,0 +1,26 @@
+name: 2119. A Number After a Double Reversal
+
+types:
+  inputs:
+    num: int
+  output: bool
+
+solutions:
+  cpp:
+    function: isSameAfterReversals
+
+test_cases:
+  example_1:
+    inputs:
+      num: 526
+    output: true
+
+  example_2:
+    inputs:
+      num: 1800
+    output: false
+
+  example_3:
+    inputs:
+      num: 0
+    output: true
