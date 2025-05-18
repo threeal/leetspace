@@ -1,0 +1,30 @@
+name: 1409. Queries on a Permutation With Key
+
+types:
+  inputs:
+    queries: std::vector<int>
+    m: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: processQueries
+
+test_cases:
+  example_1:
+    inputs:
+      queries: [3, 1, 2, 1]
+      m: 5
+    output: [2, 1, 2, 1]
+
+  example_2:
+    inputs:
+      queries: [4, 1, 2, 2]
+      m: 4
+    output: [3, 1, 2, 0]
+
+  example_3:
+    inputs:
+      queries: [7, 5, 5, 8, 3]
+      m: 8
+    output: [6, 5, 0, 7, 5]
