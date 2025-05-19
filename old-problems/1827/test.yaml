@@ -1,0 +1,26 @@
+name: 1827. Minimum Operations to Make the Array Increasing
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minOperations
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 1, 1]
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [1, 5, 2, 4, 1]
+    output: 14
+
+  example_3:
+    inputs:
+      nums: [8]
+    output: 0
