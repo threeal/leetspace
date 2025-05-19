@@ -1,0 +1,26 @@
+name: 1588. Sum of All Odd Length Subarrays
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: sumOddLengthSubarrays
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [1, 4, 2, 5, 3]
+    output: 58
+
+  example_2:
+    inputs:
+      arr: [1, 2]
+    output: 3
+
+  example_3:
+    inputs:
+      arr: [10, 11, 12]
+    output: 66
