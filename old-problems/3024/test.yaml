@@ -19,3 +19,8 @@ test_cases:
     inputs:
       nums: [3, 4, 5]
     output: scalene
+
+  test_case_426:
+    inputs:
+      nums: [8, 4, 2]
+    output: none
