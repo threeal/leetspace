@@ -377,6 +377,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1002. Find Common Characters](https://leetcode.com/problems/find-common-characters/) | Easy | [C](./old-problems/1002/c/solution.c) [C++](./old-problems/1002/solution.cpp) |
 | [1006. Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/) | Medium | [C](./old-problems/1006/c/solution.c) [C++](./old-problems/1006/solution.cpp) |
 | [1007. Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | Medium | [C](./old-problems/1007/c/solution.c) [C++](./old-problems/1007/solution.cpp) |
+| [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | Medium | [C++](./old-problems/1008/solution.cpp) |
 | [1009. Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) | Easy | [C](./old-problems/1009/c/solution.c) [C++](./old-problems/1009/solution.cpp) |
 | [1014. Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/) | Medium | [C](./old-problems/1014/c/solution.c) [C++](./old-problems/1014/solution.cpp) |
 | [1021. Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | Easy | [C](./old-problems/1021/c/solution.c) [C++](./old-problems/1021/solution.cpp) |
