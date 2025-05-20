@@ -552,6 +552,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1642. Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/) | Medium | [C++](./problems/1642/solution.cpp) |
 | [1652. Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/) | Medium | [C](./old-problems/1652/c/solution.c) [C++](./old-problems/1652/solution.cpp) |
 | [1653. Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) | Medium | [C](./old-problems/1653/c/solution.c) [C++](./old-problems/1653/solution.cpp) |
+| [1656. Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/) | Easy | [C++](./old-problems/1656/solution.cpp) |
 | [1657. Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/) | Medium | [C](./old-problems/1657/c/solution.c) [C++](./old-problems/1657/solution.cpp) |
 | [1658. Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) | Medium | [C++](./problems/1658/solution.cpp) |
 | [1662. Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | Easy | [C](./old-problems/1662/c/solution.c) [C++](./old-problems/1662/solution.cpp) |
