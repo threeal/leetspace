@@ -1,0 +1,21 @@
+name: 3099. Harshad Number
+
+types:
+  inputs:
+    x: int
+  output: int
+
+solutions:
+  cpp:
+    function: sumOfTheDigitsOfHarshadNumber
+
+test_cases:
+  example_1:
+    inputs:
+      x: 18
+    output: 9
+
+  example_2:
+    inputs:
+      x: 23
+    output: -1
