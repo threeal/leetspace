@@ -890,6 +890,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3254. Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/) | Medium | [C](./old-problems/3254/c/solution.c) [C++](./old-problems/3254/solution.cpp) |
 | [3264. Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/) | Easy | [C](./old-problems/3264/c/solution.c) [C++](./old-problems/3264/solution.cpp) |
 | [3270. Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/) | Easy | [C](./old-problems/3270/c/solution.c) [C++](./old-problems/3270/solution.cpp) |
+| [3271. Hash Divided String](https://leetcode.com/problems/hash-divided-string/) | Medium | [C++](./old-problems/3271/solution.cpp) |
 | [3272. Find the Count of Good Integers](https://leetcode.com/problems/find-the-count-of-good-integers/) | Hard | [C++](./problems/3272/solution.cpp) |
 | [3280. Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | Easy | [C](./old-problems/3280/c/solution.c) [C++](./old-problems/3280/solution.cpp) |
 | [3285. Find Indices of Stable Mountains](https://leetcode.com/problems/find-indices-of-stable-mountains/) | Easy | [C](./old-problems/3285/c/solution.c) [C++](./old-problems/3285/solution.cpp) |
