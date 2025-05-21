@@ -898,6 +898,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3280. Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | Easy | [C](./old-problems/3280/c/solution.c) [C++](./old-problems/3280/solution.cpp) |
 | [3285. Find Indices of Stable Mountains](https://leetcode.com/problems/find-indices-of-stable-mountains/) | Easy | [C](./old-problems/3285/c/solution.c) [C++](./old-problems/3285/solution.cpp) |
 | [3289. The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | Easy | [C](./old-problems/3289/c/solution.c) [C++](./old-problems/3289/solution.cpp) |
+| [3343. Count Number of Balanced Permutations](https://leetcode.com/problems/count-number-of-balanced-permutations/) | Hard | [C++](./old-problems/3343/solution.cpp) |
 | [3356. Zero Array Transformation II](https://leetcode.com/problems/zero-array-transformation-ii/) | Medium | [C](./old-problems/3356/c/solution.c) [C++](./old-problems/3356/solution.cpp) |
 | [3375. Minimum Operations to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/) | Easy | [C](./old-problems/3375/c/solution.c) [C++](./old-problems/3375/solution.cpp) |
 | [3392. Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | Easy | [C](./old-problems/3392/c/solution.c) [C++](./old-problems/3392/solution.cpp) |
