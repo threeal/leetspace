@@ -908,6 +908,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3498. Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/) | Easy | [C](./old-problems/3498/c/solution.c) [C++](./old-problems/3498/solution.cpp) |
 | [3512. Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | Easy | [C](./old-problems/3512/c/solution.c) [C++](./old-problems/3512/solution.cpp) |
 | [3516. Find Closest Person](https://leetcode.com/problems/find-closest-person/) | Easy | [C](./old-problems/3516/c/solution.c) [C++](./old-problems/3516/solution.cpp) |
+| [3541. Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | Easy | [C++](./old-problems/3541/solution.cpp) |
 
 ## License
 
