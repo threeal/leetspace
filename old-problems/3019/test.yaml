@@ -1,0 +1,21 @@
+name: 3019. Number of Changing Keys
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: countKeyChanges
+
+test_cases:
+  example_1:
+    inputs:
+      s: aAbBcC
+    output: 2
+
+  example_2:
+    inputs:
+      s: AaAaAaaA
+    output: 0
