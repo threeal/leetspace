@@ -1,0 +1,26 @@
+name: 942. DI String Match
+
+types:
+  inputs:
+    s: std::string
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: diStringMatch
+
+test_cases:
+  example_1:
+    inputs:
+      s: IDID
+    output: [0, 4, 1, 3, 2]
+
+  example_2:
+    inputs:
+      s: III
+    output: [0, 1, 2, 3]
+
+  example_3:
+    inputs:
+      s: DDI
+    output: [3, 2, 0, 1]
