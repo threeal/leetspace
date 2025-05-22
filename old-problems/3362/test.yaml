@@ -28,3 +28,9 @@ test_cases:
       nums: [1, 2, 3, 4]
       queries: [[0, 3]]
     output: -1
+
+  test_case_619:
+    inputs:
+      nums: [0, 3]
+      queries: [[0, 1], [0, 0], [0, 1], [0, 1], [0, 0]]
+    output: 2
