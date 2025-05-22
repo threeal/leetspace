@@ -841,6 +841,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2873. Maximum Value of an Ordered Triplet I](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/) | Easy | [C](./old-problems/2873/c/solution.c) [C++](./old-problems/2873/solution.cpp) |
 | [2874. Maximum Value of an Ordered Triplet II](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii/) | Medium | [C](./old-problems/2874/c/solution.c) [C++](./old-problems/2874/solution.cpp) |
 | [2894. Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | Easy | [C](./old-problems/2894/c/solution.c) [C++](./old-problems/2894/solution.cpp) |
+| [2913. Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/) | Easy | [C++](./old-problems/2913/solution.cpp) |
 | [2914. Minimum Number of Changes to Make Binary String Beautiful](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/) | Medium | [C](./old-problems/2914/c/solution.c) [C++](./old-problems/2914/solution.cpp) |
 | [2918. Minimum Equal Sum of Two Arrays After Replacing Zeros](https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros/) | Medium | [C++](./old-problems/2918/solution.cpp) |
 | [2923. Find Champion I](https://leetcode.com/problems/find-champion-i/) | Easy | [C](./old-problems/2923/c/solution.c) [C++](./old-problems/2923/solution.cpp) |
