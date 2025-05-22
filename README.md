@@ -605,7 +605,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1838. Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/) | Medium | [C++](./problems/1838/solution.cpp) |
 | [1845. Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/) | Medium | [C++](./old-problems/1845/solution.cpp) |
 | [1846. Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging) | Medium | [C](./old-problems/1846/c/solution.c) [C++](./old-problems/1846/solution.cpp) |
-| [1859. Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/) | Easy | [C++](./old-problems/1859/solution.cpp) |
+| [1859. Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/) | Easy | [C](./old-problems/1859/c/solution.c) [C++](./old-problems/1859/solution.cpp) |
 | [1861. Rotating the Box](https://leetcode.com/problems/rotating-the-box/) | Medium | [C](./old-problems/1861/c/solution.c) [C++](./old-problems/1861/solution.cpp) |
 | [1863. Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | Easy | [C](./old-problems/1863/c/solution.c) [C++](./old-problems/1863/solution.cpp) |
 | [1876. Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters) | Easy | [C](./old-problems/1876/c/solution.c) [C++](./old-problems/1876/solution.cpp) |
