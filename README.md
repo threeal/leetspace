@@ -595,6 +595,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1793. Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray) | Hard | [C](./old-problems/1793/c/solution.c) [C++](./old-problems/1793/solution.cpp) |
 | [1798. Maximum Number of Consecutive Values You Can Make](https://leetcode.com/problems/maximum-number-of-consecutive-values-you-can-make/) | Medium | [C](./old-problems/1798/c/solution.c) [C++](./old-problems/1798/solution.cpp) |
 | [1800. Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/) | Easy | [C](./old-problems/1800/c/solution.c) [C++](./old-problems/1800/solution.cpp) |
+| [1812. Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/) | Easy | [C++](./old-problems/1812/solution.cpp) |
 | [1813. Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii/) | Medium | [C](./old-problems/1813/c/solution.c) [C++](./old-problems/1813/solution.cpp) |
 | [1814. Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/) | Medium | [C++](./problems/1814/solution.cpp) |
 | [1816. Truncate Sentence](https://leetcode.com/problems/truncate-sentence/) | Easy | [C](./old-problems/1816/c/solution.c) [C++](./old-problems/1816/solution.cpp) |
