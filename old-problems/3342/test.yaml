@@ -1,0 +1,32 @@
+name: 3342. Find Minimum Time to Reach Last Room II
+
+types:
+  inputs:
+    moveTime: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: minTimeToReach
+
+test_cases:
+  example_1:
+    inputs:
+      moveTime:
+        - [0, 4]
+        - [4, 4]
+    output: 7
+
+  example_2:
+    inputs:
+      moveTime:
+        - [0, 0, 0, 0]
+        - [0, 0, 0, 0]
+    output: 6
+
+  example_3:
+    inputs:
+      moveTime:
+        - [0, 1]
+        - [1, 2]
+    output: 4
