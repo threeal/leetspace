@@ -148,6 +148,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [C](./old-problems/0217/c/solution.c) [C++](./old-problems/0217/solution.cpp) |
 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | [C++](./problems/0219/solution.cpp) |
 | [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/) | Hard | [C](./old-problems/0224/c/solution.c) [C++](./old-problems/0224/solution.cpp) |
+| [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [C++](./old-problems/0226/solution.cpp) |
 | [228. Summary Ranges](https://leetcode.com/problems/summary-ranges/) | Easy | [C](./old-problems/0228/c/solution.c) [C++](./old-problems/0228/solution.cpp) |
 | [229. Majority Element II](https://leetcode.com/problems/majority-element-ii) | Medium | [C](./old-problems/0229/c/solution.c) [C++](./old-problems/0229/solution.cpp) |
 | [231. Power of Two](https://leetcode.com/problems/power-of-two/) | Easy | [C](./old-problems/0231/c/solution.c) [C++](./old-problems/0231/solution.cpp) |
