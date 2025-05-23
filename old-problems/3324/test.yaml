@@ -1,0 +1,21 @@
+name: 3324. Find the Sequence of Strings Appeared on the Screen
+
+types:
+  inputs:
+    target: std::string
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: stringSequence
+
+test_cases:
+  example_1:
+    inputs:
+      target: abc
+    output: [a, aa, ab, aba, abb, abc]
+
+  example_2:
+    inputs:
+      target: he
+    output: [a, b, c, d, e, f, g, h, ha, hb, hc, hd, he]
