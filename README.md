@@ -580,6 +580,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1727. Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/) | Medium | [C](./old-problems/1727/c/solution.c) [C++](./old-problems/1727/solution.cpp) |
 | [1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | Easy | [C](./old-problems/1732/c/solution.c) [C++](./old-problems/1732/solution.cpp) |
 | [1743. Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs) | Medium | [C++](./problems/1743/solution.cpp) |
+| [1748. Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/) | Easy | [C++](./old-problems/1748/solution.cpp) |
 | [1749. Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/) | Medium | [C](./old-problems/1749/c/solution.c) [C++](./old-problems/1749/solution.cpp) |
 | [1750. Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/) | Medium | [C](./old-problems/1750/c/solution.c) [C++](./old-problems/1750/solution.cpp) |
 | [1752. Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | Easy | [C](./old-problems/1752/c/solution.c) [C++](./old-problems/1752/solution.cpp) |
