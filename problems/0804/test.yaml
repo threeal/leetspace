@@ -1,0 +1,19 @@
+cpp:
+  function:
+    name: uniqueMorseRepresentations
+    inputs:
+      - type: std::vector<std::string>
+        value: words
+    output:
+      type: int
+
+cases:
+  - name: example 1
+    inputs:
+      words: [gin, zen, gig, msg]
+    output: 2
+
+  - name: example 2
+    inputs:
+      words: [a]
+    output: 1
