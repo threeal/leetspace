@@ -1,0 +1,21 @@
+name: 2315. Count Asterisks
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: countAsterisks
+
+test_cases:
+  example_1:
+    inputs:
+      s: l|*e*et|c**o|*de|
+    output: 2
+
+  example_2:
+    inputs:
+      s: yo|uar|e**|b|e***au|tifu|l
+    output: 5
