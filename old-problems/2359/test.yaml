@@ -1,0 +1,27 @@
+name: 2359. Find Closest Node to Given Two Nodes
+
+types:
+  inputs:
+    edges: std::vector<int>
+    node1: int
+    node2: int
+  output: int
+
+solutions:
+  cpp:
+    function: closestMeetingNode
+
+test_cases:
+  example_1:
+    inputs:
+      edges: [2, 2, 3, -1]
+      node1: 0
+      node2: 1
+    output: 2
+
+  example_2:
+    inputs:
+      edges: [1, 2, -1]
+      node1: 0
+      node2: 2
+    output: 2
