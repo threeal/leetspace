@@ -312,7 +312,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [790. Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/) | Medium | [C](./old-problems/0790/c/solution.c) [C++](./old-problems/0790/solution.cpp) |
 | [791. Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | Medium | [C](./old-problems/0791/c/solution.c) [C++](./old-problems/0791/solution.cpp) |
 | [796. Rotate String](https://leetcode.com/problems/rotate-string/) | Easy | [C](./old-problems/0796/c/solution.c) [C++](./old-problems/0796/solution.cpp) |
-| [797. All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | Medium | [C++](./old-problems/0797/solution.cpp) |
+| [797. All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | Medium | [C](./old-problems/0797/c/solution.c) [C++](./old-problems/0797/solution.cpp) |
 | [802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | Medium | [C](./old-problems/0802/c/solution.c) [C++](./old-problems/0802/solution.cpp) |
 | [804. Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | Easy | [C++](./problems/0804/solution.cpp) |
 | [807. Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | Medium | [C](./old-problems/0807/c/solution.c) [C++](./old-problems/0807/solution.cpp) |
