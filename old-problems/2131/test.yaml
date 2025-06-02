@@ -1,0 +1,26 @@
+name: 2131. Longest Palindrome by Concatenating Two Letter Words
+
+types:
+  inputs:
+    words: std::vector<std::string>
+  output: int
+
+solutions:
+  cpp:
+    function: longestPalindrome
+
+test_cases:
+  example_1:
+    inputs:
+      words: [lc, cl, gg]
+    output: 6
+
+  example_2:
+    inputs:
+      words: [ab, ty, yt, lc, cl, ab]
+    output: 8
+
+  example_3:
+    inputs:
+      words: [cc, ll, xx]
+    output: 2
