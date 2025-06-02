@@ -1,0 +1,21 @@
+name: 1844. Replace All Digits with Characters
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: replaceDigits
+
+test_cases:
+  example_1:
+    inputs:
+      s: a1c1e1
+    output: abcdef
+
+  example_2:
+    inputs:
+      s: a1b2c3d4e
+    output: abbdcfdhe
