@@ -1,0 +1,21 @@
+name: 2317. Maximum XOR After Operations
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maximumXOR
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [3, 2, 4, 6]
+    output: 7
+
+  example_2:
+    inputs:
+      nums: [1, 2, 3, 9, 2]
+    output: 11
