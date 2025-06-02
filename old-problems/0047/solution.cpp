@@ -25,7 +25,6 @@ class Solution {
       for (int j{0}; j < 21; ++j) {
         if (freqs[j] != 0) {
           nums[i] = j - 10;
-          *it = nums;
           std::memcpy(it->data(), nums.data(), nums.size() * sizeof(int));
           ++it;
         }
