@@ -1,0 +1,21 @@
+name: 2778. Sum of Squares of Special Elements
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: sumOfSquares
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3, 4]
+    output: 21
+
+  example_2:
+    inputs:
+      nums: [2, 7, 1, 19, 18, 3]
+    output: 63
