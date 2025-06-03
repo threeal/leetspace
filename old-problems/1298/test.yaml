@@ -1,0 +1,33 @@
+name: 1298. Maximum Candies You Can Get from Boxes
+
+types:
+  inputs:
+    status: std::vector<int>
+    candies: std::vector<int>
+    keys: std::vector<std::vector<int>>
+    containedBoxes: std::vector<std::vector<int>>
+    initialBoxes: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maxCandies
+
+test_cases:
+  example_1:
+    inputs:
+      status: [1, 0, 1, 0]
+      candies: [7, 5, 4, 100]
+      keys: [[], [], [1], []]
+      containedBoxes: [[1, 2], [3], [], []]
+      initialBoxes: [0]
+    output: 16
+
+  example_2:
+    inputs:
+      status: [1, 0, 0, 0, 0, 0]
+      candies: [1, 1, 1, 1, 1, 1]
+      keys: [[1, 2, 3, 4, 5], [], [], [], [], []]
+      containedBoxes: [[1, 2, 3, 4, 5], [], [], [], [], []]
+      initialBoxes: [0]
+    output: 6
