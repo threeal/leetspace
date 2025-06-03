@@ -1,0 +1,26 @@
+name: 1641. Count Sorted Vowel Strings
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: countVowelStrings
+
+test_cases:
+  example_1:
+    inputs:
+      n: 1
+    output: 5
+
+  example_2:
+    inputs:
+      n: 2
+    output: 15
+
+  example_3:
+    inputs:
+      n: 33
+    output: 66045
