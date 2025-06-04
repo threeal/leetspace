@@ -22,3 +22,9 @@ test_cases:
       word: gggg
       numFriends: 4
     output: g
+
+  test_case_694:
+    inputs:
+      word: gh
+      numFriends: 1
+    output: gh
