@@ -266,6 +266,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | Easy | [C++](./old-problems/0605/solution.cpp) |
 | [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | Easy | [C++](./old-problems/0606/solution.cpp) |
 | [611. Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | Medium | [C](./old-problems/0611/c/solution.c) [C++](./old-problems/0611/solution.cpp) |
+| [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | Easy | [C++](./old-problems/0617/solution.cpp) |
 | [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Medium | [C](./old-problems/0621/c/solution.c) [C++](./old-problems/0621/solution.cpp) |
 | [623. Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) | Medium | [C++](./old-problems/0623/solution.cpp) |
 | [624. Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/) | Medium | [C](./old-problems/0624/c/solution.c) [C++](./old-problems/0624/solution.cpp) |
