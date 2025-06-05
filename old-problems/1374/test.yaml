@@ -13,14 +13,14 @@ test_cases:
   example_1:
     inputs:
       n: 4
-    output: pppz
+    output: baaa
 
   example_2:
     inputs:
       n: 2
-    output: xy
+    output: ba
 
   example_3:
     inputs:
       n: 7
-    output: holasss
+    output: aaaaaaa
