@@ -1,0 +1,34 @@
+name: 1061. Lexicographically Smallest Equivalent String
+
+types:
+  inputs:
+    s1: std::string
+    s2: std::string
+    baseStr: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: smallestEquivalentString
+
+test_cases:
+  example_1:
+    inputs:
+      s1: parker
+      s2: morris
+      baseStr: parser
+    output: makkek
+
+  example_2:
+    inputs:
+      s1: hello
+      s2: world
+      baseStr: hold
+    output: hdld
+
+  example_3:
+    inputs:
+      s1: leetcode
+      s2: programs
+      baseStr: sourcecode
+    output: aauaaaaada
