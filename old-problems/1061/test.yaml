@@ -32,3 +32,10 @@ test_cases:
       s2: programs
       baseStr: sourcecode
     output: aauaaaaada
+
+  test_case_22:
+    inputs:
+      s1: aaaaaaaaaa
+      s2: aaaaaaaaaa
+      baseStr: mzpxaabrxo
+    output: mzpxaabrxo
