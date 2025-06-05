@@ -3,6 +3,10 @@
 class Solution {
  public:
   int countTestedDevices(std::vector<int>& batteryPercentages) {
-    return batteryPercentages.front();
+    int count{0};
+    for (const int battery : batteryPercentages) {
+      if (battery > count) ++count;
+    }
+    return count;
   }
 };
