@@ -593,6 +593,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1758. Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | Easy | [C](./old-problems/1758/c/solution.c) [C++](./old-problems/1758/solution.cpp) |
 | [1759. Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings) | Medium | [C](./old-problems/1759/c/solution.c) [C++](./old-problems/1759/solution.cpp) |
 | [1760. Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/) | Medium | [C](./old-problems/1760/c/solution.c) [C++](./old-problems/1760/solution.cpp) |
+| [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | [C++](./old-problems/1768/solution.cpp) |
 | [1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) | Hard | [C++](./old-problems/1770/solution.cpp) |
 | [1773. Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/) | Easy | [C](./old-problems/1773/c/solution.c) [C++](./old-problems/1773/solution.cpp) |
 | [1780. Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/) | Medium | [C](./old-problems/1780/c/solution.c) [C++](./old-problems/1780/solution.cpp) |
