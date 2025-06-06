@@ -1,0 +1,30 @@
+name: 3131. Find the Integer Added to Array I
+
+types:
+  inputs:
+    nums1: std::vector<int>
+    nums2: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: addedInteger
+
+test_cases:
+  example_1:
+    inputs:
+      nums1: [2, 6, 4]
+      nums2: [9, 7, 5]
+    output: 3
+
+  example_2:
+    inputs:
+      nums1: [10]
+      nums2: [5]
+    output: -5
+
+  example_3:
+    inputs:
+      nums1: [1, 1, 1, 1]
+      nums2: [1, 1, 1, 1]
+    output: 0

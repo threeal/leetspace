@@ -887,6 +887,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/) | Easy | [C](./old-problems/3105/c/solution.c) [C++](./old-problems/3105/solution.cpp) |
 | [3108. Minimum Cost Walk in Weighted Graph](https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/) | Hard | [C](./old-problems/3108/c/solution.c) [C++](./old-problems/3108/solution.cpp) |
 | [3110. Score of a String](https://leetcode.com/problems/score-of-a-string/) | Easy | [C](./old-problems/3110/c/solution.c) [C++](./old-problems/3110/solution.cpp) |
+| [3131. Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/) | Easy | [C++](./old-problems/3131/solution.cpp) |
 | [3133. Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | Medium | [C](./old-problems/3133/c/solution.c) [C++](./old-problems/3133/solution.cpp) |
 | [3137. Minimum Number of Operations to Make Word K-Periodic](https://leetcode.com/problems/minimum-number-of-operations-to-make-word-k-periodic/) | Medium | [C++](./old-problems/3137/solution.cpp) |
 | [3146. Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/) | Easy | [C](./old-problems/3146/c/solution.c) [C++](./old-problems/3146/solution.cpp) |
