@@ -1,0 +1,21 @@
+name: 3170. Lexicographically Minimum String After Removing Stars
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: clearStars
+
+test_cases:
+  example_1:
+    inputs:
+      s: aaba*
+    output: aab
+
+  example_2:
+    inputs:
+      s: abc
+    output: abc
