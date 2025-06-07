@@ -1,0 +1,27 @@
+name: 3337. Total Characters in String After Transformations II
+
+types:
+  inputs:
+    s: std::string
+    t: int
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: lengthAfterTransformations
+
+test_cases:
+  example_1:
+    inputs:
+      s: abcyy
+      t: 2
+      nums: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2]
+    output: 7
+
+  example_2:
+    inputs:
+      s: azbk
+      t: 1
+      nums: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+    output: 8
