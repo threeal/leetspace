@@ -918,7 +918,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3335. Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/) | Medium | [C++](./old-problems/3335/solution.cpp) |
 | [3337. Total Characters in String After Transformations II](https://leetcode.com/problems/total-characters-in-string-after-transformations-ii/) | Hard | [C++](./old-problems/3337/solution.cpp) |
 | [3341. Find Minimum Time to Reach Last Room I](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/) | Medium | [C](./old-problems/3341/c/solution.c) [C++](./old-problems/3341/solution.cpp) |
-| [3342. Find Minimum Time to Reach Last Room II](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/) | Medium | [C++](./old-problems/3342/solution.cpp) |
+| [3342. Find Minimum Time to Reach Last Room II](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/) | Medium | [C](./old-problems/3342/c/solution.c) [C++](./old-problems/3342/solution.cpp) |
 | [3343. Count Number of Balanced Permutations](https://leetcode.com/problems/count-number-of-balanced-permutations/) | Hard | [C++](./old-problems/3343/solution.cpp) |
 | [3356. Zero Array Transformation II](https://leetcode.com/problems/zero-array-transformation-ii/) | Medium | [C](./old-problems/3356/c/solution.c) [C++](./old-problems/3356/solution.cpp) |
 | [3375. Minimum Operations to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/) | Easy | [C](./old-problems/3375/c/solution.c) [C++](./old-problems/3375/solution.cpp) |
