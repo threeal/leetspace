@@ -1,0 +1,30 @@
+name: 1967. Number of Strings That Appear as Substrings in Word
+
+types:
+  inputs:
+    patterns: std::vector<std::string>
+    words: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: numOfStrings
+
+test_cases:
+  example_1:
+    inputs:
+      patterns: [a, abc, bc, d]
+      words: abc
+    output: 3
+
+  example_2:
+    inputs:
+      patterns: [a, b, c]
+      words: aaaaabbbbb
+    output: 2
+
+  example_3:
+    inputs:
+      patterns: [a, a, a]
+      words: ab
+    output: 3
