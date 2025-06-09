@@ -1,0 +1,21 @@
+name: 1725. Number Of Rectangles That Can Form The Largest Square
+
+types:
+  inputs:
+    rectangles: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: countGoodRectangles
+
+test_cases:
+  example_1:
+    inputs:
+      rectangles: [[5, 8], [3, 9], [5, 12], [16, 5]]
+    output: 3
+
+  example_2:
+    inputs:
+      rectangles: [[2, 3], [3, 7], [4, 3], [3, 7]]
+    output: 3
