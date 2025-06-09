@@ -1,0 +1,26 @@
+name: 2097. Valid Arrangement of Pairs
+
+types:
+  inputs:
+    pairs: std::vector<std::vector<int>>
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: validArrangement
+
+test_cases:
+  example_1:
+    inputs:
+      pairs: [[5, 1], [4, 5], [11, 9], [9, 4]]
+    output: [[11, 9], [9, 4], [4, 5], [5, 1]]
+
+  example_2:
+    inputs:
+      pairs: [[1, 3], [3, 2], [2, 1]]
+    output: [[1, 3], [3, 2], [2, 1]]
+
+  example_3:
+    inputs:
+      pairs: [[1, 2], [1, 3], [2, 1]]
+    output: [[1, 2], [2, 1], [1, 3]]
