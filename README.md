@@ -396,6 +396,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain) | Medium | [C++](./problems/1048/solution.cpp) |
 | [1051. Height Checker](https://leetcode.com/problems/height-checker/) | Easy | [C](./old-problems/1051/c/solution.c) [C++](./old-problems/1051/solution.cpp) |
 | [1052. Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/) | Medium | [C](./old-problems/1052/c/solution.c) [C++](./old-problems/1052/solution.cpp) |
+| [1061. Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/) | Medium | [C++](./old-problems/1061/solution.cpp) |
 | [1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | Easy | [C](./old-problems/1071/c/solution.c) [C++](./old-problems/1071/solution.cpp) |
 | [1072. Flip Columns For Maximum Number of Equal Rows](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows/) | Medium | [C++](./problems/1072/solution.cpp) |
 | [1074. Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/) | Hard | [C](./old-problems/1074/c/solution.c) [C++](./old-problems/1074/solution.cpp) |
