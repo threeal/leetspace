@@ -1,0 +1,21 @@
+name: 3502. Minimum Cost to Reach Every Position
+
+types:
+  inputs:
+    cost: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: minCosts
+
+test_cases:
+  example_1:
+    inputs:
+      cost: [5, 3, 4, 1, 3, 2]
+    output: [5, 3, 3, 1, 1, 1]
+
+  example_2:
+    inputs:
+      cost: [1, 2, 4, 6, 7]
+    output: [1, 1, 1, 1, 1]
