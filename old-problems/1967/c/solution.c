@@ -1,6 +1,9 @@
+#include <string.h>
+
 int numOfStrings(char** patterns, int patternsSize, char* word) {
-  (void)patterns;
-  (void)patternsSize;
-  (void)word;
-  return 0;
+  int count = 0;
+  for (int i = 0; i < patternsSize; ++i) {
+    if (strstr(word, patterns[i]) != NULL) ++count;
+  }
+  return count;
 }
