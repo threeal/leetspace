@@ -1,0 +1,26 @@
+name: 3232. Find if Digit Game Can Be Won
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: canAliceWin
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3, 4, 10]
+    output: false
+
+  example_2:
+    inputs:
+      nums: [1, 2, 3, 4, 5, 14]
+    output: true
+
+  example_3:
+    inputs:
+      nums: [5, 5, 5, 25]
+    output: true
