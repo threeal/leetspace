@@ -1,0 +1,21 @@
+name: 3423. Maximum Difference Between Adjacent Elements in a Circular Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maxAdjacentDistance
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 4]
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [-5, -10, -5]
+    output: 5
