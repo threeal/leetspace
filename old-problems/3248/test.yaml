@@ -1,0 +1,24 @@
+name: 3248. Snake in Matrix
+
+types:
+  inputs:
+    n: int
+    commands: std::vector<std::string>
+  output: int
+
+solutions:
+  cpp:
+    function: finalPositionOfSnake
+
+test_cases:
+  example_1:
+    inputs:
+      n: 2
+      commands: [RIGHT, DOWN]
+    output: 3
+
+  example_2:
+    inputs:
+      n: 3
+      commands: [DOWN, RIGHT, UP]
+    output: 1
