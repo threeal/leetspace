@@ -1,0 +1,26 @@
+name: 1323. Maximum 69 Number
+
+types:
+  inputs:
+    num: int
+  output: int
+
+solutions:
+  cpp:
+    function: maximum69Number
+
+test_cases:
+  example_1:
+    inputs:
+      num: 9669
+    output: 9969
+
+  example_2:
+    inputs:
+      num: 9996
+    output: 9999
+
+  example_3:
+    inputs:
+      num: 9999
+    output: 9999
