@@ -1,0 +1,21 @@
+name: 2566. Maximum Difference by Remapping a Digit
+
+types:
+  inputs:
+    num: int
+  output: int
+
+solutions:
+  cpp:
+    function: minMaxDifference
+
+test_cases:
+  example_1:
+    inputs:
+      num: 11891
+    output: 99009
+
+  example_2:
+    inputs:
+      num: 90
+    output: 99
