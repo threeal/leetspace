@@ -1,0 +1,21 @@
+name: 1432. Max Difference You Can Get From Changing an Integer
+
+types:
+  inputs:
+    num: int
+  output: int
+
+solutions:
+  cpp:
+    function: maxDiff
+
+test_cases:
+  example_1:
+    inputs:
+      num: 555
+    output: 888
+
+  example_2:
+    inputs:
+      num: 9
+    output: 8
