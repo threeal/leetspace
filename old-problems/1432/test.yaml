@@ -24,3 +24,8 @@ test_cases:
     inputs:
       num: 123456
     output: 820000
+
+  test_case_207:
+    inputs:
+      num: 1101057
+    output: 8808050
