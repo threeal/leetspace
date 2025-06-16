@@ -658,6 +658,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2001. Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/) | Medium | [C](./old-problems/2001/c/solution.c) [C++](./old-problems/2001/solution.cpp) |
 | [2006. Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | Easy | [C](./old-problems/2006/c/solution.c) [C++](./old-problems/2006/solution.cpp) |
 | [2009. Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous) | Hard | [C++](./problems/2009/solution.cpp) |
+| [2016. Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/) | Easy | [C++](./old-problems/2016/solution.cpp) |
 | [2011. Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | Easy | [C](./old-problems/2011/c/solution.c) [C++](./old-problems/2011/solution.cpp) |
 | [2017. Grid Game](https://leetcode.com/problems/grid-game/) | Medium | [C](./old-problems/2017/c/solution.c) [C++](./old-problems/2017/solution.cpp) |
 | [2018. Check if Word Can Be Placed In Crossword](https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/) | Medium | [C](./old-problems/2018/c/solution.c) [C++](./old-problems/2018/solution.cpp) |
