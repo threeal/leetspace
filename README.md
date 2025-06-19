@@ -507,6 +507,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1462. Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/) | Medium | [C](./old-problems/1462/c/solution.c) [C++](./old-problems/1462/solution.cpp) |
 | [1464. Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | Easy | [C](./old-problems/1464/c/solution.c) [C++](./old-problems/1464/solution.cpp) |
 | [1470. Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | Easy | [C](./old-problems/1470/c/solution.c) [C++](./old-problems/1470/solution.cpp) |
+| [1472. Design Browser History](https://leetcode.com/problems/design-browser-history/) | Medium | [C++](./old-problems/1472/solution.cpp) |
 | [1475. Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | Easy | [C](./old-problems/1475/c/solution.c) [C++](./old-problems/1475/solution.cpp) |
 | [1476. Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/) | Medium | [C++](./old-problems/1476/solution.cpp) |
 | [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | Easy | [C](./old-problems/1480/c/solution.c) [C++](./old-problems/1480/solution.cpp) |
