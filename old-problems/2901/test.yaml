@@ -1,0 +1,24 @@
+name: 2901. Longest Unequal Adjacent Groups Subsequence II
+
+types:
+  inputs:
+    words: std::vector<std::string>
+    groups: std::vector<int>
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: getWordsInLongestSubsequence
+
+test_cases:
+  example_1:
+    inputs:
+      words: [bab, dab, cab]
+      groups: [1, 2, 2]
+    output: [bab, cab]
+
+  example_2:
+    inputs:
+      words: [a, b, c, d]
+      groups: [1, 2, 3, 4]
+    output: [a, b, c, d]
