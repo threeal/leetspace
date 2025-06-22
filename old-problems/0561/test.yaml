@@ -1,0 +1,21 @@
+name: 561. Array Partition
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: arrayPairSum
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 4, 3, 2]
+    output: 4
+
+  example_2:
+    inputs:
+      nums: [6, 2, 6, 5, 1, 2]
+    output: 9
