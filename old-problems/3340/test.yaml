@@ -1,0 +1,21 @@
+name: 3340. Check Balanced String
+
+types:
+  inputs:
+    num: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: isBalanced
+
+test_cases:
+  example_1:
+    inputs:
+      num: "1234"
+    output: false
+
+  example_2:
+    inputs:
+      num: "24123"
+    output: true
