@@ -715,6 +715,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2197. Replace Non-Coprime Numbers in Array](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/) | Hard | [C++](./old-problems/2197/solution.cpp) |
 | [2206. Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/) | Easy | [C](./old-problems/2206/c/solution.c) [C++](./old-problems/2206/solution.cpp) |
 | [2211. Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/) | Medium | [C++](./old-problems/2211/solution.cpp) |
+| [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | Easy | [C++](./old-problems/2215/solution.cpp) |
 | [2216. Minimum Deletions to Make Array Beautiful](https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful/) | Medium | [C](./old-problems/2216/c/solution.c) [C++](./old-problems/2216/solution.cpp) |
 | [2220. Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/) | Easy | [C](./old-problems/2220/c/solution.c) [C++](./old-problems/2220/solution.cpp) |
 | [2225. Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/) | Medium | [C++](./problems/2225/solution.cpp) |
