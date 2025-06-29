@@ -1,0 +1,30 @@
+name: 1498. Number of Subsequences That Satisfy the Given Sum Condition
+
+types:
+  inputs:
+    nums: std::vector<int>
+    target: int
+  output: int
+
+solutions:
+  cpp:
+    function: numSubseq
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [3, 5, 6, 7]
+      target: 9
+    output: 4
+
+  example_2:
+    inputs:
+      nums: [3, 3, 6, 8]
+      target: 10
+    output: 6
+
+  example_3:
+    inputs:
+      nums: [2, 3, 3, 4, 6, 7]
+      target: 12
+    output: 61
