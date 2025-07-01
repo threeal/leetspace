@@ -36,9 +36,6 @@ jobs:
           version: ${{ hashFiles('package-lock') }}
           files: build/_deps
 
-      - name: Setup Ninja
-        uses: seanmiddleditch/gha-setup-ninja@v6
-
       - name: Build Solutions
         uses: threeal/cmake-action@v2.1.0
         with:
