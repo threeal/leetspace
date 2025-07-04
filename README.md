@@ -771,6 +771,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2429. Minimize XOR](https://leetcode.com/problems/minimize-xor/) | Medium | [C](./old-problems/2429/c/solution.c) [C++](./old-problems/2429/solution.cpp) |
 | [2433. Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor) | Medium | [C++](./problems/2433/solution.cpp) |
 | [2441. Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/) | Easy | [C](./old-problems/2441/c/solution.c) [C++](./old-problems/2441/solution.cpp) |
+| [2442. Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | Medium | [C++](./old-problems/2442/solution.cpp) |
 | [2444. Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/) | Hard | [C](./old-problems/2444/c/solution.c) [C++](./old-problems/2444/solution.cpp) |
 | [2460. Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/) | Easy | [C](./old-problems/2460/c/solution.c) [C++](./old-problems/2460/solution.cpp) |
 | [2461. Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/) | Medium | [C](./old-problems/2461/c/solution.c) [C++](./old-problems/2461/solution.cpp) |
