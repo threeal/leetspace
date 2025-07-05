@@ -680,7 +680,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2070. Most Beautiful Item for Each Query](https://leetcode.com/problems/most-beautiful-item-for-each-query/) | Medium | [C++](./old-problems/2070/solution.cpp) |
 | [2071. Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/) | Hard | [C](./old-problems/2071/c/solution.c) [C++](./old-problems/2071/solution.cpp) |
 | [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) | Easy | [C](./old-problems/2073/c/solution.c) [C++](./old-problems/2073/solution.cpp) |
-| [2079. Watering Plants](https://leetcode.com/problems/watering-plants/) | Medium | [C++](./old-problems/2079/solution.cpp) |
+| [2079. Watering Plants](https://leetcode.com/problems/watering-plants/) | Medium | [C](./old-problems/2079/c/solution.c) [C++](./old-problems/2079/solution.cpp) |
 | [2085. Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/) | Easy | [C++](./problems/2085/solution.cpp) |
 | [2092. Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/) | Hard | [C](./old-problems/2092/c/solution.c) [C++](./old-problems/2092/solution.cpp) |
 | [2094. Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/) | Easy | [C](./old-problems/2094/c/solution.c) [C++](./old-problems/2094/solution.cpp) |
