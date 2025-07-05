@@ -298,6 +298,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/) | Hard | [C](./old-problems/0719/c/solution.c) [C++](./old-problems/0719/solution.cpp) |
 | [725. Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | Medium | [C++](./old-problems/0725/solution.cpp) |
 | [726. Number of Atoms](https://leetcode.com/problems/number-of-atoms/) | Hard | [C++](./problems/0726/solution.cpp) |
+| [728. Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | Easy | [C++](./old-problems/0728/solution.cpp) |
 | [729. My Calendar I](https://leetcode.com/problems/my-calendar-i/) | Medium | [C++](./old-problems/0729/solution.cpp) |
 | [731. My Calendar II](https://leetcode.com/problems/my-calendar-ii/) | Medium | [C++](./old-problems/0731/solution.cpp) |
 | [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [C](./old-problems/0739/c/solution.c) [C++](./old-problems/0739/solution.cpp) |
