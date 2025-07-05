@@ -956,6 +956,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3502. Minimum Cost to Reach Every Position](https://leetcode.com/problems/minimum-cost-to-reach-every-position/) | Easy | [C](./old-problems/3502/c/solution.c) [C++](./old-problems/3502/solution.cpp) |
 | [3512. Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | Easy | [C](./old-problems/3512/c/solution.c) [C++](./old-problems/3512/solution.cpp) |
 | [3516. Find Closest Person](https://leetcode.com/problems/find-closest-person/) | Easy | [C](./old-problems/3516/c/solution.c) [C++](./old-problems/3516/solution.cpp) |
+| [3541. Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | Easy | [C++](./old-problems/3541/solution.cpp) |
 
 ## License
 

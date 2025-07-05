@@ -1,0 +1,21 @@
+name: 3541. Find Most Frequent Vowel and Consonant
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: maxFreqSum
+
+test_cases:
+  example_1:
+    inputs:
+      s: successes
+    output: 6
+
+  example_2:
+    inputs:
+      s: aeiaeia
+    output: 3
