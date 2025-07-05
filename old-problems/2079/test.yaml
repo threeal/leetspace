@@ -1,0 +1,30 @@
+name: 2079. Watering Plants
+
+types:
+  inputs:
+    plants: std::vector<int>
+    capacity: int
+  output: int
+
+solutions:
+  cpp:
+    function: wateringPlants
+
+test_cases:
+  example_1:
+    inputs:
+      plants: [2, 2, 3, 3]
+      capacity: 5
+    output: 14
+
+  example_2:
+    inputs:
+      plants: [1, 1, 1, 4, 2, 3]
+      capacity: 4
+    output: 30
+
+  example_3:
+    inputs:
+      plants: [7, 7, 7, 7, 7, 7, 7]
+      capacity: 8
+    output: 49
