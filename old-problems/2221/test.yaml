@@ -1,0 +1,21 @@
+name: 2221. Find Triangular Sum of an Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: triangularSum
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3, 4, 5]
+    output: 8
+
+  example_2:
+    inputs:
+      nums: [5]
+    output: 5
