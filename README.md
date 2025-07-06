@@ -624,6 +624,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1859. Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/) | Easy | [C](./old-problems/1859/c/solution.c) [C++](./old-problems/1859/solution.cpp) |
 | [1861. Rotating the Box](https://leetcode.com/problems/rotating-the-box/) | Medium | [C](./old-problems/1861/c/solution.c) [C++](./old-problems/1861/solution.cpp) |
 | [1863. Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | Easy | [C](./old-problems/1863/c/solution.c) [C++](./old-problems/1863/solution.cpp) |
+| [1865. Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/) | Medium | [C++](./old-problems/1865/solution.cpp) |
 | [1876. Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters) | Easy | [C](./old-problems/1876/c/solution.c) [C++](./old-problems/1876/solution.cpp) |
 | [1877. Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | Medium | [C++](./old-problems/1877/c/solution.c) [C++](./old-problems/1877/solution.cpp) |
 | [1887. Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/) | Medium | [C](./old-problems/1887/c/solution.c) [C++](./old-problems/1887/solution.cpp) |
