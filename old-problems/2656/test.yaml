@@ -1,0 +1,24 @@
+name: 2656. Maximum Sum With Exactly K Elements
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: maximizeSum
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3, 4, 5]
+      k: 3
+    output: 18
+
+  example_2:
+    inputs:
+      nums: [5, 5, 5]
+      k: 2
+    output: 11
