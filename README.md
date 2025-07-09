@@ -829,7 +829,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2641. Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/) | Medium | [C++](./old-problems/2641/solution.cpp) |
 | [2642. Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator) | Hard | [C++](./old-problems/2642/solution.cpp) |
 | [2652. Sum Multiples](https://leetcode.com/problems/sum-multiples/) | Easy | [C](./old-problems/2652/c/solution.c) [C++](./old-problems/2652/solution.cpp) |
-| [2656. Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | Easy | [C++](./old-problems/2656/solution.cpp) |
+| [2656. Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | Easy | [C](./old-problems/2656/c/solution.c) [C++](./old-problems/2656/solution.cpp) |
 | [2657. Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) | Medium | [C](./old-problems/2657/c/solution.c) [C++](./old-problems/2657/solution.cpp) |
 | [2658. Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/) | Medium | [C](./old-problems/2658/c/solution.c) [C++](./old-problems/2658/solution.cpp) |
 | [2661. First Completely Painted Row or Column](https://leetcode.com/problems/first-completely-painted-row-or-column/) | Medium | [C](./old-problems/2661/c/solution.c) [C++](./old-problems/2661/solution.cpp) |
