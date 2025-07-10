@@ -1,0 +1,24 @@
+name: 728. Self Dividing Numbers
+
+types:
+  inputs:
+    left: int
+    right: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: selfDividingNumbers
+
+test_cases:
+  example_1:
+    inputs:
+      left: 1
+      right: 22
+    output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 15, 22]
+
+  example_2:
+    inputs:
+      left: 47
+      right: 85
+    output: [48, 55, 66, 77]
