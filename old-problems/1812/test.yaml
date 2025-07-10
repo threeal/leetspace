@@ -1,0 +1,26 @@
+name: 1812. Determine Color of a Chessboard Square
+
+types:
+  inputs:
+    coordinates: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: squareIsWhite
+
+test_cases:
+  example_1:
+    inputs:
+      coordinates: a1
+    output: false
+
+  example_2:
+    inputs:
+      coordinates: h3
+    output: true
+
+  example_3:
+    inputs:
+      coordinates: c7
+    output: false
