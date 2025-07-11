@@ -1,0 +1,21 @@
+name: 2913. Subarrays Distinct Element Sum of Squares I
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: sumCounts
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 1]
+    output: 15
+
+  example_2:
+    inputs:
+      nums: [1, 1]
+    output: 3
