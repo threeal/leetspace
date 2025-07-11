@@ -22,3 +22,9 @@ test_cases:
       n: 3
       meetings: [[1, 20], [2, 10], [3, 5], [4, 9], [6, 8]]
     output: 1
+
+  test_case_47:
+    inputs:
+      n: 4
+      meetings: [[18, 19], [3, 12], [17, 19], [2, 13], [7, 10]]
+    output: 0
