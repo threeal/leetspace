@@ -3,6 +3,10 @@
 class Solution {
  public:
   int maximumXOR(std::vector<int>& nums) {
-    return nums.front();
+    int sum{0};
+    for (const int num : nums) {
+      sum |= num;
+    }
+    return sum;
   }
 };
