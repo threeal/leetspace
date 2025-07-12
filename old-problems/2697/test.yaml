@@ -1,0 +1,26 @@
+name: 2697. Lexicographically Smallest Palindrome
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: makeSmallestPalindrome
+
+test_cases:
+  example_1:
+    inputs:
+      s: egcfe
+    output: efcfe
+
+  example_2:
+    inputs:
+      s: abcd
+    output: abba
+
+  example_3:
+    inputs:
+      s: seven
+    output: neven
