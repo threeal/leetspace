@@ -1,0 +1,26 @@
+name: 135. Candy
+
+types:
+  inputs:
+    ratings: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: candy
+
+test_cases:
+  example_1:
+    inputs:
+      ratings: [1, 0, 2]
+    output: 5
+
+  example_2:
+    inputs:
+      ratings: [1, 2, 2]
+    output: 4
+
+  test_case_15:
+    inputs:
+      ratings: [1, 3, 2, 2, 1]
+    output: 7
