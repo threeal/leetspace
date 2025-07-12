@@ -636,6 +636,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1894. Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/) | Medium | [C](./old-problems/1894/c/solution.c) [C++](./old-problems/1894/solution.cpp) |
 | [1895. Largest Magic Square](https://leetcode.com/problems/largest-magic-square/) | Medium | [C](./old-problems/1895/c/solution.c) [C++](./old-problems/1895/solution.cpp) |
 | [1897. Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | Easy | [C](./old-problems/1897/c/solution.c) [C++](./old-problems/1897/solution.cpp) |
+| [1900. The Earliest and Latest Rounds Where Players Compete](https://leetcode.com/problems/the-earliest-and-latest-rounds-where-players-compete/) | Hard | [C++](./old-problems/1900/solution.cpp) |
 | [1903. Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | Easy | [C](./old-problems/1903/c/solution.c) [C++](./old-problems/1903/solution.cpp) |
 | [1904. The Number of Full Rounds You Have Played](https://leetcode.com/problems/the-number-of-full-rounds-you-have-played/) | Medium | [C](./old-problems/1904/c/solution.c) [C++](./old-problems/1904/solution.cpp) |
 | [1905. Count Sub Islands](https://leetcode.com/problems/count-sub-islands/) | Medium | [C](./old-problems/1905/c/solution.c) [C++](./old-problems/1905/solution.cpp) |
