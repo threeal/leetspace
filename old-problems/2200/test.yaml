@@ -1,0 +1,27 @@
+name: 2200. Find All K-Distant Indices in an Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+    key: int
+    k: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: findKDistantIndices
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [3, 4, 9, 1, 3, 9, 5]
+      key: 9
+      k: 1
+    output: [1, 2, 3, 4, 5, 6]
+
+  example_2:
+    inputs:
+      nums: [2, 2, 2, 2, 2]
+      key: 2
+      k: 2
+    output: [0, 1, 2, 3, 4]
