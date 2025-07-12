@@ -842,7 +842,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2684. Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/) | Medium | [C](./old-problems/2684/c/solution.c) [C++](./old-problems/2684/solution.cpp) |
 | [2685. Count the Number of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/) | Medium | [C++](./old-problems/2685/solution.cpp) |
 | [2696. Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) | Easy | [C](./old-problems/2696/c/solution.c) [C++](./old-problems/2696/solution.cpp) |
-| [2697. Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/) | Easy | [C++](./old-problems/2697/solution.cpp) |
+| [2697. Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/) | Easy | [C](./old-problems/2697/c/solution.c) [C++](./old-problems/2697/solution.cpp) |
 | [2698. Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/) | Medium | [C](./old-problems/2698/c/solution.c) [C++](./old-problems/2698/solution.cpp) |
 | [2706. Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/) | Easy | [C](./old-problems/2706/c/solution.c) [C++](./old-problems/2706/solution.cpp) |
 | [2707. Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | Medium | [C](./old-problems/2707/c/solution.c) [C++](./old-problems/2707/solution.cpp) |
