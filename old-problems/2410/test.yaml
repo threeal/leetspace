@@ -1,0 +1,24 @@
+name: 2410. Maximum Matching of Players With Trainers
+
+types:
+  inputs:
+    players: std::vector<int>
+    trainers: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: matchPlayersAndTrainers
+
+test_cases:
+  example_1:
+    inputs:
+      players: [4, 7, 9]
+      trainers: [8, 2, 5, 8]
+    output: 2
+
+  example_2:
+    inputs:
+      players: [1, 1, 1]
+      trainers: [10]
+    output: 1
