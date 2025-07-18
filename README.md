@@ -708,6 +708,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2149. Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/) | Medium | [C](./old-problems/2149/c/solution.c) [C++](./old-problems/2149/solution.cpp) |
 | [2160. Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | Easy | [C](./old-problems/2160/c/solution.c) [C++](./old-problems/2160/solution.cpp) |
 | [2161. Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | Medium | [C](./old-problems/2161/c/solution.c) [C++](./old-problems/2161/solution.cpp) |
+| [2163. Minimum Difference in Sums After Removal of Elements](https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/) | Hard | [C++](./old-problems/2163/solution.cpp) |
 | [2165. Smallest Value of the Rearranged Number](https://leetcode.com/problems/smallest-value-of-the-rearranged-number/) | Medium | [C](./old-problems/2165/c/solution.c) [C++](./old-problems/2165/solution.cpp) |
 | [2170. Minimum Operations to Make the Array Alternating](https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/) | Medium | [C++](./old-problems/2170/solution.cpp) |
 | [2176. Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/) | Easy | [C](./old-problems/2176/c/solution.c) [C++](./old-problems/2176/solution.cpp) |
