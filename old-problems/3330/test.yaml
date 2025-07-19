@@ -1,0 +1,26 @@
+name: 3330. Find the Original Typed String I
+
+types:
+  inputs:
+    word: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: possibleStringCount
+
+test_cases:
+  example_1:
+    inputs:
+      word: abbcccc
+    output: 5
+
+  example_2:
+    inputs:
+      word: abcd
+    output: 1
+
+  example_3:
+    inputs:
+      word: aaaa
+    output: 4
