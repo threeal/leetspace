@@ -1,3 +1,15 @@
 int sumOfUnique(int* nums, int numsSize) {
-  return nums[numsSize - 1];
+  int sum = 0, freqs[101] = {0};
+  for (int i = 0; i < numsSize; ++i) {
+    switch (++freqs[nums[i]]) {
+      case 1:
+        sum += nums[i];
+        break;
+
+      case 2:
+        sum -= nums[i];
+        break;
+    }
+  }
+  return sum;
 }
