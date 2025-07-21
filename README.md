@@ -591,7 +591,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1718. Construct the Lexicographically Largest Valid Sequence](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/) | Medium | [C](./old-problems/1718/c/solution.c) [C++](./old-problems/1718/solution.cpp) |
 | [1720. Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) | Easy | [C](./old-problems/1720/c/solution.c) [C++](./old-problems/1720/solution.cpp) |
 | [1723. Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/) | Hard | [C++](./problems/1723/solution.cpp) |
-| [1725. Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/) | Easy | [C++](./old-problems/1725/solution.cpp) |
+| [1725. Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/) | Easy | [C](./old-problems/1725/c/solution.c) [C++](./old-problems/1725/solution.cpp) |
 | [1726. Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/) | Medium | [C](./old-problems/1726/c/solution.c) [C++](./old-problems/1726/solution.cpp) |
 | [1727. Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/) | Medium | [C](./old-problems/1727/c/solution.c) [C++](./old-problems/1727/solution.cpp) |
 | [1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | Easy | [C](./old-problems/1732/c/solution.c) [C++](./old-problems/1732/solution.cpp) |
