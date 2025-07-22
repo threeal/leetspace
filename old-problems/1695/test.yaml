@@ -1,0 +1,21 @@
+name: 1695. Maximum Erasure Value
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maximumUniqueSubarray
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [4, 2, 4, 5, 6]
+    output: 17
+
+  example_2:
+    inputs:
+      nums: [5, 2, 1, 2, 5, 2, 1, 2, 5]
+    output: 8
