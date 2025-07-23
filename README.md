@@ -752,6 +752,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2348. Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | Medium | [C](./old-problems/2348/c/solution.c) [C++](./old-problems/2348/solution.cpp) |
 | [2351. First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/) | Easy | [C](./old-problems/2351/c/solution.c) [C++](./old-problems/2351/solution.cpp) |
 | [2353. Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/) | Medium | [C++](./old-problems/2353/solution.cpp) |
+| [2359. Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/) | Medium | [C++](./old-problems/2359/solution.cpp) |
 | [2364. Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/) | Medium | [C](./old-problems/2364/c/solution.c) [C++](./old-problems/2364/solution.cpp) |
 | [2367. Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/) | Easy | [C](./old-problems/2367/c/solution.c) [C++](./old-problems/2367/solution.cpp) |
 | [2370. Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/) | Medium | [C](./old-problems/2370/c/solution.c) [C++](./old-problems/2370/solution.cpp) |
