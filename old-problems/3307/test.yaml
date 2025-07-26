@@ -1,0 +1,24 @@
+name: 3307. Find the K-th Character in String Game II
+
+types:
+  inputs:
+    k: long long
+    operations: std::vector<int>
+  output: char
+
+solutions:
+  cpp:
+    function: kthCharacter
+
+test_cases:
+  example_1:
+    inputs:
+      k: 5
+      operations: [0, 0, 0]
+    output: 97
+
+  example_2:
+    inputs:
+      k: 10
+      operations: [0, 1, 0, 1]
+    output: 98
