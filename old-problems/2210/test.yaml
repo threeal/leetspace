@@ -1,0 +1,21 @@
+name: 2210. Count Hills and Valleys in an Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: countHillValley
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 4, 1, 1, 6, 5]
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [6, 6, 5, 5, 4, 1]
+    output: 0
