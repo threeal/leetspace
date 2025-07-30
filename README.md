@@ -729,6 +729,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | Easy | [C](./old-problems/2215/c/solution.c) [C++](./old-problems/2215/solution.cpp) |
 | [2216. Minimum Deletions to Make Array Beautiful](https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful/) | Medium | [C](./old-problems/2216/c/solution.c) [C++](./old-problems/2216/solution.cpp) |
 | [2220. Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/) | Easy | [C](./old-problems/2220/c/solution.c) [C++](./old-problems/2220/solution.cpp) |
+| [2221. Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/) | Medium | [C++](./old-problems/2221/solution.cpp) |
 | [2225. Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/) | Medium | [C++](./problems/2225/solution.cpp) |
 | [2232. Minimize Result by Adding Parentheses to Expression](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/) | Medium | [C](./old-problems/2232/c/solution.c) [C++](./old-problems/2232/solution.cpp) |
 | [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers) | Easy | [C](./old-problems/2235/c/solution.c) [C++](./old-problems/2235/solution.cpp) |
