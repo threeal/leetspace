@@ -955,6 +955,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3285. Find Indices of Stable Mountains](https://leetcode.com/problems/find-indices-of-stable-mountains/) | Easy | [C](./old-problems/3285/c/solution.c) [C++](./old-problems/3285/solution.cpp) |
 | [3289. The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | Easy | [C](./old-problems/3289/c/solution.c) [C++](./old-problems/3289/solution.cpp) |
 | [3300. Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | Easy | [C++](./old-problems/3300/solution.cpp) |
+| [3333. Find the Original Typed String II](https://leetcode.com/problems/find-the-original-typed-string-ii/) | Hard | [C++](./old-problems/3333/solution.cpp) |
 | [3335. Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/) | Medium | [C](./old-problems/3335/c/solution.c) [C++](./old-problems/3335/solution.cpp) |
 | [3337. Total Characters in String After Transformations II](https://leetcode.com/problems/total-characters-in-string-after-transformations-ii/) | Hard | [C++](./old-problems/3337/solution.cpp) |
 | [3340. Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | Easy | [C](./old-problems/3340/c/solution.c) [C++](./old-problems/3340/solution.cpp) |
