@@ -1,0 +1,21 @@
+name: 2960. Count Tested Devices After Test Operations
+
+types:
+  inputs:
+    batteryPercentages: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: countTestedDevices
+
+test_cases:
+  example_1:
+    inputs:
+      batteryPercentages: [1, 1, 2, 1, 3]
+    output: 3
+
+  example_2:
+    inputs:
+      batteryPercentages: [0, 1, 2]
+    output: 2
