@@ -695,6 +695,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2094. Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/) | Easy | [C](./old-problems/2094/c/solution.c) [C++](./old-problems/2094/solution.cpp) |
 | [2096. Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) | Medium | [C++](./old-problems/2096/solution.cpp) |
 | [2103. Rings and Rods](https://leetcode.com/problems/rings-and-rods/) | Easy | [C](./old-problems/2103/c/solution.c) [C++](./old-problems/2103/solution.cpp) |
+| [2106. Maximum Fruits Harvested After at Most K Steps](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/) | Hard | [C++](./old-problems/2106/solution.cpp) |
 | [2108. Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | Easy | [C](./old-problems/2108/c/solution.c) [C++](./old-problems/2108/solution.cpp) |
 | [2109. Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/) | Medium | [C](./old-problems/2109/c/solution.c) [C++](./old-problems/2109/solution.cpp) |
 | [2114. Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | Easy | [C](./old-problems/2114/c/solution.c) [C++](./old-problems/2114/solution.cpp) |
