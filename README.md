@@ -748,6 +748,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2302. Count Subarrays With Score Less Than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/) | Hard | [C](./old-problems/2302/c/solution.c) [C++](./old-problems/2302/solution.cpp) |
 | [2315. Count Asterisks](https://leetcode.com/problems/count-asterisks/) | Easy | [C](./old-problems/2315/c/solution.c) [C++](./old-problems/2315/solution.cpp) |
 | [2317. Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations/) | Medium | [C++](./old-problems/2317/solution.cpp) |
+| [2322. Minimum Score After Removals on a Tree](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/) | Hard | [C++](./old-problems/2322/solution.cpp) |
 | [2325. Decode the Message](https://leetcode.com/problems/decode-the-message/) | Easy | [C](./old-problems/2325/c/solution.c) [C++](./old-problems/2325/solution.cpp) |
 | [2326. Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/) | Medium | [C++](./old-problems/2326/solution.cpp) |
 | [2331. Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | Easy | [C++](./old-problems/2331/solution.cpp) |
