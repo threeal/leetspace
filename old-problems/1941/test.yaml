@@ -1,0 +1,21 @@
+name: 1941. Check if All Characters Have Equal Number of Occurrences
+
+types:
+  inputs:
+    s: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: areOccurrencesEqual
+
+test_cases:
+  example_1:
+    inputs:
+      s: abacbc
+    output: true
+
+  example_2:
+    inputs:
+      s: aaabb
+    output: false
