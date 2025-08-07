@@ -1,0 +1,21 @@
+name: 3363. Find the Maximum Number of Fruits Collected
+
+types:
+  inputs:
+    fruits: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: maxCollectedFruits
+
+test_cases:
+  example_1:
+    inputs:
+      fruits: [[1, 2, 3, 4], [5, 6, 8, 7], [9, 10, 11, 12], [13, 14, 15, 16]]
+    output: 100
+
+  example_2:
+    inputs:
+      fruits: [[1, 1], [1, 1]]
+    output: 4
