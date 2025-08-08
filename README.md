@@ -460,7 +460,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1290. Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Easy | [C++](./old-problems/1290/solution.cpp) |
 | [1291. Sequential Digits](https://leetcode.com/problems/sequential-digits/) | Medium | [C](./old-problems/1291/c/solution.c) [C++](./old-problems/1291/solution.cpp) |
 | [1295. Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | Easy | [C](./old-problems/1295/c/solution.c) [C++](./old-problems/1295/solution.cpp) |
-| [1298. Maximum Candies You Can Get from Boxes](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/) | Hard | [C++](./old-problems/1298/solution.cpp) |
+| [1298. Maximum Candies You Can Get from Boxes](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/) | Hard | [C](./old-problems/1298/c/solution.c) [C++](./old-problems/1298/solution.cpp) |
 | [1299. Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | Easy | [C](./old-problems/1299/c/solution.c) [C++](./old-problems/1299/solution.cpp) |
 | [1302. Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | Medium | [C++](./old-problems/1302/solution.cpp) |
 | [1305. All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) | Medium | [C++](./old-problems/1305/solution.cpp) |
