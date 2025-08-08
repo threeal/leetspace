@@ -3,21 +3,19 @@
 class Solution {
  public:
   int longestSubarray(std::vector<int>& nums) {
-    int maxConsecutive{0};
-    int maxNum{0};
-    for (std::size_t i{0}; i < nums.size(); ++i) {
-      if (nums[i] < maxNum) continue;
-      if (nums[i] > maxNum) {
-        maxNum = nums[i];
+    int consecutive{0}, maxConsecutive{0}, maxNum{0};
+    for (const int num : nums) {
+      if (num < maxNum) {
+        consecutive = 0;
+      } else if (num > maxNum) {
+        consecutive = 1;
         maxConsecutive = 1;
-        for (++i; i < nums.size() && nums[i] == maxNum; ++i) ++maxConsecutive;
-        --i;
+        maxNum = num;
       } else {
-        maxNum = nums[i];
-        int consecutive{1};
-        for (++i; i < nums.size() && nums[i] == maxNum; ++i) ++consecutive;
-        if (consecutive > maxConsecutive) maxConsecutive = consecutive;
-        --i;
+        ++consecutive;
+        if (consecutive > maxConsecutive) {
+          maxConsecutive = consecutive;
+        }
       }
     }
     return maxConsecutive;
