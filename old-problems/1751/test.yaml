@@ -1,0 +1,38 @@
+name: 1751. Maximum Number of Events That Can Be Attended II
+
+types:
+  inputs:
+    events: std::vector<std::vector<int>>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: maxValue
+
+test_cases:
+  example_1:
+    inputs:
+      events: [[1, 2, 4], [3, 4, 3], [2, 3, 1]]
+      k: 2
+    output: 7
+
+  example_2:
+    inputs:
+      events: [[1, 2, 4], [3, 4, 3], [2, 3, 10]]
+      k: 2
+    output: 10
+
+  example_3:
+    inputs:
+      events: [[1, 1, 1], [2, 2, 2], [3, 3, 3], [4, 4, 4]]
+      k: 3
+    output: 9
+
+  test_case_28:
+    inputs:
+      events: [
+        [87, 95, 42], [3, 42, 37], [20, 42, 100], [53, 84, 80], [10, 88, 38],
+        [25, 80, 57], [18, 38, 33]]
+      k: 3
+    output: 222
