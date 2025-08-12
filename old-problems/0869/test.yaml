@@ -1,0 +1,21 @@
+name: 869. Reordered Power of 2
+
+types:
+  inputs:
+    n: int
+  output: bool
+
+solutions:
+  cpp:
+    function: reorderedPowerOf2
+
+test_cases:
+  example_1:
+    inputs:
+      n: 1
+    output: true
+
+  example_2:
+    inputs:
+      n: 10
+    output: false
