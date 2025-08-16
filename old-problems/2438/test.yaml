@@ -1,0 +1,24 @@
+name: 2438. Range Product Queries of Powers
+
+types:
+  inputs:
+    n: int
+    queries: std::vector<std::vector<int>>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: productQueries
+
+test_cases:
+  example_1:
+    inputs:
+      n: 15
+      queries: [[0, 1], [2, 2], [0, 3]]
+    output: [2, 4, 64]
+
+  example_2:
+    inputs:
+      n: 2
+      queries: [[0, 0]]
+    output: [2]
