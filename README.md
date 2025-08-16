@@ -943,7 +943,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3162. Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/) | Easy | [C](./old-problems/3162/c/solution.c) [C++](./old-problems/3162/solution.cpp) |
 | [3174. Clear Digits](https://leetcode.com/problems/clear-digits/) | Easy | [C](./old-problems/3174/c/solution.c) [C++](./old-problems/3174/solution.cpp) |
 | [3163. String Compression III](https://leetcode.com/problems/string-compression-iii/description/) | Medium | [C](./old-problems/3163/c/solution.c) [C++](./old-problems/3163/solution.cpp) |
-| [3168. Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/) | Easy | [C++](./old-problems/3168/solution.cpp) |
+| [3168. Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/) | Easy | [C](./old-problems/3168/c/solution.c) [C++](./old-problems/3168/solution.cpp) |
 | [3169. Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings/description/) | Medium | [C](./old-problems/3169/c/solution.c) [C++](./old-problems/3169/solution.cpp) |
 | [3190. Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/) | Easy | [C++](./old-problems/3190/solution.cpp) |
 | [3191. Minimum Operations to Make Binary Array Elements Equal to One I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i/) | Medium | [C](./old-problems/3191/c/solution.c) [C++](./old-problems/3191/solution.cpp) |
