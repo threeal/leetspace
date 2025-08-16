@@ -1,0 +1,26 @@
+name: 1374. Generate a String With Characters That Have Odd Counts
+
+types:
+  inputs:
+    n: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: generateTheString
+
+test_cases:
+  example_1:
+    inputs:
+      n: 4
+    output: baaa
+
+  example_2:
+    inputs:
+      n: 2
+    output: ba
+
+  example_3:
+    inputs:
+      n: 7
+    output: aaaaaaa
