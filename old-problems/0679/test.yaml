@@ -19,3 +19,8 @@ test_cases:
     inputs:
       cards: [1, 2, 1, 2]
     output: false
+
+  test_case_61:
+    inputs:
+      cards: [3, 9, 7, 7]
+    output: true
