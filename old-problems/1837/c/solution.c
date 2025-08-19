@@ -1,3 +1,8 @@
 int sumBase(int n, int k) {
-  return n + k;
+  int sum = 0;
+  while (n > 0) {
+    sum += n % k;
+    n /= k;
+  }
+  return sum;
 }
