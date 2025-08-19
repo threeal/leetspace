@@ -1,0 +1,26 @@
+name: 961. N-Repeated Element in Size 2N Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: repeatedNTimes
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3, 3]
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [2, 1, 2, 5, 3, 2]
+    output: 2
+
+  example_3:
+    inputs:
+      nums: [5, 1, 5, 2, 5, 3, 5, 4]
+    output: 5
