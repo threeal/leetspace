@@ -630,7 +630,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1828. Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/) | Medium | [C](./old-problems/1828/c/solution.c) [C++](./old-problems/1828/solution.cpp) |
 | [1829. Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/) | Medium | [C](./old-problems/1829/c/solution.c) [C++](./old-problems/1829/solution.cpp) |
 | [1832. Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | Easy | [C](./old-problems/1832/c/solution.c) [C++](./old-problems/1832/solution.cpp) |
-| [1837. Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/) | Easy | [C++](./old-problems/1837/solution.cpp) |
+| [1837. Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/) | Easy | [C](./old-problems/1837/c/solution.c) [C++](./old-problems/1837/solution.cpp) |
 | [1838. Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/) | Medium | [C++](./problems/1838/solution.cpp) |
 | [1844. Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/) | Easy | [C](./old-problems/1844/c/solution.c) [C++](./old-problems/1844/solution.cpp) |
 | [1845. Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/) | Medium | [C++](./old-problems/1845/solution.cpp) |
