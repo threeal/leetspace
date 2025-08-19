@@ -864,6 +864,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2706. Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/) | Easy | [C](./old-problems/2706/c/solution.c) [C++](./old-problems/2706/solution.cpp) |
 | [2707. Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | Medium | [C](./old-problems/2707/c/solution.c) [C++](./old-problems/2707/solution.cpp) |
 | [2710. Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | Easy | [C](./old-problems/2710/c/solution.c) [C++](./old-problems/2710/solution.cpp) |
+| [2716. Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | Easy | [C++](./old-problems/2716/solution.cpp) |
 | [2742. Painting the Walls](https://leetcode.com/problems/painting-the-walls) | Hard | [C++](./problems/2742/solution.cpp) |
 | [2744. Find Maximum Number of String Pairs](https://leetcode.com/problems/find-maximum-number-of-string-pairs/) | Easy | [C](./old-problems/2744/c/solution.c) [C++](./old-problems/2744/solution.cpp) |
 | [2747. Count Zero Request Servers](https://leetcode.com/problems/count-zero-request-servers/) | Medium | [C](./old-problems/2747/c/solution.c) [C++](./old-problems/2747/solution.cpp) |
