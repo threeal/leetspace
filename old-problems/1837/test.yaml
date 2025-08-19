@@ -1,0 +1,24 @@
+name: 1837. Sum of Digits in Base K
+
+types:
+  inputs:
+    n: int
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: sumBase
+
+test_cases:
+  example_1:
+    inputs:
+      n: 34
+      k: 6
+    output: 9
+
+  example_2:
+    inputs:
+      n: 10
+      k: 10
+    output: 1
