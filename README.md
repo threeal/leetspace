@@ -781,7 +781,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2938. Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/) | Medium | [C++](./old-problems/2938/solution.cpp) |
 | [2942. Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | Easy | [C](./old-problems/2942/c/solution.c) [C++](./old-problems/2942/solution.cpp) |
 | [2401. Longest Nice Subarray](https://leetcode.com/problems/longest-nice-subarray/) | Medium | [C](./old-problems/2401/c/solution.c) [C++](./old-problems/2401/solution.cpp) |
-| [2405. Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/) | Medium | [C++](./old-problems/2405/solution.cpp) |
+| [2405. Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/) | Medium | [C](./old-problems/2405/c/solution.c) [C++](./old-problems/2405/solution.cpp) |
 | [2406. Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/) | Medium | [C](./old-problems/2406/c/solution.c) [C++](./old-problems/2406/solution.cpp) |
 | [2413. Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | Easy | [C](./old-problems/2413/c/solution.c) [C++](./old-problems/2413/solution.cpp) |
 | [2415. Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | Medium | [C++](./old-problems/2415/solution.cpp) |
