@@ -837,7 +837,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2559. Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/) | Medium | [C](./old-problems/2559/c/solution.c) [C++](./old-problems/2559/solution.cpp) |
 | [2560. House Robber IV](https://leetcode.com/problems/house-robber-iv/) | Medium | [C](./old-problems/2560/c/solution.c) [C++](./old-problems/2560/solution.cpp) |
 | [2563. Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs/) | Medium | [C](./old-problems/2563/c/solution.c) [C++](./old-problems/2563/solution.cpp) |
-| [2566. Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/) | Easy | [C++](./old-problems/2566/solution.cpp) |
+| [2566. Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/) | Easy | [C](./old-problems/2566/c/solution.c) [C++](./old-problems/2566/solution.cpp) |
 | [2570. Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) | Easy | [C](./old-problems/2570/c/solution.c) [C++](./old-problems/2570/solution.cpp) |
 | [2574. Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | Easy | [C](./old-problems/2574/c/solution.c) [C++](./old-problems/2574/solution.cpp) |
 | [2577. Minimum Time to Visit a Cell In a Grid](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/) | Hard | [C++](./problems/2577/solution.cpp) |
