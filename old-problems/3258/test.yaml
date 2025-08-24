@@ -1,0 +1,30 @@
+name: 3258. Count Substrings That Satisfy K-Constraint I
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: countKConstraintSubstrings
+
+test_cases:
+  example_1:
+    inputs:
+      s: "10101"
+      k: 1
+    output: 12
+
+  example_2:
+    inputs:
+      s: "1010101"
+      k: 2
+    output: 25
+
+  example_3:
+    inputs:
+      s: "11111"
+      k: 1
+    output: 15
