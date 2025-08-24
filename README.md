@@ -525,6 +525,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1481. Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | Medium | [C++](./problems/1481/solution.cpp) |
 | [1482. Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | Medium | [C](./old-problems/1482/c/solution.c) [C++](./old-problems/1482/solution.cpp) |
 | [1486. XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | Easy | [C](./old-problems/1486/c/solution.c) [C++](./old-problems/1486/solution.cpp) |
+| [1493. Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | Medium | [C++](./old-problems/1493/solution.cpp) |
 | [1496. Path Crossing](https://leetcode.com/problems/path-crossing/) | Easy | [C++](./problems/1496/solution.cpp) |
 | [1497. Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | Medium | [C](./old-problems/1497/c/solution.c) [C++](./old-problems/1497/solution.cpp) |
 | [1503. Last Moment Before All Ants Fall Out of a Plank](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank) | Medium | [C](./old-problems/1503/c/solution.c) [C++](./old-problems/1503/solution.cpp) |
