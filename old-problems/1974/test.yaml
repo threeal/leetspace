@@ -1,0 +1,26 @@
+name: 1974. Minimum Time to Type Word Using Special Typewriter
+
+types:
+  inputs:
+    word: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minTimeToType
+
+test_cases:
+  example_1:
+    inputs:
+      word: abc
+    output: 5
+
+  example_2:
+    inputs:
+      word: bza
+    output: 7
+
+  test_case_29:
+    inputs:
+      word: zjpc
+    output: 34
