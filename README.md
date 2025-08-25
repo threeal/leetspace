@@ -938,7 +938,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3066. Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/) | Medium | [C++](./problems/3066/solution.cpp) |
 | [3068. Find the Maximum Sum of Node Values](https://leetcode.com/problems/find-the-maximum-sum-of-node-values/) | Hard | [C](./old-problems/3068/c/solution.c) [C++](./old-problems/3068/solution.cpp) |
 | [3075. Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/) | Medium | [C](./old-problems/3075/c/solution.c) [C++](./old-problems/3075/solution.cpp) |
-| [3085. Minimum Deletions to Make String K-Special](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/) | Medium | [C++](./old-problems/3085/solution.cpp) |
+| [3085. Minimum Deletions to Make String K-Special](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/) | Medium | [C](./old-problems/3085/c/solution.c) [C++](./old-problems/3085/solution.cpp) |
 | [3097. Shortest Subarray With OR at Least K II](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/) | Medium | [C](./old-problems/3097/c/solution.c) [C++](./old-problems/3097/solution.cpp) |
 | [3099. Harshad Number](https://leetcode.com/problems/harshad-number/) | Easy | [C](./old-problems/3099/c/solution.c) [C++](./old-problems/3099/solution.cpp) |
 | [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/) | Easy | [C](./old-problems/3105/c/solution.c) [C++](./old-problems/3105/solution.cpp) |
