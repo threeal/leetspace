@@ -1,0 +1,30 @@
+name: 3085. Minimum Deletions to Make String K-Special
+
+types:
+  inputs:
+    word: std::string
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: minimumDeletions
+
+test_cases:
+  example_1:
+    inputs:
+      word: aabcaba
+      k: 0
+    output: 3
+
+  example_2:
+    inputs:
+      word: dabdcbdcdcd
+      k: 2
+    output: 2
+
+  example_3:
+    inputs:
+      word: aaabaaa
+      k: 2
+    output: 1
