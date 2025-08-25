@@ -1,0 +1,30 @@
+name: 2081. Sum of k-Mirror Numbers
+
+types:
+  inputs:
+    k: int
+    n: int
+  output: long long
+
+solutions:
+  cpp:
+    function: kMirror
+
+test_cases:
+  example_1:
+    inputs:
+      k: 2
+      n: 5
+    output: 25
+
+  example_2:
+    inputs:
+      k: 3
+      n: 7
+    output: 499
+
+  example_3:
+    inputs:
+      k: 7
+      n: 17
+    output: 20379000
