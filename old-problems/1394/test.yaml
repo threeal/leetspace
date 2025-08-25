@@ -1,0 +1,26 @@
+name: 1394. Find Lucky Integer in an Array
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: findLucky
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [2, 2, 3, 4]
+    output: 2
+
+  example_2:
+    inputs:
+      arr: [1, 2, 2, 3, 3, 3]
+    output: 3
+
+  example_3:
+    inputs:
+      arr: [2, 2, 2, 3, 3]
+    output: -1
