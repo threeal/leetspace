@@ -1,0 +1,24 @@
+name: 2311. Longest Binary Subsequence Less Than or Equal to K
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: longestSubsequence
+
+test_cases:
+  example_1:
+    inputs:
+      s: "1001010"
+      k: 5
+    output: 5
+
+  example_2:
+    inputs:
+      s: "00101001"
+      k: 1
+    output: 6
