@@ -1,0 +1,30 @@
+name: 2294. Partition Array Such That Maximum Difference Is K
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: partitionArray
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [3, 6, 1, 2, 5]
+      k: 2
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [1, 2, 3]
+      k: 1
+    output: 2
+
+  example_3:
+    inputs:
+      nums: [2, 2, 4, 5]
+      k: 0
+    output: 3
