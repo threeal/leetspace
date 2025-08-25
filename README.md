@@ -328,6 +328,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [827. Making A Large Island](https://leetcode.com/problems/making-a-large-island/) | Hard | [C++](./old-problems/0827/solution.cpp) |
 | [832. Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | Easy | [C++](./old-problems/0832/solution.cpp) |
 | [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/) | Hard | [C](./old-problems/0834/c/solution.c) [C++](./old-problems/0834/solution.cpp) |
+| [837. New 21 Game](https://leetcode.com/problems/new-21-game/) | Medium | [C++](./old-problems/0837/solution.cpp) |
 | [838. Push Dominoes](https://leetcode.com/problems/push-dominoes/) | Medium | [C](./old-problems/0838/c/solution.c) [C++](./old-problems/0838/solution.cpp) |
 | [840. Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/) | Medium | [C](./old-problems/0840/c/solution.c) [C++](./old-problems/0840/solution.cpp) |
 | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | Easy | [C++](./problems/0844/solution.cpp) |
