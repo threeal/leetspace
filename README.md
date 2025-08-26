@@ -970,7 +970,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3243. Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/) | Medium | [C++](./problems/3243/solution.cpp) |
 | [3248. Snake in Matrix](https://leetcode.com/problems/snake-in-matrix/) | Easy | [C](./old-problems/3248/c/solution.c) [C++](./old-problems/3248/solution.cpp) |
 | [3254. Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/) | Medium | [C](./old-problems/3254/c/solution.c) [C++](./old-problems/3254/solution.cpp) |
-| [3258. Count Substrings That Satisfy K-Constraint I](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/) | Easy | [C++](./old-problems/3258/solution.cpp) |
+| [3258. Count Substrings That Satisfy K-Constraint I](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/) | Easy | [C](./old-problems/3258/c/solution.c) [C++](./old-problems/3258/solution.cpp) |
 | [3264. Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/) | Easy | [C](./old-problems/3264/c/solution.c) [C++](./old-problems/3264/solution.cpp) |
 | [3270. Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/) | Easy | [C](./old-problems/3270/c/solution.c) [C++](./old-problems/3270/solution.cpp) |
 | [3271. Hash Divided String](https://leetcode.com/problems/hash-divided-string/) | Medium | [C](./old-problems/3271/c/solution.c) [C++](./old-problems/3271/solution.cpp) |
