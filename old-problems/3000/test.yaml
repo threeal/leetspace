@@ -19,3 +19,8 @@ test_cases:
     inputs:
       dimensions: [[3, 4], [4, 3]]
     output: 12
+
+  test_case_753:
+    inputs:
+      dimensions: [[6, 5], [8, 6], [2, 10], [8, 1], [9, 2], [3, 5], [3, 5]]
+    output: 20
