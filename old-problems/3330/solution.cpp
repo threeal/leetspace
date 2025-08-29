@@ -3,6 +3,10 @@
 class Solution {
  public:
   int possibleStringCount(std::string word) {
-    return word.size();
+    int sum{1};
+    for (std::size_t i{1}; i < word.size(); ++i) {
+      if (word[i] == word[i - 1]) ++sum;
+    }
+    return sum;
   }
 };
