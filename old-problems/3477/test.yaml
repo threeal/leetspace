@@ -1,0 +1,24 @@
+name: 3477. Fruits Into Baskets II
+
+types:
+  inputs:
+    fruits: std::vector<int>
+    baskets: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: numOfUnplacedFruits
+
+test_cases:
+  example_1:
+    inputs:
+      fruits: [4, 2, 5]
+      baskets: [3, 5, 4]
+    output: 1
+
+  example_2:
+    inputs:
+      fruits: [3, 6, 1]
+      baskets: [6, 4, 7]
+    output: 0
