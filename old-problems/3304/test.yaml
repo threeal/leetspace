@@ -1,0 +1,21 @@
+name: 3304. Find the K-th Character in String Game I
+
+types:
+  inputs:
+    k: int
+  output: char
+
+solutions:
+  cpp:
+    function: kthCharacter
+
+test_cases:
+  example_1:
+    inputs:
+      k: 5
+    output: 98
+
+  example_2:
+    inputs:
+      k: 10
+    output: 99
