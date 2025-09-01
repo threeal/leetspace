@@ -1,0 +1,27 @@
+name: 2138. Divide a String Into Groups of Size k
+
+types:
+  inputs:
+    s: std::string
+    k: int
+    fill: char
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: divideString
+
+test_cases:
+  example_1:
+    inputs:
+      s: abcdefghi
+      k: 3
+      fill: 120
+    output: [abc, def, ghi]
+
+  example_2:
+    inputs:
+      s: abcdefghij
+      k: 3
+      fill: 120
+    output: [abc, def, ghi, jxx]
