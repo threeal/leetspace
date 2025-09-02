@@ -956,7 +956,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3110. Score of a String](https://leetcode.com/problems/score-of-a-string/) | Easy | [C](./old-problems/3110/c/solution.c) [C++](./old-problems/3110/solution.cpp) |
 | [3131. Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/) | Easy | [C](./old-problems/3131/c/solution.c) [C++](./old-problems/3131/solution.cpp) |
 | [3133. Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | Medium | [C](./old-problems/3133/c/solution.c) [C++](./old-problems/3133/solution.cpp) |
-| [3136. Valid Word](https://leetcode.com/problems/valid-word/) | Easy | [C++](./old-problems/3136/solution.cpp) |
+| [3136. Valid Word](https://leetcode.com/problems/valid-word/) | Easy | [C](./old-problems/3136/c/solution.c) [C++](./old-problems/3136/solution.cpp) |
 | [3137. Minimum Number of Operations to Make Word K-Periodic](https://leetcode.com/problems/minimum-number-of-operations-to-make-word-k-periodic/) | Medium | [C++](./old-problems/3137/solution.cpp) |
 | [3146. Permutation Difference between Two Strings](https://leetcode.com/problems/permutation-difference-between-two-strings/) | Easy | [C](./old-problems/3146/c/solution.c) [C++](./old-problems/3146/solution.cpp) |
 | [3151. Special Array I](https://leetcode.com/problems/special-array-i/) | Easy | [C](./old-problems/3151/c/solution.c) [C++](./old-problems/3151/solution.cpp) |
