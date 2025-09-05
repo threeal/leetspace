@@ -1,0 +1,34 @@
+name: 837. New 21 Game
+
+types:
+  inputs:
+    n: int
+    k: int
+    maxPts: int
+  output: double
+
+solutions:
+  cpp:
+    function: new21Game
+
+test_cases:
+  example_1:
+    inputs:
+      n: 10
+      k: 1
+      maxPts: 10
+    output: 1.00000
+
+  example_2:
+    inputs:
+      n: 6
+      k: 1
+      maxPts: 10
+    output: 0.60000
+
+  example_3:
+    inputs:
+      n: 21
+      k: 17
+      maxPts: 10
+    output: 0.73278
