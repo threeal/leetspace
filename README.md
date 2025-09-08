@@ -1011,6 +1011,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3443. Maximum Manhattan Distance After K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/) | Medium | [C](./old-problems/3443/c/solution.c) [C++](./old-problems/3443/solution.cpp) |
 | [3445. Maximum Difference Between Even and Odd Frequency II](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii/) | Hard | [C](./old-problems/3445/c/solution.c) [C++](./old-problems/3445/solution.cpp) |
 | [3467. Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | Easy | [C](./old-problems/3467/c/solution.c) [C++](./old-problems/3467/solution.cpp) |
+| [3495. Minimum Operations to Make Array Elements Zero](https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero/) | Hard | [C++](./old-problems/3495/solution.cpp) |
 | [3498. Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/) | Easy | [C](./old-problems/3498/c/solution.c) [C++](./old-problems/3498/solution.cpp) |
 | [3502. Minimum Cost to Reach Every Position](https://leetcode.com/problems/minimum-cost-to-reach-every-position/) | Easy | [C](./old-problems/3502/c/solution.c) [C++](./old-problems/3502/solution.cpp) |
 | [3512. Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | Easy | [C](./old-problems/3512/c/solution.c) [C++](./old-problems/3512/solution.cpp) |
