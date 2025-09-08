@@ -1,0 +1,30 @@
+name: 2099. Find Subsequence of Length K With the Largest Sum
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: maxSubsequence
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 1, 3, 3]
+      k: 2
+    output: [3, 3]
+
+  example_2:
+    inputs:
+      nums: [-1, -2, 3, 4]
+      k: 3
+    output: [-1, 3, 4]
+
+  example_3:
+    inputs:
+      nums: [3, 4, 3, 3]
+      k: 2
+    output: [3, 4]
