@@ -264,7 +264,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [587. Erect the Fence](https://leetcode.com/problems/erect-the-fence/) | Hard | [C++](./old-problems/0587/solution.cpp) |
 | [590. N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | Easy | [C++](./old-problems/0590/solution.cpp) |
 | [592. Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/) | Medium | [C](./old-problems/0592/c/solution.c) [C++](./old-problems/0592/solution.cpp) |
-| [594. Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) | Easy | [C++](./old-problems/0594/solution.cpp) |
+| [594. Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) | Easy | [C](./old-problems/0594/c/solution.c) [C++](./old-problems/0594/solution.cpp) |
 | [598. Range Addition II](https://leetcode.com/problems/range-addition-ii/) | Easy | [C](./old-problems/0598/c/solution.c) [C++](./old-problems/0598/solution.cpp) |
 | [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | Easy | [C++](./old-problems/0605/solution.cpp) |
 | [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | Easy | [C++](./old-problems/0606/solution.cpp) |
