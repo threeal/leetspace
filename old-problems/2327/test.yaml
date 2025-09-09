@@ -25,3 +25,10 @@ test_cases:
       delay: 1
       forget: 3
     output: 6
+
+  test_case_10:
+    inputs:
+      n: 684
+      delay: 18
+      forget: 496
+    output: 653668527
