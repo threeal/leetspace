@@ -772,6 +772,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2317. Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations/) | Medium | [C](./old-problems/2317/c/solution.c) [C++](./old-problems/2317/solution.cpp) |
 | [2325. Decode the Message](https://leetcode.com/problems/decode-the-message/) | Easy | [C](./old-problems/2325/c/solution.c) [C++](./old-problems/2325/solution.cpp) |
 | [2326. Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/) | Medium | [C++](./old-problems/2326/solution.cpp) |
+| [2327. Number of People Aware of a Secret](https://leetcode.com/problems/number-of-people-aware-of-a-secret/) | Medium | [C++](./old-problems/2327/solution.cpp) |
 | [2331. Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | Easy | [C++](./old-problems/2331/solution.cpp) |
 | [2337. Move Pieces to Obtain a String](https://leetcode.com/problems/move-pieces-to-obtain-a-string/) | Medium | [C](./old-problems/2337/c/solution.c) [C++](./old-problems/2337/solution.cpp) |
 | [2342. Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | Medium | [C](./old-problems/2342/c/solution.c) [C++](./old-problems/2342/solution.cpp) |
