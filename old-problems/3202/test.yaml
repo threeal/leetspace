@@ -1,0 +1,24 @@
+name: 3202. Find the Maximum Length of Valid Subsequence II
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: maximumLength
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3, 4, 5]
+      k: 2
+    output: 5
+
+  example_2:
+    inputs:
+      nums: [1, 4, 2, 3, 1, 4]
+      k: 3
+    output: 4
