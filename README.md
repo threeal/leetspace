@@ -289,6 +289,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [664. Strange Printer](https://leetcode.com/problems/strange-printer/) | Hard | [C](./old-problems/0664/c/solution.c) [C++](./old-problems/0664/solution.cpp) |
 | [670. Maximum Swap](https://leetcode.com/problems/maximum-swap/) | Medium | [C](./old-problems/0670/c/solution.c) [C++](./old-problems/0670/solution.cpp) |
 | [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | [C](./old-problems/0678/c/solution.c) [C++](./old-problems/0678/solution.cpp) |
+| [679. 24 Game](https://leetcode.com/problems/24-game/) | Hard | [C++](./old-problems/0679/solution.cpp) |
 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | [C](./old-problems/0680/c/solution.c) [C++](./old-problems/0680/solution.cpp) |
 | [682. Baseball Game](https://leetcode.com/problems/baseball-game/) | Easy | [C](./old-problems/0682/c/solution.c) [C++](./old-problems/0682/solution.cpp) |
 | [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) | Medium | [C](./old-problems/0684/c/solution.c) [C++](./old-problems/0684/solution.cpp) |
