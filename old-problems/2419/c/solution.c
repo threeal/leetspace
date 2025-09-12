@@ -1,19 +1,17 @@
 int longestSubarray(int* nums, int numsSize) {
-  int maxConsecutive = 0;
-  int maxNum = 0;
+  int consecutive = 0, maxConsecutive = 0, maxNum = 0;
   for (int i = 0; i < numsSize; ++i) {
-    if (nums[i] < maxNum) continue;
-    if (nums[i] > maxNum) {
-      maxNum = nums[i];
+    if (nums[i] < maxNum) {
+      consecutive = 0;
+    } else if (nums[i] > maxNum) {
+      consecutive = 1;
       maxConsecutive = 1;
-      for (++i; i < numsSize && nums[i] == maxNum; ++i) ++maxConsecutive;
-      --i;
-    } else {
       maxNum = nums[i];
-      int consecutive = 1;
-      for (++i; i < numsSize && nums[i] == maxNum; ++i) ++consecutive;
-      if (consecutive > maxConsecutive) maxConsecutive = consecutive;
-      --i;
+    } else {
+      ++consecutive;
+      if (consecutive > maxConsecutive) {
+        maxConsecutive = consecutive;
+      }
     }
   }
   return maxConsecutive;
