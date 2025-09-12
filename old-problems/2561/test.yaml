@@ -1,0 +1,24 @@
+name: 2561. Rearranging Fruits
+
+types:
+  inputs:
+    basket1: std::vector<int>
+    basket2: std::vector<int>
+  output: long long
+
+solutions:
+  cpp:
+    function: minCost
+
+test_cases:
+  example_1:
+    inputs:
+      basket1: [4, 2, 2, 2]
+      basket2: [1, 4, 1, 2]
+    output: 1
+
+  example_2:
+    inputs:
+      basket1: [2, 3, 4, 1]
+      basket2: [3, 2, 5, 1]
+    output: -1
