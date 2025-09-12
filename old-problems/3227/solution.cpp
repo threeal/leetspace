@@ -3,6 +3,16 @@
 class Solution {
  public:
   bool doesAliceWin(std::string s) {
-    return s.empty();
+    for (const char c : s) {
+      switch (c) {
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
+          return true;
+      }
+    }
+    return false;
   }
 };
