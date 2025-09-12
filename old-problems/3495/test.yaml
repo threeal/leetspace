@@ -1,0 +1,21 @@
+name: 3495. Minimum Operations to Make Array Elements Zero
+
+types:
+  inputs:
+    queries: std::vector<std::vector<int>>
+  output: long long
+
+solutions:
+  cpp:
+    function: minOperations
+
+test_cases:
+  example_1:
+    inputs:
+      queries: [[1, 2], [2, 4]]
+    output: 3
+
+  example_2:
+    inputs:
+      queries: [[2, 6]]
+    output: 4
