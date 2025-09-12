@@ -1,0 +1,21 @@
+name: 3227. Vowels Game in a String
+
+types:
+  inputs:
+    s: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: doesAliceWin
+
+test_cases:
+  example_1:
+    inputs:
+      s: leetcoder
+    output: true
+
+  example_2:
+    inputs:
+      s: bbcd
+    output: false
