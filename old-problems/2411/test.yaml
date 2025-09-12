@@ -1,0 +1,21 @@
+name: 2411. Smallest Subarrays With Maximum Bitwise OR
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: smallestSubarrays
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 0, 2, 1, 3]
+    output: [3, 3, 2, 2, 1]
+
+  example_2:
+    inputs:
+      nums: [1, 2]
+    output: [2, 1]
