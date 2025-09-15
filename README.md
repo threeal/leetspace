@@ -797,6 +797,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2938. Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/) | Medium | [C++](./old-problems/2938/solution.cpp) |
 | [2942. Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | Easy | [C](./old-problems/2942/c/solution.c) [C++](./old-problems/2942/solution.cpp) |
 | [2401. Longest Nice Subarray](https://leetcode.com/problems/longest-nice-subarray/) | Medium | [C](./old-problems/2401/c/solution.c) [C++](./old-problems/2401/solution.cpp) |
+| [2402. Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/) | Hard | [C++](./old-problems/2402/solution.cpp) |
 | [2405. Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/) | Medium | [C](./old-problems/2405/c/solution.c) [C++](./old-problems/2405/solution.cpp) |
 | [2406. Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/) | Medium | [C](./old-problems/2406/c/solution.c) [C++](./old-problems/2406/solution.cpp) |
 | [2410. Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/) | Medium | [C](./old-problems/2410/c/solution.c) [C++](./old-problems/2410/solution.cpp) |
