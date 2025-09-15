@@ -748,7 +748,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2200. Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/) | Easy | [C](./old-problems/2200/c/solution.c) [C++](./old-problems/2200/solution.cpp) |
 | [2206. Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/) | Easy | [C](./old-problems/2206/c/solution.c) [C++](./old-problems/2206/solution.cpp) |
 | [2210. Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/) | Easy | [C++](./old-problems/2210/solution.cpp) |
-| [2211. Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/) | Medium | [C++](./old-problems/2211/solution.cpp) |
+| [2211. Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/) | Medium | [C](./old-problems/2211/c/solution.c) [C++](./old-problems/2211/solution.cpp) |
 | [2215. Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | Easy | [C](./old-problems/2215/c/solution.c) [C++](./old-problems/2215/solution.cpp) |
 | [2216. Minimum Deletions to Make Array Beautiful](https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful/) | Medium | [C](./old-problems/2216/c/solution.c) [C++](./old-problems/2216/solution.cpp) |
 | [2220. Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/) | Easy | [C](./old-problems/2220/c/solution.c) [C++](./old-problems/2220/solution.cpp) |
