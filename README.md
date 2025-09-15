@@ -668,6 +668,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1922. Count Good Numbers](https://leetcode.com/problems/count-good-numbers/) | Medium | [C](./old-problems/1922/c/solution.c) [C++](./old-problems/1922/solution.cpp) |
 | [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | Easy | [C](./old-problems/1929/c/solution.c) [C++](./old-problems/1929/solution.cpp) |
 | [1930. Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences) | Medium | [C](./old-problems/1930/c/solution.c) [C++](./old-problems/1930/solution.cpp) |
+| [1935. Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | Easy | [C++](./old-problems/1935/solution.cpp) |
 | [1936. Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/) | Medium | [C](./old-problems/1936/c/solution.c) [C++](./old-problems/1936/solution.cpp) |
 | [1937. Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) | Medium | [C](./old-problems/1937/c/solution.c) [C++](./old-problems/1937/solution.cpp) |
 | [1941. Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/) | Easy | [C++](./old-problems/1941/solution.cpp) |
