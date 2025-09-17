@@ -1,0 +1,21 @@
+name: 3658. GCD of Odd and Even Sums
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: gcdOfOddEvenSums
+
+test_cases:
+  example_1:
+    inputs:
+      n: 4
+    output: 4
+
+  example_2:
+    inputs:
+      n: 5
+    output: 5
