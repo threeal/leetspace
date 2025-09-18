@@ -24,4 +24,19 @@ TEST_CASE("3408. Design Task Manager") {
     taskManager.rmv(26);
     REQUIRE(taskManager.execTop() == -1);
   }
+
+  SECTION("Test Case 623") {
+    std::vector<std::vector<int>> tasks{
+        {10, 10, 50}, {9, 29, 17}, {1, 21, 3}, {7, 17, 6}};
+    TaskManager taskManager(tasks);
+    REQUIRE(taskManager.execTop() == 10);
+    taskManager.rmv(29);
+    taskManager.add(4, 10, 7);
+    REQUIRE(taskManager.execTop() == 4);
+    taskManager.edit(21, 15);
+    taskManager.edit(21, 9);
+    taskManager.add(9, 3, 34);
+    REQUIRE(taskManager.execTop() == 9);
+    REQUIRE(taskManager.execTop() == 1);
+  }
 }
