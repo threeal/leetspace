@@ -895,7 +895,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2748. Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/) | Easy | [C](./old-problems/2748/c/solution.c) [C++](./old-problems/2748/solution.cpp) |
 | [2749. Minimum Operations to Make the Integer Zero](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/) | Medium | [C](./old-problems/2749/c/solution.c) [C++](./old-problems/2749/solution.cpp) |
 | [2751. Robot Collisions](https://leetcode.com/problems/robot-collisions/) | Hard | [C](./old-problems/2751/c/solution.c) [C++](./old-problems/2751/solution.cpp) |
-| [2762. Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/) | Medium | [C++](./old-problems/2762/solution.cpp) |
+| [2762. Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/) | Medium | [C](./old-problems/2762/c/solution.c) [C++](./old-problems/2762/solution.cpp) |
 | [2769. Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number/) | Easy | [C](./old-problems/2769/c/solution.c) [C++](./old-problems/2769/solution.cpp) |
 | [2770. Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/) | Medium | [C](./old-problems/2770/c/solution.c) [C++](./old-problems/2770/solution.cpp) |
 | [2778. Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | Easy | [C](./old-problems/2778/c/solution.c) [C++](./old-problems/2778/solution.cpp) |
