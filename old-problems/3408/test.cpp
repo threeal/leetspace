@@ -17,4 +17,11 @@ TEST_CASE("3408. Design Task Manager") {
     taskManager.add(5, 105, 15);
     REQUIRE(taskManager.execTop() == 5);
   }
+
+  SECTION("Test Case 99") {
+    std::vector<std::vector<int>> tasks{{10, 26, 25}};
+    TaskManager taskManager(tasks);
+    taskManager.rmv(26);
+    REQUIRE(taskManager.execTop() == -1);
+  }
 }
