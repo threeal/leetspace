@@ -1,0 +1,26 @@
+name: 2716. Minimize String Length
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minimizedStringLength
+
+test_cases:
+  example_1:
+    inputs:
+      s: aaabc
+    output: 3
+
+  example_2:
+    inputs:
+      s: cbbd
+    output: 3
+
+  example_3:
+    inputs:
+      s: baadccab
+    output: 4
