@@ -1,0 +1,21 @@
+name: 1317. Convert Integer to the Sum of Two No-Zero Integers
+
+types:
+  inputs:
+    n: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: getNoZeroIntegers
+
+test_cases:
+  example_1:
+    inputs:
+      n: 2
+    output: [1, 1]
+
+  example_2:
+    inputs:
+      n: 11
+    output: [2, 9]
