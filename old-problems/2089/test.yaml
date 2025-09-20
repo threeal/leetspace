@@ -1,0 +1,30 @@
+name: 2089. Find Target Indices After Sorting Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+    target: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: targetIndices
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 5, 2, 3]
+      target: 2
+    output: [1, 2]
+
+  example_2:
+    inputs:
+      nums: [1, 2, 5, 2, 3]
+      target: 3
+    output: [3]
+
+  example_3:
+    inputs:
+      nums: [1, 2, 5, 2, 3]
+      target: 5
+    output: [4]
