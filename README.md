@@ -663,6 +663,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1906. Minimum Absolute Difference Queries](https://leetcode.com/problems/minimum-absolute-difference-queries/) | Medium | [C](./old-problems/1906/c/solution.c) [C++](./old-problems/1906/solution.cpp) |
 | [1909. Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | Easy | [C](./old-problems/1909/c/solution.c) [C++](./old-problems/1909/solution.cpp) |
 | [1910. Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | Medium | [C](./old-problems/1910/c/solution.c) [C++](./old-problems/1910/solution.cpp) |
+| [1912. Design Movie Rental System](https://leetcode.com/problems/design-movie-rental-system/) | Hard | [C++](./old-problems/1912/solution.cpp) |
 | [1913. Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) | Easy | [C](./old-problems/1913/c/solution.c) [C++](./old-problems/1913/solution.cpp) |
 | [1915. Number of Wonderful Substrings](https://leetcode.com/problems/number-of-wonderful-substrings/) | Medium | [C](./old-problems/1915/c/solution.c) [C++](./old-problems/1915/solution.cpp) |
 | [1920. Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | Easy | [C++](./old-problems/1920/solution.cpp) |
