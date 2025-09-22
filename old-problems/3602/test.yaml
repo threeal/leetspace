@@ -1,0 +1,21 @@
+name: 3602. Hexadecimal and Hexatrigesimal Conversion
+
+types:
+  inputs:
+    n: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: concatHex36
+
+test_cases:
+  example_1:
+    inputs:
+      n: 13
+    output: "A91P1"
+
+  example_2:
+    inputs:
+      n: 36
+    output: "5101000"
