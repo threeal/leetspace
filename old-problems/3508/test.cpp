@@ -23,4 +23,13 @@ TEST_CASE("3508. Implement Router") {
     REQUIRE(router.forwardPacket() == std::vector<int>{7, 4, 90});
     REQUIRE(router.forwardPacket() == std::vector<int>{});
   }
+
+  SECTION("Test Case 632") {
+    Router router(5);
+    REQUIRE(router.addPacket(1, 5, 2));
+    REQUIRE(router.addPacket(2, 5, 2));
+    REQUIRE(router.forwardPacket() == std::vector<int>{1, 5, 2});
+    REQUIRE(router.addPacket(2, 5, 3));
+    REQUIRE(router.addPacket(1, 3, 3));
+  }
 }
