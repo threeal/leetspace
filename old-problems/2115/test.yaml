@@ -1,0 +1,34 @@
+name: 2115. Find All Possible Recipes from Given Supplies
+
+types:
+  inputs:
+    recipes: std::vector<std::string>
+    ingredients: std::vector<std::vector<std::string>>
+    supplies: std::vector<std::string>
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: findAllRecipes
+
+test_cases:
+  example_1:
+    inputs:
+      recipes: [bread]
+      ingredients: [[yeast, flour]]
+      supplies: [[yeast, flour, corn]]
+    output: [bread]
+
+  example_2:
+    inputs:
+      recipes: [bread, sandwich]
+      ingredients: [[yeast, flour], [bread, meat]]
+      supplies: [yeast, flour, meat]
+    output: [bread, sandwich]
+
+  example_3:
+    inputs:
+      recipes: [bread, sandwich, burger]
+      ingredients: [[yeast, flour], [bread, meat], [sandwich, meat, bread]]
+      supplies: [yeast, flour, meat]
+    output: [bread, sandwich, burger]
