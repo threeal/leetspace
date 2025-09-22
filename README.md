@@ -198,7 +198,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy | [C](./old-problems/0350/c/solution.c) [C++](./old-problems/0350/solution.cpp) |
 | [355. Design Twitter](https://leetcode.com/problems/design-twitter/) | Medium | [C++](./old-problems/0355/solution.cpp) |
 | [357. Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | Medium | [C](./old-problems/0357/c/solution.c) [C++](./old-problems/0357/solution.cpp) |
-| [367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | Easy | [C++](./old-problems/0367/solution.cpp) |
+| [367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | Easy | [C](./old-problems/0367/c/solution.c) [C++](./old-problems/0367/solution.cpp) |
 | [368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) | Medium | [C](./old-problems/0368/c/solution.c) [C++](./old-problems/0368/solution.cpp) |
 | [373. Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | Medium | [C](./old-problems/0373/c/solution.c) [C++](./old-problems/0373/solution.cpp) |
 | [374. Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | Medium | [C++](./old-problems/0374/solution.cpp) |
