@@ -34,3 +34,9 @@ test_cases:
       numerator: 7
       denominator: -12
     output: -0.58(3)
+
+  test_case_30:
+    inputs:
+      numerator: -1
+      denominator: -2147483648
+    output: "0.0000000004656612873077392578125"
