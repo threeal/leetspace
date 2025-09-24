@@ -28,3 +28,9 @@ test_cases:
       numerator: 4
       denominator: 333
     output: 0.(012)
+
+  test_case_29:
+    inputs:
+      numerator: 7
+      denominator: -12
+    output: -0.58(3)
