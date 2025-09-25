@@ -1,0 +1,21 @@
+name: 3184. Count Pairs That Form a Complete Day I
+
+types:
+  inputs:
+    hours: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: countCompleteDayPairs
+
+test_cases:
+  example_1:
+    inputs:
+      hours: [12, 12, 30, 24, 24]
+    output: 2
+
+  example_2:
+    inputs:
+      hours: [72, 48, 24, 3]
+    output: 3
