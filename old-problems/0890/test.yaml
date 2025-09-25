@@ -1,0 +1,24 @@
+name: 890. Find and Replace Pattern
+
+types:
+  inputs:
+    words: std::vector<std::string>
+    pattern: std::string
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: findAndReplacePattern
+
+test_cases:
+  example_1:
+    inputs:
+      words: [abc, deq, mee, aqq, dkd, ccc]
+      pattern: abb
+    output:  [mee, aqq]
+
+  example_2:
+    inputs:
+      words: [a, b, c]
+      pattern: a
+    output:  [a, b, c]
