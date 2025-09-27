@@ -1,0 +1,21 @@
+name: 3000. Maximum Area of Longest Diagonal Rectangle
+
+types:
+  inputs:
+    dimensions: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: areaOfMaxDiagonal
+
+test_cases:
+  example_1:
+    inputs:
+      dimensions: [[9, 3], [8, 6]]
+    output: 48
+
+  example_2:
+    inputs:
+      dimensions: [[3, 4], [4, 3]]
+    output: 12
