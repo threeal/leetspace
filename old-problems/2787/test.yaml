@@ -1,0 +1,24 @@
+name: 2787. Ways to Express an Integer as Sum of Powers
+
+types:
+  inputs:
+    n: int
+    x: int
+  output: int
+
+solutions:
+  cpp:
+    function: numberOfWays
+
+test_cases:
+  example_1:
+    inputs:
+      n: 10
+      x: 2
+    output: 1
+
+  example_2:
+    inputs:
+      n: 4
+      x: 1
+    output: 2
