@@ -1,0 +1,30 @@
+name: 1935. Maximum Number of Words You Can Type
+
+types:
+  inputs:
+    text: std::string
+    brokenLetters: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: canBeTypedWords
+
+test_cases:
+  example_1:
+    inputs:
+      text: hello world
+      brokenLetters: ad
+    output: 1
+
+  example_2:
+    inputs:
+      text: leet code
+      brokenLetters: lt
+    output: 1
+
+  example_3:
+    inputs:
+      text: leet code
+      brokenLetters: e
+    output: 0
