@@ -1,0 +1,21 @@
+name: 3461. Check If Digits Are Equal in String After Operations I
+
+types:
+  inputs:
+    s: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: hasSameDigits
+
+test_cases:
+  example_1:
+    inputs:
+      s: "3902"
+    output: true
+
+  example_2:
+    inputs:
+      s: "34789"
+    output: false
