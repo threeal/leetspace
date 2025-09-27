@@ -955,6 +955,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3011. Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | Medium | [C](./old-problems/3011/c/solution.c) [C++](./old-problems/3011/solution.cpp) |
 | [3016. Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description) | Medium | [C](./old-problems/3016/c/solution.c) [C++](./old-problems/3016/solution.cpp) |
 | [3019. Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/) | Easy | [C](./old-problems/3019/c/solution.c) [C++](./old-problems/3019/solution.cpp) |
+| [3021. Alice and Bob Playing Flower Game](https://leetcode.com/problems/alice-and-bob-playing-flower-game/) | Medium | [C++](./old-problems/3021/solution.cpp) |
 | [3024. Type of Triangle](https://leetcode.com/problems/type-of-triangle/) | Easy | [C](./old-problems/3024/c/solution.c) [C++](./old-problems/3024/solution.cpp) |
 | [3042. Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/) | Easy | [C](./old-problems/3042/c/solution.c) [C++](./old-problems/3042/solution.cpp) |
 | [3043. Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) | Medium | [C++](./problems/3043/solution.cpp) |

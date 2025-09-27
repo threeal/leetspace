@@ -1,0 +1,24 @@
+name: 3021. Alice and Bob Playing Flower Game
+
+types:
+  inputs:
+    n: int
+    m: int
+  output: long long
+
+solutions:
+  cpp:
+    function: flowerGame
+
+test_cases:
+  example_1:
+    inputs:
+      n: 3
+      m: 2
+    output: 3
+
+  example_2:
+    inputs:
+      n: 1
+      m: 1
+    output: 0
