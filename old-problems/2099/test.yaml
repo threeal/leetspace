@@ -7,6 +7,7 @@ types:
   output: std::vector<int>
 
 solutions:
+  c:
   cpp:
     function: maxSubsequence
 
@@ -28,3 +29,9 @@ test_cases:
       nums: [3, 4, 3, 3]
       k: 2
     output: [3, 4]
+
+  test_case_10:
+    inputs:
+      nums: [50, -75]
+      k: 2
+    output: [50, -75]
