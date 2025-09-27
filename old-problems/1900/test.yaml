@@ -1,0 +1,27 @@
+name: 1900. The Earliest and Latest Rounds Where Players Compete
+
+types:
+  inputs:
+    n: int
+    firstPlayer: int
+    secondPlayer: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: earliestAndLatest
+
+test_cases:
+  example_1:
+    inputs:
+      n: 11
+      firstPlayer: 2
+      secondPlayer: 4
+    output: [3, 4]
+
+  example_2:
+    inputs:
+      n: 5
+      firstPlayer: 1
+      secondPlayer: 5
+    output: [1, 1]
