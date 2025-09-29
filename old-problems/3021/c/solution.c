@@ -1,3 +1,3 @@
 long long flowerGame(int n, int m) {
-  return n + m;
+  return (long long)n * m / 2;
 }
