@@ -958,7 +958,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3021. Alice and Bob Playing Flower Game](https://leetcode.com/problems/alice-and-bob-playing-flower-game/) | Medium | [C++](./old-problems/3021/solution.cpp) |
 | [3024. Type of Triangle](https://leetcode.com/problems/type-of-triangle/) | Easy | [C](./old-problems/3024/c/solution.c) [C++](./old-problems/3024/solution.cpp) |
 | [3025. Find the Number of Ways to Place People I](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/) | Medium | [C++](./old-problems/3025/solution.cpp) |
-| [3027. Find the Number of Ways to Place People II](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-ii/) | Hard | [C++](./old-problems/3027/solution.cpp) |
+| [3027. Find the Number of Ways to Place People II](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-ii/) | Hard | [C](./old-problems/3027/c/solution.c) [C++](./old-problems/3027/solution.cpp) |
 | [3042. Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/) | Easy | [C](./old-problems/3042/c/solution.c) [C++](./old-problems/3042/solution.cpp) |
 | [3043. Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) | Medium | [C++](./problems/3043/solution.cpp) |
 | [3046. Split the Array](https://leetcode.com/problems/split-the-array/) | Easy | [C](./old-problems/3046/c/solution.c) [C++](./old-problems/3046/solution.cpp) |
