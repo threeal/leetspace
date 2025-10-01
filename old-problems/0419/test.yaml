@@ -1,0 +1,24 @@
+name: 419. Battleships in a Board
+
+types:
+  inputs:
+    board: std::vector<std::vector<char>>
+  output: int
+
+solutions:
+  cpp:
+    function: countBattleships
+
+test_cases:
+  example_1:
+    inputs:
+      board:
+        - [88, 46, 46, 88]
+        - [46, 46, 46, 88]
+        - [46, 46, 46, 88]
+    output: 2
+
+  example_2:
+    inputs:
+      board: [[46]]
+    output: 0
