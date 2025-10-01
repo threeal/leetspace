@@ -24,3 +24,8 @@ test_cases:
     inputs:
       nums: [2, 1, 3]
     output: 2
+
+  test_case_9476:
+    inputs:
+      nums: [3, 30, 24]
+    output: 24
