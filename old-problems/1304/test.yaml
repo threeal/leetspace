@@ -1,0 +1,26 @@
+name: 1304. Find N Unique Integers Sum up to Zero
+
+types:
+  inputs:
+    n: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: sumZero
+
+test_cases:
+  example_1:
+    inputs:
+      n: 5
+    output: [2, -2, 1, -1, 0]
+
+  example_2:
+    inputs:
+      n: 3
+    output: [1, -1, 0]
+
+  example_3:
+    inputs:
+      n: 1
+    output: [0]
