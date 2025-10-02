@@ -471,7 +471,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1298. Maximum Candies You Can Get from Boxes](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/) | Hard | [C](./old-problems/1298/c/solution.c) [C++](./old-problems/1298/solution.cpp) |
 | [1299. Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | Easy | [C](./old-problems/1299/c/solution.c) [C++](./old-problems/1299/solution.cpp) |
 | [1302. Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | Medium | [C++](./old-problems/1302/solution.cpp) |
-| [1304. Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | Easy | [C++](./old-problems/1304/solution.cpp) |
+| [1304. Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | Easy | [C](./old-problems/1304/c/solution.c) [C++](./old-problems/1304/solution.cpp) |
 | [1305. All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) | Medium | [C++](./old-problems/1305/solution.cpp) |
 | [1309. Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | Easy | [C](./old-problems/1309/c/solution.c) [C++](./old-problems/1309/solution.cpp) |
 | [1310. XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/) | Medium | [C++](./old-problems/1310/solution.cpp) |
