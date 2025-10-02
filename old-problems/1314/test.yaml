@@ -1,0 +1,36 @@
+name: 1314. Matrix Block Sum
+
+types:
+  inputs:
+    mat: std::vector<std::vector<int>>
+    k: int
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: matrixBlockSum
+
+test_cases:
+  example_1:
+    inputs:
+      mat:
+        - [1, 2, 3]
+        - [4, 5, 6]
+        - [7, 8, 9]
+      k: 1
+    output:
+      - [12, 21, 16]
+      - [27, 45, 33]
+      - [24, 39, 28]
+
+  example_2:
+    inputs:
+      mat:
+        - [1, 2, 3]
+        - [4, 5, 6]
+        - [7, 8, 9]
+      k: 2
+    output:
+      - [45, 45, 45]
+      - [45, 45, 45]
+      - [45, 45, 45]
