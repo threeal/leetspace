@@ -1,0 +1,26 @@
+name: 1402. Reducing Dishes
+
+types:
+  inputs:
+    satisfaction: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maxSatisfaction
+
+test_cases:
+  example_1:
+    inputs:
+      satisfaction: [-1, -8, 0, 5, -9]
+    output: 14
+
+  example_2:
+    inputs:
+      satisfaction: [4, 3, 2]
+    output: 20
+
+  example_3:
+    inputs:
+      satisfaction: [-1, -4, -5]
+    output: 0
