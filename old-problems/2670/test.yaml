@@ -1,0 +1,21 @@
+name: 2670. Find the Distinct Difference Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: distinctDifferenceArray
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3, 4, 5]
+    output: [-3, -1, 1, 3, 5]
+
+  example_2:
+    inputs:
+      nums: [3, 2, 3, 4, 2]
+    output: [-2, -1, 0, 2, 3]
