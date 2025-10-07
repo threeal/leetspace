@@ -512,6 +512,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1408. String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | Easy | [C](./old-problems/1408/c/solution.c) [C++](./old-problems/1408/solution.cpp) |
 | [1409. Queries on a Permutation With Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/) | Medium | [C](./old-problems/1409/c/solution.c) [C++](./old-problems/1409/solution.cpp) |
 | [1415. The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium | [C](./old-problems/1415/c/solution.c) [C++](./old-problems/1415/solution.cpp) |
+| [1418. Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/) | Medium | [C++](./old-problems/1418/solution.cpp) |
 | [1419. Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/) | Medium | [C](./old-problems/1419/c/solution.c) [C++](./old-problems/1419/solution.cpp) |
 | [1422. Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | Easy | [C](./old-problems/1422/c/solution.c) [C++](./old-problems/1422/solution.cpp) |
 | [1424. Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/) | Medium | [C++](./problems/1424/solution.cpp) |
