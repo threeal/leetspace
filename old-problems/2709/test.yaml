@@ -29,3 +29,8 @@ test_cases:
     inputs:
       nums: [21, 21, 35, 20]
     output: true
+
+  test_case_850:
+    inputs:
+      nums: [28, 39]
+    output: false
