@@ -378,7 +378,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [945. Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | Medium | [C](./old-problems/0945/c/solution.c) [C++](./old-problems/0945/solution.cpp) |
 | [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) | Medium | [C++](./old-problems/0947/solution.cpp) |
 | [948. Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/) | Medium | [C](./old-problems/0948/c/solution.c) [C++](./old-problems/0948/solution.cpp) |
-| [950. Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) | Medium | [C++](./old-problems/0950/solution.cpp) |
+| [950. Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) | Medium | [C](./old-problems/0950/c/solution.c) [C++](./old-problems/0950/solution.cpp) |
 | [951. Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | Medium | [C++](./old-problems/0951/solution.cpp) |
 | [959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/) | Medium | [C](./old-problems/0959/c/solution.c) [C++](./old-problems/0959/solution.cpp) |
 | [961. N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | Easy | [C](./old-problems/0961/c/solution.c) [C++](./old-problems/0961/solution.cpp) |
