@@ -1041,7 +1041,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3442. Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | Easy | [C](./old-problems/3442/c/solution.c) [C++](./old-problems/3442/solution.cpp) |
 | [3443. Maximum Manhattan Distance After K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/) | Medium | [C](./old-problems/3443/c/solution.c) [C++](./old-problems/3443/solution.cpp) |
 | [3445. Maximum Difference Between Even and Odd Frequency II](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii/) | Hard | [C](./old-problems/3445/c/solution.c) [C++](./old-problems/3445/solution.cpp) |
-| [3446. Sort Matrix by Diagonals](https://leetcode.com/problems/sort-matrix-by-diagonals/) | Medium | [C++](./old-problems/3446/solution.cpp) |
+| [3446. Sort Matrix by Diagonals](https://leetcode.com/problems/sort-matrix-by-diagonals/) | Medium | [C](./old-problems/3446/c/solution.c) [C++](./old-problems/3446/solution.cpp) |
 | [3467. Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | Easy | [C](./old-problems/3467/c/solution.c) [C++](./old-problems/3467/solution.cpp) |
 | [3477. Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/) | Easy | [C](./old-problems/3477/c/solution.c) [C++](./old-problems/3477/solution.cpp) |
 | [3498. Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/) | Easy | [C](./old-problems/3498/c/solution.c) [C++](./old-problems/3498/solution.cpp) |
