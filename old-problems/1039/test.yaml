@@ -1,0 +1,26 @@
+name: 1039. Minimum Score Triangulation of Polygon
+
+types:
+  inputs:
+    values: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minScoreTriangulation
+
+test_cases:
+  example_1:
+    inputs:
+      values: [1, 2, 3]
+    output: 6
+
+  example_2:
+    inputs:
+      values: [3, 7, 4, 5]
+    output: 144
+
+  example_3:
+    inputs:
+      values: [1, 3, 1, 4, 1, 5]
+    output: 13
