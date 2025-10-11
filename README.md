@@ -314,6 +314,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [769. Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/) | Medium | [C++](./old-problems/0769/solution.cpp) |
 | [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | Easy | [C](./old-problems/0771/c/solution.c) [C++](./old-problems/0771/solution.cpp) |
 | [773. Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/) | Hard | [C++](./problems/0773/solution.cpp) |
+| [778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | Hard | [C++](./old-problems/0778/solution.cpp) |
 | [779. K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) | Medium | [C](./old-problems/0779/c/solution.c) [C++](./old-problems/0779/solution.cpp) |
 | [781. Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/) | Medium | [C](./old-problems/0781/c/solution.c) [C++](./old-problems/0781/solution.cpp) |
 | [786. K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | Medium | [C](./old-problems/0786/c/solution.c) [C++](./old-problems/0786/solution.cpp) |
