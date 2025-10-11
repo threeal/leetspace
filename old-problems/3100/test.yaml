@@ -1,0 +1,24 @@
+name: 3100. Water Bottles II
+
+types:
+  inputs:
+    numBottles: int
+    numExchanges: int
+  output: int
+
+solutions:
+  cpp:
+    function: maxBottlesDrunk
+
+test_cases:
+  example_1:
+    inputs:
+      numBottles: 13
+      numExchanges: 6
+    output: 15
+
+  example_2:
+    inputs:
+      numBottles: 10
+      numExchanges: 3
+    output: 13
