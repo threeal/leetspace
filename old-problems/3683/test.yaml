@@ -1,0 +1,21 @@
+name: 3683. Earliest Time to Finish One Task
+
+types:
+  inputs:
+    tasks: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: earliestTime
+
+test_cases:
+  example_1:
+    inputs:
+      tasks: [[1, 6], [2, 3]]
+    output: 5
+
+  example_2:
+    inputs:
+      tasks: [[100, 100], [100, 100], [100, 100]]
+    output: 200
