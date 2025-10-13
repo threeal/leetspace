@@ -720,7 +720,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2079. Watering Plants](https://leetcode.com/problems/watering-plants/) | Medium | [C](./old-problems/2079/c/solution.c) [C++](./old-problems/2079/solution.cpp) |
 | [2081. Sum of k-Mirror Numbers](https://leetcode.com/problems/sum-of-k-mirror-numbers/) | Hard | [C](./old-problems/2081/c/solution.c) [C++](./old-problems/2081/solution.cpp) |
 | [2085. Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/) | Easy | [C++](./problems/2085/solution.cpp) |
-| [2089. Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | Easy | [C++](./old-problems/2089/solution.cpp) |
+| [2089. Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | Easy | [C](./old-problems/2089/c/solution.c) [C++](./old-problems/2089/solution.cpp) |
 | [2092. Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/) | Hard | [C](./old-problems/2092/c/solution.c) [C++](./old-problems/2092/solution.cpp) |
 | [2094. Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/) | Easy | [C](./old-problems/2094/c/solution.c) [C++](./old-problems/2094/solution.cpp) |
 | [2096. Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) | Medium | [C++](./old-problems/2096/solution.cpp) |
