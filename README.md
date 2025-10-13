@@ -776,6 +776,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2264. Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | Easy | [C](./old-problems/2264/c/solution.c) [C++](./old-problems/2264/solution.cpp) |
 | [2226. Maximum Candies Allocated to K Children](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/) | Medium | [C](./old-problems/2226/c/solution.c) [C++](./old-problems/2226/solution.cpp) |
 | [2270. Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/) | Medium | [C](./old-problems/2270/c/solution.c) [C++](./old-problems/2270/solution.cpp) |
+| [2273. Find Resultant Array After Removing Anagrams](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/) | Easy | [C++](./old-problems/2273/solution.cpp) |
 | [2275. Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/) | Medium | [C](./old-problems/2275/c/solution.c) [C++](./old-problems/2275/solution.cpp) |
 | [2278. Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | Easy | [C](./old-problems/2278/c/solution.c) [C++](./old-problems/2278/solution.cpp) |
 | [2285. Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/) | Medium | [C](./old-problems/2285/c/solution.c) [C++](./old-problems/2285/solution.cpp) |
