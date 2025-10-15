@@ -498,7 +498,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1365. How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Easy | [C++](./old-problems/1365/solution.cpp) |
 | [1366. Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/) | Medium | [C](./old-problems/1366/c/solution.c) [C++](./old-problems/1366/solution.cpp) |
 | [1367. Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/) | Medium | [C++](./old-problems/1367/solution.cpp) |
-| [1370. Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/) | Easy | [C++](./old-problems/1370/solution.cpp) |
+| [1370. Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/) | Easy | [C](./old-problems/1370/c/solution.c) [C++](./old-problems/1370/solution.cpp) |
 | [1371. Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/) | Medium | [C](./old-problems/1371/c/solution.c) [C++](./old-problems/1371/solution.cpp) |
 | [1374. Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | Easy | [C](./old-problems/1374/c/solution.c) [C++](./old-problems/1374/solution.cpp) |
 | [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/) | Medium | [C](./old-problems/1371/c/solution.c) [C++](./old-problems/1371/solution.cpp) |
