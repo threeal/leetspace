@@ -896,7 +896,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2657. Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) | Medium | [C](./old-problems/2657/c/solution.c) [C++](./old-problems/2657/solution.cpp) |
 | [2658. Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/) | Medium | [C](./old-problems/2658/c/solution.c) [C++](./old-problems/2658/solution.cpp) |
 | [2661. First Completely Painted Row or Column](https://leetcode.com/problems/first-completely-painted-row-or-column/) | Medium | [C](./old-problems/2661/c/solution.c) [C++](./old-problems/2661/solution.cpp) |
-| [2670. Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/) | Easy | [C++](./old-problems/2670/solution.cpp) |
+| [2670. Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/) | Easy | [C](./old-problems/2670/c/solution.c) [C++](./old-problems/2670/solution.cpp) |
 | [2678. Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/) | Easy | [C](./old-problems/2678/c/solution.c) [C++](./old-problems/2678/solution.cpp) |
 | [2683. Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/) | Medium | [C](./old-problems/2683/c/solution.c) [C++](./old-problems/2683/solution.cpp) |
 | [2684. Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/) | Medium | [C](./old-problems/2684/c/solution.c) [C++](./old-problems/2684/solution.cpp) |
