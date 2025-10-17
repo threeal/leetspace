@@ -406,7 +406,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1026. Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | Medium | [C++](./old-problems/1026/solution.cpp) |
 | [1028. Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/description) | Hard | [C++](./old-problems/1028/solution.cpp) |
 | [1038. Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | Medium | [C++](./old-problems/1038/solution.cpp) |
-| [1039. Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/) | Medium | [C++](./old-problems/1039/solution.cpp) |
+| [1039. Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/) | Medium | [C](./old-problems/1039/c/solution.c) [C++](./old-problems/1039/solution.cpp) |
 | [1043. Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/) | Medium | [C](./old-problems/1043/c/solution.c) [C++](./old-problems/1043/solution.cpp) |
 | [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | Easy | [C](./old-problems/1046/c/solution.c) [C++](./old-problems/1046/solution.cpp) |
 | [1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | Medium | [C](./old-problems/1047/c/solution.c) [C++](./old-problems/1047/solution.cpp) |
