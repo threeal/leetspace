@@ -1,0 +1,26 @@
+name: 3688. Bitwise OR of Even Numbers in an Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: evenNumberBitwiseORs
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3, 4, 5, 6]
+    output: 6
+
+  example_2:
+    inputs:
+      nums: [7, 9, 11]
+    output: 0
+
+  example_3:
+    inputs:
+      nums: [1, 8, 16]
+    output: 24

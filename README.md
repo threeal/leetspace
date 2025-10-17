@@ -1060,6 +1060,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3658. GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | Easy | [C++](./old-problems/3658/solution.cpp) |
 | [3668. Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/) | Easy | [C](./old-problems/3668/c/solution.c) [C++](./old-problems/3668/solution.cpp) |
 | [3683. Earliest Time to Finish One Task](https://leetcode.com/problems/earliest-time-to-finish-one-task/) | Easy | [C++](./old-problems/3683/solution.cpp) |
+| [3688. Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) | Easy | [C++](./old-problems/3688/solution.cpp) |
 
 ## License
 
