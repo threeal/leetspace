@@ -1049,6 +1049,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3461. Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | Easy | [C++](./old-problems/3461/solution.cpp) |
 | [3467. Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | Easy | [C](./old-problems/3467/c/solution.c) [C++](./old-problems/3467/solution.cpp) |
 | [3477. Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/) | Easy | [C](./old-problems/3477/c/solution.c) [C++](./old-problems/3477/solution.cpp) |
+| [3484. Design Spreadsheet](https://leetcode.com/problems/design-spreadsheet/) | Medium | [C++](./old-problems/3484/solution.cpp) |
 | [3498. Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/) | Easy | [C](./old-problems/3498/c/solution.c) [C++](./old-problems/3498/solution.cpp) |
 | [3502. Minimum Cost to Reach Every Position](https://leetcode.com/problems/minimum-cost-to-reach-every-position/) | Easy | [C](./old-problems/3502/c/solution.c) [C++](./old-problems/3502/solution.cpp) |
 | [3508. Implement Router](https://leetcode.com/problems/implement-router/) | Medium | [C++](./old-problems/3508/solution.cpp) |
