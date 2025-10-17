@@ -1,0 +1,24 @@
+name: 461. Hamming Distance
+
+types:
+  inputs:
+    x: int
+    y: int
+  output: int
+
+solutions:
+  cpp:
+    function: hammingDistance
+
+test_cases:
+  example_1:
+    inputs:
+      x: 1
+      y: 4
+    output: 2
+
+  example_2:
+    inputs:
+      x: 3
+      y: 1
+    output: 1
