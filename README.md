@@ -146,7 +146,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [204. Count Primes](https://leetcode.com/problems/count-primes/) | Medium | [C](./old-problems/0204/c/solution.c) [C++](./old-problems/0204/solution.cpp) |
 | [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | Easy | [C](./old-problems/0205/c/solution.c) [C++](./old-problems/0205/solution.cpp) |
 | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [C++](./old-problems/0206/solution.cpp) |
-| [213. House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | [C++](./old-problems/0213/solution.cpp) |
+| [213. House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | [C](./old-problems/0213/c/solution.c) [C++](./old-problems/0213/solution.cpp) |
 | [214. Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/) | Hard | [C++](./problems/0214/solution.cpp) |
 | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [C](./old-problems/0217/c/solution.c) [C++](./old-problems/0217/solution.cpp) |
 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | [C++](./problems/0219/solution.cpp) |
