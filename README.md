@@ -963,6 +963,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2998. Minimum Number of Operations to Make X and Y Equal](https://leetcode.com/problems/minimum-number-of-operations-to-make-x-and-y-equal/) | Medium | [C](./old-problems/2998/c/solution.c) [C++](./old-problems/2998/solution.cpp) |
 | [2999. Count the Number of Powerful Integers](https://leetcode.com/problems/count-the-number-of-powerful-integers/) | Medium | [C](./old-problems/2999/c/solution.c) [C++](./old-problems/2999/solution.cpp) |
 | [3000. Maximum Area of Longest Diagonal Rectangle](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/) | Easy | [C](./old-problems/3000/c/solution.c) [C++](./old-problems/3000/solution.cpp) |
+| [3003. Maximize the Number of Partitions After Operations](https://leetcode.com/problems/maximize-the-number-of-partitions-after-operations/) | Hard | [C++](./old-problems/3003/solution.cpp) |
 | [3005. Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/) | Easy | [C++](./old-problems/3005/solution.cpp) |
 | [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](https://leetcode.com/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/) | Medium | [C](./old-problems/3007/c/solution.c) [C++](./old-problems/3007/solution.cpp) |
 | [3011. Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | Medium | [C](./old-problems/3011/c/solution.c) [C++](./old-problems/3011/solution.cpp) |
