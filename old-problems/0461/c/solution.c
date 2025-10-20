@@ -1,3 +1,3 @@
 int hammingDistance(int x, int y) {
-  return x + y;
+  return __builtin_popcount(x ^ y);
 }
