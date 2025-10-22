@@ -1,3 +1,12 @@
+#include <limits.h>
+
 int earliestTime(int** tasks, int tasksSize, int* tasksColSize) {
-  return tasks[tasksSize - 1][tasksColSize[tasksSize - 1] - 1];
+  (void)tasksColSize;
+  int earliest = INT_MAX;
+  for (int i = 0; i < tasksSize; ++i) {
+    if (tasks[i][0] + tasks[i][1] < earliest) {
+      earliest = tasks[i][0] + tasks[i][1];
+    }
+  }
+  return earliest;
 }
