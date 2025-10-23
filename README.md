@@ -987,6 +987,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3085. Minimum Deletions to Make String K-Special](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/) | Medium | [C](./old-problems/3085/c/solution.c) [C++](./old-problems/3085/solution.cpp) |
 | [3097. Shortest Subarray With OR at Least K II](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/) | Medium | [C](./old-problems/3097/c/solution.c) [C++](./old-problems/3097/solution.cpp) |
 | [3099. Harshad Number](https://leetcode.com/problems/harshad-number/) | Easy | [C](./old-problems/3099/c/solution.c) [C++](./old-problems/3099/solution.cpp) |
+| [3100. Water Bottles II](https://leetcode.com/problems/water-bottles-ii/) | Medium | [C++](./old-problems/3100/solution.cpp) |
 | [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/) | Easy | [C](./old-problems/3105/c/solution.c) [C++](./old-problems/3105/solution.cpp) |
 | [3108. Minimum Cost Walk in Weighted Graph](https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/) | Hard | [C](./old-problems/3108/c/solution.c) [C++](./old-problems/3108/solution.cpp) |
 | [3110. Score of a String](https://leetcode.com/problems/score-of-a-string/) | Easy | [C](./old-problems/3110/c/solution.c) [C++](./old-problems/3110/solution.cpp) |
