@@ -24,3 +24,10 @@ test_cases:
     inputs:
       heights: [[1]]
     output: [[0, 0]]
+
+  test_case_14:
+    inputs:
+      heights:
+        - [2, 1]
+        - [1, 2]
+    output: [[0, 0], [0, 1], [1, 0], [1, 1]]
