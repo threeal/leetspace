@@ -1,0 +1,26 @@
+name: 2048. Next Greater Numerically Balanced Number
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: nextBeautifulNumber
+
+test_cases:
+  example_1:
+    inputs:
+      n: 1
+    output: 22
+
+  example_2:
+    inputs:
+      n: 1000
+    output: 1333
+
+  example_3:
+    inputs:
+      n: 3000
+    output: 3133
