@@ -838,7 +838,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2424. Longest Uploaded Prefix](https://leetcode.com/problems/longest-uploaded-prefix/) | Medium | [C++](./old-problems/2424/solution.cpp) |
 | [2425. Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | Medium | [C](./old-problems/2425/c/solution.c) [C++](./old-problems/2425/solution.cpp) |
 | [2427. Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/) | Medium | [C](./old-problems/2427/c/solution.c) [C++](./old-problems/2427/solution.cpp) |
-| [2428. Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/) | Medium | [C++](./old-problems/2428/solution.cpp) |
+| [2428. Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/) | Medium | [C](./old-problems/2428/c/solution.c) [C++](./old-problems/2428/solution.cpp) |
 | [2429. Minimize XOR](https://leetcode.com/problems/minimize-xor/) | Medium | [C](./old-problems/2429/c/solution.c) [C++](./old-problems/2429/solution.cpp) |
 | [2433. Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor) | Medium | [C++](./problems/2433/solution.cpp) |
 | [2434. Using a Robot to Print the Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/) | Medium | [C](./old-problems/2434/c/solution.c) [C++](./old-problems/2434/solution.cpp) |
