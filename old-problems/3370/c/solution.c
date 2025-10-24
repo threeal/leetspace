@@ -1,3 +1,3 @@
 int smallestNumber(int n) {
-  return n;
+  return (1 << (32 - __builtin_clz(n))) - 1;
 }
