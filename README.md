@@ -1043,6 +1043,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3355. Zero Array Transformation I](https://leetcode.com/problems/zero-array-transformation-i/) | Medium | [C](./old-problems/3355/c/solution.c) [C++](./old-problems/3355/solution.cpp) |
 | [3356. Zero Array Transformation II](https://leetcode.com/problems/zero-array-transformation-ii/) | Medium | [C](./old-problems/3356/c/solution.c) [C++](./old-problems/3356/solution.cpp) |
 | [3362. Zero Array Transformation III](https://leetcode.com/problems/zero-array-transformation-iii/) | Medium | [C](./old-problems/3362/c/solution.c) [C++](./old-problems/3362/solution.cpp) |
+| [3370. Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | Easy | [C++](./old-problems/3370/solution.cpp) |
 | [3375. Minimum Operations to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/) | Easy | [C](./old-problems/3375/c/solution.c) [C++](./old-problems/3375/solution.cpp) |
 | [3392. Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | Easy | [C](./old-problems/3392/c/solution.c) [C++](./old-problems/3392/solution.cpp) |
 | [3405. Count the Number of Arrays with K Matching Adjacent Elements](https://leetcode.com/problems/count-the-number-of-arrays-with-k-matching-adjacent-elements/) | Hard | [C](./old-problems/3405/c/solution.c) [C++](./old-problems/3405/solution.cpp) |

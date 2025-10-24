@@ -1,0 +1,26 @@
+name: 3370. Smallest Number With All Set Bits
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: smallestNumber
+
+test_cases:
+  example_1:
+    inputs:
+      n: 5
+    output: 7
+
+  example_2:
+    inputs:
+      n: 10
+    output: 15
+
+  example_3:
+    inputs:
+      n: 3
+    output: 3
