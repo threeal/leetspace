@@ -1,0 +1,24 @@
+name: 966. Vowel Spellchecker
+
+types:
+  inputs:
+    wordlist: std::vector<std::string>
+    queries: std::vector<std::string>
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: spellchecker
+
+test_cases:
+  example_1:
+    inputs:
+      wordlist: [KiTe, kite, hare, Hare]
+      queries: [kite, Kite, KiTe, Hare, HARE, Hear, hear, keti, keet, keto]
+    output: [kite, KiTe, KiTe, Hare, hare, "", "", KiTe, "", KiTe]
+
+  example_2:
+    inputs:
+      wordlist: [yellow]
+      queries: [YellOw]
+    output: [yellow]
