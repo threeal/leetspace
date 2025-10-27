@@ -1023,6 +1023,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3223. Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/) | Medium | [C](./old-problems/3223/c/solution.c) [C++](./old-problems/3223/solution.cpp) |
 | [3227. Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/) | Medium | [C](./old-problems/3227/c/solution.c) [C++](./old-problems/3227/solution.cpp) |
 | [3232. Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | Easy | [C](./old-problems/3232/c/solution.c) [C++](./old-problems/3232/solution.cpp) |
+| [3242. Design Neighbor Sum Service](https://leetcode.com/problems/design-neighbor-sum-service/) | Easy | [C++](./old-problems/3242/solution.cpp) |
 | [3243. Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i/) | Medium | [C++](./problems/3243/solution.cpp) |
 | [3248. Snake in Matrix](https://leetcode.com/problems/snake-in-matrix/) | Easy | [C](./old-problems/3248/c/solution.c) [C++](./old-problems/3248/solution.cpp) |
 | [3254. Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/) | Medium | [C](./old-problems/3254/c/solution.c) [C++](./old-problems/3254/solution.cpp) |
