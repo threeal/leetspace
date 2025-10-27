@@ -1,0 +1,24 @@
+name: 3147. Taking Maximum Energy From the Mystic Dungeon
+
+types:
+  inputs:
+    energy: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: maximumEnergy
+
+test_cases:
+  example_1:
+    inputs:
+      energy: [5, 2, -10, -5, 1]
+      k: 3
+    output: 3
+
+  example_2:
+    inputs:
+      energy: [-2, -3, -1]
+      k: 2
+    output: -1
