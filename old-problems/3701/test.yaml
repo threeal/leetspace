@@ -1,0 +1,21 @@
+name: 3701. Compute Alternating Sum
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: alternatingSum
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 3, 5, 7]
+    output: -4
+
+  example_2:
+    inputs:
+      nums: [100]
+    output: 100
