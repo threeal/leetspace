@@ -371,7 +371,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | Medium | [C](./old-problems/0921/c/solution.c) [C++](./old-problems/0921/solution.cpp) |
 | [925. Long Pressed Name](https://leetcode.com/problems/long-pressed-name/) | Easy | [C](./old-problems/0925/c/solution.c) [C++](./old-problems/0925/solution.cpp) |
 | [929. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | Easy | [C](./old-problems/0929/c/solution.c) [C++](./old-problems/0929/solution.cpp) |
-| [930. Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | Medium | [C++](./problems/0930/solution.cpp) |
+| [930. Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | Medium | [C++](./old-problems/0930/solution.cpp) |
 | [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | Medium | [C++](./problems/0931/solution.cpp) |
 | [933. Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | Easy | [C++](./old-problems/0933/solution.cpp) |
 | [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) | Medium | [C](./old-problems/0934/c/solution.c) [C++](./old-problems/0934/solution.cpp) |
