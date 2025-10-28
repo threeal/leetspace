@@ -1,4 +1,3 @@
-#include <queue>
 #include <vector>
 
 class Solution {
@@ -6,33 +5,31 @@ class Solution {
   int maxFreeTime(
       int eventTime, int k, std::vector<int>& startTime,
       std::vector<int>& endTime) {
-    const std::size_t kk = k + 1;
+    const int n = startTime.size();
 
-    int sum{startTime.front()};
-    int maxSum{sum};
-
-    std::queue<int> freeTimes{};
-    freeTimes.push(startTime.front());
-
-    for (std::size_t i{1}; i < endTime.size(); ++i) {
-      sum += startTime[i] - endTime[i - 1];
-      freeTimes.push(startTime[i] - endTime[i - 1]);
-      while (freeTimes.size() > kk) {
-        sum -= freeTimes.front();
-        freeTimes.pop();
-      }
-
-      if (sum > maxSum) maxSum = sum;
+    int eventsDuration{0};
+    for (int i{0}; i < k; ++i) {
+      eventsDuration += endTime[i] - startTime[i];
     }
 
-    sum += eventTime - endTime.back();
-    freeTimes.push(eventTime - endTime.back());
-    while (freeTimes.size() > kk) {
-      sum -= freeTimes.front();
-      freeTimes.pop();
+    if (k == n) return eventTime - eventsDuration;
+
+    int maxFreeDuration{startTime[k] - eventsDuration};
+    eventsDuration += (endTime[k] - startTime[k]) - (endTime[0] - startTime[0]);
+
+    for (int i{k + 1}; i < n; ++i) {
+      const int freeDuration{
+          startTime[i] - endTime[i - k - 1] - eventsDuration};
+
+      if (freeDuration > maxFreeDuration) maxFreeDuration = freeDuration;
+
+      eventsDuration += (endTime[i] - startTime[i]) -
+          (endTime[i - k] - startTime[i - k]);
     }
 
-    if (sum > maxSum) maxSum = sum;
-    return maxSum;
+    const int freeDuration{eventTime - endTime[n - k - 1] - eventsDuration};
+    if (freeDuration > maxFreeDuration) maxFreeDuration = freeDuration;
+
+    return maxFreeDuration;
   }
 };
