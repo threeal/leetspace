@@ -1,0 +1,26 @@
+name: 3354. Make Array Elements Equal to Zero
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: countValidSelections
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 0, 2, 0, 3]
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [2, 3, 4, 0, 4, 1, 0]
+    output: 0
+
+  test_case_338:
+    inputs:
+      nums: [16, 13, 10, 0, 0, 0, 10, 6, 7, 8, 7]
+    output: 3
