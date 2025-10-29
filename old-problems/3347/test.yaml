@@ -1,0 +1,27 @@
+name: 3347. Maximum Frequency of an Element After Performing Operations II
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+    numOperations: int
+  output: int
+
+solutions:
+  cpp:
+    function: maxFrequency
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 4, 5]
+      k: 1
+      numOperations: 2
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [5, 11, 20, 20]
+      k: 5
+      numOperations: 1
+    output: 2
