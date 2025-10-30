@@ -793,7 +793,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2285. Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/) | Medium | [C](./old-problems/2285/c/solution.c) [C++](./old-problems/2285/solution.cpp) |
 | [2290. Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/) | Hard | [C++](./problems/2290/solution.cpp) |
 | [2294. Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/) | Medium | [C](./old-problems/2294/c/solution.c) [C++](./old-problems/2294/solution.cpp) |
-| [2300. Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/) | Medium | [C++](./old-problems/2300/solution.cpp) |
+| [2300. Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/) | Medium | [C](./old-problems/2300/c/solution.c) [C++](./old-problems/2300/solution.cpp) |
 | [2302. Count Subarrays With Score Less Than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/) | Hard | [C](./old-problems/2302/c/solution.c) [C++](./old-problems/2302/solution.cpp) |
 | [2311. Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/) | Medium | [C](./old-problems/2311/c/solution.c) [C++](./old-problems/2311/solution.cpp) |
 | [2315. Count Asterisks](https://leetcode.com/problems/count-asterisks/) | Easy | [C](./old-problems/2315/c/solution.c) [C++](./old-problems/2315/solution.cpp) |
