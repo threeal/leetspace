@@ -1,0 +1,24 @@
+name: 2598. Smallest Missing Non-negative Integer After Operations
+
+types:
+  inputs:
+    nums: std::vector<int>
+    value: int
+  output: int
+
+solutions:
+  cpp:
+    function: findSmallestInteger
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, -10, 7, 13, 6, 8]
+      value: 5
+    output: 4
+
+  example_2:
+    inputs:
+      nums: [1, -10, 7, 13, 6, 8]
+      value: 7
+    output: 2
