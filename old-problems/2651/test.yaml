@@ -1,0 +1,24 @@
+name: 2651. Calculate Delayed Arrival Time
+
+types:
+  inputs:
+    arrivalTime: int
+    delayedTime: int
+  output: int
+
+solutions:
+  cpp:
+    function: findDelayedArrivalTime
+
+test_cases:
+  example_1:
+    inputs:
+      arrivalTime: 15
+      delayedTime: 5
+    output: 20
+
+  example_2:
+    inputs:
+      arrivalTime: 13
+      delayedTime: 11
+    output: 0
