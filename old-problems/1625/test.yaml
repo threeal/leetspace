@@ -1,0 +1,34 @@
+name: 1625. Lexicographically Smallest String After Applying Operations
+
+types:
+  inputs:
+    s: std::string
+    a: int
+    b: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: findLexSmallestString
+
+test_cases:
+  example_1:
+    inputs:
+      s: "5525"
+      a: 9
+      b: 2
+    output: "2050"
+
+  example_2:
+    inputs:
+      s: "74"
+      a: 5
+      b: 1
+    output: "24"
+
+  example_3:
+    inputs:
+      s: "0011"
+      a: 4
+      b: 2
+    output: "0011"
