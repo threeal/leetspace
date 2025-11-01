@@ -1,0 +1,42 @@
+name: 166. Fraction to Recurring Decimal
+
+types:
+  inputs:
+    numerator: int
+    denominator: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: fractionToDecimal
+
+test_cases:
+  example_1:
+    inputs:
+      numerator: 1
+      denominator: 2
+    output: "0.5"
+
+  example_2:
+    inputs:
+      numerator: 2
+      denominator: 1
+    output: "2"
+
+  example_3:
+    inputs:
+      numerator: 4
+      denominator: 333
+    output: 0.(012)
+
+  test_case_29:
+    inputs:
+      numerator: 7
+      denominator: -12
+    output: -0.58(3)
+
+  test_case_30:
+    inputs:
+      numerator: -1
+      denominator: -2147483648
+    output: "0.0000000004656612873077392578125"
