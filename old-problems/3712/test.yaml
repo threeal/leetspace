@@ -1,0 +1,30 @@
+name: 3712. Sum of Elements With Frequency Divisible by K
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: sumDivisibleByK
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 2, 3, 3, 3, 3, 4]
+      k: 2
+    output: 16
+
+  example_2:
+    inputs:
+      nums: [1, 2, 3, 4, 5]
+      k: 2
+    output: 0
+
+  example_3:
+    inputs:
+      nums: [4, 4, 4, 1, 2, 3]
+      k: 3
+    output: 12
