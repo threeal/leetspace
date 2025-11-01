@@ -1,0 +1,34 @@
+name: 3539. Find Sum of Array Product of Magical Sequences
+
+types:
+  inputs:
+    m: int
+    k: int
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: magicalSum
+
+test_cases:
+  example_1:
+    inputs:
+      m: 5
+      k: 5
+      nums: [1, 10, 100, 10000, 1000000]
+    output: 991600007
+
+  example_2:
+    inputs:
+      m: 2
+      k: 2
+      nums: [5, 4, 3, 2, 1]
+    output: 170
+
+  example_3:
+    inputs:
+      m: 1
+      k: 1
+      nums: [28]
+    output: 28
