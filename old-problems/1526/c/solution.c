@@ -1,3 +1,9 @@
 int minNumberOperations(int* target, int targetSize) {
-  return target[targetSize - 1];
+  int count = target[0];
+  for (int i = 1; i < targetSize; ++i) {
+    if (target[i] - target[i - 1] > 0) {
+      count += target[i] - target[i - 1];
+    }
+  }
+  return count;
 }
