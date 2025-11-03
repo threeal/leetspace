@@ -1051,6 +1051,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3341. Find Minimum Time to Reach Last Room I](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/) | Medium | [C](./old-problems/3341/c/solution.c) [C++](./old-problems/3341/solution.cpp) |
 | [3342. Find Minimum Time to Reach Last Room II](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/) | Medium | [C](./old-problems/3342/c/solution.c) [C++](./old-problems/3342/solution.cpp) |
 | [3343. Count Number of Balanced Permutations](https://leetcode.com/problems/count-number-of-balanced-permutations/) | Hard | [C++](./old-problems/3343/solution.cpp) |
+| [3346. Maximum Frequency of an Element After Performing Operations I](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i/) | Medium | [C++](./old-problems/3346/solution.cpp) |
 | [3349. Adjacent Increasing Subarrays Detection I](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/) | Easy | [C++](./old-problems/3349/solution.cpp) |
 | [3350. Adjacent Increasing Subarrays Detection II](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/) | Medium | [C++](./old-problems/3350/solution.cpp) |
 | [3355. Zero Array Transformation I](https://leetcode.com/problems/zero-array-transformation-i/) | Medium | [C](./old-problems/3355/c/solution.c) [C++](./old-problems/3355/solution.cpp) |
