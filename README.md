@@ -329,6 +329,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | Medium | [C](./old-problems/0802/c/solution.c) [C++](./old-problems/0802/solution.cpp) |
 | [804. Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | Easy | [C++](./problems/0804/solution.cpp) |
 | [807. Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | Medium | [C](./old-problems/0807/c/solution.c) [C++](./old-problems/0807/solution.cpp) |
+| [808. Soup Servings](https://leetcode.com/problems/soup-servings/) | Medium | [C++](./old-problems/0808/solution.cpp) |
 | [812. Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | Easy | [C](./old-problems/0812/c/solution.c) [C++](./old-problems/0812/solution.cpp) |
 | [815. Bus Routes](https://leetcode.com/problems/bus-routes) | Hard | [C++](./problems/0815/solution.cpp) |
 | [823. Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors) | Medium | [C++](./problems/0823/solution.cpp) |
