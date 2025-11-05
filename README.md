@@ -908,6 +908,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2616. Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/) | Medium | [C](./old-problems/2616/c/solution.c) [C++](./old-problems/2616/solution.cpp) |
 | [2641. Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/) | Medium | [C++](./old-problems/2641/solution.cpp) |
 | [2642. Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator) | Hard | [C++](./old-problems/2642/solution.cpp) |
+| [2651. Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/) | Easy | [C++](./old-problems/2651/solution.cpp) |
 | [2652. Sum Multiples](https://leetcode.com/problems/sum-multiples/) | Easy | [C](./old-problems/2652/c/solution.c) [C++](./old-problems/2652/solution.cpp) |
 | [2656. Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | Easy | [C](./old-problems/2656/c/solution.c) [C++](./old-problems/2656/solution.cpp) |
 | [2657. Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) | Medium | [C](./old-problems/2657/c/solution.c) [C++](./old-problems/2657/solution.cpp) |
