@@ -1,0 +1,30 @@
+name: 2788. Split Strings by Separator
+
+types:
+  inputs:
+    words: std::vector<std::string>
+    separator: char
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: splitWordsBySeparator
+
+test_cases:
+  example_1:
+    inputs:
+      words: [one.two.three, four.five, six]
+      separator: 46
+    output: [one, two, three, four, five, six]
+
+  example_2:
+    inputs:
+      words: [$easy$, $problem$]
+      separator: 36
+    output: [easy, problem]
+
+  example_2:
+    inputs:
+      words: ["|||"]
+      separator: 124
+    output: []
