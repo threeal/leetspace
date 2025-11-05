@@ -28,3 +28,9 @@ test_cases:
       words: ["|||"]
       separator: 124
     output: []
+
+  test_case_125:
+    inputs:
+      words: [stars.bars.$]
+      separator: 46
+    output: [stars, bars, $]
