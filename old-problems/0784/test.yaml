@@ -1,0 +1,21 @@
+name: 784. Letter Case Permutation
+
+types:
+  inputs:
+    s: std::string
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: letterCasePermutation
+
+test_cases:
+  example_1:
+    inputs:
+      s: a1b2
+    output: [a1b2, a1B2, A1b2, A1B2]
+
+  example_2:
+    inputs:
+      s: 3z4
+    output: [3z4, 3Z4]
