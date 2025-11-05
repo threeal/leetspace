@@ -34,3 +34,9 @@ test_cases:
       words: [stars.bars.$]
       separator: 46
     output: [stars, bars, $]
+
+  test_case_239:
+    inputs:
+      words: ["###x#i@f"]
+      separator: 35
+    output: [x, i@f]
