@@ -360,6 +360,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [885. Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/) | Medium | [C](./old-problems/0885/c/solution.c) [C++](./old-problems/0885/solution.cpp) |
 | [888. Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | Easy | [C](./old-problems/0888/c/solution.c) [C++](./old-problems/0888/solution.cpp) |
 | [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium | [C++](./old-problems/0889/solution.cpp) |
+| [890. Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/) | Medium | [C++](./old-problems/0890/solution.cpp) |
 | [894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) | Medium | [C++](./old-problems/0894/solution.cpp) |
 | [897. Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | Easy | [C++](./old-problems/0897/solution.cpp) |
 | [898. Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/description/) | Medium | [C++](./old-problems/0898/solution.cpp) |
