@@ -155,6 +155,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [C++](./old-problems/0226/solution.cpp) |
 | [228. Summary Ranges](https://leetcode.com/problems/summary-ranges/) | Easy | [C](./old-problems/0228/c/solution.c) [C++](./old-problems/0228/solution.cpp) |
 | [229. Majority Element II](https://leetcode.com/problems/majority-element-ii) | Medium | [C](./old-problems/0229/c/solution.c) [C++](./old-problems/0229/solution.cpp) |
+| [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | [C++](./old-problems/0230/solution.cpp) |
 | [231. Power of Two](https://leetcode.com/problems/power-of-two/) | Easy | [C](./old-problems/0231/c/solution.c) [C++](./old-problems/0231/solution.cpp) |
 | [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [C++](./old-problems/0232/solution.cpp) |
 | [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [C++](./old-problems/0234/solution.cpp) |
