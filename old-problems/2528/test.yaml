@@ -25,3 +25,10 @@ test_cases:
       r: 0
       k: 3
     output: 4
+
+  test_case_3:
+    inputs:
+      stations: [4, 2]
+      r: 1
+      k: 1
+    output: 7
