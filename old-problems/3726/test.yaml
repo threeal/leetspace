@@ -1,0 +1,21 @@
+name: 3726. Remove Zeros in Decimal Representation
+
+types:
+  inputs:
+    n: long long
+  output: long long
+
+solutions:
+  cpp:
+    function: removeZeros
+
+test_cases:
+  example_1:
+    inputs:
+      n: 1020030
+    output: 123
+
+  example_2:
+    inputs:
+      n: 1
+    output: 1
