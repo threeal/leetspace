@@ -1,5 +1,10 @@
 int busyStudent(
     int* startTime, int startTimeSize, int* endTime, int endTimeSize,
     int queryTime) {
-  return startTime[startTimeSize - 1] + endTime[endTimeSize - 1] + queryTime;
+  (void)endTimeSize;
+  int count = 0;
+  for (int i = 0; i < startTimeSize; ++i) {
+    if (queryTime >= startTime[i] && queryTime <= endTime[i]) ++count;
+  }
+  return count;
 }
