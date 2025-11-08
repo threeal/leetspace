@@ -1077,7 +1077,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3408. Design Task Manager](https://leetcode.com/problems/design-task-manager/) | Medium | [C++](./old-problems/3408/solution.cpp) |
 | [3423. Maximum Difference Between Adjacent Elements in a Circular Array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/) | Easy | [C](./old-problems/3423/c/solution.c) [C++](./old-problems/3423/solution.cpp) |
 | [3427. Sum of Variable Length Subarrays](https://leetcode.com/problems/sum-of-variable-length-subarrays/) | Easy | [C](./old-problems/3427/c/solution.c) [C++](./old-problems/3427/solution.cpp) |
-| [3439. Reschedule Meetings for Maximum Free Time I](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i/) | Medium | [C++](./old-problems/3439/solution.cpp) |
+| [3439. Reschedule Meetings for Maximum Free Time I](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i/) | Medium | [C](./old-problems/3439/c/solution.c) [C++](./old-problems/3439/solution.cpp) |
 | [3440. Reschedule Meetings for Maximum Free Time II](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-ii/) | Medium | [C](./old-problems/3440/c/solution.c) [C++](./old-problems/3440/solution.cpp) |
 | [3442. Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | Easy | [C](./old-problems/3442/c/solution.c) [C++](./old-problems/3442/solution.cpp) |
 | [3443. Maximum Manhattan Distance After K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes/) | Medium | [C](./old-problems/3443/c/solution.c) [C++](./old-problems/3443/solution.cpp) |
