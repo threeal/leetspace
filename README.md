@@ -568,7 +568,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1514. Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) | Medium | [C](./old-problems/1514/c/solution.c) [C++](./old-problems/1514/solution.cpp) |
 | [1518. Water Bottles](https://leetcode.com/problems/water-bottles/) | Easy | [C](./old-problems/1518/c/solution.c) [C++](./old-problems/1518/solution.cpp) |
 | [1524. Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | Medium | [C](./old-problems/1524/c/solution.c) [C++](./old-problems/1524/solution.cpp) |
-| [1526. Minimum Number of Increments on Subarrays to Form a Target Array](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) | Hard | [C++](./old-problems/1526/solution.cpp) |
+| [1526. Minimum Number of Increments on Subarrays to Form a Target Array](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) | Hard | [C](./old-problems/1526/c/solution.c) [C++](./old-problems/1526/solution.cpp) |
 | [1528. Shuffle String](https://leetcode.com/problems/shuffle-string/) | Easy | [C](./old-problems/1528/c/solution.c) [C++](./old-problems/1528/solution.cpp) |
 | [1530. Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | Medium | [C++](./old-problems/1530/solution.cpp) |
 | [1534. Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | Easy | [C](./old-problems/1534/c/solution.c) [C++](./old-problems/1534/solution.cpp) |
