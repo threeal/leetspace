@@ -13,7 +13,7 @@ struct stream_t {
   int totalLen;
 };
 
-struct stream_t* create_stream() {
+struct stream_t* create_stream(void) {
   struct stream_node_t* node = malloc(sizeof(struct stream_node_t));
   node->str = NULL;
   node->len = 0;
