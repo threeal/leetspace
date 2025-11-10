@@ -1,0 +1,24 @@
+name: 2928. Distribute Candies Among Children I
+
+types:
+  inputs:
+    n: int
+    limit: int
+  output: int
+
+solutions:
+  cpp:
+    function: distributeCandies
+
+test_cases:
+  example_1:
+    inputs:
+      n: 5
+      limit: 2
+    output: 3
+
+  example_2:
+    inputs:
+      n: 3
+      limit: 3
+    output: 10
