@@ -324,7 +324,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | Hard | [C++](./old-problems/0778/solution.cpp) |
 | [779. K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar) | Medium | [C](./old-problems/0779/c/solution.c) [C++](./old-problems/0779/solution.cpp) |
 | [781. Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/) | Medium | [C](./old-problems/0781/c/solution.c) [C++](./old-problems/0781/solution.cpp) |
-| [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | Medium | [C++](./old-problems/0784/solution.cpp) |
+| [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | Medium | [C](./old-problems/0784/c/solution.c) [C++](./old-problems/0784/solution.cpp) |
 | [786. K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | Medium | [C](./old-problems/0786/c/solution.c) [C++](./old-problems/0786/solution.cpp) |
 | [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | Medium | [C](./old-problems/0787/c/solution.c) [C++](./old-problems/0787/solution.cpp) |
 | [790. Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/) | Medium | [C](./old-problems/0790/c/solution.c) [C++](./old-problems/0790/solution.cpp) |
