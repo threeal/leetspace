@@ -1070,7 +1070,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3346. Maximum Frequency of an Element After Performing Operations I](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i/) | Medium | [C++](./old-problems/3346/solution.cpp) |
 | [3347. Maximum Frequency of an Element After Performing Operations II](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/) | Hard | [C++](./old-problems/3347/solution.cpp) |
 | [3349. Adjacent Increasing Subarrays Detection I](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/) | Easy | [C](./old-problems/3349/c/solution.c) [C++](./old-problems/3349/solution.cpp) |
-| [3350. Adjacent Increasing Subarrays Detection II](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/) | Medium | [C++](./old-problems/3350/solution.cpp) |
+| [3350. Adjacent Increasing Subarrays Detection II](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/) | Medium | [C](./old-problems/3350/c/solution.c) [C++](./old-problems/3350/solution.cpp) |
 | [3354. Make Array Elements Equal to Zero](https://leetcode.com/problems/make-array-elements-equal-to-zero/) | Easy | [C](./old-problems/3354/c/solution.c) [C++](./old-problems/3354/solution.cpp) |
 | [3355. Zero Array Transformation I](https://leetcode.com/problems/zero-array-transformation-i/) | Medium | [C](./old-problems/3355/c/solution.c) [C++](./old-problems/3355/solution.cpp) |
 | [3356. Zero Array Transformation II](https://leetcode.com/problems/zero-array-transformation-ii/) | Medium | [C](./old-problems/3356/c/solution.c) [C++](./old-problems/3356/solution.cpp) |
