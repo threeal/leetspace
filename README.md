@@ -881,7 +881,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2520. Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/) | Easy | [C](./old-problems/2520/c/solution.c) [C++](./old-problems/2520/solution.cpp) |
 | [2523. Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/) | Medium | [C](./old-problems/2523/c/solution.c) [C++](./old-problems/2523/solution.cpp) |
 | [2525. Categorize Box According to Criteria](https://leetcode.com/problems/categorize-box-according-to-criteria/) | Easy | [C](./old-problems/2525/c/solution.c) [C++](./old-problems/2525/solution.cpp) |
-| [2528. Maximize the Minimum Powered City](https://leetcode.com/problems/maximize-the-minimum-powered-city/) | Hard | [C++](./old-problems/2528/solution.cpp) |
+| [2528. Maximize the Minimum Powered City](https://leetcode.com/problems/maximize-the-minimum-powered-city/) | Hard | [C](./old-problems/2528/c/solution.c) [C++](./old-problems/2528/solution.cpp) |
 | [2529. Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/) | Easy | [C](./old-problems/2529/c/solution.c) [C++](./old-problems/2529/solution.cpp) |
 | [2530. Maximal Score After Applying K Operations](https://leetcode.com/problems/maximal-score-after-applying-k-operations/) | Medium | [C++](./old-problems/2530/solution.cpp) |
 | [2531. Make Number of Distinct Characters Equal](https://leetcode.com/problems/make-number-of-distinct-characters-equal/) | Medium | [C](./old-problems/2531/c/solution.c) [C++](./old-problems/2531/solution.cpp) |
