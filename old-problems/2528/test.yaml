@@ -1,0 +1,41 @@
+name: 2528. Maximize the Minimum Powered City
+
+types:
+  inputs:
+    stations: std::vector<int>
+    r: int
+    k: int
+  output: long long
+
+solutions:
+  cpp:
+    function: maxPower
+
+test_cases:
+  example_1:
+    inputs:
+      stations: [1, 2, 4, 5, 0]
+      r: 1
+      k: 2
+    output: 5
+
+  example_2:
+    inputs:
+      stations: [4, 4, 4, 4]
+      r: 0
+      k: 3
+    output: 4
+
+  test_case_3:
+    inputs:
+      stations: [4, 2]
+      r: 1
+      k: 1
+    output: 7
+
+  test_case_6:
+    inputs:
+      stations: [13, 12, 8, 14, 7]
+      r: 2
+      k: 23
+    output: 52
