@@ -1,0 +1,21 @@
+name: 3527. Find the Most Common Response
+
+types:
+  inputs:
+    responses: std::vector<std::vector<std::string>>
+  output: std::string
+
+solutions:
+  cpp:
+    function: findCommonResponse
+
+test_cases:
+  example_1:
+    inputs:
+      responses: [[good, ok, good, ok], [ok, bad, good, ok, ok], [good], [bad]]
+    output: good
+
+  example_2:
+    inputs:
+      responses: [[good, ok, good], [ok, bad], [bad, notsure], [great, good]]
+    output: bad
