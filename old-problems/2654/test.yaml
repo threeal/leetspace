@@ -18,4 +18,4 @@ test_cases:
   example_2:
     inputs:
       nums: [2, 10, 6, 14]
-    output: -10
+    output: -1
