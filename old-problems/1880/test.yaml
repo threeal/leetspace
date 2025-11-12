@@ -1,0 +1,34 @@
+name: 1880. Check if Word Equals Summation of Two Words
+
+types:
+  inputs:
+    firstWord: std::string
+    secondWord: std::string
+    targetWord: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: isSumEqual
+
+test_cases:
+  example_1:
+    inputs:
+      firstWord: acb
+      secondWord: cba
+      targetWord: cdb
+    output: true
+
+  example_2:
+    inputs:
+      firstWord: aaa
+      secondWord: a
+      targetWord: aab
+    output: false
+
+  example_3:
+    inputs:
+      firstWord: aaa
+      secondWord: a
+      targetWord: aaaa
+    output: true
