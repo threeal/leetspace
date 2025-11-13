@@ -1,0 +1,30 @@
+name: 883. Projection Area of 3D Shapes
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: projectionArea
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [1, 2]
+        - [3, 4]
+    output: 17
+
+  example_2:
+    inputs:
+      grid: [[2]]
+    output: 5
+
+  example_3:
+    inputs:
+      grid:
+        - [1, 0]
+        - [0, 2]
+    output: 8
