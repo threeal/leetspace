@@ -1118,6 +1118,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3701. Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | Easy | [C](./old-problems/3701/c/solution.c) [C++](./old-problems/3701/solution.cpp) |
 | [3712. Sum of Elements With Frequency Divisible by K](https://leetcode.com/problems/sum-of-elements-with-frequency-divisible-by-k/) | Easy | [C](./old-problems/3712/c/solution.c) [C++](./old-problems/3712/solution.cpp) |
 | [3726. Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/) | Easy | [C](./old-problems/3726/c/solution.c) [C++](./old-problems/3726/solution.cpp) |
+| [3731. Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | Easy | [C++](./old-problems/3731/solution.cpp) |
 
 ## License
 
