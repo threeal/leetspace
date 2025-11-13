@@ -1,0 +1,21 @@
+name: 3228. Maximum Number of Operations to Move Ones to the End
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: maxOperations
+
+test_cases:
+  example_1:
+    inputs:
+      s: "1001101"
+    output: 4
+
+  example_2:
+    inputs:
+      s: "00111"
+    output: 0
