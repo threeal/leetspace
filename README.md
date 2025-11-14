@@ -922,7 +922,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2642. Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator) | Hard | [C++](./old-problems/2642/solution.cpp) |
 | [2651. Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/) | Easy | [C](./old-problems/2651/c/solution.c) [C++](./old-problems/2651/solution.cpp) |
 | [2652. Sum Multiples](https://leetcode.com/problems/sum-multiples/) | Easy | [C](./old-problems/2652/c/solution.c) [C++](./old-problems/2652/solution.cpp) |
-| [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](https://leetcode.com/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/) | Medium | [C++](./old-problems/2654/solution.cpp) |
+| [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](https://leetcode.com/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/) | Medium | [C](./old-problems/2654/c/solution.c) [C++](./old-problems/2654/solution.cpp) |
 | [2656. Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | Easy | [C](./old-problems/2656/c/solution.c) [C++](./old-problems/2656/solution.cpp) |
 | [2657. Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) | Medium | [C](./old-problems/2657/c/solution.c) [C++](./old-problems/2657/solution.cpp) |
 | [2658. Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/) | Medium | [C](./old-problems/2658/c/solution.c) [C++](./old-problems/2658/solution.cpp) |
