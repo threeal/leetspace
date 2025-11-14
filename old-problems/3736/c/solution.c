@@ -1,3 +1,12 @@
 int minMoves(int* nums, int numsSize) {
-  return nums[numsSize - 1];
+  int moves = 0, max = nums[0];
+  for (int i = 1; i < numsSize; ++i) {
+    if (nums[i] > max) {
+      moves += (nums[i] - max) * i;
+      max = nums[i];
+    } else {
+      moves += max - nums[i];
+    }
+  }
+  return moves;
 }
