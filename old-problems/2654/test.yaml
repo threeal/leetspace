@@ -1,0 +1,21 @@
+name: 2654. Minimum Number of Operations to Make All Array Elements Equal to 1
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minOperations
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 6, 3, 4]
+    output: 4
+
+  example_2:
+    inputs:
+      nums: [2, 10, 6, 14]
+    output: -1
