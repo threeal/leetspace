@@ -34,3 +34,9 @@ test_cases:
       lowLimit: 6745
       highLimit: 28696
     output: 1499
+
+  test_case_93:
+    inputs:
+      lowLimit: 1
+      highLimit: 100000
+    output: 6000
