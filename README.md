@@ -434,7 +434,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1090. Largest Values From Labels](https://leetcode.com/problems/largest-values-from-labels/) | Medium | [C](./old-problems/1090/c/solution.c) [C++](./old-problems/1090/solution.cpp) |
 | [1092. Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/) | Hard | [C](./old-problems/1092/c/solution.c) [C++](./old-problems/1092/solution.cpp) |
 | [1103. Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/) | Easy | [C](./old-problems/1103/c/solution.c) [C++](./old-problems/1103/solution.cpp) |
-| [1104. Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/) | Medium | [C++](./old-problems/1104/solution.cpp) |
+| [1104. Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/) | Medium | [C](./old-problems/1104/c/solution.c) [C++](./old-problems/1104/solution.cpp) |
 | [1105. Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves/) | Medium | [C](./old-problems/1105/c/solution.c) [C++](./old-problems/1105/solution.cpp) |
 | [1106. Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/) | Hard | [C](./old-problems/1106/c/solution.c) [C++](./old-problems/1106/solution.cpp) |
 | [1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | Easy | [C](./old-problems/1108/c/solution.c) [C++](./old-problems/1108/solution.cpp) |
