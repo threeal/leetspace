@@ -730,7 +730,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2017. Grid Game](https://leetcode.com/problems/grid-game/) | Medium | [C](./old-problems/2017/c/solution.c) [C++](./old-problems/2017/solution.cpp) |
 | [2018. Check if Word Can Be Placed In Crossword](https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/) | Medium | [C](./old-problems/2018/c/solution.c) [C++](./old-problems/2018/solution.cpp) |
 | [2022. Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/) | Medium | [C](./old-problems/2022/c/solution.c) [C++](./old-problems/2022/solution.cpp) |
-| [2023. Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/) | Medium | [C++](./old-problems/2023/solution.cpp) |
+| [2023. Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/) | Medium | [C](./old-problems/2023/c/solution.c) [C++](./old-problems/2023/solution.cpp) |
 | [2028. Find Missing Observations](https://leetcode.com/problems/find-missing-observations/) | Medium | [C](./old-problems/2028/c/solution.c) [C++](./old-problems/2028/solution.cpp) |
 | [2032. Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | Easy | [C](./old-problems/2032/c/solution.c) [C++](./old-problems/2032/solution.cpp) |
 | [2033. Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/description/) | Medium | [C](./old-problems/2033/c/solution.c) [C++](./old-problems/2033/solution.cpp) |
