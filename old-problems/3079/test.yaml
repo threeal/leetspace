@@ -1,0 +1,21 @@
+name: 3079. Find the Sum of Encrypted Integers
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: sumOfEncryptedInt
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3]
+    output: 6
+
+  example_2:
+    inputs:
+      nums: [10,21,31]
+    output: 66
