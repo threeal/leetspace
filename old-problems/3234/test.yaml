@@ -1,0 +1,21 @@
+name: 3234. Count the Number of Substrings With Dominant Ones
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: numberOfSubstrings
+
+test_cases:
+  example_1:
+    inputs:
+      s: "00011"
+    output: 5
+
+  example_2:
+    inputs:
+      s: "101101"
+    output: 16
