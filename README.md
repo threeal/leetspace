@@ -386,7 +386,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [935. Knight Dialer](https://leetcode.com/problems/knight-dialer/) | Easy | [C](./old-problems/0935/c/solution.c) [C++](./old-problems/0935/solution.cpp) |
 | [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | Easy | [C++](./old-problems/0938/solution.cpp) |
 | [942. DI String Match](https://leetcode.com/problems/di-string-match/) | Easy | [C](./old-problems/0942/c/solution.c) [C++](./old-problems/0942/solution.cpp) |
-| [944. Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | Easy | [C++](./old-problems/0944/solution.cpp) |
+| [944. Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | Easy | [C](./old-problems/0944/c/solution.c) [C++](./old-problems/0944/solution.cpp) |
 | [945. Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | Medium | [C](./old-problems/0945/c/solution.c) [C++](./old-problems/0945/solution.cpp) |
 | [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) | Medium | [C++](./old-problems/0947/solution.cpp) |
 | [948. Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/) | Medium | [C](./old-problems/0948/c/solution.c) [C++](./old-problems/0948/solution.cpp) |
