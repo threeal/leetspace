@@ -1,0 +1,42 @@
+name: 1742. Maximum Number of Balls in a Box
+
+types:
+  inputs:
+    lowLimit: int
+    highLimit: int
+  output: int
+
+solutions:
+  cpp:
+    function: countBalls
+
+test_cases:
+  example_1:
+    inputs:
+      lowLimit: 1
+      highLimit: 10
+    output: 2
+
+  example_2:
+    inputs:
+      lowLimit: 5
+      highLimit: 15
+    output: 2
+
+  example_3:
+    inputs:
+      lowLimit: 19
+      highLimit: 28
+    output: 2
+
+  test_case_73:
+    inputs:
+      lowLimit: 6745
+      highLimit: 28696
+    output: 1499
+
+  test_case_93:
+    inputs:
+      lowLimit: 1
+      highLimit: 100000
+    output: 6000
