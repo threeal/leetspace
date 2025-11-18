@@ -285,6 +285,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [628. Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | Easy | [C](./old-problems/0628/c/solution.c) [C++](./old-problems/0628/solution.cpp) |
 | [632. Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | Hard | [C++](./old-problems/0632/solution.cpp) |
 | [633. Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | Medium | [C](./old-problems/0633/c/solution.c) [C++](./old-problems/0633/solution.cpp) |
+| [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | Easy | [C++](./old-problems/0637/solution.cpp) |
 | [640. Solve the Equation](https://leetcode.com/problems/solve-the-equation/) | Medium | [C](./old-problems/0640/c/solution.c) [C++](./old-problems/0640/solution.cpp) |
 | [641. Design Circular Deque](https://leetcode.com/problems/design-circular-deque/) | Medium | [C++](./old-problems/0641/solution.cpp) |
 | [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/) | Easy | [C](./old-problems/0645/c/solution.c) [C++](./old-problems/0645/solution.cpp) |
