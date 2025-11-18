@@ -1,0 +1,21 @@
+name: 717. 1-bit and 2-bit Characters
+
+types:
+  inputs:
+    bits: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: isOneBitCharacter
+
+test_cases:
+  example_1:
+    inputs:
+      bits: [1,0,0]
+    output: true
+
+  example_2:
+    inputs:
+      bits: [1,1,1,0]
+    output: false
