@@ -1,0 +1,27 @@
+name: 474. Ones and Zeroes
+
+types:
+  inputs:
+    strs: std::vector<std::string>
+    m: int
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: findMaxForm
+
+test_cases:
+  example_1:
+    inputs:
+      strs: ["10", "0001", "111001", "1", "0"]
+      m: 5
+      n: 3
+    output: 4
+
+  example_2:
+    inputs:
+      strs: ["10", "0", "1"]
+      m: 1
+      n: 1
+    output: 2
