@@ -243,7 +243,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [461. Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Easy | [C](./old-problems/0461/c/solution.c) [C++](./old-problems/0461/solution.cpp) |
 | [462. Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | Medium | [C](./old-problems/0462/c/solution.c) [C++](./old-problems/0462/solution.cpp) |
 | [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/) | Easy | [C](./old-problems/0463/c/solution.c) [C++](./old-problems/0463/solution.cpp) |
-| [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | Medium | [C++](./old-problems/0474/solution.cpp) |
+| [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | Medium | [C](./old-problems/0474/c/solution.c) [C++](./old-problems/0474/solution.cpp) |
 | [476. Number Complement](https://leetcode.com/problems/number-complement/description/) | Easy | [C](./old-problems/0476/c/solution.c) [C++](./old-problems/0476/solution.cpp) |
 | [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Easy | [C++](./old-problems/0485/solution.cpp) |
 | [494. Target Sum](https://leetcode.com/problems/target-sum/) | Medium | [C](./old-problems/0494/c/solution.c) [C++](./old-problems/0494/solution.cpp) |
