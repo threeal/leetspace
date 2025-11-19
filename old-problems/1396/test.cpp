@@ -31,6 +31,6 @@ TEST_CASE("1396. Design Underground System") {
     REQUIRE(sys.getAverageTime("Leyton", "Paradise") == 5.50000);
     sys.checkIn(2, "Leyton", 21);
     sys.checkOut(2, "Paradise", 30);
-    REQUIRE(sys.getAverageTime("Leyton", "Paradise") == 6.66667);
+    REQUIRE(sys.getAverageTime("Leyton", "Paradise") == 6.66666666666666696);
   }
 }
