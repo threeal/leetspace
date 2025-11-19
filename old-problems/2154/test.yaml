@@ -1,0 +1,24 @@
+name: 2154. Keep Multiplying Found Values by Two
+
+types:
+  inputs:
+    nums: std::vector<int>
+    original: int
+  output: int
+
+solutions:
+  cpp:
+    function: findFinalValue
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [5, 3, 6, 1, 12]
+      original: 3
+    output: 24
+
+  example_2:
+    inputs:
+      nums: [2, 7, 9]
+      original: 4
+    output: 4
