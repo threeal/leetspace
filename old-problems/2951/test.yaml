@@ -1,0 +1,21 @@
+name: 2951. Find the Peaks
+
+types:
+  inputs:
+    mountain: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: findPeaks
+
+test_cases:
+  example_1:
+    inputs:
+      mountain: [2, 4, 4]
+    output: []
+
+  example_2:
+    inputs:
+      mountain: [1, 4, 3, 8, 5]
+    output: [1, 3]
