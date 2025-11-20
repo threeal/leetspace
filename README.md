@@ -310,7 +310,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Easy | [C++](./old-problems/0703/solution.cpp) |
 | [709. To Lower Case](https://leetcode.com/problems/to-lower-case/) | Easy | [C](./old-problems/0709/c/solution.c) [C++](./old-problems/0709/solution.cpp) |
 | [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | Medium | [C](./old-problems/0713/c/solution.c) [C++](./old-problems/0713/solution.cpp) |
-| [717. 1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | Easy | [C++](./old-problems/0717/solution.cpp) |
+| [717. 1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | Easy | [C](./old-problems/0717/c/solution.c) [C++](./old-problems/0717/solution.cpp) |
 | [719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/) | Hard | [C](./old-problems/0719/c/solution.c) [C++](./old-problems/0719/solution.cpp) |
 | [725. Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | Medium | [C++](./old-problems/0725/solution.cpp) |
 | [726. Number of Atoms](https://leetcode.com/problems/number-of-atoms/) | Hard | [C++](./problems/0726/solution.cpp) |
