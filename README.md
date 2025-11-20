@@ -928,7 +928,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2616. Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/) | Medium | [C](./old-problems/2616/c/solution.c) [C++](./old-problems/2616/solution.cpp) |
 | [2641. Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/) | Medium | [C++](./old-problems/2641/solution.cpp) |
 | [2642. Design Graph With Shortest Path Calculator](https://leetcode.com/problems/design-graph-with-shortest-path-calculator) | Hard | [C++](./old-problems/2642/solution.cpp) |
-| [2643. Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) | Easy | [C++](./old-problems/2643/solution.cpp) |
+| [2643. Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) | Easy | [C](./old-problems/2643/c/solution.c) [C++](./old-problems/2643/solution.cpp) |
 | [2651. Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/) | Easy | [C](./old-problems/2651/c/solution.c) [C++](./old-problems/2651/solution.cpp) |
 | [2652. Sum Multiples](https://leetcode.com/problems/sum-multiples/) | Easy | [C](./old-problems/2652/c/solution.c) [C++](./old-problems/2652/solution.cpp) |
 | [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](https://leetcode.com/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/) | Medium | [C](./old-problems/2654/c/solution.c) [C++](./old-problems/2654/solution.cpp) |
