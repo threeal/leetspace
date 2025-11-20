@@ -3,6 +3,11 @@
 class Solution {
  public:
   int returnToBoundaryCount(std::vector<int>& nums) {
-    return nums.size();
+    int sum{0}, count{0};
+    for (const int num : nums) {
+      sum += num;
+      if (sum == 0) ++count;
+    }
+    return count;
   }
 };
