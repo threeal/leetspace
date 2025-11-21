@@ -1,0 +1,21 @@
+name: 2357. Make Array Zero by Subtracting Equal Amounts
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minimumOperations
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 5, 0, 3, 5]
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [0]
+    output: 0
