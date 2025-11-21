@@ -1,0 +1,26 @@
+name: 1529. Minimum Suffix Flips
+
+types:
+  inputs:
+    target: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minFlips
+
+test_cases:
+  example_1:
+    inputs:
+      target: "10111"
+    output: 3
+
+  example_2:
+    inputs:
+      target: "101"
+    output: 3
+
+  example_3:
+    inputs:
+      target: "00000"
+    output: 0
