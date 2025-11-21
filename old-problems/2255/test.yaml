@@ -1,0 +1,24 @@
+name: 2255. Count Prefixes of a Given String
+
+types:
+  inputs:
+    words: std::vector<std::string>
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: countPrefixes
+
+test_cases:
+  example_1:
+    inputs:
+      words: [a, b, c, ab, bc, abc]
+      s: abc
+    output: 3
+
+  example_2:
+    inputs:
+      words: [a, a]
+      s: aa
+    output: 2
