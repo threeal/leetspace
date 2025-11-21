@@ -1,0 +1,21 @@
+name: 3028. Ant on the Boundary
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: returnToBoundaryCount
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 3, -5]
+    output: 1
+
+  example_2:
+    inputs:
+      nums: [3, 2, -3, -4]
+    output: 0
