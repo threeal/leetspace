@@ -1,0 +1,26 @@
+name: 3432. Count Partitions with Even Sum Difference
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: countPartitions
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [10, 10, 3, 7, 6]
+    output: 4
+
+  example_2:
+    inputs:
+      nums: [1, 2, 2]
+    output: 0
+
+  example_3:
+    inputs:
+      nums: [2, 4, 6, 8]
+    output: 3
