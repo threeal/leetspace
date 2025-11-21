@@ -1,0 +1,21 @@
+name: 2496. Maximum Value of a String in an Array
+
+types:
+  inputs:
+    strs: std::vector<std::string>
+  output: int
+
+solutions:
+  cpp:
+    function: maximumValue
+
+test_cases:
+  example_1:
+    inputs:
+      strs: ["alic3", "bob", "3", "4", "00000"]
+    output: 5
+
+  example_2:
+    inputs:
+      strs: ["1", "01", "001", "0001"]
+    output: 1
