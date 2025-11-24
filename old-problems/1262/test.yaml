@@ -1,0 +1,26 @@
+name: 1262. Greatest Sum Divisible by Three
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maxSumDivThree
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [3, 6, 5, 1, 8]
+    output: 18
+
+  example_2:
+    inputs:
+      nums: [4]
+    output: 0
+
+  example_3:
+    inputs:
+      nums: [1, 2, 3, 4, 4]
+    output: 12
