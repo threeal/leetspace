@@ -419,6 +419,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1009. Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) | Easy | [C](./old-problems/1009/c/solution.c) [C++](./old-problems/1009/solution.cpp) |
 | [1014. Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/) | Medium | [C](./old-problems/1014/c/solution.c) [C++](./old-problems/1014/solution.cpp) |
 | [1021. Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | Easy | [C](./old-problems/1021/c/solution.c) [C++](./old-problems/1021/solution.cpp) |
+| [1022. Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | Easy | [C++](./old-problems/1022/solution.cpp) |
 | [1025. Divisor Game](https://leetcode.com/problems/divisor-game/) | Easy | [C](./old-problems/1025/c/solution.c) [C++](./old-problems/1025/solution.cpp) |
 | [1026. Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | Medium | [C++](./old-problems/1026/solution.cpp) |
 | [1028. Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/description) | Hard | [C++](./old-problems/1028/solution.cpp) |
