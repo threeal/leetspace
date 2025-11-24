@@ -1,0 +1,4 @@
+int intersectionSizeTwo(
+    int** intervals, int intervalsSize, int* intervalsColSize) {
+  return intervals[intervalsSize - 1][intervalsColSize[intervalsSize - 1] - 1];
+}
