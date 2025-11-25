@@ -813,7 +813,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2236. Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | Easy | [C++](./old-problems/2236/solution.cpp) |
 | [2248. Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | Easy | [C](./old-problems/2248/c/solution.c) [C++](./old-problems/2248/solution.cpp) |
 | [2251. Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom) | Hard | [C++](./problems/2251/solution.cpp) |
-| [2255. Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | Easy | [C++](./old-problems/2255/solution.cpp) |
+| [2255. Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | Easy | [C](./old-problems/2255/c/solution.c) [C++](./old-problems/2255/solution.cpp) |
 | [2257. Count Unguarded Cells in the Grid](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/) | Medium | [C](./old-problems/2257/c/solution.c) [C++](./old-problems/2257/solution.cpp) |
 | [2264. Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | Easy | [C](./old-problems/2264/c/solution.c) [C++](./old-problems/2264/solution.cpp) |
 | [2226. Maximum Candies Allocated to K Children](https://leetcode.com/problems/maximum-candies-allocated-to-k-children/) | Medium | [C](./old-problems/2226/c/solution.c) [C++](./old-problems/2226/solution.cpp) |
