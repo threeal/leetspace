@@ -1,0 +1,27 @@
+name: 2586. Count the Number of Vowel Strings in Range
+
+types:
+  inputs:
+    words: std::vector<std::string>
+    left: int
+    right: int
+  output: int
+
+solutions:
+  cpp:
+    function: vowelStrings
+
+test_cases:
+  example_1:
+    inputs:
+      words: [are, amy, u]
+      left: 0
+      right: 2
+    output: 2
+
+  example_2:
+    inputs:
+      words: [hey, aeo, mu, ooo, artro]
+      left: 1
+      right: 4
+    output: 3
