@@ -784,7 +784,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2145. Count the Hidden Sequences](https://leetcode.com/problems/count-the-hidden-sequences/) | Medium | [C](./old-problems/2145/c/solution.c) [C++](./old-problems/2145/solution.cpp) |
 | [2147. Number of Ways to Divide a Long Corridor](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/) | Hard | [C](./old-problems/2147/c/solution.c) [C++](./old-problems/2147/solution.cpp) |
 | [2149. Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/) | Medium | [C](./old-problems/2149/c/solution.c) [C++](./old-problems/2149/solution.cpp) |
-| [2154. Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/) | Easy | [C++](./old-problems/2154/solution.cpp) |
+| [2154. Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/) | Easy | [C](./old-problems/2154/c/solution.c) [C++](./old-problems/2154/solution.cpp) |
 | [2160. Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | Easy | [C](./old-problems/2160/c/solution.c) [C++](./old-problems/2160/solution.cpp) |
 | [2161. Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | Medium | [C](./old-problems/2161/c/solution.c) [C++](./old-problems/2161/solution.cpp) |
 | [2165. Smallest Value of the Rearranged Number](https://leetcode.com/problems/smallest-value-of-the-rearranged-number/) | Medium | [C](./old-problems/2165/c/solution.c) [C++](./old-problems/2165/solution.cpp) |
