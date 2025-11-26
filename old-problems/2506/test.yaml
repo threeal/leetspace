@@ -24,3 +24,10 @@ test_cases:
     inputs:
       words: [nba, cba, dba]
     output: 0
+
+  test_case_112:
+    inputs:
+      words: [
+        azwynasdyg, oejxkstpss, vgxawbmyhz, ajcxzlhzao, hitcpvwqwm, uquozxdhpk,
+        cugfsgvpdy, bginsnhmas, uwqdnzzsdv]
+    output: 0
