@@ -418,6 +418,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | Medium | [C++](./old-problems/1008/solution.cpp) |
 | [1009. Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) | Easy | [C](./old-problems/1009/c/solution.c) [C++](./old-problems/1009/solution.cpp) |
 | [1014. Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/) | Medium | [C](./old-problems/1014/c/solution.c) [C++](./old-problems/1014/solution.cpp) |
+| [1018. Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | Easy | [C++](./old-problems/1018/solution.cpp) |
 | [1021. Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | Easy | [C](./old-problems/1021/c/solution.c) [C++](./old-problems/1021/solution.cpp) |
 | [1025. Divisor Game](https://leetcode.com/problems/divisor-game/) | Easy | [C](./old-problems/1025/c/solution.c) [C++](./old-problems/1025/solution.cpp) |
 | [1026. Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | Medium | [C++](./old-problems/1026/solution.cpp) |
