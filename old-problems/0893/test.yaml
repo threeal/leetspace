@@ -1,0 +1,21 @@
+name: 893. Groups of Special-Equivalent Strings
+
+types:
+  inputs:
+    words: std::vector<std::string>
+  output: int
+
+solutions:
+  cpp:
+    function: numSpecialEquivGroups
+
+test_cases:
+  example_1:
+    inputs:
+      words: [abcd, cdab, cbad, xyzz, zzxy, zzyx]
+    output:  3
+
+  example_2:
+    inputs:
+      words: [abc, acb, bac, bca, cab, cba]
+    output:  3
