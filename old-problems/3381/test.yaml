@@ -1,0 +1,30 @@
+name: 3381. Maximum Subarray Sum With Length Divisible by K
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: maxSubarraySum
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2]
+      k: 1
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [-1, -2, -3, -4, -5]
+      k: 4
+    output: -10
+
+  example_3:
+    inputs:
+      nums: [-5, 1, 2, -3, 4]
+      k: 2
+    output: 4
