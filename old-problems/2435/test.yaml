@@ -1,0 +1,36 @@
+name: 2435. Paths in Matrix Whose Sum Is Divisible by K
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: numberOfPaths
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [5, 2, 4]
+        - [3, 0, 5]
+        - [0, 7, 2]
+      k: 3
+    output: 2
+
+  example_2:
+    inputs:
+      grid: [[0, 0]]
+      k: 5
+    output: 1
+
+  example_3:
+    inputs:
+      grid:
+        - [7, 3, 4, 9]
+        - [2, 3, 6, 2]
+        - [2, 3, 7, 0]
+      k: 1
+    output: 10
