@@ -24,3 +24,8 @@ test_cases:
     inputs:
       k: 3
     output: 3
+
+  test_case_8:
+    inputs:
+      k: 6
+    output: -1
