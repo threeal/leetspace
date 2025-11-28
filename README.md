@@ -695,6 +695,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1845. Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/) | Medium | [C++](./old-problems/1845/solution.cpp) |
 | [1846. Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging) | Medium | [C](./old-problems/1846/c/solution.c) [C++](./old-problems/1846/solution.cpp) |
 | [1859. Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/) | Easy | [C](./old-problems/1859/c/solution.c) [C++](./old-problems/1859/solution.cpp) |
+| [1860. Incremental Memory Leak](https://leetcode.com/problems/incremental-memory-leak/) | Medium | [C++](./old-problems/1860/solution.cpp) |
 | [1861. Rotating the Box](https://leetcode.com/problems/rotating-the-box/) | Medium | [C](./old-problems/1861/c/solution.c) [C++](./old-problems/1861/solution.cpp) |
 | [1863. Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | Easy | [C](./old-problems/1863/c/solution.c) [C++](./old-problems/1863/solution.cpp) |
 | [1865. Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/) | Medium | [C++](./old-problems/1865/solution.cpp) |
