@@ -1,0 +1,21 @@
+name: 2595. Number of Even and Odd Bits
+
+types:
+  inputs:
+    n: int
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: evenOddBit
+
+test_cases:
+  example_1:
+    inputs:
+      n: 50
+    output: [1, 2]
+
+  example_2:
+    inputs:
+      n: 2
+    output: [0, 1]
