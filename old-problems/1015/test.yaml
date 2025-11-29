@@ -1,0 +1,31 @@
+name: 1015. Smallest Integer Divisible by K
+
+types:
+  inputs:
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: smallestRepunitDivByK
+
+test_cases:
+  example_1:
+    inputs:
+      k: 1
+    output: 1
+
+  example_2:
+    inputs:
+      k: 2
+    output: -1
+
+  example_3:
+    inputs:
+      k: 3
+    output: 3
+
+  test_case_8:
+    inputs:
+      k: 6
+    output: -1
