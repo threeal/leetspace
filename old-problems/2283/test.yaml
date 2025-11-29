@@ -1,0 +1,21 @@
+name: 2283. Check if Number Has Equal Digit Count and Digit Value
+
+types:
+  inputs:
+    num: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: digitCount
+
+test_cases:
+  example_1:
+    inputs:
+      num: "1210"
+    output: true
+
+  example_2:
+    inputs:
+      num: "030"
+    output: false
