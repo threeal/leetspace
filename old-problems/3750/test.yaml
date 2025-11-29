@@ -1,0 +1,21 @@
+name: 3750. Minimum Number of Flips to Reverse Binary String
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: minimumFlips
+
+test_cases:
+  example_1:
+    inputs:
+      n: 7
+    output: 0
+
+  example_2:
+    inputs:
+      n: 10
+    output: 4
