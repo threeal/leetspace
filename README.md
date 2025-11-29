@@ -217,6 +217,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [402. Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | Medium | [C](./old-problems/0402/c/solution.c) [C++](./old-problems/0402/solution.cpp) |
 | [404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | Easy | [C++](./old-problems/0404/solution.cpp) |
 | [405. Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | Easy | [C](./old-problems/0405/c/solution.c) [C++](./old-problems/0405/solution.cpp) |
+| [406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | Medium | [C++](./old-problems/0406/solution.cpp) |
 | [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) | Hard | [C](./old-problems/0407/c/solution.c) [C++](./old-problems/0407/solution.cpp) |
 | [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | Easy | [C](./old-problems/0409/c/solution.c) [C++](./old-problems/0409/solution.cpp) |
 | [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | Easy | [C](./old-problems/0412/c/solution.c) [C++](./old-problems/0412/solution.cpp) |
