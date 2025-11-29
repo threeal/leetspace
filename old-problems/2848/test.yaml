@@ -1,0 +1,21 @@
+name: 2848. Points That Intersect With Cars
+
+types:
+  inputs:
+    nums: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: numberOfPoints
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [[3, 6], [1, 5], [4, 7]]
+    output: 7
+
+  example_2:
+    inputs:
+      nums: [[1, 3], [5, 8]]
+    output: 7
