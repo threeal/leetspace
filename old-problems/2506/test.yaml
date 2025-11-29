@@ -1,0 +1,33 @@
+name: 2506. Count Pairs Of Similar Strings
+
+types:
+  inputs:
+    words: std::vector<std::string>
+  output: int
+
+solutions:
+  cpp:
+    function: similarPairs
+
+test_cases:
+  example_1:
+    inputs:
+      words: [aba, aabb, abcd, bac, aabc]
+    output: 2
+
+  example_2:
+    inputs:
+      words: [aabb, ab, ba]
+    output: 3
+
+  example_3:
+    inputs:
+      words: [nba, cba, dba]
+    output: 0
+
+  test_case_112:
+    inputs:
+      words: [
+        azwynasdyg, oejxkstpss, vgxawbmyhz, ajcxzlhzao, hitcpvwqwm, uquozxdhpk,
+        cugfsgvpdy, bginsnhmas, uwqdnzzsdv]
+    output: 0
