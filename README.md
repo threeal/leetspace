@@ -1152,7 +1152,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3658. GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | Easy | [C](./old-problems/3658/c/solution.c) [C++](./old-problems/3658/solution.cpp) |
 | [3668. Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/) | Easy | [C](./old-problems/3668/c/solution.c) [C++](./old-problems/3668/solution.cpp) |
 | [3683. Earliest Time to Finish One Task](https://leetcode.com/problems/earliest-time-to-finish-one-task/) | Easy | [C](./old-problems/3683/c/solution.c) [C++](./old-problems/3683/solution.cpp) |
-| [3684. Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | Easy | [C++](./old-problems/3684/solution.cpp) |
+| [3684. Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | Easy | [C](./old-problems/3684/c/solution.c) [C++](./old-problems/3684/solution.cpp) |
 | [3688. Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) | Easy | [C](./old-problems/3688/c/solution.c) [C++](./old-problems/3688/solution.cpp) |
 | [3701. Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | Easy | [C](./old-problems/3701/c/solution.c) [C++](./old-problems/3701/solution.cpp) |
 | [3712. Sum of Elements With Frequency Divisible by K](https://leetcode.com/problems/sum-of-elements-with-frequency-divisible-by-k/) | Easy | [C](./old-problems/3712/c/solution.c) [C++](./old-problems/3712/solution.cpp) |
