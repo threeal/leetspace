@@ -1,0 +1,24 @@
+name: 2389. Longest Subsequence With Limited Sum
+
+types:
+  inputs:
+    nums: std::vector<int>
+    queries: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: answerQueries
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [4, 5, 2, 1]
+      queries: [3, 10, 21]
+    output: [2, 3, 4]
+
+  example_2:
+    inputs:
+      nums: [2, 3, 4, 5]
+      queries: [1]
+    output: [0]
