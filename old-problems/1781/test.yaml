@@ -1,0 +1,21 @@
+name: 1781. Sum of Beauty of All Substrings
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: beautySum
+
+test_cases:
+  example_1:
+    inputs:
+      s: aabcb
+    output: 5
+
+  example_2:
+    inputs:
+      s: aabcbaa
+    output: 17
