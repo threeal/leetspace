@@ -1,0 +1,21 @@
+name: 2578. Split With Minimum Sum
+
+types:
+  inputs:
+    num: int
+  output: int
+
+solutions:
+  cpp:
+    function: splitNum
+
+test_cases:
+  example_1:
+    inputs:
+      num: 4325
+    output: 59
+
+  example_2:
+    inputs:
+      num: 687
+    output: 75
