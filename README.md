@@ -248,7 +248,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Easy | [C++](./old-problems/0485/solution.cpp) |
 | [494. Target Sum](https://leetcode.com/problems/target-sum/) | Medium | [C](./old-problems/0494/c/solution.c) [C++](./old-problems/0494/solution.cpp) |
 | [495. Teemo Attacking](https://leetcode.com/problems/teemo-attacking/) | Medium | [C](./old-problems/0495/c/solution.c) [C++](./old-problems/0495/solution.cpp) |
-| [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | Easy | [C++](./old-problems/0496/solution.cpp) |
+| [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | Easy | [C](./old-problems/0496/c/solution.c) [C++](./old-problems/0496/solution.cpp) |
 | [498. Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | Medium | [C](./old-problems/0498/c/solution.c) [C++](./old-problems/0498/solution.cpp) |
 | [500. Keyboard Row](https://leetcode.com/problems/keyboard-row/) | Easy | [C++](./old-problems/0500/solution.cpp) |
 | [502. IPO](https://leetcode.com/problems/ipo/) | Hard | [C](./old-problems/0502/c/solution.c) [C++](./old-problems/0502/solution.cpp) |
