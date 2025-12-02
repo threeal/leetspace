@@ -1150,6 +1150,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3527. Find the Most Common Response](https://leetcode.com/problems/find-the-most-common-response/) | Medium | [C++](./old-problems/3527/solution.cpp) |
 | [3541. Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | Easy | [C](./old-problems/3541/c/solution.c) [C++](./old-problems/3541/solution.cpp) |
 | [3542. Minimum Operations to Convert All Elements to Zero](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | Medium | [C](./old-problems/3542/c/solution.c) [C++](./old-problems/3542/solution.cpp) |
+| [3545. Minimum Deletions for At Most K Distinct Characters](https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters/) | Easy | [C++](./old-problems/3545/solution.cpp) |
 | [3550. Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | Easy | [C](./old-problems/3550/c/solution.c) [C++](./old-problems/3550/solution.cpp) |
 | [3602. Hexadecimal and Hexatrigesimal Conversion](https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/) | Easy | [C](./old-problems/3602/c/solution.c) [C++](./old-problems/3602/solution.cpp) |
 | [3658. GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | Easy | [C](./old-problems/3658/c/solution.c) [C++](./old-problems/3658/solution.cpp) |
