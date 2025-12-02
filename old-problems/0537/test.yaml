@@ -1,0 +1,24 @@
+name: 537. Complex Number Multiplication
+
+types:
+  inputs:
+    num1: std::string
+    num2: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: complexNumberMultiply
+
+test_cases:
+  example_1:
+    inputs:
+      num1: 1+1i
+      num2: 1+1i
+    output: 0+2i
+
+  example_2:
+    inputs:
+      num1: 1+-1i
+      num2: 1+-1i
+    output: 0+-2i
