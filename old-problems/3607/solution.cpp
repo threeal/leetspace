@@ -1,5 +1,4 @@
 #include <numeric>
-#include <queue>
 #include <vector>
 
 class Solution {
@@ -24,23 +23,26 @@ class Solution {
       }
     }
 
-    std::vector<std::priority_queue<int>> queues(c + 1);
+    std::vector<std::vector<int>> queues(c + 1);
     for (int x{1}; x <= c; ++x) {
-      queues[findRoot(roots, x)].push(-x);
+      queues[findRoot(roots, x)].push_back(x);
+    }
+
+    for (auto& queue : queues) {
+      std::sort(queue.begin(), queue.end(), std::greater<int>());
     }
 
     std::vector<int> output{};
-
     for (const auto& query : queries) {
       if (query[0] == 1) {
         if (isOnlines[query[1]]) {
           output.push_back(query[1]);
         } else {
           const int root{findRoot(roots, query[1])};
-          while (!queues[root].empty() && !isOnlines[-queues[root].top()]) {
-            queues[root].pop();
+          while (!queues[root].empty() && !isOnlines[queues[root].back()]) {
+            queues[root].pop_back();
           }
-          output.push_back(queues[root].empty() ? -1 : -queues[root].top());
+          output.push_back(queues[root].empty() ? -1 : queues[root].back());
         }
       } else {
         isOnlines[query[1]] = false;
