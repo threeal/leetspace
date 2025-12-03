@@ -11,11 +11,11 @@ class Solution {
     for (int i = 1; i <= n && i <= maxSum; ++i) {
       if (it != banned.end() && *it == i) {
         ++it;
-        continue;
+        while (it != banned.end() && *it == i) ++it;
+      } else {
+        maxSum -= i;
+        ++count;
       }
-
-      maxSum -= i;
-      ++count;
     }
 
     return count;
