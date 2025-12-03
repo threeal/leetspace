@@ -94,6 +94,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [90. Subsets II](https://leetcode.com/problems/subsets-ii/) | Medium | [C](./old-problems/0090/c/solution.c) [C++](./old-problems/0090/solution.cpp) |
 | [91. Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | [C](./old-problems/0091/c/solution.c) [C++](./old-problems/0091/solution.cpp) |
 | [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | Medium | [C++](./old-problems/0092/solution.cpp) |
+| [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/) | Medium | [C++](./old-problems/0093/solution.cpp) |
 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [C++](./old-problems/0094/solution.cpp) |
 | [97. Interleaving String](https://leetcode.com/problems/interleaving-string/) | Medium | [C](./old-problems/0097/c/solution.c) [C++](./old-problems/0097/solution.cpp) |
 | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [C++](./old-problems/0098/solution.cpp) |
