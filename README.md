@@ -1153,6 +1153,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3542. Minimum Operations to Convert All Elements to Zero](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | Medium | [C](./old-problems/3542/c/solution.c) [C++](./old-problems/3542/solution.cpp) |
 | [3550. Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | Easy | [C](./old-problems/3550/c/solution.c) [C++](./old-problems/3550/solution.cpp) |
 | [3602. Hexadecimal and Hexatrigesimal Conversion](https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/) | Easy | [C](./old-problems/3602/c/solution.c) [C++](./old-problems/3602/solution.cpp) |
+| [3625. Count Number of Trapezoids II](https://leetcode.com/problems/count-number-of-trapezoids-ii/) | Hard | [C++](./old-problems/3625/solution.cpp) |
 | [3658. GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | Easy | [C](./old-problems/3658/c/solution.c) [C++](./old-problems/3658/solution.cpp) |
 | [3668. Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/) | Easy | [C](./old-problems/3668/c/solution.c) [C++](./old-problems/3668/solution.cpp) |
 | [3683. Earliest Time to Finish One Task](https://leetcode.com/problems/earliest-time-to-finish-one-task/) | Easy | [C](./old-problems/3683/c/solution.c) [C++](./old-problems/3683/solution.cpp) |
