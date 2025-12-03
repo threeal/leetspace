@@ -1,0 +1,24 @@
+name: 2940. Find Building Where Alice and Bob Can Meet
+
+types:
+  inputs:
+    heights: std::vector<int>
+    queries: std::vector<std::vector<int>>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: leftmostBuildingQueries
+
+test_cases:
+  example_1:
+    inputs:
+      heights: [6, 4, 8, 5, 2, 7]
+      queries: [[0, 1], [0, 3], [2, 4], [3, 4], [2, 2]]
+    output: [2, 5, -1, 5, 2]
+
+  example_2:
+    inputs:
+      heights: [5, 3, 8, 2, 6, 1, 4, 6]
+      queries: [[0, 7], [3, 5], [5, 2], [3, 0], [1, 6]]
+    output: [7, 6, -1, 4, 6]
