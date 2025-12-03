@@ -1017,7 +1017,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2928. Distribute Candies Among Children I](https://leetcode.com/problems/distribute-candies-among-children-i/) | Easy | [C](./old-problems/2928/c/solution.c) [C++](./old-problems/2928/solution.cpp) |
 | [2932. Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/) | Easy | [C](./old-problems/2932/c/solution.c) [C++](./old-problems/2932/solution.cpp) |
 | [2938. Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/) | Medium | [C++](./old-problems/2938/solution.cpp) |
-| [2940. Find Building Where Alice and Bob Can Meet](https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/) | Hard | [C++](./old-problems/2940/solution.cpp) |
+| [2940. Find Building Where Alice and Bob Can Meet](https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/) | Hard | [C](./old-problems/2940/c/solution.c) [C++](./old-problems/2940/solution.cpp) |
 | [2948. Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | Medium | [C](./old-problems/2948/c/solution.c) [C++](./old-problems/2948/solution.cpp) |
 | [2951. Find the Peaks](https://leetcode.com/problems/find-the-peaks/) | Easy | [C](./old-problems/2951/c/solution.c) [C++](./old-problems/2951/solution.cpp) |
 | [2956. Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | Easy | [C](./old-problems/2956/c/solution.c) [C++](./old-problems/2956/solution.cpp) |
