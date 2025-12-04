@@ -421,7 +421,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1007. Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | Medium | [C](./old-problems/1007/c/solution.c) [C++](./old-problems/1007/solution.cpp) |
 | [1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | Medium | [C++](./old-problems/1008/solution.cpp) |
 | [1009. Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) | Easy | [C](./old-problems/1009/c/solution.c) [C++](./old-problems/1009/solution.cpp) |
-| [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | Medium | [C++](./old-problems/1011/solution.cpp) |
+| [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | Medium | [C](./old-problems/1011/c/solution.c) [C++](./old-problems/1011/solution.cpp) |
 | [1014. Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/) | Medium | [C](./old-problems/1014/c/solution.c) [C++](./old-problems/1014/solution.cpp) |
 | [1015. Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | Medium | [C++](./old-problems/1015/solution.cpp) |
 | [1018. Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | Easy | [C](./old-problems/1018/c/solution.c) [C++](./old-problems/1018/solution.cpp) |
