@@ -944,7 +944,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2586. Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/) | Easy | [C](./old-problems/2586/c/solution.c) [C++](./old-problems/2586/solution.cpp) |
 | [2593. Find Score of an Array After Marking All Elements](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/) | Medium | [C](./old-problems/2593/c/solution.c) [C++](./old-problems/2593/solution.cpp) |
 | [2594. Minimum Time to Repair Cars](https://leetcode.com/problems/minimum-time-to-repair-cars/) | Medium | [C](./old-problems/2594/c/solution.c) [C++](./old-problems/2594/solution.cpp) |
-| [2595. Number of Even and Odd Bits](https://leetcode.com/problems/minimum-time-to-repair-cars/) | Medium | [C](./old-problems/2594/c/solution.c) [C++](./old-problems/2594/solution.cpp) |
+| [2595. Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits/) | Medium | [C](./old-problems/2595/c/solution.c) [C++](./old-problems/2595/solution.cpp) |
 | [2597. The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/) | Medium | [C](./old-problems/2597/c/solution.c) [C++](./old-problems/2597/solution.cpp) |
 | [2598. Smallest Missing Non-negative Integer After Operations](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/) | Medium | [C](./old-problems/2598/c/solution.c) [C++](./old-problems/2598/solution.cpp) |
 | [2601. Prime Subtraction Operation](https://leetcode.com/problems/prime-subtraction-operation/) | Medium | [C](./old-problems/2601/c/solution.c) [C++](./old-problems/2601/solution.cpp) |
