@@ -864,7 +864,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2380. Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/) | Medium | [C++](./old-problems/2380/solution.cpp) |
 | [2381. Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/description/) | Medium | [C](./old-problems/2381/c/solution.c) [C++](./old-problems/2381/solution.cpp) |
 | [2385. Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | Medium | [C++](./old-problems/2385/solution.cpp) |
-| [2389. Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/) | Medium | [C++](./old-problems/2385/solution.cpp) |
+| [2389. Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/) | Medium | [C](./old-problems/2389/c/solution.c) [C++](./old-problems/2389/solution.cpp) |
 | [2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | Medium | [C](./old-problems/2390/c/solution.c) [C++](./old-problems/2390/solution.cpp) |
 | [2391. Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/) | Medium | [C](./old-problems/2391/c/solution.c) [C++](./old-problems/2391/solution.cpp) |
 | [2396. Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | Medium | [C](./old-problems/2396/c/solution.c) [C++](./old-problems/2396/solution.cpp) |
