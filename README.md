@@ -793,7 +793,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2135. Count Words Obtained After Adding a Letter](https://leetcode.com/problems/count-words-obtained-after-adding-a-letter/) | Medium | [C](./old-problems/2135/c/solution.c) [C++](./old-problems/2135/solution.cpp) |
 | [2138. Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/) | Easy | [C++](./old-problems/2138/solution.cpp) |
 | [2140. Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/) | Medium | [C](./old-problems/2140/c/solution.c) [C++](./old-problems/2140/solution.cpp) |
-| [2141. Maximum Running Time of N Computers](https://leetcode.com/problems/maximum-running-time-of-n-computers/) | Hard | [C++](./old-problems/2141/solution.cpp) |
+| [2141. Maximum Running Time of N Computers](https://leetcode.com/problems/maximum-running-time-of-n-computers/) | Hard | [C](./old-problems/2141/c/solution.c) [C++](./old-problems/2141/solution.cpp) |
 | [2144. Minimum Cost of Buying Candies With Discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | Easy | [C](./old-problems/2144/c/solution.c) [C++](./old-problems/2144/solution.cpp) |
 | [2145. Count the Hidden Sequences](https://leetcode.com/problems/count-the-hidden-sequences/) | Medium | [C](./old-problems/2145/c/solution.c) [C++](./old-problems/2145/solution.cpp) |
 | [2147. Number of Ways to Divide a Long Corridor](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/) | Hard | [C](./old-problems/2147/c/solution.c) [C++](./old-problems/2147/solution.cpp) |
