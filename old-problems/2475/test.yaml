@@ -1,0 +1,21 @@
+name: 2475. Number of Unequal Triplets in Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: unequalTriplets
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [4, 4, 2, 4, 3]
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [1, 1, 1, 1, 1]
+    output: 0
