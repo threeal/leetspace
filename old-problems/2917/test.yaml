@@ -1,0 +1,30 @@
+name: 2917. Find the K-or of an Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: findKOr
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [7, 12, 9, 8, 9, 15]
+      k: 4
+    output: 9
+
+  example_2:
+    inputs:
+      nums: [2, 12, 1, 11, 4, 5]
+      k: 6
+    output: 0
+
+  example_3:
+    inputs:
+      nums: [10, 8, 5, 9, 11, 6, 8]
+      k: 1
+    output: 15
