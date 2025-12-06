@@ -1,0 +1,30 @@
+name: 3545. Minimum Deletions for At Most K Distinct Characters
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: minDeletion
+
+test_cases:
+  example_1:
+    inputs:
+      s: abc
+      k: 2
+    output: 1
+
+  example_2:
+    inputs:
+      s: aabb
+      k: 2
+    output: 0
+
+  example_3:
+    inputs:
+      s: yyyzz
+      k: 1
+    output: 2
