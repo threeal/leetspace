@@ -1,0 +1,24 @@
+name: 1523. Count Odd Numbers in an Interval Range
+
+types:
+  inputs:
+    low: int
+    high: int
+  output: int
+
+solutions:
+  cpp:
+    function: countOdds
+
+test_cases:
+  example_1:
+    inputs:
+      low: 3
+      high: 7
+    output: 3
+
+  example_2:
+    inputs:
+      low: 8
+      high: 10
+    output: 1
