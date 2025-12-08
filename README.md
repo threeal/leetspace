@@ -765,6 +765,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2048. Next Greater Numerically Balanced Number](https://leetcode.com/problems/next-greater-numerically-balanced-number/) | Medium | [C](./old-problems/2048/c/solution.c) [C++](./old-problems/2048/solution.cpp) |
 | [2050. Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii) | Hard | [C++](./problems/2050/solution.cpp) |
 | [2053. Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/) | Easy | [C++](./problems/2053/solution.cpp) |
+| [2057. Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/) | Easy | [C++](./old-problems/2057/solution.cpp) |
 | [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | Medium | [C++](./old-problems/2058/solution.cpp) |
 | [2064. Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/) | Medium | [C](./old-problems/2064/c/solution.c) [C++](./old-problems/2064/solution.cpp) |
 | [2070. Most Beautiful Item for Each Query](https://leetcode.com/problems/most-beautiful-item-for-each-query/) | Medium | [C](./old-problems/2070/c/solution.c) [C++](./old-problems/2070/solution.cpp) |
