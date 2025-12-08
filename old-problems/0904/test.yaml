@@ -29,3 +29,8 @@ test_cases:
     inputs:
       fruits: [3, 3, 3, 1, 2, 1, 1, 2, 3, 3, 4]
     output: 5
+
+  test_case_88:
+    inputs:
+      fruits: [1, 0]
+    output: 2
