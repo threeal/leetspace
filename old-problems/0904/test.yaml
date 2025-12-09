@@ -1,0 +1,36 @@
+name: 904. Fruit Into Baskets
+
+types:
+  inputs:
+    fruits: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: totalFruit
+
+test_cases:
+  example_1:
+    inputs:
+      fruits: [1, 2, 1]
+    output: 3
+
+  example_2:
+    inputs:
+      fruits: [0, 1, 2, 2]
+    output: 3
+
+  example_3:
+    inputs:
+      fruits: [1, 2, 3, 2, 2]
+    output: 4
+
+  test_case_34:
+    inputs:
+      fruits: [3, 3, 3, 1, 2, 1, 1, 2, 3, 3, 4]
+    output: 5
+
+  test_case_88:
+    inputs:
+      fruits: [1, 0]
+    output: 2
