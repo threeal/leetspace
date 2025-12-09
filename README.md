@@ -374,7 +374,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [888. Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | Easy | [C](./old-problems/0888/c/solution.c) [C++](./old-problems/0888/solution.cpp) |
 | [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium | [C++](./old-problems/0889/solution.cpp) |
 | [890. Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/) | Medium | [C](./old-problems/0890/c/solution.c) [C++](./old-problems/0890/solution.cpp) |
-| [892. Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) | Easy | [C++](./old-problems/0892/solution.cpp) |
+| [892. Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) | Easy | [C](./old-problems/0892/c/solution.c) [C++](./old-problems/0892/solution.cpp) |
 | [893. Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/) | Medium | [C](./old-problems/0893/c/solution.c) [C++](./old-problems/0893/solution.cpp) |
 | [894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) | Medium | [C++](./old-problems/0894/solution.cpp) |
 | [897. Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | Easy | [C++](./old-problems/0897/solution.cpp) |
