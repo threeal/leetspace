@@ -677,6 +677,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1758. Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | Easy | [C](./old-problems/1758/c/solution.c) [C++](./old-problems/1758/solution.cpp) |
 | [1759. Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings) | Medium | [C](./old-problems/1759/c/solution.c) [C++](./old-problems/1759/solution.cpp) |
 | [1760. Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/) | Medium | [C](./old-problems/1760/c/solution.c) [C++](./old-problems/1760/solution.cpp) |
+| [1765. Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/description/) | Medium | [C++](./old-problems/1765/solution.cpp) |
 | [1768. Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | [C](./old-problems/1768/c/solution.c) [C++](./old-problems/1768/solution.cpp) |
 | [1769. Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/) | Medium | [C++](./old-problems/1769/solution.cpp) |
 | [1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) | Hard | [C](./old-problems/1770/c/solution.c) [C++](./old-problems/1770/solution.cpp) |

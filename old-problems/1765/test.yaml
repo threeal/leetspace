@@ -1,0 +1,31 @@
+name: 1765. Map of Highest Peak
+
+types:
+  inputs:
+    isWater: std::vector<std::vector<int>>
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: highestPeak
+
+test_cases:
+  example_1:
+    inputs:
+      isWater:
+        - [0, 1]
+        - [0, 0]
+    output:
+      - [1, 0]
+      - [2, 1]
+
+  example_2:
+    inputs:
+      isWater:
+        - [0, 0, 1]
+        - [1, 0, 0]
+        - [0, 0, 0]
+    output:
+      - [1, 1, 0]
+      - [0, 1, 1]
+      - [1, 2, 2]
