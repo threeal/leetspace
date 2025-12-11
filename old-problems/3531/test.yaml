@@ -28,3 +28,10 @@ test_cases:
       n: 5
       buildings: [[1, 3], [3, 2], [3, 3], [3, 5], [5, 3]]
     output: 1
+
+  test_case_235:
+    inputs:
+      n: 4
+      buildings: [
+          [2, 4], [1, 2], [3, 1], [1, 4], [2, 3], [3, 3], [2, 2], [1, 3]]
+    output: 1
