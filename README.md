@@ -516,6 +516,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1314. Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/) | Medium | [C](./old-problems/1314/c/solution.c) [C++](./old-problems/1314/solution.cpp) |
 | [1315. Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | Medium | [C++](./old-problems/1315/solution.cpp) |
 | [1317. Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | Easy | [C](./old-problems/1317/c/solution.c) [C++](./old-problems/1317/solution.cpp) |
+| [1318. Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | Medium | [C++](./old-problems/1318/solution.cpp) |
 | [1323. Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | Easy | [C](./old-problems/1323/c/solution.c) [C++](./old-problems/1323/solution.cpp) |
 | [1325. Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/) | Medium | [C++](./old-problems/1325/solution.cpp) |
 | [1329. Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/) | Medium | [C](./old-problems/1329/c/solution.c) [C++](./old-problems/1329/solution.cpp) |
