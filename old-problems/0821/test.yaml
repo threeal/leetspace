@@ -1,0 +1,24 @@
+name: 821. Shortest Distance to a Character
+
+types:
+  inputs:
+    s: std::string
+    c: char
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: shortestToChar
+
+test_cases:
+  example_1:
+    inputs:
+      s: loveleetcode
+      c: 101
+    output: [3, 2, 1, 0, 1, 0, 0, 1, 2, 2, 1, 0]
+
+  example_2:
+    inputs:
+      s: aaab
+      c: 98
+    output: [3, 2, 1, 0]
