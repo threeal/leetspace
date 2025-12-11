@@ -709,6 +709,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1844. Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/) | Easy | [C](./old-problems/1844/c/solution.c) [C++](./old-problems/1844/solution.cpp) |
 | [1845. Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/) | Medium | [C++](./old-problems/1845/solution.cpp) |
 | [1846. Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging) | Medium | [C](./old-problems/1846/c/solution.c) [C++](./old-problems/1846/solution.cpp) |
+| [1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number](https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/) | Medium | [C++](./old-problems/1850/solution.cpp) |
 | [1859. Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/) | Easy | [C](./old-problems/1859/c/solution.c) [C++](./old-problems/1859/solution.cpp) |
 | [1860. Incremental Memory Leak](https://leetcode.com/problems/incremental-memory-leak/) | Medium | [C++](./old-problems/1860/solution.cpp) |
 | [1861. Rotating the Box](https://leetcode.com/problems/rotating-the-box/) | Medium | [C](./old-problems/1861/c/solution.c) [C++](./old-problems/1861/solution.cpp) |
