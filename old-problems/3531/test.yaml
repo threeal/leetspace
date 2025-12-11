@@ -1,0 +1,30 @@
+name: 3531. Count Covered Buildings
+
+types:
+  inputs:
+    n: int
+    buildings: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: countCoveredBuildings
+
+test_cases:
+  example_1:
+    inputs:
+      n: 3
+      buildings: [[1, 2], [2, 2], [3, 2], [2, 1], [2, 3]]
+    output: 1
+
+  example_2:
+    inputs:
+      n: 3
+      buildings: [[1, 1], [1, 2], [2, 1], [2, 2]]
+    output: 0
+
+  example_3:
+    inputs:
+      n: 5
+      buildings: [[1, 3], [3, 2], [3, 3], [3, 5], [5, 3]]
+    output: 1
