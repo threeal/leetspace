@@ -22,7 +22,7 @@ long long calculateSeries(long long n) {
   return ((n + 1) * n) / 2;
 }
 
-int countHomogenous(char *s) {
+int countHomogenous(char* s) {
   long long total = 0;
 
   // Find the maximum length of each homogeneous substring and sum the series.

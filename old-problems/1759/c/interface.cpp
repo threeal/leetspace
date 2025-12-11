@@ -1,7 +1,7 @@
 #include <string>
 
 extern "C" {
-int countHomogenous(char *s);
+int countHomogenous(char* s);
 }
 
 int solution_c(std::string s) {
