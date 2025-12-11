@@ -1,0 +1,21 @@
+name: 3745. Maximize Expression of Three Elements
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maximizeExpressionOfThree
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 4, 2, 5]
+    output: 8
+
+  example_2:
+    inputs:
+      nums: [-2, 0, 5, -2, 4]
+    output: 11
