@@ -1032,7 +1032,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2917. Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array/) | Easy | [C++](./old-problems/2917/solution.cpp) |
 | [2918. Minimum Equal Sum of Two Arrays After Replacing Zeros](https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros/) | Medium | [C](./old-problems/2918/c/solution.c) [C++](./old-problems/2918/solution.cpp) |
 | [2923. Find Champion I](https://leetcode.com/problems/find-champion-i/) | Easy | [C](./old-problems/2923/c/solution.c) [C++](./old-problems/2923/solution.cpp) |
-| [2924. Find Champion II](https://leetcode.com/problems/find-champion-ii/description/) | Medium | [C++](./old-problems/2924/solution.cpp) |
+| [2924. Find Champion II](https://leetcode.com/problems/find-champion-ii/description/) | Medium | [C](./old-problems/2924/c/solution.c) [C++](./old-problems/2924/solution.cpp) |
 | [2928. Distribute Candies Among Children I](https://leetcode.com/problems/distribute-candies-among-children-i/) | Easy | [C](./old-problems/2928/c/solution.c) [C++](./old-problems/2928/solution.cpp) |
 | [2932. Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/) | Easy | [C](./old-problems/2932/c/solution.c) [C++](./old-problems/2932/solution.cpp) |
 | [2938. Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/) | Medium | [C++](./old-problems/2938/solution.cpp) |
