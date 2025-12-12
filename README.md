@@ -892,7 +892,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2411. Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | Medium | [C](./old-problems/2411/c/solution.c) [C++](./old-problems/2411/solution.cpp) |
 | [2413. Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | Easy | [C](./old-problems/2413/c/solution.c) [C++](./old-problems/2413/solution.cpp) |
 | [2415. Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | Medium | [C++](./old-problems/2415/solution.cpp) |
-| [2416. Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/) | Hard | [C++](./old-problems/2416/solution.cpp) |
+| [2416. Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/) | Hard | [C](./old-problems/2416/c/solution.c) [C++](./old-problems/2416/solution.cpp) |
 | [2418. Sort the People](https://leetcode.com/problems/sort-the-people/) | Easy | [C](./old-problems/2418/c/solution.c) [C++](./old-problems/2418/solution.cpp) |
 | [2419. Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | Medium | [C](./old-problems/2419/c/solution.c) [C++](./old-problems/2419/solution.cpp) |
 | [2423. Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/) | Easy | [C](./old-problems/2423/c/solution.c) [C++](./old-problems/2423/solution.cpp) |
