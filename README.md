@@ -634,7 +634,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1630. Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/) | Medium | [C](./old-problems/1630/c/solution.c) [C++](./old-problems/1630/solution.cpp) |
 | [1636. Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/) | Easy | [C](./old-problems/1636/c/solution.c) [C++](./old-problems/1636/solution.cpp) |
 | [1637. Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/) | Medium | [C](./old-problems/1637/c/solution.c) [C++](./old-problems/1637/solution.cpp) |
-| [1638. Count Substrings That Differ by One Character](https://leetcode.com/problems/count-substrings-that-differ-by-one-character/) | Medium | [C++](./old-problems/1638/solution.cpp) |
+| [1638. Count Substrings That Differ by One Character](https://leetcode.com/problems/count-substrings-that-differ-by-one-character/) | Medium | [C](./old-problems/1638/c/solution.c) [C++](./old-problems/1638/solution.cpp) |
 | [1639. Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/) | Hard | [C](./old-problems/1639/c/solution.c) [C++](./old-problems/1639/solution.cpp) |
 | [1641. Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | Medium | [C](./old-problems/1641/c/solution.c) [C++](./old-problems/1641/solution.cpp) |
 | [1642. Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/) | Medium | [C++](./problems/1642/solution.cpp) |
