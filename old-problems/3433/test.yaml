@@ -36,3 +36,13 @@ test_cases:
         - ["OFFLINE","10","0"]
         - ["MESSAGE","12","HERE"]
     output: [0, 1]
+
+  test_case_639:
+    inputs:
+      numberOfUsers: 3
+      events:
+        - ["MESSAGE", "2", "HERE"]
+        - ["OFFLINE", "2", "1"]
+        - ["OFFLINE", "1", "0"]
+        - ["MESSAGE", "61", "HERE"]
+    output: [1, 0, 2]
