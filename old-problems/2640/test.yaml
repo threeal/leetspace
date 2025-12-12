@@ -1,0 +1,21 @@
+name: 2640. Find the Score of All Prefixes of an Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: std::vector<long long>
+
+solutions:
+  cpp:
+    function: findPrefixScore
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 3, 7, 5, 10]
+    output: [4, 10, 24, 36, 56]
+
+  example_2:
+    inputs:
+      nums: [1, 1, 2, 4, 8, 16]
+    output: [2, 4, 8, 16, 32, 64]
