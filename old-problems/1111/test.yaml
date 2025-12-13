@@ -1,0 +1,21 @@
+name: 1111. Maximum Nesting Depth of Two Valid Parentheses Strings
+
+types:
+  inputs:
+    seq: std::string
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: maxDepthAfterSplit
+
+test_cases:
+  example_1:
+    inputs:
+      seq: (()())
+    output: [1, 0, 0, 0, 0, 1]
+
+  example_2:
+    inputs:
+      seq: ()(())()
+    output: [1, 1, 1, 0, 0, 1, 1, 1]
