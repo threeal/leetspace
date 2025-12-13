@@ -1,0 +1,24 @@
+name: 1222. Queens That Can Attack the King
+
+types:
+  inputs:
+    queens: std::vector<std::vector<int>>
+    king: std::vector<int>
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: queensAttacktheKing
+
+test_cases:
+  example_1:
+    inputs:
+      queens: [[0, 1], [1, 0], [4, 0], [0, 4], [3, 3], [2, 4]]
+      king: [0, 0]
+    output: [[1, 0], [3, 3], [0, 1]]
+
+  example_2:
+    inputs:
+      queens: [[0, 0], [1, 1], [2, 2], [3, 4], [3, 5], [4, 4], [4, 5]]
+      king: [3, 3]
+    output: [[4, 4], [3, 4], [2, 2]]
