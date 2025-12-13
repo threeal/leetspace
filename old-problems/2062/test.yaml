@@ -1,0 +1,26 @@
+name: 2062. Count Vowel Substrings of a String
+
+types:
+  inputs:
+    word: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: countVowelSubstrings
+
+test_cases:
+  example_1:
+    inputs:
+      word: aeiouu
+    output: 2
+
+  example_2:
+    inputs:
+      word: unicornarihan
+    output: 0
+
+  example_3:
+    inputs:
+      word: cuaieuouac
+    output: 7
