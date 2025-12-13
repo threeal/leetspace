@@ -1,0 +1,21 @@
+name: 1925. Count Square Sum Triples
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: countTriples
+
+test_cases:
+  example_1:
+    inputs:
+      n: 5
+    output: 2
+
+  example_2:
+    inputs:
+      n: 10
+    output: 4
