@@ -1,0 +1,24 @@
+name: 3274. Check if Two Chessboard Squares Have the Same Color
+
+types:
+  inputs:
+    coordinate1: std::string
+    coordinate2: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: checkTwoChessboards
+
+test_cases:
+  example_1:
+    inputs:
+      coordinate1: a1
+      coordinate2: c3
+    output: true
+
+  example_2:
+    inputs:
+      coordinate1: a1
+      coordinate2: h3
+    output: false
