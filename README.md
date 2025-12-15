@@ -822,7 +822,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2181. Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | Medium | [C++](./old-problems/2181/solution.cpp) |
 | [2182. Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/) | Medium | [C](./old-problems/2182/c/solution.c) [C++](./old-problems/2182/solution.cpp) |
 | [2185. Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | Easy | [C](./old-problems/2185/c/solution.c) [C++](./old-problems/2185/solution.cpp) |
-| [2191. Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/) | Medium | [C++](./old-problems/2191/solution.cpp) |
+| [2191. Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/) | Medium | [C](./old-problems/2191/c/solution.c) [C++](./old-problems/2191/solution.cpp) |
 | [2192. All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium | [C++](./problems/2192/solution.cpp) |
 | [2194. Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/) | Easy | [C](./old-problems/2194/c/solution.c) [C++](./old-problems/2194/solution.cpp) |
 | [2196. Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/) | Medium | [C++](./old-problems/2196/solution.cpp) |
