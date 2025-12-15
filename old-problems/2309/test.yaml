@@ -1,0 +1,26 @@
+name: 2309. Greatest English Letter in Upper and Lower Case
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: greatestLetter
+
+test_cases:
+  example_1:
+    inputs:
+      s: lEeTcOdE
+    output: E
+
+  example_2:
+    inputs:
+      s: arRAzFif
+    output: R
+
+  example_3:
+    inputs:
+      s: AbCdEfGhIjK
+    output: ""
