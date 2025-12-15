@@ -341,6 +341,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [797. All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | Medium | [C](./old-problems/0797/c/solution.c) [C++](./old-problems/0797/solution.cpp) |
 | [802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | Medium | [C](./old-problems/0802/c/solution.c) [C++](./old-problems/0802/solution.cpp) |
 | [804. Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | Easy | [C++](./problems/0804/solution.cpp) |
+| [806. Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/) | Easy | [C++](./old-problems/0806/solution.cpp) |
 | [807. Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | Medium | [C](./old-problems/0807/c/solution.c) [C++](./old-problems/0807/solution.cpp) |
 | [811. Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/) | Medium | [C++](./old-problems/0811/solution.cpp) |
 | [812. Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | Easy | [C](./old-problems/0812/c/solution.c) [C++](./old-problems/0812/solution.cpp) |
