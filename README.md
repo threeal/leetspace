@@ -915,7 +915,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2466. Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/) | Medium | [C](./old-problems/2466/c/solution.c) [C++](./old-problems/2466/solution.cpp) |
 | [2467. Most Profitable Path in a Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree/) | Medium | [C](./old-problems/2467/c/solution.c) [C++](./old-problems/2467/solution.cpp) |
 | [2469. Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | Easy | [C](./old-problems/2469/c/solution.c) [C++](./old-problems/2469/solution.cpp) |
-| [2475. Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/) | Easy | [C++](./old-problems/2475/solution.cpp) |
+| [2475. Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/) | Easy | [C](./old-problems/2475/c/solution.c) [C++](./old-problems/2475/solution.cpp) |
 | [2481. Minimum Cuts to Divide a Circle](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/) | Easy | [C](./old-problems/2481/c/solution.c) [C++](./old-problems/2481/solution.cpp) |
 | [2482. Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | Medium | [C](./old-problems/2482/c/solution.c) [C++](./old-problems/2482/solution.cpp) |
 | [2485. Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/) | Easy | [C](./old-problems/2485/c/solution.c) [C++](./old-problems/2485/solution.cpp) |
