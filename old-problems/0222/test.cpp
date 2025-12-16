@@ -47,7 +47,7 @@ TEST_CASE("222. Count Complete Tree Nodes") {
   }
 
   SECTION("Example 2") {
-    TreeNode* root{toTreeNode({0})};
+    TreeNode* root{toTreeNode({})};
     REQUIRE(Solution{}.countNodes(root) == 0);
   }
 
