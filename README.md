@@ -477,7 +477,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1208. Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/) | Medium | [C](./old-problems/1208/c/solution.c) [C++](./old-problems/1208/solution.cpp) |
 | [1209. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | Medium | [C](./old-problems/1209/c/solution.c) [C++](./old-problems/1209/solution.cpp) |
 | [1210. Minimum Moves to Reach Target with Rotations](https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/) | Hard | [C++](./problems/1210/solution.cpp) |
-| [1217. Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | Easy | [C++](./old-problems/1217/solution.cpp) |
+| [1217. Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | Easy | [C](./old-problems/1217/c/solution.c) [C++](./old-problems/1217/solution.cpp) |
 | [1219. Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/) | Medium | [C](./old-problems/1219/c/solution.c) [C++](./old-problems/1219/solution.cpp) |
 | [1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation) | Hard | [C](./old-problems/1220/c/solution.c) [C++](./old-problems/1220/solution.cpp) |
 | [1221. Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | Easy | [C](./old-problems/1221/c/solution.c) [C++](./old-problems/1221/solution.cpp) |
