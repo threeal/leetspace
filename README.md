@@ -738,6 +738,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1920. Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | Easy | [C++](./old-problems/1920/solution.cpp) |
 | [1921. Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters) | Medium | [C](./old-problems/1921/c/solution.c) [C++](./old-problems/1921/solution.cpp) |
 | [1922. Count Good Numbers](https://leetcode.com/problems/count-good-numbers/) | Medium | [C](./old-problems/1922/c/solution.c) [C++](./old-problems/1922/solution.cpp) |
+| [1925. Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | Easy | [C++](./old-problems/1925/solution.cpp) |
 | [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | Easy | [C](./old-problems/1929/c/solution.c) [C++](./old-problems/1929/solution.cpp) |
 | [1930. Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences) | Medium | [C](./old-problems/1930/c/solution.c) [C++](./old-problems/1930/solution.cpp) |
 | [1935. Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | Easy | [C](./old-problems/1935/c/solution.c) [C++](./old-problems/1935/solution.cpp) |
