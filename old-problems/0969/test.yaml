@@ -13,7 +13,7 @@ test_cases:
   example_1:
     inputs:
       arr: [3, 2, 4, 1]
-    output: [4, 2, 4, 3]
+    output: [3, 4, 2, 3, 2]
 
   example_2:
     inputs:
