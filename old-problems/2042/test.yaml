@@ -1,0 +1,26 @@
+name: 2042. Check if Numbers Are Ascending in a Sentence
+
+types:
+  inputs:
+    s: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: areNumbersAscending
+
+test_cases:
+  example_1:
+    inputs:
+      s: 1 box has 3 blue 4 red 6 green and 12 yellow marbles
+    output: true
+
+  example_2:
+    inputs:
+      s: hello world 5 x 5
+    output: false
+
+  example_3:
+    inputs:
+      s: sunset is at 7 51 pm overnight lows will be in the low 50 and 60 s
+    output: false
