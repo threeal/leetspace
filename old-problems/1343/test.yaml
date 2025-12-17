@@ -1,0 +1,27 @@
+name: 1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
+
+types:
+  inputs:
+    arr: std::vector<int>
+    k: int
+    threshold: int
+  output: int
+
+solutions:
+  cpp:
+    function: numOfSubarrays
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [2, 2, 2, 2, 5, 5, 5, 8]
+      k: 3
+      threshold: 4
+    output: 3
+
+  example_2:
+    inputs:
+      arr: [11, 13, 17, 23, 29, 31, 7, 5, 2, 3]
+      k: 3
+      threshold: 5
+    output: 6
