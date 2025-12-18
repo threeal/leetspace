@@ -1,0 +1,26 @@
+name: 3583. Count Special Triplets
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: specialTriplets
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [6, 3, 6]
+    output: 1
+
+  example_2:
+    inputs:
+      nums: [0, 1, 0, 0]
+    output: 1
+
+  example_3:
+    inputs:
+      nums: [8, 4, 2, 8, 4]
+    output: 2
