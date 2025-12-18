@@ -25,3 +25,10 @@ test_cases:
       hi: 11
       k: 4
     output: 7
+
+  test_case_4:
+    inputs:
+      lo: 1
+      hi: 1000
+      k: 777
+    output: 570
