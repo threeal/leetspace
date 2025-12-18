@@ -692,7 +692,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) | Hard | [C](./old-problems/1770/c/solution.c) [C++](./old-problems/1770/solution.cpp) |
 | [1773. Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/) | Easy | [C](./old-problems/1773/c/solution.c) [C++](./old-problems/1773/solution.cpp) |
 | [1780. Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/) | Medium | [C](./old-problems/1780/c/solution.c) [C++](./old-problems/1780/solution.cpp) |
-| [1781. Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/) | Medium | [C++](./old-problems/1781/solution.cpp) |
+| [1781. Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/) | Medium | [C](./old-problems/1781/c/solution.c) [C++](./old-problems/1781/solution.cpp) |
 | [1790. Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | Easy | [C](./old-problems/1790/c/solution.c) [C++](./old-problems/1790/solution.cpp) |
 | [1791. Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/) | Easy | [C](./old-problems/1791/c/solution.c) [C++](./old-problems/1791/solution.cpp) |
 | [1792. Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/) | Medium | [C++](./problems/1792/solution.cpp) |
