@@ -1,0 +1,27 @@
+name: 1387. Sort Integers by The Power Value
+
+types:
+  inputs:
+    lo: int
+    hi: int
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: getKth
+
+test_cases:
+  example_1:
+    inputs:
+      lo: 12
+      hi: 15
+      k: 2
+    output: 13
+
+  example_2:
+    inputs:
+      lo: 7
+      hi: 11
+      k: 4
+    output: 7
