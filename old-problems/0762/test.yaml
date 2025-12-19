@@ -1,0 +1,24 @@
+name: 762. Prime Number of Set Bits in Binary Representation
+
+types:
+  inputs:
+    left: int
+    right: int
+  output: int
+
+solutions:
+  cpp:
+    function: countPrimeSetBits
+
+test_cases:
+  example_1:
+    inputs:
+      left: 6
+      right: 10
+    output: 4
+
+  example_2:
+    inputs:
+      left: 10
+      right: 15
+    output: 5
