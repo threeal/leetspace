@@ -1131,6 +1131,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3270. Find the Key of the Numbers](https://leetcode.com/problems/find-the-key-of-the-numbers/) | Easy | [C](./old-problems/3270/c/solution.c) [C++](./old-problems/3270/solution.cpp) |
 | [3271. Hash Divided String](https://leetcode.com/problems/hash-divided-string/) | Medium | [C](./old-problems/3271/c/solution.c) [C++](./old-problems/3271/solution.cpp) |
 | [3272. Find the Count of Good Integers](https://leetcode.com/problems/find-the-count-of-good-integers/) | Hard | [C++](./problems/3272/solution.cpp) |
+| [3274. Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/) | Easy | [C++](./old-problems/3274/solution.cpp) |
 | [3280. Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | Easy | [C](./old-problems/3280/c/solution.c) [C++](./old-problems/3280/solution.cpp) |
 | [3285. Find Indices of Stable Mountains](https://leetcode.com/problems/find-indices-of-stable-mountains/) | Easy | [C](./old-problems/3285/c/solution.c) [C++](./old-problems/3285/solution.cpp) |
 | [3289. The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | Easy | [C](./old-problems/3289/c/solution.c) [C++](./old-problems/3289/solution.cpp) |
