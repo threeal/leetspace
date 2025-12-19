@@ -1,0 +1,21 @@
+name: 3577. Count the Number of Computer Unlocking Permutations
+
+types:
+  inputs:
+    complexity: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: countPermutations
+
+test_cases:
+  example_1:
+    inputs:
+      complexity: [1, 2, 3]
+    output: 2
+
+  example_2:
+    inputs:
+      complexity: [3, 3, 3, 4, 4, 4]
+    output: 0
