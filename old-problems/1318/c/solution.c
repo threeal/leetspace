@@ -1,3 +1,4 @@
 int minFlips(int a, int b, int c) {
-  return a + b + c;
+  c ^= a | b;
+  return __builtin_popcount(c) + __builtin_popcount(a & b & c);
 }
