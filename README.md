@@ -464,7 +464,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | Easy | [C](./old-problems/1108/c/solution.c) [C++](./old-problems/1108/solution.cpp) |
 | [1109. Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) | Medium | [C](./old-problems/1109/c/solution.c) [C++](./old-problems/1109/solution.cpp) |
 | [1110. Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/description) | Medium | [C++](./old-problems/1110/solution.cpp) |
-| [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium | [C++](./old-problems/1111/solution.cpp) |
+| [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/) | Medium | [C](./old-problems/1111/c/solution.c) [C++](./old-problems/1111/solution.cpp) |
 | [1122. Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | Easy | [C](./old-problems/1122/c/solution.c) [C++](./old-problems/1122/solution.cpp) |
 | [1123. Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) | Medium | [C++](./old-problems/1123/solution.cpp) |
 | [1128. Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs/) | Easy | [C](./old-problems/1128/c/solution.c) [C++](./old-problems/1128/solution.cpp) |
