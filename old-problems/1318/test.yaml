@@ -1,0 +1,34 @@
+name: 1318. Minimum Flips to Make a OR b Equal to c
+
+types:
+  inputs:
+    a: int
+    b: int
+    c: int
+  output: int
+
+solutions:
+  cpp:
+    function: minFlips
+
+test_cases:
+  example_1:
+    inputs:
+      a: 2
+      b: 6
+      c: 5
+    output: 3
+
+  example_2:
+    inputs:
+      a: 4
+      b: 2
+      c: 7
+    output: 1
+
+  example_3:
+    inputs:
+      a: 1
+      b: 2
+      c: 3
+    output: 0
