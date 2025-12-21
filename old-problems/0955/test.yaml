@@ -1,0 +1,26 @@
+name: 955. Delete Columns to Make Sorted II
+
+types:
+  inputs:
+    strs: std::vector<std::string>
+  output: int
+
+solutions:
+  cpp:
+    function: minDeletionSize
+
+test_cases:
+  example_1:
+    inputs:
+      strs: [ca, bb, ac]
+    output: 1
+
+  example_2:
+    inputs:
+      strs: [xc, yb, za]
+    output: 0
+
+  example_3:
+    inputs:
+      strs: [zyx, wvu, tsr]
+    output: 3
