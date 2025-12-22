@@ -1,0 +1,30 @@
+name: 216. Combination Sum III
+
+types:
+  inputs:
+    k: int
+    n: int
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: combinationSum3
+
+test_cases:
+  example_1:
+    inputs:
+      k: 3
+      n: 7
+    output: [[1, 2, 4]]
+
+  example_2:
+    inputs:
+      k: 3
+      n: 9
+    output: [[1, 2, 6], [1, 3, 5], [2, 3, 4]]
+
+  example_3:
+    inputs:
+      k: 4
+      n: 1
+    output: []
