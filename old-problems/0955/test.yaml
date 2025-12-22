@@ -24,3 +24,8 @@ test_cases:
     inputs:
       strs: [zyx, wvu, tsr]
     output: 3
+
+  test_case_145:
+    inputs:
+      strs: [a, z, b, c, d]
+    output: 1
