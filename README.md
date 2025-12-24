@@ -357,7 +357,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/) | Hard | [C](./old-problems/0834/c/solution.c) [C++](./old-problems/0834/solution.cpp) |
 | [838. Push Dominoes](https://leetcode.com/problems/push-dominoes/) | Medium | [C](./old-problems/0838/c/solution.c) [C++](./old-problems/0838/solution.cpp) |
 | [840. Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/) | Medium | [C](./old-problems/0840/c/solution.c) [C++](./old-problems/0840/solution.cpp) |
-| [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | Medium | [C++](./old-problems/0841/solution.cpp) |
+| [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | Medium | [C](./old-problems/0841/c/solution.c) [C++](./old-problems/0841/solution.cpp) |
 | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | Easy | [C++](./problems/0844/solution.cpp) |
 | [846. Hand of Straights](https://leetcode.com/problems/hand-of-straights/) | medium | [C](./old-problems/0846/c/solution.c) [C++](./old-problems/0846/solution.cpp) |
 | [857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) | Hard | [C++](./old-problems/0857/solution.cpp) |
