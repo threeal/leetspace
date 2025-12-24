@@ -427,6 +427,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | Hard | [C++](./problems/0992/solution.cpp) |
 | [995. Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/) | Hard | [C](./old-problems/0995/c/solution.c) [C++](./old-problems/0995/solution.cpp) |
 | [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Easy | [C](./old-problems/0997/c/solution.c) [C++](./old-problems/0997/solution.cpp) |
+| [999. Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | Easy | [C++](./old-problems/0999/solution.cpp) |
 | [1002. Find Common Characters](https://leetcode.com/problems/find-common-characters/) | Easy | [C](./old-problems/1002/c/solution.c) [C++](./old-problems/1002/solution.cpp) |
 | [1006. Clumsy Factorial](https://leetcode.com/problems/clumsy-factorial/) | Medium | [C](./old-problems/1006/c/solution.c) [C++](./old-problems/1006/solution.cpp) |
 | [1007. Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | Medium | [C](./old-problems/1007/c/solution.c) [C++](./old-problems/1007/solution.cpp) |
