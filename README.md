@@ -783,7 +783,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2033. Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/description/) | Medium | [C](./old-problems/2033/c/solution.c) [C++](./old-problems/2033/solution.cpp) |
 | [2037. Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/) | Easy | [C](./old-problems/2037/c/solution.c) [C++](./old-problems/2037/solution.cpp) |
 | [2038. Remove Colored Pieces if Both Neighbors are the Same Color](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color) | Medium | [C](./old-problems/2038/c/solution.c) [C++](./old-problems/2038/solution.cpp) |
-| [2042. Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/) | Easy | [C++](./old-problems/2042/solution.cpp) |
+| [2042. Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/) | Easy | [C](./old-problems/2042/c/solution.c) [C++](./old-problems/2042/solution.cpp) |
 | [2043. Simple Bank System](https://leetcode.com/problems/simple-bank-system/) | Medium | [C++](./old-problems/2043/solution.cpp) |
 | [2044. Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/) | Medium | [C](./old-problems/2044/c/solution.c) [C++](./old-problems/2044/solution.cpp) |
 | [2048. Next Greater Numerically Balanced Number](https://leetcode.com/problems/next-greater-numerically-balanced-number/) | Medium | [C](./old-problems/2048/c/solution.c) [C++](./old-problems/2048/solution.cpp) |
