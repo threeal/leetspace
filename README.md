@@ -807,6 +807,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2103. Rings and Rods](https://leetcode.com/problems/rings-and-rods/) | Easy | [C](./old-problems/2103/c/solution.c) [C++](./old-problems/2103/solution.cpp) |
 | [2108. Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | Easy | [C](./old-problems/2108/c/solution.c) [C++](./old-problems/2108/solution.cpp) |
 | [2109. Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string/) | Medium | [C](./old-problems/2109/c/solution.c) [C++](./old-problems/2109/solution.cpp) |
+| [2110. Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/) | Medium | [C++](./old-problems/2110/solution.cpp) |
 | [2114. Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | Easy | [C](./old-problems/2114/c/solution.c) [C++](./old-problems/2114/solution.cpp) |
 | [2115. Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/) | Medium | [C++](./old-problems/2115/solution.cpp) |
 | [2116. Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/) | Medium | [C++](./old-problems/2116/solution.cpp) |
