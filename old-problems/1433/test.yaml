@@ -1,0 +1,30 @@
+name: 1433. Check If a String Can Break Another String
+
+types:
+  inputs:
+    s1: std::string
+    s2: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: checkIfCanBreak
+
+test_cases:
+  example_1:
+    inputs:
+      s1: abc
+      s2: xya
+    output: true
+
+  example_2:
+    inputs:
+      s1: abe
+      s2: acd
+    output: false
+
+  example_3:
+    inputs:
+      s1: leetcodee
+      s2: interview
+    output: true
