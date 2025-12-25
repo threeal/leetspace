@@ -1,0 +1,21 @@
+name: 969. Pancake Sorting
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: pancakeSort
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [3, 2, 4, 1]
+    output: [3, 4, 2, 3, 2]
+
+  example_2:
+    inputs:
+      arr: [1, 2, 3]
+    output: []
