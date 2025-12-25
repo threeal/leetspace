@@ -1,0 +1,26 @@
+name: 1200. Minimum Absolute Difference
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: minimumAbsDifference
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [4, 2, 1, 3]
+    output: [[1, 2], [2, 3], [3, 4]]
+
+  example_2:
+    inputs:
+      arr: [1, 3, 6, 10, 15]
+    output: [[1, 3]]
+
+  example_3:
+    inputs:
+      arr: [3, 8, -10, 23, 19, -4, -14, 27]
+    output: [[-14, -10], [19, 23], [23, 27]]
