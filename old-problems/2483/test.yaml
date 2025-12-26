@@ -1,0 +1,26 @@
+name: 2483. Minimum Penalty for a Shop
+
+types:
+  inputs:
+    customers: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: bestClosingTime
+
+test_cases:
+  example_1:
+    inputs:
+      customers: YYNY
+    output: 2
+
+  example_2:
+    inputs:
+      customers: NNNNN
+    output: 0
+
+  example_3:
+    inputs:
+      customers: YYYY
+    output: 4
