@@ -1,0 +1,28 @@
+name: 2352. Equal Row and Column Pairs
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+  output: char
+
+solutions:
+  cpp:
+    function: equalPairs
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [3, 2, 1]
+        - [1, 7, 6]
+        - [2, 7, 7]
+    output: 1
+
+  example_2:
+    inputs:
+      grid:
+        - [3, 1, 2, 2]
+        - [1, 4, 4, 5]
+        - [2, 4, 2, 2]
+        - [2, 4, 2, 2]
+    output: 3
