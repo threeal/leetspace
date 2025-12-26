@@ -880,7 +880,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2325. Decode the Message](https://leetcode.com/problems/decode-the-message/) | Easy | [C](./old-problems/2325/c/solution.c) [C++](./old-problems/2325/solution.cpp) |
 | [2326. Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/) | Medium | [C++](./old-problems/2326/solution.cpp) |
 | [2327. Number of People Aware of a Secret](https://leetcode.com/problems/number-of-people-aware-of-a-secret/) | Medium | [C](./old-problems/2327/c/solution.c) [C++](./old-problems/2327/solution.cpp) |
-| [2331. Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | Easy | [C++](./old-problems/2331/solution.cpp) |
+| [2336. Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/) | Easy | [C++](./old-problems/2336/solution.cpp) |
 | [2337. Move Pieces to Obtain a String](https://leetcode.com/problems/move-pieces-to-obtain-a-string/) | Medium | [C](./old-problems/2337/c/solution.c) [C++](./old-problems/2337/solution.cpp) |
 | [2341. Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/) | Easy | [C](./old-problems/2341/c/solution.c) [C++](./old-problems/2341/solution.cpp) |
 | [2342. Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | Medium | [C](./old-problems/2342/c/solution.c) [C++](./old-problems/2342/solution.cpp) |
