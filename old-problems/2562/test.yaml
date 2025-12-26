@@ -1,0 +1,21 @@
+name: 2562. Find the Array Concatenation Value
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: long long
+
+solutions:
+  cpp:
+    function: findTheArrayConcVal
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [7, 52, 2, 4]
+    output: 596
+
+  example_2:
+    inputs:
+      nums: [5, 14, 13, 8, 12]
+    output: 673
