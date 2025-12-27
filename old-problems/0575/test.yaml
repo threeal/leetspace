@@ -1,0 +1,26 @@
+name: 575. Distribute Candies
+
+types:
+  inputs:
+    candyType: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: distributeCandies
+
+test_cases:
+  example_1:
+    inputs:
+      candyType: [1, 1, 2, 2, 3, 3]
+    output: 3
+
+  example_2:
+    inputs:
+      candyType: [1, 1, 2, 3]
+    output: 2
+
+  example_3:
+    inputs:
+      candyType: [6, 6, 6, 6]
+    output: 1
