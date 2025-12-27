@@ -24,3 +24,8 @@ test_cases:
     inputs:
       candyType: [6, 6, 6, 6]
     output: 1
+
+  test_case_203:
+    inputs:
+      candyType: [1, 11]
+    output: 1
