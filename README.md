@@ -677,7 +677,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1700. Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/) | Easy | [C](./old-problems/1700/c/solution.c) [C++](./old-problems/1700/solution.cpp) |
 | [1701. Average Waiting Time](https://leetcode.com/problems/average-waiting-time/) | Medium | [C](./old-problems/1701/c/solution.c) [C++](./old-problems/1701/solution.cpp) |
 | [1704. Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | Easy | [C](./old-problems/1704/c/solution.c) [C++](./old-problems/1704/solution.cpp) |
-| [1706. Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/) | Medium | [C++](./old-problems/1706/solution.cpp) |
+| [1706. Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/) | Medium | [C](./old-problems/1706/c/solution.c) [C++](./old-problems/1706/solution.cpp) |
 | [1710. Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) | Easy | [C](./old-problems/1710/c/solution.c) [C++](./old-problems/1710/solution.cpp) |
 | [1716. Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/) | Easy | [C](./old-problems/1716/c/solution.c) [C++](./old-problems/1716/solution.cpp) |
 | [1717. Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/) | Medium | [C](./old-problems/1717/c/solution.c) [C++](./old-problems/1717/solution.cpp) |
