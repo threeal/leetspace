@@ -599,6 +599,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1482. Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | Medium | [C](./old-problems/1482/c/solution.c) [C++](./old-problems/1482/solution.cpp) |
 | [1486. XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | Easy | [C](./old-problems/1486/c/solution.c) [C++](./old-problems/1486/solution.cpp) |
 | [1488. Avoid Flood in The City](https://leetcode.com/problems/avoid-flood-in-the-city/) | Medium | [C++](./old-problems/1488/solution.cpp) |
+| [1492. The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | Medium | [C++](./old-problems/1492/solution.cpp) |
 | [1493. Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | Medium | [C](./old-problems/1493/c/solution.c) [C++](./old-problems/1493/solution.cpp) |
 | [1496. Path Crossing](https://leetcode.com/problems/path-crossing/) | Easy | [C++](./problems/1496/solution.cpp) |
 | [1497. Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | Medium | [C](./old-problems/1497/c/solution.c) [C++](./old-problems/1497/solution.cpp) |
