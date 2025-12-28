@@ -1,0 +1,21 @@
+name: 2527. Find Xor-Beauty of Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: xorBeauty
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 4]
+    output: 5
+
+  example_2:
+    inputs:
+      nums: [15, 45, 20, 2, 34, 35, 5, 44, 32, 30]
+    output: 34
