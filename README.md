@@ -412,6 +412,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [942. DI String Match](https://leetcode.com/problems/di-string-match/) | Easy | [C](./old-problems/0942/c/solution.c) [C++](./old-problems/0942/solution.cpp) |
 | [944. Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | Easy | [C](./old-problems/0944/c/solution.c) [C++](./old-problems/0944/solution.cpp) |
 | [945. Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | Medium | [C](./old-problems/0945/c/solution.c) [C++](./old-problems/0945/solution.cpp) |
+| [946. Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/) | Medium | [C++](./old-problems/0946/solution.cpp) |
 | [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) | Medium | [C++](./old-problems/0947/solution.cpp) |
 | [948. Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/) | Medium | [C](./old-problems/0948/c/solution.c) [C++](./old-problems/0948/solution.cpp) |
 | [950. Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) | Medium | [C++](./old-problems/0950/solution.cpp) |

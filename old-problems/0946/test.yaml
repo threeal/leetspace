@@ -1,0 +1,24 @@
+name: 946. Validate Stack Sequences
+
+types:
+  inputs:
+    pushed: std::vector<int>
+    popped: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: validateStackSequences
+
+test_cases:
+  example_1:
+    inputs:
+      pushed: [1, 2, 3, 4, 5]
+      popped: [4, 5, 3, 2, 1]
+    output: true
+
+  example_2:
+    inputs:
+      pushed: [1, 2, 3, 4, 5]
+      popped: [4, 3, 5, 1, 2]
+    output: false
