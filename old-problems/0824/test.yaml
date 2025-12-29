@@ -1,0 +1,21 @@
+name: 824. Goat Latin
+
+types:
+  inputs:
+    sentence: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: toGoatLatin
+
+test_cases:
+  example_1:
+    inputs:
+      sentence: I speak Goat Latin
+    output: Imaa peaksmaaa oatGmaaaa atinLmaaaaa
+
+  example_2:
+    inputs:
+      sentence: The quick brown fox jumped over the lazy dog
+    output: heTmaa uickqmaaa rownbmaaaa oxfmaaaaa umpedjmaaaaaa overmaaaaaaa hetmaaaaaaaa azylmaaaaaaaaa ogdmaaaaaaaaaa
