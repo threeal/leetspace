@@ -1,0 +1,27 @@
+name: 3652. Best Time to Buy and Sell Stock using Strategy
+
+types:
+  inputs:
+    prices: std::vector<int>
+    strategy: std::vector<int>
+    k: int
+  output: long long
+
+solutions:
+  cpp:
+    function: maxProfit
+
+test_cases:
+  example_1:
+    inputs:
+      prices: [4, 2, 8]
+      strategy: [-1, 0, 1]
+      k: 2
+    output: 10
+
+  example_2:
+    inputs:
+      prices: [5, 4, 3]
+      strategy: [1, 1, 0]
+      k: 2
+    output: 9
