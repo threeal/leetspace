@@ -25,3 +25,10 @@ test_cases:
       strategy: [1, 1, 0]
       k: 2
     output: 9
+
+  test_case_102:
+    inputs:
+      prices: [5, 8]
+      strategy: [-1, -1]
+      k: 2
+    output: 8
