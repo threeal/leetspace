@@ -401,7 +401,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [914. X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/) | Easy | [C](./old-problems/0914/c/solution.c) [C++](./old-problems/0914/solution.cpp) |
 | [916. Word Subsets](https://leetcode.com/problems/word-subsets/) | Medium | [C](./old-problems/0916/c/solution.c) [C++](./old-problems/0916/solution.cpp) |
 | [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | Medium | [C](./old-problems/0921/c/solution.c) [C++](./old-problems/0921/solution.cpp) |
-| [922. Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/) | Easy | [C++](./old-problems/0922/solution.cpp) |
+| [922. Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/) | Easy | [C](./old-problems/0922/c/solution.c) [C++](./old-problems/0922/solution.cpp) |
 | [925. Long Pressed Name](https://leetcode.com/problems/long-pressed-name/) | Easy | [C](./old-problems/0925/c/solution.c) [C++](./old-problems/0925/solution.cpp) |
 | [929. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | Easy | [C](./old-problems/0929/c/solution.c) [C++](./old-problems/0929/solution.cpp) |
 | [930. Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | Medium | [C](./old-problems/0930/c/solution.c) [C++](./old-problems/0930/solution.cpp) |
