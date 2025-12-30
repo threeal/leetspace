@@ -1229,7 +1229,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3726. Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/) | Easy | [C](./old-problems/3726/c/solution.c) [C++](./old-problems/3726/solution.cpp) |
 | [3731. Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | Easy | [C](./old-problems/3731/c/solution.c) [C++](./old-problems/3731/solution.cpp) |
 | [3736. Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | Easy | [C](./old-problems/3736/c/solution.c) [C++](./old-problems/3736/solution.cpp) |
-| [3745. Maximize Expression of Three Elements](https://leetcode.com/problems/maximize-expression-of-three-elements/) | Easy | [C++](./old-problems/3745/solution.cpp) |
+| [3745. Maximize Expression of Three Elements](https://leetcode.com/problems/maximize-expression-of-three-elements/) | Easy | [C](./old-problems/3745/c/solution.c) [C++](./old-problems/3745/solution.cpp) |
 | [3750. Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/) | Easy | [C](./old-problems/3750/c/solution.c) [C++](./old-problems/3750/solution.cpp) |
 
 ## License
