@@ -1,0 +1,21 @@
+name: 1502. Can Make Arithmetic Progression From Sequence
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: canMakeArithmeticProgression
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [3, 5, 1]
+    output: true
+
+  example_2:
+    inputs:
+      arr: [1, 2, 4]
+    output: false
