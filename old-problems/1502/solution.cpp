@@ -1,8 +1,14 @@
+#include <algorithm>
 #include <vector>
 
 class Solution {
  public:
   bool canMakeArithmeticProgression(std::vector<int>& arr) {
-    return arr.empty();
+    std::sort(arr.begin(), arr.end());
+    const int diff{arr[1] - arr[0]};
+    for (std::size_t i{2}; i < arr.size(); ++i) {
+      if (arr[i] - arr[i - 1] != diff) return false;
+    }
+    return true;
   }
 };
