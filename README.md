@@ -646,7 +646,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1609. Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | Medium | [C++](./old-problems/1609/solution.cpp) |
 | [1611. Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/) | Hard | [C](./old-problems/1611/c/solution.c) [C++](./old-problems/1611/solution.cpp) |
 | [1614. Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | Easy | [C++](./old-problems/1614/solution.cpp) [C](./old-problems/1614/c/solution.c) |
-| [1619. Mean of Array After Removing Some Elements](https://leetcode.com/problems/mean-of-array-after-removing-some-elements/) | Easy | [C++](./old-problems/1619/solution.cpp) |
+| [1619. Mean of Array After Removing Some Elements](https://leetcode.com/problems/mean-of-array-after-removing-some-elements/) | Easy | [C](./old-problems/1619/c/solution.c) [C++](./old-problems/1619/solution.cpp) |
 | [1624. Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | Easy | [C](./old-problems/1624/c/solution.c) [C++](./old-problems/1624/solution.cpp) |
 | [1625. Lexicographically Smallest String After Applying Operations](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/) | Medium | [C++](./old-problems/1625/solution.cpp) |
 | [1627. Graph Connectivity With Threshold](https://leetcode.com/problems/graph-connectivity-with-threshold/) | Hard | [C](./old-problems/1627/c/solution.c) [C++](./old-problems/1627/solution.cpp) |
