@@ -1218,6 +1218,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3606. Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/) | Easy | [C++](./old-problems/3606/solution.cpp) |
 | [3652. Best Time to Buy and Sell Stock using Strategy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/) | Medium | [C++](./old-problems/3652/solution.cpp) |
 | [3658. GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | Easy | [C](./old-problems/3658/c/solution.c) [C++](./old-problems/3658/solution.cpp) |
+| [3663. Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | Easy | [C++](./old-problems/3663/solution.cpp) |
 | [3668. Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/) | Easy | [C](./old-problems/3668/c/solution.c) [C++](./old-problems/3668/solution.cpp) |
 | [3683. Earliest Time to Finish One Task](https://leetcode.com/problems/earliest-time-to-finish-one-task/) | Easy | [C](./old-problems/3683/c/solution.c) [C++](./old-problems/3683/solution.cpp) |
 | [3684. Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | Easy | [C](./old-problems/3684/c/solution.c) [C++](./old-problems/3684/solution.cpp) |
