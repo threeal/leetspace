@@ -845,6 +845,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2170. Minimum Operations to Make the Array Alternating](https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/) | Medium | [C++](./old-problems/2170/solution.cpp) |
 | [2176. Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/) | Easy | [C](./old-problems/2176/c/solution.c) [C++](./old-problems/2176/solution.cpp) |
 | [2179. Count Good Triplets in an Array](https://leetcode.com/problems/count-good-triplets-in-an-array/) | Hard | [C](./old-problems/2179/c/solution.c) [C++](./old-problems/2179/solution.cpp) |
+| [2180. Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | Easy | [C++](./old-problems/2180/solution.cpp) |
 | [2181. Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | Medium | [C++](./old-problems/2181/solution.cpp) |
 | [2182. Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/) | Medium | [C](./old-problems/2182/c/solution.c) [C++](./old-problems/2182/solution.cpp) |
 | [2185. Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | Easy | [C](./old-problems/2185/c/solution.c) [C++](./old-problems/2185/solution.cpp) |
