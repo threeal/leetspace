@@ -800,7 +800,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2048. Next Greater Numerically Balanced Number](https://leetcode.com/problems/next-greater-numerically-balanced-number/) | Medium | [C](./old-problems/2048/c/solution.c) [C++](./old-problems/2048/solution.cpp) |
 | [2050. Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii) | Hard | [C++](./problems/2050/solution.cpp) |
 | [2053. Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/) | Easy | [C++](./problems/2053/solution.cpp) |
-| [2054. Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/) | Medium | [C++](./old-problems/2054/solution.cpp) |
+| [2054. Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/) | Medium | [C](./old-problems/2054/c/solution.c) [C++](./old-problems/2054/solution.cpp) |
 | [2057. Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/) | Easy | [C](./old-problems/2057/c/solution.c) [C++](./old-problems/2057/solution.cpp) |
 | [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | Medium | [C++](./old-problems/2058/solution.cpp) |
 | [2062. Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/) | Easy | [C](./old-problems/2062/c/solution.c) [C++](./old-problems/2062/solution.cpp) |
