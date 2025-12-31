@@ -1,0 +1,35 @@
+name: 1970. Last Day Where You Can Still Cross
+
+types:
+  inputs:
+    row: int
+    col: int
+    cells: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: latestDayToCross
+
+test_cases:
+  example_1:
+    inputs:
+      row: 2
+      col: 2
+      cells: [[1, 1], [2, 1], [1, 2], [2, 2]]
+    output: 2
+
+  example_2:
+    inputs:
+      row: 2
+      col: 2
+      cells: [[1, 1], [1, 2], [2, 1], [2, 2]]
+    output: 1
+
+  example_3:
+    inputs:
+      row: 3
+      col: 3
+      cells: [
+        [1, 2], [2, 1], [3, 3], [2, 2], [1, 1], [1, 3], [2, 3], [3, 2], [3, 1]]
+    output: 3
