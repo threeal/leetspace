@@ -583,7 +583,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1425. Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum) | Hard | [C++](./problems/1425/solution.cpp) |
 | [1431. Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | Easy | [C](./old-problems/1431/c/solution.c) [C++](./old-problems/1431/solution.cpp) |
 | [1432. Max Difference You Can Get From Changing an Integer](https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/) | Medium | [C](./old-problems/1432/c/solution.c) [C++](./old-problems/1432/solution.cpp) |
-| [1433. Check If a String Can Break Another String](https://leetcode.com/problems/check-if-a-string-can-break-another-string/) | Medium | [C++](./old-problems/1433/solution.cpp) |
+| [1433. Check If a String Can Break Another String](https://leetcode.com/problems/check-if-a-string-can-break-another-string/) | Medium | [C](./old-problems/1433/c/solution.c) [C++](./old-problems/1433/solution.cpp) |
 | [1436. Destination City](https://leetcode.com/problems/destination-city/) | Easy | [C++](./problems/1436/solution.cpp) |
 | [1437. Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) | Easy | [C](./old-problems/1437/c/solution.c) [C++](./old-problems/1437/solution.cpp) |
 | [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Medium | [C](./old-problems/1438/c/solution.c) [C++](./old-problems/1438/solution.cpp) |
