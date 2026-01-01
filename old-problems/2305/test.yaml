@@ -1,0 +1,24 @@
+name: 2305. Fair Distribution of Cookies
+
+types:
+  inputs:
+    cookies: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: distributeCookies
+
+test_cases:
+  example_1:
+    inputs:
+      cookies: [8, 15, 10, 20, 8]
+      k: 2
+    output: 31
+
+  example_2:
+    inputs:
+      cookies: [6, 1, 3, 2, 2, 4, 1, 2]
+      k: 3
+    output: 7
