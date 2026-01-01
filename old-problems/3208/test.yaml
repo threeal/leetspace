@@ -28,3 +28,9 @@ test_cases:
       nums: [1, 1, 0, 1]
       k: 4
     output: 0
+
+  test_case_481:
+    inputs:
+      nums: [0, 1, 0, 1]
+      k: 3
+    output: 4
