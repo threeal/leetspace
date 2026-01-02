@@ -898,6 +898,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2342. Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | Medium | [C](./old-problems/2342/c/solution.c) [C++](./old-problems/2342/solution.cpp) |
 | [2347. Best Poker Hand](https://leetcode.com/problems/best-poker-hand/) | Easy | [C](./old-problems/2347/c/solution.c) [C++](./old-problems/2347/solution.cpp) |
 | [2348. Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | Medium | [C](./old-problems/2348/c/solution.c) [C++](./old-problems/2348/solution.cpp) |
+| [2350. Shortest Impossible Sequence of Rolls](https://leetcode.com/problems/shortest-impossible-sequence-of-rolls/) | Hard | [C++](./old-problems/2350/solution.cpp) |
 | [2351. First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/) | Easy | [C](./old-problems/2351/c/solution.c) [C++](./old-problems/2351/solution.cpp) |
 | [2353. Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/) | Medium | [C++](./old-problems/2353/solution.cpp) |
 | [2363. Merge Similar Items](https://leetcode.com/problems/merge-similar-items/) | Easy | [C](./old-problems/2363/c/solution.c) [C++](./old-problems/2363/solution.cpp) |
