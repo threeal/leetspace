@@ -1,0 +1,36 @@
+name: 227. Basic Calculator II
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: calculate
+
+test_cases:
+  example_1:
+    inputs:
+      s: 3+2*2
+    output: 7
+
+  example_2:
+    inputs:
+      s: " 3/2 "
+    output: 1
+
+  example_3:
+    inputs:
+      s: " 3+5 / 2 "
+    output: 5
+
+  test_case_11:
+    inputs:
+      s: "2147483647"
+    output: 2147483647
+
+  test_case_103:
+    inputs:
+      s: 1+2*5/3+6/4*2
+    output: 6
