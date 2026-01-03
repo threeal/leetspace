@@ -1,0 +1,21 @@
+name: 3663. Find The Least Frequent Digit
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: getLeastFrequentDigit
+
+test_cases:
+  example_1:
+    inputs:
+      n: 1553322
+    output: 1
+
+  example_2:
+    inputs:
+      n: 723344511
+    output: 2
