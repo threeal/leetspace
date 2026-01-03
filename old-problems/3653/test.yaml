@@ -1,0 +1,33 @@
+name: 3653. XOR After Range Multiplication Queries I
+
+types:
+  inputs:
+    nums: std::vector<int>
+    queries: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: xorAfterQueries
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 1, 1]
+      queries: [[0, 2, 1, 4]]
+    output: 4
+
+  example_2:
+    inputs:
+      nums: [2, 3, 1, 5, 4]
+      queries: [[1, 4, 2, 3], [0, 2, 1, 2]]
+    output: 31
+
+  test_case_2:
+    inputs:
+      nums: [780]
+      queries: [
+        [0, 0, 1, 13], [0, 0, 1, 17], [0, 0, 1, 9], [0, 0, 1, 18],
+        [0, 0, 1, 16], [0, 0, 1, 6], [0, 0, 1, 4], [0, 0, 1, 11], [0, 0, 1, 7],
+        [0, 0, 1, 18], [0, 0, 1, 8], [0, 0, 1, 15], [0, 0, 1, 12]]
+    output: 523618060
