@@ -564,6 +564,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1380. Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) | Easy | [C](./old-problems/1380/c/solution.c) [C++](./old-problems/1380/solution.cpp) |
 | [1381. Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | Medium | [C++](./old-problems/1381/solution.cpp) |
 | [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | Medium | [C++](./old-problems/1382/solution.cpp) |
+| [1385. Find the Distance Value Between Two Arrays](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/) | Easy | [C++](./old-problems/1385/solution.cpp) |
 | [1387. Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/) | Medium | [C++](./old-problems/1387/solution.cpp) |
 | [1394. Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/) | Easy | [C](./old-problems/1394/c/solution.c) [C++](./old-problems/1394/solution.cpp) |
 | [1389. Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | Medium | [C](./old-problems/1389/c/solution.c) [C++](./old-problems/1389/solution.cpp) |
