@@ -1,0 +1,30 @@
+name: 2024. Maximize the Confusion of an Exam
+
+types:
+  inputs:
+    answerKey: std::string
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: maxConsecutiveAnswers
+
+test_cases:
+  example_1:
+    inputs:
+      answerKey: TTFF
+      k: 2
+    output: 4
+
+  example_2:
+    inputs:
+      answerKey: TFFT
+      k: 1
+    output: 3
+
+  example_3:
+    inputs:
+      answerKey: TTFTTFTT
+      k: 1
+    output: 5
