@@ -1,0 +1,26 @@
+name: 766. Toeplitz Matrix
+
+types:
+  inputs:
+    matrix: std::vector<std::vector<int>>
+  output: bool
+
+solutions:
+  cpp:
+    function: isToeplitzMatrix
+
+test_cases:
+  example_1:
+    inputs:
+      matrix:
+        - [1, 2, 3, 4]
+        - [5, 1, 2, 3]
+        - [9, 5, 1, 2]
+    output: true
+
+  example_2:
+    inputs:
+      matrix:
+        - [1, 2]
+        - [2, 2]
+    output: false
