@@ -1144,7 +1144,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3195. Find the Minimum Area to Cover All Ones I](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i/) | Medium | [C](./old-problems/3195/c/solution.c) [C++](./old-problems/3195/solution.cpp) |
 | [3201. Find the Maximum Length of Valid Subsequence I](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i/) | Medium | [C](./old-problems/3201/c/solution.c) [C++](./old-problems/3201/solution.cpp) |
 | [3202. Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/) | Medium | [C](./old-problems/3202/c/solution.c) [C++](./old-problems/3202/solution.cpp) |
-| [3208. Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/) | Medium | [C++](./old-problems/3208/solution.cpp) |
+| [3208. Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/) | Medium | [C](./old-problems/3208/c/solution.c) [C++](./old-problems/3208/solution.cpp) |
 | [3211. Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/) | Medium | [C](./old-problems/3211/c/solution.c) [C++](./old-problems/3211/solution.cpp) |
 | [3217. Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/) | Medium | [C++](./old-problems/3217/solution.cpp) |
 | [3223. Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/) | Medium | [C](./old-problems/3223/c/solution.c) [C++](./old-problems/3223/solution.cpp) |
