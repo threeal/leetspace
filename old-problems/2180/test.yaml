@@ -1,0 +1,21 @@
+name: 2180. Count Integers With Even Digit Sum
+
+types:
+  inputs:
+    num: int
+  output: int
+
+solutions:
+  cpp:
+    function: countEven
+
+test_cases:
+  example_1:
+    inputs:
+      num: 4
+    output: 2
+
+  example_2:
+    inputs:
+      num: 30
+    output: 14
