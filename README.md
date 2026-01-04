@@ -1230,6 +1230,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3602. Hexadecimal and Hexatrigesimal Conversion](https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/) | Easy | [C](./old-problems/3602/c/solution.c) [C++](./old-problems/3602/solution.cpp) |
 | [3606. Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/) | Easy | [C](./old-problems/3606/c/solution.c) [C++](./old-problems/3606/solution.cpp) |
 | [3652. Best Time to Buy and Sell Stock using Strategy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/) | Medium | [C++](./old-problems/3652/solution.cpp) |
+| [3653. XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/) | Medium | [C++](./old-problems/3653/solution.cpp) |
 | [3658. GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | Easy | [C](./old-problems/3658/c/solution.c) [C++](./old-problems/3658/solution.cpp) |
 | [3668. Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/) | Easy | [C](./old-problems/3668/c/solution.c) [C++](./old-problems/3668/solution.cpp) |
 | [3683. Earliest Time to Finish One Task](https://leetcode.com/problems/earliest-time-to-finish-one-task/) | Easy | [C](./old-problems/3683/c/solution.c) [C++](./old-problems/3683/solution.cpp) |
