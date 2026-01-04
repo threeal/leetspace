@@ -567,6 +567,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1387. Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/) | Medium | [C++](./old-problems/1387/solution.cpp) |
 | [1394. Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/) | Easy | [C](./old-problems/1394/c/solution.c) [C++](./old-problems/1394/solution.cpp) |
 | [1389. Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | Medium | [C](./old-problems/1389/c/solution.c) [C++](./old-problems/1389/solution.cpp) |
+| [1390. Four Divisors](https://leetcode.com/problems/four-divisors/) | Medium | [C++](./old-problems/1390/solution.cpp) |
 | [1395. Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/) | Medium | [C](./old-problems/1395/c/solution.c) [C++](./old-problems/1395/solution.cpp) |
 | [1396. Design Underground System](https://leetcode.com/problems/design-underground-system/) | Medium | [C++](./old-problems/1396/solution.cpp) |
 | [1399. Count Largest Group](https://leetcode.com/problems/count-largest-group/) | Easy | [C++](./old-problems/1399/solution.cpp) |
