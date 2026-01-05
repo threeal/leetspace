@@ -280,6 +280,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | [C](./old-problems/0567/c/solution.c) [C++](./old-problems/0567/solution.cpp) |
 | [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | Medium | [C++](./problems/0576/solution.cpp) |
 | [587. Erect the Fence](https://leetcode.com/problems/erect-the-fence/) | Hard | [C++](./old-problems/0587/solution.cpp) |
+| [589. N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | Easy | [C++](./old-problems/0589/solution.cpp) |
 | [590. N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | Easy | [C++](./old-problems/0590/solution.cpp) |
 | [592. Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/) | Medium | [C](./old-problems/0592/c/solution.c) [C++](./old-problems/0592/solution.cpp) |
 | [594. Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) | Easy | [C](./old-problems/0594/c/solution.c) [C++](./old-problems/0594/solution.cpp) |
