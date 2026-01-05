@@ -1,0 +1,24 @@
+name: 3774. Absolute Difference Between Maximum and Minimum K Elements
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: absDifference
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [5, 2, 2, 4]
+      k: 2
+    output: 5
+
+  example_2:
+    inputs:
+      nums: [100]
+      k: 1
+    output: 0
