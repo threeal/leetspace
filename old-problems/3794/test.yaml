@@ -1,0 +1,30 @@
+name: 3794. Reverse String Prefix
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: reversePrefix
+
+test_cases:
+  example_1:
+    inputs:
+      s: abcd
+      k: 2
+    output: bacd
+
+  example_2:
+    inputs:
+      s: xyz
+      k: 3
+    output: zyx
+
+  example_3:
+    inputs:
+      s: hey
+      k: 1
+    output: hey
