@@ -1243,6 +1243,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3736. Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | Easy | [C](./old-problems/3736/c/solution.c) [C++](./old-problems/3736/solution.cpp) |
 | [3745. Maximize Expression of Three Elements](https://leetcode.com/problems/maximize-expression-of-three-elements/) | Easy | [C](./old-problems/3745/c/solution.c) [C++](./old-problems/3745/solution.cpp) |
 | [3750. Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/) | Easy | [C](./old-problems/3750/c/solution.c) [C++](./old-problems/3750/solution.cpp) |
+| [3751. Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | Medium | [C++](./old-problems/3751/solution.cpp) |
 
 ## License
 
