@@ -52,4 +52,9 @@ TEST_CASE("1161. Maximum Level Sum of a Binary Tree") {
     TreeNode* root{toTreeNode({989, null, 10250, 98693, -89388, null, null, null, -32127})};
     REQUIRE(Solution{}.maxLevelSum(root) == 2);
   }
+
+  SECTION("Test Case 38") {
+    TreeNode* root{toTreeNode({-100, -200, -300, -20, -5, -10, null})};
+    REQUIRE(Solution{}.maxLevelSum(root) == 3);
+  }
 }
