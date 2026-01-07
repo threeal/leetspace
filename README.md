@@ -920,7 +920,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | Medium | [C](./old-problems/2390/c/solution.c) [C++](./old-problems/2390/solution.cpp) |
 | [2391. Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/) | Medium | [C](./old-problems/2391/c/solution.c) [C++](./old-problems/2391/solution.cpp) |
 | [2396. Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | Medium | [C](./old-problems/2396/c/solution.c) [C++](./old-problems/2396/solution.cpp) |
-| [2399. Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | Easy | [C++](./old-problems/2399/solution.cpp) |
+| [2399. Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | Easy | [C](./old-problems/2399/c/solution.c) [C++](./old-problems/2399/solution.cpp) |
 | [2938. Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/) | Medium | [C++](./old-problems/2938/solution.cpp) |
 | [2942. Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | Easy | [C](./old-problems/2942/c/solution.c) [C++](./old-problems/2942/solution.cpp) |
 | [2401. Longest Nice Subarray](https://leetcode.com/problems/longest-nice-subarray/) | Medium | [C](./old-problems/2401/c/solution.c) [C++](./old-problems/2401/solution.cpp) |
