@@ -449,6 +449,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1014. Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/) | Medium | [C](./old-problems/1014/c/solution.c) [C++](./old-problems/1014/solution.cpp) |
 | [1015. Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | Medium | [C](./old-problems/1015/c/solution.c) [C++](./old-problems/1015/solution.cpp) |
 | [1018. Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | Easy | [C](./old-problems/1018/c/solution.c) [C++](./old-problems/1018/solution.cpp) |
+| [1020. Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | Medium | [C++](./old-problems/1020/solution.cpp) |
 | [1021. Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | Easy | [C](./old-problems/1021/c/solution.c) [C++](./old-problems/1021/solution.cpp) |
 | [1022. Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | Easy | [C++](./old-problems/1022/solution.cpp) |
 | [1025. Divisor Game](https://leetcode.com/problems/divisor-game/) | Easy | [C](./old-problems/1025/c/solution.c) [C++](./old-problems/1025/solution.cpp) |
