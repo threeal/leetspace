@@ -841,6 +841,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2131. Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/) | Medium | [C++](./old-problems/2131/solution.cpp) |
 | [2134. Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/) | Medium | [C](./old-problems/2134/c/solution.c) [C++](./old-problems/2134/solution.cpp) |
 | [2135. Count Words Obtained After Adding a Letter](https://leetcode.com/problems/count-words-obtained-after-adding-a-letter/) | Medium | [C](./old-problems/2135/c/solution.c) [C++](./old-problems/2135/solution.cpp) |
+| [2136. Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/) | Hard | [C++](./old-problems/2136/solution.cpp) |
 | [2138. Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/) | Easy | [C++](./old-problems/2138/solution.cpp) |
 | [2140. Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/) | Medium | [C](./old-problems/2140/c/solution.c) [C++](./old-problems/2140/solution.cpp) |
 | [2141. Maximum Running Time of N Computers](https://leetcode.com/problems/maximum-running-time-of-n-computers/) | Hard | [C](./old-problems/2141/c/solution.c) [C++](./old-problems/2141/solution.cpp) |
