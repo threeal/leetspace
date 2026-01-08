@@ -1,0 +1,32 @@
+name: 3537. Fill a Special Grid
+
+types:
+  inputs:
+    n: int
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: specialGrid
+
+test_cases:
+  example_1:
+    inputs:
+      n: 0
+    output: [[0]]
+
+  example_2:
+    inputs:
+      n: 1
+    output:
+      - [3, 0]
+      - [2, 1]
+
+  example_3:
+    inputs:
+      n: 2
+    output:
+      - [15, 12, 3, 0]
+      - [14, 13, 2, 1]
+      - [11, 8, 7, 4]
+      - [10, 9, 6, 5]
