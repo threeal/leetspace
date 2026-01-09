@@ -1,0 +1,31 @@
+name: 3033. Modify the Matrix
+
+types:
+  inputs:
+    matrix: std::vector<std::vector<int>>
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: modifiedMatrix
+
+test_cases:
+  example_1:
+    inputs:
+      matrix:
+        - [1, 2, -1]
+        - [4, -1, 6]
+        - [7, 8, 9]
+    output:
+      - [1, 2, 9]
+      - [4, 8, 6]
+      - [7, 8, 9]
+
+  example_2:
+    inputs:
+      matrix:
+        - [3, -1]
+        - [5, 2]
+    output:
+      - [3, 2]
+      - [5, 2]
