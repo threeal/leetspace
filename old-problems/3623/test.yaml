@@ -1,0 +1,21 @@
+name: 3623. Count Number of Trapezoids I
+
+types:
+  inputs:
+    points: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: countTrapezoids
+
+test_cases:
+  example_1:
+    inputs:
+      points: [[1, 0], [2, 0], [3, 0], [2, 2], [3, 2]]
+    output: 3
+
+  example_2:
+    inputs:
+      points: [[0, 0], [1, 0], [0, 1], [2, 1]]
+    output: 1
