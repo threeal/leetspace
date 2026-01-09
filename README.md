@@ -358,6 +358,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [815. Bus Routes](https://leetcode.com/problems/bus-routes) | Hard | [C++](./problems/0815/solution.cpp) |
 | [821. Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | Easy | [C](./old-problems/0821/c/solution.c) [C++](./old-problems/0821/solution.cpp) |
 | [823. Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors) | Medium | [C++](./problems/0823/solution.cpp) |
+| [824. Goat Latin](https://leetcode.com/problems/goat-latin/) | Easy | [C++](./old-problems/0824/solution.cpp) |
 | [826. Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work/) | Medium | [C](./old-problems/0826/c/solution.c) [C++](./old-problems/0826/solution.cpp) |
 | [827. Making A Large Island](https://leetcode.com/problems/making-a-large-island/) | Hard | [C++](./old-problems/0827/solution.cpp) |
 | [832. Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | Easy | [C++](./old-problems/0832/solution.cpp) |
