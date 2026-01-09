@@ -8,6 +8,7 @@ types:
   output: int
 
 solutions:
+  c:
   cpp:
     function: findTheDistanceValue
 
@@ -32,3 +33,10 @@ test_cases:
       arr2: [-5, -2, 10, -3, 7]
       d: 6
     output: 1
+
+  test_case_79:
+    inputs:
+      arr1: [4,-3,-7,0,-10]
+      arr2: [10]
+      d: 69
+    output: 0
