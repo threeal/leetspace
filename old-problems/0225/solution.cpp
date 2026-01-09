@@ -1,20 +1,27 @@
+#include <stack>
+
 class MyStack {
+ private:
+  std::stack<int> stack;
+
  public:
-  MyStack() {}
+  MyStack() : stack{} {}
 
   void push(int x) {
-    (void)x;
+    stack.push(x);
   }
 
   int pop() {
-    return 0;
+    const int top{stack.top()};
+    stack.pop();
+    return top;
   }
 
   int top() {
-    return 0;
+    return stack.top();
   }
 
   bool empty() {
-    return false;
+    return stack.empty();
   }
 };
