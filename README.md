@@ -1236,6 +1236,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3550. Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | Easy | [C](./old-problems/3550/c/solution.c) [C++](./old-problems/3550/solution.cpp) |
 | [3573. Best Time to Buy and Sell Stock V](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-v/) | Medium | [C](./old-problems/3573/c/solution.c) [C++](./old-problems/3573/solution.cpp) |
 | [3577. Count the Number of Computer Unlocking Permutations](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/) | Medium | [C](./old-problems/3577/c/solution.c) [C++](./old-problems/3577/solution.cpp) |
+| [3578. Count Partitions With Max-Min Difference at Most K](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/) | Medium | [C++](./old-problems/3578/solution.cpp) |
 | [3583. Count Special Triplets](https://leetcode.com/problems/count-special-triplets/) | Medium | [C](./old-problems/3583/c/solution.c) [C++](./old-problems/3583/solution.cpp) |
 | [3602. Hexadecimal and Hexatrigesimal Conversion](https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/) | Easy | [C](./old-problems/3602/c/solution.c) [C++](./old-problems/3602/solution.cpp) |
 | [3606. Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/) | Easy | [C](./old-problems/3606/c/solution.c) [C++](./old-problems/3606/solution.cpp) |
