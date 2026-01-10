@@ -43,7 +43,7 @@ TreeNode* toTreeNode(const std::vector<std::optional<int>>& list) {
 TEST_CASE("508. Most Frequent Subtree Sum") {
   SECTION("Example 1") {
     TreeNode* root{toTreeNode({5, 2, -3})};
-    REQUIRE(Solution{}.findFrequentTreeSum(root) == std::vector<int>{2, -3, 4});
+    REQUIRE(Solution{}.findFrequentTreeSum(root) == std::vector<int>{4, -3, 2});
   }
 
   SECTION("Example 2") {
