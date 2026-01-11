@@ -1,0 +1,21 @@
+name: 1411. Number of Ways to Paint N × 3 Grid
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: numOfWays
+
+test_cases:
+  example_1:
+    inputs:
+      n: 1
+    output: 12
+
+  example_2:
+    inputs:
+      n: 5000
+    output: 30228214
