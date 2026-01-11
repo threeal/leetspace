@@ -22,3 +22,8 @@ cases:
     inputs:
       digits: [9]
     output: [1, 0]
+
+  - name: test case 6
+    inputs:
+      digits: [9, 9]
+    output: [1, 0, 0]
