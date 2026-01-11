@@ -278,7 +278,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [561. Array Partition](https://leetcode.com/problems/array-partition/) | Easy | [C](./old-problems/0561/c/solution.c) [C++](./old-problems/0561/solution.cpp) |
 | [566. Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | Easy | [C](./old-problems/0566/c/solution.c) [C++](./old-problems/0566/solution.cpp) |
 | [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | [C](./old-problems/0567/c/solution.c) [C++](./old-problems/0567/solution.cpp) |
-| [575. Distribute Candies](https://leetcode.com/problems/distribute-candies/) | Easy | [C++](./old-problems/0575/solution.cpp) |
+| [575. Distribute Candies](https://leetcode.com/problems/distribute-candies/) | Easy | [C](./old-problems/0575/c/solution.c) [C++](./old-problems/0575/solution.cpp) |
 | [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | Medium | [C++](./problems/0576/solution.cpp) |
 | [587. Erect the Fence](https://leetcode.com/problems/erect-the-fence/) | Hard | [C++](./old-problems/0587/solution.cpp) |
 | [590. N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | Easy | [C++](./old-problems/0590/solution.cpp) |
