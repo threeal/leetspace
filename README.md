@@ -143,6 +143,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Easy | [C](./old-problems/0190/c/solution.c) [C++](./old-problems/0190/solution.cpp) |
 | [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [C](./old-problems/0191/c/solution.c) [C++](./old-problems/0191/solution.cpp) |
 | [198. House Robber](https://leetcode.com/problems/house-robber/) | Medium | [C](./old-problems/0198/c/solution.c) [C++](./old-problems/0198/solution.cpp) |
+| [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | Medium | [C++](./old-problems/0199/solution.cpp) |
 | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [C](./old-problems/0200/c/solution.c) [C++](./old-problems/0200/solution.cpp) |
 | [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | Medium | [C](./old-problems/0201/c/solution.c) [C++](./old-problems/0201/solution.cpp) |
 | [202. Happy Number](https://leetcode.com/problems/happy-number/) | Easy | [C++](./old-problems/0202/solution.cpp) |
