@@ -1,0 +1,31 @@
+name: 1390. Four Divisors
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: sumFourDivisors
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [21, 4, 7]
+    output: 32
+
+  example_2:
+    inputs:
+      nums: [21, 21]
+    output: 64
+
+  example_3:
+    inputs:
+      nums: [1, 2, 3, 4, 5]
+    output: 0
+
+  test_case_5:
+    inputs:
+      nums: [7286, 18704, 70773, 8224, 91675]
+    output: 10932
