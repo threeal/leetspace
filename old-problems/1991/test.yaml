@@ -1,0 +1,26 @@
+name: 1991. Find the Middle Index in Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: findMiddleIndex
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 3, -1, 8, 4]
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [1, -1, 4]
+    output: 2
+
+  example_3:
+    inputs:
+      nums: [2, 5]
+    output: -1
