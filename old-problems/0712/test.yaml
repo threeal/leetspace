@@ -1,0 +1,24 @@
+name: 712. Minimum ASCII Delete Sum for Two Strings
+
+types:
+  inputs:
+    s1: std::string
+    s2: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minimumDeleteSum
+
+test_cases:
+  example_1:
+    inputs:
+      s1: sea
+      s2: eat
+    output: 231
+
+  example_2:
+    inputs:
+      s1: delete
+      s2: leet
+    output: 403
