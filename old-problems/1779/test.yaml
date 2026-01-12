@@ -1,0 +1,34 @@
+name: 1779. Find Nearest Point That Has the Same X or Y Coordinate
+
+types:
+  inputs:
+    x: int
+    y: int
+    points: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: nearestValidPoint
+
+test_cases:
+  example_1:
+    inputs:
+      x: 3
+      y: 4
+      points: [[1, 2], [3, 1], [2, 4], [2, 3], [4, 4]]
+    output: 2
+
+  example_2:
+    inputs:
+      x: 3
+      y: 4
+      points: [[3, 4]]
+    output: 0
+
+  example_3:
+    inputs:
+      x: 3
+      y: 4
+      points: [[2, 3]]
+    output: -1
