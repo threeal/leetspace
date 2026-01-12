@@ -25,3 +25,10 @@ test_cases:
       m: 2
       k: 2
     output: 1
+
+  example_469:
+    inputs:
+      n: 6
+      m: 5
+      k: 1
+    output: 4
