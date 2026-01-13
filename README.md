@@ -396,6 +396,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) | Medium | [C++](./old-problems/0894/solution.cpp) |
 | [897. Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | Easy | [C++](./old-problems/0897/solution.cpp) |
 | [898. Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/description/) | Medium | [C++](./old-problems/0898/solution.cpp) |
+| [901. Online Stock Span](https://leetcode.com/problems/online-stock-span/) | Medium | [C++](./old-problems/0901/solution.cpp) |
 | [904. Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | Medium | [C](./old-problems/0904/c/solution.c) [C++](./old-problems/0904/solution.cpp) |
 | [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | Easy | [C++](./problems/0905/solution.cpp) |
 | [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) | Medium | [C](./old-problems/0907/c/solution.c) [C++](./old-problems/0907/solution.cpp) |
