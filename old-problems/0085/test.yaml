@@ -1,0 +1,32 @@
+name: 85. Maximal Rectangle
+
+types:
+  inputs:
+    matrix: std::vector<std::vector<char>>
+  output: int
+
+solutions:
+  cpp:
+    function: maximalRectangle
+
+test_cases:
+  example_1:
+    inputs:
+      matrix:
+        - [49, 48, 49, 48, 48]
+        - [49, 48, 49, 49, 49]
+        - [49, 49, 49, 49, 49]
+        - [49, 48, 48, 49, 48]
+    output: 6
+
+  example_2:
+    inputs:
+      matrix:
+       - [48]
+    output: 0
+
+  example_3:
+    inputs:
+      matrix:
+        - [49]
+    output: 1
