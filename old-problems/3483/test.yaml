@@ -29,3 +29,8 @@ test_cases:
     inputs:
       digits: [1, 3, 5]
     output: 0
+
+  test_case_562:
+    inputs:
+      digits: [8, 1, 0]
+    output: 3
