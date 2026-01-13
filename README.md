@@ -267,6 +267,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [520. Detect Capital](https://leetcode.com/problems/detect-capital/) | Easy | [C](./old-problems/0520/c/solution.c) [C++](./old-problems/0520/solution.cpp) |
 | [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | Medium | [C](./old-problems/0523/c/solution.c) [C++](./old-problems/0523/solution.cpp) |
 | [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) | Medium | [C++](./problems/0525/solution.cpp) |
+| [529. Minesweeper](https://leetcode.com/problems/minesweeper/) | Medium | [C++](./old-problems/0529/solution.cpp) |
 | [535. Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | Medium | [C++](./old-problems/0535/solution.cpp) |
 | [538. Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | Medium | [C++](./old-problems/0538/solution.cpp) |
 | [539. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | Medium | [C](./old-problems/0539/c/solution.c) [C++](./old-problems/0539/solution.cpp) |
