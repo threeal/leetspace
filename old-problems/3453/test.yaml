@@ -1,0 +1,21 @@
+name: 3453. Separate Squares I
+
+types:
+  inputs:
+    squares: std::vector<std::vector<int>>
+  output: double
+
+solutions:
+  cpp:
+    function: separateSquares
+
+test_cases:
+  example_1:
+    inputs:
+      squares: [[0, 0, 1], [2, 2, 1]]
+    output: 0.99999618530273438
+
+  example_2:
+    inputs:
+      squares: [[0, 0, 2], [1, 1, 1]]
+    output: 1.16666412353515625
