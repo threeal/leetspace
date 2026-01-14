@@ -633,6 +633,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1518. Water Bottles](https://leetcode.com/problems/water-bottles/) | Easy | [C](./old-problems/1518/c/solution.c) [C++](./old-problems/1518/solution.cpp) |
 | [1523. Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | Easy | [C](./old-problems/1523/c/solution.c) [C++](./old-problems/1523/solution.cpp) |
 | [1524. Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | Medium | [C](./old-problems/1524/c/solution.c) [C++](./old-problems/1524/solution.cpp) |
+| [1525. Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/) | Medium | [C++](./old-problems/1525/solution.cpp) |
 | [1526. Minimum Number of Increments on Subarrays to Form a Target Array](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) | Hard | [C](./old-problems/1526/c/solution.c) [C++](./old-problems/1526/solution.cpp) |
 | [1528. Shuffle String](https://leetcode.com/problems/shuffle-string/) | Easy | [C](./old-problems/1528/c/solution.c) [C++](./old-problems/1528/solution.cpp) |
 | [1529. Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/) | Medium | [C](./old-problems/1529/c/solution.c) [C++](./old-problems/1529/solution.cpp) |
