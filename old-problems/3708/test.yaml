@@ -1,0 +1,26 @@
+name: 3708. Longest Fibonacci Subarray
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: longestSubarray
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 1, 1, 1, 2, 3, 5, 1]
+    output: 5
+
+  example_2:
+    inputs:
+      nums: [5, 2, 7, 9, 16]
+    output: 5
+
+  example_3:
+    inputs:
+      nums: [1000000000, 1000000000, 1000000000]
+    output: 2
