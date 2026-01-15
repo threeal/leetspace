@@ -1261,7 +1261,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3684. Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | Easy | [C](./old-problems/3684/c/solution.c) [C++](./old-problems/3684/solution.cpp) |
 | [3688. Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) | Easy | [C](./old-problems/3688/c/solution.c) [C++](./old-problems/3688/solution.cpp) |
 | [3701. Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | Easy | [C](./old-problems/3701/c/solution.c) [C++](./old-problems/3701/solution.cpp) |
-| [3708. Longest Fibonacci Subarray](https://leetcode.com/problems/longest-fibonacci-subarray/) | Medium | [C++](./old-problems/3708/solution.cpp) |
+| [3708. Longest Fibonacci Subarray](https://leetcode.com/problems/longest-fibonacci-subarray/) | Medium | [C](./old-problems/3708/c/solution.c) [C++](./old-problems/3708/solution.cpp) |
 | [3712. Sum of Elements With Frequency Divisible by K](https://leetcode.com/problems/sum-of-elements-with-frequency-divisible-by-k/) | Easy | [C](./old-problems/3712/c/solution.c) [C++](./old-problems/3712/solution.cpp) |
 | [3726. Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/) | Easy | [C](./old-problems/3726/c/solution.c) [C++](./old-problems/3726/solution.cpp) |
 | [3731. Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | Easy | [C](./old-problems/3731/c/solution.c) [C++](./old-problems/3731/solution.cpp) |
