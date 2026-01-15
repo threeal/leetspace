@@ -520,6 +520,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1252. Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | Easy | [C](./old-problems/1252/c/solution.c) [C++](./old-problems/1252/solution.cpp) |
 | [1253. Reconstruct a 2-Row Binary Matrix](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix/) | Medium | [C](./old-problems/1253/c/solution.c) [C++](./old-problems/1253/solution.cpp) |
 | [1255. Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/) | Hard | [C](./old-problems/1255/c/solution.c) [C++](./old-problems/1255/solution.cpp) |
+| [1260. Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | Easy | [C++](./old-problems/1260/solution.cpp) |
 | [1261. Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/) | Medium | [C++](./old-problems/1261/solution.cpp) |
 | [1262. Greatest Sum Divisible by Three](https://leetcode.com/problems/greatest-sum-divisible-by-three/) | Medium | [C](./old-problems/1262/c/solution.c) [C++](./old-problems/1262/solution.cpp) |
 | [1266. Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) | Easy | [C](./old-problems/1266/c/solution.c) [C++](./old-problems/1266/solution.cpp) |
