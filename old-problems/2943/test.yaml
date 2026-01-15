@@ -36,3 +36,11 @@ test_cases:
       hBars: [2, 3]
       vBars: [2, 4]
     output: 4
+
+  test_case_108:
+    inputs:
+      n: 3
+      m: 2
+      hBars: [3, 2, 4]
+      vBars: [3, 2]
+    output: 9
