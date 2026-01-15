@@ -3,7 +3,10 @@
 class Solution {
  public:
   std::string getEncryptedString(std::string s, int k) {
-    (void)k;
-    return s;
+    std::string out(s.size(), ' ');
+    for (std::size_t i{0}; i < s.size(); ++i) {
+      out[i] = s[(i + k) % s.size()];
+    }
+    return out;
   }
 };
