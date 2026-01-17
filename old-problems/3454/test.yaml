@@ -20,6 +20,11 @@ test_cases:
       squares: [[0, 0, 2], [1, 1, 1]]
     output: 1.00000
 
+  test_case_441:
+    inputs:
+      squares: [[22, 26, 1], [19, 21, 7]]
+    output: 24.50000
+
   test_case_607:
     inputs:
       squares: [[26, 29, 13], [24, 30, 13], [15, 24, 10]]
