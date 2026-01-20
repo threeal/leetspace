@@ -260,6 +260,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [498. Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | Medium | [C](./old-problems/0498/c/solution.c) [C++](./old-problems/0498/solution.cpp) |
 | [500. Keyboard Row](https://leetcode.com/problems/keyboard-row/) | Easy | [C](./old-problems/0500/c/solution.c) [C++](./old-problems/0500/solution.cpp) |
 | [502. IPO](https://leetcode.com/problems/ipo/) | Hard | [C](./old-problems/0502/c/solution.c) [C++](./old-problems/0502/solution.cpp) |
+| [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | Medium | [C++](./old-problems/0503/solution.cpp) |
 | [504. Base 7](https://leetcode.com/problems/base-7/) | Easy | [C](./old-problems/0504/c/solution.c) [C++](./old-problems/0504/solution.cpp) |
 | [506. Relative Ranks](https://leetcode.com/problems/relative-ranks/) | Easy | [C](./old-problems/0506/c/solution.c) [C++](./old-problems/0506/solution.cpp) |
 | [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy | [C](./old-problems/0509/c/solution.c) [C++](./old-problems/0509/solution.cpp) |
