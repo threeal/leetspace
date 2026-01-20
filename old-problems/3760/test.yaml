@@ -1,0 +1,26 @@
+name: 3760. Maximum Substrings With Distinct Start
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: maxDistinct
+
+test_cases:
+  example_1:
+    inputs:
+      s: abab
+    output: 2
+
+  example_2:
+    inputs:
+      s: abcd
+    output: 4
+
+  example_3:
+    inputs:
+      s: aaaa
+    output: 1
