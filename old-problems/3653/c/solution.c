@@ -1,6 +1,15 @@
 int xorAfterQueries(
     int* nums, int numsSize,
     int** queries, int queriesSize, int* queriesColSize) {
-  return nums[numsSize - 1] +
-      queries[queriesSize - 1][queriesColSize[queriesSize - 1] - 1];
+  (void)queriesColSize;
+
+  for (int i = 0; i < queriesSize; ++i) {
+    for (int j = queries[i][0]; j <= queries[i][1]; j += queries[i][2]) {
+      nums[j] = ((long long)nums[j] * queries[i][3]) % 1000000007;
+    }
+  }
+
+  int ans = 0;
+  for (int i = 0; i < numsSize; ++i) ans ^= nums[i];
+  return ans;
 }
