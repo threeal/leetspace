@@ -1,0 +1,26 @@
+name: 3746. Minimum String Length After Balanced Removals
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minLengthAfterRemovals
+
+test_cases:
+  example_1:
+    inputs:
+      s: aabbab
+    output: 0
+
+  example_2:
+    inputs:
+      s: aaaa
+    output: 4
+
+  example_3:
+    inputs:
+      s: aaabb
+    output: 1
