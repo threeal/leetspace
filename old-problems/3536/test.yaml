@@ -1,0 +1,26 @@
+name: 3536. Maximum Product of Two Digits
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: maxProduct
+
+test_cases:
+  example_1:
+    inputs:
+      n: 31
+    output: 3
+
+  example_2:
+    inputs:
+      n: 22
+    output: 4
+
+  example_3:
+    inputs:
+      n: 124
+    output: 8
