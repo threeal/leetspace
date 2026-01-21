@@ -291,6 +291,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [598. Range Addition II](https://leetcode.com/problems/range-addition-ii/) | Easy | [C](./old-problems/0598/c/solution.c) [C++](./old-problems/0598/solution.cpp) |
 | [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | Easy | [C](./old-problems/0605/c/solution.c) [C++](./old-problems/0605/solution.cpp) |
 | [606. Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | Easy | [C++](./old-problems/0606/solution.cpp) |
+| [609. Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | Medium | [C++](./old-problems/0609/solution.cpp) |
 | [611. Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | Medium | [C](./old-problems/0611/c/solution.c) [C++](./old-problems/0611/solution.cpp) |
 | [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | Easy | [C++](./old-problems/0617/solution.cpp) |
 | [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Medium | [C](./old-problems/0621/c/solution.c) [C++](./old-problems/0621/solution.cpp) |
