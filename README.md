@@ -1196,6 +1196,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3304. Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | Easy | [C](./old-problems/3304/c/solution.c) [C++](./old-problems/3304/solution.cpp) |
 | [3307. Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/) | Hard | [C](./old-problems/3307/c/solution.c) [C++](./old-problems/3307/solution.cpp) |
 | [3314. Construct the Minimum Bitwise Array I](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/) | Easy | [C](./old-problems/3314/c/solution.c) [C++](./old-problems/3314/solution.cpp) |
+| [3315. Construct the Minimum Bitwise Array II](https://leetcode.com/problems/construct-the-minimum-bitwise-array-ii/) | Easy | [C++](./old-problems/3315/solution.cpp) |
 | [3318. Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/) | Easy | [C](./old-problems/3318/c/solution.c) [C++](./old-problems/3318/solution.cpp) |
 | [3324. Find the Sequence of Strings Appeared on the Screen](https://leetcode.com/problems/find-the-sequence-of-strings-appeared-on-the-screen/) | Medium | [C](./old-problems/3324/c/solution.c) [C++](./old-problems/3324/solution.cpp) |
 | [3330. Find the Original Typed String I](https://leetcode.com/problems/find-the-original-typed-string-i/) | Easy | [C](./old-problems/3330/c/solution.c) [C++](./old-problems/3330/solution.cpp) |
