@@ -1,0 +1,26 @@
+name: 2129. Capitalize the Title
+
+types:
+  inputs:
+    title: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: capitalizeTitle
+
+test_cases:
+  example_1:
+    inputs:
+      title: capiTalIze tHe titLe
+    output: Capitalize The Title
+
+  example_2:
+    inputs:
+      title: First leTTeR of EACH Word
+    output: First Letter of Each Word
+
+  example_3:
+    inputs:
+      title: i lOve leetcode
+    output: i Love Leetcode

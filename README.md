@@ -856,6 +856,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2120. Execution of All Suffix Instructions Staying in a Grid](https://leetcode.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/) | Medium | [C](./old-problems/2120/c/solution.c) [C++](./old-problems/2120/solution.cpp) |
 | [2124. Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/) | Easy | [C](./old-problems/2124/c/solution.c) [C++](./old-problems/2124/solution.cpp) |
 | [2125. Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/) | Medium | [C](./old-problems/2125/c/solution.c) [C++](./old-problems/2125/solution.cpp) |
+| [2129. Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/) | Easy | [C++](./old-problems/2129/solution.cpp) |
 | [2130. Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | Medium | [C++](./old-problems/2130/solution.cpp) |
 | [2131. Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/) | Medium | [C++](./old-problems/2131/solution.cpp) |
 | [2134. Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/) | Medium | [C](./old-problems/2134/c/solution.c) [C++](./old-problems/2134/solution.cpp) |
