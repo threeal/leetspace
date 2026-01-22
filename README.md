@@ -278,6 +278,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | Medium | [C](./old-problems/0547/c/solution.c) [C++](./old-problems/0547/solution.cpp) |
 | [552. Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/) | Hard | [C](./old-problems/0552/c/solution.c) [C++](./old-problems/0552/solution.cpp) |
 | [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | Easy | [C](./old-problems/0557/c/solution.c) [C++](./old-problems/0557/solution.cpp) |
+| [559. Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | Easy | [C++](./old-problems/0559/solution.cpp) |
 | [561. Array Partition](https://leetcode.com/problems/array-partition/) | Easy | [C](./old-problems/0561/c/solution.c) [C++](./old-problems/0561/solution.cpp) |
 | [566. Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | Easy | [C](./old-problems/0566/c/solution.c) [C++](./old-problems/0566/solution.cpp) |
 | [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | [C](./old-problems/0567/c/solution.c) [C++](./old-problems/0567/solution.cpp) |
