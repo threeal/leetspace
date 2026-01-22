@@ -1,16 +1,23 @@
+#include <vector>
+
 class MyHashSet {
+ private:
+  std::vector<bool> exists{};
+  int existsSize{};
+
  public:
-  MyHashSet() {}
+  MyHashSet() : exists{}, existsSize{0} {}
 
   void add(int key) {
-    (void)key;
+    if (key >= existsSize) exists.resize(existsSize = key + 1);
+    exists[key] = true;
   }
 
   void remove(int key) {
-    (void)key;
+    if (key < existsSize) exists[key] = false;
   }
 
   bool contains(int key) {
-    return key == 0;
+    return key < existsSize ? exists[key] : false;
   }
 };
