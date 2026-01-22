@@ -323,6 +323,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [696. Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | Easy | [C](./old-problems/0696/c/solution.c) [C++](./old-problems/0696/solution.cpp) |
 | [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Easy | [C++](./old-problems/0700/solution.cpp) |
 | [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Easy | [C++](./old-problems/0703/solution.cpp) |
+| [705. Design HashSet](https://leetcode.com/problems/design-hashset/) | Easy | [C++](./old-problems/0705/solution.cpp) |
 | [709. To Lower Case](https://leetcode.com/problems/to-lower-case/) | Easy | [C](./old-problems/0709/c/solution.c) [C++](./old-problems/0709/solution.cpp) |
 | [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | Medium | [C](./old-problems/0713/c/solution.c) [C++](./old-problems/0713/solution.cpp) |
 | [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium | [C](./old-problems/0714/c/solution.c) [C++](./old-problems/0714/solution.cpp) |
