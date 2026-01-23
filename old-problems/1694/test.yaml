@@ -24,3 +24,8 @@ test_cases:
     inputs:
       s: 123 4-5678
     output: 123-456-78
+
+  test_case_3:
+    inputs:
+      s: "12"
+    output: "12"
