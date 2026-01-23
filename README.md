@@ -1144,7 +1144,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3065. Minimum Operations to Exceed Threshold Value I](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/) | Easy | [C](./old-problems/3065/c/solution.c) [C++](./old-problems/3065/solution.cpp) |
 | [3066. Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii/) | Medium | [C++](./problems/3066/solution.cpp) |
 | [3068. Find the Maximum Sum of Node Values](https://leetcode.com/problems/find-the-maximum-sum-of-node-values/) | Hard | [C](./old-problems/3068/c/solution.c) [C++](./old-problems/3068/solution.cpp) |
-| [3069. Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | Easy | [C++](./old-problems/3069/solution.cpp) |
+| [3069. Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | Easy | [C](./old-problems/3069/c/solution.c) [C++](./old-problems/3069/solution.cpp) |
 | [3074. Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/) | Easy | [C](./old-problems/3074/c/solution.c) [C++](./old-problems/3074/solution.cpp) |
 | [3075. Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/) | Medium | [C](./old-problems/3075/c/solution.c) [C++](./old-problems/3075/solution.cpp) |
 | [3079. Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/) | Easy | [C](./old-problems/3079/c/solution.c) [C++](./old-problems/3079/solution.cpp) |
