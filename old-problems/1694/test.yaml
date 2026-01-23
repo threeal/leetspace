@@ -1,0 +1,26 @@
+name: 1694. Reformat Phone Number
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: reformatNumber
+
+test_cases:
+  example_1:
+    inputs:
+      s: 1-23-45 6
+    output: 123-456
+
+  example_2:
+    inputs:
+      s: 123 4-567
+    output: 123-45-67
+
+  example_3:
+    inputs:
+      s: 123 4-5678
+    output: 123-456-78
