@@ -1,0 +1,26 @@
+name: 3798. Largest Even Number
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: largestEven
+
+test_cases:
+  example_1:
+    inputs:
+      s: "1112"
+    output: "1112"
+
+  example_2:
+    inputs:
+      s: "221"
+    output: "22"
+
+  example_3:
+    inputs:
+      s: "1"
+    output: ""
