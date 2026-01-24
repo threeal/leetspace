@@ -444,7 +444,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [979. Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/) | Medium | [C++](./old-problems/0979/solution.cpp) |
 | [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | Hard | [C](./old-problems/0980/c/solution.c) [C++](./old-problems/0980/solution.cpp) |
 | [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | Medium | [C](./old-problems/0983/c/solution.c) [C++](./old-problems/0983/solution.cpp) |
-| [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | Medium | [C++](./old-problems/0986/solution.cpp) |
+| [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | Medium | [C](./old-problems/0986/c/solution.c) [C++](./old-problems/0986/solution.cpp) |
 | [988. Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | Medium | [C++](./old-problems/0988/solution.cpp) |
 | [991. Broken Calculator](https://leetcode.com/problems/broken-calculator/) | Medium | [C](./old-problems/0991/c/solution.c) [C++](./old-problems/0991/solution.cpp) |
 | [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | Hard | [C++](./problems/0992/solution.cpp) |
