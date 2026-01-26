@@ -1,0 +1,26 @@
+name: 3775. Reverse Words With Same Vowel Count
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: reverseWords
+
+test_cases:
+  example_1:
+    inputs:
+      s: cat and mice
+    output: cat dna mice
+
+  example_2:
+    inputs:
+      s: book is nice
+    output: book is ecin
+
+  example_3:
+    inputs:
+      s: banana healthy
+    output: banana healthy
