@@ -1,0 +1,30 @@
+name: 2303. Calculate Amount Paid in Taxes
+
+types:
+  inputs:
+    brackets: std::vector<std::vector<int>>
+    income: int
+  output: double
+
+solutions:
+  cpp:
+    function: calculateTax
+
+test_cases:
+  example_1:
+    inputs:
+      brackets: [[3, 50], [7, 10], [12, 25]]
+      income: 10
+    output: 2.65000
+
+  example_2:
+    inputs:
+      brackets: [[1, 0], [4, 25], [5, 50]]
+      income: 2
+    output: 0.25000
+
+  example_3:
+    inputs:
+      brackets: [[2, 50]]
+      income: 0
+    output: 0.00000
