@@ -79,4 +79,11 @@ TEST_CASE("863. All Nodes Distance K in Binary Tree") {
     std::vector<int> output{Solution{}.distanceK(root, target, 2)};
     REQUIRE(output == std::vector<int>{3});
   }
+
+  SECTION("Test Case 44") {
+    TreeNode* root{toTreeNode({0, 2, 1, null, null, 3})};
+    TreeNode* target{findNode(root, 3)};
+    std::vector<int> output{Solution{}.distanceK(root, target, 3)};
+    REQUIRE(output == std::vector<int>{2});
+  }
 }
