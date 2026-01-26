@@ -1,0 +1,36 @@
+name: 3483. Unique 3-Digit Even Numbers
+
+types:
+  inputs:
+    digits: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: totalNumbers
+
+test_cases:
+  example_1:
+    inputs:
+      digits: [1, 2, 3, 4]
+    output: 12
+
+  example_2:
+    inputs:
+      digits: [0, 2, 2]
+    output: 2
+
+  example_3:
+    inputs:
+      digits: [6, 6, 6]
+    output: 1
+
+  example_3:
+    inputs:
+      digits: [1, 3, 5]
+    output: 0
+
+  test_case_562:
+    inputs:
+      digits: [8, 1, 0]
+    output: 3
