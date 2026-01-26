@@ -316,6 +316,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [657. Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | Easy | [C](./old-problems/0657/c/solution.c) [C++](./old-problems/0657/solution.cpp) |
 | [661. Image Smoother](https://leetcode.com/problems/image-smoother/) | Easy | [C++](./problems/0661/solution.cpp) |
 | [664. Strange Printer](https://leetcode.com/problems/strange-printer/) | Hard | [C](./old-problems/0664/c/solution.c) [C++](./old-problems/0664/solution.cpp) |
+| [669. Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | Medium | [C++](./old-problems/0669/solution.cpp) |
 | [670. Maximum Swap](https://leetcode.com/problems/maximum-swap/) | Medium | [C](./old-problems/0670/c/solution.c) [C++](./old-problems/0670/solution.cpp) |
 | [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | [C](./old-problems/0678/c/solution.c) [C++](./old-problems/0678/solution.cpp) |
 | [679. 24 Game](https://leetcode.com/problems/24-game/) | Hard | [C](./old-problems/0679/c/solution.c) [C++](./old-problems/0679/solution.cpp) |
