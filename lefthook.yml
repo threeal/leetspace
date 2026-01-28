@@ -1,9 +1,8 @@
 pre-commit:
   piped: true
+  fail_on_changes: always
+  fail_on_changes_diff: true
   jobs:
     - name: fix formatting
       run: clang-format -i {staged_files}
       glob: "*.{c,cpp}"
-
-    - name: check diff
-      run: git diff --exit-code {staged_files}
