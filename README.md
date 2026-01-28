@@ -1142,6 +1142,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3025. Find the Number of Ways to Place People I](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/) | Medium | [C](./old-problems/3025/c/solution.c) [C++](./old-problems/3025/solution.cpp) |
 | [3027. Find the Number of Ways to Place People II](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-ii/) | Hard | [C](./old-problems/3027/c/solution.c) [C++](./old-problems/3027/solution.cpp) |
 | [3028. Ant on the Boundary](https://leetcode.com/problems/ant-on-the-boundary/) | Easy | [C](./old-problems/3028/c/solution.c) [C++](./old-problems/3028/solution.cpp) |
+| [3033. Modify the Matrix](https://leetcode.com/problems/modify-the-matrix/) | Easy | [C++](./old-problems/3033/solution.cpp) |
 | [3042. Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/) | Easy | [C](./old-problems/3042/c/solution.c) [C++](./old-problems/3042/solution.cpp) |
 | [3043. Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) | Medium | [C++](./problems/3043/solution.cpp) |
 | [3046. Split the Array](https://leetcode.com/problems/split-the-array/) | Easy | [C](./old-problems/3046/c/solution.c) [C++](./old-problems/3046/solution.cpp) |
