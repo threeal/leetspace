@@ -1,0 +1,29 @@
+name: 2711. Difference of Number of Distinct Values on Diagonals
+
+types:
+  inputs:
+    s: std::vector<std::vector<int>>
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: differenceOfDistinctValues
+
+test_cases:
+  example_1:
+    inputs:
+      s:
+        - [1, 2, 3]
+        - [3, 1, 5]
+        - [3, 2, 1]
+    output:
+      - [1, 1, 0]
+      - [1, 0, 1]
+      - [0, 1, 1]
+
+  example_2:
+    inputs:
+      s:
+        - [1]
+    output:
+      - [0]
