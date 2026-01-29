@@ -1,0 +1,24 @@
+name: 985. Sum of Even Numbers After Queries
+
+types:
+  inputs:
+    nums: std::vector<int>
+    queries: std::vector<std::vector<int>>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: sumEvenAfterQueries
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3, 4]
+      queries: [[1, 0], [-3, 1], [-4, 0], [2, 3]]
+    output: [8, 6, 2, 4]
+
+  example_2:
+    inputs:
+      nums: [1]
+      queries: [[4, 0]]
+    output: [0]
