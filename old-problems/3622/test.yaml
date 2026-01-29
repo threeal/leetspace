@@ -1,0 +1,21 @@
+name: 3622. Check Divisibility by Digit Sum and Product
+
+types:
+  inputs:
+    n: int
+  output: bool
+
+solutions:
+  cpp:
+    function: checkDivisibility
+
+test_cases:
+  example_1:
+    inputs:
+      n: 99
+    output: true
+
+  example_2:
+    inputs:
+      n: 23
+    output: false
