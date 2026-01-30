@@ -1129,6 +1129,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2966. Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | Medium | [C](./old-problems/2966/c/solution.c) [C++](./old-problems/2966/solution.cpp) |
 | [2971. Find Polygon With the Largest Perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/) | Medium | [C](./old-problems/2971/c/solution.c) [C++](./old-problems/2971/solution.cpp) |
 | [2974. Minimum Number Game](https://leetcode.com/problems/minimum-number-game/) | Easy | [C](./old-problems/2974/c/solution.c) [C++](./old-problems/2974/solution.cpp) |
+| [2977. Minimum Cost to Convert String II](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/) | Hard | [C++](./old-problems/2977/solution.cpp) |
 | [2980. Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/) | Easy | [C](./old-problems/2980/c/solution.c) [C++](./old-problems/2980/solution.cpp) |
 | [2981. Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i/) | Medium | [C](./old-problems/2981/c/solution.c) [C++](./old-problems/2981/solution.cpp) |
 | [2997. Minimum Number of Operations to Make Array XOR Equal to K](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/) | Medium | [C](./old-problems/2997/c/solution.c) [C++](./old-problems/2997/solution.cpp) |
