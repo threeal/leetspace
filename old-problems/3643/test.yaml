@@ -1,0 +1,42 @@
+name: 3643. Flip Square Submatrix Vertically
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+    x: int
+    y: int
+    k: int
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: reverseSubmatrix
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [1, 2, 3, 4]
+        - [5, 6, 7, 8]
+        - [9, 10, 11, 12]
+        - [13, 14, 15, 16]
+      x: 1
+      y: 0
+      k: 3
+    output:
+      - [1, 2, 3, 4]
+      - [13, 14, 15, 8]
+      - [9, 10, 11, 12]
+      - [5, 6, 7, 16]
+
+  example_2:
+    inputs:
+      grid:
+        - [3, 4, 2, 3]
+        - [2, 3, 4, 2]
+      x: 0
+      y: 2
+      k: 2
+    output:
+      - [3, 4, 4, 2]
+      - [2, 3, 2, 3]
