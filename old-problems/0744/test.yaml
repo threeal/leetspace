@@ -1,0 +1,30 @@
+name: 744. Find Smallest Letter Greater Than Target
+
+types:
+  inputs:
+    letters: std::vector<char>
+    target: char
+  output: char
+
+solutions:
+  cpp:
+    function: nextGreatestLetter
+
+test_cases:
+  example_1:
+    inputs:
+      letters: [99, 102, 106]
+      target: 97
+    output: 99
+
+  example_2:
+    inputs:
+      letters: [99, 102, 106]
+      target: 99
+    output: 102
+
+  example_3:
+    inputs:
+      letters: [120, 120, 121, 121]
+      target: 122
+    output: 120
