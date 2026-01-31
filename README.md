@@ -348,7 +348,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [757. Set Intersection Size At Least Two](https://leetcode.com/problems/set-intersection-size-at-least-two/) | Hard | [C](./old-problems/0757/c/solution.c) [C++](./old-problems/0757/solution.cpp) |
 | [762. Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | Easy | [C](./old-problems/0762/c/solution.c) [C++](./old-problems/0762/solution.cpp) |
 | [763. Partition Labels](https://leetcode.com/problems/partition-labels/) | Medium | [C](./old-problems/0763/c/solution.c) [C++](./old-problems/0763/solution.cpp) |
-| [766. Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | Easy | [C++](./old-problems/0766/solution.cpp) |
+| [766. Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | Easy | [C](./old-problems/0766/c/solution.c) [C++](./old-problems/0766/solution.cpp) |
 | [769. Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/) | Medium | [C++](./old-problems/0769/solution.cpp) |
 | [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | Easy | [C](./old-problems/0771/c/solution.c) [C++](./old-problems/0771/solution.cpp) |
 | [773. Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/) | Hard | [C++](./problems/0773/solution.cpp) |
