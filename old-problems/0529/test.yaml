@@ -1,0 +1,40 @@
+name: 529. Minesweeper
+
+types:
+  inputs:
+    board: std::vector<std::vector<char>>
+    click: std::vector<int>
+  output: std::vector<std::vector<char>>
+
+solutions:
+  cpp:
+    function: updateBoard
+
+test_cases:
+  example_1:
+    inputs:
+      board:
+        - [69, 69, 69, 69, 69]
+        - [69, 69, 77, 69, 69]
+        - [69, 69, 69, 69, 69]
+        - [69, 69, 69, 69, 69]
+      click: [3, 0]
+    output:
+      - [66, 49, 69, 49, 66]
+      - [66, 49, 77, 49, 66]
+      - [66, 49, 49, 49, 66]
+      - [66, 66, 66, 66, 66]
+
+  example_2:
+    inputs:
+      board:
+        - [66, 49, 69, 49, 66]
+        - [66, 49, 77, 49, 66]
+        - [66, 49, 49, 49, 66]
+        - [66, 66, 66, 66, 66]
+      click: [1, 2]
+    output:
+      - [66, 49, 69, 49, 66]
+      - [66, 49, 88, 49, 66]
+      - [66, 49, 49, 49, 66]
+      - [66, 66, 66, 66, 66]
