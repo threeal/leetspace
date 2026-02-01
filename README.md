@@ -922,7 +922,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2300. Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/) | Medium | [C](./old-problems/2300/c/solution.c) [C++](./old-problems/2300/solution.cpp) |
 | [2302. Count Subarrays With Score Less Than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k/) | Hard | [C](./old-problems/2302/c/solution.c) [C++](./old-problems/2302/solution.cpp) |
 | [2303. Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/) | Easy | [C++](./old-problems/2303/solution.cpp) |
-| [2305. Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/) | Medium | [C++](./old-problems/2305/solution.cpp) |
+| [2305. Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/) | Medium | [C](./old-problems/2305/c/solution.c) [C++](./old-problems/2305/solution.cpp) |
 | [2309. Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/) | Easy | [C](./old-problems/2309/c/solution.c) [C++](./old-problems/2309/solution.cpp) |
 | [2311. Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/) | Medium | [C](./old-problems/2311/c/solution.c) [C++](./old-problems/2311/solution.cpp) |
 | [2315. Count Asterisks](https://leetcode.com/problems/count-asterisks/) | Easy | [C](./old-problems/2315/c/solution.c) [C++](./old-problems/2315/solution.cpp) |
