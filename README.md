@@ -1267,7 +1267,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3516. Find Closest Person](https://leetcode.com/problems/find-closest-person/) | Easy | [C](./old-problems/3516/c/solution.c) [C++](./old-problems/3516/solution.cpp) |
 | [3527. Find the Most Common Response](https://leetcode.com/problems/find-the-most-common-response/) | Medium | [C++](./old-problems/3527/solution.cpp) |
 | [3531. Count Covered Buildings](leetcode.com/problems/count-covered-buildings/) | Medium | [C](./old-problems/3531/c/solution.c) [C++](./old-problems/3531/solution.cpp) |
-| [3536. Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/) | Easy | [C++](./old-problems/3536/solution.cpp) |
+| [3536. Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/) | Easy | [C](./old-problems/3536/c/solution.c) [C++](./old-problems/3536/solution.cpp) |
 | [3537. Fill a Special Grid](https://leetcode.com/problems/fill-a-special-grid/) | Medium | [C++](./old-problems/3537/solution.cpp) |
 | [3541. Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | Easy | [C](./old-problems/3541/c/solution.c) [C++](./old-problems/3541/solution.cpp) |
 | [3542. Minimum Operations to Convert All Elements to Zero](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | Medium | [C](./old-problems/3542/c/solution.c) [C++](./old-problems/3542/solution.cpp) |
