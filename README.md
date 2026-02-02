@@ -623,7 +623,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1450. Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) | Easy | [C](./old-problems/1450/c/solution.c) [C++](./old-problems/1450/solution.cpp) |
 | [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | Easy | [C](./old-problems/1455/c/solution.c) [C++](./old-problems/1455/solution.cpp) |
 | [1457. Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | Medium | [C++](./old-problems/1457/solution.cpp) |
-| [1458. Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences) | Hard | [C++](./problems/1458/solution.cpp) |
+| [1458. Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences) | Hard | [C](./old-problems/1458/c/solution.c) [C++](./old-problems/1458/solution.cpp) |
 | [1460. Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | Easy | [C](./old-problems/1460/c/solution.c) [C++](./old-problems/1460/solution.cpp) |
 | [1462. Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/) | Medium | [C](./old-problems/1462/c/solution.c) [C++](./old-problems/1462/solution.cpp) |
 | [1464. Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | Easy | [C](./old-problems/1464/c/solution.c) [C++](./old-problems/1464/solution.cpp) |
