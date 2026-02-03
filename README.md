@@ -737,6 +737,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1750. Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/) | Medium | [C](./old-problems/1750/c/solution.c) [C++](./old-problems/1750/solution.cpp) |
 | [1751. Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/) | Hard | [C](./old-problems/1751/c/solution.c) [C++](./old-problems/1751/solution.cpp) |
 | [1752. Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | Easy | [C](./old-problems/1752/c/solution.c) [C++](./old-problems/1752/solution.cpp) |
+| [1753. Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/) | Medium | [C++](./old-problems/1753/solution.cpp) |
 | [1758. Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) | Easy | [C](./old-problems/1758/c/solution.c) [C++](./old-problems/1758/solution.cpp) |
 | [1759. Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings) | Medium | [C](./old-problems/1759/c/solution.c) [C++](./old-problems/1759/solution.cpp) |
 | [1760. Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/) | Medium | [C](./old-problems/1760/c/solution.c) [C++](./old-problems/1760/solution.cpp) |
