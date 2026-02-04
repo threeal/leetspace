@@ -330,6 +330,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | Medium | [C](./old-problems/0695/c/solution.c) [C++](./old-problems/0695/solution.cpp) |
 | [696. Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | Easy | [C](./old-problems/0696/c/solution.c) [C++](./old-problems/0696/solution.cpp) |
 | [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Easy | [C++](./old-problems/0700/solution.cpp) |
+| [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | Medium | [C++](./old-problems/0701/solution.cpp) |
 | [703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Easy | [C++](./old-problems/0703/solution.cpp) |
 | [705. Design HashSet](https://leetcode.com/problems/design-hashset/) | Easy | [C++](./old-problems/0705/solution.cpp) |
 | [709. To Lower Case](https://leetcode.com/problems/to-lower-case/) | Easy | [C](./old-problems/0709/c/solution.c) [C++](./old-problems/0709/solution.cpp) |
