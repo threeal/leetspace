@@ -584,7 +584,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1356. Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | Easy | [C++](./problems/1356/solution.cpp) |
 | [1357. Apply Discount Every n Orders](https://leetcode.com/problems/apply-discount-every-n-orders/) | Medium | [C++](./old-problems/1357/solution.cpp) |
 | [1361. Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes) | Medium | [C](./old-problems/1361/c/solution.c) [C++](./old-problems/1361/solution.cpp) |
-| [1365. How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Easy | [C++](./old-problems/1365/solution.cpp) |
+| [1365. How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Easy | [C](./old-problems/1365/c/solution.c) [C++](./old-problems/1365/solution.cpp) |
 | [1366. Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/) | Medium | [C](./old-problems/1366/c/solution.c) [C++](./old-problems/1366/solution.cpp) |
 | [1367. Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/) | Medium | [C++](./old-problems/1367/solution.cpp) |
 | [1370. Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/) | Easy | [C](./old-problems/1370/c/solution.c) [C++](./old-problems/1370/solution.cpp) |
