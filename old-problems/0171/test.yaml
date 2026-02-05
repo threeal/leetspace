@@ -24,3 +24,8 @@ test_cases:
     inputs:
       columnTitle: ZY
     output: 701
+
+  test_case_3:
+    inputs:
+      columnTitle: FXSHRXW
+    output: 2147483647
