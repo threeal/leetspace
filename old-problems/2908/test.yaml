@@ -1,0 +1,26 @@
+name: 2908. Minimum Sum of Mountain Triplets I
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minimumSum
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [8, 6, 1, 5, 3]
+    output: 9
+
+  example_2:
+    inputs:
+      nums: [5, 4, 8, 7, 10, 2]
+    output: 13
+
+  example_3:
+    inputs:
+      nums: [6, 5, 4, 3, 4, 5]
+    output: -1

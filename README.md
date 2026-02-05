@@ -1119,6 +1119,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2895. Minimum Processing Time](https://leetcode.com/problems/minimum-processing-time/) | Medium | [C](./old-problems/2895/c/solution.c) [C++](./old-problems/2895/solution.cpp) |
 | [2900. Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/) | Easy | [C](./old-problems/2900/c/solution.c) [C++](./old-problems/2900/solution.cpp) |
 | [2901. Longest Unequal Adjacent Groups Subsequence II](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii/) | Medium | [C](./old-problems/2901/c/solution.c) [C++](./old-problems/2901/solution.cpp) |
+| [2908. Minimum Sum of Mountain Triplets I](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-i/) | Easy | [C++](./old-problems/2908/solution.cpp) |
 | [2913. Subarrays Distinct Element Sum of Squares I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/) | Easy | [C](./old-problems/2913/c/solution.c) [C++](./old-problems/2913/solution.cpp) |
 | [2914. Minimum Number of Changes to Make Binary String Beautiful](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/) | Medium | [C](./old-problems/2914/c/solution.c) [C++](./old-problems/2914/solution.cpp) |
 | [2917. Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array/) | Easy | [C](./old-problems/2917/c/solution.c) [C++](./old-problems/2917/solution.cpp) |
