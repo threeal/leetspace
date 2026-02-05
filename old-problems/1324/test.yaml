@@ -1,0 +1,39 @@
+name: 1324. Print Words Vertically
+
+types:
+  inputs:
+    s: std::string
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: printVertically
+
+test_cases:
+  example_1:
+    inputs:
+      s: HOW ARE YOU
+    output:
+      - HAY
+      - ORO
+      - WEU
+
+  example_2:
+    inputs:
+      s: TO BE OR NOT TO BE
+    output:
+      - TBONTB
+      - OEROOE
+      - "   T"
+
+  example_3:
+    inputs:
+      s: CONTEST IS COMING
+    output:
+      - CIC
+      - OSO
+      - N M
+      - T I
+      - E N
+      - S G
+      - T
