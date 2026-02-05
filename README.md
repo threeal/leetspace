@@ -527,6 +527,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation) | Hard | [C](./old-problems/1220/c/solution.c) [C++](./old-problems/1220/solution.cpp) |
 | [1221. Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | Easy | [C](./old-problems/1221/c/solution.c) [C++](./old-problems/1221/solution.cpp) |
 | [1222. Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king/) | Medium | [C](./old-problems/1222/c/solution.c) [C++](./old-problems/1222/solution.cpp) |
+| [1227. Airplane Seat Assignment Probability](https://leetcode.com/problems/airplane-seat-assignment-probability/) | Medium | [C++](./old-problems/1227/solution.cpp) |
 | [1232. Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line) | Easy | [C++](./problems/1232/solution.cpp) |
 | [1233. Remove Sub-Folders from the Filesystem](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/) | Medium | [C](./old-problems/1233/c/solution.c) [C++](./old-problems/1233/solution.cpp) |
 | [1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | Hard | [C++](./problems/1235/solution.cpp) |
