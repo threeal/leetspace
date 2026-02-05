@@ -140,6 +140,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | Medium | [C++](./old-problems/0166/solution.cpp) |
 | [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | Easy | [C](./old-problems/0168/c/solution.c) [C++](./old-problems/0168/solution.cpp) |
 | [169. Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [C](./old-problems/0169/c/solution.c) [C++](./old-problems/0169/solution.cpp) |
+| [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | Easy | [C++](./old-problems/0171/solution.cpp) |
 | [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | Medium | [C++](./old-problems/0173/solution.cpp) |
 | [179. Largest Number](https://leetcode.com/problems/largest-number/) | Medium | [C](./old-problems/0179/c/solution.c) [C++](./old-problems/0179/solution.cpp) |
 | [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Easy | [C](./old-problems/0190/c/solution.c) [C++](./old-problems/0190/solution.cpp) |
