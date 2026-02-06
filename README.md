@@ -830,6 +830,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2009. Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous) | Hard | [C++](./problems/2009/solution.cpp) |
 | [2016. Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements/) | Easy | [C](./old-problems/2016/c/solution.c) [C++](./old-problems/2016/solution.cpp) |
 | [2011. Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | Easy | [C](./old-problems/2011/c/solution.c) [C++](./old-problems/2011/solution.cpp) |
+| [2014. Longest Subsequence Repeated k Times](https://leetcode.com/problems/longest-subsequence-repeated-k-times/) | Hard | [C++](./old-problems/2014/solution.cpp) |
 | [2017. Grid Game](https://leetcode.com/problems/grid-game/) | Medium | [C](./old-problems/2017/c/solution.c) [C++](./old-problems/2017/solution.cpp) |
 | [2018. Check if Word Can Be Placed In Crossword](https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/) | Medium | [C](./old-problems/2018/c/solution.c) [C++](./old-problems/2018/solution.cpp) |
 | [2022. Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/) | Medium | [C](./old-problems/2022/c/solution.c) [C++](./old-problems/2022/solution.cpp) |
