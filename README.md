@@ -277,7 +277,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | Medium | [C](./old-problems/0523/c/solution.c) [C++](./old-problems/0523/solution.cpp) |
 | [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/) | Medium | [C++](./problems/0525/solution.cpp) |
 | [535. Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | Medium | [C++](./old-problems/0535/solution.cpp) |
-| [537. Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication/) | Medium | [C++](./old-problems/0537/solution.cpp) |
+| [537. Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication/) | Medium | [C](./old-problems/0537/c/solution.c) [C++](./old-problems/0537/solution.cpp) |
 | [538. Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | Medium | [C++](./old-problems/0538/solution.cpp) |
 | [539. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | Medium | [C](./old-problems/0539/c/solution.c) [C++](./old-problems/0539/solution.cpp) |
 | [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | Easy | [C](./old-problems/0541/c/solution.c) [C++](./old-problems/0541/solution.cpp) |
