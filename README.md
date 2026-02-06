@@ -1075,6 +1075,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2696. Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) | Easy | [C](./old-problems/2696/c/solution.c) [C++](./old-problems/2696/solution.cpp) |
 | [2697. Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/) | Easy | [C](./old-problems/2697/c/solution.c) [C++](./old-problems/2697/solution.cpp) |
 | [2698. Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/) | Medium | [C](./old-problems/2698/c/solution.c) [C++](./old-problems/2698/solution.cpp) |
+| [2699. Modify Graph Edge Weights](https://leetcode.com/problems/modify-graph-edge-weights/description/) | Medium | [C++](./old-problems/2699/solution.cpp) |
 | [2706. Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/) | Easy | [C](./old-problems/2706/c/solution.c) [C++](./old-problems/2706/solution.cpp) |
 | [2707. Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | Medium | [C](./old-problems/2707/c/solution.c) [C++](./old-problems/2707/solution.cpp) |
 | [2710. Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | Easy | [C](./old-problems/2710/c/solution.c) [C++](./old-problems/2710/solution.cpp) |
