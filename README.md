@@ -923,6 +923,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2270. Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/) | Medium | [C](./old-problems/2270/c/solution.c) [C++](./old-problems/2270/solution.cpp) |
 | [2275. Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/) | Medium | [C](./old-problems/2275/c/solution.c) [C++](./old-problems/2275/solution.cpp) |
 | [2278. Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | Easy | [C](./old-problems/2278/c/solution.c) [C++](./old-problems/2278/solution.cpp) |
+| [2279. Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/) | Medium | [C++](./old-problems/2279/solution.cpp) |
 | [2283. Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/) | Easy | [C](./old-problems/2283/c/solution.c) [C++](./old-problems/2283/solution.cpp) |
 | [2285. Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/) | Medium | [C](./old-problems/2285/c/solution.c) [C++](./old-problems/2285/solution.cpp) |
 | [2290. Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/) | Hard | [C++](./problems/2290/solution.cpp) |
