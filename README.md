@@ -1077,6 +1077,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2698. Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/) | Medium | [C](./old-problems/2698/c/solution.c) [C++](./old-problems/2698/solution.cpp) |
 | [2706. Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/) | Easy | [C](./old-problems/2706/c/solution.c) [C++](./old-problems/2706/solution.cpp) |
 | [2707. Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | Medium | [C](./old-problems/2707/c/solution.c) [C++](./old-problems/2707/solution.cpp) |
+| [2709. Greatest Common Divisor Traversal](https://leetcode.com/problems/greatest-common-divisor-traversal/) | Hard | [C++](./old-problems/2709/solution.cpp) |
 | [2710. Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | Easy | [C](./old-problems/2710/c/solution.c) [C++](./old-problems/2710/solution.cpp) |
 | [2711. Difference of Number of Distinct Values on Diagonals](https://leetcode.com/problems/difference-of-number-of-distinct-values-on-diagonals/) | Medium | [C++](./old-problems/2711/solution.cpp) |
 | [2716. Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | Easy | [C](./old-problems/2716/c/solution.c) [C++](./old-problems/2716/solution.cpp) |
