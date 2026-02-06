@@ -1310,7 +1310,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3751. Total Waviness of Numbers in Range I](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | Medium | [C](./old-problems/3751/c/solution.c) [C++](./old-problems/3751/solution.cpp) |
 | [3760. Maximum Substrings With Distinct Start](https://leetcode.com/problems/maximum-substrings-with-distinct-start/) | Medium | [C](./old-problems/3760/c/solution.c) [C++](./old-problems/3760/solution.cpp) |
 | [3775. Reverse Words With Same Vowel Count](https://leetcode.com/problems/maximum-substrings-with-distinct-start/) | Medium | [C++](./old-problems/3760/solution.cpp) |
-| [3783. Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | Easy | [C++](./old-problems/3783/solution.cpp) |
+| [3783. Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | Easy | [C](./old-problems/3783/c/solution.c) [C++](./old-problems/3783/solution.cpp) |
 | [3794. Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | Easy | [C++](./old-problems/3794/solution.cpp) |
 | [3798. Largest Even Number](https://leetcode.com/problems/largest-even-number/) | Easy | [C](./old-problems/3798/c/solution.c) [C++](./old-problems/3798/solution.cpp) |
 
