@@ -1,0 +1,21 @@
+name: 1338. Reduce Array Size to The Half
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minSetSize
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [3, 3, 3, 3, 5, 5, 5, 2, 2, 7]
+    output: 2
+
+  example_2:
+    inputs:
+      arr: [7, 7, 7, 7, 7, 7]
+    output: 1
