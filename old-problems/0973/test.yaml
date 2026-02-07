@@ -1,0 +1,24 @@
+name: 973. K Closest Points to Origin
+
+types:
+  inputs:
+    points: std::vector<std::vector<int>>
+    k: int
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: kClosest
+
+test_cases:
+  example_1:
+    inputs:
+      points: [[1, 3], [-2, 2]]
+      k: 1
+    output: [[-2, 2]]
+
+  example_2:
+    inputs:
+      points: [[3, 3], [5, -1], [-2, 4]]
+      k: 2
+    output: [[3, 3], [-2, 4]]
