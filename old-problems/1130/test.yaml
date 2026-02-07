@@ -1,0 +1,21 @@
+name: 1130. Minimum Cost Tree From Leaf Values
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: mctFromLeafValues
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [6, 2, 4]
+    output: 32
+
+  example_2:
+    inputs:
+      arr: [4, 11]
+    output: 44
