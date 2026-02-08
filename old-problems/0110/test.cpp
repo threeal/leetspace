@@ -62,4 +62,9 @@ TEST_CASE("110. Balanced Binary Tree") {
     TreeNode* root{toTreeNode({1, null, 2, null, 3})};
     REQUIRE_FALSE(Solution{}.isBalanced(root));
   }
+
+  SECTION("Test Case 219") {
+    TreeNode* root{toTreeNode({1, 2, 3, 4, 5, 6, null, 8})};
+    REQUIRE(Solution{}.isBalanced(root));
+  }
 }
