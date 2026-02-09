@@ -1,0 +1,27 @@
+name: 3648. Minimum Sensors to Cover Grid
+
+types:
+  inputs:
+    n: int
+    m: int
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: minSensors
+
+test_cases:
+  example_1:
+    inputs:
+      n: 5
+      m: 5
+      k: 1
+    output: 4
+
+  example_2:
+    inputs:
+      n: 2
+      m: 2
+      k: 2
+    output: 1

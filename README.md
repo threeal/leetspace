@@ -1291,6 +1291,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3602. Hexadecimal and Hexatrigesimal Conversion](https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/) | Easy | [C](./old-problems/3602/c/solution.c) [C++](./old-problems/3602/solution.cpp) |
 | [3606. Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/) | Easy | [C](./old-problems/3606/c/solution.c) [C++](./old-problems/3606/solution.cpp) |
 | [3643. Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/) | Easy | [C](./old-problems/3643/c/solution.c) [C++](./old-problems/3643/solution.cpp) |
+| [3648. Minimum Sensors to Cover Grid](https://leetcode.com/problems/minimum-sensors-to-cover-grid/) | Medium | [C++](./old-problems/3648/solution.cpp) |
 | [3652. Best Time to Buy and Sell Stock using Strategy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/) | Medium | [C](./old-problems/3652/c/solution.c) [C++](./old-problems/3652/solution.cpp) |
 | [3653. XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/) | Medium | [C](./old-problems/3653/c/solution.c) [C++](./old-problems/3653/solution.cpp) |
 | [3658. GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | Easy | [C](./old-problems/3658/c/solution.c) [C++](./old-problems/3658/solution.cpp) |
