@@ -625,6 +625,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1442. Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) | Medium | [C](./old-problems/1442/c/solution.c) [C++](./old-problems/1442/solution.cpp) |
 | [1448. Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | Medium | [C++](./old-problems/1448/solution.cpp) |
 | [1450. Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) | Easy | [C](./old-problems/1450/c/solution.c) [C++](./old-problems/1450/solution.cpp) |
+| [1451. Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence/) | Medium | [C++](./old-problems/1451/solution.cpp) |
 | [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | Easy | [C](./old-problems/1455/c/solution.c) [C++](./old-problems/1455/solution.cpp) |
 | [1457. Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | Medium | [C++](./old-problems/1457/solution.cpp) |
 | [1458. Max Dot Product of Two Subsequences](https://leetcode.com/problems/max-dot-product-of-two-subsequences) | Hard | [C](./old-problems/1458/c/solution.c) [C++](./old-problems/1458/solution.cpp) |
