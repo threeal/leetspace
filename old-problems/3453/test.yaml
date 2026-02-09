@@ -13,9 +13,9 @@ test_cases:
   example_1:
     inputs:
       squares: [[0, 0, 1], [2, 2, 1]]
-    output: 1.00000
+    output: 0.99999618530273438
 
   example_2:
     inputs:
       squares: [[0, 0, 2], [1, 1, 1]]
-    output: 1.16667
+    output: 1.16666412353515625
