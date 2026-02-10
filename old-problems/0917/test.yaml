@@ -1,0 +1,26 @@
+name: 917. Reverse Only Letters
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: reverseOnlyLetters
+
+test_cases:
+  example_1:
+    inputs:
+      s: ab-cd
+    output: dc-ba
+
+  example_2:
+    inputs:
+      s: a-bC-dEf-ghIj
+    output: j-Ih-gfE-dCba
+
+  example_3:
+    inputs:
+      s: Test1ng-Leet=code-Q!
+    output: Qedo1ct-eeLg=ntse-T!
