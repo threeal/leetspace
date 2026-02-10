@@ -1,0 +1,21 @@
+name: 1525. Number of Good Ways to Split a String
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: numSplits
+
+test_cases:
+  example_1:
+    inputs:
+      s: aacaba
+    output: 2
+
+  example_2:
+    inputs:
+      s: abcd
+    output: 1
