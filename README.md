@@ -391,6 +391,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [859. Buddy Strings](https://leetcode.com/problems/buddy-strings/description/) | Easy | [C](./old-problems/0859/c/solution.c) [C++](./old-problems/0859/solution.cpp) |
 | [860. Lemonade Change](https://leetcode.com/problems/lemonade-change/) | Easy | [C](./old-problems/0860/c/solution.c) [C++](./old-problems/0860/solution.cpp) |
 | [861. Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/) | Medium | [C](./old-problems/0861/c/solution.c) [C++](./old-problems/0861/solution.cpp) |
+| [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | Medium | [C++](./old-problems/0863/solution.cpp) |
 | [865. Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/) | Medium | [C++](./old-problems/0865/solution.cpp) |
 | [867. Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | Easy | [C](./old-problems/0867/c/solution.c) [C++](./old-problems/0867/solution.cpp) |
 | [869. Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/) | Medium | [C](./old-problems/0869/c/solution.c) [C++](./old-problems/0869/solution.cpp) |
