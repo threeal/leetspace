@@ -593,6 +593,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1367. Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/) | Medium | [C++](./old-problems/1367/solution.cpp) |
 | [1370. Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/) | Easy | [C](./old-problems/1370/c/solution.c) [C++](./old-problems/1370/solution.cpp) |
 | [1371. Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/) | Medium | [C](./old-problems/1371/c/solution.c) [C++](./old-problems/1371/solution.cpp) |
+| [1372. Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/) | Medium | [C++](./old-problems/1372/solution.cpp) |
 | [1374. Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | Easy | [C](./old-problems/1374/c/solution.c) [C++](./old-problems/1374/solution.cpp) |
 | [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/) | Medium | [C](./old-problems/1371/c/solution.c) [C++](./old-problems/1371/solution.cpp) |
 | [1380. Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) | Easy | [C](./old-problems/1380/c/solution.c) [C++](./old-problems/1380/solution.cpp) |
