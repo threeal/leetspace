@@ -1,0 +1,21 @@
+name: 2358. Maximum Number of Groups Entering a Competition
+
+types:
+  inputs:
+    grades: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maximumGroups
+
+test_cases:
+  example_1:
+    inputs:
+      grades: [10, 6, 12, 7, 3, 5]
+    output: 3
+
+  example_2:
+    inputs:
+      grades: [8, 8]
+    output: 1

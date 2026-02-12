@@ -959,6 +959,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2353. Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/) | Medium | [C++](./old-problems/2353/solution.cpp) |
 | [2363. Merge Similar Items](https://leetcode.com/problems/merge-similar-items/) | Easy | [C](./old-problems/2363/c/solution.c) [C++](./old-problems/2363/solution.cpp) |
 | [2357. Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | Easy | [C](./old-problems/2357/c/solution.c) [C++](./old-problems/2357/solution.cpp) |
+| [2358. Maximum Number of Groups Entering a Competition](https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition/) | Medium | [C++](./old-problems/2358/solution.cpp) |
 | [2359. Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/) | Medium | [C](./old-problems/2359/c/solution.c) [C++](./old-problems/2359/solution.cpp) |
 | [2364. Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/) | Medium | [C](./old-problems/2364/c/solution.c) [C++](./old-problems/2364/solution.cpp) |
 | [2367. Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/) | Easy | [C](./old-problems/2367/c/solution.c) [C++](./old-problems/2367/solution.cpp) |
