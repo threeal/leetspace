@@ -1,3 +1,6 @@
+#include <math.h>
+
 int maximumGroups(int* grades, int gradesSize) {
-  return grades[gradesSize - 1];
+  (void)grades;
+  return sqrt(gradesSize * 2 + 0.25) - 0.5;
 }
