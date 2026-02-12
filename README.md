@@ -1270,7 +1270,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3445. Maximum Difference Between Even and Odd Frequency II](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii/) | Hard | [C](./old-problems/3445/c/solution.c) [C++](./old-problems/3445/solution.cpp) |
 | [3446. Sort Matrix by Diagonals](https://leetcode.com/problems/sort-matrix-by-diagonals/) | Medium | [C](./old-problems/3446/c/solution.c) [C++](./old-problems/3446/solution.cpp) |
 | [3452. Sum of Good Numbers](https://leetcode.com/problems/sum-of-good-numbers/) | Easy | [C](./old-problems/3452/c/solution.c) [C++](./old-problems/3452/solution.cpp) |
-| [3453. Separate Squares I](https://leetcode.com/problems/separate-squares-i/) | Medium | [C++](./old-problems/3453/solution.cpp) |
+| [3453. Separate Squares I](https://leetcode.com/problems/separate-squares-i/) | Medium | [C](./old-problems/3453/c/solution.c) [C++](./old-problems/3453/solution.cpp) |
 | [3461. Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | Easy | [C](./old-problems/3461/c/solution.c) [C++](./old-problems/3461/solution.cpp) |
 | [3467. Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | Easy | [C](./old-problems/3467/c/solution.c) [C++](./old-problems/3467/solution.cpp) |
 | [3477. Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/) | Easy | [C](./old-problems/3477/c/solution.c) [C++](./old-problems/3477/solution.cpp) |
