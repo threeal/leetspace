@@ -29,3 +29,8 @@ test_cases:
     inputs:
       s: abcbc
     output: 4
+
+  test_case_615:
+    inputs:
+      s: aacbabc
+    output: 3
