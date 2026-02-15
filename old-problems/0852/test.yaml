@@ -1,0 +1,26 @@
+name: 852. Peak Index in a Mountain Array
+
+types:
+  inputs:
+    hand: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: peakIndexInMountainArray
+
+test_cases:
+  example_1:
+    inputs:
+      hand: [0, 1, 0]
+    output: 1
+
+  example_2:
+    inputs:
+      hand: [0, 2, 1, 0]
+    output: 1
+
+  example_3:
+    inputs:
+      hand: [0, 10, 5, 2]
+    output: 1
