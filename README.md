@@ -579,6 +579,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium | [C](./old-problems/1334/c/solution.c) [C++](./old-problems/1334/solution.cpp) |
 | [1339. Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) | Medium | [C++](./old-problems/1339/solution.cpp) |
 | [1337. The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix) | Easy | [C++](./problems/1337/solution.cpp) |
+| [1338. Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/) | Medium | [C++](./old-problems/1338/solution.cpp) |
 | [1342. Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | Easy | [C](./old-problems/1342/c/solution.c) [C++](./old-problems/1342/solution.cpp) |
 | [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | Medium | [C](./old-problems/1343/c/solution.c) [C++](./old-problems/1343/solution.cpp) |
 | [1346. Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | Easy | [C++](./old-problems/1346/solution.cpp) |
