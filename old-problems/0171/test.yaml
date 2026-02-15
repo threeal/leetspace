@@ -1,0 +1,31 @@
+name: 171. Excel Sheet Column Number
+
+types:
+  inputs:
+    columnTitle: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: titleToNumber
+
+test_cases:
+  example_1:
+    inputs:
+      columnTitle: A
+    output: 1
+
+  example_2:
+    inputs:
+      columnTitle: AB
+    output: 28
+
+  example_3:
+    inputs:
+      columnTitle: ZY
+    output: 701
+
+  test_case_3:
+    inputs:
+      columnTitle: FXSHRXW
+    output: 2147483647
