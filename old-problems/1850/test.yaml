@@ -1,0 +1,30 @@
+name: 1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number
+
+types:
+  inputs:
+    num: std::string
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: getMinSwaps
+
+test_cases:
+  example_1:
+    inputs:
+      num: "5489355142"
+      k: 4
+    output: 2
+
+  example_2:
+    inputs:
+      num: "11112"
+      k: 4
+    output: 4
+
+  example_3:
+    inputs:
+      num: "00123"
+      k: 1
+    output: 1
