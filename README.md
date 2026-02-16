@@ -1326,6 +1326,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3783. Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | Easy | [C](./old-problems/3783/c/solution.c) [C++](./old-problems/3783/solution.cpp) |
 | [3794. Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | Easy | [C++](./old-problems/3794/solution.cpp) |
 | [3798. Largest Even Number](https://leetcode.com/problems/largest-even-number/) | Easy | [C](./old-problems/3798/c/solution.c) [C++](./old-problems/3798/solution.cpp) |
+| [3838. Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | Easy | [C++](./old-problems/3838/solution.cpp) |
 
 ## License
 
