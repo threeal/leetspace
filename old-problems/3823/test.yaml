@@ -24,3 +24,8 @@ test_cases:
     inputs:
       s: "!@#$%^&*()"
     output: )(*&^%$#@!
+
+  test_case_338:
+    inputs:
+      s: (q
+    output: (q
