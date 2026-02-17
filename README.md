@@ -229,6 +229,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [389. Find the Difference](https://leetcode.com/problems/find-the-difference) | Easy | [C++](./problems/0389/solution.cpp) |
 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | [C++](./problems/0392/solution.cpp) |
 | [396. Rotate Function](https://leetcode.com/problems/rotate-function/) | Medium | [C](./old-problems/0396/c/solution.c) [C++](./old-problems/0396/solution.cpp) |
+| [401. Binary Watch](https://leetcode.com/problems/binary-watch/) | Easy | [C++](./old-problems/0401/solution.cpp) |
 | [402. Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | Medium | [C](./old-problems/0402/c/solution.c) [C++](./old-problems/0402/solution.cpp) |
 | [404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | Easy | [C++](./old-problems/0404/solution.cpp) |
 | [405. Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | Easy | [C](./old-problems/0405/c/solution.c) [C++](./old-problems/0405/solution.cpp) |
