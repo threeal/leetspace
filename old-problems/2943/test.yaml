@@ -1,0 +1,46 @@
+name: 2943. Maximize Area of Square Hole in Grid
+
+types:
+  inputs:
+    n: int
+    m: int
+    hBars: std::vector<int>
+    vBars: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maximizeSquareHoleArea
+
+test_cases:
+  example_1:
+    inputs:
+      n: 2
+      m: 1
+      hBars: [2, 3]
+      vBars: [2]
+    output: 4
+
+  example_2:
+    inputs:
+      n: 1
+      m: 1
+      hBars: [2]
+      vBars: [2]
+    output: 4
+
+  example_3:
+    inputs:
+      n: 2
+      m: 3
+      hBars: [2, 3]
+      vBars: [2, 4]
+    output: 4
+
+  test_case_108:
+    inputs:
+      n: 3
+      m: 2
+      hBars: [3, 2, 4]
+      vBars: [3, 2]
+    output: 9
