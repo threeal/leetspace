@@ -1283,7 +1283,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3477. Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/) | Easy | [C](./old-problems/3477/c/solution.c) [C++](./old-problems/3477/solution.cpp) |
 | [3483. Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | Easy | [C](./old-problems/3483/c/solution.c) [C++](./old-problems/3483/solution.cpp) |
 | [3484. Design Spreadsheet](https://leetcode.com/problems/design-spreadsheet/) | Medium | [C++](./old-problems/3484/solution.cpp) |
-| [3487. Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | Easy | [C++](./old-problems/3487/solution.cpp) |
+| [3487. Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | Easy | [C](./old-problems/3487/c/solution.c) [C++](./old-problems/3487/solution.cpp) |
 | [3492. Maximum Containers on a Ship](https://leetcode.com/problems/maximum-containers-on-a-ship/) | Easy | [C](./old-problems/3492/c/solution.c) [C++](./old-problems/3492/solution.cpp) |
 | [3494. Find the Minimum Amount of Time to Brew Potions](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/) | Medium | [C](./old-problems/3494/c/solution.c) [C++](./old-problems/3494/solution.cpp) |
 | [3498. Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/) | Easy | [C](./old-problems/3498/c/solution.c) [C++](./old-problems/3498/solution.cpp) |
