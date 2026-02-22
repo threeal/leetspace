@@ -1120,7 +1120,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2818. Apply Operations to Maximize Score](https://leetcode.com/problems/apply-operations-to-maximize-score/) | Hard | [C++](./old-problems/2818/solution.cpp) |
 | [2824. Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | Easy | [C](./old-problems/2824/c/solution.c) [C++](./old-problems/2824/solution.cpp) |
 | [2825. Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/) | Medium | [C](./old-problems/2825/c/solution.c) [C++](./old-problems/2825/solution.cpp) |
-| [2828. Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/) | Easy | [C++](./old-problems/2828/solution.cpp) |
+| [2828. Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/) | Easy | [C](./old-problems/2828/c/solution.c) [C++](./old-problems/2828/solution.cpp) |
 | [2843. Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | Easy | [C](./old-problems/2843/c/solution.c) [C++](./old-problems/2843/solution.cpp) |
 | [2848. Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/) | Easy | [C](./old-problems/2848/c/solution.c) [C++](./old-problems/2848/solution.cpp) |
 | [2845. Count of Interesting Subarrays](https://leetcode.com/problems/count-of-interesting-subarrays/) | Medium | [C++](./problems/2845/solution.cpp) |
