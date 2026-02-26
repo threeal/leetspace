@@ -1,0 +1,36 @@
+name: 3714. Longest Balanced Substring II
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: longestBalanced
+
+test_cases:
+  example_1:
+    inputs:
+      s: abbac
+    output: 4
+
+  example_2:
+    inputs:
+      s: aabcc
+    output: 3
+
+  example_3:
+    inputs:
+      s: aba
+    output: 2
+
+  test_case_592:
+    inputs:
+      s: abcbc
+    output: 4
+
+  test_case_615:
+    inputs:
+      s: aacbabc
+    output: 3
