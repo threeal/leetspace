@@ -28,3 +28,9 @@ test_cases:
       s: "0101"
       t: "1001"
     output: "1111"
+
+  test_case_219:
+    inputs:
+      s: "0"
+      t: "0"
+    output: "0"
