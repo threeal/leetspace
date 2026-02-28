@@ -1167,7 +1167,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3000. Maximum Area of Longest Diagonal Rectangle](https://leetcode.com/problems/maximum-area-of-longest-diagonal-rectangle/) | Easy | [C](./old-problems/3000/c/solution.c) [C++](./old-problems/3000/solution.cpp) |
 | [3005. Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/) | Easy | [C++](./old-problems/3005/solution.cpp) |
 | [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](https://leetcode.com/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/) | Medium | [C](./old-problems/3007/c/solution.c) [C++](./old-problems/3007/solution.cpp) |
-| [3010. Divide an Array Into Subarrays With Minimum Cost I](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/) | Easy | [C++](./old-problems/3010/solution.cpp) |
+| [3010. Divide an Array Into Subarrays With Minimum Cost I](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/) | Easy | [C](./old-problems/3010/c/solution.c) [C++](./old-problems/3010/solution.cpp) |
 | [3011. Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | Medium | [C](./old-problems/3011/c/solution.c) [C++](./old-problems/3011/solution.cpp) |
 | [3016. Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description) | Medium | [C](./old-problems/3016/c/solution.c) [C++](./old-problems/3016/solution.cpp) |
 | [3019. Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/) | Easy | [C](./old-problems/3019/c/solution.c) [C++](./old-problems/3019/solution.cpp) |
