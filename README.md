@@ -725,6 +725,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1671. Minimum Number of Removals to Make Mountain Array](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/) | Hard | [C++](./old-problems/1671/solution.cpp) |
 | [1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | Easy | [C](./old-problems/1672/c/solution.c) [C++](./old-problems/1672/solution.cpp) |
 | [1678. Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | Easy | [C](./old-problems/1678/c/solution.c) [C++](./old-problems/1678/solution.cpp) |
+| [1680. Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | Medium | [C++](./old-problems/1680/solution.cpp) |
 | [1684. Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/) | Easy | [C++](./old-problems/1684/solution.cpp) |
 | [1685. Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | Medium | [C](./old-problems/1685/c/solution.c) [C++](./old-problems/1685/solution.cpp) |
 | [1686. Stone Game VI](https://leetcode.com/problems/stone-game-vi/) | Medium | [C](./old-problems/1686/c/solution.c) [C++](./old-problems/1686/solution.cpp) |
