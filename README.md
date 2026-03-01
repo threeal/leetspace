@@ -399,6 +399,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | Medium | [C++](./old-problems/0863/solution.cpp) |
 | [865. Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/) | Medium | [C++](./old-problems/0865/solution.cpp) |
 | [867. Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | Easy | [C](./old-problems/0867/c/solution.c) [C++](./old-problems/0867/solution.cpp) |
+| [868. Binary Gap](https://leetcode.com/problems/binary-gap/) | Easy | [C++](./old-problems/0868/solution.cpp) |
 | [869. Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/) | Medium | [C](./old-problems/0869/c/solution.c) [C++](./old-problems/0869/solution.cpp) |
 | [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | Easy | [C++](./old-problems/0872/solution.cpp) |
 | [873. Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/) | Medium | [C](./old-problems/0873/c/solution.c) [C++](./old-problems/0873/solution.cpp) |
