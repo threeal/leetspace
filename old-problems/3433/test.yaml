@@ -1,0 +1,48 @@
+name: 3433. Count Mentions Per User
+
+types:
+  inputs:
+    numberOfUsers: int
+    events: std::vector<std::vector<std::string>>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: countMentions
+
+test_cases:
+  example_1:
+    inputs:
+      numberOfUsers: 2
+      events:
+        - ["MESSAGE", "10", "id1 id0"]
+        - ["OFFLINE", "11", "0"]
+        - ["MESSAGE", "71", "HERE"]
+    output: [2, 2]
+
+  example_2:
+    inputs:
+      numberOfUsers: 2
+      events:
+        - ["MESSAGE", "10", "id1 id0"]
+        - ["OFFLINE", "11", "0"]
+        - ["MESSAGE", "12", "ALL"]
+    output: [2, 2]
+
+  example_3:
+    inputs:
+      numberOfUsers: 2
+      events:
+        - ["OFFLINE","10","0"]
+        - ["MESSAGE","12","HERE"]
+    output: [0, 1]
+
+  test_case_639:
+    inputs:
+      numberOfUsers: 3
+      events:
+        - ["MESSAGE", "2", "HERE"]
+        - ["OFFLINE", "2", "1"]
+        - ["OFFLINE", "1", "0"]
+        - ["MESSAGE", "61", "HERE"]
+    output: [1, 0, 2]
