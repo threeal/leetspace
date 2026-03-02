@@ -392,6 +392,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | Medium | [C](./old-problems/0841/c/solution.c) [C++](./old-problems/0841/solution.cpp) |
 | [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | Easy | [C++](./problems/0844/solution.cpp) |
 | [846. Hand of Straights](https://leetcode.com/problems/hand-of-straights/) | medium | [C](./old-problems/0846/c/solution.c) [C++](./old-problems/0846/solution.cpp) |
+| [852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | medium | [C++](./old-problems/0852/solution.cpp) |
 | [857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) | Hard | [C++](./old-problems/0857/solution.cpp) |
 | [859. Buddy Strings](https://leetcode.com/problems/buddy-strings/description/) | Easy | [C](./old-problems/0859/c/solution.c) [C++](./old-problems/0859/solution.cpp) |
 | [860. Lemonade Change](https://leetcode.com/problems/lemonade-change/) | Easy | [C](./old-problems/0860/c/solution.c) [C++](./old-problems/0860/solution.cpp) |
