@@ -1169,6 +1169,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](https://leetcode.com/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/) | Medium | [C](./old-problems/3007/c/solution.c) [C++](./old-problems/3007/solution.cpp) |
 | [3010. Divide an Array Into Subarrays With Minimum Cost I](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/) | Easy | [C](./old-problems/3010/c/solution.c) [C++](./old-problems/3010/solution.cpp) |
 | [3011. Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | Medium | [C](./old-problems/3011/c/solution.c) [C++](./old-problems/3011/solution.cpp) |
+| [3013. Divide an Array Into Subarrays With Minimum Cost II](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/) | Hard | [C++](./old-problems/3013/solution.cpp) |
 | [3016. Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description) | Medium | [C](./old-problems/3016/c/solution.c) [C++](./old-problems/3016/solution.cpp) |
 | [3019. Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/) | Easy | [C](./old-problems/3019/c/solution.c) [C++](./old-problems/3019/solution.cpp) |
 | [3021. Alice and Bob Playing Flower Game](https://leetcode.com/problems/alice-and-bob-playing-flower-game/) | Medium | [C](./old-problems/3021/c/solution.c) [C++](./old-problems/3021/solution.cpp) |
