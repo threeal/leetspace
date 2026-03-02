@@ -356,6 +356,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs) | Easy | [C++](./problems/0746/solution.cpp) |
 | [752. Open the Lock](https://leetcode.com/problems/open-the-lock/) | Medium | [C](./old-problems/0752/c/solution.c) [C++](./old-problems/0752/solution.cpp) |
 | [757. Set Intersection Size At Least Two](https://leetcode.com/problems/set-intersection-size-at-least-two/) | Hard | [C](./old-problems/0757/c/solution.c) [C++](./old-problems/0757/solution.cpp) |
+| [761. Special Binary String](https://leetcode.com/problems/special-binary-string/) | Hard | [C++](./old-problems/0761/solution.cpp) |
 | [762. Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | Easy | [C](./old-problems/0762/c/solution.c) [C++](./old-problems/0762/solution.cpp) |
 | [763. Partition Labels](https://leetcode.com/problems/partition-labels/) | Medium | [C](./old-problems/0763/c/solution.c) [C++](./old-problems/0763/solution.cpp) |
 | [766. Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | Easy | [C](./old-problems/0766/c/solution.c) [C++](./old-problems/0766/solution.cpp) |
