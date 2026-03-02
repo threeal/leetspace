@@ -1033,7 +1033,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2506. Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/) | Easy | [C++](./old-problems/2506/solution.cpp) |
 | [2511. Maximum Enemy Forts That Can Be Captured](https://leetcode.com/problems/maximum-enemy-forts-that-can-be-captured/) | Easy | [C](./old-problems/2511/c/solution.c) [C++](./old-problems/2511/solution.cpp) |
 | [2516. Take K of Each Character From Left and Right](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/) | Medium | [C++](./old-problems/2516/solution.cpp) |
-| [2517. Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/) | Medium | [C++](./old-problems/2517/solution.cpp) |
+| [2517. Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/) | Medium | [C](./old-problems/2517/c/solution.c) [C++](./old-problems/2517/solution.cpp) |
 | [2520. Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/) | Easy | [C](./old-problems/2520/c/solution.c) [C++](./old-problems/2520/solution.cpp) |
 | [2523. Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/) | Medium | [C](./old-problems/2523/c/solution.c) [C++](./old-problems/2523/solution.cpp) |
 | [2525. Categorize Box According to Criteria](https://leetcode.com/problems/categorize-box-according-to-criteria/) | Easy | [C](./old-problems/2525/c/solution.c) [C++](./old-problems/2525/solution.cpp) |
