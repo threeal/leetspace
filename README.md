@@ -333,6 +333,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [684. Redundant Connection](https://leetcode.com/problems/redundant-connection/) | Medium | [C](./old-problems/0684/c/solution.c) [C++](./old-problems/0684/solution.cpp) |
 | [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | Hard | [C](./old-problems/0689/c/solution.c) [C++](./old-problems/0689/solution.cpp) |
 | [690. Employee Importance](https://leetcode.com/problems/employee-importance/) | Medium | [C++](./old-problems/0690/solution.cpp) |
+| [693. Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | Easy | [C++](./old-problems/0693/solution.cpp) |
 | [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | Medium | [C](./old-problems/0695/c/solution.c) [C++](./old-problems/0695/solution.cpp) |
 | [696. Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | Easy | [C](./old-problems/0696/c/solution.c) [C++](./old-problems/0696/solution.cpp) |
 | [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Easy | [C++](./old-problems/0700/solution.cpp) |
