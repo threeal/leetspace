@@ -436,6 +436,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [929. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | Easy | [C](./old-problems/0929/c/solution.c) [C++](./old-problems/0929/solution.cpp) |
 | [930. Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | Medium | [C](./old-problems/0930/c/solution.c) [C++](./old-problems/0930/solution.cpp) |
 | [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | Medium | [C++](./problems/0931/solution.cpp) |
+| [932. Beautiful Array](https://leetcode.com/problems/beautiful-array/) | Medium | [C++](./old-problems/0932/solution.cpp) |
 | [933. Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | Easy | [C++](./old-problems/0933/solution.cpp) |
 | [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) | Medium | [C](./old-problems/0934/c/solution.c) [C++](./old-problems/0934/solution.cpp) |
 | [935. Knight Dialer](https://leetcode.com/problems/knight-dialer/) | Easy | [C](./old-problems/0935/c/solution.c) [C++](./old-problems/0935/solution.cpp) |
