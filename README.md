@@ -1221,6 +1221,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3202. Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/) | Medium | [C](./old-problems/3202/c/solution.c) [C++](./old-problems/3202/solution.cpp) |
 | [3206. Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/) | Easy | [C](./old-problems/3206/c/solution.c) [C++](./old-problems/3206/solution.cpp) |
 | [3208. Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/) | Medium | [C](./old-problems/3208/c/solution.c) [C++](./old-problems/3208/solution.cpp) |
+| [3210. Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/) | Easy | [C++](./old-problems/3210/solution.cpp) |
 | [3211. Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/) | Medium | [C](./old-problems/3211/c/solution.c) [C++](./old-problems/3211/solution.cpp) |
 | [3217. Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/) | Medium | [C++](./old-problems/3217/solution.cpp) |
 | [3223. Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/) | Medium | [C](./old-problems/3223/c/solution.c) [C++](./old-problems/3223/solution.cpp) |
