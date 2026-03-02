@@ -1194,6 +1194,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/) | Easy | [C](./old-problems/3105/c/solution.c) [C++](./old-problems/3105/solution.cpp) |
 | [3108. Minimum Cost Walk in Weighted Graph](https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/) | Hard | [C](./old-problems/3108/c/solution.c) [C++](./old-problems/3108/solution.cpp) |
 | [3110. Score of a String](https://leetcode.com/problems/score-of-a-string/) | Easy | [C](./old-problems/3110/c/solution.c) [C++](./old-problems/3110/solution.cpp) |
+| [3120. Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | Easy | [C++](./old-problems/3120/solution.cpp) |
 | [3131. Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/) | Easy | [C](./old-problems/3131/c/solution.c) [C++](./old-problems/3131/solution.cpp) |
 | [3133. Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | Medium | [C](./old-problems/3133/c/solution.c) [C++](./old-problems/3133/solution.cpp) |
 | [3136. Valid Word](https://leetcode.com/problems/valid-word/) | Easy | [C](./old-problems/3136/c/solution.c) [C++](./old-problems/3136/solution.cpp) |
