@@ -417,6 +417,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [892. Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) | Easy | [C](./old-problems/0892/c/solution.c) [C++](./old-problems/0892/solution.cpp) |
 | [893. Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/) | Medium | [C](./old-problems/0893/c/solution.c) [C++](./old-problems/0893/solution.cpp) |
 | [894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) | Medium | [C++](./old-problems/0894/solution.cpp) |
+| [895. Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | Hard | [C++](./old-problems/0895/solution.cpp) |
 | [897. Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | Easy | [C++](./old-problems/0897/solution.cpp) |
 | [898. Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/description/) | Medium | [C++](./old-problems/0898/solution.cpp) |
 | [901. Online Stock Span](https://leetcode.com/problems/online-stock-span/) | Medium | [C++](./old-problems/0901/solution.cpp) |
