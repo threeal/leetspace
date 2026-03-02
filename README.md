@@ -1313,6 +1313,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3622. Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | Easy | [C++](./old-problems/3622/solution.cpp) |
 | [3637. Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | Easy | [C++](./old-problems/3637/solution.cpp) |
 | [3643. Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/) | Easy | [C](./old-problems/3643/c/solution.c) [C++](./old-problems/3643/solution.cpp) |
+| [3648. Minimum Sensors to Cover Grid](https://leetcode.com/problems/minimum-sensors-to-cover-grid/) | Medium | [C++](./old-problems/3648/solution.cpp) |
 | [3652. Best Time to Buy and Sell Stock using Strategy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/) | Medium | [C](./old-problems/3652/c/solution.c) [C++](./old-problems/3652/solution.cpp) |
 | [3653. XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/) | Medium | [C](./old-problems/3653/c/solution.c) [C++](./old-problems/3653/solution.cpp) |
 | [3658. GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | Easy | [C](./old-problems/3658/c/solution.c) [C++](./old-problems/3658/solution.cpp) |
