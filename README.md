@@ -450,6 +450,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [951. Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | Medium | [C++](./old-problems/0951/solution.cpp) |
 | [955. Delete Columns to Make Sorted II](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/) | Medium | [C](./old-problems/0955/c/solution.c) [C++](./old-problems/0955/solution.cpp) |
 | [959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/) | Medium | [C](./old-problems/0959/c/solution.c) [C++](./old-problems/0959/solution.cpp) |
+| [960. Delete Columns to Make Sorted III](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/) | Hard | [C++](./old-problems/0960/solution.cpp) |
 | [961. N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | Easy | [C](./old-problems/0961/c/solution.c) [C++](./old-problems/0961/solution.cpp) |
 | [962. Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/) | Medium | [C](./old-problems/0962/c/solution.c) [C++](./old-problems/0962/solution.cpp) |
 | [965. Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | Easy | [C++](./old-problems/0965/solution.cpp) |
