@@ -1,0 +1,36 @@
+name: 3849. Maximum Bitwise XOR After Rearrangement
+
+types:
+  inputs:
+    s: std::string
+    t: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: maximumXor
+
+test_cases:
+  example_1:
+    inputs:
+      s: "101"
+      t: "011"
+    output: "110"
+
+  example_2:
+    inputs:
+      s: "0110"
+      t: "1110"
+    output: "1101"
+
+  example_3:
+    inputs:
+      s: "0101"
+      t: "1001"
+    output: "1111"
+
+  test_case_219:
+    inputs:
+      s: "0"
+      t: "0"
+    output: "0"
