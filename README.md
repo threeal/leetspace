@@ -930,6 +930,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2232. Minimize Result by Adding Parentheses to Expression](https://leetcode.com/problems/minimize-result-by-adding-parentheses-to-expression/) | Medium | [C](./old-problems/2232/c/solution.c) [C++](./old-problems/2232/solution.cpp) |
 | [2235. Add Two Integers](https://leetcode.com/problems/add-two-integers) | Easy | [C](./old-problems/2235/c/solution.c) [C++](./old-problems/2235/solution.cpp) |
 | [2236. Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | Easy | [C++](./old-problems/2236/solution.cpp) |
+| [2243. Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | Easy | [C++](./old-problems/2243/solution.cpp) |
 | [2248. Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | Easy | [C](./old-problems/2248/c/solution.c) [C++](./old-problems/2248/solution.cpp) |
 | [2251. Number of Flowers in Full Bloom](https://leetcode.com/problems/number-of-flowers-in-full-bloom) | Hard | [C++](./problems/2251/solution.cpp) |
 | [2255. Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | Easy | [C](./old-problems/2255/c/solution.c) [C++](./old-problems/2255/solution.cpp) |
