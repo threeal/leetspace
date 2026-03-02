@@ -1293,6 +1293,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3494. Find the Minimum Amount of Time to Brew Potions](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/) | Medium | [C](./old-problems/3494/c/solution.c) [C++](./old-problems/3494/solution.cpp) |
 | [3498. Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string/) | Easy | [C](./old-problems/3498/c/solution.c) [C++](./old-problems/3498/solution.cpp) |
 | [3502. Minimum Cost to Reach Every Position](https://leetcode.com/problems/minimum-cost-to-reach-every-position/) | Easy | [C](./old-problems/3502/c/solution.c) [C++](./old-problems/3502/solution.cpp) |
+| [3507. Minimum Pair Removal to Sort Array I](https://leetcode.com/problems/minimum-pair-removal-to-sort-array-i/) | Easy | [C++](./old-problems/3507/solution.cpp) |
 | [3508. Implement Router](https://leetcode.com/problems/implement-router/) | Medium | [C++](./old-problems/3508/solution.cpp) |
 | [3512. Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | Easy | [C](./old-problems/3512/c/solution.c) [C++](./old-problems/3512/solution.cpp) |
 | [3516. Find Closest Person](https://leetcode.com/problems/find-closest-person/) | Easy | [C](./old-problems/3516/c/solution.c) [C++](./old-problems/3516/solution.cpp) |
