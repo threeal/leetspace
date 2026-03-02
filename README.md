@@ -981,6 +981,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2389. Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/) | Medium | [C](./old-problems/2389/c/solution.c) [C++](./old-problems/2389/solution.cpp) |
 | [2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | Medium | [C](./old-problems/2390/c/solution.c) [C++](./old-problems/2390/solution.cpp) |
 | [2391. Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/) | Medium | [C](./old-problems/2391/c/solution.c) [C++](./old-problems/2391/solution.cpp) |
+| [2395. Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | Easy | [C++](./old-problems/2395/solution.cpp) |
 | [2396. Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | Medium | [C](./old-problems/2396/c/solution.c) [C++](./old-problems/2396/solution.cpp) |
 | [2399. Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | Easy | [C](./old-problems/2399/c/solution.c) [C++](./old-problems/2399/solution.cpp) |
 | [2938. Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/) | Medium | [C++](./old-problems/2938/solution.cpp) |
