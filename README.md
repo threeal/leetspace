@@ -559,6 +559,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1277. Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | Medium | [C](./old-problems/1277/c/solution.c) [C++](./old-problems/1277/solution.cpp) |
 | [1281. Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy | [C](./old-problems/1281/c/solution.c) [C++](./old-problems/1281/solution.cpp) |
 | [1282. Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/) | Medium | [C](./old-problems/1282/c/solution.c) [C++](./old-problems/1282/solution.cpp) |
+| [1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/) | Hard | [C++](./old-problems/1284/solution.cpp) |
 | [1286. Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/) | Medium | [C++](./old-problems/1286/solution.cpp) |
 | [1287. Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/) | Easy | [C](./old-problems/1287/c/solution.c) [C++](./old-problems/1287/solution.cpp) |
 | [1289. Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/) | Hard | [C](./old-problems/1289/c/solution.c) [C++](./old-problems/1289/solution.cpp) |
