@@ -1187,6 +1187,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3074. Apple Redistribution into Boxes](https://leetcode.com/problems/apple-redistribution-into-boxes/) | Easy | [C](./old-problems/3074/c/solution.c) [C++](./old-problems/3074/solution.cpp) |
 | [3075. Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/) | Medium | [C](./old-problems/3075/c/solution.c) [C++](./old-problems/3075/solution.cpp) |
 | [3079. Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/) | Easy | [C](./old-problems/3079/c/solution.c) [C++](./old-problems/3079/solution.cpp) |
+| [3083. Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/) | Easy | [C++](./old-problems/3083/solution.cpp) |
 | [3085. Minimum Deletions to Make String K-Special](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special/) | Medium | [C](./old-problems/3085/c/solution.c) [C++](./old-problems/3085/solution.cpp) |
 | [3097. Shortest Subarray With OR at Least K II](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/) | Medium | [C](./old-problems/3097/c/solution.c) [C++](./old-problems/3097/solution.cpp) |
 | [3099. Harshad Number](https://leetcode.com/problems/harshad-number/) | Easy | [C](./old-problems/3099/c/solution.c) [C++](./old-problems/3099/solution.cpp) |
