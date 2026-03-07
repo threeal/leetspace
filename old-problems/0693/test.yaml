@@ -1,0 +1,26 @@
+name: 693. Binary Number with Alternating Bits
+
+types:
+  inputs:
+    n: int
+  output: bool
+
+solutions:
+  cpp:
+    function: hasAlternatingBits
+
+test_cases:
+  example_1:
+    inputs:
+      n: 5
+    output: true
+
+  example_2:
+    inputs:
+      n: 7
+    output: false
+
+  example_3:
+    inputs:
+      n: 11
+    output: false
