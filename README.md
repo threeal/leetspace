@@ -1342,6 +1342,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3794. Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | Easy | [C](./old-problems/3794/c/solution.c) [C++](./old-problems/3794/solution.cpp) |
 | [3798. Largest Even Number](https://leetcode.com/problems/largest-even-number/) | Easy | [C](./old-problems/3798/c/solution.c) [C++](./old-problems/3798/solution.cpp) |
 | [3823. Reverse Letters Then Special Characters in a String](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/) | Easy | [C++](./old-problems/3823/solution.cpp) |
+| [3842. Toggle Light Bulbs](https://leetcode.com/problems/toggle-light-bulbs/) | Easy | [C++](./old-problems/3842/solution.cpp) |
 
 ## License
 
