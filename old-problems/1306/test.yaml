@@ -1,0 +1,30 @@
+name: 1306. Jump Game III
+
+types:
+  inputs:
+    arr: std::vector<int>
+    start: int
+  output: bool
+
+solutions:
+  cpp:
+    function: canReach
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [4, 2, 3, 0, 3, 1, 2]
+      start: 5
+    output: true
+
+  example_2:
+    inputs:
+      arr: [4, 2, 3, 0, 3, 1, 2]
+      start: 0
+    output: true
+
+  example_3:
+    inputs:
+      arr: [3, 0, 2, 1, 2]
+      start: 2
+    output: false

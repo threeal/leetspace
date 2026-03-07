@@ -572,6 +572,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1302. Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | Medium | [C++](./old-problems/1302/solution.cpp) |
 | [1304. Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | Easy | [C](./old-problems/1304/c/solution.c) [C++](./old-problems/1304/solution.cpp) |
 | [1305. All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) | Medium | [C++](./old-problems/1305/solution.cpp) |
+| [1306. Jump Game III](https://leetcode.com/problems/jump-game-iii/) | Medium | [C++](./old-problems/1306/solution.cpp) |
 | [1309. Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | Easy | [C](./old-problems/1309/c/solution.c) [C++](./old-problems/1309/solution.cpp) |
 | [1310. XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/) | Medium | [C](./old-problems/1310/c/solution.c) [C++](./old-problems/1310/solution.cpp) |
 | [1313. Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | Easy | [C](./old-problems/1313/c/solution.c) [C++](./old-problems/1313/solution.cpp) |
