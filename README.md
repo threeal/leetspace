@@ -769,6 +769,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1779. Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/) | Easy | [C](./old-problems/1779/c/solution.c) [C++](./old-problems/1779/solution.cpp) |
 | [1780. Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/) | Medium | [C](./old-problems/1780/c/solution.c) [C++](./old-problems/1780/solution.cpp) |
 | [1781. Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/) | Medium | [C](./old-problems/1781/c/solution.c) [C++](./old-problems/1781/solution.cpp) |
+| [1784. Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy | [C++](./old-problems/1784/solution.cpp) |
 | [1790. Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | Easy | [C](./old-problems/1790/c/solution.c) [C++](./old-problems/1790/solution.cpp) |
 | [1791. Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/) | Easy | [C](./old-problems/1791/c/solution.c) [C++](./old-problems/1791/solution.cpp) |
 | [1792. Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/) | Medium | [C++](./problems/1792/solution.cpp) |
