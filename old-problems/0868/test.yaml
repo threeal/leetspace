@@ -1,0 +1,26 @@
+name: 868. Binary Gap
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: binaryGap
+
+test_cases:
+  example_1:
+    inputs:
+      n: 22
+    output: 2
+
+  example_2:
+    inputs:
+      n: 8
+    output: 0
+
+  example_3:
+    inputs:
+      n: 5
+    output: 2
