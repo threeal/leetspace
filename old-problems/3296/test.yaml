@@ -1,0 +1,30 @@
+name: 3296. Minimum Number of Seconds to Make Mountain Height Zero
+
+types:
+  inputs:
+    mountainHeight: int
+    workerTimes: std::vector<int>
+  output: long long
+
+solutions:
+  cpp:
+    function: minNumberOfSeconds
+
+test_cases:
+  example_1:
+    inputs:
+      mountainHeight: 4
+      workerTimes: [2, 1, 1]
+    output: 3
+
+  example_2:
+    inputs:
+      mountainHeight: 10
+      workerTimes: [3, 2, 2, 4]
+    output: 12
+
+  example_3:
+    inputs:
+      mountainHeight: 5
+      workerTimes: [1]
+    output: 15
