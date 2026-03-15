@@ -1,0 +1,26 @@
+name: 1451. Rearrange Words in a Sentence
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: arrangeWords
+
+test_cases:
+  example_1:
+    inputs:
+      s: Leetcode is cool
+    output: Is cool leetcode
+
+  example_2:
+    inputs:
+      s: Keep calm and code on
+    output: On and keep calm code
+
+  example_3:
+    inputs:
+      s: To be or not to be
+    output: To be or to be not
