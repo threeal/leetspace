@@ -1,0 +1,24 @@
+name: 3210. Find the Encrypted String
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: getEncryptedString
+
+test_cases:
+  example_1:
+    inputs:
+      s: dart
+      k: 3
+    output: tdar
+
+  example_2:
+    inputs:
+      s: aaa
+      k: 1
+    output: aaa
