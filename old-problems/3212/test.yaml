@@ -1,0 +1,32 @@
+name: 3212. Count Submatrices With Equal Frequency of X and Y
+
+types:
+  inputs:
+    grid: std::vector<std::vector<char>>
+  output: int
+
+solutions:
+  cpp:
+    function: numberOfSubmatrices
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [88, 89, 46]
+        - [89, 46, 46]
+    output: 3
+
+  example_2:
+    inputs:
+      grid:
+        - [88, 88]
+        - [88, 89]
+    output: 0
+
+  example_3:
+    inputs:
+      grid:
+        - [46, 46]
+        - [46, 46]
+    output: 0
