@@ -1,0 +1,26 @@
+name: 3856. Trim Trailing Vowels
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: trimTrailingVowels
+
+test_cases:
+  example_1:
+    inputs:
+      s: idea
+    output: id
+
+  example_2:
+    inputs:
+      s: day
+    output: day
+
+  example_3:
+    inputs:
+      s: aeiou
+    output: ""
