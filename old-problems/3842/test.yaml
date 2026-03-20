@@ -1,0 +1,21 @@
+name: 3842. Toggle Light Bulbs
+
+types:
+  inputs:
+    bulbs: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: toggleLightBulbs
+
+test_cases:
+  example_1:
+    inputs:
+      bulbs: [10, 30, 20, 10]
+    output: [20, 30]
+
+  example_2:
+    inputs:
+      bulbs: [100, 100]
+    output: []
