@@ -1,0 +1,36 @@
+name: 1461. Check If a String Contains All Binary Codes of Size K
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: bool
+
+solutions:
+  cpp:
+    function: hasAllCodes
+
+test_cases:
+  example_1:
+    inputs:
+      s: "00110110"
+      k: 2
+    output: true
+
+  example_2:
+    inputs:
+      s: "0110"
+      k: 1
+    output: true
+
+  example_3:
+    inputs:
+      s: "0110"
+      k: 2
+    output: false
+
+  test_case_11:
+    inputs:
+      s: "0"
+      k: 20
+    output: false
