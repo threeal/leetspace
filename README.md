@@ -1351,6 +1351,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3798. Largest Even Number](https://leetcode.com/problems/largest-even-number/) | Easy | [C](./old-problems/3798/c/solution.c) [C++](./old-problems/3798/solution.cpp) |
 | [3804. Number of Centered Subarrays](https://leetcode.com/problems/number-of-centered-subarrays/) | Medium | [C++](./old-problems/3804/solution.cpp) |
 | [3823. Reverse Letters Then Special Characters in a String](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/) | Easy | [C++](./old-problems/3823/solution.cpp) |
+| [3852. Smallest Pair With Different Frequencies](https://leetcode.com/problems/smallest-pair-with-different-frequencies/) | Easy | [C++](./old-problems/3852/solution.cpp) |
 
 ## License
 
