@@ -1,0 +1,26 @@
+name: 2395. Find Subarrays With Equal Sum
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: findSubarrays
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [4, 2, 4]
+    output: true
+
+  example_2:
+    inputs:
+      nums: [1, 2, 3, 4, 5]
+    output: false
+
+  example_3:
+    inputs:
+      nums: [0, 0, 0]
+    output: true
