@@ -1232,6 +1232,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3206. Alternating Groups I](https://leetcode.com/problems/alternating-groups-i/) | Easy | [C](./old-problems/3206/c/solution.c) [C++](./old-problems/3206/solution.cpp) |
 | [3208. Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/) | Medium | [C](./old-problems/3208/c/solution.c) [C++](./old-problems/3208/solution.cpp) |
 | [3211. Generate Binary Strings Without Adjacent Zeros](https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/) | Medium | [C](./old-problems/3211/c/solution.c) [C++](./old-problems/3211/solution.cpp) |
+| [3212. Count Submatrices With Equal Frequency of X and Y](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/) | Medium | [C++](./old-problems/3212/solution.cpp) |
 | [3217. Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/) | Medium | [C++](./old-problems/3217/solution.cpp) |
 | [3223. Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/) | Medium | [C](./old-problems/3223/c/solution.c) [C++](./old-problems/3223/solution.cpp) |
 | [3227. Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/) | Medium | [C](./old-problems/3227/c/solution.c) [C++](./old-problems/3227/solution.cpp) |
