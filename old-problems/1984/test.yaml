@@ -1,0 +1,24 @@
+name: 1984. Minimum Difference Between Highest and Lowest of K Scores
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: minimumDifference
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [90]
+      k: 1
+    output: 0
+
+  example_2:
+    inputs:
+      nums: [9, 4, 1, 7]
+      k: 2
+    output: 2
