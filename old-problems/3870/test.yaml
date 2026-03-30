@@ -1,0 +1,21 @@
+name: 3870. Count Commas in Range
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: countCommas
+
+test_cases:
+  example_1:
+    inputs:
+      n: 1002
+    output: 3
+
+  example_2:
+    inputs:
+      n: 998
+    output: 0
