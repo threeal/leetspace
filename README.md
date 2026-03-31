@@ -1325,6 +1325,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3602. Hexadecimal and Hexatrigesimal Conversion](https://leetcode.com/problems/hexadecimal-and-hexatrigesimal-conversion/) | Easy | [C](./old-problems/3602/c/solution.c) [C++](./old-problems/3602/solution.cpp) |
 | [3606. Coupon Code Validator](https://leetcode.com/problems/coupon-code-validator/) | Easy | [C](./old-problems/3606/c/solution.c) [C++](./old-problems/3606/solution.cpp) |
 | [3622. Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | Easy | [C](./old-problems/3622/c/solution.c) [C++](./old-problems/3622/solution.cpp) |
+| [3634. Minimum Removals to Balance Array](https://leetcode.com/problems/minimum-removals-to-balance-array/) | Medium | [C++](./old-problems/3634/solution.cpp) |
 | [3637. Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | Easy | [C](./old-problems/3637/c/solution.c) [C++](./old-problems/3637/solution.cpp) |
 | [3640. Trionic Array II](https://leetcode.com/problems/trionic-array-ii/) | Hard | [C++](./old-problems/3640/solution.cpp) |
 | [3643. Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/) | Easy | [C](./old-problems/3643/c/solution.c) [C++](./old-problems/3643/solution.cpp) |
