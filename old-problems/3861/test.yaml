@@ -1,0 +1,30 @@
+name: 3861. Minimum Capacity Box
+
+types:
+  inputs:
+    capacity: std::vector<int>
+    itemSize: int
+  output: int
+
+solutions:
+  cpp:
+    function: minimumIndex
+
+test_cases:
+  example_1:
+    inputs:
+      capacity: [1, 5, 3, 7]
+      itemSize: 3
+    output: 2
+
+  example_2:
+    inputs:
+      capacity: [3, 5, 4, 3]
+      itemSize: 2
+    output: 0
+
+  example_3:
+    inputs:
+      capacity: [4]
+      itemSize: 5
+    output: -1
