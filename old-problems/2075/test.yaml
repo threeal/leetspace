@@ -1,0 +1,30 @@
+name: 2075. Decode the Slanted Ciphertext
+
+types:
+  inputs:
+    encodedText: std::string
+    rows: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: decodeCiphertext
+
+test_cases:
+  example_1:
+    inputs:
+      encodedText: ch   ie   pr
+      rows: 3
+    output: cipher
+
+  example_2:
+    inputs:
+      encodedText: iveo    eed   l te   olc
+      rows: 4
+    output: i love leetcode
+
+  example_2:
+    inputs:
+      encodedText: coding
+      rows: 1
+    output: coding
