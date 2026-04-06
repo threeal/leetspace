@@ -1,113 +1,87 @@
-#include <algorithm>
-#include <unordered_map>
+#include <tuple>
+#include <unordered_set>
 #include <vector>
 
-enum class Direction {
-  North,
-  East,
-  South,
-  West,
+struct TupleHash {
+  std::size_t operator()(const std::tuple<int, int>& pos) const {
+    return ((long long)std::get<0>(pos) << 32) ^ std::get<1>(pos);
+  }
 };
 
 class Solution {
  public:
   int robotSim(
       std::vector<int>& commands, std::vector<std::vector<int>>& obstacles) {
+    std::unordered_set<std::tuple<int, int>, TupleHash> hasObstacles{};
+
     std::unordered_map<int, std::vector<int>> xObstacles{};
     std::unordered_map<int, std::vector<int>> yObstacles{};
 
     for (const auto& obstacle : obstacles) {
-      xObstacles[obstacle[0]].push_back(obstacle[1]);
-      yObstacles[obstacle[1]].push_back(obstacle[0]);
+      hasObstacles.insert({obstacle[0], obstacle[1]});
     }
 
-    for (auto& it : xObstacles) std::sort(it.second.begin(), it.second.end());
-    for (auto& it : yObstacles) std::sort(it.second.begin(), it.second.end());
-
-    int x{0}, y{0};
-    Direction dir{Direction::North};
+    std::tuple<int, int> pos{0, 0};
+    int dir{0};
 
     int maxDistance{0};
     for (const auto command : commands) {
-      if (command > 0) {
-        switch (dir) {
-          case Direction::North:
-          case Direction::South: {
-            const auto obstaclesIt = xObstacles.find(x);
-            if (obstaclesIt == xObstacles.end()) {
-              y += dir == Direction::North ? command : -command;
+      switch (command) {
+        case -2:
+          dir = (dir + 3) % 4;
+          break;
+
+        case -1:
+          dir = (dir + 1) % 4;
+          break;
+
+        default:
+          for (int i{0}; i < command; ++i) {
+            switch (dir) {
+              case 0:
+                ++std::get<1>(pos);
+                break;
+
+              case 1:
+                ++std::get<0>(pos);
+                break;
+
+              case 2:
+                --std::get<1>(pos);
+                break;
+
+              case 3:
+                --std::get<0>(pos);
+                break;
+            }
+
+            if (hasObstacles.contains(pos)) {
+              switch (dir) {
+                case 0:
+                  --std::get<1>(pos);
+                  break;
+
+                case 1:
+                  --std::get<0>(pos);
+                  break;
+
+                case 2:
+                  ++std::get<1>(pos);
+                  break;
+
+                case 3:
+                  ++std::get<0>(pos);
+                  break;
+              }
               break;
             }
 
-            if (dir == Direction::North) {
-              const auto obstacleIt = std::upper_bound(
-                  obstaclesIt->second.begin(), obstaclesIt->second.end(), y);
-              if (obstacleIt == obstaclesIt->second.end()) {
-                y += command;
-              } else {
-                y = std::min(*obstacleIt - 1, y + command);
-              }
-            } else {
-              const auto obstacleIt = std::upper_bound(
-                  obstaclesIt->second.rbegin(), obstaclesIt->second.rend(), y,
-                  std::greater<int>());
-              if (obstacleIt == obstaclesIt->second.rend()) {
-                y -= command;
-              } else {
-                y = std::max(*obstacleIt + 1, y - command);
-              }
-            }
-            break;
+            const int distance{
+                std::get<0>(pos) * std::get<0>(pos) +
+                std::get<1>(pos) * std::get<1>(pos)};
+
+            if (distance > maxDistance) maxDistance = distance;
           }
-
-          case Direction::West:
-          case Direction::East:
-            const auto obstaclesIt = yObstacles.find(y);
-            if (obstaclesIt == yObstacles.end()) {
-              x += dir == Direction::West ? -command : command;
-              break;
-            }
-
-            if (dir == Direction::West) {
-              const auto obstacleIt = std::upper_bound(
-                  obstaclesIt->second.rbegin(), obstaclesIt->second.rend(), x,
-                  std::greater<int>());
-              if (obstacleIt == obstaclesIt->second.rend()) {
-                x -= command;
-              } else {
-                x = std::max(*obstacleIt + 1, x - command);
-              }
-            } else {
-              const auto obstacleIt = std::upper_bound(
-                  obstaclesIt->second.begin(), obstaclesIt->second.end(), x);
-              if (obstacleIt == obstaclesIt->second.end()) {
-                x += command;
-              } else {
-                x = std::min(*obstacleIt - 1, x + command);
-              }
-            }
-            break;
-        }
-
-        maxDistance = std::max(maxDistance, x * x + y * y);
-      } else {
-        switch (dir) {
-          case Direction::North:
-            dir = command == -2 ? Direction::West : Direction::East;
-            break;
-
-          case Direction::East:
-            dir = command == -2 ? Direction::North : Direction::South;
-            break;
-
-          case Direction::South:
-            dir = command == -2 ? Direction::East : Direction::West;
-            break;
-
-          case Direction::West:
-            dir = command == -2 ? Direction::South : Direction::North;
-            break;
-        }
       }
     }
 
