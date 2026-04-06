@@ -1303,6 +1303,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3453. Separate Squares I](https://leetcode.com/problems/separate-squares-i/) | Medium | [C](./old-problems/3453/c/solution.c) [C++](./old-problems/3453/solution.cpp) |
 | [3461. Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | Easy | [C](./old-problems/3461/c/solution.c) [C++](./old-problems/3461/solution.cpp) |
 | [3467. Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | Easy | [C](./old-problems/3467/c/solution.c) [C++](./old-problems/3467/solution.cpp) |
+| [3474. Lexicographically Smallest Generated String](https://leetcode.com/problems/lexicographically-smallest-generated-string/) | Hard | [C++](./old-problems/3474/solution.cpp) |
 | [3477. Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/description/) | Easy | [C](./old-problems/3477/c/solution.c) [C++](./old-problems/3477/solution.cpp) |
 | [3483. Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | Easy | [C](./old-problems/3483/c/solution.c) [C++](./old-problems/3483/solution.cpp) |
 | [3484. Design Spreadsheet](https://leetcode.com/problems/design-spreadsheet/) | Medium | [C++](./old-problems/3484/solution.cpp) |
