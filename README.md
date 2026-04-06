@@ -804,6 +804,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1865. Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/) | Medium | [C++](./old-problems/1865/solution.cpp) |
 | [1876. Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters) | Easy | [C](./old-problems/1876/c/solution.c) [C++](./old-problems/1876/solution.cpp) |
 | [1877. Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | Medium | [C++](./old-problems/1877/c/solution.c) [C++](./old-problems/1877/solution.cpp) |
+| [1878. Get Biggest Three Rhombus Sums in a Grid](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/) | Medium | [C++](./old-problems/1878/solution.cpp) |
 | [1880. Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/) | Easy | [C](./old-problems/1880/c/solution.c) [C++](./old-problems/1880/solution.cpp) |
 | [1884. Egg Drop With 2 Eggs and N Floors](https://leetcode.com/problems/egg-drop-with-2-eggs-and-n-floors/) | Medium | [C](./old-problems/1884/c/solution.c) [C++](./old-problems/1884/solution.cpp) |
 | [1887. Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/) | Medium | [C](./old-problems/1887/c/solution.c) [C++](./old-problems/1887/solution.cpp) |
