@@ -876,6 +876,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | Medium | [C++](./old-problems/2058/solution.cpp) |
 | [2062. Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string/) | Easy | [C](./old-problems/2062/c/solution.c) [C++](./old-problems/2062/solution.cpp) |
 | [2064. Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/) | Medium | [C](./old-problems/2064/c/solution.c) [C++](./old-problems/2064/solution.cpp) |
+| [2069. Walking Robot Simulation II](https://leetcode.com/problems/walking-robot-simulation-ii/) | Medium | [C++](./old-problems/2069/solution.cpp) |
 | [2070. Most Beautiful Item for Each Query](https://leetcode.com/problems/most-beautiful-item-for-each-query/) | Medium | [C](./old-problems/2070/c/solution.c) [C++](./old-problems/2070/solution.cpp) |
 | [2071. Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/) | Hard | [C](./old-problems/2071/c/solution.c) [C++](./old-problems/2071/solution.cpp) |
 | [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) | Easy | [C](./old-problems/2073/c/solution.c) [C++](./old-problems/2073/solution.cpp) |
