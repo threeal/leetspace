@@ -1,0 +1,21 @@
+name: 3857. Minimum Cost to Split into Ones
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: minCost
+
+test_cases:
+  example_1:
+    inputs:
+      n: 3
+    output: 3
+
+  example_2:
+    inputs:
+      n: 4
+    output: 6
