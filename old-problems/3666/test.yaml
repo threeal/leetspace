@@ -1,0 +1,30 @@
+name: 3666. Minimum Operations to Equalize Binary String
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: minOperations
+
+test_cases:
+  example_1:
+    inputs:
+      s: "110"
+      k: 1
+    output: 1
+
+  example_2:
+    inputs:
+      s: "0101"
+      k: 3
+    output: 2
+
+  example_3:
+    inputs:
+      s: "101"
+      k: 2
+    output: -1
