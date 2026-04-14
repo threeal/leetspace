@@ -1366,7 +1366,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3823. Reverse Letters Then Special Characters in a String](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/) | Easy | [C](./old-problems/3823/c/solution.c) [C++](./old-problems/3823/solution.cpp) |
 | [3857. Minimum Cost to Split into Ones](https://leetcode.com/problems/minimum-cost-to-split-into-ones/) | Medium | [C++](./old-problems/3857/solution.cpp) |
 | [3861. Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/) | Easy | [C](./old-problems/3861/c/solution.c) [C++](./old-problems/3861/solution.cpp) |
-| [3870. Count Commas in Range](https://leetcode.com/problems/count-commas-in-range/) | Easy | [C++](./old-problems/3870/solution.cpp) |
+| [3870. Count Commas in Range](https://leetcode.com/problems/count-commas-in-range/) | Easy | [C](./old-problems/3870/c/solution.c) [C++](./old-problems/3870/solution.cpp) |
 
 ## License
 
