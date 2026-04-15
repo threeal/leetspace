@@ -1,0 +1,21 @@
+name: 3309. Maximum Possible Number by Binary Concatenation
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maxGoodNumber
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3]
+    output: 30
+
+  example_2:
+    inputs:
+      nums: [2, 8, 16]
+    output: 1296
