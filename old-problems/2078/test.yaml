@@ -1,0 +1,26 @@
+name: 2078. Two Furthest Houses With Different Colors
+
+types:
+  inputs:
+    colors: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maxDistance
+
+test_cases:
+  example_1:
+    inputs:
+      colors: [1, 1, 1, 6, 1, 1, 1]
+    output: 3
+
+  example_2:
+    inputs:
+      colors: [1, 8, 3, 8, 3]
+    output: 4
+
+  example_3:
+    inputs:
+      colors: [0, 1]
+    output: 1
