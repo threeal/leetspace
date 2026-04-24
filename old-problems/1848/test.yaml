@@ -1,0 +1,34 @@
+name: 1848. Minimum Distance to the Target Element
+
+types:
+  inputs:
+    nums: std::vector<int>
+    target: int
+    start: int
+  output: int
+
+solutions:
+  cpp:
+    function: getMinDistance
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3, 4, 5]
+      target: 5
+      start: 3
+    output: 1
+
+  example_2:
+    inputs:
+      nums: [1]
+      target: 1
+      start: 0
+    output: 0
+
+  example_3:
+    inputs:
+      nums: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+      target: 1
+      start: 0
+    output: 0
