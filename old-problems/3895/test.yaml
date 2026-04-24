@@ -1,0 +1,24 @@
+name: 3895. Count Digit Appearances
+
+types:
+  inputs:
+    nums: std::vector<int>
+    digit: int
+  output: int
+
+solutions:
+  cpp:
+    function: countDigitOccurrences
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [12,54,32,22]
+      digit: 2
+    output: 4
+
+  example_2:
+    inputs:
+      nums: [1,34,7]
+      digit: 9
+    output: 0
