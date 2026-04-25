@@ -1047,6 +1047,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2503. Maximum Number of Points From Grid Queries](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/) | Hard | [C](./old-problems/2503/c/solution.c) [C++](./old-problems/2503/solution.cpp) |
 | [2506. Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/) | Easy | [C++](./old-problems/2506/solution.cpp) |
 | [2511. Maximum Enemy Forts That Can Be Captured](https://leetcode.com/problems/maximum-enemy-forts-that-can-be-captured/) | Easy | [C](./old-problems/2511/c/solution.c) [C++](./old-problems/2511/solution.cpp) |
+| [2515. Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/) | Easy | [C++](./old-problems/2515/solution.cpp) |
 | [2516. Take K of Each Character From Left and Right](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/) | Medium | [C++](./old-problems/2516/solution.cpp) |
 | [2517. Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/) | Medium | [C](./old-problems/2517/c/solution.c) [C++](./old-problems/2517/solution.cpp) |
 | [2520. Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/) | Easy | [C](./old-problems/2520/c/solution.c) [C++](./old-problems/2520/solution.cpp) |
