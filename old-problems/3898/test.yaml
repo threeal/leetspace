@@ -1,0 +1,26 @@
+name: 3898. Find the Degree of Each Vertex
+
+types:
+  inputs:
+    matrix: std::vector<std::vector<int>>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: findDegrees
+
+test_cases:
+  example_1:
+    inputs:
+      matrix: [[0,1,1],[1,0,1],[1,1,0]]
+    output: [2,2,2]
+
+  example_2:
+    inputs:
+      matrix: [[0,1,0],[1,0,0],[0,0,0]]
+    output: [1,1,0]
+
+  example_3:
+    inputs:
+      matrix: [[0]]
+    output: [0]
