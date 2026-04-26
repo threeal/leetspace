@@ -1266,7 +1266,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3300. Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | Easy | [C++](./old-problems/3300/solution.cpp) |
 | [3304. Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | Easy | [C](./old-problems/3304/c/solution.c) [C++](./old-problems/3304/solution.cpp) |
 | [3307. Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/) | Hard | [C](./old-problems/3307/c/solution.c) [C++](./old-problems/3307/solution.cpp) |
-| [3309. Maximum Possible Number by Binary Concatenation](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation/) | Medium | [C++](./old-problems/3309/solution.cpp) |
+| [3309. Maximum Possible Number by Binary Concatenation](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation/) | Medium | [C](./old-problems/3309/c/solution.c) [C++](./old-problems/3309/solution.cpp) |
 | [3314. Construct the Minimum Bitwise Array I](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/) | Easy | [C](./old-problems/3314/c/solution.c) [C++](./old-problems/3314/solution.cpp) |
 | [3315. Construct the Minimum Bitwise Array II](https://leetcode.com/problems/construct-the-minimum-bitwise-array-ii/) | Easy | [C](./old-problems/3315/c/solution.c) [C++](./old-problems/3315/solution.cpp) |
 | [3318. Find X-Sum of All K-Long Subarrays I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/) | Easy | [C](./old-problems/3318/c/solution.c) [C++](./old-problems/3318/solution.cpp) |
