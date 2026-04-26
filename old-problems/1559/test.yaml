@@ -1,0 +1,37 @@
+name: 1559. Detect Cycles in 2D Grid
+
+types:
+  inputs:
+    grid: std::vector<std::vector<char>>
+  output: bool
+
+solutions:
+  cpp:
+    function: containsCycle
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [97, 97, 97, 97]
+        - [97, 98, 98, 97]
+        - [97, 98, 98, 97]
+        - [97, 97, 97, 97]
+    output: true
+
+  example_2:
+    inputs:
+      grid:
+        - [99, 99, 99, 97]
+        - [99, 100, 99, 99]
+        - [99, 99, 101, 99]
+        - [102, 99, 99, 99]
+    output: true
+
+  example_3:
+    inputs:
+      grid:
+        - [97, 98, 98]
+        - [98, 122, 98]
+        - [98, 98, 97]
+    output: false
