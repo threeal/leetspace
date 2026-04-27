@@ -881,7 +881,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2070. Most Beautiful Item for Each Query](https://leetcode.com/problems/most-beautiful-item-for-each-query/) | Medium | [C](./old-problems/2070/c/solution.c) [C++](./old-problems/2070/solution.cpp) |
 | [2071. Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/) | Hard | [C](./old-problems/2071/c/solution.c) [C++](./old-problems/2071/solution.cpp) |
 | [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) | Easy | [C](./old-problems/2073/c/solution.c) [C++](./old-problems/2073/solution.cpp) |
-| [2078. Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) | Easy | [C++](./old-problems/2078/solution.cpp) |
+| [2078. Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) | Easy | [C](./old-problems/2078/c/solution.c) [C++](./old-problems/2078/solution.cpp) |
 | [2079. Watering Plants](https://leetcode.com/problems/watering-plants/) | Medium | [C](./old-problems/2079/c/solution.c) [C++](./old-problems/2079/solution.cpp) |
 | [2081. Sum of k-Mirror Numbers](https://leetcode.com/problems/sum-of-k-mirror-numbers/) | Hard | [C](./old-problems/2081/c/solution.c) [C++](./old-problems/2081/solution.cpp) |
 | [2085. Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/) | Easy | [C++](./problems/2085/solution.cpp) |
