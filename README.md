@@ -1092,6 +1092,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2601. Prime Subtraction Operation](https://leetcode.com/problems/prime-subtraction-operation/) | Medium | [C](./old-problems/2601/c/solution.c) [C++](./old-problems/2601/solution.cpp) |
 | [2605. Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | Easy | [C](./old-problems/2605/c/solution.c) [C++](./old-problems/2605/solution.cpp) |
 | [2610. Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions) | Medium | [C++](./problems/2610/solution.cpp) |
+| [2615. Sum of Distances](https://leetcode.com/problems/sum-of-distances/) | Medium | [C++](./old-problems/2615/solution.cpp) |
 | [2616. Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/) | Medium | [C](./old-problems/2616/c/solution.c) [C++](./old-problems/2616/solution.cpp) |
 | [2639. Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/) | Easy | [C](./old-problems/2639/c/solution.c) [C++](./old-problems/2639/solution.cpp) |
 | [2640. Find the Score of All Prefixes of an Array](https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array/) | Medium | [C](./old-problems/2640/c/solution.c) [C++](./old-problems/2640/solution.cpp) |

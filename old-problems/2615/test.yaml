@@ -1,0 +1,21 @@
+name: 2615. Sum of Distances
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: std::vector<long long>
+
+solutions:
+  cpp:
+    function: distance
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 3, 1, 1, 2]
+    output: [5, 0, 3, 4, 0]
+
+  example_2:
+    inputs:
+      nums: [0, 5, 3]
+    output: [0, 0, 0]
