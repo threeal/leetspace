@@ -1143,6 +1143,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2825. Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/) | Medium | [C](./old-problems/2825/c/solution.c) [C++](./old-problems/2825/solution.cpp) |
 | [2828. Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/) | Easy | [C++](./old-problems/2828/solution.cpp) |
 | [2839. Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | Easy | [C](./old-problems/2839/c/solution.c) [C++](./old-problems/2839/solution.cpp) |
+| [2840. Check if Strings Can be Made Equal With Operations II](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/) | Medium | [C++](./old-problems/2840/solution.cpp) |
 | [2843. Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | Easy | [C](./old-problems/2843/c/solution.c) [C++](./old-problems/2843/solution.cpp) |
 | [2848. Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/) | Easy | [C](./old-problems/2848/c/solution.c) [C++](./old-problems/2848/solution.cpp) |
 | [2845. Count of Interesting Subarrays](https://leetcode.com/problems/count-of-interesting-subarrays/) | Medium | [C++](./problems/2845/solution.cpp) |
