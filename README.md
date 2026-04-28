@@ -1375,6 +1375,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3857. Minimum Cost to Split into Ones](https://leetcode.com/problems/minimum-cost-to-split-into-ones/) | Medium | [C](./old-problems/3857/c/solution.c) [C++](./old-problems/3857/solution.cpp) |
 | [3861. Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/) | Easy | [C](./old-problems/3861/c/solution.c) [C++](./old-problems/3861/solution.cpp) |
 | [3870. Count Commas in Range](https://leetcode.com/problems/count-commas-in-range/) | Easy | [C](./old-problems/3870/c/solution.c) [C++](./old-problems/3870/solution.cpp) |
+| [3894. Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/) | Easy | [C++](./old-problems/3894/solution.cpp) |
 
 ## License
 
