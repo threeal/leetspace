@@ -1299,6 +1299,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3402. Minimum Operations to Make Columns Strictly Increasing](https://leetcode.com/problems/minimum-operations-to-make-columns-strictly-increasing/) | Easy | [C](./old-problems/3402/c/solution.c) [C++](./old-problems/3402/solution.cpp) |
 | [3403. Find the Lexicographically Largest String From the Box I](https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i/) | Medium | [C](./old-problems/3403/c/solution.c) [C++](./old-problems/3403/solution.cpp) |
 | [3408. Design Task Manager](https://leetcode.com/problems/design-task-manager/) | Medium | [C++](./old-problems/3408/solution.cpp) |
+| [3418. Maximum Amount of Money Robot Can Earn](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/) | Medium | [C++](./old-problems/3418/solution.cpp) |
 | [3423. Maximum Difference Between Adjacent Elements in a Circular Array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array/) | Easy | [C](./old-problems/3423/c/solution.c) [C++](./old-problems/3423/solution.cpp) |
 | [3427. Sum of Variable Length Subarrays](https://leetcode.com/problems/sum-of-variable-length-subarrays/) | Easy | [C](./old-problems/3427/c/solution.c) [C++](./old-problems/3427/solution.cpp) |
 | [3432. Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | Easy | [C](./old-problems/3432/c/solution.c) [C++](./old-problems/3432/solution.cpp) |
