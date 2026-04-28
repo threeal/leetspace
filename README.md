@@ -687,6 +687,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1530. Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | Medium | [C++](./old-problems/1530/solution.cpp) |
 | [1534. Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | Easy | [C](./old-problems/1534/c/solution.c) [C++](./old-problems/1534/solution.cpp) |
 | [1535. Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game) | Medium | [C](./old-problems/1535/c/solution.c) [C++](./old-problems/1535/solution.cpp) |
+| [1536. Minimum Swaps to Arrange a Binary Grid](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/) | Medium | [C++](./old-problems/1536/solution.cpp) |
 | [1544. Make The String Great](https://leetcode.com/problems/make-the-string-great/) | Easy | [C](./old-problems/1544/c/solution.c) [C++](./old-problems/1544/solution.cpp) |
 | [1545. Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | Medium | [C](./old-problems/1545/c/solution.c) [C++](./old-problems/1545/solution.cpp) |
 | [1550. Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) | Easy | [C](./old-problems/1550/c/solution.c) [C++](./old-problems/1550/solution.cpp) |
