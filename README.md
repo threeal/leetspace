@@ -1331,6 +1331,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3541. Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | Easy | [C](./old-problems/3541/c/solution.c) [C++](./old-problems/3541/solution.cpp) |
 | [3542. Minimum Operations to Convert All Elements to Zero](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero/) | Medium | [C](./old-problems/3542/c/solution.c) [C++](./old-problems/3542/solution.cpp) |
 | [3545. Minimum Deletions for At Most K Distinct Characters](https://leetcode.com/problems/minimum-deletions-for-at-most-k-distinct-characters/) | Easy | [C](./old-problems/3545/c/solution.c) [C++](./old-problems/3545/solution.cpp) |
+| [3548. Equal Sum Grid Partition II](https://leetcode.com/problems/equal-sum-grid-partition-ii/) | Hard | [C++](./old-problems/3548/solution.cpp) |
 | [3550. Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | Easy | [C](./old-problems/3550/c/solution.c) [C++](./old-problems/3550/solution.cpp) |
 | [3573. Best Time to Buy and Sell Stock V](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-v/) | Medium | [C](./old-problems/3573/c/solution.c) [C++](./old-problems/3573/solution.cpp) |
 | [3577. Count the Number of Computer Unlocking Permutations](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/) | Medium | [C](./old-problems/3577/c/solution.c) [C++](./old-problems/3577/solution.cpp) |
