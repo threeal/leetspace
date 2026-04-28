@@ -1345,6 +1345,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3648. Minimum Sensors to Cover Grid](https://leetcode.com/problems/minimum-sensors-to-cover-grid/) | Medium | [C](./old-problems/3648/c/solution.c) [C++](./old-problems/3648/solution.cpp) |
 | [3652. Best Time to Buy and Sell Stock using Strategy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/) | Medium | [C](./old-problems/3652/c/solution.c) [C++](./old-problems/3652/solution.cpp) |
 | [3653. XOR After Range Multiplication Queries I](https://leetcode.com/problems/xor-after-range-multiplication-queries-i/) | Medium | [C](./old-problems/3653/c/solution.c) [C++](./old-problems/3653/solution.cpp) |
+| [3655. XOR After Range Multiplication Queries II](https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/) | Medium | [C++](./old-problems/3655/solution.cpp) |
 | [3658. GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | Easy | [C](./old-problems/3658/c/solution.c) [C++](./old-problems/3658/solution.cpp) |
 | [3663. Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | Easy | [C](./old-problems/3663/c/solution.c) [C++](./old-problems/3663/solution.cpp) |
 | [3666. Minimum Operations to Equalize Binary String](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/) | Hard | [C](./old-problems/3666/c/solution.c) [C++](./old-problems/3666/solution.cpp) |
