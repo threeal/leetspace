@@ -1,0 +1,24 @@
+name: 756. Pyramid Transition Matrix
+
+types:
+  inputs:
+    bottom: std::string
+    allowed: std::vector<std::string>
+  output: bool
+
+solutions:
+  cpp:
+    function: pyramidTransition
+
+test_cases:
+  example_1:
+    inputs:
+      bottom: BCD
+      allowed: [BCC, CDE, CEA, FFF]
+    output: true
+
+  example_2:
+    inputs:
+      bottom: AAAA
+      allowed: [AAB, AAC, BCD, BBE, DEF]
+    output: false
