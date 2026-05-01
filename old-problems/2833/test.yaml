@@ -1,0 +1,26 @@
+name: 2833. Furthest Point From Origin
+
+types:
+  inputs:
+    moves: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: furthestDistanceFromOrigin
+
+test_cases:
+  example_1:
+    inputs:
+      moves: L_RL__R
+    output: 3
+
+  example_2:
+    inputs:
+      moves: _R__LL_
+    output: 5
+
+  example_3:
+    inputs:
+      moves: _______
+    output: 7
