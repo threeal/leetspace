@@ -372,7 +372,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [784. Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | Medium | [C](./old-problems/0784/c/solution.c) [C++](./old-problems/0784/solution.cpp) |
 | [786. K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | Medium | [C](./old-problems/0786/c/solution.c) [C++](./old-problems/0786/solution.cpp) |
 | [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | Medium | [C](./old-problems/0787/c/solution.c) [C++](./old-problems/0787/solution.cpp) |
-| [788. Rotated Digits](https://leetcode.com/problems/rotated-digits/) | Medium | [C++](./old-problems/0788/solution.cpp) |
+| [788. Rotated Digits](https://leetcode.com/problems/rotated-digits/) | Medium | [C](./old-problems/0788/c/solution.c) [C++](./old-problems/0788/solution.cpp) |
 | [790. Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/) | Medium | [C](./old-problems/0790/c/solution.c) [C++](./old-problems/0790/solution.cpp) |
 | [791. Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | Medium | [C](./old-problems/0791/c/solution.c) [C++](./old-problems/0791/solution.cpp) |
 | [796. Rotate String](https://leetcode.com/problems/rotate-string/) | Easy | [C](./old-problems/0796/c/solution.c) [C++](./old-problems/0796/solution.cpp) |
