@@ -24,3 +24,8 @@ test_cases:
     inputs:
       n: 2
     output: 1
+
+  test_case_10:
+    inputs:
+      n: 857
+    output: 247
