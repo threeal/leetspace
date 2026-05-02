@@ -1,0 +1,21 @@
+name: 3894. Traffic Signal Color
+
+types:
+  inputs:
+    n: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: trafficSignal
+
+test_cases:
+  example_1:
+    inputs:
+      n: 60
+    output: Red
+
+  example_2:
+    inputs:
+      n: 5
+    output: Invalid
