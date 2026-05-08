@@ -1,0 +1,26 @@
+name: 3629. Minimum Jumps to Reach End via Prime Teleportation
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minJumps
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1,2,4,6]
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [2,3,4,7,9]
+    output: 2
+
+  example_3:
+    inputs:
+      nums: [4,6,5,8]
+    output: 3
