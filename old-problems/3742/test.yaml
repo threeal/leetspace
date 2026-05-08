@@ -26,3 +26,12 @@ test_cases:
         - [1, 2]
       k: 1
     output: -1
+
+  test_case_150:
+    inputs:
+      grid:
+        - [0, 2, 2]
+        - [1, 1, 1]
+        - [0, 0, 2]
+      k: 3
+    output: 5
