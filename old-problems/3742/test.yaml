@@ -1,0 +1,37 @@
+name: 3742. Maximum Path Score in a Grid
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: maxPathScore
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [0, 1]
+        - [2, 0]
+      k: 1
+    output: 2
+
+  example_2:
+    inputs:
+      grid:
+        - [0, 1]
+        - [1, 2]
+      k: 1
+    output: -1
+
+  test_case_150:
+    inputs:
+      grid:
+        - [0, 2, 2]
+        - [1, 1, 1]
+        - [0, 0, 2]
+      k: 3
+    output: 5
