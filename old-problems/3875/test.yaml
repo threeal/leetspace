@@ -1,0 +1,21 @@
+name: 3875. Construct Uniform Parity Array I
+
+types:
+  inputs:
+    nums1: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: uniformArray
+
+test_cases:
+  example_1:
+    inputs:
+      nums1: [2, 3]
+    output: true
+
+  example_2:
+    inputs:
+      nums1: [4, 6]
+    output: true
