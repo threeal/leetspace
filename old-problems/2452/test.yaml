@@ -1,0 +1,24 @@
+name: 2452. Words Within Two Edits of Dictionary
+
+types:
+  inputs:
+    queries: std::vector<std::string>
+    dictionary: std::vector<std::string>
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: twoEditWords
+
+test_cases:
+  example_1:
+    inputs:
+      queries: [word, note, ants, wood]
+      dictionary: [wood, joke, moat]
+    output: [word, note, wood]
+
+  example_2:
+    inputs:
+      queries: ["yes"]
+      dictionary: ["not"]
+    output: []
