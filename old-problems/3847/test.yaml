@@ -1,0 +1,26 @@
+name: 3847. Find the Score Difference in a Game
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: scoreDifference
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3]
+    output: 0
+
+  example_2:
+    inputs:
+      nums: [2, 4, 2, 1, 2, 1]
+    output: 4
+
+  example_3:
+    inputs:
+      nums: [1]
+    output: -1
