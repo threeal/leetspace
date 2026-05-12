@@ -4,15 +4,9 @@ updates:
     directory: /
     schedule:
       interval: daily
-    commit-message:
-      prefix: chore
-    labels: []
 
   - package-ecosystem: pip
     directory: /internal/python
     schedule:
       interval: daily
-    commit-message:
-      prefix: chore
-    labels: []
     versioning-strategy: increase
