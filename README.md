@@ -1137,6 +1137,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2778. Sum of Squares of Special Elements](https://leetcode.com/problems/sum-of-squares-of-special-elements/) | Easy | [C](./old-problems/2778/c/solution.c) [C++](./old-problems/2778/solution.cpp) |
 | [2779. Maximum Beauty of an Array After Applying Operation](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/) | Medium | [C](./old-problems/2779/c/solution.c) [C++](./old-problems/2779/solution.cpp) |
 | [2780. Minimum Index of a Valid Split](https://leetcode.com/problems/minimum-index-of-a-valid-split/description/) | Medium | [C](./old-problems/2780/c/solution.c) [C++](./old-problems/2780/solution.cpp) |
+| [2784. Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good/) | Medium | [C++](./old-problems/2784/solution.cpp) |
 | [2785. Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string) | Medium | [C](./old-problems/2785/c/solution.c) [C++](./old-problems/2785/solution.cpp) |
 | [2788. Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/) | Easy | [C](./old-problems/2788/c/solution.c) [C++](./old-problems/2788/solution.cpp) |
 | [2798. Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/) | Easy | [C](./old-problems/2798/c/solution.c) [C++](./old-problems/2798/solution.cpp) |
