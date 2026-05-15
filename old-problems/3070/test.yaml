@@ -1,0 +1,29 @@
+name: 3070. Count Submatrices with Top-Left Element and Sum Less Than k
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: countSubmatrices
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [7, 6, 3]
+        - [6, 6, 1]
+      k: 18
+    output: 4
+
+  example_2:
+    inputs:
+      grid:
+        - [7, 2, 9]
+        - [1, 5, 0]
+        - [2, 6, 6]
+      k: 20
+    output: 6
