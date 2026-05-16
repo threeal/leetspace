@@ -19,3 +19,8 @@ test_cases:
     inputs:
       nums: [2, 2, 2, 0, 1]
     output: 0
+
+  test_case_178:
+    inputs:
+      nums: [10, 1, 10, 10, 10]
+    output: 1
