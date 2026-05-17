@@ -1,0 +1,26 @@
+name: 1664. Ways to Make a Fair Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: waysToMakeFair
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 1, 6, 4]
+    output: 1
+
+  example_2:
+    inputs:
+      nums: [1, 1, 1]
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [1, 2, 3]
+    output: 0
