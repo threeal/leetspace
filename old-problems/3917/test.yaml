@@ -1,0 +1,21 @@
+name: 3917. Count Indices With Opposite Parity
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: countOppositeParity
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3, 4]
+    output: [2, 1, 1, 0]
+
+  example_2:
+    inputs:
+      nums: [1]
+    output: [0]
