@@ -601,6 +601,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1338. Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/) | Medium | [C](./old-problems/1338/c/solution.c) [C++](./old-problems/1338/solution.cpp) |
 | [1342. Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | Easy | [C](./old-problems/1342/c/solution.c) [C++](./old-problems/1342/solution.cpp) |
 | [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | Medium | [C](./old-problems/1343/c/solution.c) [C++](./old-problems/1343/solution.cpp) |
+| [1345. Jump Game IV](https://leetcode.com/problems/jump-game-iv/) | Hard | [C++](./old-problems/1345/solution.cpp) |
 | [1346. Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | Easy | [C++](./old-problems/1346/solution.cpp) |
 | [1347. Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | Medium | [C](./old-problems/1347/c/solution.c) [C++](./old-problems/1347/solution.cpp) |
 | [1348. Tweet Counts Per Frequency](https://leetcode.com/problems/tweet-counts-per-frequency/) | Medium | [C++](./old-problems/1348/solution.cpp) |
