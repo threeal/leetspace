@@ -1,0 +1,24 @@
+name: 3904. Smallest Stable Index II
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: firstStableIndex
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [5, 0, 1, 4]
+      k: 3
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [3, 2, 1]
+      k: 1
+    output: -1

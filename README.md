@@ -1397,6 +1397,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3875. Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/) | Easy | [C++](./old-problems/3875/solution.cpp) |
 | [3894. Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/) | Easy | [C](./old-problems/3894/c/solution.c) [C++](./old-problems/3894/solution.cpp) |
 | [3898. Find the Degree of Each Vertex](https://leetcode.com/problems/find-the-degree-of-each-vertex/) | Easy | [C](./old-problems/3898/c/solution.c) [C++](./old-problems/3898/solution.cpp) |
+| [3904. Smallest Stable Index II](https://leetcode.com/problems/smallest-stable-index-ii/) | Medium | [C++](./old-problems/3904/solution.cpp) |
 | [3917. Count Indices With Opposite Parity](https://leetcode.com/problems/count-indices-with-opposite-parity/) | Easy | [C++](./old-problems/3917/solution.cpp) |
 
 ## License
