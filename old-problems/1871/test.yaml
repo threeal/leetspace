@@ -25,3 +25,10 @@ test_cases:
       minJump: 2
       maxJump: 3
     output: false
+
+  test_case_134:
+    inputs:
+      s: "01"
+      minJump: 1
+      maxJump: 1
+    output: false
