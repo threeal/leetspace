@@ -1,0 +1,26 @@
+name: 1312. Minimum Insertion Steps to Make a String Palindrome
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minInsertions
+
+test_cases:
+  example_1:
+    inputs:
+      s: zzazz
+    output: 0
+
+  example_2:
+    inputs:
+      s: mbadm
+    output: 2
+
+  example_3:
+    inputs:
+      s: leetcode
+    output: 5
