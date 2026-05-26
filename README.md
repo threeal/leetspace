@@ -1400,6 +1400,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3898. Find the Degree of Each Vertex](https://leetcode.com/problems/find-the-degree-of-each-vertex/) | Easy | [C](./old-problems/3898/c/solution.c) [C++](./old-problems/3898/solution.cpp) |
 | [3904. Smallest Stable Index II](https://leetcode.com/problems/smallest-stable-index-ii/) | Medium | [C++](./old-problems/3904/solution.cpp) |
 | [3917. Count Indices With Opposite Parity](https://leetcode.com/problems/count-indices-with-opposite-parity/) | Easy | [C++](./old-problems/3917/solution.cpp) |
+| [3918. Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | Medium | [C++](./old-problems/3918/solution.cpp) |
 
 ## License
 
