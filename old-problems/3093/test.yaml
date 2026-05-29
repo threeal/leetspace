@@ -23,3 +23,9 @@ test_cases:
       wordsContainer: [abcdefgh, poiuygh, ghghgh]
       wordsQuery: [gh, acbfgh, acbfegh]
     output: [2, 0, 2]
+
+  test_case_431:
+    inputs:
+      wordsContainer: [akfgaffgkg, fagagu, fuagkkkfu]
+      wordsQuery: [gagffu, fgufkukauf, fafgggk, gkggufuag]
+    output: [2, 1, 1, 0]
