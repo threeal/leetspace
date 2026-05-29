@@ -1281,7 +1281,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3280. Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | Easy | [C](./old-problems/3280/c/solution.c) [C++](./old-problems/3280/solution.cpp) |
 | [3285. Find Indices of Stable Mountains](https://leetcode.com/problems/find-indices-of-stable-mountains/) | Easy | [C](./old-problems/3285/c/solution.c) [C++](./old-problems/3285/solution.cpp) |
 | [3289. The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | Easy | [C](./old-problems/3289/c/solution.c) [C++](./old-problems/3289/solution.cpp) |
-| [3300. Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | Easy | [C++](./old-problems/3300/solution.cpp) |
+| [3300. Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | Easy | [C](./old-problems/3300/c/solution.c) [C++](./old-problems/3300/solution.cpp) |
 | [3304. Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | Easy | [C](./old-problems/3304/c/solution.c) [C++](./old-problems/3304/solution.cpp) |
 | [3307. Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii/) | Hard | [C](./old-problems/3307/c/solution.c) [C++](./old-problems/3307/solution.cpp) |
 | [3309. Maximum Possible Number by Binary Concatenation](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation/) | Medium | [C](./old-problems/3309/c/solution.c) [C++](./old-problems/3309/solution.cpp) |
