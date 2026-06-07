@@ -1407,6 +1407,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3904. Smallest Stable Index II](https://leetcode.com/problems/smallest-stable-index-ii/) | Medium | [C](./old-problems/3904/c/solution.c) [C++](./old-problems/3904/solution.cpp) |
 | [3917. Count Indices With Opposite Parity](https://leetcode.com/problems/count-indices-with-opposite-parity/) | Easy | [C](./old-problems/3917/c/solution.c) [C++](./old-problems/3917/solution.cpp) |
 | [3918. Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | Medium | [C++](./old-problems/3918/solution.cpp) |
+| [3931. Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | Easy | [C++](./old-problems/3931/solution.cpp) |
 
 ## License
 
