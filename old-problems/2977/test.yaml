@@ -1,0 +1,42 @@
+name: 2977. Minimum Cost to Convert String II
+
+types:
+  inputs:
+    source: std::string
+    target: std::string
+    original: std::vector<std::string>
+    changed: std::vector<std::string>
+    cost: std::vector<int>
+  output: long long
+
+solutions:
+  cpp:
+    function: minimumCost
+
+test_cases:
+  example_1:
+    inputs:
+      source: abcd
+      target: acbe
+      original: [a, b, c, c, e, d]
+      changed: [b, c, b, e, b, e]
+      cost: [2, 5, 5, 1, 2, 20]
+    output: 28
+
+  example_2:
+    inputs:
+      source: abcdefgh
+      target: acdeeghh
+      original: [bcd, fgh, thh]
+      changed: [cde, thh, ghh]
+      cost: [1, 3, 5]
+    output: 9
+
+  example_3:
+    inputs:
+      source: abcdefgh
+      target: addddddd
+      original: [bcd, defgh]
+      changed: [ddd, ddddd]
+      cost: [100, 1578]
+    output: -1
