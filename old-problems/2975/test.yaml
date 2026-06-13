@@ -1,0 +1,30 @@
+name: 2975. Maximum Square Area by Removing Fences From a Field
+
+types:
+  inputs:
+    m: int
+    n: int
+    hFences: std::vector<int>
+    vFences: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maximizeSquareArea
+
+test_cases:
+  example_1:
+    inputs:
+      m: 4
+      n: 3
+      hFences: [2, 3]
+      vFences: [2]
+    output: 4
+
+  example_2:
+    inputs:
+      m: 6
+      n: 7
+      hFences: [2]
+      vFences: [4]
+    output: -1
