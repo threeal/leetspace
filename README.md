@@ -1247,6 +1247,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3158. Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/) | Easy | [C](./old-problems/3158/c/solution.c) [C++](./old-problems/3158/solution.cpp) |
 | [3159. Find Occurrences of an Element in an Array](https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array/) | Medium | [C](./old-problems/3159/c/solution.c) [C++](./old-problems/3159/solution.cpp) |
 | [3160. Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/) | Medium | [C++](./old-problems/3160/solution.cpp) |
+| [3161. Block Placement Queries](https://leetcode.com/problems/block-placement-queries/) | Hard | [C++](./old-problems/3161/solution.cpp) |
 | [3162. Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/) | Easy | [C](./old-problems/3162/c/solution.c) [C++](./old-problems/3162/solution.cpp) |
 | [3174. Clear Digits](https://leetcode.com/problems/clear-digits/) | Easy | [C](./old-problems/3174/c/solution.c) [C++](./old-problems/3174/solution.cpp) |
 | [3163. String Compression III](https://leetcode.com/problems/string-compression-iii/description/) | Medium | [C](./old-problems/3163/c/solution.c) [C++](./old-problems/3163/solution.cpp) |
