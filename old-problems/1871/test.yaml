@@ -1,0 +1,41 @@
+name: 1871. Jump Game VII
+
+types:
+  inputs:
+    s: std::string
+    minJump: int
+    maxJump: int
+  output: bool
+
+solutions:
+  cpp:
+    function: canReach
+
+test_cases:
+  example_1:
+    inputs:
+      s: "011010"
+      minJump: 2
+      maxJump: 3
+    output: true
+
+  example_2:
+    inputs:
+      s: "01101110"
+      minJump: 2
+      maxJump: 3
+    output: false
+
+  test_case_134:
+    inputs:
+      s: "01"
+      minJump: 1
+      maxJump: 1
+    output: false
+
+  test_case_136:
+    inputs:
+      s: "00111010"
+      minJump: 3
+      maxJump: 5
+    output: false

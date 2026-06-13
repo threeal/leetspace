@@ -816,6 +816,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1861. Rotating the Box](https://leetcode.com/problems/rotating-the-box/) | Medium | [C](./old-problems/1861/c/solution.c) [C++](./old-problems/1861/solution.cpp) |
 | [1863. Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | Easy | [C](./old-problems/1863/c/solution.c) [C++](./old-problems/1863/solution.cpp) |
 | [1865. Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/) | Medium | [C++](./old-problems/1865/solution.cpp) |
+| [1871. Jump Game VII](https://leetcode.com/problems/jump-game-vii/) | Medium | [C++](./old-problems/1871/solution.cpp) |
 | [1876. Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters) | Easy | [C](./old-problems/1876/c/solution.c) [C++](./old-problems/1876/solution.cpp) |
 | [1877. Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | Medium | [C++](./old-problems/1877/c/solution.c) [C++](./old-problems/1877/solution.cpp) |
 | [1880. Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/) | Easy | [C](./old-problems/1880/c/solution.c) [C++](./old-problems/1880/solution.cpp) |
