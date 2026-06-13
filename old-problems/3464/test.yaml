@@ -1,0 +1,34 @@
+name: 3464. Maximize the Distance Between Points on a Square
+
+types:
+  inputs:
+    side: int
+    points: std::vector<std::vector<int>>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: maxDistance
+
+test_cases:
+  example_1:
+    inputs:
+      side: 2
+      points: [[0, 2], [2, 0], [2, 2], [0, 0]]
+      k: 4
+    output: 2
+
+  example_2:
+    inputs:
+      side: 2
+      points: [[0, 0], [1, 2], [2, 0], [2, 2], [2, 1]]
+      k: 4
+    output: 1
+
+  example_3:
+    inputs:
+      side: 2
+      points: [[0, 0], [1, 2], [2, 0], [2, 2], [2, 1]]
+      k: 4
+    output: 1
