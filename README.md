@@ -1268,6 +1268,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3212. Count Submatrices With Equal Frequency of X and Y](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/) | Medium | [C](./old-problems/3212/c/solution.c) [C++](./old-problems/3212/solution.cpp) |
 | [3217. Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/) | Medium | [C++](./old-problems/3217/solution.cpp) |
 | [3223. Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/) | Medium | [C](./old-problems/3223/c/solution.c) [C++](./old-problems/3223/solution.cpp) |
+| [3225. Maximum Score From Grid Operations](https://leetcode.com/problems/maximum-score-from-grid-operations/) | Hard | [C++](./old-problems/3225/solution.cpp) |
 | [3227. Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/) | Medium | [C](./old-problems/3227/c/solution.c) [C++](./old-problems/3227/solution.cpp) |
 | [3228. Maximum Number of Operations to Move Ones to the End](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/) | Medium | [C](./old-problems/3228/c/solution.c) [C++](./old-problems/3228/solution.cpp) |
 | [3232. Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | Easy | [C](./old-problems/3232/c/solution.c) [C++](./old-problems/3232/solution.cpp) |
