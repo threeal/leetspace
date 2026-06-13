@@ -1,0 +1,24 @@
+name: 2840. Check if Strings Can be Made Equal With Operations II
+
+types:
+  inputs:
+    s1: std::string
+    s2: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: checkStrings
+
+test_cases:
+  example_1:
+    inputs:
+      s1: abcdba
+      s2: cabdab
+    output: true
+
+  example_2:
+    inputs:
+      s1: abe
+      s2: bea
+    output: false
