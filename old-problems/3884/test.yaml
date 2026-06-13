@@ -1,0 +1,26 @@
+name: 3884. First Matching Character From Both Ends
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: firstMatchingIndex
+
+test_cases:
+  example_1:
+    inputs:
+      s: abcacbd
+    output: 1
+
+  example_2:
+    inputs:
+      s: abc
+    output: 1
+
+  example_3:
+    inputs:
+      s: abcdab
+    output: -1
