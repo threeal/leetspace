@@ -1,0 +1,21 @@
+name: 1320. Minimum Distance to Type a Word Using Two Fingers
+
+types:
+  inputs:
+    word: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minimumDistance(
+
+test_cases:
+  example_1:
+    inputs:
+      word: CAKE
+    output: 3
+
+  example_2:
+    inputs:
+      word: HAPPY
+    output: 6
