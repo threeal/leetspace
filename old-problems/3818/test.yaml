@@ -1,0 +1,26 @@
+name: 3818. Minimum Prefix Removal to Make Array Strictly Increasing
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minimumPrefixLength
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, -1, 2, 3, 3, 4, 5]
+    output: 4
+
+  example_2:
+    inputs:
+      nums: [4, 3, -2, -5]
+    output: 3
+
+  example_3:
+    inputs:
+      nums: [1, 2, 3, 4]
+    output: 0
