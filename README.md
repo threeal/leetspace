@@ -811,6 +811,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1845. Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/) | Medium | [C++](./old-problems/1845/solution.cpp) |
 | [1846. Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging) | Medium | [C](./old-problems/1846/c/solution.c) [C++](./old-problems/1846/solution.cpp) |
 | [1848. Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | Easy | [C](./old-problems/1848/c/solution.c) [C++](./old-problems/1848/solution.cpp) |
+| [1855. Maximum Distance Between a Pair of Values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/) | Medium | [C++](./old-problems/1855/solution.cpp) |
 | [1859. Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/) | Easy | [C](./old-problems/1859/c/solution.c) [C++](./old-problems/1859/solution.cpp) |
 | [1860. Incremental Memory Leak](https://leetcode.com/problems/incremental-memory-leak/) | Medium | [C](./old-problems/1860/c/solution.c) [C++](./old-problems/1860/solution.cpp) |
 | [1861. Rotating the Box](https://leetcode.com/problems/rotating-the-box/) | Medium | [C](./old-problems/1861/c/solution.c) [C++](./old-problems/1861/solution.cpp) |
