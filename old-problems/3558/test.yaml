@@ -1,0 +1,21 @@
+name: 3558. Number of Ways to Assign Edge Weights I
+
+types:
+  inputs:
+    edges: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: assignEdgeWeights
+
+test_cases:
+  example_1:
+    inputs:
+      edges: [[1, 2]]
+    output: 1
+
+  example_2:
+    inputs:
+      edges: [[1, 2], [1, 3], [3, 4], [3, 5]]
+    output: 2
