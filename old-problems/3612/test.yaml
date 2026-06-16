@@ -19,3 +19,8 @@ test_cases:
     inputs:
       s: z*#
     output: ""
+
+  test_case_5:
+    inputs:
+      s: "*%"
+    output: ""
