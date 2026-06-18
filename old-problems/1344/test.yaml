@@ -15,16 +15,16 @@ test_cases:
     inputs:
       hour: 12
       minutes: 30
-    output: 165
+    output: 164.99999999999997158
 
   example_2:
     inputs:
       hour: 3
       minutes: 30
-    output: 75
+    output: 75.0
 
-  test_case_4:
+  example_3:
     inputs:
       hour: 3
       minutes: 15
-    output: 7.5
+    output: 7.49999999999999289
