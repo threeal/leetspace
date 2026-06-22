@@ -537,6 +537,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1170. Compare Strings by Frequency of the Smallest Character](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/) | Medium | [C++](./old-problems/1170/solution.cpp) |
 | [1175. Prime Arrangements](https://leetcode.com/problems/prime-arrangements/) | Easy | [C](./old-problems/1175/c/solution.c) [C++](./old-problems/1175/solution.cpp) |
 | [1184. Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops/) | Easy | [C](./old-problems/1184/c/solution.c) [C++](./old-problems/1184/solution.cpp) |
+| [1189. Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | Easy | [C++](./old-problems/1189/solution.cpp) |
 | [1190. Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | Medium | [C](./old-problems/1190/c/solution.c) [C++](./old-problems/1190/solution.cpp) |
 | [1195. Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/) | Medium | [C++](./old-problems/1195/solution.cpp) |
 | [1200. Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | Easy | [C](./old-problems/1200/c/solution.c) [C++](./old-problems/1200/solution.cpp) |
