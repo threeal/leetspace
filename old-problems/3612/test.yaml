@@ -1,0 +1,26 @@
+name: 3612. Process String with Special Operations I
+
+types:
+  inputs:
+    s: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: processStr
+
+test_cases:
+  example_1:
+    inputs:
+      s: a#b%*
+    output: ba
+
+  example_2:
+    inputs:
+      s: z*#
+    output: ""
+
+  test_case_5:
+    inputs:
+      s: "*%"
+    output: ""
