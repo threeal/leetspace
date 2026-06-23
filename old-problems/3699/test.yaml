@@ -25,3 +25,10 @@ test_cases:
       l: 1
       r: 3
     output: 10
+
+  test_case_240:
+    inputs:
+      n: 7
+      l: 8
+      r: 45
+    output: 257729443
