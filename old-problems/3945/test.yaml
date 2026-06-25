@@ -1,0 +1,21 @@
+name: 3945. Digit Frequency Score
+
+types:
+  inputs:
+    n: int
+  output: int
+
+solutions:
+  cpp:
+    function: digitFrequencyScore
+
+test_cases:
+  example_1:
+    inputs:
+      n: 122
+    output: 5
+
+  example_2:
+    inputs:
+      n: 101
+    output: 2
