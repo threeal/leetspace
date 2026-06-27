@@ -1209,6 +1209,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3014. Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | Easy | [C](./old-problems/3014/c/solution.c) [C++](./old-problems/3014/solution.cpp) |
 | [3016. Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/description) | Medium | [C](./old-problems/3016/c/solution.c) [C++](./old-problems/3016/solution.cpp) |
 | [3019. Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/) | Easy | [C](./old-problems/3019/c/solution.c) [C++](./old-problems/3019/solution.cpp) |
+| [3020. Find the Maximum Number of Elements in Subset](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/) | Medium | [C++](./old-problems/3020/solution.cpp) |
 | [3021. Alice and Bob Playing Flower Game](https://leetcode.com/problems/alice-and-bob-playing-flower-game/) | Medium | [C](./old-problems/3021/c/solution.c) [C++](./old-problems/3021/solution.cpp) |
 | [3024. Type of Triangle](https://leetcode.com/problems/type-of-triangle/) | Easy | [C](./old-problems/3024/c/solution.c) [C++](./old-problems/3024/solution.cpp) |
 | [3025. Find the Number of Ways to Place People I](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/) | Medium | [C](./old-problems/3025/c/solution.c) [C++](./old-problems/3025/solution.cpp) |
