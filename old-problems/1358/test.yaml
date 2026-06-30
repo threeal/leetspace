@@ -24,3 +24,8 @@ test_cases:
     inputs:
       s: abc
     output: 1
+
+  test_case_48:
+    inputs:
+      s: abab
+    output: 0
