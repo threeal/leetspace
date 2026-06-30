@@ -1,0 +1,26 @@
+name: 1358. Number of Substrings Containing All Three Characters
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: numberOfSubstrings
+
+test_cases:
+  example_1:
+    inputs:
+      s: abcabc
+    output: 10
+
+  example_2:
+    inputs:
+      s: aaacb
+    output: 3
+
+  example_3:
+    inputs:
+      s: abc
+    output: 1
