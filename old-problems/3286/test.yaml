@@ -1,0 +1,40 @@
+name: 3286. Find a Safe Walk Through a Grid
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+    health: int
+  output: bool
+
+solutions:
+  cpp:
+    function: findSafeWalk
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [0, 1, 0, 0, 0]
+        - [0, 1, 0, 1, 0]
+        - [0, 0, 0, 1, 0]
+      health: 1
+    output: true
+
+  example_2:
+    inputs:
+      grid:
+        - [0, 1, 1, 0, 0, 0]
+        - [1, 0, 1, 0, 0, 0]
+        - [0, 1, 1, 1, 0, 1]
+        - [0, 0, 1, 0, 1, 0]
+      health: 3
+    output: false
+
+  example_3:
+    inputs:
+      grid:
+        - [1, 1, 1]
+        - [1, 0, 1]
+        - [1, 1, 1]
+      health: 5
+    output: true
