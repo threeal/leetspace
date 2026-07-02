@@ -45,3 +45,12 @@ test_cases:
         - [1, 1, 1, 1]
       health: 4
     output: false
+
+  test_case_602:
+    inputs:
+      grid:
+        - [1, 0, 0, 0]
+        - [0, 0, 0, 0]
+        - [0, 1, 0, 1]
+      health: 3
+    output: true
