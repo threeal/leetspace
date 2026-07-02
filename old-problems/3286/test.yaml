@@ -38,3 +38,10 @@ test_cases:
         - [1, 1, 1]
       health: 5
     output: true
+
+  test_case_537:
+    inputs:
+      grid:
+        - [1, 1, 1, 1]
+      health: 4
+    output: false
