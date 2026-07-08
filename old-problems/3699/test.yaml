@@ -1,0 +1,34 @@
+name: 3699. Number of ZigZag Arrays I
+
+types:
+  inputs:
+    n: int
+    l: int
+    r: int
+  output: int
+
+solutions:
+  cpp:
+    function: zigZagArrays
+
+test_cases:
+  example_1:
+    inputs:
+      n: 3
+      l: 4
+      r: 5
+    output: 2
+
+  example_2:
+    inputs:
+      n: 3
+      l: 1
+      r: 3
+    output: 10
+
+  test_case_240:
+    inputs:
+      n: 7
+      l: 8
+      r: 45
+    output: 257729443
