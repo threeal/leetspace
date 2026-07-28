@@ -1347,6 +1347,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3508. Implement Router](https://leetcode.com/problems/implement-router/) | Medium | [C++](./old-problems/3508/solution.cpp) |
 | [3512. Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | Easy | [C](./old-problems/3512/c/solution.c) [C++](./old-problems/3512/solution.cpp) |
 | [3516. Find Closest Person](https://leetcode.com/problems/find-closest-person/) | Easy | [C](./old-problems/3516/c/solution.c) [C++](./old-problems/3516/solution.cpp) |
+| [3517. Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | Medium | [C++](./old-problems/3517/solution.cpp) |
 | [3527. Find the Most Common Response](https://leetcode.com/problems/find-the-most-common-response/) | Medium | [C++](./old-problems/3527/solution.cpp) |
 | [3531. Count Covered Buildings](leetcode.com/problems/count-covered-buildings/) | Medium | [C](./old-problems/3531/c/solution.c) [C++](./old-problems/3531/solution.cpp) |
 | [3536. Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/) | Easy | [C](./old-problems/3536/c/solution.c) [C++](./old-problems/3536/solution.cpp) |
