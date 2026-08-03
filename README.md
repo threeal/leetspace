@@ -637,6 +637,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1403. Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/) | Easy | [C](./old-problems/1403/c/solution.c) [C++](./old-problems/1403/solution.cpp) |
 | [1404. Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | Medium | [C](./old-problems/1404/c/solution.c) [C++](./old-problems/1404/solution.cpp) |
 | [1405. Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | Medium | [C](./old-problems/1405/c/solution.c) [C++](./old-problems/1405/solution.cpp) |
+| [1406. Stone Game III](https://leetcode.com/problems/stone-game-iii/) | Hard | [C++](./old-problems/1406/solution.cpp) |
 | [1408. String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | Easy | [C](./old-problems/1408/c/solution.c) [C++](./old-problems/1408/solution.cpp) |
 | [1409. Queries on a Permutation With Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/) | Medium | [C](./old-problems/1409/c/solution.c) [C++](./old-problems/1409/solution.cpp) |
 | [1411. Number of Ways to Paint N × 3 Grid](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/) | Hard | [C](./old-problems/1411/c/solution.c) [C++](./old-problems/1411/solution.cpp) |
