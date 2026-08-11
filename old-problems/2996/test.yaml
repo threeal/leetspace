@@ -19,3 +19,8 @@ test_cases:
     inputs:
       nums: [3, 4, 5, 1, 12, 14, 13]
     output: 15
+
+  test_case_2:
+    inputs:
+      nums: [29, 30, 31, 32, 33, 34, 35, 36, 37]
+    output: 297
