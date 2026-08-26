@@ -1,0 +1,30 @@
+name: 3003. Maximize the Number of Partitions After Operations
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: maxPartitionsAfterOperations
+
+test_cases:
+  example_1:
+    inputs:
+      s: accca
+      k: 2
+    output: 3
+
+  example_2:
+    inputs:
+      s: aabaab
+      k: 3
+    output: 1
+
+  test_case_753:
+    inputs:
+      s: xxyz
+      k: 1
+    output: 4
