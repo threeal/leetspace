@@ -1,0 +1,34 @@
+name: 2106. Maximum Fruits Harvested After at Most K Steps
+
+types:
+  inputs:
+    fruits: std::vector<std::vector<int>>
+    startPos: int
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: maxTotalFruits
+
+test_cases:
+  example_1:
+    inputs:
+      fruits: [[2, 8], [6, 3], [8, 6]]
+      startPos: 5
+      k: 4
+    output: 9
+
+  example_2:
+    inputs:
+      fruits: [[0, 9], [4, 1], [5, 7], [6, 2], [7, 4], [10, 9]]
+      startPos: 5
+      k: 4
+    output: 14
+
+  example_3:
+    inputs:
+      fruits: [[0, 3], [6, 4], [8, 5]]
+      startPos: 3
+      k: 2
+    output: 0
