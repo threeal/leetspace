@@ -1,0 +1,26 @@
+name: 960. Delete Columns to Make Sorted III
+
+types:
+  inputs:
+    strs: std::vector<std::string>
+  output: int
+
+solutions:
+  cpp:
+    function: minDeletionSize
+
+test_cases:
+  example_1:
+    inputs:
+      strs: [babca, bbazb]
+    output: 3
+
+  example_2:
+    inputs:
+      strs: [edcba]
+    output: 4
+
+  example_3:
+    inputs:
+      strs: [ghi, def, abc]
+    output: 0
