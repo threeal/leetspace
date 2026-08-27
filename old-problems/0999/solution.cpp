@@ -21,6 +21,7 @@ class Solution {
       switch (board[y][rx]) {
         case 'p':
           ++captures;
+          [[fallthrough]];
 
         case 'B':
           y = board.size();
@@ -32,6 +33,7 @@ class Solution {
       switch (board[y - 1][rx]) {
         case 'p':
           ++captures;
+          [[fallthrough]];
 
         case 'B':
           y = 1;
@@ -43,6 +45,7 @@ class Solution {
       switch (board[ry][x]) {
         case 'p':
           ++captures;
+          [[fallthrough]];
 
         case 'B':
           x = board[ry].size();
@@ -54,6 +57,7 @@ class Solution {
       switch (board[ry][x - 1]) {
         case 'p':
           ++captures;
+          [[fallthrough]];
 
         case 'B':
           x = 1;
