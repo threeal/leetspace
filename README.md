@@ -1388,6 +1388,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3712. Sum of Elements With Frequency Divisible by K](https://leetcode.com/problems/sum-of-elements-with-frequency-divisible-by-k/) | Easy | [C](./old-problems/3712/c/solution.c) [C++](./old-problems/3712/solution.cpp) |
 | [3713. Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) | Medium | [C](./old-problems/3713/c/solution.c) [C++](./old-problems/3713/solution.cpp) |
 | [3719. Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/) | Medium | [C](./old-problems/3719/c/solution.c) [C++](./old-problems/3719/solution.cpp) |
+| [3720. Lexicographically Smallest Permutation Greater Than Target](https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/) | Medium | [C++](./old-problems/3720/solution.cpp) |
 | [3726. Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/) | Easy | [C](./old-problems/3726/c/solution.c) [C++](./old-problems/3726/solution.cpp) |
 | [3731. Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | Easy | [C](./old-problems/3731/c/solution.c) [C++](./old-problems/3731/solution.cpp) |
 | [3736. Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | Easy | [C](./old-problems/3736/c/solution.c) [C++](./old-problems/3736/solution.cpp) |
