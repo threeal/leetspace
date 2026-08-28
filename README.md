@@ -1390,6 +1390,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3719. Longest Balanced Subarray I](https://leetcode.com/problems/longest-balanced-subarray-i/) | Medium | [C](./old-problems/3719/c/solution.c) [C++](./old-problems/3719/solution.cpp) |
 | [3726. Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/) | Easy | [C](./old-problems/3726/c/solution.c) [C++](./old-problems/3726/solution.cpp) |
 | [3731. Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | Easy | [C](./old-problems/3731/c/solution.c) [C++](./old-problems/3731/solution.cpp) |
+| [3734. Lexicographically Smallest Palindromic Permutation Greater Than Target](https://leetcode.com/problems/lexicographically-smallest-palindromic-permutation-greater-than-target/) | Hard | [C++](./old-problems/3734/solution.cpp) |
 | [3736. Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | Easy | [C](./old-problems/3736/c/solution.c) [C++](./old-problems/3736/solution.cpp) |
 | [3740. Minimum Distance Between Three Equal Elements I](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/) | Easy | [C](./old-problems/3740/c/solution.c) [C++](./old-problems/3740/solution.cpp) |
 | [3741. Minimum Distance Between Three Equal Elements II](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/) | Medium | [C](./old-problems/3741/c/solution.c) [C++](./old-problems/3741/solution.cpp) |

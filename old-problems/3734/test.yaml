@@ -1,0 +1,36 @@
+name: 3734. Lexicographically Smallest Palindromic Permutation Greater Than Target
+
+types:
+  inputs:
+    s: std::string
+    target: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: lexPalindromicPermutation
+
+test_cases:
+  example_1:
+    inputs:
+      s: baba
+      target: abba
+    output: baab
+
+  example_2:
+    inputs:
+      s: baba
+      target: bbaa
+    output: ""
+
+  example_3:
+    inputs:
+      s: abc
+      target: abb
+    output: ""
+
+  example_4:
+    inputs:
+      s: aac
+      target: abb
+    output: aca
