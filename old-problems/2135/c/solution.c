@@ -1,10 +1,13 @@
 #include <stdint.h>
+#include <stdlib.h>
 #include <string.h>
 
 int wordCount(
     char** startWords, int startWordsSize,
     char** targetWords, int targetWordsSize) {
-  uint8_t startMasksExist[(1 << 26) / 8] = {0};
+  const int startMasksExistSize = (1 << 26) / 8;
+  uint8_t* startMasksExist = malloc(startMasksExistSize * sizeof(int));
+  memset(startMasksExist, 0, startMasksExistSize * sizeof(int));
 
   for (int i = startWordsSize - 1; i >= 0; --i) {
     uint32_t mask = 0;
@@ -30,5 +33,6 @@ int wordCount(
     }
   }
 
+  free(startMasksExist);
   return count;
 }
