@@ -900,6 +900,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2081. Sum of k-Mirror Numbers](https://leetcode.com/problems/sum-of-k-mirror-numbers/) | Hard | [C](./old-problems/2081/c/solution.c) [C++](./old-problems/2081/solution.cpp) |
 | [2085. Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/) | Easy | [C++](./problems/2085/solution.cpp) |
 | [2089. Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | Easy | [C](./old-problems/2089/c/solution.c) [C++](./old-problems/2089/solution.cpp) |
+| [2091. Removing Minimum and Maximum From Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) | Medium | [C++](./old-problems/2091/solution.cpp) |
 | [2092. Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret/) | Hard | [C](./old-problems/2092/c/solution.c) [C++](./old-problems/2092/solution.cpp) |
 | [2094. Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/) | Easy | [C](./old-problems/2094/c/solution.c) [C++](./old-problems/2094/solution.cpp) |
 | [2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | Medium | [C++](./old-problems/2095/solution.cpp) |

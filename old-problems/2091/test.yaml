@@ -1,0 +1,26 @@
+name: 2091. Removing Minimum and Maximum From Array
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minimumDeletions
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 10, 7, 5, 4, 1, 8, 6]
+    output: 5
+
+  example_2:
+    inputs:
+      nums: [0, -4, 19, 1, 8, -2, -3, 5]
+    output: 3
+
+  example_3:
+    inputs:
+      nums: [101]
+    output: 1
