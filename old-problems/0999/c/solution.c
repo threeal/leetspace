@@ -17,6 +17,7 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize) {
     switch (board[y][rx]) {
       case 'p':
         ++captures;
+        __attribute__((fallthrough));
 
       case 'B':
         y = boardSize;
@@ -28,6 +29,7 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize) {
     switch (board[y - 1][rx]) {
       case 'p':
         ++captures;
+        __attribute__((fallthrough));
 
       case 'B':
         y = 1;
@@ -39,6 +41,7 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize) {
     switch (board[ry][x]) {
       case 'p':
         ++captures;
+        __attribute__((fallthrough));
 
       case 'B':
         x = boardColSize[ry];
@@ -50,6 +53,7 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize) {
     switch (board[ry][x - 1]) {
       case 'p':
         ++captures;
+        __attribute__((fallthrough));
 
       case 'B':
         x = 1;

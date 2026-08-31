@@ -1,4 +1,5 @@
 #include <bit>
+#include <cstdint>
 #include <string>
 
 class Solution {
@@ -8,7 +9,7 @@ class Solution {
     std::uint32_t distincts{0};
     for (std::size_t i{0}; i < s.size(); ++i) {
       distincts |= 1 << (s[i] - 'a');
-      if (std::popcount(distincts) == (i + 1) % 3) ++count;
+      if (std::popcount(distincts) == (static_cast<int>(i) + 1) % 3) ++count;
     }
     return count;
   }

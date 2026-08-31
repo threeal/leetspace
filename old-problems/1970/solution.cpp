@@ -19,7 +19,7 @@ class Solution {
  public:
   int latestDayToCross(int row, int col, std::vector<std::vector<int>>& cells) {
     std::vector<std::vector<Cell>> grid(
-        row + 2, std::vector<Cell>(col + 2, {.isWater = false}));
+        row + 2, std::vector<Cell>(col + 2, {.isWater = false, .leftParent = {}, .rightParent = {}}));
 
     for (std::size_t day{0}; day < cells.size(); ++day) {
       const int y{cells[day][0]};
