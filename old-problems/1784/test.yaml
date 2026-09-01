@@ -1,0 +1,21 @@
+name: 1784. Check if Binary String Has at Most One Segment of Ones
+
+types:
+  inputs:
+    s: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: checkOnesSegment
+
+test_cases:
+  example_1:
+    inputs:
+      s: "1001"
+    output: false
+
+  example_2:
+    inputs:
+      s: "110"
+    output: true
