@@ -1,0 +1,30 @@
+name: 1855. Maximum Distance Between a Pair of Values
+
+types:
+  inputs:
+    nums1: std::vector<int>
+    nums2: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: maxDistance
+
+test_cases:
+  example_1:
+    inputs:
+      nums1: [55, 30, 5, 4, 2]
+      nums2: [100, 20, 10, 10, 5]
+    output: 2
+
+  example_2:
+    inputs:
+      nums1: [2, 2, 2]
+      nums2: [10, 10, 1]
+    output: 1
+
+  example_3:
+    inputs:
+      nums1: [30, 29, 19, 5]
+      nums2: [25, 25, 25, 25, 25]
+    output: 2
