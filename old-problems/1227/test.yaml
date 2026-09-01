@@ -1,0 +1,21 @@
+name: 1227. Airplane Seat Assignment Probability
+
+types:
+  inputs:
+    n: int
+  output: double
+
+solutions:
+  cpp:
+    function: nthPersonGetsNthSeat
+
+test_cases:
+  example_1:
+    inputs:
+      n: 1
+    output: 1.00000
+
+  example_2:
+    inputs:
+      n: 2
+    output: 0.50000
