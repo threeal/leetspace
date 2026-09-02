@@ -51,6 +51,10 @@ pnpx leettest problems/0011/solution.cpp   # test a single problem
 
 `internal/python/lib/generate_test_src` is a Poetry package (`generate_test_src` script) that reads an **old-problems-schema** `test.yaml` plus its `solution.cpp` and generates a Catch2 `test.cpp` and a wrapping `solution_cpp.cpp`. It's invoked automatically per problem by the `add_problem_test` CMake macro in `old-problems/CMakeLists.txt` — you should not need to run it directly. It does not understand the `problems/`-format `test.yaml` schema.
 
+## Fetching LeetCode problem pages
+
+LeetCode blocks direct fetches of its problem pages (WebFetch gets HTTP 403), and web search / mirror sites don't reliably reproduce the exact constraints, examples, or official hints. Don't rely on either for problem content. Instead, ask the user to paste the problem statement directly — including constraints, examples, and hints if needed.
+
 ## README
 
 `README.md` has a `## Problems` table linking every solved problem (by number) to its difficulty and solution file(s), covering both `problems/` and `old-problems/`. When adding a new solution, add a corresponding row.
