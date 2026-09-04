@@ -52,7 +52,27 @@ LeetCode blocks direct fetches of its problem pages (WebFetch gets HTTP 403), an
 
 ## Adding a C solution
 
-Only after a problem's C++ solution has merged, and typically much later — a separate issue (`Solve problem <id>. <Name> in C`) and PR (branch `solve-problem-<id>-in-c`) follow the same shape as above: a scaffold commit (`add support to test problem <id> in C`) adding `c/solution.c` (placeholder, same unused-parameter/return-value rules as C++), `c/interface.cpp` (`extern "C"` glue calling into it), `test.yaml`'s `solutions.c:` entry, and `CMakeLists.txt`'s `add_c_solution`/`target_link_libraries` lines, then a solve commit (`solve problem <id> in C by using <technique>`) touching only `c/solution.c`. Don't start this unless asked.
+Only after a problem's C++ solution has merged — the C++ PR is often left open for days before that merge happens, and the C follow-up, if it happens at all, comes some time after the merge, not right after opening the C++ PR. The user will say when to start; don't propose it unprompted.
+
+1. **Open the GitHub issue first**, before any scaffolding or code. Title it `Solve problem <id>. <Name> in C`. The body is much shorter than the C++ issue's: a sentence naming the problem (with its LeetCode link) plus a pointer to the C++ PR being followed (e.g. "the same approach as the C++ solution in #1234"), and, only if something already looks like it'll need to change, a short note on what.
+
+2. **Scaffold the placeholder** in `old-problems/<id>/`, all in one commit titled `add support to test problem <id> in C`. The user supplies the C-style function signature to implement (LeetCode's C conventions — raw pointers/sizes, an output-size out-param, etc.) rather than Claude inventing one:
+   - `CMakeLists.txt` — add the C build line before what's already there, and link it after:
+     ```cmake
+     add_c_solution(c_solution c/interface.cpp c/solution.c)
+
+     get_dir_name(id)
+     add_problem_test(test-${id} test.yaml)
+     target_link_libraries(test-${id} PRIVATE ${c_solution})
+     ```
+   - `c/solution.c` — a placeholder implementing the given signature, with the same unused-parameter/return-value discipline as the C++ placeholder (fold every parameter into the return expression, return a validly-typed value — cast if needed).
+   - `c/interface.cpp` — an `extern "C" { ... }` block re-declaring the C signature verbatim, plus a `solution_c` function whose parameter and return types match the C++ `Solution` method's (from `test.yaml`'s `types:` block). Its body just adapts between the two: unpacking C++ containers into raw pointers/sizes to call the C function, and re-wrapping a raw C return back into the C++ type if needed. Check an existing `c/interface.cpp` with a matching type shape for the exact conversion pattern.
+   - `test.yaml` — add a blank `c:` key under `solutions:`, ordered before `cpp:` (no `function:` sub-key — the interface always exposes the fixed name `solution_c`).
+   - `README.md`'s existing row for the problem — add `[C](./old-problems/<id>/c/solution.c)` before the `[C++]` link.
+
+3. **Push and open the PR as a draft.** Branch `solve-problem-<id>-in-c`, PR title matching the issue title, body following the same "This pull request resolves #<issue>..." shape as the C++ PRs, naming the C++ PR being followed.
+
+4. **Implement the solution — the user's step, same boundary as C++.** Following the C++ approach isn't always a straight port: C has no hash maps, sets, or other STL containers, so some C solutions hand-roll the equivalent structure or restructure the approach entirely to avoid needing one (see existing `old-problems/*/c/solution.c` files for examples) — don't assume the C version has to mirror the C++ logic line for line. Failing LeetCode submissions add `test_case_<N>` commits the same way as the C++ flow; once accepted, the final `c/solution.c` is committed as `solve problem <id> in C by using <technique>`, and the PR is marked ready for review.
 
 ## Build & test (old-problems only)
 
