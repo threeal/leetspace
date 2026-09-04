@@ -1,0 +1,30 @@
+name: 1857. Largest Color Value in a Directed Graph
+
+types:
+  inputs:
+    colors: std::vector<int>
+    edges:
+  output: int
+
+solutions:
+  cpp:
+    function: largestPathValue
+
+test_cases:
+  example_1:
+    inputs:
+      colors: [2, 2, 1, 2, 1]
+      edges:
+    output: 2
+
+  example_2:
+    inputs:
+      colors: [100, 1, 1000]
+      edges:
+    output: 3
+
+  example_3:
+    inputs:
+      colors: [1, 2, 3, 4, 5]
+      edges:
+    output: 5
