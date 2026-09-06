@@ -1,4 +1,5 @@
 #include <algorithm>
+#include <array>
 #include <queue>
 #include <string>
 #include <string_view>
