@@ -1,0 +1,30 @@
+name: 1807. Evaluate the Bracket Pairs of a String
+
+types:
+  inputs:
+    s: std::string
+    knowledge: std::vector<std::vector<std::string>>
+  output: std::string
+
+solutions:
+  cpp:
+    function: evaluate
+
+test_cases:
+  example_1:
+    inputs:
+      s: (name)is(age)yearsold
+      knowledge: [[name, bob], [age, two]]
+    output: bobistwoyearsold
+
+  example_2:
+    inputs:
+      s: hi(name)
+      knowledge: [[a, b]]
+    output: hi?
+
+  example_3:
+    inputs:
+      s: (a)(a)(a)aaa
+      knowledge: [[a, "yes"]]
+    output: yesyesyesaaa
