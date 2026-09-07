@@ -16,4 +16,16 @@ TEST_CASE("2336. Smallest Number in Infinite Set") {
     REQUIRE(smallestInfiniteSet.popSmallest() == 4);
     REQUIRE(smallestInfiniteSet.popSmallest() == 5);
   }
+
+  SECTION("Test Case 134") {
+    SmallestInfiniteSet smallestInfiniteSet;
+    REQUIRE(smallestInfiniteSet.popSmallest() == 1);
+    smallestInfiniteSet.addBack(1);
+    smallestInfiniteSet.addBack(1);
+    REQUIRE(smallestInfiniteSet.popSmallest() == 1);
+    smallestInfiniteSet.addBack(1);
+    REQUIRE(smallestInfiniteSet.popSmallest() == 1);
+    REQUIRE(smallestInfiniteSet.popSmallest() == 2);
+    REQUIRE(smallestInfiniteSet.popSmallest() == 3);
+  }
 }
