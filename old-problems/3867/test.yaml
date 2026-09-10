@@ -1,0 +1,21 @@
+name: 3867. Sum of GCD of Formed Pairs
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: gcdSum
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 6, 4]
+    output: 2
+
+  example_2:
+    inputs:
+      nums: [3, 6, 2, 8]
+    output: 0
