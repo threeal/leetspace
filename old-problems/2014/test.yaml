@@ -1,0 +1,30 @@
+name: 2014. Longest Subsequence Repeated k Times
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: longestSubsequenceRepeatedK
+
+test_cases:
+  example_1:
+    inputs:
+      s: letsleetcode
+      k: 2
+    output: let
+
+  example_2:
+    inputs:
+      s: bb
+      k: 2
+    output: b
+
+  example_2:
+    inputs:
+      s: ab
+      k: 2
+    output: ""
