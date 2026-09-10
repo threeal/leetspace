@@ -1,0 +1,26 @@
+name: 1345. Jump Game IV
+
+types:
+  inputs:
+    arr: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minJumps
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [100, -23, -23, 404, 100, 23, 23, 23, 3, 404]
+    output: 3
+
+  example_2:
+    inputs:
+      arr: [7]
+    output: 0
+
+  test_case_4:
+    inputs:
+      arr: [7, 6, 9, 6, 9, 6, 9, 7]
+    output: 1
