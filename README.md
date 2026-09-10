@@ -1374,6 +1374,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3623. Count Number of Trapezoids I](https://leetcode.com/problems/count-number-of-trapezoids-i/) | Medium | [C++](./old-problems/3623/solution.cpp) |
 | [3633. Earliest Finish Time for Land and Water Rides I](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) | Easy | [C](./old-problems/3633/c/solution.c) [C++](./old-problems/3633/solution.cpp) |
 | [3634. Minimum Removals to Balance Array](https://leetcode.com/problems/minimum-removals-to-balance-array/) | Medium | [C](./old-problems/3634/c/solution.c) [C++](./old-problems/3634/solution.cpp) |
+| [3635. Earliest Finish Time for Land and Water Rides II](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) | Medium | [C++](./old-problems/3635/solution.cpp) |
 | [3637. Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | Easy | [C](./old-problems/3637/c/solution.c) [C++](./old-problems/3637/solution.cpp) |
 | [3640. Trionic Array II](https://leetcode.com/problems/trionic-array-ii/) | Hard | [C](./old-problems/3640/c/solution.c) [C++](./old-problems/3640/solution.cpp) |
 | [3643. Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/) | Easy | [C](./old-problems/3643/c/solution.c) [C++](./old-problems/3643/solution.cpp) |
