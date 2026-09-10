@@ -811,6 +811,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1833. Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/) | Medium | [C](./old-problems/1833/c/solution.c) [C++](./old-problems/1833/solution.cpp) |
 | [1837. Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/) | Easy | [C](./old-problems/1837/c/solution.c) [C++](./old-problems/1837/solution.cpp) |
 | [1838. Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/) | Medium | [C++](./problems/1838/solution.cpp) |
+| [1840. Maximum Building Height](https://leetcode.com/problems/maximum-building-height/) | Hard | [C++](./old-problems/1840/solution.cpp) |
 | [1844. Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/) | Easy | [C](./old-problems/1844/c/solution.c) [C++](./old-problems/1844/solution.cpp) |
 | [1845. Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/) | Medium | [C++](./old-problems/1845/solution.cpp) |
 | [1846. Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging) | Medium | [C](./old-problems/1846/c/solution.c) [C++](./old-problems/1846/solution.cpp) |
