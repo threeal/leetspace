@@ -1,0 +1,41 @@
+name: 2304. Minimum Path Cost in a Grid
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+    moveCost: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: minPathCost
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [5, 3]
+        - [4, 0]
+        - [2, 1]
+      moveCost:
+        - [9, 8]
+        - [1, 5]
+        - [10, 12]
+        - [18, 6]
+        - [2, 4]
+        - [14, 3]
+    output: 17
+
+  example_2:
+    inputs:
+      grid:
+        - [5, 1, 2]
+        - [4, 0, 3]
+      moveCost:
+        - [12, 10, 15]
+        - [20, 23, 8]
+        - [21, 7, 1]
+        - [8, 1, 13]
+        - [9, 10, 25]
+        - [5, 3, 2]
+    output: 6
