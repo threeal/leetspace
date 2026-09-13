@@ -1,0 +1,32 @@
+name: 609. Find Duplicate File in System
+
+types:
+  inputs:
+    paths: std::vector<std::string>
+  output: std::vector<std::vector<std::string>>
+
+solutions:
+  cpp:
+    function: findDuplicate
+
+test_cases:
+  example_1:
+    inputs:
+      paths:
+        - root/a 1.txt(abcd) 2.txt(efgh)
+        - root/c 3.txt(abcd)
+        - root/c/d 4.txt(efgh)
+        - root 4.tx(efgh)
+    output:
+      - [root/a/2.txt, root/c/d/4.txt, root/4.txt]
+      - [root/a/1.txt, root/c/3.txt]
+
+  example_2:
+    inputs:
+      paths:
+        - root/a 1.txt(abcd) 2.txt(efgh)
+        - root/c 3.txt(abcd)
+        - root/c/d 4.txt(efgh)
+    output:
+      - [root/a/2.txt, root/c/d/4.txt]
+      - [root/a/1.txt, root/c/3.txt]
