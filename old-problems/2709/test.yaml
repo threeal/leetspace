@@ -1,0 +1,36 @@
+name: 2709. Greatest Common Divisor Traversal
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: canTraverseAllPairs
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 3, 6]
+    output: true
+
+  example_2:
+    inputs:
+      nums: [3, 9, 5]
+    output: false
+
+  example_2:
+    inputs:
+      nums: [4, 3, 12, 8]
+    output: true
+
+  test_case_615:
+    inputs:
+      nums: [21, 21, 35, 20]
+    output: true
+
+  test_case_850:
+    inputs:
+      nums: [28, 39]
+    output: false
