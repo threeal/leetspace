@@ -1,0 +1,24 @@
+name: 3650. Minimum Cost Path with Edge Reversals
+
+types:
+  inputs:
+    n: int
+    edges: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: minCost
+
+test_cases:
+  example_1:
+    inputs:
+      n: 4
+      edges: [[0, 1, 3], [3, 1, 1], [2, 3, 4], [0, 2, 2]]
+    output: 5
+
+  example_2:
+    inputs:
+      n: 4
+      edges: [[0, 2, 1], [2, 1, 1], [1, 3, 1], [2, 3, 3]]
+    output: 3
