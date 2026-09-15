@@ -1,0 +1,26 @@
+name: 1189. Maximum Number of Balloons
+
+types:
+  inputs:
+    text: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: maxNumberOfBalloons
+
+test_cases:
+  example_1:
+    inputs:
+      text: nlaebolko
+    output: 1
+
+  example_2:
+    inputs:
+      text: loonbalxballpoon
+    output: 2
+
+  example_3:
+    inputs:
+      text: leetcode
+    output: 0
