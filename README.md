@@ -691,6 +691,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1513. Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/) | Medium | [C](./old-problems/1513/c/solution.c) [C++](./old-problems/1513/solution.cpp) |
 | [1514. Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) | Medium | [C](./old-problems/1514/c/solution.c) [C++](./old-problems/1514/solution.cpp) |
 | [1518. Water Bottles](https://leetcode.com/problems/water-bottles/) | Easy | [C](./old-problems/1518/c/solution.c) [C++](./old-problems/1518/solution.cpp) |
+| [1520. Maximum Number of Non-Overlapping Substrings](https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/) | Hard | [C++](./old-problems/1520/solution.cpp) |
 | [1523. Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | Easy | [C](./old-problems/1523/c/solution.c) [C++](./old-problems/1523/solution.cpp) |
 | [1524. Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | Medium | [C](./old-problems/1524/c/solution.c) [C++](./old-problems/1524/solution.cpp) |
 | [1525. Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/) | Medium | [C](./old-problems/1525/c/solution.c) [C++](./old-problems/1525/solution.cpp) |
