@@ -1,0 +1,30 @@
+name: 3524. Find X Value of Array I
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: std::vector<long long>
+
+solutions:
+  cpp:
+    function: resultArray
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3, 4, 5]
+      k: 3
+    output: [9, 2, 4]
+
+  example_2:
+    inputs:
+      nums: [1, 2, 4, 8, 16, 32]
+      k: 4
+    output: [18, 1, 2, 0]
+
+  example_3:
+    inputs:
+      nums: [1, 1, 2, 1, 1]
+      k: 2
+    output: [9, 6]
