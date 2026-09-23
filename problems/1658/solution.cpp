@@ -3,46 +3,20 @@
 class Solution {
  public:
   int minOperations(std::vector<int>& nums, int x) {
-    int res = -1;
-    const int n = nums.size();
+    std::size_t l{0};
+    while (l < nums.size() && x > 0) x -= nums[l++];
+    if (l == nums.size()) return x == 0 ? nums.size() : -1;
 
-    int xx = x;
-
-    int ll = 0;
-    int rr = n - 1;
-
-    while (ll < n) {
-      xx -= nums[ll];
-      if (xx <= 0) {
-        if (xx == 0) {
-          int new_res = ll + 1;
-          res = res > 0 ? std::min(res, new_res) : new_res;
-        }
-        break;
-      }
-      ++ll;
-    }
-
-    if (ll == n) --ll;
-
-    while (ll >= 0) {
-      xx += nums[ll];
-      --ll;
-      while (xx < 0 && rr < n - 1) {
-        xx += nums[rr];
-        ++rr;
-      }
-
-      while (rr > ll && xx >= nums[rr]) {
-        xx -= nums[rr];
-        if (xx == 0) {
-          int new_res = ll + 1 + n - rr;
-          res = res > 0 ? std::min(res, new_res) : new_res;
-        }
-        --rr;
+    std::size_t min{x == 0 ? l : nums.size() + 1};
+    std::size_t r{nums.size()};
+    while (l > 0) {
+      x += nums[--l];
+      while (x > 0) x -= nums[--r];
+      if (x == 0 && l + nums.size() - r < min) {
+        min = l + nums.size() - r;
       }
     }
 
-    return res;
+    return min <= nums.size() ? min : -1;
   }
 };
