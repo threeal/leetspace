@@ -741,7 +741,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1653. Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) | Medium | [C](./old-problems/1653/c/solution.c) [C++](./old-problems/1653/solution.cpp) |
 | [1656. Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/) | Easy | [C++](./old-problems/1656/solution.cpp) |
 | [1657. Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/) | Medium | [C](./old-problems/1657/c/solution.c) [C++](./old-problems/1657/solution.cpp) |
-| [1658. Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) | Medium | [C++](./old-problems/1658/solution.cpp) |
+| [1658. Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) | Medium | [C](./old-problems/1658/c/solution.c) [C++](./old-problems/1658/solution.cpp) |
 | [1662. Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | Easy | [C](./old-problems/1662/c/solution.c) [C++](./old-problems/1662/solution.cpp) |
 | [1663. Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/) | Medium | [C](./old-problems/1663/c/solution.c) [C++](./old-problems/1663/solution.cpp) |
 | [1665. Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/) | Medium | [C](./old-problems/1665/c/solution.c) [C++](./old-problems/1665/solution.cpp) |
