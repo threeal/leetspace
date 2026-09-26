@@ -1,0 +1,24 @@
+name: 2224. Minimum Number of Operations to Convert Time
+
+types:
+  inputs:
+    current: std::string
+    correct: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: convertTime
+
+test_cases:
+  example_1:
+    inputs:
+      current: "02:30"
+      correct: "04:35"
+    output: 3
+
+  example_2:
+    inputs:
+      current: "11:00"
+      correct: "11:01"
+    output: 1
