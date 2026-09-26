@@ -1,0 +1,36 @@
+name: 1536. Minimum Swaps to Arrange a Binary Grid
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: minSwaps
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [0, 0, 1]
+        - [1, 1, 0]
+        - [1, 0, 0]
+    output: 3
+
+  example_2:
+    inputs:
+      grid:
+        - [0, 1, 1, 0]
+        - [0, 1, 1, 0]
+        - [0, 1, 1, 0]
+        - [0, 1, 1, 0]
+    output: -1
+
+  case_1:
+    inputs:
+      grid:
+        - [1, 0, 0]
+        - [1, 1, 0]
+        - [1, 1, 1]
+    output: 0
