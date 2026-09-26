@@ -1,0 +1,30 @@
+name: 1840. Maximum Building Height
+
+types:
+  inputs:
+    n: int
+    restrictions: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: maxBuilding
+
+test_cases:
+  example_1:
+    inputs:
+      n: 5
+      restrictions: [[2, 1], [4, 1]]
+    output: 2
+
+  example_2:
+    inputs:
+      n: 6
+      restrictions: []
+    output: 5
+
+  example_3:
+    inputs:
+      n: 10
+      restrictions: [[5, 3], [2, 5], [7, 4], [10, 3]]
+    output: 5
