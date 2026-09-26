@@ -1,0 +1,36 @@
+name: 1914. Cyclically Rotating a Grid
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+    k: int
+  output: std::vector<std::vector<int>>
+
+solutions:
+  cpp:
+    function: rotateGrid
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [40, 10]
+        - [30, 20]
+      k: 1
+    output:
+      - [10, 20]
+      - [40, 30]
+
+  example_2:
+    inputs:
+      grid:
+        - [1, 2, 3, 4]
+        - [5, 6, 7, 8]
+        - [9, 10, 11, 12]
+        - [13, 14, 15, 16]
+      k: 2
+    output:
+      - [3, 4, 8, 12]
+      - [2, 11, 10, 16]
+      - [1, 7, 6, 15]
+      - [5, 9, 13, 14]
