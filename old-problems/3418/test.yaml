@@ -1,0 +1,26 @@
+name: 3418. Maximum Amount of Money Robot Can Earn
+
+types:
+  inputs:
+    coins: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: maximumAmount
+
+test_cases:
+  example_1:
+    inputs:
+      coins:
+        - [0, 1, -1]
+        - [1, -2, 3]
+        - [2, -3, 4]
+    output: 8
+
+  example_2:
+    inputs:
+      coins:
+        - [10, 10, 10]
+        - [10, 10, 10]
+    output: 40
