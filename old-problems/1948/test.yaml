@@ -1,0 +1,26 @@
+name: 1948. Delete Duplicate Folders in System
+
+types:
+  inputs:
+    paths: std::vector<std::vector<std::string>>
+  output: std::vector<std::vector<std::string>>
+
+solutions:
+  cpp:
+    function: deleteDuplicateFolder
+
+test_cases:
+  example_1:
+    inputs:
+      paths: [[a], [c], [d], [a, b], [c, b], [d, a]]
+    output: [[d], [d, a]]
+
+  example_2:
+    inputs:
+      paths: [[a], [c], [a, b], [c, b], [a, b, x], [a, b, x, y], [w], [w, y]]
+    output: [[c], [c, b], [a], [a, b]]
+
+  example_3:
+    inputs:
+      paths: [[a, b], [c, d], [c], [a]]
+    output: [[c], [c, d], [a], [a, b]]
