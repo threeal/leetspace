@@ -1,0 +1,31 @@
+name: 3225. Maximum Score From Grid Operations
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+  output: long long
+
+solutions:
+  cpp:
+    function: maximumScore
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [0, 0, 0, 0, 0]
+        - [0, 0, 3, 0, 0]
+        - [0, 1, 0, 0, 0]
+        - [5, 0, 0, 3, 0]
+        - [0, 0, 0, 0, 2]
+    output: 11
+
+  example_2:
+    inputs:
+      grid:
+        - [10, 9, 0, 0, 15]
+        - [7, 1, 0, 8, 0]
+        - [5, 20, 0, 11, 0]
+        - [0, 0, 0, 1, 2]
+        - [8, 12, 1, 10, 3]
+    output: 94
