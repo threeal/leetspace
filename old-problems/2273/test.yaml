@@ -1,0 +1,21 @@
+name: 2273. Find Resultant Array After Removing Anagrams
+
+types:
+  inputs:
+    nums: std::vector<std::string>
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: removeAnagrams
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [abba, baba, bbaa, cd, cd]
+    output: [abba, cd]
+
+  example_2:
+    inputs:
+      nums: [a, b, c, d, e]
+    output: [a, b, c, d, e]
