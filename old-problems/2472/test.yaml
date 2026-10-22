@@ -1,0 +1,24 @@
+name: 2472. Maximum Number of Non-overlapping Palindrome Substrings
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: maxPalindromes
+
+test_cases:
+  example_1:
+    inputs:
+      s: abaccdbbd
+      k: 3
+    output: 2
+
+  example_2:
+    inputs:
+      s: adbcda
+      k: 2
+    output: 0
