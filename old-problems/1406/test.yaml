@@ -1,0 +1,26 @@
+name: 1406. Stone Game III
+
+types:
+  inputs:
+    stoneValue: std::vector<std::string>
+  output: std::string
+
+solutions:
+  cpp:
+    function: stoneGameIII
+
+test_cases:
+  example_1:
+    inputs:
+      stoneValue: 1
+    output: ccaccbcc
+
+  example_2:
+    inputs:
+      stoneValue: 7
+    output: aabaa
+
+  test_case_33:
+    inputs:
+      stoneValue: 0
+    output: ccbccbbccbbccbbccbc
