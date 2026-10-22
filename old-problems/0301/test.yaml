@@ -1,0 +1,26 @@
+name: 301. Remove Invalid Parentheses
+
+types:
+  inputs:
+    s: std::string
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: removeInvalidParentheses
+
+test_cases:
+  example_1:
+    inputs:
+      s: ()())()
+    output: [(())(), ()()()]
+
+  example_2:
+    inputs:
+      s: (a)())()
+    output: [(a())(), (a)()()]
+
+  example_3:
+    inputs:
+      s: )(
+    output: [""]
