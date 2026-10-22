@@ -1,0 +1,30 @@
+name: 1621. Number of Sets of K Non-Overlapping Line Segments
+
+types:
+  inputs:
+    n: int
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: numberOfSets
+
+test_cases:
+  example_1:
+    inputs:
+      n: 4
+      k: 2
+    output: 5
+
+  example_2:
+    inputs:
+      n: 3
+      k: 1
+    output: 3
+
+  example_3:
+    inputs:
+      n: 30
+      k: 7
+    output: 796297179
