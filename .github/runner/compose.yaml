@@ -1,0 +1,14 @@
+# Configure the runner once, then start it:
+#   docker compose run --rm runner ./config.sh --url https://github.com/threeal/leetspace --token <TOKEN>
+#   docker compose up -d
+name: leetspace
+
+services:
+  runner:
+    build: .
+    restart: unless-stopped
+    volumes:
+      - home:/home/ubuntu
+
+volumes:
+  home:
