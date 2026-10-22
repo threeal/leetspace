@@ -1,0 +1,50 @@
+name: 1401. Circle and Rectangle Overlapping
+
+types:
+  inputs:
+    radius: int
+    xCenter: int
+    yCenter: int
+    x1: int
+    y1: int
+    x2: int
+    y2: int
+  output: bool
+
+solutions:
+  cpp:
+    function: checkOverlap
+
+test_cases:
+  example_1:
+    inputs:
+      radius: 1
+      xCenter: 0
+      yCenter: 0
+      x1: 1
+      y1: -1
+      x2: 3
+      y2: 1
+    output: true
+
+  example_2:
+    inputs:
+      radius: 1
+      xCenter: 1
+      yCenter: 1
+      x1: 1
+      y1: -3
+      x2: 2
+      y2: -1
+    output: false
+
+  example_3:
+    inputs:
+      radius: 1
+      xCenter: 0
+      yCenter: 0
+      x1: -1
+      y1: 0
+      x2: 0
+      y2: 1
+    output: true
