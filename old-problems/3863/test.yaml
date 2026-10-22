@@ -1,0 +1,26 @@
+name: 3863. Minimum Operations to Sort a String
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minOperations
+
+test_cases:
+  example_1:
+    inputs:
+      s: dog
+    output: 1
+
+  example_2:
+    inputs:
+      s: card
+    output: 2
+
+  example_3:
+    inputs:
+      s: gf
+    output: -1
