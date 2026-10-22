@@ -1,0 +1,21 @@
+name: 1288. Remove Covered Intervals
+
+types:
+  inputs:
+    intervals: std::vector<std::vector<int>>
+  output: int
+
+solutions:
+  cpp:
+    function: removeCoveredIntervals
+
+test_cases:
+  example_1:
+    inputs:
+      intervals: [[1, 4], [3, 6], [2, 8]]
+    output: 2
+
+  example_2:
+    inputs:
+      intervals: [[1, 4], [2, 3]]
+    output: 1
