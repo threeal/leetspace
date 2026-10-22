@@ -1,0 +1,26 @@
+name: 3843. First Element with Unique Frequency
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: firstUniqueFreq
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [20, 10, 30, 30]
+    output: 30
+
+  example_2:
+    inputs:
+      nums: [20, 20, 10, 30, 30, 30]
+    output: 20
+
+  example_3:
+    inputs:
+      nums: [10, 10, 20, 20]
+    output: -1
