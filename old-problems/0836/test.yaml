@@ -1,0 +1,30 @@
+name: 836. Rectangle Overlap
+
+types:
+  inputs:
+    rec1: std::vector<int>
+    rec2: std::vector<int>
+  output: bool
+
+solutions:
+  cpp:
+    function: isRectangleOverlap
+
+test_cases:
+  example_1:
+    inputs:
+      rec1: [0, 0, 2, 2]
+      rec2: [1, 1, 3, 3]
+    output: true
+
+  example_2:
+    inputs:
+      rec1: [0, 0, 1, 1]
+      rec2: [1, 0, 2, 1]
+    output: false
+
+  example_3:
+    inputs:
+      rec1: [0, 0, 1, 1]
+      rec2: [2, 2, 3, 3]
+    output: false
