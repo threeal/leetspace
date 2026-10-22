@@ -1430,6 +1430,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3870. Count Commas in Range](https://leetcode.com/problems/count-commas-in-range/) | Easy | [C](./old-problems/3870/c/solution.c) [C++](./old-problems/3870/solution.cpp) |
 | [3875. Construct Uniform Parity Array I](https://leetcode.com/problems/construct-uniform-parity-array-i/) | Easy | [C](./old-problems/3875/c/solution.c) [C++](./old-problems/3875/solution.cpp) |
 | [3884. First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/) | Easy | [C](./old-problems/3884/c/solution.c) [C++](./old-problems/3884/solution.cpp) |
+| [3886. Sum of Sortable Integers](https://leetcode.com/problems/sum-of-sortable-integers/) | Hard | [C++](./old-problems/3886/solution.cpp) |
 | [3894. Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/) | Easy | [C](./old-problems/3894/c/solution.c) [C++](./old-problems/3894/solution.cpp) |
 | [3898. Find the Degree of Each Vertex](https://leetcode.com/problems/find-the-degree-of-each-vertex/) | Easy | [C](./old-problems/3898/c/solution.c) [C++](./old-problems/3898/solution.cpp) |
 | [3904. Smallest Stable Index II](https://leetcode.com/problems/smallest-stable-index-ii/) | Medium | [C](./old-problems/3904/c/solution.c) [C++](./old-problems/3904/solution.cpp) |
