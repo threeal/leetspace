@@ -1185,6 +1185,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2874. Maximum Value of an Ordered Triplet II](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii/) | Medium | [C](./old-problems/2874/c/solution.c) [C++](./old-problems/2874/solution.cpp) |
 | [2894. Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | Easy | [C](./old-problems/2894/c/solution.c) [C++](./old-problems/2894/solution.cpp) |
 | [2895. Minimum Processing Time](https://leetcode.com/problems/minimum-processing-time/) | Medium | [C](./old-problems/2895/c/solution.c) [C++](./old-problems/2895/solution.cpp) |
+| [2897. Apply Operations on Array to Maximize Sum of Squares](https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/) | Hard | [C++](./old-problems/2897/solution.cpp) |
 | [2900. Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/) | Easy | [C](./old-problems/2900/c/solution.c) [C++](./old-problems/2900/solution.cpp) |
 | [2901. Longest Unequal Adjacent Groups Subsequence II](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii/) | Medium | [C](./old-problems/2901/c/solution.c) [C++](./old-problems/2901/solution.cpp) |
 | [2906. Construct Product Matrix](https://leetcode.com/problems/construct-product-matrix/) | Medium | [C](./old-problems/2906/c/solution.c) [C++](./old-problems/2906/solution.cpp) |
