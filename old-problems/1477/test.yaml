@@ -1,0 +1,30 @@
+name: 1477. Find Two Non-overlapping Sub-arrays Each With Target Sum
+
+types:
+  inputs:
+    arr: std::vector<int>
+    target: int
+  output: int
+
+solutions:
+  cpp:
+    function: minSumOfLengths
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [3, 2, 2, 4, 3]
+      target: 3
+    output: 2
+
+  example_2:
+    inputs:
+      arr: [7, 3, 4, 7]
+      target: 7
+    output: 2
+
+  example_3:
+    inputs:
+      arr: [4, 3, 2, 6, 2, 3, 4]
+      target: 6
+    output: -1
