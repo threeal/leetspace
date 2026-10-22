@@ -520,6 +520,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [1081. Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters) | Medium | [C++](./problems/1081/solution.cpp) |
 | [1090. Largest Values From Labels](https://leetcode.com/problems/largest-values-from-labels/) | Medium | [C](./old-problems/1090/c/solution.c) [C++](./old-problems/1090/solution.cpp) |
 | [1092. Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/) | Hard | [C](./old-problems/1092/c/solution.c) [C++](./old-problems/1092/solution.cpp) |
+| [1096. Brace Expansion II](https://leetcode.com/problems/brace-expansion-ii/) | Hard | [C++](./old-problems/1096/solution.cpp) |
 | [1103. Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/) | Easy | [C](./old-problems/1103/c/solution.c) [C++](./old-problems/1103/solution.cpp) |
 | [1104. Path In Zigzag Labelled Binary Tree](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/) | Medium | [C](./old-problems/1104/c/solution.c) [C++](./old-problems/1104/solution.cpp) |
 | [1105. Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves/) | Medium | [C](./old-problems/1105/c/solution.c) [C++](./old-problems/1105/solution.cpp) |
