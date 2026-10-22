@@ -1,0 +1,21 @@
+name: 3931. Check Adjacent Digit Differences
+
+types:
+  inputs:
+    s: std::string
+  output: bool
+
+solutions:
+  cpp:
+    function: isAdjacentDiffAtMostTwo
+
+test_cases:
+  example_1:
+    inputs:
+      s: "132"
+    output: true
+
+  example_2:
+    inputs:
+      s: "129"
+    output: false
