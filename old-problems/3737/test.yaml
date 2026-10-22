@@ -1,0 +1,30 @@
+name: 3737. Count Subarrays With Majority Element I
+
+types:
+  inputs:
+    nums: std::vector<int>
+    target: int
+  output: int
+
+solutions:
+  cpp:
+    function: countMajoritySubarrays
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 2, 3]
+      target: 2
+    output: 5
+
+  example_2:
+    inputs:
+      nums: [1, 1, 1, 1]
+      target: 1
+    output: 10
+
+  example_3:
+    inputs:
+      nums: [1, 2, 3]
+      target: 4
+    output: 0
