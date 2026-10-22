@@ -1,0 +1,21 @@
+name: 3161. Block Placement Queries
+
+types:
+  inputs:
+    queries: std::vector<std::vector<int>>
+  output: std::vector<bool>
+
+solutions:
+  cpp:
+    function: getResults
+
+test_cases:
+  example_1:
+    inputs:
+      queries: [[1,2],[2,3,3],[2,3,1],[2,2,2]]
+    output: [false,true,true]
+
+  example_2:
+    inputs:
+      queries: [[1,7],[2,7,6],[1,2],[2,7,5],[2,7,6]]
+    output: [true,true,false]
