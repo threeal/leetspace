@@ -1,0 +1,21 @@
+name: 3941. Password Strength
+
+types:
+  inputs:
+    password: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: passwordStrength
+
+test_cases:
+  example_1:
+    inputs:
+      password: "aA1!"
+    output: 11
+
+  example_2:
+    inputs:
+      password: "bbB11#"
+    output: 11
