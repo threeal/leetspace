@@ -1385,6 +1385,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3637. Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | Easy | [C](./old-problems/3637/c/solution.c) [C++](./old-problems/3637/solution.cpp) |
 | [3640. Trionic Array II](https://leetcode.com/problems/trionic-array-ii/) | Hard | [C](./old-problems/3640/c/solution.c) [C++](./old-problems/3640/solution.cpp) |
 | [3643. Flip Square Submatrix Vertically](https://leetcode.com/problems/flip-square-submatrix-vertically/) | Easy | [C](./old-problems/3643/c/solution.c) [C++](./old-problems/3643/solution.cpp) |
+| [3644. Maximum K to Sort a Permutation](https://leetcode.com/problems/maximum-k-to-sort-a-permutation/) | Medium | [C++](./old-problems/3644/solution.cpp) |
 | [3648. Minimum Sensors to Cover Grid](https://leetcode.com/problems/minimum-sensors-to-cover-grid/) | Medium | [C](./old-problems/3648/c/solution.c) [C++](./old-problems/3648/solution.cpp) |
 | [3650. Minimum Cost Path with Edge Reversals](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/) | Medium | [C++](./old-problems/3650/solution.cpp) |
 | [3652. Best Time to Buy and Sell Stock using Strategy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/) | Medium | [C](./old-problems/3652/c/solution.c) [C++](./old-problems/3652/solution.cpp) |
