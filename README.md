@@ -1032,6 +1032,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2402. Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/) | Hard | [C](./old-problems/2402/c/solution.c) [C++](./old-problems/2402/solution.cpp) |
 | [2405. Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/) | Medium | [C](./old-problems/2405/c/solution.c) [C++](./old-problems/2405/solution.cpp) |
 | [2406. Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/) | Medium | [C](./old-problems/2406/c/solution.c) [C++](./old-problems/2406/solution.cpp) |
+| [2409. Count Days Spent Together](https://leetcode.com/problems/count-days-spent-together/) | Easy | [C++](./old-problems/2409/solution.cpp) |
 | [2410. Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/) | Medium | [C](./old-problems/2410/c/solution.c) [C++](./old-problems/2410/solution.cpp) |
 | [2411. Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | Medium | [C](./old-problems/2411/c/solution.c) [C++](./old-problems/2411/solution.cpp) |
 | [2413. Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | Easy | [C](./old-problems/2413/c/solution.c) [C++](./old-problems/2413/solution.cpp) |
