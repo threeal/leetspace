@@ -1,0 +1,32 @@
+name: 3619. Count Islands With Total Value Divisible by K
+
+types:
+  inputs:
+    grid: std::vector<std::vector<int>>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: countIslands
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [0, 2, 1, 0, 0]
+        - [0, 5, 0, 0, 5]
+        - [0, 0, 1, 0, 0]
+        - [0, 1, 4, 7, 0]
+        - [0, 2, 0, 0, 8]
+      k: 5
+    output: 2
+
+  example_2:
+    inputs:
+      grid:
+        - [3, 0, 3, 0]
+        - [0, 3, 0, 3]
+        - [3, 0, 3, 0]
+      k: 3
+    output: 6
