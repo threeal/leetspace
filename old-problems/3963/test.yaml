@@ -1,0 +1,30 @@
+name: 3963. Create Grid With Exactly One Path
+
+types:
+  inputs:
+    m: int
+    n: int
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: createGrid
+
+test_cases:
+  example_1:
+    inputs:
+      m: 2
+      n: 3
+    output: ["..#", "#.."]
+
+  example_2:
+    inputs:
+      m: 3
+      n: 3
+    output: ["..#", "#..", "##."]
+
+  example_3:
+    inputs:
+      m: 1
+      n: 4
+    output: ["...."]
