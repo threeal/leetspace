@@ -1394,6 +1394,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3658. GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | Easy | [C](./old-problems/3658/c/solution.c) [C++](./old-problems/3658/solution.cpp) |
 | [3660. Jump Game IX](https://leetcode.com/problems/jump-game-ix/) | Medium | [C](./old-problems/3660/c/solution.c) [C++](./old-problems/3660/solution.cpp) |
 | [3663. Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | Easy | [C](./old-problems/3663/c/solution.c) [C++](./old-problems/3663/solution.cpp) |
+| [3665. Twisted Mirror Path Count](https://leetcode.com/problems/twisted-mirror-path-count/) | Medium | [C++](./old-problems/3665/solution.cpp) |
 | [3666. Minimum Operations to Equalize Binary String](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/) | Hard | [C](./old-problems/3666/c/solution.c) [C++](./old-problems/3666/solution.cpp) |
 | [3668. Restore Finishing Order](https://leetcode.com/problems/restore-finishing-order/) | Easy | [C](./old-problems/3668/c/solution.c) [C++](./old-problems/3668/solution.cpp) |
 | [3683. Earliest Time to Finish One Task](https://leetcode.com/problems/earliest-time-to-finish-one-task/) | Easy | [C](./old-problems/3683/c/solution.c) [C++](./old-problems/3683/solution.cpp) |
