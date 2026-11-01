@@ -256,6 +256,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy | [C](./old-problems/0448/c/solution.c) [C++](./old-problems/0448/solution.cpp) |
 | [451. Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | Medium | [C](./old-problems/0451/c/solution.c) [C++](./old-problems/0451/solution.cpp) |
 | [452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | Medium | [C](./old-problems/0452/c/solution.c) [C++](./old-problems/0452/solution.cpp) |
+| [453. Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) | Medium | [C++](./old-problems/0453/solution.cpp) |
 | [454. 4Sum II](https://leetcode.com/problems/4sum-ii/) | Medium | [C++](./problems/0454/solution.cpp) |
 | [455. Assign Cookies](https://leetcode.com/problems/assign-cookies) | Easy | [C](./old-problems/0455/c/solution.c) [C++](./old-problems/0455/solution.cpp) |
 | [456. 132 Pattern](https://leetcode.com/problems/132-pattern) | Medium | [C](./old-problems/0456/c/solution.c) [C++](./old-problems/0456/solution.cpp) |
