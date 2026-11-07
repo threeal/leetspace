@@ -1,0 +1,30 @@
+name: 3723. Maximize Sum of Squares of Digits
+
+types:
+  inputs:
+    num: int
+    sum: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: maxSumOfSquares
+
+test_cases:
+  example_1:
+    inputs:
+      num: 2
+      sum: 3
+    output: "30"
+
+  example_2:
+    inputs:
+      num: 2
+      sum: 17
+    output: "98"
+
+  example_3:
+    inputs:
+      num: 1
+      sum: 10
+    output: ""
