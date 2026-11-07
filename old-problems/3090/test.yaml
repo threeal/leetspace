@@ -1,0 +1,21 @@
+name: 3090. Maximum Length Substring With Two Occurrences
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: maximumLengthSubstring
+
+test_cases:
+  example_1:
+    inputs:
+      s: bcbbbcba
+    output: 4
+
+  example_2:
+    inputs:
+      s: aaaa
+    output: 2
