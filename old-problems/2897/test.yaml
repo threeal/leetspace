@@ -1,0 +1,24 @@
+name: 2897. Apply Operations on Array to Maximize Sum of Squares
+
+types:
+  inputs:
+    nums: std::vector<int>
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: maxSum
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [2, 6, 5, 8]
+      k: 2
+    output: 261
+
+  example_2:
+    inputs:
+      nums: [4, 5, 4, 7]
+      k: 3
+    output: 90
