@@ -74,6 +74,35 @@ Only after a problem's C++ solution has merged — the C++ PR is often left open
 
 4. **Implement the solution — the user's step, same boundary as C++.** Following the C++ approach isn't always a straight port: C has no hash maps, sets, or other STL containers, so some C solutions hand-roll the equivalent structure or restructure the approach entirely to avoid needing one (see existing `old-problems/*/c/solution.c` files for examples) — don't assume the C version has to mirror the C++ logic line for line. Failing LeetCode submissions add `test_case_<N>` commits the same way as the C++ flow; once accepted, the final `c/solution.c` is committed as `solve problem <id> in C by using <technique>`, and the PR is marked ready for review.
 
+## Releasing
+
+Each month gets one release, made in month order even when several are overdue:
+
+- **Tag** — `YYYYMM` (e.g. `202602`), signed and annotated with the message `<Month> <YYYY>` (e.g. `February 2026`), on the last commit on `main` from that month.
+- **Release** — titled the same as the tag message.
+
+The release notes cover what changed between the previous release's tag and the new one:
+
+```markdown
+## What's Changed
+
+### Problems Solved
+
+- Problem 105. Construct Binary Tree from Preorder and Inorder Traversal
+- Problem 537. Complex Number Multiplication (in C)
+
+### Development Changes
+
+- `actions/checkout` bumped to 6.0.2
+
+**Full Changelog**: https://github.com/threeal/leetspace/compare/202601...202602
+```
+
+- List each problem once, sorted by number. Keep the `Problem` prefix; without it GitHub renders `105.` as a nested ordered list.
+- Add a parenthetical only for a problem already present at the previous tag, describing what this release did to it — e.g. `(in C)`, `(Improved)`, `(Modified)`, `(Improved and in C)`, worded from what its PR says. A problem new in this release gets none, however many languages it landed in.
+- Decide that from the problem's directory at the previous tag, not from commit titles, which can mislead (e.g. #5099 is titled as solving problem 1411 but only adds its C solution).
+- Put CI, tooling, and dependency changes under `Development Changes`, and omit the section when there are none.
+
 ## Build & test (old-problems only)
 
 Requires [Poetry](https://python-poetry.org/) to be installed — the CMake configure step runs `poetry install`, `isort`, and `black` on `internal/python` automatically.
