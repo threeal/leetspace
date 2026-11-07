@@ -1,0 +1,30 @@
+name: 3720. Lexicographically Smallest Permutation Greater Than Target
+
+types:
+  inputs:
+    s: std::string
+    t: std::string
+  output: std::string
+
+solutions:
+  cpp:
+    function: lexGreaterPermutation
+
+test_cases:
+  example_1:
+    inputs:
+      s: abc
+      t: bba
+    output: bca
+
+  example_2:
+    inputs:
+      s: leet
+      t: code
+    output: eelt
+
+  example_3:
+    inputs:
+      s: baba
+      t: bbaa
+    output: ""
