@@ -1,0 +1,24 @@
+name: 1882. Process Tasks Using Servers
+
+types:
+  inputs:
+    servers: std::vector<int>
+    tasks: std::vector<int>
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: assignTasks
+
+test_cases:
+  example_1:
+    inputs:
+      servers: [3, 3, 2]
+      tasks: [1, 2, 3, 2, 1, 2]
+    output: [2, 2, 0, 2, 1, 2]
+
+  example_2:
+    inputs:
+      servers: [5, 1, 4, 3, 2]
+      tasks: [2, 1, 2, 4, 5, 2, 1]
+    output: [1, 4, 1, 4, 1, 3, 2]
