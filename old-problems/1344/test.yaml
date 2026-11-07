@@ -1,0 +1,30 @@
+name: 1344. Angle Between Hands of a Clock
+
+types:
+  inputs:
+    hour: int
+    minutes: int
+  output: double
+
+solutions:
+  cpp:
+    function: angleClock
+
+test_cases:
+  example_1:
+    inputs:
+      hour: 12
+      minutes: 30
+    output: 164.99999999999997158
+
+  example_2:
+    inputs:
+      hour: 3
+      minutes: 30
+    output: 75.0
+
+  example_3:
+    inputs:
+      hour: 3
+      minutes: 15
+    output: 7.49999999999999289
