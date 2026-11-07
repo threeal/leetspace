@@ -1,0 +1,30 @@
+name: 1340. Jump Game V
+
+types:
+  inputs:
+    arr: std::vector<int>
+    d: int
+  output: int
+
+solutions:
+  cpp:
+    function: maxJumps
+
+test_cases:
+  example_1:
+    inputs:
+      arr: [6, 4, 14, 6, 8, 13, 9, 7, 10, 6, 12]
+      d: 2
+    output: 4
+
+  example_2:
+    inputs:
+      arr: [3, 3, 3, 3, 3]
+      d: 3
+    output: 1
+
+  example_3:
+    inputs:
+      arr: [7, 6, 5, 4, 3, 2, 1]
+      d: 1
+    output: 7
