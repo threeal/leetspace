@@ -1,0 +1,26 @@
+name: 1541. Minimum Insertions to Balance a Parentheses String
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: minInsertions
+
+test_cases:
+  example_1:
+    inputs:
+      s: (()))
+    output: 1
+
+  example_2:
+    inputs:
+      s: ())
+    output: 0
+
+  example_3:
+    inputs:
+      s: ))())(
+    output: 3
