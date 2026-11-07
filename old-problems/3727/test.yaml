@@ -1,0 +1,21 @@
+name: 3727. Maximum Alternating Sum of Squares
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: long long
+
+solutions:
+  cpp:
+    function: maxAlternatingSum
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 2, 3]
+    output: 12
+
+  example_2:
+    inputs:
+      nums: [1, -1, 2, -2, 3, -3]
+    output: 16
