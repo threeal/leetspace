@@ -1,0 +1,24 @@
+name: 3345. Smallest Divisible Digit Product I
+
+types:
+  inputs:
+    n: int
+    t: int
+  output: int
+
+solutions:
+  cpp:
+    function: smallestNumber
+
+test_cases:
+  example_1:
+    inputs:
+      n: 10
+      t: 2
+    output: 10
+
+  example_2:
+    inputs:
+      n: 15
+      t: 3
+    output: 16
