@@ -1,0 +1,30 @@
+name: 2904. Shortest and Lexicographically Smallest Beautiful String
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: std::string
+
+solutions:
+  cpp:
+    function: shortestBeautifulSubstring
+
+test_cases:
+  example_1:
+    inputs:
+      s: "100011001"
+      k: 3
+    output: "11001"
+
+  example_2:
+    inputs:
+      s: "1011"
+      k: 2
+    output: "11"
+
+  example_3:
+    inputs:
+      s: "000"
+      k: 1
+    output: ""
