@@ -204,6 +204,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Hard | [C++](./old-problems/0297/solution.cpp) |
 | [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | Medium | [C](./old-problems/0299/c/solution.c) [C++](./old-problems/0299/solution.cpp) |
 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [C](./old-problems/0300/c/solution.c) [C++](./old-problems/0300/solution.cpp) |
+| [301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | Hard | [C++](./old-problems/0301/solution.cpp) |
 | [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | Easy | [C++](./old-problems/0303/solution.cpp) |
 | [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Medium | [C](./old-problems/0310/c/solution.c) [C++](./old-problems/0310/solution.cpp) |
 | [313. Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | Medium | [C](./old-problems/0313/c/solution.c) [C++](./old-problems/0313/solution.cpp) |
