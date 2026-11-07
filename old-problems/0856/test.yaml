@@ -1,0 +1,26 @@
+name: 856. Score of Parentheses
+
+types:
+  inputs:
+    s: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: scoreOfParentheses
+
+test_cases:
+  example_1:
+    inputs:
+      s: ()
+    output: 1
+
+  example_2:
+    inputs:
+      s: (())
+    output: 2
+
+  example_3:
+    inputs:
+      s: ()()
+    output: 2
