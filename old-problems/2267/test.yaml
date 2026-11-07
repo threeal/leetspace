@@ -1,0 +1,27 @@
+name: 2267. Check if There Is a Valid Parentheses String Path
+
+types:
+  inputs:
+    grid: std::vector<std::vector<char>>
+  output: bool
+
+solutions:
+  cpp:
+    function: hasValidPath
+
+test_cases:
+  example_1:
+    inputs:
+      grid:
+        - [40, 40, 40]
+        - [41, 40, 41]
+        - [40, 40, 41]
+        - [40, 40, 41]
+    output: true
+
+  example_2:
+    inputs:
+      grid:
+        - [41, 41]
+        - [40, 40]
+    output: false
