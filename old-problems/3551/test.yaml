@@ -1,0 +1,26 @@
+name: 3551. Minimum Swaps to Sort by Digit Sum
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minSwaps
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [37, 100]
+    output: 1
+
+  example_2:
+    inputs:
+      nums: [22, 14, 33, 7]
+    output: 0
+
+  example_3:
+    inputs:
+      nums: [18, 43, 34, 16]
+    output: 2
