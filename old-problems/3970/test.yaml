@@ -1,0 +1,46 @@
+name: 3970. Shortest Path With At Most K Consecutive Identical Characters
+
+types:
+  inputs:
+    n: int
+    edges: std::vector<std::vector<int>>
+    labels: std::string
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: shortestPath
+
+test_cases:
+  example_1:
+    inputs:
+      n: 3
+      edges: [[0, 1, 1], [1, 2, 1], [0, 2, 3]]
+      labels: aab
+      k: 1
+    output: 3
+
+  example_2:
+    inputs:
+      n: 3
+      edges: [[0, 1, 1], [1, 2, 1], [0, 2, 3]]
+      labels: aab
+      k: 2
+    output: 2
+
+  example_3:
+    inputs:
+      n: 3
+      edges: [[0, 1, 1], [1, 2, 1]]
+      labels: aaa
+      k: 2
+    output: -1
+
+  test_case_121:
+    inputs:
+      n: 3
+      edges: [[0, 1, 1802], [1, 0, 4223], [2, 0, 1537]]
+      labels: gki
+      k: 1
+    output: -1
