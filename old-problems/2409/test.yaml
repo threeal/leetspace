@@ -1,0 +1,30 @@
+name: 2409. Count Days Spent Together
+
+types:
+  inputs:
+    arriveAlice: std::string
+    leaveAlice: std::string
+    arriveBob: std::string
+    leaveBob: std::string
+  output: int
+
+solutions:
+  cpp:
+    function: countDaysTogether
+
+test_cases:
+  example_1:
+    inputs:
+      arriveAlice: "08-15"
+      leaveAlice: "08-18"
+      arriveBob: "08-16"
+      leaveBob: "08-19"
+    output: 3
+
+  example_2:
+    inputs:
+      arriveAlice: "10-01"
+      leaveAlice: "10-31"
+      arriveBob: "11-01"
+      leaveBob: "12-31"
+    output: 0
