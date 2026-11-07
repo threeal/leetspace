@@ -1,0 +1,30 @@
+name: 3635. Earliest Finish Time for Land and Water Rides II
+
+types:
+  inputs:
+    landStartTime: std::vector<int>
+    landDuration: std::vector<int>
+    waterStartTime: std::vector<int>
+    waterDuration: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: earliestFinishTime
+
+test_cases:
+  example_1:
+    inputs:
+      landStartTime: [2, 8]
+      landDuration: [4, 1]
+      waterStartTime: [6]
+      waterDuration: [3]
+    output: 9
+
+  example_2:
+    inputs:
+      landStartTime: [5]
+      landDuration: [3]
+      waterStartTime: [1]
+      waterDuration: [10]
+    output: 14
