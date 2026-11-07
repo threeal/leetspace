@@ -1,0 +1,21 @@
+name: 1520. Maximum Number of Non-Overlapping Substrings
+
+types:
+  inputs:
+    s: std::string
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: maxNumOfSubstrings
+
+test_cases:
+  example_1:
+    inputs:
+      s: adefaddaccc
+    output: [e, f, ccc]
+
+  example_2:
+    inputs:
+      s: abbaccd
+    output: [d, bb, cc]
