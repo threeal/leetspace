@@ -1,0 +1,30 @@
+name: 3568. Minimum Moves to Clean the Classroom
+
+types:
+  inputs:
+    classroom: std::vector<std::string>
+    energy: int
+  output: int
+
+solutions:
+  cpp:
+    function: minMoves
+
+test_cases:
+  example_1:
+    inputs:
+      classroom: ["S.", "XL"]
+      energy: 2
+    output: 2
+
+  example_2:
+    inputs:
+      classroom: ["LS", "RL"]
+      energy: 4
+    output: 3
+
+  example_3:
+    inputs:
+      classroom: ["L.S", "RXL"]
+      energy: 3
+    output: -1
