@@ -1,0 +1,30 @@
+name: 3841. Palindromic Path Queries in a Tree
+
+types:
+  inputs:
+    n: int
+    edges: std::vector<std::vector<int>>
+    s: std::string
+    queries: std::vector<std::string>
+  output: std::vector<bool>
+
+solutions:
+  cpp:
+    function: palindromePath
+
+test_cases:
+  example_1:
+    inputs:
+      n: 3
+      edges: [[0, 1], [1, 2]]
+      s: aac
+      queries: ["query 0 2", "update 1 b", "query 0 2"]
+    output: [true, false]
+
+  example_2:
+    inputs:
+      n: 4
+      edges: [[0, 1], [0, 2], [0, 3]]
+      s: abca
+      queries: ["query 1 2", "update 0 b", "query 2 3", "update 3 a", "query 1 3"]
+    output: [false, false, true]
