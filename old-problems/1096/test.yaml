@@ -1,0 +1,21 @@
+name: 1096. Brace Expansion II
+
+types:
+  inputs:
+    expression: std::string
+  output: std::vector<std::string>
+
+solutions:
+  cpp:
+    function: braceExpansionII
+
+test_cases:
+  example_1:
+    inputs:
+      expression: "{a,b}{c,{d,e}}"
+    output: [ac, ad, ae, bc, bd, be]
+
+  example_2:
+    inputs:
+      expression: "{{a,z},a{b,c},{ab,z}}"
+    output: [a, ab, ac, z]
