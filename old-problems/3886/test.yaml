@@ -1,0 +1,26 @@
+name: 3886. Sum of Sortable Integers
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: sortableIntegers
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [3, 1, 2]
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [7, 6, 5]
+    output: 0
+
+  example_3:
+    inputs:
+      nums: [5, 8]
+    output: 3
