@@ -1401,6 +1401,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [3688. Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) | Easy | [C](./old-problems/3688/c/solution.c) [C++](./old-problems/3688/solution.cpp) |
 | [3689. Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/) | Medium | [C](./old-problems/3689/c/solution.c) [C++](./old-problems/3689/solution.cpp) |
 | [3692. Majority Frequency Characters](https://leetcode.com/problems/majority-frequency-characters/) | Easy | [C](./old-problems/3692/c/solution.c) [C++](./old-problems/3692/solution.cpp) |
+| [3693. Climbing Stairs II](https://leetcode.com/problems/climbing-stairs-ii/) | Medium | [C++](./old-problems/3693/solution.cpp) |
 | [3699. Number of ZigZag Arrays I](https://leetcode.com/problems/number-of-zigzag-arrays-i/) | Hard | [C++](./old-problems/3699/solution.cpp) |
 | [3701. Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | Easy | [C](./old-problems/3701/c/solution.c) [C++](./old-problems/3701/solution.cpp) |
 | [3708. Longest Fibonacci Subarray](https://leetcode.com/problems/longest-fibonacci-subarray/) | Medium | [C](./old-problems/3708/c/solution.c) [C++](./old-problems/3708/solution.cpp) |
