@@ -1,0 +1,42 @@
+name: 3789. Minimum Cost to Acquire Required Items
+
+types:
+  inputs:
+    cost1: int
+    cost2: int
+    costBoth: int
+    need1: int
+    need2: int
+  output: long long
+
+solutions:
+  cpp:
+    function: minimumCost
+
+test_cases:
+  example_1:
+    inputs:
+      cost1: 3
+      cost2: 2
+      costBoth: 1
+      need1: 3
+      need2: 2
+    output: 3
+
+  example_2:
+    inputs:
+      cost1: 5
+      cost2: 4
+      costBoth: 15
+      need1: 2
+      need2: 3
+    output: 22
+
+  example_3:
+    inputs:
+      cost1: 5
+      cost2: 4
+      costBoth: 15
+      need1: 0
+      need2: 0
+    output: 0
