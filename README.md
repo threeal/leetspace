@@ -1026,6 +1026,7 @@ LeetSpace serves as a dedicated workspace and archive for my [LeetCode](https://
 | [2395. Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | Easy | [C](./old-problems/2395/c/solution.c) [C++](./old-problems/2395/solution.cpp) |
 | [2396. Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | Medium | [C](./old-problems/2396/c/solution.c) [C++](./old-problems/2396/solution.cpp) |
 | [2399. Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | Easy | [C](./old-problems/2399/c/solution.c) [C++](./old-problems/2399/solution.cpp) |
+| [2911. Minimum Changes to Make K Semi-palindromes](https://leetcode.com/problems/minimum-changes-to-make-k-semi-palindromes/) | Hard | [C++](./old-problems/2911/solution.cpp) |
 | [2938. Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/) | Medium | [C++](./old-problems/2938/solution.cpp) |
 | [2942. Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | Easy | [C](./old-problems/2942/c/solution.c) [C++](./old-problems/2942/solution.cpp) |
 | [2943. Maximize Area of Square Hole in Grid](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/) | Medium | [C](./old-problems/2943/c/solution.c) [C++](./old-problems/2943/solution.cpp) |
