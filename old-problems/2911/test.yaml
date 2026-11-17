@@ -1,0 +1,30 @@
+name: 2911. Minimum Changes to Make K Semi-palindromes
+
+types:
+  inputs:
+    s: std::string
+    k: int
+  output: int
+
+solutions:
+  cpp:
+    function: minimumChanges
+
+test_cases:
+  example_1:
+    inputs:
+      s: abcac
+      k: 2
+    output: 1
+
+  example_2:
+    inputs:
+      s: abcdef
+      k: 2
+    output: 2
+
+  example_3:
+    inputs:
+      s: aabbaa
+      k: 3
+    output: 0
