@@ -1,0 +1,21 @@
+name: 2567. Minimum Score by Changing Two Elements
+
+types:
+  inputs:
+    nums: std::vector<int>
+  output: int
+
+solutions:
+  cpp:
+    function: minimizeSum
+
+test_cases:
+  example_1:
+    inputs:
+      nums: [1, 4, 7, 8, 5]
+    output: 3
+
+  example_2:
+    inputs:
+      nums: [1, 4, 3]
+    output: 0
