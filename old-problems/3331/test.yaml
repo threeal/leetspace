@@ -22,3 +22,9 @@ test_cases:
       parent: [-1, 0, 4, 0, 1]
       s: abbba
     output: [5, 2, 1, 1, 1]
+
+  test_case_214:
+    inputs:
+      parent: [-1, 10, 0, 12, 10, 18, 11, 12, 2, 3, 2, 2, 2, 0, 4, 11, 4, 2, 0]
+      s: babadabbdabcbaceeda
+    output: [19, 1, 15, 2, 3, 1, 1, 1, 1, 1, 5, 2, 4, 1, 1, 1, 1, 1, 2]
