@@ -1,0 +1,24 @@
+name: 3331. Find Subtree Sizes After Changes
+
+types:
+  inputs:
+    parent: std::vector<int>
+    s: std::string
+  output: std::vector<int>
+
+solutions:
+  cpp:
+    function: findSubtreeSizes
+
+test_cases:
+  example_1:
+    inputs:
+      parent: [-1, 0, 0, 1, 1, 1]
+      s: abaabc
+    output: [6, 3, 1, 1, 1, 1]
+
+  example_2:
+    inputs:
+      parent: [-1, 0, 4, 0, 1]
+      s: abbba
+    output: [5, 2, 1, 1, 1]
