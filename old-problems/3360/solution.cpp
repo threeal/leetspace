@@ -1,6 +1,12 @@
 class Solution {
  public:
   bool canAliceWin(int n) {
-    return n > 0;
+    int pick{10};
+    bool win{false};
+    while (pick <= n) {
+      n -= pick--;
+      win = !win;
+    }
+    return win;
   }
 };
