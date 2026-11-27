@@ -1,0 +1,24 @@
+name: 3946. Maximum Number of Items From Sale I
+
+types:
+  inputs:
+    items: std::vector<std::vector<int>>
+    budget: int
+  output: int
+
+solutions:
+  cpp:
+    function: maximumSaleItems
+
+test_cases:
+  example_1:
+    inputs:
+      items: [[6, 2], [2, 6], [3, 4]]
+      budget: 9
+    output: 4
+
+  example_2:
+    inputs:
+      items: [[2, 4], [3, 2], [4, 1], [6, 4], [12, 4]]
+      budget: 8
+    output: 10
